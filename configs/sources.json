@@ -1,0 +1,18 @@
+{
+  "mira_code": {
+    "url": "https://github.com/mira-wm/mira.git",
+    "revision": "3d739ec2d31daf83559d33eb01727cea48fe90f7"
+  },
+  "pretrained_model": {
+    "repository": "alakazamworld/mira-mini-4p",
+    "revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+    "identity": "Independent Alakazam MIRA Mini 4P 1B reproduction"
+  },
+  "dataset": {
+    "repository": "kyutai/rocket-science",
+    "revision": "a248fc918baa93389e3242fefba193f1bfb0474a"
+  },
+  "authorized_physical_gpus": [6, 7],
+  "storage_reserve_gib": 25,
+  "experiment_seed": 20260906
+}

@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-09-06T23:29:42.080005+00:00",
+  "hostname": "node14-ccn2cluster.stanford.edu",
+  "python": "3.10.14 (main, May  6 2024, 19:42:50) [GCC 11.2.0]",
+  "platform": "Linux-5.4.0-216-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "torch": "2.9.0+cu126",
+    "torchvision": "0.24.0+cu126",
+    "numpy": "1.26.0",
+    "pydantic": "2.11.9",
+    "einops": "0.8.0",
+    "huggingface_hub": "1.25.1",
+    "omegaconf": "2.3.0",
+    "hydra-core": "1.3.2",
+    "matplotlib": "3.9.0",
+    "pytest": "9.1.1",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.13.1",
+    "timm": "1.0.21",
+    "av": "16.0.1"
+  },
+  "isolation": "venv with system-site-packages from existing ccwm; overrides local to project",
+  "execution_mode": "eager; compile disabled",
+  "gpus": [
+    "0, GPU-02e72ad5-c1d3-12bf-9cd3-89ba047d935a, NVIDIA A40, 46068 MiB, 38205 MiB, 560.35.03",
+    "1, GPU-67c84219-95ae-1284-f607-36171312d26a, NVIDIA A40, 46068 MiB, 38194 MiB, 560.35.03",
+    "2, GPU-8e229993-454d-0e6b-525b-19c898a38cf2, NVIDIA A40, 46068 MiB, 38206 MiB, 560.35.03",
+    "3, GPU-8bb5b397-ba1b-2c60-0a31-e425ab5e11e4, NVIDIA A40, 46068 MiB, 38205 MiB, 560.35.03",
+    "4, GPU-18a2a35e-b352-b311-ee22-39158d4995de, NVIDIA A40, 46068 MiB, 38196 MiB, 560.35.03",
+    "5, GPU-4cf51235-a0f2-8eef-754c-8e6abfcb8763, NVIDIA A40, 46068 MiB, 38266 MiB, 560.35.03",
+    "6, GPU-ebc2d3ea-6203-30e9-da0a-10606a3f2859, NVIDIA A40, 46068 MiB, 18 MiB, 560.35.03",
+    "7, GPU-9709b285-5c3e-ae95-89ea-4811ead47861, NVIDIA A40, 46068 MiB, 17 MiB, 560.35.03"
+  ],
+  "authorized_physical_gpus": [
+    6,
+    7
+  ],
+  "storage": {
+    ".": {
+      "total": 1099511627776,
+      "used": 1057449050112,
+      "free": 42062577664
+    },
+    "/data2/ishaangp/mira-interp": {
+      "total": 7619770974208,
+      "used": 6468069593088,
+      "free": 767609671680
+    }
+  }
+}

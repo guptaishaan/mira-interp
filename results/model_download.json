@@ -1,0 +1,52 @@
+{
+  "repo": "alakazamworld/mira-mini-4p",
+  "revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "scope": "third-party pretrained reproduction",
+  "license": "CC-BY-NC-SA-4.0",
+  "status": "PASS",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7543,
+      "sha256": "7ccb1b4bb4657f0f217e305731199bd7740d7721f739aa853d48b5ef0551f21d",
+      "publisher_sha256": null,
+      "verified": true
+    },
+    {
+      "path": "world_model_config.yaml",
+      "bytes": 3080,
+      "sha256": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+      "publisher_sha256": null,
+      "verified": true
+    },
+    {
+      "path": "codec/codec_config.yaml",
+      "bytes": 2593,
+      "sha256": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24",
+      "publisher_sha256": null,
+      "verified": true
+    },
+    {
+      "path": "context/default.npz",
+      "bytes": 141569792,
+      "sha256": "b7932302d824bf2998bc8497f6c574f3846f029fa27bdd3456c65195dbdd6aec",
+      "publisher_sha256": "b7932302d824bf2998bc8497f6c574f3846f029fa27bdd3456c65195dbdd6aec",
+      "verified": true
+    },
+    {
+      "path": "codec/checkpoint-125000/checkpoint.pth",
+      "bytes": 3601866873,
+      "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9",
+      "publisher_sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9",
+      "verified": true
+    },
+    {
+      "path": "checkpoint-90000/checkpoint.pth",
+      "bytes": 8383271151,
+      "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0",
+      "publisher_sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0",
+      "verified": true
+    }
+  ],
+  "updated_utc": "2026-09-06T23:27:46.632027+00:00"
+}
