@@ -25,6 +25,17 @@ fi
     echo 'Unexpected DINOv3 revision; preserve the checkout and inspect before proceeding.' >&2
     exit 1
 }
+.venv/bin/python - <<'PY'
+import subprocess
+from pathlib import Path
+for repo in ['external/mira', 'external/dinov3']:
+    subprocess.run(['git', '-C', repo, 'diff', '--quiet'], check=True)
+    subprocess.run(['git', '-C', repo, 'diff', '--cached', '--quiet'], check=True)
+    untracked = subprocess.check_output(['git', '-C', repo, 'ls-files', '--others', '--exclude-standard'], text=True).splitlines()
+    unexpected = [p for p in untracked if '__pycache__' not in Path(p).parts]
+    if unexpected:
+        raise RuntimeError(f'Untracked source files in {repo}: {unexpected}')
+PY
 .venv/bin/python -m pip install --no-cache-dir 'pydantic==2.11.9'
 .venv/bin/python -m pip install --no-deps --no-build-isolation -e .
 PYTHONPATH=src:external/mira/src .venv/bin/python -c 'import mira, mira_interp, torch; print("Imports passed", torch.__version__)'

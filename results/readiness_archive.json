@@ -1,0 +1,105 @@
+{
+  "scope": "public-context pretrained engineering outputs only",
+  "archive": "readiness-2026-09-06.tar.gz",
+  "archive_sha256": "dba542a17214ee656f2c5a1a409d721b77f8cf0ebebc1e19893541ff5c0588a8",
+  "archive_bytes": 66137224,
+  "files": [
+    {
+      "path": "block_00_input.pt",
+      "sha256": "b6ae9edaf115b7ca55dc886f2e3c592e128062d149de142178d8fab424f20ed0",
+      "bytes": 4720282
+    },
+    {
+      "path": "layer_00.pt",
+      "sha256": "6b033c6b9252b57b2374f31d0724f4d0ebf992691a1836413c7ccabaef84eaf5",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_01.pt",
+      "sha256": "9afb93f37282dc453cf59a907b01b228600085b979dc9c95e9187a7458052687",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_02.pt",
+      "sha256": "7daafa9ceb43dea3699b56f366a1956e31b775dc5b5746d823762bd04993adf1",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_03.pt",
+      "sha256": "a8b4d8d95b13d7c8b28d10042141cf4d845db3b55115eeff1bc53bbabd1d46f9",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_04.pt",
+      "sha256": "ff95a52d42f81dab9e56db71b4ed34c6fb7c91954cbc3b1651d8bd198c143037",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_05.pt",
+      "sha256": "37b3fd14a4cf7100cb35d920707a5a8987f409dfdb5a76ab903521b79d3ae3c3",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_06.pt",
+      "sha256": "d4b2b66494fdc651240ad6fca059f856e9abc978dc8b1d748017ac82f0ebf3f4",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_07.pt",
+      "sha256": "a70edaf27329f6886aa8565af06d6e034d21c6b259d5f4c9c81f30ec43ec8b92",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_08.pt",
+      "sha256": "9da50bede62f97cf227393ff0a03754d1d8874672ea008cb5f4a42d412a390e6",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_09.pt",
+      "sha256": "d2b99887ad8723d43d9738485fc47ea92e640d7ae2aaae57f685a238233f69fb",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_10.pt",
+      "sha256": "89ed714eee2ecfdcfbd07e6c4d2f5c9b79e14c40cf551d0fed56830cc71639ed",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_11.pt",
+      "sha256": "e0d0e051b7e18120f4f66fb94a2926383c8a3326c406c2c64decd5b5f5e1432e",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_12.pt",
+      "sha256": "11bba0bc30d3c9a757ab1f0cba7f0496a30aa61ea544dc8d4836552b200180cd",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_13.pt",
+      "sha256": "3c3fba955ce37488845ad825ddc410f422c277cb1db94e7a9e68eec40787074e",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_14.pt",
+      "sha256": "fa3bbdefdac4f07c5a53a7e84dac5865a7afb67e71a3d350bce3743d586d4760",
+      "bytes": 4720240
+    },
+    {
+      "path": "layer_15.pt",
+      "sha256": "8e494d95b09489265d1f5c499f0419ccc6af0590cee6b607328bf3a43677ed5d",
+      "bytes": 4720240
+    },
+    {
+      "path": "generated_frames.npz",
+      "sha256": "e3b753a783a10e995cfe8a241fb32f36aaeeb0b73d2744427b3402254dd1de07",
+      "bytes": 2227228
+    },
+    {
+      "path": "generated_latents.pt",
+      "sha256": "2d3f41416e98cc61c2ba06a2d8d414b3bfd29d29bddc1dc1e718c29ef97d945c",
+      "bytes": 38575
+    }
+  ],
+  "license": "CC-BY-NC-SA-4.0; see THIRD_PARTY.md",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/readiness-2026-09-06"
+}

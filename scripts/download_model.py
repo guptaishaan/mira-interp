@@ -24,9 +24,6 @@ def main():
     args.destination.mkdir(parents=True, exist_ok=True)
     info = HfApi().model_info(REPO, revision=REVISION, files_metadata=True, token=False)
     metadata = {f.rfilename: f for f in info.siblings}
-    missing = sum(metadata[f].size for f in FILES if not (args.destination / f).exists())
-    if shutil.disk_usage(args.destination).free < missing + 25 * 2**30:
-        raise RuntimeError("Download requires expected bytes plus a 25 GiB free-space reserve")
     report = {"repo": REPO, "revision": REVISION, "scope": "third-party pretrained reproduction",
               "license": "CC-BY-NC-SA-4.0", "status": "RUNNING", "files": []}
     args.report.parent.mkdir(parents=True, exist_ok=True)
@@ -36,20 +33,37 @@ def main():
         tmp.write_text(json.dumps(report, indent=2) + "\n")
         tmp.replace(args.report)
     save()
-    for name in FILES:
-        print(f"Downloading/verifying {name}", flush=True)
-        path = Path(hf_hub_download(REPO, name, revision=REVISION,
-                                   local_dir=args.destination, token=False))
-        digest = hashlib.sha256()
-        with path.open("rb") as f:
-            for block in iter(lambda: f.read(8 * 2**20), b""):
-                digest.update(block)
-        expected = metadata[name].lfs.sha256 if metadata[name].lfs else None
-        if path.stat().st_size != metadata[name].size or (expected and digest.hexdigest() != expected):
-            raise RuntimeError(f"Integrity mismatch: {name}")
-        report["files"].append({"path": name, "bytes": path.stat().st_size,
-            "sha256": digest.hexdigest(), "publisher_sha256": expected, "verified": True})
+    try:
+        # Conservatively allow a full fresh copy even when partial/stale files exist.
+        required = sum(metadata[f].size for f in FILES)
+        if shutil.disk_usage(args.destination).free < required + 25 * 2**30:
+            raise RuntimeError("Download requires expected bytes plus a 25 GiB free-space reserve")
+        for name in FILES:
+            if shutil.disk_usage(args.destination).free < metadata[name].size + 25 * 2**30:
+                raise RuntimeError("Storage reserve failed before the next asset")
+            print(f"Downloading/verifying {name}", flush=True)
+            path = Path(hf_hub_download(REPO, name, revision=REVISION,
+                                       local_dir=args.destination, token=False))
+            digest = hashlib.sha256()
+            blob = hashlib.sha1(f"blob {path.stat().st_size}\0".encode())
+            with path.open("rb") as f:
+                for block in iter(lambda: f.read(8 * 2**20), b""):
+                    digest.update(block)
+                    blob.update(block)
+            expected = metadata[name].lfs.sha256 if metadata[name].lfs else None
+            expected_blob = None if metadata[name].lfs else metadata[name].blob_id
+            if (path.stat().st_size != metadata[name].size or
+                    (expected and digest.hexdigest() != expected) or
+                    (not expected and (not expected_blob or blob.hexdigest() != expected_blob))):
+                raise RuntimeError(f"Integrity mismatch: {name}")
+            report["files"].append({"path": name, "bytes": path.stat().st_size,
+                "sha256": digest.hexdigest(), "publisher_sha256": expected,
+                "publisher_git_blob_sha1": expected_blob, "verified": True})
+            save()
+    except Exception as exc:
+        report.update(status="FAILED", error_type=type(exc).__name__)
         save()
+        raise
     report["status"] = "PASS"
     save()
     print("All model assets verified", flush=True)

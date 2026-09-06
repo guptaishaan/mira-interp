@@ -1,0 +1,819 @@
+{
+  "status": "passed",
+  "evidence_level": "pretrained_inference_readiness_only",
+  "model": "Alakazam MIRA Mini 4P 1B independent reproduction",
+  "model_repo": "alakazamworld/mira-mini-4p",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "seed": 20260906,
+  "requested_device": "cuda:0",
+  "cuda_visible_devices": "7",
+  "physical_validation": false,
+  "stage": "complete",
+  "elapsed_seconds": 44.608,
+  "source_revisions": {
+    "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+    "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+  },
+  "experiment_code_sha256": {
+    "scripts/smoke_pretrained.py": "0283680432ff6147bd7be7a1f47b186a664920c3e24511e52560c3e12a8180b8",
+    "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "src/mira_interp/instrumentation.py": "c1b5181b226d3dc583fdbd837e96347b207a3bd2bbdd7d6e9a00f22cc63684b1"
+  },
+  "compatibility_adapter": {
+    "name": "AlakazamFourPlayerWorldModel",
+    "published_runtime": "alakazam-mira-mini==0.1.11",
+    "wheel_sha256": "0acea9fc285c44537785e2987a42181695500317371e6cc652cefcd38e982cfe",
+    "difference": "per-player 2048-to-2048 projection then mean instead of upstream concatenate then 8192-to-2048 projection"
+  },
+  "torch_version": "2.9.0+cu126",
+  "verified_assets": [
+    {
+      "name": "checkpoint-90000/checkpoint.pth",
+      "bytes": 8383271151,
+      "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+    },
+    {
+      "name": "codec/checkpoint-125000/checkpoint.pth",
+      "bytes": 3601866873,
+      "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+    },
+    {
+      "name": "context/default.npz",
+      "bytes": 141569792,
+      "sha256": "b7932302d824bf2998bc8497f6c574f3846f029fa27bdd3456c65195dbdd6aec"
+    }
+  ],
+  "original_config_sha256": {
+    "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+    "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+  },
+  "runtime_overrides": {
+    "codec_checkpoint": "local verified codec path",
+    "compile_dino": false,
+    "activation_checkpointing": false,
+    "inference_context_frames": 2
+  },
+  "codec_strict_load": {
+    "passed": true,
+    "state_tensors": 936
+  },
+  "world_model_strict_load": {
+    "passed": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "shape_mismatch": [],
+    "state_tensors": 1183
+  },
+  "parameter_count_including_codec": 2095609472,
+  "codec_parameter_count": 900300192,
+  "gpu_name": "NVIDIA A40",
+  "input": {
+    "frames_shape": [
+      4,
+      4,
+      3,
+      288,
+      512
+    ],
+    "actions_shape": [
+      4,
+      4,
+      9
+    ],
+    "physics_labels": false,
+    "match_id": null,
+    "context_frames": 2,
+    "generated_frames": 2
+  },
+  "forward_controls": {
+    "noop_hooks_bitwise_equal": true,
+    "repeated_forward_bitwise_equal": true,
+    "noop_max_abs_error": 0.0,
+    "repeat_max_abs_error": 0.0
+  },
+  "block_zero_input": {
+    "shape": [
+      1,
+      2,
+      36,
+      16,
+      2048
+    ],
+    "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/block_00_input.pt",
+    "sha256": "b6ae9edaf115b7ca55dc886f2e3c592e128062d149de142178d8fab424f20ed0",
+    "finite": true
+  },
+  "capture": {
+    "metadata": {
+      "sample_ids": [
+        "public_default_context_unknown_match"
+      ],
+      "condition": "teacher_forced_noisy_observed_target_no_intervention",
+      "noise_seed": 20260906,
+      "noise_id": "b8e37ffa48389bd7cc6348d225458e2a6aa5ac28a55ba7420266e38f06fa42b5",
+      "rollout_step": 0,
+      "diffusion_step": 0,
+      "tau": [
+        0.5,
+        0.5
+      ],
+      "tau_shape": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "latent_frame_indices": [
+        0,
+        1
+      ],
+      "cache_mode": "fresh"
+    },
+    "capture_boundary": "after each complete AdaSTBlock; tuple item zero",
+    "indexing": "zero-based; layer 0 is after the first block",
+    "register_slots_in_this_call": 0,
+    "cache_policy": "preserve each block's KV output unchanged; this is a residual-only intervention",
+    "input_site": {
+      "module_path": "single_world_model.world_model.transformer.0",
+      "boundary": "block_0_input_after_latent_projection_and_register_insertion",
+      "shape": [
+        1,
+        2,
+        36,
+        16,
+        2048
+      ]
+    },
+    "sites": [
+      {
+        "layer_index": 0,
+        "module_path": "single_world_model.world_model.transformer.0",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 1,
+        "module_path": "single_world_model.world_model.transformer.1",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 2,
+        "module_path": "single_world_model.world_model.transformer.2",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 3,
+        "module_path": "single_world_model.world_model.transformer.3",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 4,
+        "module_path": "single_world_model.world_model.transformer.4",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 5,
+        "module_path": "single_world_model.world_model.transformer.5",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 6,
+        "module_path": "single_world_model.world_model.transformer.6",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 7,
+        "module_path": "single_world_model.world_model.transformer.7",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 8,
+        "module_path": "single_world_model.world_model.transformer.8",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 9,
+        "module_path": "single_world_model.world_model.transformer.9",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 10,
+        "module_path": "single_world_model.world_model.transformer.10",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 11,
+        "module_path": "single_world_model.world_model.transformer.11",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 12,
+        "module_path": "single_world_model.world_model.transformer.12",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 13,
+        "module_path": "single_world_model.world_model.transformer.13",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 14,
+        "module_path": "single_world_model.world_model.transformer.14",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      },
+      {
+        "layer_index": 15,
+        "module_path": "single_world_model.world_model.transformer.15",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ]
+      }
+    ],
+    "layers": [
+      {
+        "layer": 0,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.003504608990624547,
+        "std": 0.19251321256160736,
+        "rms": 0.1925450712442398,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_00.pt",
+        "sha256": "6b033c6b9252b57b2374f31d0724f4d0ebf992691a1836413c7ccabaef84eaf5"
+      },
+      {
+        "layer": 1,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.004421757068485022,
+        "std": 0.21965757012367249,
+        "rms": 0.21970202028751373,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_01.pt",
+        "sha256": "9afb93f37282dc453cf59a907b01b228600085b979dc9c95e9187a7458052687"
+      },
+      {
+        "layer": 2,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.005195941310375929,
+        "std": 0.24127964675426483,
+        "rms": 0.24133554100990295,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_02.pt",
+        "sha256": "7daafa9ceb43dea3699b56f366a1956e31b775dc5b5746d823762bd04993adf1"
+      },
+      {
+        "layer": 3,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.006579055450856686,
+        "std": 0.2657002806663513,
+        "rms": 0.2657816708087921,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_03.pt",
+        "sha256": "a8b4d8d95b13d7c8b28d10042141cf4d845db3b55115eeff1bc53bbabd1d46f9"
+      },
+      {
+        "layer": 4,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.008966300636529922,
+        "std": 0.3124507963657379,
+        "rms": 0.31257936358451843,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_04.pt",
+        "sha256": "ff95a52d42f81dab9e56db71b4ed34c6fb7c91954cbc3b1651d8bd198c143037"
+      },
+      {
+        "layer": 5,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.01158809382468462,
+        "std": 0.36889880895614624,
+        "rms": 0.36908069252967834,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_05.pt",
+        "sha256": "37b3fd14a4cf7100cb35d920707a5a8987f409dfdb5a76ab903521b79d3ae3c3"
+      },
+      {
+        "layer": 6,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.015108340419828892,
+        "std": 0.4276663362979889,
+        "rms": 0.4279330372810364,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_06.pt",
+        "sha256": "d4b2b66494fdc651240ad6fca059f856e9abc978dc8b1d748017ac82f0ebf3f4"
+      },
+      {
+        "layer": 7,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.01775083690881729,
+        "std": 0.5008437633514404,
+        "rms": 0.5011581182479858,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_07.pt",
+        "sha256": "a70edaf27329f6886aa8565af06d6e034d21c6b259d5f4c9c81f30ec43ec8b92"
+      },
+      {
+        "layer": 8,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.020685944706201553,
+        "std": 0.5817160606384277,
+        "rms": 0.5820835828781128,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_08.pt",
+        "sha256": "9da50bede62f97cf227393ff0a03754d1d8874672ea008cb5f4a42d412a390e6"
+      },
+      {
+        "layer": 9,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.02337195724248886,
+        "std": 0.6862956285476685,
+        "rms": 0.6866933107376099,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_09.pt",
+        "sha256": "d2b99887ad8723d43d9738485fc47ea92e640d7ae2aaae57f685a238233f69fb"
+      },
+      {
+        "layer": 10,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.023730555549263954,
+        "std": 0.8031922578811646,
+        "rms": 0.8035425543785095,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_10.pt",
+        "sha256": "89ed714eee2ecfdcfbd07e6c4d2f5c9b79e14c40cf551d0fed56830cc71639ed"
+      },
+      {
+        "layer": 11,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.023160265758633614,
+        "std": 0.931843638420105,
+        "rms": 0.9321312308311462,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_11.pt",
+        "sha256": "e0d0e051b7e18120f4f66fb94a2926383c8a3326c406c2c64decd5b5f5e1432e"
+      },
+      {
+        "layer": 12,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.02232631854712963,
+        "std": 1.162477970123291,
+        "rms": 1.1626920700073242,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_12.pt",
+        "sha256": "11bba0bc30d3c9a757ab1f0cba7f0496a30aa61ea544dc8d4836552b200180cd"
+      },
+      {
+        "layer": 13,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.020542340353131294,
+        "std": 1.4070624113082886,
+        "rms": 1.4072121381759644,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_13.pt",
+        "sha256": "3c3fba955ce37488845ad825ddc410f422c277cb1db94e7a9e68eec40787074e"
+      },
+      {
+        "layer": 14,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.016217879951000214,
+        "std": 1.6976350545883179,
+        "rms": 1.6977121829986572,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_14.pt",
+        "sha256": "fa3bbdefdac4f07c5a53a7e84dac5865a7afb67e71a3d350bce3743d586d4760"
+      },
+      {
+        "layer": 15,
+        "shape": [
+          1,
+          2,
+          36,
+          16,
+          2048
+        ],
+        "mean": 0.007794718723744154,
+        "std": 1.8011096715927124,
+        "rms": 1.8011261224746704,
+        "finite": true,
+        "activation_file": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/layer_15.pt",
+        "sha256": "8e494d95b09489265d1f5c499f0419ccc6af0590cee6b607328bf3a43677ed5d"
+      }
+    ],
+    "prediction_shape": [
+      1,
+      2,
+      36,
+      16,
+      32
+    ],
+    "all_layers_finite": true
+  },
+  "generation_controls": {
+    "primary_future_placeholder": "all zero uint8",
+    "alternate_future_placeholder": "all255 uint8",
+    "actions_identical": true,
+    "seed_identical": true,
+    "generated_latents_bitwise_equal": true,
+    "generated_video_bitwise_equal": true,
+    "latent_max_abs_difference": 0.0,
+    "video_max_abs_difference": 0.0
+  },
+  "sample": {
+    "output_shape": [
+      1,
+      4,
+      3,
+      1152,
+      512
+    ],
+    "latent_shape": [
+      4,
+      2,
+      9,
+      16,
+      32
+    ],
+    "finite": true,
+    "diffusion_steps": 8,
+    "schedule": "linear",
+    "noise_level": 0.0,
+    "value_min": 0.0,
+    "value_max": 0.99609375,
+    "saved_generated_frames": {
+      "path": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/generated_frames.npz",
+      "sha256": "e3b753a783a10e995cfe8a241fb32f36aaeeb0b73d2744427b3402254dd1de07",
+      "shape": [
+        4,
+        2,
+        3,
+        288,
+        512
+      ],
+      "dtype": "uint8",
+      "axes": [
+        "player_view",
+        "time",
+        "channel",
+        "height",
+        "width"
+      ],
+      "relative_to_last_context_seconds": [
+        0.05,
+        0.1
+      ],
+      "conversion": "clamp to [0,1], multiply by255, round to uint8 for display"
+    },
+    "saved_generated_latents": {
+      "path": "/data2/ishaangp/mira-interp/captures/pretrained_smoke/generated_latents.pt",
+      "sha256": "2d3f41416e98cc61c2ba06a2d8d414b3bfd29d29bddc1dc1e718c29ef97d945c",
+      "shape": [
+        4,
+        1,
+        9,
+        16,
+        32
+      ],
+      "axes": [
+        "player_view",
+        "latent_time",
+        "latent_height",
+        "latent_width",
+        "channel"
+      ],
+      "normalization": "world-model normalized codec coordinates",
+      "dtype": "torch.bfloat16"
+    }
+  },
+  "artifacts": {
+    "figure": "/ccn2/u/ishaangp/mira-interp/figures/pretrained_smoke.png",
+    "layer_statistics": "/ccn2/u/ishaangp/mira-interp/results/pretrained_layer_stats.csv",
+    "activation_directory": "/data2/ishaangp/mira-interp/captures/pretrained_smoke"
+  },
+  "peak_gpu_memory_allocated_bytes": 4988722176
+}

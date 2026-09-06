@@ -1,0 +1,31 @@
+{
+  "mira": {
+    "repo": "https://github.com/mira-wm/mira",
+    "revision": "3d739ec2d31daf83559d33eb01727cea48fe90f7"
+  },
+  "dinov3": {
+    "repo": "https://github.com/facebookresearch/dinov3",
+    "revision": "6876159a11b4df116f30f667f8c9888617df0751",
+    "license": "DINOv3 License Agreement",
+    "pretrained_download": false
+  },
+  "alakazam_published_runtime": {
+    "package": "alakazam-mira-mini",
+    "version": "0.1.11",
+    "url": "https://files.pythonhosted.org/packages/94/eb/48891a6baaba6511e12f98ea00f64967e9e7a9e83bd16f6468c8028ef17d/alakazam_mira_mini-0.1.11-py3-none-any.whl",
+    "sha256": "0acea9fc285c44537785e2987a42181695500317371e6cc652cefcd38e982cfe",
+    "use": "source inspection only; not imported or installed"
+  },
+  "architecture_adapter": {
+    "path": "src/mira_interp/pretrained.py",
+    "sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "reference_file": "mira/world_model/multi_wrapper_world_model.py",
+    "reference_sha256": "e79b73456edee2aa2bc36bbaa4b675a3f0b8fac17eb951c482ce10f81a79019e",
+    "difference": "project each player separately then average; 2048 input channels, not 8192 concatenated channels",
+    "strict_checkpoint_load_required": true
+  },
+  "other_published_runtime_differences": {
+    "codec/codec_model.py": "decoder warmstart state-dict override; unused",
+    "world_model/latent_world_model.py": "student distillation training loss, PSD warmstart state-dict override, unsafe default checkpoint load; all unused by this script"
+  }
+}

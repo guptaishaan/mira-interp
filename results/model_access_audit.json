@@ -1,0 +1,326 @@
+{
+  "checked_utc": "2026-09-06T23:26:32.229064+00:00",
+  "official_code_revision": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+  "official_pretrained_status": "not_found_in_audited_public_sources",
+  "official_codec_status": "not_found_in_audited_public_sources",
+  "official_claim_limit": "This audit establishes no accessible official checkpoint was located; it does not prove private or unlisted checkpoints do not exist.",
+  "checks": [
+    {
+      "name": "github_releases",
+      "url": "https://api.github.com/repos/mira-wm/mira/releases",
+      "result": [
+        {
+          "tag": "v1.0",
+          "published_at": "2026-07-05T15:26:26Z",
+          "uploaded_assets": 0,
+          "url": "https://github.com/mira-wm/mira/releases/tag/v1.0"
+        }
+      ]
+    },
+    {
+      "name": "github_issue",
+      "url": "https://api.github.com/repos/mira-wm/mira/issues/1",
+      "result": {
+        "state": "open",
+        "title": "Release artifacts (MIRA model, rocket-science dataset) on Hugging Face",
+        "updated_at": "2026-07-07T18:03:45Z",
+        "comments": 0
+      }
+    },
+    {
+      "name": "github_issue_comments",
+      "url": "https://api.github.com/repos/mira-wm/mira/issues/1/comments",
+      "result": {
+        "count": 0
+      }
+    },
+    {
+      "name": "kyutai_models",
+      "url": "https://huggingface.co/api/models?author=kyutai&limit=100",
+      "result": {
+        "total": 71,
+        "mira_matches": []
+      }
+    },
+    {
+      "name": "mira_wm_models",
+      "url": "https://huggingface.co/api/models?author=mira-wm&limit=100",
+      "result": {
+        "total": 0,
+        "mira_matches": []
+      }
+    }
+  ],
+  "official_collection": {
+    "url": "https://huggingface.co/collections/kyutai/mira-world-model",
+    "items": [
+      "paper:2607.05352",
+      "dataset:kyutai/rocket-science"
+    ],
+    "model_items": 0
+  },
+  "official_repository_tree": {
+    "truncated": false,
+    "entries": 155,
+    "checkpoint_weight_files": 0
+  },
+  "local_search": {
+    "scope": "depth <=3 MIRA/checkpoint directories under user shared home; conventional cache and weights directories under shared and local home; no credential file contents read",
+    "mira_checkpoint_candidates": []
+  },
+  "third_party_pretrained_alternatives": [
+    {
+      "repo_id": "alakazamworld/mira-mini",
+      "revision": "19d668ac39814e394ae4a8f698690f761facf437",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-sa-4.0",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size_bytes": 1519,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/.gitattributes"
+        },
+        {
+          "name": "README.md",
+          "size_bytes": 9747,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/README.md"
+        },
+        {
+          "name": "checkpoint-52000/checkpoint.pth",
+          "size_bytes": 8366351313,
+          "sha256": "c6c2ec70487aec8b723f466fe51e793b643068d48052c89181abddd9676da4bf",
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/checkpoint-52000/checkpoint.pth"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "size_bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9",
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/codec/checkpoint-125000/checkpoint.pth"
+        },
+        {
+          "name": "codec/codec_config.yaml",
+          "size_bytes": 2590,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/codec/codec_config.yaml"
+        },
+        {
+          "name": "context/default.npz",
+          "size_bytes": 35392832,
+          "sha256": "6ba309d6e3cd4c08f8e7a247640e703e4df9812333aad9ae44f4065cbef3bc21",
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/context/default.npz"
+        },
+        {
+          "name": "world_model_config.yaml",
+          "size_bytes": 2754,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini/resolve/19d668ac39814e394ae4a8f698690f761facf437/world_model_config.yaml"
+        }
+      ],
+      "total_bytes": 12003627628
+    },
+    {
+      "repo_id": "alakazamworld/mira-mini-4p",
+      "revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-sa-4.0",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size_bytes": 1519,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/.gitattributes"
+        },
+        {
+          "name": "README.md",
+          "size_bytes": 7543,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/README.md"
+        },
+        {
+          "name": "checkpoint-90000/checkpoint.pth",
+          "size_bytes": 8383271151,
+          "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/checkpoint-90000/checkpoint.pth"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "size_bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/codec/checkpoint-125000/checkpoint.pth"
+        },
+        {
+          "name": "codec/codec_config.yaml",
+          "size_bytes": 2593,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/codec/codec_config.yaml"
+        },
+        {
+          "name": "context/default.npz",
+          "size_bytes": 141569792,
+          "sha256": "b7932302d824bf2998bc8497f6c574f3846f029fa27bdd3456c65195dbdd6aec",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/context/default.npz"
+        },
+        {
+          "name": "world_model_config.yaml",
+          "size_bytes": 3080,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-4p/resolve/d58ee2f9bca27289554c1e652943dc0e539e8971/world_model_config.yaml"
+        }
+      ],
+      "total_bytes": 12126722551
+    },
+    {
+      "repo_id": "alakazamworld/mira-mini-psd",
+      "revision": "ad0c8e3bec95900bb01ebacd7fddf80724a6d957",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-sa-4.0",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size_bytes": 1519,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/.gitattributes"
+        },
+        {
+          "name": "README.md",
+          "size_bytes": 5464,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/README.md"
+        },
+        {
+          "name": "checkpoint-10000/checkpoint.pth",
+          "size_bytes": 8385243865,
+          "sha256": "f7859fa114515934ea927f7f25cfe11fec1a78af9e18856a52f2fbf82f80dd48",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/checkpoint-10000/checkpoint.pth"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "size_bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/codec/checkpoint-125000/checkpoint.pth"
+        },
+        {
+          "name": "codec/codec_config.yaml",
+          "size_bytes": 2614,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/codec/codec_config.yaml"
+        },
+        {
+          "name": "context/default.npz",
+          "size_bytes": 35392832,
+          "sha256": "6ba309d6e3cd4c08f8e7a247640e703e4df9812333aad9ae44f4065cbef3bc21",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/context/default.npz"
+        },
+        {
+          "name": "world_model_config.yaml",
+          "size_bytes": 2799,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-psd/resolve/ad0c8e3bec95900bb01ebacd7fddf80724a6d957/world_model_config.yaml"
+        }
+      ],
+      "total_bytes": 12022515966
+    },
+    {
+      "repo_id": "alakazamworld/mira-mini-364m",
+      "revision": "d4aba4a3e525b573689c78458d589e2c0df02f1c",
+      "gated": false,
+      "private": false,
+      "license": "cc-by-nc-sa-4.0",
+      "files": [
+        {
+          "name": ".gitattributes",
+          "size_bytes": 1519,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/.gitattributes"
+        },
+        {
+          "name": "README.md",
+          "size_bytes": 7742,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/README.md"
+        },
+        {
+          "name": "checkpoint-10000/checkpoint.pth",
+          "size_bytes": 3000841127,
+          "sha256": "4bf37d0b87afedc3491196fd91cedc504a9d3d94e4a67099b66022670e360aa4",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/checkpoint-10000/checkpoint.pth"
+        },
+        {
+          "name": "codec/checkpoint-60000/checkpoint.pth",
+          "size_bytes": 1515760801,
+          "sha256": "1fc3a6a1139eee4b1af0a9505012fbfae2e8d06fd343d91c7a5084432a2fe712",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/codec/checkpoint-60000/checkpoint.pth"
+        },
+        {
+          "name": "codec/codec_config.yaml",
+          "size_bytes": 2617,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/codec/codec_config.yaml"
+        },
+        {
+          "name": "context/default.npz",
+          "size_bytes": 35392832,
+          "sha256": "6ba309d6e3cd4c08f8e7a247640e703e4df9812333aad9ae44f4065cbef3bc21",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/context/default.npz"
+        },
+        {
+          "name": "decoder60k.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+          "size_bytes": 944523,
+          "sha256": "bffa1e614c8651c407390986e19f79673c20ccd0c3ae5e9e1363de8a05f229e8",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/decoder60k.mlpackage/Data/com.apple.CoreML/model.mlmodel"
+        },
+        {
+          "name": "decoder60k.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+          "size_bytes": 150969472,
+          "sha256": "75d0e27b146fe6c5cbf66852e967e3d0293d7ae736601d78b466c820b480537c",
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/decoder60k.mlpackage/Data/com.apple.CoreML/weights/weight.bin"
+        },
+        {
+          "name": "decoder60k.mlpackage/Manifest.json",
+          "size_bytes": 617,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/decoder60k.mlpackage/Manifest.json"
+        },
+        {
+          "name": "decoder60k.mlpackage/executorch_debug_handle_mapping.json",
+          "size_bytes": 961884,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/decoder60k.mlpackage/executorch_debug_handle_mapping.json"
+        },
+        {
+          "name": "world_model_config.yaml",
+          "size_bytes": 2883,
+          "sha256": null,
+          "url": "https://huggingface.co/alakazamworld/mira-mini-364m/resolve/d4aba4a3e525b573689c78458d589e2c0df02f1c/world_model_config.yaml"
+        }
+      ],
+      "total_bytes": 4704886017
+    }
+  ],
+  "public_context_headers": {
+    "method": "64 KiB suffix range requests; ZIP central-directory inspection only",
+    "mira-mini": [
+      "frames.npy",
+      "actions.npy"
+    ],
+    "mira-mini-4p": [
+      "frames.npy",
+      "actions.npy"
+    ],
+    "physics_labels_found": false,
+    "match_ids_found": false
+  },
+  "head_checks": {
+    "single_player_checkpoint_http": 200,
+    "four_player_checkpoint_http": 200,
+    "codec_checkpoint_http": 200,
+    "four_player_context_http": 200
+  },
+  "gpu_used": false,
+  "weights_downloaded_by_this_audit": false
+}

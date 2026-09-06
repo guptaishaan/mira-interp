@@ -12,4 +12,3 @@ logs/
 .env.*
 *.token
 results/private/
-

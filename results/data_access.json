@@ -1,0 +1,44 @@
+{
+  "cached_auth_present": true,
+  "checked_at_utc": "2026-09-06T23:38:55.981415+00:00",
+  "dataset_payload_downloaded_bytes": 2564238523,
+  "decoded_video_checked": false,
+  "disk_free_bytes": 767526920192,
+  "expected_member_count": 7584,
+  "gated": "auto",
+  "index_files": [
+    {
+      "name": "dev/index.json",
+      "size_bytes": 6010559
+    },
+    {
+      "name": "test/index.json",
+      "size_bytes": 1801403
+    },
+    {
+      "name": "train/index.json",
+      "size_bytes": 224238737
+    }
+  ],
+  "index_sha256": "566ac2a3879474527d2911e5f2de8ed8cea4f29ea6047e031e2434f09b6a406e",
+  "local_index": "/data2/ishaangp/mira-interp/rocket-science/test/index.json",
+  "missing_expected_members": [],
+  "payload_budget_bytes": 3221225472,
+  "physics_alignment_checked": false,
+  "repo_id": "kyutai/rocket-science",
+  "requested_file": "test/index.json",
+  "requested_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "required_disk_reserve_bytes": 26843545600,
+  "research_dataset_ready": false,
+  "schema_version": 1,
+  "shard_expected_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241",
+  "shard_filename": "test/dataset_00008.tar",
+  "shard_match_count": 5,
+  "shard_member_count": 8216,
+  "shard_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241",
+  "shard_size_bytes": 2562437120,
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "status": "shard_inventory_available_only",
+  "terms_accepted_by_this_run": false,
+  "video_shards_downloaded": 1
+}

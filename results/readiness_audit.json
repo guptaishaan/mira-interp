@@ -1,0 +1,157 @@
+{
+  "checked_at_utc": "2026-09-06T23:44:46.443447+00:00",
+  "status": "PASS",
+  "scope": "engineering readiness only",
+  "tests": {
+    "tests": 28,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0
+  },
+  "checks": [
+    {
+      "check": "only authorized GPU IDs configured",
+      "passed": true
+    },
+    {
+      "check": "pinned assets passed integrity check",
+      "passed": true
+    },
+    {
+      "check": "cpu instrumentation passed",
+      "passed": true
+    },
+    {
+      "check": "cpu evidence excludes scientific claims",
+      "passed": true
+    },
+    {
+      "check": "gpu6 instrumentation passed",
+      "passed": true
+    },
+    {
+      "check": "gpu6 evidence excludes scientific claims",
+      "passed": true
+    },
+    {
+      "check": "unit tests complete without failures",
+      "passed": true
+    },
+    {
+      "check": "pretrained run complete",
+      "passed": true
+    },
+    {
+      "check": "strict codec and world model loading",
+      "passed": true
+    },
+    {
+      "check": "trained observation and replay controls",
+      "passed": true
+    },
+    {
+      "check": "block zero input persisted and finite",
+      "passed": true
+    },
+    {
+      "check": "all 16 trained layers finite",
+      "passed": true
+    },
+    {
+      "check": "layer 0 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 1 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 2 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 3 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 4 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 5 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 6 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 7 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 8 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 9 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 10 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 11 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 12 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 13 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 14 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "layer 15 tensor hash",
+      "passed": true
+    },
+    {
+      "check": "finite generated video",
+      "passed": true
+    },
+    {
+      "check": "future placeholders cannot affect sampled output",
+      "passed": true
+    },
+    {
+      "check": "saved_generated_frames digest",
+      "passed": true
+    },
+    {
+      "check": "saved_generated_latents digest",
+      "passed": true
+    },
+    {
+      "check": "physical evidence not claimed",
+      "passed": true
+    },
+    {
+      "check": "figure artifact exists",
+      "passed": true
+    },
+    {
+      "check": "layer_statistics artifact exists",
+      "passed": true
+    }
+  ],
+  "data_status": "shard_inventory_available_only",
+  "scientific_study_complete": false,
+  "remaining_gate": "Prepare and audit real synchronized physics-labeled match partitions",
+  "scientific_stages_evaluated_by_this_audit": []
+}

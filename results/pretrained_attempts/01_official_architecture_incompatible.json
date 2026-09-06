@@ -1,0 +1,60 @@
+{
+  "status": "failed",
+  "evidence_level": "pretrained_inference_readiness_only",
+  "model": "Alakazam MIRA Mini 4P 1B independent reproduction",
+  "model_repo": "alakazamworld/mira-mini-4p",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "seed": 20260906,
+  "requested_device": "cuda:0",
+  "cuda_visible_devices": "7",
+  "physical_validation": false,
+  "stage": "incompatible_checkpoint",
+  "elapsed_seconds": 36.617,
+  "source_revisions": {
+    "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+    "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+  },
+  "torch_version": "2.9.0+cu126",
+  "verified_assets": [
+    {
+      "name": "checkpoint-90000/checkpoint.pth",
+      "bytes": 8383271151,
+      "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+    },
+    {
+      "name": "codec/checkpoint-125000/checkpoint.pth",
+      "bytes": 3601866873,
+      "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+    },
+    {
+      "name": "context/default.npz",
+      "bytes": 141569792,
+      "sha256": "b7932302d824bf2998bc8497f6c574f3846f029fa27bdd3456c65195dbdd6aec"
+    }
+  ],
+  "original_config_sha256": {
+    "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+    "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+  },
+  "runtime_overrides": {
+    "codec_checkpoint": "local verified codec path",
+    "compile_dino": false,
+    "activation_checkpointing": false,
+    "inference_context_frames": 2
+  },
+  "codec_strict_load": {
+    "passed": true,
+    "state_tensors": 936
+  },
+  "world_model_strict_load": {
+    "passed": false,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "shape_mismatch": [
+      "player_action_projection.1.weight"
+    ],
+    "state_tensors": 1183
+  },
+  "error_type": "RuntimeError",
+  "error": "Checkpoint is incompatible with the pinned architecture; no random fallback is permitted"
+}

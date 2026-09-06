@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "evidence_level": "engineering-only; tiny random-init real upstream architecture",
+  "scientific_claims": [],
+  "not_tested": [
+    "pretrained weights",
+    "video codec",
+    "action encoder",
+    "real data",
+    "physical probes",
+    "physical causal effects",
+    "generated rollouts",
+    "geometry",
+    "SAEs or BSFs"
+  ],
+  "timestamp_utc": "2026-09-06T23:30:44.997205+00:00",
+  "upstream_commit": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+  "device": "cuda:0",
+  "torch_version": "2.9.0+cu126",
+  "cuda_visible_devices": "6",
+  "device_name": "NVIDIA A40",
+  "seed": 20260906,
+  "parameter_count": 321280,
+  "model_class": "mira.world_model.diffusion_transformer.DiffusionTransformer",
+  "config": {
+    "actions": {
+      "valid_keys": [
+        "W",
+        "A",
+        "S",
+        "D"
+      ],
+      "source_fps": 20,
+      "target_fps": 10
+    },
+    "video": {
+      "height": 64,
+      "width": 64,
+      "channels": 3,
+      "timesteps": 4,
+      "fps": 10
+    },
+    "codec_checkpoint": null,
+    "latent_mean_std": null,
+    "causal": true,
+    "activation_checkpointing": false,
+    "psd_loss_prob": 0.0,
+    "psd_weight": 0.0,
+    "use_clean_past": false,
+    "dropout_action_prob": 0.1,
+    "dropout_action_per_player": false,
+    "action_subset_drop_prob": 0.5,
+    "learned_temporal_pool": false,
+    "use_codec_posterior_mean": false,
+    "n_register_tokens": 1,
+    "patch_size": 2,
+    "attention_gating": true,
+    "ada_attn_ln": true,
+    "n_context_frames": 39,
+    "hidden_dim": 64,
+    "n_head": 4,
+    "n_kv_head": 2,
+    "n_layers": 3,
+    "time_attention_every": 2
+  },
+  "inputs": {
+    "latent_shape": [
+      1,
+      2,
+      4,
+      4,
+      8
+    ],
+    "action_embedding_shape": [
+      1,
+      2,
+      64
+    ],
+    "clean_sha256": "553d9ef01a5be70637474db1eef013ff6bf38ad21c68324171621ea9c6e6d121",
+    "corrupted_sha256": "c4eea6b203274d8785e01edc1b2e124d6243ee9d02df61261f50e76d98ab258d",
+    "actions_sha256": "5a3e785d6f051de2f9b26e96ed3cb2f32f3ed608d2056b95d4aa3ecb857b63c5"
+  },
+  "manifest": {
+    "metadata": {
+      "sample_ids": [
+        "random-init-engineering-only-0"
+      ],
+      "condition": "clean-synthetic-latent",
+      "noise_seed": 20260907,
+      "noise_id": "ca02a4a770b20515b928d5a7c37e8a15743519b5b3e5bc9f71919c321a3b7e29",
+      "rollout_step": 0,
+      "diffusion_step": 0,
+      "tau": [
+        0.5,
+        0.5
+      ],
+      "tau_shape": [
+        1,
+        2,
+        1,
+        1,
+        1
+      ],
+      "latent_frame_indices": [
+        0,
+        1
+      ],
+      "cache_mode": "fresh"
+    },
+    "capture_boundary": "after each complete AdaSTBlock; tuple item zero",
+    "indexing": "zero-based; layer 0 is after the first block",
+    "register_slots_in_this_call": 1,
+    "cache_policy": "preserve each block's KV output unchanged; this is a residual-only intervention",
+    "input_site": {
+      "module_path": "transformer.0",
+      "boundary": "block_0_input_after_latent_projection_and_register_insertion",
+      "shape": [
+        1,
+        3,
+        2,
+        2,
+        64
+      ]
+    },
+    "sites": [
+      {
+        "layer_index": 0,
+        "module_path": "transformer.0",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          3,
+          2,
+          2,
+          64
+        ]
+      },
+      {
+        "layer_index": 1,
+        "module_path": "transformer.1",
+        "temporal_attention": false,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          3,
+          2,
+          2,
+          64
+        ]
+      },
+      {
+        "layer_index": 2,
+        "module_path": "transformer.2",
+        "temporal_attention": true,
+        "boundary": "block_output_after_mlp",
+        "axes": [
+          "batch",
+          "time_with_registers",
+          "height",
+          "width",
+          "channel"
+        ],
+        "shape": [
+          1,
+          3,
+          2,
+          2,
+          64
+        ]
+      }
+    ]
+  },
+  "checks": {
+    "all_layers_captured": 3,
+    "capture_noop_max_abs_error": 0.0,
+    "kv_preserved": true,
+    "replacement_noop_max_abs_error": 0.0,
+    "masked_ablation_locality": true,
+    "ablation_output_max_abs_effect": 0.048252999782562256,
+    "restoration_max_abs_error": 0.0,
+    "gradients_retained_all_layers": true,
+    "linear_head_attribution_estimate": 2.068624598905444e-05,
+    "linear_head_exact_patch_effect": 2.0686304196715355e-05,
+    "linear_head_attribution_abs_error": 5.820766091346741e-11,
+    "all_hooks_removed": true
+  },
+  "peak_cuda_allocated_bytes": 20782080,
+  "elapsed_seconds": 5.1422096863389015
+}

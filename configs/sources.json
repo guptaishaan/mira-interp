@@ -3,6 +3,10 @@
     "url": "https://github.com/mira-wm/mira.git",
     "revision": "3d739ec2d31daf83559d33eb01727cea48fe90f7"
   },
+  "dinov3_source_only": {
+    "url": "https://github.com/facebookresearch/dinov3.git",
+    "revision": "6876159a11b4df116f30f667f8c9888617df0751"
+  },
   "pretrained_model": {
     "repository": "alakazamworld/mira-mini-4p",
     "revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
@@ -12,7 +16,16 @@
     "repository": "kyutai/rocket-science",
     "revision": "a248fc918baa93389e3242fefba193f1bfb0474a"
   },
-  "authorized_physical_gpus": [6, 7],
+  "authorized_physical_gpus": [
+    6,
+    7
+  ],
   "storage_reserve_gib": 25,
-  "experiment_seed": 20260906
+  "experiment_seed": 20260906,
+  "reproduction_runtime": {
+    "package": "alakazam-mira-mini",
+    "version": "0.1.11",
+    "wheel_sha256": "0acea9fc285c44537785e2987a42181695500317371e6cc652cefcd38e982cfe",
+    "usage": "source audit only; minimal adapter in src/mira_interp/pretrained.py"
+  }
 }

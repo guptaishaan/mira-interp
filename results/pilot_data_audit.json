@@ -1,0 +1,415 @@
+{
+  "alignment_gate": "frame counts, per-view PTS, player/team identities, nonfrozen physics, no demolitions; cross-view ball mean residual<=100uu after+-4frame lag",
+  "clip_manifest_sha256": "c727c4b6c09c60a665078a4193555c5e3f9348da435a45fed397500c14f59f45",
+  "clips": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip01",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip03",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip04",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip05",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip06",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip07",
+      "role": "pilot",
+      "status": "passed"
+    }
+  ],
+  "clips_per_match": 8,
+  "cohort_sha256": "b9754a876c5d54f22c9a38e60b1361daebd4bed13634ab961722a54e99f357bf",
+  "cross_view_shared_timestamp_claim": false,
+  "errors": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip02",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "message": "demolition-affected entity in proposed live clip",
+      "type": "ValueError"
+    }
+  ],
+  "exact_controlled_trajectories_available": false,
+  "expected_clips": 8,
+  "expected_matches": 1,
+  "finished_at_utc": "2026-09-06T23:50:05.188476+00:00",
+  "prepared_clips": 7,
+  "prepared_matches": 1,
+  "research_stage_completed": false,
+  "resize": "upstream-equivalent bilinear antialias=True align_corners=False round/clamp uint8; 288x512",
+  "roles": [
+    "pilot"
+  ],
+  "schema_version": 1,
+  "scope": "observational per-view data integrity",
+  "selection_rule": "metadata-live windows, disjoint length16 at20FPS, center of eight equal candidate quantiles",
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "source_shard_hashes": {
+    "/data2/ishaangp/mira-interp/rocket-science/test/dataset_00008.tar": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241"
+  },
+  "split_manifest_sha256": "fa47137ab1034cd4cc3b69d165a5d8dfb8a9ef9d70fa093869f0a05d4289922e",
+  "started_at_utc": "2026-09-06T23:49:46.759938+00:00",
+  "status": "failed",
+  "timeline_calibrations": {
+    "2026-05-29T18-17-39Z-fb68d7": {
+      "maximum_residual_seconds": 0.1,
+      "method": "median GoalScored master time minus corresponding source score-increment time",
+      "minimum_goal_pairs": 3,
+      "uses_position_or_velocity_values": false,
+      "views": [
+        {
+          "anchor_sha256": "64afc281b8e502b442025be07c976be83c9fce3fd127e50991e2dcb8faaa2678",
+          "calibrated_origin_seconds": 8.13176100000004,
+          "goal_pairs": [
+            {
+              "anchor_seconds": 42.4834735,
+              "offset_seconds": 8.133473500000001,
+              "residual_seconds": 0.0017124999999609258,
+              "score_total": 1,
+              "source_frame": 687,
+              "source_seconds": 34.35
+            },
+            {
+              "anchor_seconds": 120.7178066,
+              "offset_seconds": 8.117806600000009,
+              "residual_seconds": -0.013954400000031342,
+              "score_total": 2,
+              "source_frame": 2252,
+              "source_seconds": 112.6
+            },
+            {
+              "anchor_seconds": 171.7430323,
+              "offset_seconds": 8.093032300000004,
+              "residual_seconds": -0.03872870000003559,
+              "score_total": 3,
+              "source_frame": 3273,
+              "source_seconds": 163.65
+            },
+            {
+              "anchor_seconds": 257.5493266,
+              "offset_seconds": 8.149326599999966,
+              "residual_seconds": 0.017565599999926462,
+              "score_total": 4,
+              "source_frame": 4988,
+              "source_seconds": 249.4
+            },
+            {
+              "anchor_seconds": 291.031761,
+              "offset_seconds": 8.13176100000004,
+              "residual_seconds": 0.0,
+              "score_total": 5,
+              "source_frame": 5658,
+              "source_seconds": 282.9
+            },
+            {
+              "anchor_seconds": 315.2332004,
+              "offset_seconds": 8.133200399999964,
+              "residual_seconds": 0.0014393999999242624,
+              "score_total": 6,
+              "source_frame": 6142,
+              "source_seconds": 307.1
+            },
+            {
+              "anchor_seconds": 349.9331995,
+              "offset_seconds": 8.13319949999999,
+              "residual_seconds": 0.001438499999949272,
+              "score_total": 7,
+              "source_frame": 6836,
+              "source_seconds": 341.8
+            },
+            {
+              "anchor_seconds": 388.5684108,
+              "offset_seconds": 8.118410799999992,
+              "residual_seconds": -0.013350200000047607,
+              "score_total": 8,
+              "source_frame": 7609,
+              "source_seconds": 380.45
+            },
+            {
+              "anchor_seconds": 452.2257919,
+              "offset_seconds": 8.125791899999967,
+              "residual_seconds": -0.005969100000072558,
+              "score_total": 9,
+              "source_frame": 8882,
+              "source_seconds": 444.1
+            }
+          ],
+          "max_absolute_residual_seconds": 0.03872870000003559,
+          "metadata_recording_offset_seconds": 0.02034515,
+          "player_id": 302,
+          "score_track_sha256": "4c3cbcdf00177908ac2049fb5cfbfa61ef3a1e4829c3fe1959a0ed2d5b8767fb",
+          "view": 0
+        },
+        {
+          "anchor_sha256": "64afc281b8e502b442025be07c976be83c9fce3fd127e50991e2dcb8faaa2678",
+          "calibrated_origin_seconds": 8.13319949999999,
+          "goal_pairs": [
+            {
+              "anchor_seconds": 42.4834735,
+              "offset_seconds": 8.133473500000001,
+              "residual_seconds": 0.0002740000000116538,
+              "score_total": 1,
+              "source_frame": 687,
+              "source_seconds": 34.35
+            },
+            {
+              "anchor_seconds": 120.7178066,
+              "offset_seconds": 8.117806600000009,
+              "residual_seconds": -0.015392899999980614,
+              "score_total": 2,
+              "source_frame": 2252,
+              "source_seconds": 112.6
+            },
+            {
+              "anchor_seconds": 171.7430323,
+              "offset_seconds": 8.143032300000016,
+              "residual_seconds": 0.00983280000002651,
+              "score_total": 3,
+              "source_frame": 3272,
+              "source_seconds": 163.6
+            },
+            {
+              "anchor_seconds": 257.5493266,
+              "offset_seconds": 8.149326599999966,
+              "residual_seconds": 0.01612709999997719,
+              "score_total": 4,
+              "source_frame": 4988,
+              "source_seconds": 249.4
+            },
+            {
+              "anchor_seconds": 291.031761,
+              "offset_seconds": 8.13176100000004,
+              "residual_seconds": -0.001438499999949272,
+              "score_total": 5,
+              "source_frame": 5658,
+              "source_seconds": 282.9
+            },
+            {
+              "anchor_seconds": 315.2332004,
+              "offset_seconds": 8.133200399999964,
+              "residual_seconds": 8.999999749903509e-07,
+              "score_total": 6,
+              "source_frame": 6142,
+              "source_seconds": 307.1
+            },
+            {
+              "anchor_seconds": 349.9331995,
+              "offset_seconds": 8.13319949999999,
+              "residual_seconds": 0.0,
+              "score_total": 7,
+              "source_frame": 6836,
+              "source_seconds": 341.8
+            },
+            {
+              "anchor_seconds": 388.5684108,
+              "offset_seconds": 8.118410799999992,
+              "residual_seconds": -0.01478869999999688,
+              "score_total": 8,
+              "source_frame": 7609,
+              "source_seconds": 380.45
+            },
+            {
+              "anchor_seconds": 452.2257919,
+              "offset_seconds": 8.125791899999967,
+              "residual_seconds": -0.00740760000002183,
+              "score_total": 9,
+              "source_frame": 8882,
+              "source_seconds": 444.1
+            }
+          ],
+          "max_absolute_residual_seconds": 0.01612709999997719,
+          "metadata_recording_offset_seconds": 0.1422948,
+          "player_id": 306,
+          "score_track_sha256": "c6bd1308f482d4dde473d764ce549993ea56d50cb2e2bea91af441a96673ded4",
+          "view": 1
+        },
+        {
+          "anchor_sha256": "64afc281b8e502b442025be07c976be83c9fce3fd127e50991e2dcb8faaa2678",
+          "calibrated_origin_seconds": 8.13319949999999,
+          "goal_pairs": [
+            {
+              "anchor_seconds": 42.4834735,
+              "offset_seconds": 8.133473500000001,
+              "residual_seconds": 0.0002740000000116538,
+              "score_total": 1,
+              "source_frame": 687,
+              "source_seconds": 34.35
+            },
+            {
+              "anchor_seconds": 120.7178066,
+              "offset_seconds": 8.117806600000009,
+              "residual_seconds": -0.015392899999980614,
+              "score_total": 2,
+              "source_frame": 2252,
+              "source_seconds": 112.6
+            },
+            {
+              "anchor_seconds": 171.7430323,
+              "offset_seconds": 8.143032300000016,
+              "residual_seconds": 0.00983280000002651,
+              "score_total": 3,
+              "source_frame": 3272,
+              "source_seconds": 163.6
+            },
+            {
+              "anchor_seconds": 257.5493266,
+              "offset_seconds": 8.149326599999966,
+              "residual_seconds": 0.01612709999997719,
+              "score_total": 4,
+              "source_frame": 4988,
+              "source_seconds": 249.4
+            },
+            {
+              "anchor_seconds": 291.031761,
+              "offset_seconds": 8.13176100000004,
+              "residual_seconds": -0.001438499999949272,
+              "score_total": 5,
+              "source_frame": 5658,
+              "source_seconds": 282.9
+            },
+            {
+              "anchor_seconds": 315.2332004,
+              "offset_seconds": 8.133200399999964,
+              "residual_seconds": 8.999999749903509e-07,
+              "score_total": 6,
+              "source_frame": 6142,
+              "source_seconds": 307.1
+            },
+            {
+              "anchor_seconds": 349.9331995,
+              "offset_seconds": 8.13319949999999,
+              "residual_seconds": 0.0,
+              "score_total": 7,
+              "source_frame": 6836,
+              "source_seconds": 341.8
+            },
+            {
+              "anchor_seconds": 388.5684108,
+              "offset_seconds": 8.118410799999992,
+              "residual_seconds": -0.01478869999999688,
+              "score_total": 8,
+              "source_frame": 7609,
+              "source_seconds": 380.45
+            },
+            {
+              "anchor_seconds": 452.2257919,
+              "offset_seconds": 8.125791899999967,
+              "residual_seconds": -0.00740760000002183,
+              "score_total": 9,
+              "source_frame": 8882,
+              "source_seconds": 444.1
+            }
+          ],
+          "max_absolute_residual_seconds": 0.01612709999997719,
+          "metadata_recording_offset_seconds": 0.13262995,
+          "player_id": 307,
+          "score_track_sha256": "c6bd1308f482d4dde473d764ce549993ea56d50cb2e2bea91af441a96673ded4",
+          "view": 2
+        },
+        {
+          "anchor_sha256": "64afc281b8e502b442025be07c976be83c9fce3fd127e50991e2dcb8faaa2678",
+          "calibrated_origin_seconds": 8.13319949999999,
+          "goal_pairs": [
+            {
+              "anchor_seconds": 42.4834735,
+              "offset_seconds": 8.133473500000001,
+              "residual_seconds": 0.0002740000000116538,
+              "score_total": 1,
+              "source_frame": 687,
+              "source_seconds": 34.35
+            },
+            {
+              "anchor_seconds": 120.7178066,
+              "offset_seconds": 8.117806600000009,
+              "residual_seconds": -0.015392899999980614,
+              "score_total": 2,
+              "source_frame": 2252,
+              "source_seconds": 112.6
+            },
+            {
+              "anchor_seconds": 171.7430323,
+              "offset_seconds": 8.143032300000016,
+              "residual_seconds": 0.00983280000002651,
+              "score_total": 3,
+              "source_frame": 3272,
+              "source_seconds": 163.6
+            },
+            {
+              "anchor_seconds": 257.5493266,
+              "offset_seconds": 8.149326599999966,
+              "residual_seconds": 0.01612709999997719,
+              "score_total": 4,
+              "source_frame": 4988,
+              "source_seconds": 249.4
+            },
+            {
+              "anchor_seconds": 291.031761,
+              "offset_seconds": 8.13176100000004,
+              "residual_seconds": -0.001438499999949272,
+              "score_total": 5,
+              "source_frame": 5658,
+              "source_seconds": 282.9
+            },
+            {
+              "anchor_seconds": 315.2332004,
+              "offset_seconds": 8.133200399999964,
+              "residual_seconds": 8.999999749903509e-07,
+              "score_total": 6,
+              "source_frame": 6142,
+              "source_seconds": 307.1
+            },
+            {
+              "anchor_seconds": 349.9331995,
+              "offset_seconds": 8.13319949999999,
+              "residual_seconds": 0.0,
+              "score_total": 7,
+              "source_frame": 6836,
+              "source_seconds": 341.8
+            },
+            {
+              "anchor_seconds": 388.5684108,
+              "offset_seconds": 8.118410799999992,
+              "residual_seconds": -0.01478869999999688,
+              "score_total": 8,
+              "source_frame": 7609,
+              "source_seconds": 380.45
+            },
+            {
+              "anchor_seconds": 452.2257919,
+              "offset_seconds": 8.125791899999967,
+              "residual_seconds": -0.00740760000002183,
+              "score_total": 9,
+              "source_frame": 8882,
+              "source_seconds": 444.1
+            }
+          ],
+          "max_absolute_residual_seconds": 0.01612709999997719,
+          "metadata_recording_offset_seconds": 0.1613433,
+          "player_id": 308,
+          "score_track_sha256": "c6bd1308f482d4dde473d764ce549993ea56d50cb2e2bea91af441a96673ded4",
+          "view": 3
+        }
+      ]
+    }
+  }
+}

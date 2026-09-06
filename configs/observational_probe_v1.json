@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "scope": "Observational, teacher-forced physical-state reconstruction decoding only",
+  "reason_for_adjustment": "Recorded videos do not establish single-variable counterfactuals; per-view clocks differ. Model and data access succeeded, enabling a separate observational decoding stage.",
+  "registration_basis": "Before research activation capture and research-label-driven selection; pilot-only integrity inspection allowed.",
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "model": "Alakazam MIRA Mini 4P 1B independent reproduction",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "cohort": {
+    "pilot": 1,
+    "discovery": 37,
+    "selection": 12,
+    "confirmation": 12,
+    "source": "official test index metadata",
+    "balanced_manifest_sha256": "b9754a876c5d54f22c9a38e60b1361daebd4bed13634ab961722a54e99f357bf",
+    "amendment": "Initial hash-threshold split yielded42/14/6. Fixed balanced cohort selected using metadata-only hash order before research labels."
+  },
+  "sampling": {
+    "clips_per_match": 8,
+    "frames_per_clip": 16,
+    "fps": 20,
+    "players": 4,
+    "resolution": [
+      288,
+      512
+    ],
+    "eligibility": "deterministic uniformly spaced live chunks after integrity filtering; any insufficiency blocks the cohort",
+    "independent_unit": "match",
+    "repeated_measurements": [
+      "clip",
+      "view",
+      "latent_frame"
+    ]
+  },
+  "capture": {
+    "tau": 0.5,
+    "sites": [
+      "block_0_input",
+      "block_0_output",
+      "block_1_output",
+      "block_2_output",
+      "block_3_output",
+      "block_4_output",
+      "block_5_output",
+      "block_6_output",
+      "block_7_output",
+      "block_8_output",
+      "block_9_output",
+      "block_10_output",
+      "block_11_output",
+      "block_12_output",
+      "block_13_output",
+      "block_14_output",
+      "block_15_output"
+    ],
+    "readout": "spatial mean within each view tile, channel dimension2048",
+    "noise": "fixed SHA256-derived per-clip seed",
+    "mode": "teacher_forced_noisy_reconstruction",
+    "target_alignment": "each view own source frame2*t+1 for temporal codec pair t",
+    "row_order": "clip order, then view major, then latent time",
+    "dtype_storage": "float16; pooled in float32",
+    "no_predictive_claim": true
+  },
+  "targets": [
+    "ball.location.x",
+    "ball.location.y",
+    "ball.location.z",
+    "ball.velocity.x",
+    "ball.velocity.y",
+    "ball.velocity.z",
+    "player0.location.x",
+    "player0.location.y",
+    "player0.location.z",
+    "player0.velocity.x",
+    "player0.velocity.y",
+    "player0.velocity.z",
+    "player1.location.x",
+    "player1.location.y",
+    "player1.location.z",
+    "player1.velocity.x",
+    "player1.velocity.y",
+    "player1.velocity.z",
+    "player2.location.x",
+    "player2.location.y",
+    "player2.location.z",
+    "player2.velocity.x",
+    "player2.velocity.y",
+    "player2.velocity.z",
+    "player3.location.x",
+    "player3.location.y",
+    "player3.location.z",
+    "player3.velocity.x",
+    "player3.velocity.y",
+    "player3.velocity.z"
+  ],
+  "probes": {
+    "model": "linear ridge with intercept",
+    "alphas": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "weights": "equal weight per match, sum weights=1",
+    "standardization": "discovery only, features and labels",
+    "selection": "minimize mean standardized30-target selection MSE per site; freeze global best site before confirmation",
+    "refit_with_selection": false,
+    "baselines": [
+      "discovery mean",
+      "codec per-view mean32D",
+      "optional per-view RGB8x8 descriptor192D",
+      "whole-match training-label shuffle with within-match row order preserved"
+    ],
+    "minimum_match_counts": [
+      30,
+      10,
+      10
+    ]
+  },
+  "reporting": {
+    "all_sites": true,
+    "all_targets": true,
+    "metrics": [
+      "raw-unit MAE",
+      "raw-unit RMSE",
+      "R2",
+      "standardized MSE"
+    ],
+    "uncertainty": "bootstrap independent matches; views and frames are repeated observations",
+    "significance": "confidence intervals descriptive; no family-wide physical or causal significance claim from all-site curves",
+    "causal_stage_gate": "confirmed candidate plus controlled-pair audit and independent generated-video physical evaluator; observational probe accuracy alone cannot satisfy this"
+  },
+  "later_stages": {
+    "causal_identification": "pending controlled-pair/evaluator gates",
+    "geometry": "not run",
+    "sparse_features": "not run",
+    "steering": "not run"
+  }
+}
