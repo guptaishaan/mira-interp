@@ -1,0 +1,20 @@
+{
+  "status": "passed_generated_publication_waiter_review",
+  "reviewer": "/root/capture_stage",
+  "review_type": "independent read-only source re-review",
+  "timestamp_unix": 1788769818.0329084,
+  "code_sha256": {
+    "scripts/watch_generated_publication.py": "bf9ee06eadde3a38fea511e3fbb0b858a38a59980257d8866048d3a3228a0835",
+    "tests/test_publication_waiter.py": "d677a03e51028bfacc4af6063224f0be7afe72906c07875f96ffc33062edf462"
+  },
+  "resolved_finding": "Owner-completed measurement audit SHA is returned by ready(), persisted immutably, checked before child launch, and required equal to package report/current audit after completion.",
+  "remaining_material_findings": [],
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/python -m pytest tests/test_publication_waiter.py -q",
+    "passed": 2,
+    "reported_seconds": 0.03
+  },
+  "prior_attempt": "results/publication_waiter_attempts/01_accepted_audit_hash",
+  "gpu_used": false,
+  "study_or_packager_modified": false
+}

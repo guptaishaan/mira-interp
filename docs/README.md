@@ -20,6 +20,7 @@ figures from the decoding work; the remaining experiments and checks are here.
 - [Review and repair](08_review_and_repair.md)
 - [What went wrong and which changes helped](13_diagnosis_and_repairs.md)
 - [Probes and causality](review/probes_and_causality.md), [geometry and sparse features](review/geometry_and_features.md), and [Anthropic methods](review/anthropic_and_model_audit.md)
+- Additional source reviews: [first 20 remaining pages](review/anthropic_extended_review_a.md) and [last 20](review/anthropic_extended_review_b.md)
 
 ## Exploratory causal work
 

@@ -25,6 +25,12 @@ It compared pooled and spatial readouts, absolute coordinates, and coordinates
 for the viewing player and ball relative to that player. The layer and ridge
 penalty were fixed before evaluating new matches.
 
+The spatial readout uses a fixed projection within a 3×4 grid. Its comparison
+with pooling tests these particular readouts; it does not rule out stronger
+spatial or object-localized methods. Twenty-four new match candidates were
+reserved using metadata, and 23 passed the unchanged data checks, with no
+replacement.
+
 On 23 new matches, the selected position probe reduced standardized error by
 80.9% relative to the fitting-set mean predictor. Player XYZ position R² was
 0.660 / 0.900 / 0.974; ball-relative XYZ was 0.520 / 0.694 / 0.926. Horizontal

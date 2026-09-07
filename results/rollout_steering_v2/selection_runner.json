@@ -1,0 +1,46 @@
+{
+  "status": "passed_generation_pending_independent_audit",
+  "phase": "selection",
+  "version": 2,
+  "assignments": [
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      1
+    ]
+  ],
+  "pid": 4125376,
+  "workers": [
+    {
+      "gpu": 6,
+      "worker_index": 0,
+      "pid": 4125399,
+      "process_group": 4125399,
+      "log": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection_worker0.log",
+      "exit_code": 0
+    },
+    {
+      "gpu": 7,
+      "worker_index": 1,
+      "pid": 4125400,
+      "process_group": 4125400,
+      "log": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection_worker1.log",
+      "exit_code": 0
+    }
+  ],
+  "started_unix": 1788767891.2620478,
+  "current_stage": null,
+  "aggregate": {
+    "gpu": null,
+    "kind": "aggregate",
+    "pid": 4169554,
+    "process_group": 4169554,
+    "log": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection_aggregate.log",
+    "exit_code": 0
+  },
+  "aggregate_exit_code": 0,
+  "elapsed_seconds": 1565.3290836811066
+}

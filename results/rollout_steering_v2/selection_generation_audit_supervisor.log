@@ -1,0 +1,39 @@
+{"phase": "selection", "audited_records": 42, "completed_match": "2026-05-09T10-15-51Z-b7fd20"}
+{"phase": "selection", "audited_records": 84, "completed_match": "2026-05-10T09-50-31Z-8f49f2"}
+{"phase": "selection", "audited_records": 126, "completed_match": "2026-05-10T23-26-14Z-67db4f"}
+{"phase": "selection", "audited_records": 168, "completed_match": "2026-05-14T03-11-22Z-090bf8"}
+{"phase": "selection", "audited_records": 210, "completed_match": "2026-05-14T22-34-33Z-a2015e"}
+{"phase": "selection", "audited_records": 252, "completed_match": "2026-05-15T03-56-59Z-e3a44c"}
+{"phase": "selection", "audited_records": 294, "completed_match": "2026-05-29T18-15-24Z-2b37eb"}
+{"phase": "selection", "audited_records": 336, "completed_match": "2026-05-29T18-26-16Z-a78ba5"}
+{"phase": "selection", "audited_records": 378, "completed_match": "2026-05-29T21-26-09Z-fa4c61"}
+{"phase": "selection", "audited_records": 420, "completed_match": "2026-05-30T04-09-19Z-e64537"}
+{
+  "status": "passed_rollout_generation_audit",
+  "phase": "selection",
+  "manifest_sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84",
+  "registration_sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101",
+  "script_sha256": "7e7fa2351ff0d97acc119e5b33f6d5471f1c0152c9887f81e1e1cb285d53c38a",
+  "n_records": 420,
+  "n_matches": 10,
+  "n_seeds": 2,
+  "complete_registered_grid": true,
+  "source_report_and_generated_hashes_verified": true,
+  "exact_action_conditioning_preserved": true,
+  "preintervention_sampler_inputs_bitwise_equal": true,
+  "fixed_context_latents_unchanged": true,
+  "all_stored_context_pixels_exact": true,
+  "all45_sampler_calls_validated": true,
+  "saved_tile_descriptor_lift_metrics_recomputed": true,
+  "source_labels_loaded": false,
+  "source_future_pixels_loaded": false,
+  "gpu_used": false,
+  "physical_control_established": false,
+  "independent_generated_accuracy_established": false,
+  "limits": [
+    "Discarded pilot controls verified by persisted hash equality and executed-code binding, not independently rerun.",
+    "Clipped pixel archives cannot reconstruct unclipped decoder values; raw hashes remain producer evidence when clipping occurred.",
+    "CPU lift recomputation allows one BF16 storage spacing and small FP32 reduction tolerances; this is an engineering integrity audit."
+  ],
+  "elapsed_seconds": 413.4505556002259
+}

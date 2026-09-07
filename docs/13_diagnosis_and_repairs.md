@@ -32,6 +32,16 @@ checks: consistent target movement, specificity, persistence, and a measurement
 method validated on edited generated video. The experiment can legitimately
 return a negative result. A positive hypothesis is not an execution gate.
 
+The additional primary-source reading identifies prospective controls rather
+than another demonstrated implementation bug. Norm-matched isotropic random
+edits do not account for activation covariance, and a readable state direction
+need not be a direction that produces that state. A focused follow-up would test
+covariance-matched controls and separate descriptor effects from the retained
+native complement under actual generation conditions. Those are new hypotheses;
+the current registered outcomes cannot select them and also confirm them. See
+the [first](review/anthropic_extended_review_a.md) and
+[second](review/anthropic_extended_review_b.md) extended reviews.
+
 Detailed evidence: [literature review](08_review_and_repair.md),
 [fresh decoding](11_fresh_confirmation_results.md),
 [exact causality](09_internal_causal_development.md),

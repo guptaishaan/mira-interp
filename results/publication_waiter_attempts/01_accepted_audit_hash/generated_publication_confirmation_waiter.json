@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "phase": "confirmation",
+  "pid": 4169838,
+  "started_unix": 1788769453.907893,
+  "fixed_bindings": {
+    "/ccn2/u/ishaangp/mira-interp/scripts/package_generated_outputs.py": "3da7aeb8ebd243fb55f5c7648f0eea769b0c2d2e3bae44b787dbabe53aa88256",
+    "/ccn2/u/ishaangp/mira-interp/src/mira_interp/array_storage.py": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+    "/ccn2/u/ishaangp/mira-interp/results/generated_publication_code_review.json": "e5ff850885f381eb41726b44133f50e298cd06edf04edaa896a7e3a19dfccbcc",
+    "/ccn2/u/ishaangp/mira-interp/scripts/watch_generated_publication.py": "80fc264416e822e5a9eac54abe7a16fb967bb56f1dc2ca18d346903bcbba1a7b"
+  },
+  "command": [
+    "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+    "/ccn2/u/ishaangp/mira-interp/scripts/package_generated_outputs.py",
+    "--phase",
+    "confirmation"
+  ],
+  "log_path": "/ccn2/u/ishaangp/mira-interp/results/generated_publication_confirmation_complete.log",
+  "gpu_used": false,
+  "upload_performed": false,
+  "elapsed_seconds": 275.69478952139616,
+  "heartbeat_unix": 1788769729.602683,
+  "error_type": "KeyboardInterrupt",
+  "error": "Publication watcher received signal 15"
+}

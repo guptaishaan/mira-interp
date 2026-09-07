@@ -1,0 +1,868 @@
+{
+  "status": "completed_selected_primary_source_review",
+  "review_completed_utc": "2026-09-07T08:34:15.563824+00:00",
+  "inventory_path": "results/review/anthropic_sources.json",
+  "inventory_sha256": "eae7d1971ba7cfd6d1a2b1bf2ac4727b49c1f5528bcdc06c7694cb6a98102fbc",
+  "inventory_unread_count": 40,
+  "assigned_original_unread_positions": [
+    21,
+    40
+  ],
+  "assigned_count": 20,
+  "retrieved_primary_pages": 20,
+  "all_http_success": true,
+  "all_assigned_urls_exact_and_in_original_order": true,
+  "original_inventory_modified": false,
+  "source_cache_manifest_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/fetch_manifest.json",
+  "source_cache_manifest_sha256": "d6c00a78deaa938d0ee76dca2934efc3e8b8d922cbb307bbb8cb03500efeb93f",
+  "source_cache_publication": "Private only; full copyrighted source text and HTML are not republished.",
+  "coverage_limit": "Selected methods, controls and limitations; no exhaustive appendix, equation, reference, interactive or implementation claim.",
+  "new_experiments_run": false,
+  "gpus_used": false,
+  "current_rollout_selection_or_confirmation_outcomes_inspected": false,
+  "frozen_study_files_modified": false,
+  "recommendations_are_prospective_development_hypotheses": true,
+  "new_implementation_bug_established_by_literature": false,
+  "local_evidence_sha256": {
+    "docs/review/sparse_causal_fidelity.md": "4cedbb9553cf6cce3e5dd5eb01c8a7f883406a74954e5d7b1291f85b7168f97b",
+    "results/sparse_causal_fidelity_v1/fidelity_results.json": "0c6787a0e1e4ffc1fb16824dbba8af8d65f43d14e4862043bec1b0a612a1a62c",
+    "results/sparse_causal_fidelity_v1/fidelity_audit.json": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2",
+    "configs/feature_development_v1.json": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+    "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
+    "src/mira_interp/rollout_steering.py": "079449ebb0be88c57d1d0bdbdade20b2e106946ef35912c29a86376ddd61334c",
+    "docs/review/anthropic_extended_review_b.md": "ee5be7f65ad12e7470337153dde3faa1e8bb869a0603eab721d00af96f0b29d3"
+  },
+  "key_diagnoses": [
+    "Readable state versus output-driving computation",
+    "Retained native complement can dominate conditional reconstruction fidelity",
+    "Routing, context and entity-role binding",
+    "Measurement validity distinct from numerical reproducibility",
+    "Reconstruction and sparse training budget distinct from mechanism or convergence",
+    "Projected geometry distinct from a causal manifold"
+  ],
+  "selection_safeguard": "Do not change the active registered study or select new hypotheses using current confirmation. New choices require development-only data and new untouched confirmation.",
+  "records": [
+    {
+      "url": "https://transformer-circuits.pub/2024/feb-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/feb-update/index.html",
+      "http_status": 200,
+      "html_sha256": "737eaaa4f9c8dd27b388fdb15648606491f767d937974cc59bf526778c2fec30",
+      "text_sha256": "99491be93b013f5b3f302dffbeba8f1dbdb768d4e0f3c85eac51fc3fc2476c3c",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__feb-update__index.html.txt",
+      "text_lines": 76,
+      "title": "Circuits Updates - February 2024",
+      "headings": [
+        "Circuits Updates - February 2024",
+        "Dying Features in Dictionary Learning",
+        "Improvements to Dictionary Learning",
+        "Ghost Grads Update",
+        "Tanh Penalty in Dictionary Learning"
+      ],
+      "review_id": "B01",
+      "original_unread_position": 21,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          76
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Dying features, ghost gradients, and tanh penalties. Better sparsity/loss can accompany harder-to-interpret features. Several optimizer recommendations were subsequently revised.",
+      "limitations": "Early optimizer recommendations were subsequently revised in March2024.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/jan-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/jan-update/index.html",
+      "http_status": 200,
+      "html_sha256": "cb172d94f2c9a04c93820ac6293e386ce1265c20a131f27bf9a236b2f9103c71",
+      "text_sha256": "a37596d119f1536076a21b7ac8aaee373264a1336edb91a7be526a21e51e21ae",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__jan-update__index.html.txt",
+      "text_lines": 317,
+      "title": "Circuits Updates - January 2024",
+      "headings": [
+        "Circuits Updates - January 2024",
+        "Interpretability Team Priorities",
+        "Further investigation of attention superposition",
+        "Can dictionary learning uncover sparse features in an MNIST model?",
+        "Features in an 8-layer Model",
+        "Multilingual Features in Large Models",
+        "Ghost Grads: An improvement on resampling",
+        "Counterexamples in Superposition",
+        "Predicting Future Activations",
+        "Random Open Problems",
+        "New Comment Digest",
+        "Research By Other Groups"
+      ],
+      "review_id": "B02",
+      "original_unread_position": 22,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "MNIST dictionaries, counterexamples to sparse-feature intuition, and prediction of future activations. Sparse or downstream-useful units need not identify unique underlying concepts.",
+      "limitations": "Toy/small-model results do not prove unique factor recovery; optimization advice was subsequently revised.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/march-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/march-update/index.html",
+      "http_status": 200,
+      "html_sha256": "f05f2b1a421f43a153eea3225f8973f3f0d91efdec1da4b5be97a4f340a4a15e",
+      "text_sha256": "f05a1e12add7ffd5f6d9a0b4d7a4c9ba9576e0698968f05311405e416adb3587",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__march-update__index.html.txt",
+      "text_lines": 179,
+      "title": "Circuits Updates - March 2024",
+      "headings": [
+        "Circuits Updates - March 2024",
+        "Using Features For Easy Circuit Identification",
+        "Detecting Important Features with Attribution",
+        "Detecting Attention Heads that Act on Features",
+        "Update on Dictionary Learning Improvements",
+        "Research By Other Groups"
+      ],
+      "review_id": "B03",
+      "original_unread_position": 23,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          11,
+          87
+        ],
+        [
+          152,
+          170
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Discriminative feature attribution, attention output/value effects, revised optimizer advice, and attribution limitations. Exact interventions remain necessary when gradients miss nonlinear effects.",
+      "limitations": "Some attribution discussion summarizes other groups; their linked papers were not all independently reviewed here.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/model-diffing/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/model-diffing/index.html",
+      "http_status": 200,
+      "html_sha256": "2073f6371fd2ee7b6a06442349db6d465d8b48262c996f4ae8b3c6ba9b828369",
+      "text_sha256": "3153ee9686c5dbb8eec383e61358464348c3c53ad38d7dcf68656376c377bd7f",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__model-diffing__index.html.txt",
+      "text_lines": 205,
+      "title": "Stage-Wise Model Diffing",
+      "headings": [
+        "Stage-Wise Model Diffing",
+        "Method",
+        "Controlling for changes to the Data and the Model",
+        "Discussion, Limitations, and Future Directions",
+        "Appendix"
+      ],
+      "review_id": "B04",
+      "original_unread_position": 24,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          60
+        ],
+        [
+          81,
+          114
+        ],
+        [
+          180,
+          189
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Model/data factorial controls and limitations. Data changes alone can produce apparently meaningful feature changes; representation change is not automatically computational change.",
+      "limitations": "Representation rotation and data-only feature changes limit specificity; shared architecture/data assumptions apply.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": true
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/qualitative-essay/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/qualitative-essay/index.html",
+      "http_status": 200,
+      "html_sha256": "da78ddc2d73f1eb007cd6e2b293a75a7348d07d1778bf951ee48405ffbc022e5",
+      "text_sha256": "bdc40b01c4ba217ee4e0e957f161f6d7dd394cc0ce72ade4e55a02de81b87b7b",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__qualitative-essay__index.html.txt",
+      "text_lines": 118,
+      "title": "Reflections on Qualitative Research",
+      "headings": [
+        "Reflections on Qualitative Research",
+        "Summary Statistics and Their Dangers",
+        "Rigor and The Signal of Structure",
+        "Additional Reading"
+      ],
+      "review_id": "B05",
+      "original_unread_position": 25,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          5,
+          105
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Main essay on summary statistics, visual structure, and rigor. Qualitative counterexamples can expose a defective metric; attractive structure can come from inputs.",
+      "limitations": "Methodological essay, not a controlled model experiment; attractive or cherry-picked images remain weak evidence.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": true
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/september-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/september-update/index.html",
+      "http_status": 200,
+      "html_sha256": "94b4b00ed59de2d741ad17eea9a422f359685df043a9fb1bc6a528f2ddc464a9",
+      "text_sha256": "9c83094d99406a8e4de9832770bf28e87263bfbc2d280e5b1bcb056d0b9b3824",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2024__september-update__index.html.txt",
+      "text_lines": 52,
+      "title": "Circuits Updates - September 2024",
+      "headings": [
+        "Circuits Updates - September 2024",
+        "Investigating successor heads",
+        "Weight inspection: output-value circuit",
+        "Independent Components Analysis",
+        "Ablation Studies",
+        "Attribution analysis",
+        "Conclusion",
+        "Oversampling a Topic in the SAE Training Set Results in More Detailed Features Related to that Topic"
+      ],
+      "review_id": "B06",
+      "original_unread_position": 26,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          52
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Successor-head triangulation and topic oversampling. Weight inspection, ablation, and attribution need not rank all heads alike; training distribution changes dictionary coverage.",
+      "limitations": "Attribution agreement is incomplete; dictionary coverage depends on training distribution.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/april-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/april-update/index.html",
+      "http_status": 200,
+      "html_sha256": "55b48de83c5814c506e690fb914f9f8d18eb976ec15d18e46e6d3514f7329d94",
+      "text_sha256": "5fcdb8fc7834851992668ae1ad0bfbf26892df6943a56e62bca019b499b5c737",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__april-update__index.html.txt",
+      "text_lines": 276,
+      "title": "Circuits Updates - April 2025",
+      "headings": [
+        "Circuits Updates - April 2025",
+        "Life of an unsuccessful jailbreak",
+        "An Unsuccessful Jailbreak",
+        "Appendix: Feature visualizations over narrow datasets",
+        "Interpretable dense features",
+        "So You Want to Work in Mechanistic Interpretability?",
+        "So You\u2019ve Worked in Engineering",
+        "So You\u2019ve Worked in Research",
+        "Resources",
+        "Next Steps"
+      ],
+      "review_id": "B07",
+      "original_unread_position": 27,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Jailbreak case, narrow feature visualizations, and dense features. Negative examples and unresolved error terms matter. Dense activity does not by itself imply uninterpretable structure.",
+      "limitations": "Narrow cases and unresolved error terms constrain completeness; careers material was not reviewed.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/attention-update/index.html",
+      "http_status": 200,
+      "html_sha256": "4249a2842f8e20cf83e3df234bfb649850302439e260bf0a79ba70dab48126ce",
+      "text_sha256": "63bba64abfdbb8f593dd1fb0f756f17355f8b7ddf832e4fe96a02061eb3343e2",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__attention-update__index.html.txt",
+      "text_lines": 215,
+      "title": "Progress on Attention",
+      "headings": [
+        "Progress on Attention",
+        "Factoring the Problem",
+        "Approaches",
+        "Conclusion and Outlook"
+      ],
+      "review_id": "B08",
+      "original_unread_position": 28,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          70
+        ],
+        [
+          85,
+          215
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Attention factorization, mixture approaches, and limitations. Query/key routing and output/value content interact; output dictionaries do not explain how attention patterns form.",
+      "limitations": "Query/key approximations and component restrictions can fail; reconstruction advantages are not complete mechanisms.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/august-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/august-update/index.html",
+      "http_status": 200,
+      "html_sha256": "22e33be9d9e125e7ce0c445d00d692c8f50e46f6eeaa02162c4085045d6461a5",
+      "text_sha256": "7a4bd100a517f229bb0e264e31aaf9713c14c12d8561488ed143bb03939171c9",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__august-update__index.html.txt",
+      "text_lines": 38,
+      "title": "Circuits Updates - August 2025",
+      "headings": [
+        "Circuits Updates - August 2025",
+        "Circuit Vignette: How does a persona\u00a0modify the Assistant\u2019s response?"
+      ],
+      "review_id": "B09",
+      "original_unread_position": 29,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          38
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Persona circuit vignette. Context-dependent effects and unusually strong interventions motivate checking missing components, intervention norms, and collateral changes.",
+      "limitations": "One narrow vignette with context dependence and large interventions.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/bulk-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/bulk-update/index.html",
+      "http_status": 200,
+      "html_sha256": "21694dd974d4af4f634af1f453b32c5f92a05e2ea5fc24571ced8472f1b4f94f",
+      "text_sha256": "8d59197d66e5e155d54de568458c762b80cd5132093afa2ff806fc447e1fcdb1",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__bulk-update__index.html.txt",
+      "text_lines": 204,
+      "title": "Sparse mixtures of linear transforms",
+      "headings": [
+        "Sparse mixtures of linear transforms",
+        "Implementation",
+        "Related Work",
+        "Intuition",
+        "Results",
+        "Conclusion"
+      ],
+      "review_id": "B10",
+      "original_unread_position": 30,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Low-rank gated transforms, reconstruction/Jacobian comparisons, and interference. Coordinate reconstruction and preservation of local computation are distinct tests.",
+      "limitations": "Feature interactions remain difficult; model settings differ across reconstruction/Jacobian comparisons; not all equations inspected.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html",
+      "http_status": 200,
+      "html_sha256": "d5011e81be7f63baab673d63892c4547b677670bfbfa8dae77ffabf867fdd8cf",
+      "text_sha256": "744285f9b5983c6a5a26ad2cf2bc19c421612b5ce15eced4c90b6f9ecceeb01f",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__crosscoder-diffing-update__index.html.txt",
+      "text_lines": 109,
+      "title": "Insights on Crosscoder Model Diffing",
+      "headings": [
+        "Insights on Crosscoder Model Diffing",
+        "Introduction and summary",
+        "Empirical observations when diffing real models",
+        "A toy model of crosscoder diffing",
+        "A small variation can render interpretable model-exclusive features",
+        "Conclusions and outlook"
+      ],
+      "review_id": "B11",
+      "original_unread_position": 31,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Shared-feature bias, toy model, and penalty modification. Shared support can win for objective-related reasons; apparent exclusivity depends on the dictionary objective.",
+      "limitations": "Exclusivity depends on the objective; representation differences need not explain behavior.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/introspection/index.html",
+      "http_status": 200,
+      "html_sha256": "4ee698ebe1f4f9c6d9c76fd981e286acf8ce73d825936bf4195955e5dd7f6dcd",
+      "text_sha256": "016920a5fb09d4cda15f51b81939492f8fc3ea3defe8af490d035f3f80202e12",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__introspection__index.html.txt",
+      "text_lines": 791,
+      "title": "Emergent Introspective Awareness in Large Language Models",
+      "headings": [
+        "Emergent Introspective Awareness in Large Language Models",
+        "Author",
+        "Affiliations",
+        "Published",
+        "Introduction",
+        "Quick Tour of Main Experiments",
+        "Defining Introspection",
+        "Methods Notes",
+        "Self-report of Injected \u201cThoughts\u201d",
+        "Experimental Setup",
+        "Systematic Extraction of Concept Vectors",
+        "Failure Modes",
+        "Comparison Across Layers",
+        "Controlling for systematic biases due to injection",
+        "Comparison Across Injected Concepts",
+        "Comparison Across Models",
+        "Alternative Prompts",
+        "Distinguishing Prior \u201cThoughts\u201d from Text Inputs",
+        "Distinguishing Intended from Unintended Outputs via Introspection",
+        "Intentional Control of Internal States",
+        "Experimental Setup",
+        "Comparison across Layers, Models, and Prompts",
+        "Related work",
+        "Discussion",
+        "Recap",
+        "Limitations and Future Work",
+        "Possible Mechanisms",
+        "Implications",
+        "Revision log",
+        "Citation Information",
+        "Acknowledgments",
+        "Injected Thoughts: Additional Details",
+        "Distinguishing Thoughts from Text: Additional Details",
+        "Distinguishing Unintended from Intended Outputs: Additional Details",
+        "Intentional Control: Additional Details"
+      ],
+      "review_id": "B12",
+      "original_unread_position": 32,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          144,
+          226
+        ],
+        [
+          431,
+          469
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Concept-vector construction, strength/layer controls, failures, and limitations. Injection can influence outputs through confounds; downstream behavior alone does not uniquely identify the injected concept.",
+      "limitations": "Artificial vectors, prompt dependence and contamination constrain interpretation; no MIRA introspection claim.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/january-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/january-update/index.html",
+      "http_status": 200,
+      "html_sha256": "a7725beb7b6525d586fe82d28dab44bc0f8fb147fb0dbdd162e117d7f95013af",
+      "text_sha256": "f42a11826c6d8946c71548dc088d54aca5e03cc31029a37862b46635e0fd60b3",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__january-update__index.html.txt",
+      "text_lines": 121,
+      "title": "Circuits Updates - January 2025",
+      "headings": [
+        "Circuits Updates - January 2025",
+        "Dictionary Learning Optimization Techniques"
+      ],
+      "review_id": "B13",
+      "original_unread_position": 33,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          121
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Dictionary optimization recipe, global normalization, initialization, and schedules. A later empirical recipe is not a fully ablated universal default.",
+      "limitations": "Recipe not extensively ablated; dataset normalization differs from some global-RMS definitions.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/july-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/july-update/index.html",
+      "http_status": 200,
+      "html_sha256": "389eba27ae28e36a8dd200831133cd60ed444a65f38c319d3868d141a857e2fc",
+      "text_sha256": "7f58a275b0319b8b4beafa113642098e091a5eed8cf1a47cd08039bb7403ef87",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__july-update__index.html.txt",
+      "text_lines": 249,
+      "title": "Circuits Updates - July 2025",
+      "headings": [
+        "Circuits Updates - July 2025",
+        "Revisiting A Mathematical Framework with the Language of Features",
+        "Applications of Interpretability to Biology",
+        "The Black Box Problem in Biological AI",
+        "Sparse Autoencoders in Biology",
+        "An Example: Finding Missing Protein Annotations",
+        "Discovering Evolutionary Relationships Through Features",
+        "A Spectrum of Discoveries: From Protein Motifs to Cellular Dynamics",
+        "Cross Study Findings",
+        "Technical Advances and Applications",
+        "Advanced Interpretability: From Features to Circuits",
+        "Challenges and Measured Optimism",
+        "Practical Next Steps",
+        "References"
+      ],
+      "review_id": "B14",
+      "original_unread_position": 34,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          84
+        ],
+        [
+          165,
+          234
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Input versus output feature language and domain-validation discussion. Reading an entity/state and producing it are different computational roles. Biology examples are secondary summaries here.",
+      "limitations": "Biological examples summarize other papers not independently reviewed for this entry.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/november-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/november-update/index.html",
+      "http_status": 200,
+      "html_sha256": "39c649f6a99762580519a040ca2e5a629601c369113a622af8cc1502d580d3d2",
+      "text_sha256": "691dcf71398d6c704cc9adfc3444b9beb8b7b13e1fdd22c92cf0a37800a88381",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__november-update__index.html.txt",
+      "text_lines": 75,
+      "title": "Circuits Updates - November 2025",
+      "headings": [
+        "Circuits Updates - November 2025",
+        "Interpreting Harm Pressure in Multiple-Choice Question Settings"
+      ],
+      "review_id": "B15",
+      "original_unread_position": 35,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Multiple-choice case with attention competition and query/key interventions. Information can remain represented while routing prevents its use; a single case does not establish a general circuit.",
+      "limitations": "One case with unresolved contributions; no automatic transfer to physical generation.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/october-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/october-update/index.html",
+      "http_status": 200,
+      "html_sha256": "41f052341d29976cd4f740dbef9a1020fbbd1122db43afdd3fc950dc026405d7",
+      "text_sha256": "c0200d7c4d6ac7926a777b7b8c1ffb4f55014dbafd5472f553033159dd01c41e",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__october-update__index.html.txt",
+      "text_lines": 136,
+      "title": "Circuits Updates - October 2025",
+      "headings": [
+        "Circuits Updates - October 2025",
+        "Visual Features Across Modalities: SVG and ASCII Art Reveal Cross-Modal Understanding",
+        "Data Point Initialization for Dictionary Models",
+        "Method",
+        "Results"
+      ],
+      "review_id": "B16",
+      "original_unread_position": 36,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          4,
+          136
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Perceptual versus generation features, and data-point initialization. Directions useful for recognizing content may be weaker controls than output-related directions.",
+      "limitations": "ASCII/SVG language-model generation, not pixel-video experiments; upstream generation mechanisms partly unresolved.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": true
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/september-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2025/september-update/index.html",
+      "http_status": 200,
+      "html_sha256": "58f95c124a63a4ebd7aa2c4297e1335621ffa7ff3a5e6872de5f100611eddad1",
+      "text_sha256": "c6277c9dd50586451bcea4bc0a254db5eecf22f1506982e86d82264fe57acaee",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2025__september-update__index.html.txt",
+      "text_lines": 24,
+      "title": "Circuits Updates - September 2025",
+      "headings": [
+        "Circuits Updates - September 2025",
+        "Features & In-context learning"
+      ],
+      "review_id": "B17",
+      "original_unread_position": 37,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          1,
+          24
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Context-length effects with first/last sentence and unrelated-text controls. Feature overlap can depend on accumulated context rather than a static concept identity.",
+      "limitations": "Context overlap result is task/model specific, not a universal static representation.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2026/emotions/index.html",
+      "http_status": 200,
+      "html_sha256": "4d1ffdad3203e99b9a579360b70da98630a499d9e2acb6f5d5249f1196ebec3c",
+      "text_sha256": "5a681ca51c5553b3baa71755f3f12a9990f582b41cd017b31b881135ed6635de",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2026__emotions__index.html.txt",
+      "text_lines": 4061,
+      "title": "Emotion Concepts and their Function in a Large Language Model",
+      "headings": [
+        "Emotion Concepts and their Function in a Large Language Model",
+        "Emotion Concepts and their Function in a Large Language Model",
+        "Authors",
+        "Affiliations",
+        "Published",
+        "Introduction",
+        "Part 1: Identifying and validating emotion concept representations",
+        "Finding emotion vectors",
+        "Emotion vectors activate in expected contexts",
+        "Emotion vectors reflect and influence self-reported model preferences",
+        "Part 2: Detailed characterization of emotion concept representations",
+        "The geometry of emotion space",
+        "What do emotion vectors represent?",
+        "Distinct representations of present and other\u00a0speakers\u2019 emotions",
+        "Recap of findings about emotion representations",
+        "Part 3: Emotion vectors in the wild",
+        "Short case studies in naturalistic settings",
+        "Case study: blackmail",
+        "Case study: reward hacking",
+        "Case study: sycophancy and harshness",
+        "Emotion vector activations across post-training",
+        "Recap of findings about emotions in the wild",
+        "Related work",
+        "Discussion",
+        "Limitations",
+        "Emotion representations and character simulation",
+        "Relationship to human emotions",
+        "Training models for healthier psychology",
+        "Conclusion",
+        "Appendix",
+        "Citation Information",
+        "Acknowledgements",
+        "Author contributions",
+        "Full list of emotions",
+        "Dataset generation",
+        "Examples from emotional stories dataset",
+        "Emotion vector activations\u00a0on emotional stories dataset",
+        "Causal effects on the emotional content of model continuations",
+        "Activity preferences: Elo ratings and emotion probe values",
+        "Activity preferences: additional details",
+        "Emotion vector projections onto top principal components",
+        "Ratings of valence and arousal by an LLM judge compared to human ratings",
+        "Interactions between present and other speaker emotions",
+        "Investigating \u201cemotion deflection\u201d vectors",
+        "System prompts used to generate emotion deflection datasets",
+        "Detailed top activating examples for emotion deflection probe",
+        "Comparison of story and present speaker probes on implicit emotional content",
+        "Emotion vector activation on additional naturalistic transcripts",
+        "Full steered transcripts from blackmail evaluation",
+        "Full set of differences between the post-trained and base models",
+        "Emotion probe differences on the base and post-trained model across layers",
+        "Activity preferences and emotion vector activations for the base model"
+      ],
+      "review_id": "B18",
+      "original_unread_position": 38,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          86,
+          110
+        ],
+        [
+          239,
+          313
+        ],
+        [
+          460,
+          494
+        ],
+        [
+          896,
+          906
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Contrastive vectors, geometry, speaker roles, and limitations. Shared-looking geometry can have distinct role-bound directions; linear probes and synthetic elicitation can miss or confound structure.",
+      "limitations": "Linear assumptions, synthetic elicitation, nuisance correlations and opaque mechanisms constrain concept identification.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2026/headvis/index.html",
+      "http_status": 200,
+      "html_sha256": "0745fcb190d178d3b90550b556b89a2e7b88229c132ac2de74ee1eed2d26d7be",
+      "text_sha256": "0e27fd0ce708fd5bc6b56aaec2bad3e5cac804a73f67e9b28d4f2d1dd36bfcc5",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2026__headvis__index.html.txt",
+      "text_lines": 433,
+      "title": "HeadVis: An Interactive Tool For Investigating Attention Heads",
+      "headings": [
+        "HeadVis: An Interactive Tool For Investigating Attention Heads",
+        "Authors",
+        "Affiliations",
+        "Published",
+        "Introduction",
+        "Fuzzy Induction",
+        "A Polysemantic Attention Head",
+        "Answer Selection",
+        "Same-Set Suppression",
+        "Open Source HeadVis",
+        "Related Work",
+        "Discussion"
+      ],
+      "review_id": "B19",
+      "original_unread_position": 39,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          25,
+          76
+        ],
+        [
+          124,
+          169
+        ],
+        [
+          204,
+          234
+        ],
+        [
+          360,
+          415
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Selected head examples, physical-value-like sweeps, and discussion. Broad/narrow distributions and competing attention candidates expose failures that individual examples miss. Interactive UI/code not reviewed.",
+      "limitations": "High-rank polysemanticity need not be superposition; interactive UI and source implementation not exercised.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/nla/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2026/nla/index.html",
+      "http_status": 200,
+      "html_sha256": "19226ce249f79f40f99dd82bf84da6b8d44545eb06b155b27b1c01d022c67dd8",
+      "text_sha256": "06d39f64c7d70c119d688d3c47775bb3c0138f0fe062107f0a33a7dbdf89e7e7",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_b/2026__nla__index.html.txt",
+      "text_lines": 1572,
+      "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+      "headings": [
+        "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+        "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+        "Authors",
+        "Affiliations",
+        "Published",
+        "Introduction",
+        "Related work",
+        "Method",
+        "Architecture",
+        "Initializing the AV and AR",
+        "NLA training",
+        "Case Studies",
+        "Planning in Poetry",
+        "Language Switching",
+        "Misreported Tool Calls",
+        "Reasoning about Rewards",
+        "Evaluating NLAs during training",
+        "NLA evaluations improve with training",
+        "Measuring behavioral properties of NLAs",
+        "Characterizing NLA confabulations",
+        "NLAs can detect unverbalized evaluation awareness",
+        "NLAs are competitive on a downstream auditing task",
+        "Using NLAs for supervised activation oracle training",
+        "Discussion and Limitations",
+        "Future Work",
+        "Appendix",
+        "Citation information",
+        "Acknowledgements",
+        "Author contributions",
+        "Additional methods details",
+        "Planning in Poetry steering details",
+        "Additional reasoning about rewards case study evidence",
+        "Answer Thrashing",
+        "Details on our evaluation awareness steering procedure",
+        "Automated auditing case studies on Opus 4.6",
+        "Additional details for unverbalized evaluation awareness",
+        "Auditing a reward-sycophancy model organism",
+        "PastLens-initialized activation oracle regressions",
+        "Open model NLAs appendix"
+      ],
+      "review_id": "B20",
+      "original_unread_position": 40,
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "inspected_local_text_line_ranges": [
+        [
+          126,
+          265
+        ],
+        [
+          605,
+          671
+        ],
+        [
+          875,
+          919
+        ]
+      ],
+      "line_range_scope": "Only ranges recorded during local text inspection are listed. Empty means section-scoped web/text inspection; not entire-page coverage.",
+      "inspected_sections_and_mira_relevance": "Architecture, training overview, behavioral evaluations, confabulations, and limitations. Unsupervised text explanations require causal/negative controls and do not replace physical-state ground truth.",
+      "limitations": "Explanations can confabulate; one-layer coverage and training cost constrain applicability.",
+      "all_appendices_read": false,
+      "linked_implementations_executed": false,
+      "retrieval": "Web browsing plus direct primary-publisher HTTP retrieval; private hash-bound cache",
+      "web_parser_fallback_required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/ccn2/u/ishaangp/mira-interp/scripts/watch_generated_publication.py", line 132, in <module>
+    main()
+  File "/ccn2/u/ishaangp/mira-interp/scripts/watch_generated_publication.py", line 95, in main
+    time.sleep(args.poll_seconds)
+  File "/ccn2/u/ishaangp/mira-interp/scripts/watch_generated_publication.py", line 82, in interrupted
+    raise KeyboardInterrupt(f'Publication watcher received signal {signum}')
+KeyboardInterrupt: Publication watcher received signal 15

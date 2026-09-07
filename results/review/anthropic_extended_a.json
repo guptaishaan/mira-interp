@@ -1,0 +1,815 @@
+{
+  "status": "completed_primary_source_extension",
+  "checked_utc": "2026-09-07T08:26:35.444384+00:00",
+  "original_inventory_path": "/ccn2/u/ishaangp/mira-interp/results/review/anthropic_sources.json",
+  "original_inventory_sha256": "eae7d1971ba7cfd6d1a2b1bf2ac4727b49c1f5528bcdc06c7694cb6a98102fbc",
+  "selection_rule": "First 20 exact original index-inventory-only records, preserving original order",
+  "selected_count": 20,
+  "downloaded_count": 20,
+  "inspected_primary_pages": 20,
+  "technical_or_conceptual_pages": 17,
+  "other_pages": {
+    "research_thread_landing_page": 1,
+    "editorial": 1,
+    "video_landing_page": 1
+  },
+  "all_anthropic_read": false,
+  "all_embedded_or_linked_content_read": false,
+  "original_inventory_mutated": false,
+  "source_download_manifest": {
+    "path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/download_manifest.json",
+    "sha256": "09c899247bdfb6b700e3ac29da2ab24423f804dbea480e481ba82bfad8da0a12",
+    "extraction": "BeautifulSoup; remove script/style/nav; headings/paragraphs/list-items/captions; whitespace normalized; omit nested duplicate paragraphs"
+  },
+  "sources": [
+    {
+      "inventory_order": 1,
+      "url": "https://alignment.anthropic.com/2025/activation-oracles/",
+      "resolved_url": "https://alignment.anthropic.com/2025/activation-oracles/",
+      "http_status": 200,
+      "title": "Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers",
+      "fetched_utc": "2026-09-07T08:19:41.563900+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/01__2025__activation-oracles.html",
+      "html_sha256": "5375744b98e86a879c156707aeada14978a36aec61d4ee47d2f949230217b4db",
+      "html_bytes": 26176,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/01__2025__activation-oracles.txt",
+      "text_sha256": "32eecec8b6fc5472d34e63a5554c2ae782bf1e070cd9926b47b48ea45a8a3c8f",
+      "text_characters": 14047,
+      "text_lines": 48,
+      "source_id": "A01",
+      "source_kind": "technical_primary_blog",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          48
+        ]
+      ],
+      "coverage_detail": "Activation-injection QA, evaluation generalization, training-data scaling, and explicit non-mechanistic limitations.",
+      "methods_or_content": "Trains a language model to answer questions about injected target-model activations, then tests transfer to auditing tasks.",
+      "limitations": "The explainer can construct an inference absent from the target, confabulate, and cannot establish representation geometry or computational mechanism.",
+      "mira_implication_inference": "An expressive explainer would be an additional readout, not evidence that MIRA uses a physical coordinate."
+    },
+    {
+      "inventory_order": 2,
+      "url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "resolved_url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "http_status": 200,
+      "title": "Building and evaluating alignment auditing agents",
+      "fetched_utc": "2026-09-07T08:19:41.605735+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/02__2025__automated-auditing.html",
+      "html_sha256": "12660a7314eb50f8d076bba60d000f5d89007bdaaef526e036a70c1d3f47da81",
+      "html_bytes": 130589,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/02__2025__automated-auditing.txt",
+      "text_sha256": "bbae676799818af6609f3796546286ee4dc31c123d5ed98689dd26be4bd9df3c",
+      "text_characters": 87318,
+      "text_lines": 443,
+      "source_id": "A02",
+      "source_kind": "technical_primary_blog",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          5,
+          26
+        ],
+        [
+          45,
+          54
+        ],
+        [
+          80,
+          87
+        ],
+        [
+          118,
+          128
+        ],
+        [
+          152,
+          159
+        ],
+        [
+          234,
+          247
+        ]
+      ],
+      "coverage_detail": "Main experimental design, selected agent/tool comparisons and discussion, common limitations; appendix not read.",
+      "methods_or_content": "Tests auditing agents against implanted behaviors and compares access to tools across repeated investigations.",
+      "limitations": "Synthetic issues, development/test contamination, early-hypothesis fixation and unrealistic generated evaluations limit transfer.",
+      "mira_implication_inference": "Preserve independent checks and explicit alternative hypotheses; successful automation does not certify scientific coverage."
+    },
+    {
+      "inventory_order": 3,
+      "url": "https://distill.pub/2020/circuits/",
+      "resolved_url": "https://distill.pub/2020/circuits/",
+      "http_status": 200,
+      "title": "Thread: Circuits",
+      "fetched_utc": "2026-09-07T08:19:41.547496+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/03__2020__circuits.html",
+      "html_sha256": "8d5517c657517b9071559c0c69c11d09c90e0f6b968fcf32688dc4ea7e3d216c",
+      "html_bytes": 66661,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/03__2020__circuits.txt",
+      "text_sha256": "0c3435f74f2af5f2525401034a1f25f08d7b2d242dec60e4c09d0898fdfe935d",
+      "text_characters": 7705,
+      "text_lines": 104,
+      "source_id": "A03",
+      "source_kind": "research_thread_landing_page",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          19,
+          95
+        ]
+      ],
+      "coverage_detail": "Landing-page framing, article summaries and thread-format caveat only; linked articles not read.",
+      "methods_or_content": "Organizes detailed investigations of features, connections, and recurring vision-model structures.",
+      "limitations": "This is an exploratory collection index; its summaries do not substitute for evidence in each linked article.",
+      "mira_implication_inference": "Family structure motivates entity-conditioned studies, but this landing page adds no MIRA-specific validation."
+    },
+    {
+      "inventory_order": 4,
+      "url": "https://distill.pub/2021/distill-hiatus/",
+      "resolved_url": "https://distill.pub/2021/distill-hiatus/",
+      "http_status": 200,
+      "title": "Distill Hiatus",
+      "fetched_utc": "2026-09-07T08:19:41.548027+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/04__2021__distill-hiatus.html",
+      "html_sha256": "4c0b2a830d48fabf13b4b6a48cff8c6581505a5bf23d245b85feeb9926c64663",
+      "html_bytes": 43669,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/04__2021__distill-hiatus.txt",
+      "text_sha256": "9ba288b3aa5591ffdb385f97dafe64503ddea1f572913b6d4b20bbb7e88e14f0",
+      "text_characters": 16372,
+      "text_lines": 66,
+      "source_id": "A04",
+      "source_kind": "editorial",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          42
+        ]
+      ],
+      "coverage_detail": "Publication/editorial rationale only; not a technical model study.",
+      "methods_or_content": "Explains Distill publishing and mentoring tradeoffs and its announced hiatus.",
+      "limitations": "Contains no model experiment or interpretability-method comparison.",
+      "mira_implication_inference": "No new technical diagnosis; clear reproducible publication remains useful."
+    },
+    {
+      "inventory_order": 5,
+      "url": "https://transformer-circuits.pub/2021/exercises/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2021/exercises/index.html",
+      "http_status": 200,
+      "title": "Transformer Circuit Exercises",
+      "fetched_utc": "2026-09-07T08:19:41.623289+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/05__2021__exercises__index.html.html",
+      "html_sha256": "95e40b8cdaa16bd1a77b66c15250b844f809eabbf2d30b03920de63627a12f6d",
+      "html_bytes": 818751,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/05__2021__exercises__index.html.txt",
+      "text_sha256": "67a1185576c69c46a93554f1558417db8daeb5eb6ce22d48e287852ea3024a80",
+      "text_characters": 13616,
+      "text_lines": 77,
+      "source_id": "A05",
+      "source_kind": "educational_exercises",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          35
+        ]
+      ],
+      "coverage_detail": "Introduction and exercise statements; solutions, notebooks and parameter implementations not executed.",
+      "methods_or_content": "Constructs attention-head weights for copying, virtual-head composition and induction algorithms.",
+      "limitations": "Hand-built pedagogical mechanisms are not recovered circuits in a trained video model.",
+      "mira_implication_inference": "Useful for validating hook and routing intuition, not for inferring that MIRA contains the same algorithm."
+    },
+    {
+      "inventory_order": 6,
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "http_status": 200,
+      "title": "A Mathematical Framework for Transformer Circuits",
+      "fetched_utc": "2026-09-07T08:19:41.776230+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/06__2021__framework__index.html.html",
+      "html_sha256": "5b072df765d9dc659068841083d1b1e6012f04ad37f9ea62c11908b30eb61350",
+      "html_bytes": 6426186,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/06__2021__framework__index.html.txt",
+      "text_sha256": "9238b3a747cd477c3117958774fed9c8f65b78316a27dfec197b2ebc1b7e2455",
+      "text_characters": 122115,
+      "text_lines": 483,
+      "source_id": "A06",
+      "source_kind": "technical_primary_paper",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          5,
+          46
+        ],
+        [
+          93,
+          102
+        ],
+        [
+          160,
+          175
+        ],
+        [
+          217,
+          245
+        ]
+      ],
+      "coverage_detail": "Summary, model simplifications, residual communication, QK/OV separation, composition checks and limitations; not all derivations/appendices.",
+      "methods_or_content": "Separates attention routing from value movement and uses matrix paths plus targeted term ablations.",
+      "limitations": "Small attention-only models and frozen attention simplify analysis; MLP and normalization interactions limit extension.",
+      "mira_implication_inference": "A changed block output does not identify its upstream writer or downstream reader; component/routing localization remains open."
+    },
+    {
+      "inventory_order": 7,
+      "url": "https://transformer-circuits.pub/2021/garcon/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2021/garcon/index.html",
+      "http_status": 200,
+      "title": "Garcon",
+      "fetched_utc": "2026-09-07T08:19:41.776319+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/07__2021__garcon__index.html.html",
+      "html_sha256": "ef8b9569d01f0d6575a97468b77002f2c39e66b6830621cef2b89b5c9ed85d24",
+      "html_bytes": 19735,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/07__2021__garcon__index.html.txt",
+      "text_sha256": "705b6c424c731f10146218e79f5693c47039b1e25083452f1b88556cf91f7f49",
+      "text_characters": 12524,
+      "text_lines": 72,
+      "source_id": "A07",
+      "source_kind": "engineering_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          9,
+          68
+        ]
+      ],
+      "coverage_detail": "Hook interface, persistent captures, server-side reductions, implementation/performance discussion.",
+      "methods_or_content": "Keeps model servers loaded and supports named read/modify hooks and local tensor reductions.",
+      "limitations": "An infrastructure interface supplies access, not scientific evidence about a representation.",
+      "mira_implication_inference": "Our persistent workers and pooled captures follow this efficiency principle; every reduction still needs its own information-loss audit."
+    },
+    {
+      "inventory_order": 8,
+      "url": "https://transformer-circuits.pub/2021/videos/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2021/videos/index.html",
+      "http_status": 200,
+      "title": "Transformer Circuit Videos",
+      "fetched_utc": "2026-09-07T08:19:41.776813+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/08__2021__videos__index.html.html",
+      "html_sha256": "0b7da62af68c0f93a284224542f3bae4c8b680fbf9d3ff9d6cd009b9fd1fcbce",
+      "html_bytes": 2133,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/08__2021__videos__index.html.txt",
+      "text_sha256": "883b618d360f6c120728ba61570fb6718ee8d770d425bb6bd81a9f732c0ecf2b",
+      "text_characters": 897,
+      "text_lines": 5,
+      "source_id": "A08",
+      "source_kind": "video_landing_page",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          5
+        ]
+      ],
+      "coverage_detail": "All textual landing-page content read; embedded videos and playlist not watched.",
+      "methods_or_content": "Introduces informal early transformer-circuit talks and points to a later mathematical paper.",
+      "limitations": "The page warns the material is preliminary and partly superseded; no video-content review is claimed.",
+      "mira_implication_inference": "No separate method or new diagnosis inferred from unviewed videos."
+    },
+    {
+      "inventory_order": 9,
+      "url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+      "http_status": 200,
+      "title": "In-context Learning and Induction Heads",
+      "fetched_utc": "2026-09-07T08:19:41.990408+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/09__2022__in-context-learning-and-induction-heads__index.html.html",
+      "html_sha256": "bac2d0e67ccffe14acc7b697d58f397dfa83327860528bfb06b8e47227d35820",
+      "html_bytes": 4618957,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/09__2022__in-context-learning-and-induction-heads__index.html.txt",
+      "text_sha256": "a75a9d15e95ad03b354172689b362b850aff1fb662a34f472f13ed46981ff4b4",
+      "text_characters": 120727,
+      "text_lines": 403,
+      "source_id": "A09",
+      "source_kind": "technical_primary_paper",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          5,
+          19
+        ],
+        [
+          84,
+          109
+        ],
+        [
+          171,
+          176
+        ],
+        [
+          350,
+          362
+        ]
+      ],
+      "coverage_detail": "Evidence hierarchy, architectural perturbations, ablation confounds, extrapolation limits and ablation-method subsection.",
+      "methods_or_content": "Combines developmental co-occurrence, architectural changes and head ablations; distinguishes full from pattern-preserving interventions.",
+      "limitations": "Redundancy and shifted MLP statistics complicate ablations; large-model evidence is more indirect.",
+      "mira_implication_inference": "Keep full downstream responses and specificity controls; one-site marginal effects do not establish necessity of the whole physical computation."
+    },
+    {
+      "inventory_order": 10,
+      "url": "https://transformer-circuits.pub/2022/mech-interp-essay/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2022/mech-interp-essay/index.html",
+      "http_status": 200,
+      "title": "Mechanistic Interpretability, Variables, and the Importance of Interpretable Bases",
+      "fetched_utc": "2026-09-07T08:19:41.777323+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/10__2022__mech-interp-essay__index.html.html",
+      "html_sha256": "8b2739947acf80a08a3487a5cfce5aff667a61b0218c231a55d9043ed6379a43",
+      "html_bytes": 30814,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/10__2022__mech-interp-essay__index.html.txt",
+      "text_sha256": "7aa39911f3ad0733efe523ebd92068fc5e9c0f21657fc7c2f3daed543cbf9936",
+      "text_characters": 14035,
+      "text_lines": 57,
+      "source_id": "A10",
+      "source_kind": "conceptual_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          49
+        ]
+      ],
+      "coverage_detail": "Main variable/basis argument and feature-definition discussion; no empirical replication.",
+      "methods_or_content": "Frames interpretation as identifying independently understandable activation variables and operations using them.",
+      "limitations": "Program-variable analogies and feature definitions are hypotheses, not an operational proof of decomposition.",
+      "mira_implication_inference": "A physical probe coefficient is a readout; interpreting it as a model variable requires additional causal structure."
+    },
+    {
+      "inventory_order": 11,
+      "url": "https://transformer-circuits.pub/2022/solu/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2022/solu/index.html",
+      "http_status": 200,
+      "title": "Softmax Linear Units",
+      "fetched_utc": "2026-09-07T08:19:42.051624+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/11__2022__solu__index.html.html",
+      "html_sha256": "709760e55f6e959321dc5fc9bd9f339088c7b117efb11d36912446018656c7e5",
+      "html_bytes": 3166034,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/11__2022__solu__index.html.txt",
+      "text_sha256": "5ed7719518ed69526c11b61e1d4a193500e4f644a31c354be13df1f7831dac9c",
+      "text_characters": 75604,
+      "text_lines": 203,
+      "source_id": "A11",
+      "source_kind": "technical_primary_paper",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          12,
+          17
+        ],
+        [
+          54,
+          79
+        ],
+        [
+          91,
+          108
+        ],
+        [
+          144,
+          158
+        ],
+        [
+          182,
+          191
+        ]
+      ],
+      "coverage_detail": "SoLU construction, blinded quick-interpretation evaluation, later metric caveat, LayerNorm hiding and discussion.",
+      "methods_or_content": "Changes activation functions and assesses neuron interpretability with blinded annotators and additional activation-range inspection.",
+      "limitations": "Strong-activation examples can miss polysemantic low-activation behavior; post-SoLU normalization can expose hidden components.",
+      "mira_implication_inference": "Feature semantics need positives, negatives and multiple activation ranges. A handful of attractive examples would not validate ball/velocity features."
+    },
+    {
+      "inventory_order": 12,
+      "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+      "http_status": 200,
+      "title": "Toy Models of Superposition",
+      "fetched_utc": "2026-09-07T08:19:42.257345+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/12__2022__toy_model__index.html.html",
+      "html_sha256": "beebc71a46a601f5362760f648821e18c9b374bf0a1af5c8b3b0fabddc25e37f",
+      "html_bytes": 8254697,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/12__2022__toy_model__index.html.txt",
+      "text_sha256": "d71b80b5233639168619b4f54f9c13f69a3e504f39788e07c16cfb6f0532dd71",
+      "text_characters": 163987,
+      "text_lines": 508,
+      "source_id": "A12",
+      "source_kind": "technical_primary_paper",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          5,
+          19
+        ],
+        [
+          47,
+          107
+        ],
+        [
+          180,
+          199
+        ],
+        [
+          327,
+          350
+        ]
+      ],
+      "coverage_detail": "Sparse synthetic setup, linear-feature definitions, correlation geometry and limits of extrapolation; no full appendix or notebook execution.",
+      "methods_or_content": "Varies feature sparsity, importance and correlations in bottleneck networks with known synthetic features.",
+      "limitations": "Correlated factors may merge; geometry and learning dynamics need not transfer to real networks.",
+      "mira_implication_inference": "Inspect physical nuisance correlations and value families; neither sparse-looking geometry nor a low-dimensional fit proves independent physical coordinates."
+    },
+    {
+      "inventory_order": 13,
+      "url": "https://transformer-circuits.pub/2023/interpretability-dreams/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/interpretability-dreams/index.html",
+      "http_status": 200,
+      "title": "Interpretability Dreams",
+      "fetched_utc": "2026-09-07T08:19:42.115544+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/13__2023__interpretability-dreams__index.html.html",
+      "html_sha256": "adc76cdbaea94341ed8bcffbb13dccbf2a719c3cdfc33297bac320faed4b6c8b",
+      "html_bytes": 3347118,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/13__2023__interpretability-dreams__index.html.txt",
+      "text_sha256": "32931d840320367a88936b658d39532feef5efadc220bebc3e696a18eaac68eb",
+      "text_characters": 26127,
+      "text_lines": 87,
+      "source_id": "A13",
+      "source_kind": "conceptual_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          54
+        ],
+        [
+          72,
+          79
+        ]
+      ],
+      "coverage_detail": "Epistemic-foundation argument, feature families, universality and speculative end goals.",
+      "methods_or_content": "Explains how correlated precursor features can support a probe before the hypothesized higher-level feature exists.",
+      "limitations": "The proposed hierarchy, universality and scalability agenda is explicitly speculative.",
+      "mira_implication_inference": "Use the current successful decoders as evidence of readable annotations, not proof of a dedicated physical-state feature."
+    },
+    {
+      "inventory_order": 14,
+      "url": "https://transformer-circuits.pub/2023/july-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/july-update/index.html",
+      "http_status": 200,
+      "title": "Circuits Updates - July 2023",
+      "fetched_utc": "2026-09-07T08:19:42.052301+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/14__2023__july-update__index.html.html",
+      "html_sha256": "f10de30296da4ac55c152b239e0a0e1f4eca8a503089e0c97f8c8e704d694fb3",
+      "html_bytes": 997336,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/14__2023__july-update__index.html.txt",
+      "text_sha256": "8111f37a1c3cfe45bde30687141469d254b842333841fa893bdf0443b996cef5",
+      "text_characters": 12575,
+      "text_lines": 42,
+      "source_id": "A14",
+      "source_kind": "preliminary_primary_update",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          18
+        ],
+        [
+          23,
+          42
+        ]
+      ],
+      "coverage_detail": "Finite-data optimization correction and revised interpretation of the skip-trigram example.",
+      "methods_or_content": "Revisits a confusing toy regime with optimization changes and derives a two-head cancellation algorithm.",
+      "limitations": "Earlier intermediate-regime and attention-superposition interpretations were revised; tiny-model behavior is not general evidence.",
+      "mira_implication_inference": "Distinguish optimization failure from representational limits; keep abandoned explanations visible when new evidence changes the account."
+    },
+    {
+      "inventory_order": 15,
+      "url": "https://transformer-circuits.pub/2023/may-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/may-update/index.html",
+      "http_status": 200,
+      "title": "Circuits Updates \u2014 May 2023",
+      "fetched_utc": "2026-09-07T08:19:42.083736+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/15__2023__may-update__index.html.html",
+      "html_sha256": "3965ea4ad540738442b4604ef63d415accbb3da9279356412b9f5eea1e1c0ac2",
+      "html_bytes": 2977688,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/15__2023__may-update__index.html.txt",
+      "text_sha256": "8d75b74368ab4c4b777414a4d3fbbc24ce79c2890da2ecacfc67df50ec257540",
+      "text_characters": 32032,
+      "text_lines": 131,
+      "source_id": "A15",
+      "source_kind": "preliminary_primary_update",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          17,
+          68
+        ],
+        [
+          129,
+          131
+        ]
+      ],
+      "coverage_detail": "Dictionary learning, factorization/offset concerns, feature pressure, weight/attention superposition, and manifold toy experiment.",
+      "methods_or_content": "Studies sparse factorization, dictionary-size tradeoffs and length-scale-dependent discretization of circular feature families.",
+      "limitations": "Expressive recovery may invent composites; correlated factors and optimization can obscure the intended structure. Its attention claim is revisited in July.",
+      "mira_implication_inference": "A global affine/quadratic fit can miss value-specific feature families; any alternative needs a new frozen development comparison."
+    },
+    {
+      "inventory_order": 16,
+      "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
+      "http_status": 200,
+      "title": "Privileged Bases in the Transformer Residual Stream",
+      "fetched_utc": "2026-09-07T08:19:42.289009+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/16__2023__privileged-basis__index.html.html",
+      "html_sha256": "3459f02980dff7476785cf2eb76af6a1e4f3fc8b82d059ef1063d65fea19a691",
+      "html_bytes": 974772,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/16__2023__privileged-basis__index.html.txt",
+      "text_sha256": "8afc31a474b0b9c1d8eb74b737756f25d2b7daae34f63304ddc98e376537eaf8",
+      "text_characters": 16142,
+      "text_lines": 73,
+      "source_id": "A16",
+      "source_kind": "technical_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          46
+        ],
+        [
+          59,
+          65
+        ]
+      ],
+      "coverage_detail": "Outlier/kurtosis tests, rotation and normalization hypotheses, and qualified optimizer conclusion.",
+      "methods_or_content": "Uses orthogonal rotations and modified normalization to isolate coordinate alignment in a trained transformer.",
+      "limitations": "Optimizer responsibility remains provisional; coordinate outliers are not by themselves interpretable features.",
+      "mira_implication_inference": "Do not read large residual coordinates as physical variables or treat this study as evidence that MIRA precision caused weak readouts."
+    },
+    {
+      "inventory_order": 17,
+      "url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
+      "http_status": 200,
+      "title": "Distributed Representations: Composition\u00a0& Superposition",
+      "fetched_utc": "2026-09-07T08:19:42.289647+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/17__2023__superposition-composition__index.html.html",
+      "html_sha256": "0fe44d9080501891f0ef0f7c101ecc1885d3b5278df3d5243c3783fde43c270d",
+      "html_bytes": 795069,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/17__2023__superposition-composition__index.html.txt",
+      "text_sha256": "c899a5b90422720239ae7ce0a858c067d80ae5ddd725104f0687ebdf121a4ac7",
+      "text_characters": 13869,
+      "text_lines": 44,
+      "source_id": "A17",
+      "source_kind": "conceptual_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          44
+        ]
+      ],
+      "coverage_detail": "Full note text, including toy-code examples and informal-status limitation.",
+      "methods_or_content": "Distinguishes independent feature composition from dense storage; shows a linear probe can decode color from combination-specific units.",
+      "limitations": "Toy binary codes are illustrative and definitions are informal.",
+      "mira_implication_inference": "Even a good ball-height probe may combine unrelated cues. Conditional feature transfer is stronger evidence than decoding alone."
+    },
+    {
+      "inventory_order": 18,
+      "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+      "http_status": 200,
+      "title": "Superposition, Memorization, and Double Descent",
+      "fetched_utc": "2026-09-07T08:19:42.435288+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/18__2023__toy-double-descent__index.html.html",
+      "html_sha256": "be3fea44ed5f45dc3fa8233b6b776bc037995b2d29d18469b49ec34523e815d1",
+      "html_bytes": 7704910,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/18__2023__toy-double-descent__index.html.txt",
+      "text_sha256": "31a56b32cc320561a7eed3d51f31c78e719a55a592d0cd8ecd21000e099be314",
+      "text_characters": 32024,
+      "text_lines": 131,
+      "source_id": "A18",
+      "source_kind": "technical_primary_note",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          5,
+          57
+        ]
+      ],
+      "coverage_detail": "Finite-data setup, data-point versus generalizing features, dataset-size/width behavior and main limitations.",
+      "methods_or_content": "Varies finite training data in a reconstruction toy model and contrasts memorized examples with generalizing factors.",
+      "limitations": "Special low-dimensional data and optimization choices drive the demonstration; no universal convergence threshold follows.",
+      "mira_implication_inference": "Nearby frames are correlated evidence. Held-match tests help, but the fixed sparse budget does not establish convergence or universal failure."
+    },
+    {
+      "inventory_order": 19,
+      "url": "https://transformer-circuits.pub/2024/april-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/april-update/index.html",
+      "http_status": 200,
+      "title": "Circuits Updates - April 2024",
+      "fetched_utc": "2026-09-07T08:19:42.432016+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/19__2024__april-update__index.html.html",
+      "html_sha256": "7a7e75b9f11e51234534e50a5c14d3f26319dba726c47aab55747415555751f8",
+      "html_bytes": 3204839,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/19__2024__april-update__index.html.txt",
+      "text_sha256": "07abaf574902c4d09059bd574c08772238bb9b369e6af05e05a8a4bc89c0ae24",
+      "text_characters": 40339,
+      "text_lines": 222,
+      "source_id": "A19",
+      "source_kind": "preliminary_primary_update",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          3
+        ],
+        [
+          26,
+          55
+        ],
+        [
+          116,
+          132
+        ],
+        [
+          146,
+          162
+        ]
+      ],
+      "coverage_detail": "Compute/training updates, structured feature-perturbation controls, and attribution-dictionary proposal; other reports/references not read.",
+      "methods_or_content": "Studies training budgets and compares feature interventions with random, feature-space and structured dampening controls.",
+      "limitations": "Isotropic random edits can be weak under anisotropy; reconstruction loss is an imperfect proxy and attribution-aware training is a proposal.",
+      "mira_implication_inference": "Add covariance/subspace-matched controls only in a new protocol; the present isotropic control is valid but incomplete."
+    },
+    {
+      "inventory_order": 20,
+      "url": "https://transformer-circuits.pub/2024/august-update/index.html",
+      "resolved_url": "https://transformer-circuits.pub/2024/august-update/index.html",
+      "http_status": 200,
+      "title": "Circuits Updates - August 2024",
+      "fetched_utc": "2026-09-07T08:19:42.334832+00:00",
+      "html_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/20__2024__august-update__index.html.html",
+      "html_sha256": "265f6d025fd41f6925dd1b437eb3648b962920896d2359e5a85233eb18280739",
+      "html_bytes": 2182019,
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic_extended_a/20__2024__august-update__index.html.txt",
+      "text_sha256": "ec5cd417767bf9de5ef3ba56e6d74b75cbe054fa4d16925e851b5a3fc8509abb",
+      "text_characters": 21041,
+      "text_lines": 108,
+      "source_id": "A20",
+      "source_kind": "preliminary_primary_update",
+      "coverage": "specified primary-page text sections inspected",
+      "inspected_extracted_text_line_ranges": [
+        [
+          1,
+          22
+        ],
+        [
+          32,
+          44
+        ],
+        [
+          56,
+          108
+        ]
+      ],
+      "coverage_detail": "Contrastive/sort evaluation designs, variant comparison caveats and self-explanation experiments.",
+      "methods_or_content": "Tests explanations through contrastive prompts and held activation examples, then compares several SAE variants.",
+      "limitations": "Metrics cover limited notions of meaning; nearby variants are hard to distinguish and self-explanations depend on scale.",
+      "mira_implication_inference": "Activation prediction and selectivity across matched cases remain untested semantic checks; reconstruction alone cannot rank interpretability."
+    }
+  ],
+  "untested_diagnoses": [
+    {
+      "id": "A-D1",
+      "priority": 1,
+      "status": "specific additional control not yet tested",
+      "diagnosis": "Norm matching alone does not match activation anisotropy.",
+      "sources": [
+        "A19"
+      ],
+      "local_evidence": "random_norm samples an isotropic normal1536 vector before raw-lift norm matching.",
+      "future_test": "Freeze discovery-covariance or dictionary-span random controls, with the same raw intervention norm and conditioning, before new outcome access.",
+      "not_established": "No evidence here that anisotropy explains the measured effects."
+    },
+    {
+      "id": "A-D2",
+      "priority": 2,
+      "status": "optimization adequacy unresolved",
+      "diagnosis": "Equal fixed training budgets do not establish convergence or a matched reconstruction frontier.",
+      "sources": [
+        "A14",
+        "A18",
+        "A19"
+      ],
+      "local_evidence": "All30 dictionaries use1000updates, one width, two activity budgets and final checkpoints only.",
+      "future_test": "A new development-only compute/width/step comparison with fixed held-match checks; retain all results.",
+      "not_established": "The literature does not show these dictionaries are undertrained or promise improvement from longer training."
+    },
+    {
+      "id": "A-D3",
+      "priority": 3,
+      "status": "feature semantics and independence unresolved",
+      "diagnosis": "Readable physical labels can be assembled from context cues rather than an independently used feature.",
+      "sources": [
+        "A01",
+        "A10",
+        "A11",
+        "A13",
+        "A17",
+        "A20"
+      ],
+      "local_evidence": "Selected descriptor covers a whole view; no object localization/visibility track is claimed.",
+      "future_test": "Predeclare matched positive/negative visual cases and evaluate activation ranges, visibility and feature selectivity.",
+      "not_established": "These papers do not establish a dedicated ball-state variable in MIRA."
+    },
+    {
+      "id": "A-D4",
+      "priority": 4,
+      "status": "alternative representation family untested",
+      "diagnosis": "A global scalar map may miss context-dependent or value-specific physical feature families.",
+      "sources": [
+        "A12",
+        "A15"
+      ],
+      "local_evidence": "Registered geometry compares fixed affine/quadratic or harmonic maps while nuisance state and camera vary.",
+      "future_test": "A new development-only value-binned and nuisance-conditioned comparison, with held values/matches and later exact interventions.",
+      "not_established": "No nonlinear manifold has been established; a flexible fit can create its own explanatory pattern."
+    },
+    {
+      "id": "A-D5",
+      "priority": 5,
+      "status": "component and timing localization incomplete",
+      "diagnosis": "A block-output intervention does not identify the writer/reader computation or all relevant times.",
+      "sources": [
+        "A06",
+        "A09"
+      ],
+      "local_evidence": "The current rollout edits exactly one block15 output/view0 at one denoising step for the first generated latent.",
+      "future_test": "Separately register component/routing, context-length or denoising-time contrasts after the current fixed study.",
+      "not_established": "No claim that another site/time will improve steering; current outcomes must not select a new confirmation hypothesis."
+    }
+  ],
+  "existing_controls_not_replaced": [
+    "Fresh held-match decoding with frozen choices",
+    "Exact original-model perturbation and restoration",
+    "Random/wrong-variable controls",
+    "Discovery-mean descriptor controls exposing the native complement",
+    "True-adjacent versus shuffled-time sparse comparison",
+    "Registered generated rollouts and independent learned-video measurement"
+  ],
+  "current_claim_boundary": "The completed conditional-fidelity mean control already exposes preserved native-complement information. Additional reading does not repair this into feature sufficiency, validate generated-video physical accuracy, or establish nonlinear coordinates.",
+  "execution_changes": [],
+  "gpu_experiments_run": false,
+  "new_scientific_fits_run": false,
+  "real_running_rollout_outcomes_read": false,
+  "local_evidence_bindings": [
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/review/anthropic_sources.json",
+      "sha256": "eae7d1971ba7cfd6d1a2b1bf2ac4727b49c1f5528bcdc06c7694cb6a98102fbc"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+      "sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/rollout_steering.py",
+      "sha256": "079449ebb0be88c57d1d0bdbdade20b2e106946ef35912c29a86376ddd61334c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/docs/review/sparse_causal_fidelity_audit.md",
+      "sha256": "1f188830f8068b22f18a4384607ef4fa31bae93c8470edc3816c99c0c2ea5e00"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/docs/review/sparse_development_audit.md",
+      "sha256": "cee01b060beac57d800ca0a4f4ecbe34c38a139d0458fc3247ba08149497b5b9"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_audit.json",
+      "sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/feature_development_v1/sparse_audit.json",
+      "sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54"
+    }
+  ],
+  "limitations": [
+    "Text was inspected only for the listed line ranges, with headings surveyed to choose relevant sections.",
+    "HTML and normalized extracted-text hashes identify the cached source bytes; extraction can omit custom interactive/equation rendering.",
+    "No exhaustive appendix reading, linked-paper/reference reading, notebook execution, interactive manipulation or video watching is claimed.",
+    "Raw copyrighted HTML/text stays in the local source cache; public documentation cites original pages.",
+    "Applications and proposed diagnoses for MIRA are our inferences, not empirical findings about MIRA from these papers."
+  ]
+}

@@ -5,6 +5,11 @@ The v2 experiment, its failures, frozen choices and confirmation remain intact.
 Its derived-feature archive is published; GitHub's asset size and SHA256 match
 the locally verified 1,138,648,642-byte archive (`results/observation_publication.json`).
 
+This document preserves the repair rationale. The completed outcomes are in
+[initial progress](progress/README.md) and [diagnosis and repairs](13_diagnosis_and_repairs.md):
+the role-relative target convention helped substantially; the tested spatial
+readout did not outperform pooling.
+
 ## What went wrong, and what is still a hypothesis
 
 1. **The readout discarded spatial layout.** Averaging144 tokens per view makes
@@ -53,8 +58,13 @@ testing model/readout limitations instead of assuming a simple code failure.
 - [Geometry and sparse features](review/geometry_and_features.md): both linked
   geometry articles, the BSF paper and pinned official implementation differences.
 - [Anthropic and model audit](review/anthropic_and_model_audit.md):56 dated
-  Transformer Circuits links inventoried;16 relevant sources' methods and limits
-  reviewed. The remaining40 are inventoried, not claimed as read in full.
+  Transformer Circuits links inventoried; the initial review inspected16 sources.
+  The later [first20](review/anthropic_extended_review_a.md) and
+  [last20](review/anthropic_extended_review_b.md) extensions cover the remaining
+  pages at their declared scope. The [coverage check](../results/review/anthropic_coverage_complete.json)
+  verifies all56 URLs. This includes editorial and landing pages as such, and
+  does not claim exhaustive reading of appendices, references, interactives,
+  videos, or all Anthropic publications.
 - [Rocket Science](https://huggingface.co/datasets/kyutai/rocket-science), the
   [MIRA source](https://github.com/mira-wm/mira),
   [MIRA Mini release](https://huggingface.co/alakazamworld/mira-mini-4p) and

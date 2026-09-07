@@ -1,0 +1,338 @@
+{
+  "status": "passed_coverage_and_source_integrity_crosscheck",
+  "checked_utc": "2026-09-07T08:35:38.021844+00:00",
+  "inventory_count": 56,
+  "original_review_count": 16,
+  "additional_primary_pages": 40,
+  "all_inventory_urls_covered_at_their_declared_scope": true,
+  "all_anthropic_publications_exhaustively_read": false,
+  "all_appendices_references_interactives_and_videos_reviewed": false,
+  "notes": "Coverage includes editorial and landing pages as such. Technical pages were reviewed at the method/limitations scope recorded in each report. This is a coverage/source-integrity check, not a new experiment or proof of methodological completeness.",
+  "report_bindings": {
+    "anthropic_sources": "eae7d1971ba7cfd6d1a2b1bf2ac4727b49c1f5528bcdc06c7694cb6a98102fbc",
+    "anthropic_extended_a": "eade9aab98a22425054b225fd2b7e01da50af3fe4a1d50588145e5b9ff5b3eb0",
+    "anthropic_extended_b": "f07a03e50c6edbccc95fda721c7ed7a075c3d936795eaaaad9a419269aab9897"
+  },
+  "entries": [
+    {
+      "url": "https://alignment.anthropic.com/2025/activation-oracles/",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "32eecec8b6fc5472d34e63a5554c2ae782bf1e070cd9926b47b48ea45a8a3c8f"
+    },
+    {
+      "url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "bbae676799818af6609f3796546286ee4dc31c123d5ed98689dd26be4bd9df3c"
+    },
+    {
+      "url": "https://distill.pub/2020/circuits/",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "0c3435f74f2af5f2525401034a1f25f08d7b2d242dec60e4c09d0898fdfe935d"
+    },
+    {
+      "url": "https://distill.pub/2021/distill-hiatus/",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "9ba288b3aa5591ffdb385f97dafe64503ddea1f572913b6d4b20bbb7e88e14f0"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/exercises/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "67a1185576c69c46a93554f1558417db8daeb5eb6ce22d48e287852ea3024a80"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "9238b3a747cd477c3117958774fed9c8f65b78316a27dfec197b2ebc1b7e2455"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/garcon/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "705b6c424c731f10146218e79f5693c47039b1e25083452f1b88556cf91f7f49"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/videos/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "883b618d360f6c120728ba61570fb6718ee8d770d425bb6bd81a9f732c0ecf2b"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "a75a9d15e95ad03b354172689b362b850aff1fb662a34f472f13ed46981ff4b4"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/mech-interp-essay/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "7aa39911f3ad0733efe523ebd92068fc5e9c0f21657fc7c2f3daed543cbf9936"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/solu/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "5ed7719518ed69526c11b61e1d4a193500e4f644a31c354be13df1f7831dac9c"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "d71b80b5233639168619b4f54f9c13f69a3e504f39788e07c16cfb6f0532dd71"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/interpretability-dreams/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "32931d840320367a88936b658d39532feef5efadc220bebc3e696a18eaac68eb"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/july-update/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "8111f37a1c3cfe45bde30687141469d254b842333841fa893bdf0443b996cef5"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/may-update/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "8d75b74368ab4c4b777414a4d3fbbc24ce79c2890da2ecacfc67df50ec257540"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "8afc31a474b0b9c1d8eb74b737756f25d2b7daae34f63304ddc98e376537eaf8"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "c899a5b90422720239ae7ce0a858c067d80ae5ddd725104f0687ebdf121a4ac7"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "31a56b32cc320561a7eed3d51f31c78e719a55a592d0cd8ecd21000e099be314"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/april-update/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "07abaf574902c4d09059bd574c08772238bb9b369e6af05e05a8a4bc89c0ae24"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/august-update/index.html",
+      "review": "extended_a",
+      "coverage": "specified primary-page text sections inspected",
+      "text_sha256": "ec5cd417767bf9de5ef3ba56e6d74b75cbe054fa4d16925e851b5a3fc8509abb"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/crosscoders/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/features-as-classifiers/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/feb-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "99491be93b013f5b3f302dffbeba8f1dbdb768d4e0f3c85eac51fc3fc2476c3c"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/jan-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "a37596d119f1536076a21b7ac8aaee373264a1336edb91a7be526a21e51e21ae"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/july-update/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/june-update/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/march-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "f05a1e12add7ffd5f6d9a0b4d7a4c9ba9576e0698968f05311405e416adb3587"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/model-diffing/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "3153ee9686c5dbb8eec383e61358464348c3c53ad38d7dcf68656376c377bd7f"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/qualitative-essay/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "bdc40b01c4ba217ee4e0e957f161f6d7dd394cc0ce72ade4e55a02de81b87b7b"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/september-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "9c83094d99406a8e4de9832770bf28e87263bfbc2d280e5b1bcb056d0b9b3824"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/april-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "5fcdb8fc7834851992668ae1ad0bfbf26892df6943a56e62bca019b499b5c737"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-qk/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "63bba64abfdbb8f593dd1fb0f756f17355f8b7ddf832e4fe96a02061eb3343e2"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/august-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "7a4bd100a517f229bb0e264e31aaf9713c14c12d8561488ed143bb03939171c9"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/bulk-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "8d59197d66e5e155d54de568458c762b80cd5132093afa2ff806fc447e1fcdb1"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "744285f9b5983c6a5a26ad2cf2bc19c421612b5ce15eced4c90b6f9ecceeb01f"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/faithfulness-toy-model/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/interference-weights/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "016920a5fb09d4cda15f51b81939492f8fc3ea3defe8af490d035f3f80202e12"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/january-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "f42a11826c6d8946c71548dc088d54aca5e03cc31029a37862b46635e0fd60b3"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/july-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "7f58a275b0319b8b4beafa113642098e091a5eed8cf1a47cd08039bb7403ef87"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/linebreaks/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/november-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "691dcf71398d6c704cc9adfc3444b9beb8b7b13e1fdd22c92cf0a37800a88381"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/october-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "c0200d7c4d6ac7926a777b7b8c1ffb4f55014dbafd5472f553033159dd01c41e"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/september-update/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "c6277c9dd50586451bcea4bc0a254db5eecf22f1506982e86d82264fe57acaee"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "5a681ca51c5553b3baa71755f3f12a9990f582b41cd017b31b881135ed6635de"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "0e27fd0ce708fd5bc6b56aaec2bad3e5cac804a73f67e9b28d4f2d1dd36bfcc5"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/june-update/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/nla/index.html",
+      "review": "extended_b",
+      "coverage": "selected methods, controls and limitations inspected; not exhaustive",
+      "text_sha256": "06d39f64c7d70c119d688d3c47775bb3c0138f0fe062107f0a33a7dbdf89e7e7"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "review": "original",
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    }
+  ]
+}

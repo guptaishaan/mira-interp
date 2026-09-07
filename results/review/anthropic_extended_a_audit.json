@@ -1,0 +1,14 @@
+{
+  "status": "passed_review_inventory_and_source_integrity",
+  "checked_utc": "2026-09-07T08:29:15.539712+00:00",
+  "review_sha256": "eade9aab98a22425054b225fd2b7e01da50af3fe4a1d50588145e5b9ff5b3eb0",
+  "documentation_sha256": "1ff9863acdeec53d7fa66d82c85baba61f4364ac0d26361fd84d055523f0dc12",
+  "exact_first20_unread_inventory_entries": true,
+  "all20_sources_http200_no_redirect": true,
+  "all40_html_text_hashes_match": true,
+  "all_recorded_line_ranges_valid": true,
+  "all20_primary_urls_cited_in_documentation": true,
+  "original_inventory_and_local_evidence_unchanged": true,
+  "all34_study_fixed_bindings_unchanged": true,
+  "scientific_experiments_run": false
+}

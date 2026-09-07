@@ -1,0 +1,16 @@
+{
+  "status": "superseded_before_packaging",
+  "reason": "Independent review found accepted audit hash was not retained through child execution; no package started and no audit mutation observed.",
+  "stopped_only_owned_waiter_pids": [
+    4169835,
+    4169838
+  ],
+  "files_sha256": {
+    "generated_publication_selection_waiter.log": "b5ee7822303dc3e9259bd385948a2bd1467cdf7a2e4c8652e77180a285282027",
+    "generated_publication_confirmation_waiter.log": "b5ee7822303dc3e9259bd385948a2bd1467cdf7a2e4c8652e77180a285282027",
+    "generated_publication_selection_waiter.json": "2b1bae0a415390f488f3a100f7d6975a0beafef3374d6343dc154af7b86db12d",
+    "generated_publication_confirmation_waiter.json": "a5bdccad2da7d70931c920b9ceb0934660fe92d73552e7d3af36dcb43b798adb",
+    "watch_generated_publication.py.txt": "80fc264416e822e5a9eac54abe7a16fb967bb56f1dc2ca18d346903bcbba1a7b"
+  },
+  "timestamp_unix": 1788769729.8175485
+}

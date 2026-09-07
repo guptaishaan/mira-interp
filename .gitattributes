@@ -2,4 +2,4 @@
 results/probes_v2/*.csv -text
 results/videomae_exports/*.csv -text
 results/videomae_repair_exports/*.csv -text
-results/progress/*.csv -text
+results/progress/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
