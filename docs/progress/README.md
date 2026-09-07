@@ -31,6 +31,11 @@ spatial or object-localized methods. Twenty-four new match candidates were
 reserved using metadata, and 23 passed the unchanged data checks, with no
 replacement.
 
+These 23 matches were held out from our probe fitting and selection. Their
+exclusion from world-model training and prior evaluation has not been
+independently verified; the publisher describes held-out validation but does
+not provide the training match list. See the [technical report](https://alakazam.gg/mira-mini/report.pdf).
+
 On 23 new matches, the selected position probe reduced standardized error by
 80.9% relative to the fitting-set mean predictor. Player XYZ position R² was
 0.660 / 0.900 / 0.974; ball-relative XYZ was 0.520 / 0.694 / 0.926. Horizontal

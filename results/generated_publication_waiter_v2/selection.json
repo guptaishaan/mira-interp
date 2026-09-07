@@ -1,0 +1,30 @@
+{
+  "status": "passed_generated_publication_waiter",
+  "phase": "selection",
+  "pid": 4180151,
+  "started_unix": 1788769817.9894736,
+  "fixed_bindings": {
+    "/ccn2/u/ishaangp/mira-interp/scripts/package_generated_outputs.py": "3da7aeb8ebd243fb55f5c7648f0eea769b0c2d2e3bae44b787dbabe53aa88256",
+    "/ccn2/u/ishaangp/mira-interp/src/mira_interp/array_storage.py": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+    "/ccn2/u/ishaangp/mira-interp/results/generated_publication_code_review.json": "e5ff850885f381eb41726b44133f50e298cd06edf04edaa896a7e3a19dfccbcc",
+    "/ccn2/u/ishaangp/mira-interp/scripts/watch_generated_publication.py": "bf9ee06eadde3a38fea511e3fbb0b858a38a59980257d8866048d3a3228a0835"
+  },
+  "command": [
+    "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+    "/ccn2/u/ishaangp/mira-interp/scripts/package_generated_outputs.py",
+    "--phase",
+    "selection"
+  ],
+  "log_path": "/ccn2/u/ishaangp/mira-interp/results/generated_publication_waiter_v2/selection_package.log",
+  "gpu_used": false,
+  "upload_performed": false,
+  "elapsed_seconds": 1656.9041778482497,
+  "heartbeat_unix": 1788771474.893651,
+  "measurement_audit_sha256": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f",
+  "package_pid": 8107,
+  "exit_code": 0,
+  "report": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/generated_publication_selection_complete.json",
+    "sha256": "e9faf11b6ce2c04feedc69af3bc97ad8ae6320e633389cdeaa955e64eae108fd"
+  }
+}

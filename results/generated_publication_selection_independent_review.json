@@ -1,0 +1,101 @@
+{
+  "status": "passed_generated_publication_independent_rehash",
+  "created_utc": "2026-09-07T09:03:00.093396+00:00",
+  "reviewer_agent": "/root/data_stage",
+  "phase": "selection",
+  "scope": "Read-only full archive SHA256/size checks and saved gate/report joins; archive member/array readback attested by unchanged completed packager reports, not rerun here.",
+  "package_report": {
+    "path": "results/generated_publication_selection_complete.json",
+    "sha256": "e9faf11b6ce2c04feedc69af3bc97ad8ae6320e633389cdeaa955e64eae108fd"
+  },
+  "waiter_report": {
+    "path": "results/generated_publication_waiter_v2/selection.json",
+    "sha256": "f929fa49f51495b02086fc39f3e6e869914089faf6f929e9396d874c72e83c56"
+  },
+  "archive_manifest": {
+    "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/archive_manifest.json",
+    "sha256": "de34b69c1183390ebe3f95d39fd3b315a28e26b7a14b663eea2415212baac3ea"
+  },
+  "parts": [
+    {
+      "filename": "mira-generated-v2-selection-part0001.tar",
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0001.tar",
+      "bytes": 1791221760,
+      "record_count": 96,
+      "member_count": 975,
+      "sha256": "e8f7c673240a2d686c1b668332717128b2df782e917f11b7f826be55fe79c00e",
+      "manifest_sha256": "a18c21417cb0c4f16f813c39fa58eacd37a31534ee1c1a459f328eec1ff55984",
+      "report": {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0001.tar.json",
+        "sha256": "a2fb5248dc6ec68489c10694f0146cb3c3c4cd8b8e4d169524f62026b4b620eb"
+      }
+    },
+    {
+      "filename": "mira-generated-v2-selection-part0002.tar",
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0002.tar",
+      "bytes": 1788825600,
+      "record_count": 99,
+      "member_count": 100,
+      "sha256": "1fce72ce93d258fbd8d727575208030c2ff2e94d218f83be7c3f7dcc0cb0fd93",
+      "manifest_sha256": "a367ab732d9e10df6c8089dc1a963501111e3852d11e413d6176d58ca3ba95df",
+      "report": {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0002.tar.json",
+        "sha256": "f3856ceba28358d756057dc09060dbeb6ef54c8587e1766194a087f928f0530f"
+      }
+    },
+    {
+      "filename": "mira-generated-v2-selection-part0003.tar",
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0003.tar",
+      "bytes": 1785118720,
+      "record_count": 95,
+      "member_count": 96,
+      "sha256": "6de1580b0f578268625ace2a6d8fccc8101c929c036b60b93e8d518857eda78f",
+      "manifest_sha256": "9ee1424c94c3cf766d2edf60b31444746a1c7bcd4b13d3610969d00a2b556866",
+      "report": {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0003.tar.json",
+        "sha256": "4c80c2bea7f3ab4fd35130f7a24f66cb7332895c2c2d3aafd19c57c175d3ab25"
+      }
+    },
+    {
+      "filename": "mira-generated-v2-selection-part0004.tar",
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0004.tar",
+      "bytes": 1785364480,
+      "record_count": 95,
+      "member_count": 96,
+      "sha256": "a307ced090cfb482ecf1af969e43d3732147e895f44c675d425f8c2f91160dd6",
+      "manifest_sha256": "ce1605e73773e18604ffb02fea1d84a62b84397b96f1ba931f3f62e0fe724803",
+      "report": {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0004.tar.json",
+        "sha256": "5794d6285008f84ac6baee198b380cd08b6c54efdf97a846d4384b38a461c24b"
+      }
+    },
+    {
+      "filename": "mira-generated-v2-selection-part0005.tar",
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0005.tar",
+      "bytes": 664514560,
+      "record_count": 35,
+      "member_count": 36,
+      "sha256": "81cc0bafec28648a1537ac06c693a68cb40cf8a0b03c78441b46dfc95d134025",
+      "manifest_sha256": "3019e18733f0d5914833aa9cf2b173dde3d028b4cbf6ae925143fb019f610e32",
+      "report": {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete/selection/mira-generated-v2-selection-part0005.tar.json",
+        "sha256": "32793ec19dd972fec4973a6a85c5af4251872ff2dbfc19093a025f39411d0976"
+      }
+    }
+  ],
+  "part_count": 5,
+  "total_bytes": 7815045120,
+  "total_records": 420,
+  "all_archive_sha256_independently_recomputed": true,
+  "all_sizes_and_1_8GB_limits_checked": true,
+  "all_part_sidecar_hashes_checked": true,
+  "archive_manifest_hash_checked": true,
+  "passed_package_and_waiter_gates_checked": true,
+  "all_420_registered_records_accounted": true,
+  "packager_attests_all_members_readback_and_exact_future_slices": true,
+  "packager_attests_no_source_context_actions_simulator_labels": true,
+  "package_artifacts_modified": false,
+  "gpu_used": false,
+  "uploaded_to_github": false,
+  "elapsed_seconds": 5.365042932331562
+}
