@@ -1,0 +1,71 @@
+{
+  "all17_finite_gradients": true,
+  "elapsed_seconds": 30.87232817709446,
+  "engineering_only": true,
+  "input_middle_final_patch_controls": true,
+  "model_loading": {
+    "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "codec_pair_integrity": {
+      "compared_tensors": 936,
+      "comparison": "exact dtype and torch.equal",
+      "latent_mean_std": [
+        0.008073142703917577,
+        0.9276199261988762
+      ],
+      "mismatched_keys": [],
+      "passed": true
+    },
+    "codec_parameter_count": 900300192,
+    "codec_strict_load": {
+      "passed": true,
+      "state_tensors": 936
+    },
+    "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+    "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "model_repo": "alakazamworld/mira-mini-4p",
+    "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+    "original_config_sha256": {
+      "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24",
+      "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87"
+    },
+    "parameter_count_including_codec": 2095609472,
+    "runtime_overrides": {
+      "activation_checkpointing": false,
+      "codec_checkpoint": "local verified path",
+      "compile_dino": false
+    },
+    "source_revisions": {
+      "dinov3": "6876159a11b4df116f30f667f8c9888617df0751",
+      "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7"
+    },
+    "torch_version": "2.9.0+cu126",
+    "verified_assets": [
+      {
+        "bytes": 8383271151,
+        "name": "checkpoint-90000/checkpoint.pth",
+        "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+      },
+      {
+        "bytes": 3601866873,
+        "name": "codec/checkpoint-125000/checkpoint.pth",
+        "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+      }
+    ],
+    "world_model_strict_load": {
+      "missing_keys": [],
+      "passed": true,
+      "shape_mismatch": [],
+      "state_tensors": 1183,
+      "unexpected_keys": []
+    }
+  },
+  "pair": {
+    "match_id": "2026-05-29T18-17-39Z-fb68d7",
+    "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.json",
+    "seed": 2026090701,
+    "sha256": "adbb8e3e4cd69d4f02ac2a252ab054e64d8ac739d5b3b79567832b8a72d1cb10"
+  },
+  "peak_gpu_allocated_bytes": 19909887488,
+  "registration_sha256": "1676ed34ac265e53968151f34b7e67bb9566d0bd6d866876ee41a2d2c25142b6",
+  "status": "passed"
+}

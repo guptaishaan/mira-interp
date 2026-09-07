@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "scope": "reserved pilot saved-tensor verification; no research matching or selection",
+  "pilot_sha256": "1591a0718eedae08a6212c62908b6797fb1c57f8ec9ee56ab2b95178b8b4e3d7",
+  "pair_sha256": "adbb8e3e4cd69d4f02ac2a252ab054e64d8ac739d5b3b79567832b8a72d1cb10",
+  "checks": [
+    {
+      "site": "block_0_input",
+      "ablation_target": 511.1030810161298,
+      "ablation_recomputed_probe": 511.10311146317537,
+      "absolute_error": 3.0447045560322294e-05,
+      "matched_norms": {
+        "norm_matched_random": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_full": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_ablation": {
+          "control_norm": 0.35519737005233765,
+          "intervention_norm": 0.355197012424469
+        }
+      }
+    },
+    {
+      "site": "block_7_output",
+      "ablation_target": 511.1030810161298,
+      "ablation_recomputed_probe": 511.1030781111573,
+      "absolute_error": 2.904972518535942e-06,
+      "matched_norms": {
+        "norm_matched_random": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_full": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_ablation": {
+          "control_norm": 0.41328516602516174,
+          "intervention_norm": 0.41328367590904236
+        }
+      }
+    },
+    {
+      "site": "block_15_output",
+      "ablation_target": 511.1030810161298,
+      "ablation_recomputed_probe": 511.10314224434995,
+      "absolute_error": 6.122822014731355e-05,
+      "matched_norms": {
+        "norm_matched_random": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_full": {
+          "control_norm": 0.0,
+          "intervention_norm": 0.0
+        },
+        "norm_matched_random_ablation": {
+          "control_norm": 2.541182279586792,
+          "intervention_norm": 2.5411906242370605
+        }
+      }
+    }
+  ],
+  "gpu_used": false
+}
