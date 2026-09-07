@@ -1,0 +1,27 @@
+{
+  "snapshot_utc": "2026-09-07T08:01:40.021962+00:00",
+  "status": "running",
+  "current_stage": "selection_generation",
+  "completed_stages": [],
+  "selection_workers": [
+    {
+      "worker_index": 0,
+      "physical_gpu": 6,
+      "records_saved": 22,
+      "expected_records": 210
+    },
+    {
+      "worker_index": 1,
+      "physical_gpu": 7,
+      "records_saved": 23,
+      "expected_records": 210
+    }
+  ],
+  "selection_expected": 420,
+  "confirmation_expected": 924,
+  "physical_control_established": false,
+  "all_prerequisite_pilots_independently_passed": true,
+  "live_status_local_path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/study_status.json",
+  "live_status_sha256_at_snapshot": "014525e48056e3c5b873279e63143230edf854c96096726a3f87928b2717e280",
+  "note": "Repository checkpoint, not a live dashboard. Only completed independent audits establish phase completion."
+}

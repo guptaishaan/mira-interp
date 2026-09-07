@@ -46,14 +46,50 @@ sparse dictionaries completed and passed the independent CPU audit at
 reconstruction error; the true temporal variant did not outperform shuffled-time
 controls. Preserve this outcome and the whole-view, non-entity-localized scope.
 
-Sparse causal fidelity is the next running stage, with fixed discovery-mean
-descriptor controls to separate reconstructed information from the retained
-native nullspace. See live `results/sparse_causal_fidelity_v1/` before launching
-or resuming. The prepared rollout inputs passed an independent audit: one pilot,
+Sparse causal fidelity completed and passed its independent audit:1,364 conditions
+on22 seed-pairs. Full donor mean gain was0.682834; replacing its descriptor by the
+discovery mean still gave0.672032. Dictionaries modestly improved conditional
+reconstruction but cannot be credited with carrying the full transfer effect.
+All23 full tensor archives are in the verified `sparse-fidelity-v1-2026-09-07`
+release; the native complement limitation is documented explicitly.
+
+The prepared rollout inputs passed an independent audit: one pilot,
 10 selection matches and22 prior fresh-confirmation matches, each with16 context
-and8 future frames. Future source pixels must be hidden from inference. Rollout
-code requires completed fidelity plus its audit, then a reserved pilot that
-benchmarks runtime/storage before the full frozen condition grid is launched.
+and8 future frames. Future source pixels are hidden from inference. The first
+generation pilot caught uint8 keyboard indices before baseline generation; its
+failure is preserved, and an int32 copy repairs the upstream embedding contract.
+The corrected five-inference pilot and fixed VideoMAE evaluation both passed.
+
+Storage-only v2 uses lossless DEFLATE1, after an exact benchmark and another full
+pilot. All six generated arrays and all four prediction-array contents match v1
+bitwise. Both pilot audits and independent storage parity passed. The experimental
+model, actions, seeds, matches, sites, paths and doses are unchanged.
+
+**The full steering study is running**, launched after commit`9f1e7da` was pushed.
+Durable tmux session:`mira_rollout_study_v2`; entrypoint:
+`scripts/run_registered_rollouts.py`. Read
+`results/rollout_steering_v2/study_status.json` for live status, current stage,
+completed-stage hashes and frozen code/prerequisite bindings. **Do not edit any
+file listed in its `fixed_bindings` while the supervisor runs.**
+
+The sequence is selection generation420→independent generation audit→fixed
+VideoMAE measurement→independent metric audit, then the same sequence for924
+confirmation rollouts. Two match workers use GPUs6/7; video scoring uses GPU6
+after generation finishes. No outcome selects a new path or dose. Pilot-based
+runtime is about two hours, and full private output is projected at61GB.
+`resource_review.json` is an immutable pre-launch snapshot; `study_status.json`
+is the live authority. A successful terminal supervisor status still says
+`pending_publication`; do not call scientific physical steering established.
+
+Generated artifacts:`/data2/ishaangp/mira-interp/rollout_steering_v2`.
+Measurement caches:`/data2/ishaangp/mira-interp/generated_evaluation_v2`.
+Compact reports:`results/rollout_steering_v2` and`results/generated_evaluation_v2`.
+The protocol`configs/generated_evaluation_v1.json` stays frozen for v2 too.
+Export all paths/negative results, audit figures, package every generated future
+tensor in release parts below2GB, and verify remote hashes. Only generated
+frames16–23 and latents8–11 may be public; observed context remains private.
+Update README and this handoff, commit/push all completed outputs, and verify
+remote HEAD. Do not stop while required stages remain runnable or running.
 
 ## Environment
 

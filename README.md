@@ -24,7 +24,15 @@ were published before the new confirmation capture, and the original study is
 preserved. Exact internal causal interventions, geometry comparisons, 30 sparse
 models, and VideoMAE adaptation have completed and passed independent audits.
 All1,364 sparse causal-fidelity conditions have also passed their independent
-audit. Generated-rollout steering and its frozen video measurements are next.
+audit. **The full generated-steering study is running:**420 selection rollouts,
+then924 confirmation rollouts, with an independent audit and frozen VideoMAE
+measurement at each stage. See the [execution snapshot](results/current_execution.json)
+and [handoff](docs/EXECUTION_HANDOFF.md). A running job is not a completed result.
+
+The new mean-descriptor control revealed that the retained native activation
+complement preserves nearly all average donor-transfer effect. Dictionaries
+improve conditional reconstruction modestly; they are not established as
+sufficient causal features. See the [fidelity results](docs/review/sparse_causal_fidelity.md).
 
 The geometry comparisons did **not** establish a nonlinear advantage: quadratic
 height, speed and vertical-velocity gains were small and their match-bootstrap
@@ -124,6 +132,9 @@ The [causal tensors](https://github.com/guptaishaan/mira-interp/releases/tag/cau
 [all30 sparse models and geometry artifacts](https://github.com/guptaishaan/mira-interp/releases/tag/sparse-development-v1-2026-09-07),
 and [adapted VideoMAE checkpoints/features](https://github.com/guptaishaan/mira-interp/releases/tag/videomae-v1-2026-09-07)
 are published as separate verified release assets.
+All [conditional sparse-fidelity tensors](https://github.com/guptaishaan/mira-interp/releases/tag/sparse-fidelity-v1-2026-09-07)
+are also published. The [audited generation pilot](docs/review/rollout_previews.md)
+includes a contact sheet and four-view generated videos.
 
 ## Attribution
 
