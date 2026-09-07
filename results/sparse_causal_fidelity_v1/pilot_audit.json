@@ -1,0 +1,293 @@
+{
+  "status": "passed",
+  "phase": "pilot",
+  "registration_sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1",
+  "pilot_sha256": "f97bb14449fbfc3e3bbf8d4d371ab275b88b4d9aa2ebfacdae9dce92308c484a",
+  "feature_audit_sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54",
+  "conditions_checked": 62,
+  "n_pairs_seeds": 1,
+  "all_dictionary_reconstructions_recomputed": true,
+  "all_discovery_mean_controls_verified": true,
+  "all_native_reference_arrays_exact": true,
+  "all_saved_output_metrics_recomputed": true,
+  "all_earlier_flow_frames_bitwise_unchanged": true,
+  "paired_match_summaries_recomputed": false,
+  "source_target_time_player_joins_exact": true,
+  "max_descriptor_abs_difference": 4.76837158203125e-07,
+  "max_objective_gain_abs_difference": 4.85722573273506e-16,
+  "lift_verification": "Independent FP64 native+right-inverse reconstruction/norm; execution FP32 roundtrip bounded. Replacement tiles not separately saved.",
+  "no_new_model_execution_or_fits": true,
+  "physical_control_established": false,
+  "confirmation_used": false,
+  "pairs": [
+    {
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "seed": 2026090701,
+      "pair_report": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.json",
+        "sha256": "23f59ce0b597e6f173e0a80247c17ec0844e6b559b8d635614a4cd48e0958c88"
+      },
+      "artifact_path": "/data2/ishaangp/mira-interp/sparse_causal_fidelity_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.npz",
+      "artifact_sha256": "8db9ea0b5c040489b840f8f2b7cfa3fa0f13d6c5ed563f4cde09e383f0d2f80f",
+      "conditions_checked": 62
+    }
+  ],
+  "comparisons": [],
+  "paired_discovery_mean_comparisons": [],
+  "audit_script_sha256": "ca7ef05a95f7eb8259be8ac62e185be23a39a38ad3ea8e0e42d8e74ede8f09e7",
+  "artifact_bindings": [
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/audit_sparse_causal_fidelity.py",
+      "sha256": "ca7ef05a95f7eb8259be8ac62e185be23a39a38ad3ea8e0e42d8e74ede8f09e7"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/package_development.py",
+      "sha256": "b0881339e37d2c6f46e1e01ea1d1cfd8353941778f7dc3a72a85791a9a6cf536"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/audit_sparse_development.py",
+      "sha256": "c8fb1badf21aabde625ceda747fb55df595b0fe2132498cd8a42dda915ef7e67"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/registration.json",
+      "sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/pilot.json",
+      "sha256": "f97bb14449fbfc3e3bbf8d4d371ab275b88b4d9aa2ebfacdae9dce92308c484a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/analyze_development.py",
+      "sha256": "838f17956f9c3828de3e41d4143860777a38a4936c5be687baba7b154b600c7c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/causal_development.py",
+      "sha256": "6739e498fea863beb3ce8ed803da0cbbc04fca299ece248c6d80b4341207cbd8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/sparse_causal_fidelity.py",
+      "sha256": "eca35b2480336b3560f8d419d6e937d33232446a14a859ba082f0efa1a00d729"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/causal_development.py",
+      "sha256": "5cf43b1095149fb1201a816503c533856f9498073ce05bf1a11c4e28dc2bd7e0"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/development_capture.py",
+      "sha256": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/feature_geometry.py",
+      "sha256": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/model_loading.py",
+      "sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/pretrained.py",
+      "sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/probes.py",
+      "sha256": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/sparse_causal_fidelity.py",
+      "sha256": "c49e56c35052d0431fcc928e01fce79078e9b0b7215189f811ac745bc3ff0811"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/discovery_selection.json",
+      "sha256": "493d9a885cadc13fae89e623ca06f85863aeec9309525de8c7c8739578a23efb"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/pilot.json",
+      "sha256": "1591a0718eedae08a6212c62908b6797fb1c57f8ec9ee56ab2b95178b8b4e3d7"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/registration.json",
+      "sha256": "1676ed34ac265e53968151f34b7e67bb9566d0bd6d866876ee41a2d2c25142b6"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/selection_audit.json",
+      "sha256": "69f36fec2aaf396bf0c0276e014c8c9f857757ba417952924e302dee654b54a9"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/selection_results.json",
+      "sha256": "27718217dd494273b161887bef067a38ba873f30ab18fa84ae7fe62819d11b3c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/feature_development_v1/sparse_audit.json",
+      "sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/report.json",
+      "sha256": "c9429687f57b6103f572dd98dda593ceefcd7c0cfb2b08823bae8e4cf23cadf2"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/report.json",
+      "sha256": "7a32b0ea7093a0d2f3211602ea10003c57b4d44db21e41f6845f967f1e5148f4"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/report.json",
+      "sha256": "a5e3fb5432f65ea4c49519998b05fdfd28bbd833a08dacae005c840a93295b7c"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active32.pt",
+      "sha256": "3dad3ab8f46cfdb569d31ea0131b73250ae51918dde50622104db6c8e77bf411"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active32_temporal.pt",
+      "sha256": "e6dc3aa4a3597d9a293f4da8e80d2059395f0a851b84f14fde08df450fa8a482"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active32_temporal_shuffled.pt",
+      "sha256": "469ad9336124d0c6bb711e456041086432ac9b4f1e8af6a2cd58c69e5980b569"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active64.pt",
+      "sha256": "a1e059d7759c15b484c73a4085e5b878c33af1cb3549ff7b463cef6a42e63674"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active64_temporal.pt",
+      "sha256": "badfdc1a650abfd6b165720c54f44e5665daf00ae29f89806836baff4c464859"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/block_active64_temporal_shuffled.pt",
+      "sha256": "b27c7e18b55daee861a7f20bc2706b97e1406fbdf0935ca09d38bb96eeda475f"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/relu_active32.pt",
+      "sha256": "8aa81f174862109f8b5daa15849ae51840e5d4b8d524cc40036abeaf2e41c14f"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/relu_active64.pt",
+      "sha256": "c5d1880a5cc14e4393097f10b5b6bc2fb00c908c41595d0981fd00e0f4e7d363"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/signed_active32.pt",
+      "sha256": "bcc6dab74f110ab7cd0dfbc9ad7f0420dad3dc0e0559dab3ba466975f77f2cd7"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/signed_active64.pt",
+      "sha256": "cc423f9e45c91097549aa665e0896488d15bbe36e7f2d40e4fc6a8e7f7cff63f"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active32.pt",
+      "sha256": "2eec1db2a3acab57ced7db97b4c3c7724e60c858aafe5ce9337a02c8b533100d"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active32_temporal.pt",
+      "sha256": "055f086b9e993a9fa669ece791e8799be440899ae47e28f156f605caff545e12"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active32_temporal_shuffled.pt",
+      "sha256": "baebeb89cfec24251a293166a51d220bb5bf5a5b02605e5c5370cfd68c81c005"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active64.pt",
+      "sha256": "b6876a5010b6dd87d32a561f1d92af593a04a94709d847ec44ecbe901fd87b60"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active64_temporal.pt",
+      "sha256": "2218cb47fc2e8d36e5108b3853c48f9eec993c768661d5ef4d440c0dc5f926c7"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/block_active64_temporal_shuffled.pt",
+      "sha256": "04040278e54fda1128116811eb789dca407125a26d5c3ec4466235d1c73cf97b"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/relu_active32.pt",
+      "sha256": "192d2f33d562533a9a0d25a5a95a4777b14dd4fcee29cc5e0ac506216b404d66"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/relu_active64.pt",
+      "sha256": "7771b4bd11b444607bc7e9497ed7817ca89cedd0e168873d625de2a4e3d95b49"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/signed_active32.pt",
+      "sha256": "1f2dbbd600112e12a4e54206c5bea50405695f0950c7b313bcfcc7f09de500e6"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/signed_active64.pt",
+      "sha256": "186a33ec971afcceb7d93221f8a25bb14320f33b6220967af9734df6addb0e3d"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active32.pt",
+      "sha256": "7b7dc8f69e78cb5c7faac6640a29a05010cb57866db7b7f673230200758fa785"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active32_temporal.pt",
+      "sha256": "5021b1e9b9ba6d56aa60eacf0710bd935742eb3b3f84506a6c554f8e59d1bc1b"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active32_temporal_shuffled.pt",
+      "sha256": "7a4ddf59f2fb63fca1ed5e167769e18c51c7a6d0ae8ae130b0bfe441edd75cc7"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active64.pt",
+      "sha256": "34d0aad476eea9fbb98eae13549330b7f80c621d481f89d6df8e8119816c4259"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active64_temporal.pt",
+      "sha256": "27e5f485595ad30e17463ecefe9578c03e05b90f8f810ac8d8a0b2ff8f11ac9b"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/block_active64_temporal_shuffled.pt",
+      "sha256": "2241c7c77854569b4e52b166acd4a58de3be74ba86d8a0a51ea287a1ccc3391e"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/relu_active32.pt",
+      "sha256": "a166c4913014c1dd90b92b72b05e3768b81568e86cade0300060bf0ef086cbaf"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/relu_active64.pt",
+      "sha256": "4ad6d4a6301c5d53b6d1159c4d41a3ef84cc9e0e65e48e70ce11287033a7a919"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/signed_active32.pt",
+      "sha256": "bf3a5908202dd75da18cb81a6307253d2f25c125f68905ee12b5548c5ca0ad50"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/signed_active64.pt",
+      "sha256": "b0691645b21625bbf6666df2e578b2b8ab6f5cf3474572dd28752129c0b774fb"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_models.npz",
+      "sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/probe_audit.json",
+      "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_report.json",
+      "sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_selection.json",
+      "sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.json",
+      "sha256": "adbb8e3e4cd69d4f02ac2a252ab054e64d8ac739d5b3b79567832b8a72d1cb10"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.json",
+      "sha256": "23f59ce0b597e6f173e0a80247c17ec0844e6b559b8d635614a4cd48e0958c88"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/prepared_float_v3/pilot/2026-05-29T18-17-39Z-fb68d7_clip00.npz",
+      "sha256": "773d234895507ede4cea7acf4eca2e518326b4d7deecd39b61d4b89068b45588"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/causal_development_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.npz",
+      "sha256": "c8848d3e9bd6b5c2330686afaa8bdab33adcd6029e8d0ef8cb6345998fb725b7"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/sparse_causal_fidelity_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.npz",
+      "sha256": "8db9ea0b5c040489b840f8f2b7cfa3fa0f13d6c5ed563f4cde09e383f0d2f80f"
+    }
+  ],
+  "elapsed_seconds": 5.582
+}

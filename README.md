@@ -23,7 +23,8 @@ improvement; the tested spatial descriptor did not beat mean pooling. Choices
 were published before the new confirmation capture, and the original study is
 preserved. Exact internal causal interventions, geometry comparisons, 30 sparse
 models, and VideoMAE adaptation have completed and passed independent audits.
-Sparse causal fidelity and generated-rollout steering are the active next steps.
+All1,364 sparse causal-fidelity conditions have also passed their independent
+audit. Generated-rollout steering and its frozen video measurements are next.
 
 The geometry comparisons did **not** establish a nonlinear advantage: quadratic
 height, speed and vertical-velocity gains were small and their match-bootstrap
@@ -119,6 +120,10 @@ checksums, and reproducible download commands are recorded instead.
 The revised [development features and models](https://github.com/guptaishaan/mira-interp/releases/tag/development-v3-2026-09-07)
 and [fresh confirmation features](https://github.com/guptaishaan/mira-interp/releases/tag/fresh-confirmation-v3-2026-09-07)
 are also published with verified remote checksums.
+The [causal tensors](https://github.com/guptaishaan/mira-interp/releases/tag/causal-development-v1-2026-09-07),
+[all30 sparse models and geometry artifacts](https://github.com/guptaishaan/mira-interp/releases/tag/sparse-development-v1-2026-09-07),
+and [adapted VideoMAE checkpoints/features](https://github.com/guptaishaan/mira-interp/releases/tag/videomae-v1-2026-09-07)
+are published as separate verified release assets.
 
 ## Attribution
 

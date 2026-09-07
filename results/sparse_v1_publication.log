@@ -1,0 +1,20 @@
+https://github.com/guptaishaan/mira-interp/releases/tag/sparse-development-v1-2026-09-07
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T07:22:48.954431+00:00",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/sparse-development-v1-2026-09-07",
+  "release_id": 383896558,
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "asset": {
+    "id": 548354362,
+    "name": "sparse-development-v1-2026-09-07.tar.gz",
+    "size": 1090009905,
+    "digest": "sha256:9fe4e9f01e9aa212aab37fb14c3414f66d13cc430a7aadeb15f5ded39aaa7998",
+    "state": "uploaded",
+    "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/sparse-development-v1-2026-09-07/sparse-development-v1-2026-09-07.tar.gz"
+  },
+  "api_size_and_digest_equal_local_verified_archive": true,
+  "archive_report_sha256": "41dab65f8a8a68e1165fa734435627d4454d2ecc69de3a8cc8d21017be3e58ac",
+  "release_notes_sha256": "d4f70bf3173796153e20bbfb934328fbb76ed2b1d1776d1417c8e5d76098d71c",
+  "publication_script_sha256": "be616a49a52f9bff830da1152a818178586e78d8456097b4333d44bb933446e4"
+}

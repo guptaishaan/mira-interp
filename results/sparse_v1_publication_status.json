@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-07T07:21:19.852683+00:00",
+  "tag": "sparse-development-v1-2026-09-07",
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "archive_path": "/data2/ishaangp/mira-interp/releases/sparse-development-v1-2026-09-07.tar.gz",
+  "archive_sha256": "9fe4e9f01e9aa212aab37fb14c3414f66d13cc430a7aadeb15f5ded39aaa7998",
+  "archive_report_sha256": "41dab65f8a8a68e1165fa734435627d4454d2ecc69de3a8cc8d21017be3e58ac",
+  "release_notes_sha256": "d4f70bf3173796153e20bbfb934328fbb76ed2b1d1776d1417c8e5d76098d71c",
+  "stage": "complete",
+  "publication_report_sha256": "a930f4192b95bccb35895c8b1ca950d89340e7d9f96c7db3102df02c8b4d0998"
+}

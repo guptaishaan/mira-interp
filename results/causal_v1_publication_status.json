@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-07T07:21:18.679026+00:00",
+  "tag": "causal-development-v1-2026-09-07",
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "archive_path": "/data2/ishaangp/mira-interp/releases/causal-development-v1-2026-09-07.tar.gz",
+  "archive_sha256": "2eef5d5a14d876c9bbcb02767ac999a3d47586643a91018586f84d820d96a2ba",
+  "archive_report_sha256": "a4a644aca8e9c1a50346e1baf75de2231410b8cf7d03c7e2d1e08709ff6af18d",
+  "release_notes_sha256": "fef6ebfa073f1964e9a8751d623d0283e4f11e4080870fc4b1b0f6de99efd05e",
+  "stage": "complete",
+  "publication_report_sha256": "1630eaf970af4d7989f767fbe10b18741aec7e0ff528c6aa20ea018162ad9010"
+}

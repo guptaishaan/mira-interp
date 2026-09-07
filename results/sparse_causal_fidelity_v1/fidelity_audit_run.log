@@ -1,0 +1,23 @@
+{"checked_pairs": 1, "expected_pairs": 22, "elapsed_seconds": 5.33}
+{"checked_pairs": 2, "expected_pairs": 22, "elapsed_seconds": 8.43}
+{"checked_pairs": 3, "expected_pairs": 22, "elapsed_seconds": 10.97}
+{"checked_pairs": 4, "expected_pairs": 22, "elapsed_seconds": 13.56}
+{"checked_pairs": 5, "expected_pairs": 22, "elapsed_seconds": 16.31}
+{"checked_pairs": 6, "expected_pairs": 22, "elapsed_seconds": 18.52}
+{"checked_pairs": 7, "expected_pairs": 22, "elapsed_seconds": 20.67}
+{"checked_pairs": 8, "expected_pairs": 22, "elapsed_seconds": 23.12}
+{"checked_pairs": 9, "expected_pairs": 22, "elapsed_seconds": 25.26}
+{"checked_pairs": 10, "expected_pairs": 22, "elapsed_seconds": 27.06}
+{"checked_pairs": 11, "expected_pairs": 22, "elapsed_seconds": 28.74}
+{"checked_pairs": 12, "expected_pairs": 22, "elapsed_seconds": 30.41}
+{"checked_pairs": 13, "expected_pairs": 22, "elapsed_seconds": 32.06}
+{"checked_pairs": 14, "expected_pairs": 22, "elapsed_seconds": 33.7}
+{"checked_pairs": 15, "expected_pairs": 22, "elapsed_seconds": 35.49}
+{"checked_pairs": 16, "expected_pairs": 22, "elapsed_seconds": 37.41}
+{"checked_pairs": 17, "expected_pairs": 22, "elapsed_seconds": 39.2}
+{"checked_pairs": 18, "expected_pairs": 22, "elapsed_seconds": 40.98}
+{"checked_pairs": 19, "expected_pairs": 22, "elapsed_seconds": 42.85}
+{"checked_pairs": 20, "expected_pairs": 22, "elapsed_seconds": 44.77}
+{"checked_pairs": 21, "expected_pairs": 22, "elapsed_seconds": 46.9}
+{"checked_pairs": 22, "expected_pairs": 22, "elapsed_seconds": 48.85}
+{"status": "passed", "output": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_audit.json", "sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2", "elapsed_seconds": 52.71}

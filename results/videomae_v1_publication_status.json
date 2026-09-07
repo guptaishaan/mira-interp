@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-07T07:21:20.457152+00:00",
+  "tag": "videomae-v1-2026-09-07",
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "archive_path": "/data2/ishaangp/mira-interp/publication/videomae_v1/videomae-derived-v1.tar",
+  "archive_sha256": "97c653601ea53914b62a67d3c53c2d0125c1f62810b59f88d9e1ff523f9ef7ec",
+  "archive_report_sha256": "887e59bcd4e5e0b309fa09cfd9c88f1232135f772b3fde85e570389f6f825af2",
+  "release_notes_sha256": "a5a1af2c32f3bb65d0796ea3c1c18aa77c8b9d50abd817a9458a0921e67a8753",
+  "stage": "complete",
+  "publication_report_sha256": "143cfced2be12354fb9ed1f8221c60d5ceb8984dfdc0748ddfa62402fd5e1fd1"
+}

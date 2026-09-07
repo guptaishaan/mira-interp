@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T07:22:04.206263+00:00",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/causal-development-v1-2026-09-07",
+  "release_id": 383896545,
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "asset": {
+    "id": 548354346,
+    "name": "causal-development-v1-2026-09-07.tar.gz",
+    "size": 1116295253,
+    "digest": "sha256:2eef5d5a14d876c9bbcb02767ac999a3d47586643a91018586f84d820d96a2ba",
+    "state": "uploaded",
+    "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/causal-development-v1-2026-09-07/causal-development-v1-2026-09-07.tar.gz"
+  },
+  "api_size_and_digest_equal_local_verified_archive": true,
+  "archive_report_sha256": "a4a644aca8e9c1a50346e1baf75de2231410b8cf7d03c7e2d1e08709ff6af18d",
+  "release_notes_sha256": "fef6ebfa073f1964e9a8751d623d0283e4f11e4080870fc4b1b0f6de99efd05e",
+  "publication_script_sha256": "be616a49a52f9bff830da1152a818178586e78d8456097b4333d44bb933446e4"
+}

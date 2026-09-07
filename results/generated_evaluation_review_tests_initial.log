@@ -1,0 +1,29 @@
+......F..F.                                                              [100%]
+=================================== FAILURES ===================================
+____ test_contradictory_duplicate_effective_doses_are_not_monotonic_success ____
+
+    def test_contradictory_duplicate_effective_doses_are_not_monotonic_success():
+        result=evaluation.ordering(np.array([-600,-300,0,0,0]),np.array([-2,-1,0,-10,10]))
+>       assert result['nondecreasing_with_nonzero_span'] is False
+E       assert True is False
+
+tests/test_generated_evaluation.py:74: AssertionError
+____________ test_undefined_rank_seed_does_not_change_match_weight _____________
+
+    def test_undefined_rank_seed_does_not_change_match_weight():
+        records,predictions=fixture_records({('a',1):0.,('a',2):1.,('b',1):-1.,('b',2):-1.})
+        report=evaluation.summarize(records,predictions,np.ones(12),config())
+        for row in report['summary']:
+            key='mean_finite_match_spearman' if 'mean_finite_match_spearman' in row else 'mean_finite_pair_spearman'
+>           assert row[key]==pytest.approx(0.)
+E           assert -0.3333333333333333 == 0.0 ± 1.0e-12
+E             
+E             comparison failed
+E             Obtained: -0.3333333333333333
+E             Expected: 0.0 ± 1.0e-12
+
+tests/test_generated_evaluation.py:112: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_generated_evaluation.py::test_contradictory_duplicate_effective_doses_are_not_monotonic_success
+FAILED tests/test_generated_evaluation.py::test_undefined_rank_seed_does_not_change_match_weight
+2 failed, 9 passed in 2.42s

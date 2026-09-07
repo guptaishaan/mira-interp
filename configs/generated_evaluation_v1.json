@@ -1,0 +1,54 @@
+{
+  "status": "registered_before_generated_video_evaluation",
+  "created_utc": "2026-09-07T07:30:11.547703+00:00",
+  "code_sha256": {
+    "scripts/evaluate_rollouts.py": "4855d35c28a6e3e02f11772d09fe18e595eedc70016cecf5b3cf49972655763e",
+    "src/mira_interp/rollout_evaluator.py": "185d62ae2b5536b3f0bab9ab8d19fa42a6cebfd0d65849c9167e2c857598859a",
+    "src/mira_interp/video_evaluator.py": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1",
+    "src/mira_interp/video_evaluator_finetune.py": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a",
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077"
+  },
+  "evaluator_report_sha256": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e",
+  "evaluator_audit_sha256": "7f3d3f1af97d7facd9218f4958496f92992c6746f2dd162a545966a018fc49e2",
+  "checkpoint_sha256": "668858de6257b94a4a6544a193d7f8e83876f3a7771ac8297afd7551efc52539",
+  "primary": "view0 absolute ball location.z, estimated as ego.z plus ball-minus-ego.z",
+  "secondary": "all4-view mean estimated ball height; all12 raw role changes;11-coordinate normalized role collateral excluding ball-minus-ego.z",
+  "endpoint_frames": [
+    17,
+    19,
+    21,
+    23
+  ],
+  "seconds_after_context": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "paths": [
+    "probe_linear",
+    "affine_forward",
+    "quadratic_forward",
+    "random_norm",
+    "wrong_variable_ball_x"
+  ],
+  "requested_doses": [
+    -600.0,
+    -300.0,
+    0.0,
+    300.0,
+    600.0
+  ],
+  "ordering_metrics": "Spearman versus actual clipped dose, linear slope versus actual clipped dose, positive adjacent fraction, nondecreasing with nonzero span; constants are not successful steering",
+  "contrast": "estimated height at requested+600 minus requested-600; fixed signed contrast, not selected from results",
+  "collateral": "RMS standardized paired role change over11 non-target role coordinates at the two extreme doses; training head discovery scales remain frozen",
+  "aggregation": "Average two paired seeds per match before equal-match means and1000 percentile match-bootstrap draws",
+  "bootstrap_seed": 2026090703,
+  "bootstrap_draws": 1000,
+  "inference": "FP32 checkpoint parameters, BF16 autocast, deterministic algorithms, math attention; no optimizer",
+  "generated_video_accuracy_established": false,
+  "uncertainty_limit": "Bootstrap reflects match sampling only, not evaluator bias, model-seed uncertainty or simultaneous inference",
+  "no_adaptation_or_selection": true,
+  "clipped_duplicates": "Retain all nominal doses; duplicate effective doses must agree within1e-6uu to count as nondecreasing; retain inconsistency flags",
+  "undefined_ranks": "Average finite seeds within each match, then equal-weight eligible matches; report all missing seed and match counts"
+}

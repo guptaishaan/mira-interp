@@ -1,0 +1,2 @@
+{"checked_pairs": 1, "expected_pairs": 1, "elapsed_seconds": 4.4}
+{"status": "passed", "output": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/pilot_audit.json", "sha256": "4e05a827d4b548091919d6c76bcbb0e6c39324ff188fdad6201e1517d9478dc9", "elapsed_seconds": 5.582}

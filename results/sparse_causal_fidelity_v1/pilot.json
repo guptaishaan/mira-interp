@@ -1,0 +1,78 @@
+{
+  "conditional_reconstruction_fidelity_only": true,
+  "conditions_checked": 62,
+  "confirmation_used": false,
+  "dictionary_count": 30,
+  "elapsed_seconds": 29.425759941339493,
+  "engineering_only": true,
+  "model_loading": {
+    "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "codec_pair_integrity": {
+      "compared_tensors": 936,
+      "comparison": "exact dtype and torch.equal",
+      "latent_mean_std": [
+        0.008073142703917577,
+        0.9276199261988762
+      ],
+      "mismatched_keys": [],
+      "passed": true
+    },
+    "codec_parameter_count": 900300192,
+    "codec_strict_load": {
+      "passed": true,
+      "state_tensors": 936
+    },
+    "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+    "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "model_repo": "alakazamworld/mira-mini-4p",
+    "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+    "original_config_sha256": {
+      "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24",
+      "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87"
+    },
+    "parameter_count_including_codec": 2095609472,
+    "runtime_overrides": {
+      "activation_checkpointing": false,
+      "codec_checkpoint": "local verified path",
+      "compile_dino": false
+    },
+    "source_revisions": {
+      "dinov3": "6876159a11b4df116f30f667f8c9888617df0751",
+      "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7"
+    },
+    "torch_version": "2.9.0+cu126",
+    "verified_assets": [
+      {
+        "bytes": 8383271151,
+        "name": "checkpoint-90000/checkpoint.pth",
+        "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+      },
+      {
+        "bytes": 3601866873,
+        "name": "codec/checkpoint-125000/checkpoint.pth",
+        "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+      }
+    ],
+    "world_model_strict_load": {
+      "missing_keys": [],
+      "passed": true,
+      "shape_mismatch": [],
+      "state_tensors": 1183,
+      "unexpected_keys": []
+    }
+  },
+  "n_pairs_seeds": 1,
+  "new_confirmation_required": true,
+  "output_proxy_limit": "Probe was trained on observed clean codec tokens. Its application to model endpoint estimates and edited outputs is an unvalidated distribution shift.",
+  "pair": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/pilot/2026-05-29T18-17-39Z-fb68d7_seed2026090701.json",
+    "sha256": "23f59ce0b597e6f173e0a80247c17ec0844e6b559b8d635614a4cd48e0958c88"
+  },
+  "peak_gpu_allocated_bytes": 11295260672,
+  "physical_control_established": false,
+  "registration_sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1",
+  "scope": "development-only internal model-output causal fidelity",
+  "shared_mean_control_count_per_pair": 2,
+  "status": "passed",
+  "uncertainty": "Average paired seeds within each of11matches;500 wholematch bootstrap draws seed20260907. Descriptive conditional intervals; no fresh confirmation or multiple-comparison claims."
+}

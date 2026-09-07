@@ -1,21 +1,27 @@
 {
   "status": "passed_cpu_engineering_tests",
-  "created_utc": "2026-09-07T06:59:03.989577+00:00",
-  "focused_tests_total": 24,
-  "pytest_seconds": 4.94,
+  "created_utc": "2026-09-07T07:12:22.419199+00:00",
+  "focused_tests_total": 26,
+  "pytest_seconds": 3.37,
   "test_files": [
-    "tests/test_rollout_steering.py",
     "tests/test_sparse_causal_fidelity.py",
     "tests/test_causal_development.py",
-    "tests/test_feature_geometry.py"
+    "tests/test_feature_geometry.py",
+    "tests/test_rollout_steering.py"
   ],
-  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=8 OPENBLAS_NUM_THREADS=8 PYTHONPATH=src:external/mira/src .venv/bin/python -m pytest -q tests/test_rollout_steering.py tests/test_sparse_causal_fidelity.py tests/test_causal_development.py tests/test_feature_geometry.py",
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=8 OPENBLAS_NUM_THREADS=8 PYTHONPATH=src:external/mira/src .venv/bin/python -m pytest -q tests/test_sparse_causal_fidelity.py tests/test_causal_development.py tests/test_feature_geometry.py tests/test_rollout_steering.py",
   "code_sha256": {
-    "scripts/sparse_causal_fidelity.py": "c110af9ccd016becae07872cd469578d7637f418e0fe71badce55df3c8845eda",
+    "scripts/sparse_causal_fidelity.py": "eca35b2480336b3560f8d419d6e937d33232446a14a859ba082f0efa1a00d729",
     "src/mira_interp/sparse_causal_fidelity.py": "c49e56c35052d0431fcc928e01fce79078e9b0b7215189f811ac745bc3ff0811",
-    "tests/test_sparse_causal_fidelity.py": "a76ae9e6cdf2918794bf2b91392659dd7fe127ae5da9cbe9ca38fef0978e0ac4"
+    "tests/test_sparse_causal_fidelity.py": "143b2de2829bf787d291dafd048abc49e4e8fa76fcb2485cdf495758da737809"
   },
   "gpu_used": false,
   "scientific_experiment_executed": false,
-  "scientific_evidence": false
+  "scientific_evidence": false,
+  "actual_checkpoint_preflight": {
+    "status": "passed",
+    "dictionaries": 30,
+    "reports": 3,
+    "global_normalizer_sha256": "063d6f7237c6c3251aa6d4a425397dfc15e658a6f4acfc908563e3bd5e017863"
+  }
 }

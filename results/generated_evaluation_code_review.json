@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "scope": "independent source review and synthetic CPU metric tests before generated outcomes",
+  "code_sha256": {
+    "scripts/evaluate_rollouts.py": "4855d35c28a6e3e02f11772d09fe18e595eedc70016cecf5b3cf49972655763e",
+    "src/mira_interp/rollout_evaluator.py": "185d62ae2b5536b3f0bab9ab8d19fa42a6cebfd0d65849c9167e2c857598859a",
+    "tests/test_generated_evaluation.py": "0759000da4a4b9e15b8b506d83870d0639e689bc1a8577ce2f6023da9d649414"
+  },
+  "tests_passed": 12,
+  "test_log_sha256": "c01af2ebdea91d47f9d7f665a15bd6eee429537ca4259724c6576365bdb2ded9",
+  "initial_regression_evidence": {
+    "path": "results/generated_evaluation_review_tests_initial.log",
+    "sha256": "6790ea7f5e7f15a19920446bc7f16a21bc8617034910de4cbb344f7ed2758375",
+    "passed": 9,
+    "failed": 2
+  },
+  "fixed_before_registration": [
+    "Duplicate effective doses with inconsistent responses no longer count as nondecreasing success",
+    "Undefined rank seeds are averaged within match before equal-match aggregation"
+  ],
+  "checked": [
+    "All four views and four endpoint windows",
+    "Absolute ball state is ego six plus relative-ball six",
+    "Five nominal doses retain actual clipping offsets",
+    "Constant responses are not successful steering",
+    "Matched two-seed then whole-match contrast aggregation and bootstrap",
+    "Both random and wrong-variable paired contrasts",
+    "Eleven collateral role coordinates exclude relative-ball z index8 only",
+    "Explicit passed evaluator status and audited measurement pilot-selection-confirmation gates"
+  ],
+  "real_generated_outcomes_used": false,
+  "model_or_probe_fitting_performed": false,
+  "generated_video_accuracy_established": false,
+  "limits": [
+    "Empirical generated-video accuracy remains unvalidated",
+    "Bootstrap is conditional match-sampling uncertainty, not evaluator bias or simultaneous inference"
+  ]
+}

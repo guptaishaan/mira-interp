@@ -1,0 +1,21 @@
+{
+  "status": "passed_cpu_engineering_tests",
+  "created_utc": "2026-09-07T06:59:03.986934+00:00",
+  "focused_tests_total": 24,
+  "pytest_seconds": 4.94,
+  "test_files": [
+    "tests/test_rollout_steering.py",
+    "tests/test_sparse_causal_fidelity.py",
+    "tests/test_causal_development.py",
+    "tests/test_feature_geometry.py"
+  ],
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=8 OPENBLAS_NUM_THREADS=8 PYTHONPATH=src:external/mira/src .venv/bin/python -m pytest -q tests/test_rollout_steering.py tests/test_sparse_causal_fidelity.py tests/test_causal_development.py tests/test_feature_geometry.py",
+  "code_sha256": {
+    "scripts/rollout_steering.py": "68b9fdd3d3f6d1ff002b47c4f2d44d9d289a41e5fc723d09a4cfa617797d6273",
+    "src/mira_interp/rollout_steering.py": "079449ebb0be88c57d1d0bdbdade20b2e106946ef35912c29a86376ddd61334c",
+    "tests/test_rollout_steering.py": "2904eb891a46c0d424bab82e61acdd0084ca58792ad14d6f2d3ab88142812f86"
+  },
+  "gpu_used": false,
+  "scientific_experiment_executed": false,
+  "scientific_evidence": false
+}

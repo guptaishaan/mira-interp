@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scope": "CPU synthetic integrity tests only; no generated rollout audited yet",
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 /ccn2/u/ishaangp/miniconda3/envs/ccwm/bin/python -m pytest tests/test_rollout_generation_audit.py -q",
+  "result": "4 passed in 0.11s",
+  "script_sha256": "7e7fa2351ff0d97acc119e5b33f6d5471f1c0152c9887f81e1e1cb285d53c38a",
+  "tests_sha256": "d6780483bb88e9fa97d973cb0199bf87f65508c8ae20af9f154298e2575d7c75",
+  "gpu_used": false,
+  "generation_audit_completed": false
+}

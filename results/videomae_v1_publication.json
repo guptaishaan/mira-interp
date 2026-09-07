@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T07:22:31.641978+00:00",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/videomae-v1-2026-09-07",
+  "release_id": 383896564,
+  "target_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+  "asset": {
+    "id": 548354375,
+    "name": "videomae-derived-v1.tar",
+    "size": 163870720,
+    "digest": "sha256:97c653601ea53914b62a67d3c53c2d0125c1f62810b59f88d9e1ff523f9ef7ec",
+    "state": "uploaded",
+    "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/videomae-v1-2026-09-07/videomae-derived-v1.tar"
+  },
+  "api_size_and_digest_equal_local_verified_archive": true,
+  "archive_report_sha256": "887e59bcd4e5e0b309fa09cfd9c88f1232135f772b3fde85e570389f6f825af2",
+  "release_notes_sha256": "a5a1af2c32f3bb65d0796ea3c1c18aa77c8b9d50abd817a9458a0921e67a8753",
+  "publication_script_sha256": "be616a49a52f9bff830da1152a818178586e78d8456097b4333d44bb933446e4"
+}
