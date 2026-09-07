@@ -1,0 +1,26 @@
+{
+  "status": "stopped_for_runtime_allocation_stall_before_selection_lock",
+  "created_utc": "2026-09-07T00:30:03.543256+00:00",
+  "pid": 3224548,
+  "elapsed_seconds": 445.7799999974668,
+  "user_cpu_seconds": 18.19,
+  "kernel_cpu_seconds": 453.48,
+  "selection_artifacts_written": false,
+  "confirmation_evaluated": false,
+  "diagnosis": "NumPy huge-page requests incurred kernel memory-compaction stalls; bounded synthetic arithmetic validated process-local NUMPY_MADVISE_HUGEPAGE=0 remedy",
+  "protocol_changed": false,
+  "math_hyperparameters_or_data_changed": false,
+  "host_settings_changed": false,
+  "restart_environment": {
+    "NUMPY_MADVISE_HUGEPAGE": "0"
+  },
+  "synthetic_disabled_timings_seconds": {
+    "create_7936x2048": 0.19,
+    "center": 0.034,
+    "variance": 0.035,
+    "normalize": 0.088,
+    "covariance": 0.12,
+    "eigh_2048": 0.646
+  },
+  "default_synthetic_center_exceeded_seconds": 60
+}

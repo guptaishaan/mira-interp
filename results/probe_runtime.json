@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-09-07T00:31:12.284812+00:00",
+  "environment": {
+    "NUMPY_MADVISE_HUGEPAGE": "0"
+  },
+  "numpy_version": "1.26.0",
+  "numpy_madvise_hugepage_enabled": false,
+  "math_or_hyperparameters_changed": false,
+  "host_settings_changed": false,
+  "prior_attempt_report": "results/probe_attempts/01_numpy_hugepage_slow.json",
+  "analysis_code_sha256": {
+    "scripts/analyze_probes.py": "abbdcfeb024377526d99a383daa9defd797cd6e1402ba4a98b0286a7a0d38d1d",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  },
+  "applies_to": [
+    "selection",
+    "independent selection audit",
+    "confirmation",
+    "exports",
+    "packaging"
+  ]
+}

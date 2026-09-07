@@ -1,0 +1,15 @@
+Discovery/selection: block_0_input
+Discovery/selection: block_0_output
+Discovery/selection: block_1_output
+Traceback (most recent call last):
+  File "/ccn2/u/ishaangp/mira-interp/scripts/analyze_probes.py", line 253, in <module>
+    raise SystemExit(main())
+  File "/ccn2/u/ishaangp/mira-interp/scripts/analyze_probes.py", line 156, in main
+    selected, frozen = select_models(data, seed=SEED, progress=lambda site: print(f"Discovery/selection: {site}", flush=True))
+  File "/ccn2/u/ishaangp/mira-interp/src/mira_interp/probes.py", line 176, in select_models
+    models = ridge_path(features[discovery], joined_targets, weights)
+  File "/ccn2/u/ishaangp/mira-interp/src/mira_interp/probes.py", line 134, in ridge_path
+    eigenvalues, basis = np.linalg.eigh(xw.T @ xw)
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/numpy/linalg/linalg.py", line 1086, in _eigvalsh_dispatcher
+    def _eigvalsh_dispatcher(a, UPLO=None):
+KeyboardInterrupt

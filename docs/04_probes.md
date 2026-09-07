@@ -152,19 +152,19 @@ all-site multiplicity, and the study makes no family-wide significance claim.
 Selection, its audit, and confirmation must run as separate processes:
 
 ```bash
-.venv/bin/python scripts/analyze_probes.py \
+NUMPY_MADVISE_HUGEPAGE=0 .venv/bin/python scripts/analyze_probes.py \
   --registration configs/observational_probe_v2.json \
   --data /path/to/audited_observations.npz \
   --audit /path/to/aggregate_capture_audit.json \
   --output-dir results/observational_probes --phase select
 
-.venv/bin/python scripts/audit_probe_selection.py \
+NUMPY_MADVISE_HUGEPAGE=0 .venv/bin/python scripts/audit_probe_selection.py \
   --registration configs/observational_probe_v2.json \
   --data /path/to/audited_observations.npz \
   --audit /path/to/aggregate_capture_audit.json \
   --selection-dir results/observational_probes
 
-.venv/bin/python scripts/analyze_probes.py \
+NUMPY_MADVISE_HUGEPAGE=0 .venv/bin/python scripts/analyze_probes.py \
   --registration configs/observational_probe_v2.json \
   --data /path/to/audited_observations.npz \
   --audit /path/to/aggregate_capture_audit.json \
@@ -175,6 +175,16 @@ The default phase is `select`; there is no automatic combined phase. A missing,
 failed, mismatched or changed selection audit blocks confirmation.
 Existing locks/results are not overwritten.
 CPU BLAS thread limits are set to eight; no GPU is used by this analysis.
+
+The first selection attempt spent most CPU time in host-kernel memory compaction.
+It was interrupted before any model archive or selection lock was written; its
+record and log are preserved in [`results/probe_attempts`](../results/probe_attempts/).
+The restart uses the identical analysis code and protocol, with
+`NUMPY_MADVISE_HUGEPAGE=0` disabling NumPy's huge-page requests only for that
+process. A shape-matched synthetic timing check reduced the complete matrix
+calculation to about 1.3 seconds; these timings are engineering diagnostics,
+not research results. Mathematical operations, hyperparameters, split roles and
+selection rules are unchanged. No host-wide huge-page settings were changed.
 
 Expected outputs after an actual completed run:
 
