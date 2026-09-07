@@ -27,8 +27,10 @@ velocity remains weak. See `docs/11_fresh_confirmation_results.md` and
 using these exposed fresh results.
 
 The causal discovery audit passed all 31 matches and two seeds, freezing block
-15/14/13 outputs. Registered exact selection interventions are active on GPU7;
-check `results/causal_development_v1/selection.exit`, log and audit before advancing.
+15/14/13 outputs. Registered exact selection interventions completed and passed
+their independent audit: 660 conditions, 11 matches, two seeds. Full donor effects
+were positive on only 6/11 matches; probe-component effects were small. Preserve
+the narrower internal-output claim in `docs/09_internal_causal_development.md`.
 The first discovery attempt received SIGTERM; 32 verified artifacts were reused
 and the remaining 30 completed, with unchanged code/protocol. The interruption
 is preserved. The VideoMAE evaluator uses development data only and is active on

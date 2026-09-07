@@ -1,0 +1,14 @@
+{
+  "status": "interrupted",
+  "observed_utc": "2026-09-07T06:07:04.065933+00:00",
+  "exit_code": 143,
+  "signal": "SIGTERM",
+  "cause": "unknown; neither parent nor capture agent intentionally terminated the run",
+  "completed_pair_reports": 32,
+  "completed_pair_archives_hash_verified": 32,
+  "discovery_selection_written": false,
+  "protocol_unchanged": true,
+  "registration_sha256": "1676ed34ac265e53968151f34b7e67bb9566d0bd6d866876ee41a2d2c25142b6",
+  "log_sha256": "a1b8d5ddee9b28e13144c0772b67b97609edbf8a3c1fb698825da4953450f4db",
+  "resume": "same registered discover phase, same GPU7; saved complete pair artifacts reused after hash verification"
+}

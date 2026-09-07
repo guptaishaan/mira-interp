@@ -1,0 +1,131 @@
+{
+  "status": "passed",
+  "n_matches": 31,
+  "n_pairs_seeds": 62,
+  "chosen_sites": [
+    "block_15_output",
+    "block_14_output",
+    "block_13_output"
+  ],
+  "ranked_sites": [
+    {
+      "site": "block_15_output",
+      "site_index": 16,
+      "mean_attribution": 0.49687760398736946,
+      "positive_seed_pairs": 48,
+      "negative_seed_pairs": 14
+    },
+    {
+      "site": "block_14_output",
+      "site_index": 15,
+      "mean_attribution": 0.33122442992699375,
+      "positive_seed_pairs": 50,
+      "negative_seed_pairs": 12
+    },
+    {
+      "site": "block_13_output",
+      "site_index": 14,
+      "mean_attribution": 0.2646132693912155,
+      "positive_seed_pairs": 54,
+      "negative_seed_pairs": 8
+    },
+    {
+      "site": "block_12_output",
+      "site_index": 13,
+      "mean_attribution": 0.2080869833014402,
+      "positive_seed_pairs": 50,
+      "negative_seed_pairs": 12
+    },
+    {
+      "site": "block_11_output",
+      "site_index": 12,
+      "mean_attribution": 0.16297241835547563,
+      "positive_seed_pairs": 50,
+      "negative_seed_pairs": 12
+    },
+    {
+      "site": "block_10_output",
+      "site_index": 11,
+      "mean_attribution": 0.13544726799425635,
+      "positive_seed_pairs": 48,
+      "negative_seed_pairs": 14
+    },
+    {
+      "site": "block_9_output",
+      "site_index": 10,
+      "mean_attribution": 0.09290885863029916,
+      "positive_seed_pairs": 42,
+      "negative_seed_pairs": 20
+    },
+    {
+      "site": "block_8_output",
+      "site_index": 9,
+      "mean_attribution": 0.05094686527719783,
+      "positive_seed_pairs": 35,
+      "negative_seed_pairs": 27
+    },
+    {
+      "site": "block_7_output",
+      "site_index": 8,
+      "mean_attribution": 0.015593163619695037,
+      "positive_seed_pairs": 31,
+      "negative_seed_pairs": 31
+    },
+    {
+      "site": "block_6_output",
+      "site_index": 7,
+      "mean_attribution": 0.0021439790409443433,
+      "positive_seed_pairs": 30,
+      "negative_seed_pairs": 32
+    },
+    {
+      "site": "block_5_output",
+      "site_index": 6,
+      "mean_attribution": -0.015492128965046346,
+      "positive_seed_pairs": 28,
+      "negative_seed_pairs": 34
+    },
+    {
+      "site": "block_4_output",
+      "site_index": 5,
+      "mean_attribution": -0.042928089723371955,
+      "positive_seed_pairs": 20,
+      "negative_seed_pairs": 42
+    },
+    {
+      "site": "block_3_output",
+      "site_index": 4,
+      "mean_attribution": -0.0740138705994453,
+      "positive_seed_pairs": 15,
+      "negative_seed_pairs": 47
+    },
+    {
+      "site": "block_2_output",
+      "site_index": 3,
+      "mean_attribution": -0.0892712223642321,
+      "positive_seed_pairs": 16,
+      "negative_seed_pairs": 46
+    },
+    {
+      "site": "block_1_output",
+      "site_index": 2,
+      "mean_attribution": -0.1060820885872544,
+      "positive_seed_pairs": 15,
+      "negative_seed_pairs": 47
+    },
+    {
+      "site": "block_0_output",
+      "site_index": 1,
+      "mean_attribution": -0.11781162734500344,
+      "positive_seed_pairs": 16,
+      "negative_seed_pairs": 46
+    },
+    {
+      "site": "block_0_input",
+      "site_index": 0,
+      "mean_attribution": -0.13848870709441316,
+      "positive_seed_pairs": 20,
+      "negative_seed_pairs": 42
+    }
+  ]
+}

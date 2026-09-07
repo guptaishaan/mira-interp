@@ -1,0 +1,234 @@
+Audited 1/22 paired runs
+Audited 2/22 paired runs
+Audited 3/22 paired runs
+Audited 4/22 paired runs
+Audited 5/22 paired runs
+Audited 6/22 paired runs
+Audited 7/22 paired runs
+Audited 8/22 paired runs
+Audited 9/22 paired runs
+Audited 10/22 paired runs
+Audited 11/22 paired runs
+Audited 12/22 paired runs
+Audited 13/22 paired runs
+Audited 14/22 paired runs
+Audited 15/22 paired runs
+Audited 16/22 paired runs
+Audited 17/22 paired runs
+Audited 18/22 paired runs
+Audited 19/22 paired runs
+Audited 20/22 paired runs
+Audited 21/22 paired runs
+Audited 22/22 paired runs
+{
+  "status": "passed",
+  "n_matches": 11,
+  "n_pairs_seeds": 22,
+  "conditions_checked": 660,
+  "max_output_proxy_abs_error": 1.5916157281026244e-12,
+  "max_attribution_abs_error": 0.0,
+  "max_ablation_target_raw_error": 0.0001291773760385695,
+  "attribution_vs_exact": [
+    {
+      "site": "block_15_output",
+      "n_matches": 11,
+      "mean_attribution": 0.7913866081218953,
+      "mean_exact_donor_gain": 0.6828344514001053,
+      "pearson_across_seed_averaged_matches": 0.999491726612694,
+      "spearman_across_seed_averaged_matches": 0.9727272727272729,
+      "positive_sign_agreement_fraction": 0.9090909090909091,
+      "approximation_rmse": 0.17603557774491108,
+      "match_values": [
+        {
+          "match_id": "2026-05-09T10-15-51Z-b7fd20",
+          "attribution": 5.12660896926562,
+          "exact_donor_gain": 4.62801920880895
+        },
+        {
+          "match_id": "2026-05-10T09-50-31Z-8f49f2",
+          "attribution": -0.1524213375651291,
+          "exact_donor_gain": -0.15576543515428254
+        },
+        {
+          "match_id": "2026-05-10T23-26-14Z-67db4f",
+          "attribution": 0.21450806413503098,
+          "exact_donor_gain": 0.1585583139994325
+        },
+        {
+          "match_id": "2026-05-14T03-11-22Z-090bf8",
+          "attribution": -0.1760198746012578,
+          "exact_donor_gain": -0.2644088378480953
+        },
+        {
+          "match_id": "2026-05-14T03-59-16Z-82019b",
+          "attribution": 0.0037532082640419333,
+          "exact_donor_gain": -0.10464911537490754
+        },
+        {
+          "match_id": "2026-05-14T22-34-33Z-a2015e",
+          "attribution": 1.9027444536522875,
+          "exact_donor_gain": 1.6703013991293536
+        },
+        {
+          "match_id": "2026-05-15T03-56-59Z-e3a44c",
+          "attribution": -0.1858245216356118,
+          "exact_donor_gain": -0.20072768075349484
+        },
+        {
+          "match_id": "2026-05-29T18-15-24Z-2b37eb",
+          "attribution": 1.5202258612143744,
+          "exact_donor_gain": 1.445442936572523
+        },
+        {
+          "match_id": "2026-05-29T18-26-16Z-a78ba5",
+          "attribution": 0.09704487712627308,
+          "exact_donor_gain": 0.09493738978789051
+        },
+        {
+          "match_id": "2026-05-29T21-26-09Z-fa4c61",
+          "attribution": 0.5409225453734896,
+          "exact_donor_gain": 0.44399160258469844
+        },
+        {
+          "match_id": "2026-05-30T04-09-19Z-e64537",
+          "attribution": -0.18628955588826912,
+          "exact_donor_gain": -0.20452081635091007
+        }
+      ]
+    },
+    {
+      "site": "block_14_output",
+      "n_matches": 11,
+      "mean_attribution": 0.6446167595906899,
+      "mean_exact_donor_gain": 0.6812731072294885,
+      "pearson_across_seed_averaged_matches": 0.9911312525684183,
+      "spearman_across_seed_averaged_matches": 0.9727272727272729,
+      "positive_sign_agreement_fraction": 0.8181818181818182,
+      "approximation_rmse": 0.29528467892452426,
+      "match_values": [
+        {
+          "match_id": "2026-05-09T10-15-51Z-b7fd20",
+          "attribution": 3.9593501715726234,
+          "exact_donor_gain": 4.606548751943028
+        },
+        {
+          "match_id": "2026-05-10T09-50-31Z-8f49f2",
+          "attribution": -0.07065986545353553,
+          "exact_donor_gain": -0.15675110482765375
+        },
+        {
+          "match_id": "2026-05-10T23-26-14Z-67db4f",
+          "attribution": 0.204478303602059,
+          "exact_donor_gain": 0.15528595498535291
+        },
+        {
+          "match_id": "2026-05-14T03-11-22Z-090bf8",
+          "attribution": -0.12407118456312816,
+          "exact_donor_gain": -0.2654647477386913
+        },
+        {
+          "match_id": "2026-05-14T03-59-16Z-82019b",
+          "attribution": 0.003453693172047023,
+          "exact_donor_gain": -0.10867630824780461
+        },
+        {
+          "match_id": "2026-05-14T22-34-33Z-a2015e",
+          "attribution": 1.5563775508564959,
+          "exact_donor_gain": 1.6777832242409332
+        },
+        {
+          "match_id": "2026-05-15T03-56-59Z-e3a44c",
+          "attribution": 0.015448556125818413,
+          "exact_donor_gain": -0.19920701714699524
+        },
+        {
+          "match_id": "2026-05-29T18-15-24Z-2b37eb",
+          "attribution": 0.8428248920820351,
+          "exact_donor_gain": 1.4601973270879682
+        },
+        {
+          "match_id": "2026-05-29T18-26-16Z-a78ba5",
+          "attribution": 0.18554923924784816,
+          "exact_donor_gain": 0.0930644546641522
+        },
+        {
+          "match_id": "2026-05-29T21-26-09Z-fa4c61",
+          "attribution": 0.6396919081850001,
+          "exact_donor_gain": 0.4405544971289872
+        },
+        {
+          "match_id": "2026-05-30T04-09-19Z-e64537",
+          "attribution": -0.12165890932967471,
+          "exact_donor_gain": -0.20933085256490275
+        }
+      ]
+    },
+    {
+      "site": "block_13_output",
+      "n_matches": 11,
+      "mean_attribution": 0.5595018772293898,
+      "mean_exact_donor_gain": 0.6799766767240614,
+      "pearson_across_seed_averaged_matches": 0.9716818054295847,
+      "spearman_across_seed_averaged_matches": 0.9454545454545454,
+      "positive_sign_agreement_fraction": 0.8181818181818182,
+      "approximation_rmse": 0.47744252122882597,
+      "match_values": [
+        {
+          "match_id": "2026-05-09T10-15-51Z-b7fd20",
+          "attribution": 3.505649914704918,
+          "exact_donor_gain": 4.600124882796985
+        },
+        {
+          "match_id": "2026-05-10T09-50-31Z-8f49f2",
+          "attribution": -0.011467508752161848,
+          "exact_donor_gain": -0.1568729637401658
+        },
+        {
+          "match_id": "2026-05-10T23-26-14Z-67db4f",
+          "attribution": 0.16716439785960802,
+          "exact_donor_gain": 0.1558171514854267
+        },
+        {
+          "match_id": "2026-05-14T03-11-22Z-090bf8",
+          "attribution": -0.09541739423116269,
+          "exact_donor_gain": -0.27013686309821083
+        },
+        {
+          "match_id": "2026-05-14T03-59-16Z-82019b",
+          "attribution": 0.003654091051582986,
+          "exact_donor_gain": -0.10801611882466769
+        },
+        {
+          "match_id": "2026-05-14T22-34-33Z-a2015e",
+          "attribution": 1.5100826255735456,
+          "exact_donor_gain": 1.6735814655306835
+        },
+        {
+          "match_id": "2026-05-15T03-56-59Z-e3a44c",
+          "attribution": 0.0487234013297666,
+          "exact_donor_gain": -0.2017321594726852
+        },
+        {
+          "match_id": "2026-05-29T18-15-24Z-2b37eb",
+          "attribution": 0.3967939634931099,
+          "exact_donor_gain": 1.456445815651298
+        },
+        {
+          "match_id": "2026-05-29T18-26-16Z-a78ba5",
+          "attribution": 0.19593322102360844,
+          "exact_donor_gain": 0.09637540191012217
+        },
+        {
+          "match_id": "2026-05-29T21-26-09Z-fa4c61",
+          "attribution": 0.5812809250430746,
+          "exact_donor_gain": 0.4414236124151838
+        },
+        {
+          "match_id": "2026-05-30T04-09-19Z-e64537",
+          "attribution": -0.1478769875726016,
+          "exact_donor_gain": -0.20726678068929488
+        }
+      ]
+    }
+  ]
+}

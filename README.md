@@ -21,8 +21,8 @@ checkpoint precision/preprocessing, stronger baselines, spatial readouts and
 viewing-player-relative targets. The target convention produced the clearest
 improvement; the tested spatial descriptor did not beat mean pooling. Choices
 were published before the new confirmation capture, and the original study is
-preserved. Exact causal interventions and the independent video evaluator are
-the active next steps.
+preserved. Exact internal causal interventions have completed; geometry, sparse
+features and the independent video evaluator are the active next steps.
 
 Pretrained execution and intervention wiring have passed on NVIDIA A40 GPUs. Official MIRA code is pinned
 to `3d739ec2d31daf83559d33eb01727cea48fe90f7`. Official pretrained MIRA weights were not
@@ -50,9 +50,11 @@ and **91 completion checks** passed. See the [results and limitations](docs/07_o
 ![Held-out decoding at every residual site](figures/observational_layers.png)
 
 These readouts measure annotation decoding with observed target pixels present.
-Attribution screening has completed all 17 sites on 31 discovery matches with two
-paired seeds; exact replacement, ablation, restoration and controls are underway
-on separate selection matches. See the [causal study](docs/09_internal_causal_development.md).
+Attribution screening covered all 17 sites on 31 discovery matches with two
+paired seeds. All **660 exact interventions** on 11 separate selection matches
+passed their independent audit. Full donor replacement had a positive mean
+output-proxy effect but improved only 6/11 matches; probe-direction edits had tiny
+effects. See the [causal study and specificity limits](docs/09_internal_causal_development.md).
 The review corrects an overly restrictive stopping gate: internal patching can
 proceed with recipient actions fixed, without simulator resets.
 Isolated physical-control claims still need suitable counterfactuals and an
@@ -96,6 +98,9 @@ All pooled research features and full pilot residuals are in the
 with [verified array and archive hashes](results/observation_archive.json).
 Large downloaded weights and gated source data stay outside Git. Their provenance,
 checksums, and reproducible download commands are recorded instead.
+The revised [development features and models](https://github.com/guptaishaan/mira-interp/releases/tag/development-v3-2026-09-07)
+and [fresh confirmation features](https://github.com/guptaishaan/mira-interp/releases/tag/fresh-confirmation-v3-2026-09-07)
+are also published with verified remote checksums.
 
 ## Attribution
 

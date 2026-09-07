@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T06:27:25.007745+00:00",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/fresh-confirmation-v3-2026-09-07",
+  "release_id": 383867580,
+  "target_commit": "b713fe976674248bbde9fdbc96a7b13d1cb91f49",
+  "asset": {
+    "id": 548284985,
+    "name": "fresh-confirmation-v3-2026-09-07.tar.gz",
+    "size": 726482668,
+    "digest": "sha256:fd9015142b98b6bf16a1f2df93f9e302a4c4c15146bcc36379030ec782c0d271",
+    "state": "uploaded",
+    "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/fresh-confirmation-v3-2026-09-07/fresh-confirmation-v3-2026-09-07.tar.gz"
+  },
+  "api_size_and_digest_equal_local_verified_archive": true,
+  "archive_report_sha256": "acaeb1d9e40a25861716ad67e2a1a491b6471a536ee59eb73d354a01c4349df3",
+  "publication_script_sha256": "fef8ecd95344f61ab7ac834f058740769db9eb3e3da3f0b04b6a957a2761d9f4",
+  "upload_exit_code": 0
+}

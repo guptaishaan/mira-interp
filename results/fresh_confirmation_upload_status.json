@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "job_pid": 3961040,
+  "started_utc": "2026-09-07T06:22:07.392954+00:00",
+  "tag": "fresh-confirmation-v3-2026-09-07",
+  "target_commit": "b713fe976674248bbde9fdbc96a7b13d1cb91f49",
+  "archive": "/data2/ishaangp/mira-interp/releases/fresh-confirmation-v3-2026-09-07.tar.gz",
+  "archive_sha256": "fd9015142b98b6bf16a1f2df93f9e302a4c4c15146bcc36379030ec782c0d271",
+  "stage": "complete",
+  "upload_pid": 3961345,
+  "upload_exit_code": 0,
+  "publication_report_sha256": "36ceed196fc1b1c0f477d513004c1a2aa91d22f32819f050be7e052f9a7c3a0f"
+}
