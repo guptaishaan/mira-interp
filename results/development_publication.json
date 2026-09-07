@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T06:15:46.937581+00:00",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/development-v3-2026-09-07",
+  "release_id": 383859033,
+  "target_commit": "9cd2198df5e3c9d3505b3d24e7f1faf894f9b800",
+  "assets": [
+    {
+      "id": 548266216,
+      "name": "development-v3-2026-09-07.tar.gz",
+      "size": 1340553456,
+      "digest": "sha256:a2b575b03c229292999f9632c62ec87f7d30c2ace776b18a4609152a412182ef",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/development-v3-2026-09-07/development-v3-2026-09-07.tar.gz"
+    },
+    {
+      "id": 548260781,
+      "name": "development_models.npz",
+      "size": 111218303,
+      "digest": "sha256:775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/development-v3-2026-09-07/development_models.npz"
+    }
+  ],
+  "api_size_and_digest_equal_local_verified_archive": true,
+  "local_archive_report_sha256": "d9ecb12e43e09c8cb8ff75336fb25db7c845acb258eea24c269a18ed33c420b2",
+  "model_audit_sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c",
+  "upload_retried": false,
+  "original_upload_pid": 3931005
+}

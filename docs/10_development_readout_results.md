@@ -2,7 +2,9 @@
 
 This is development evidence from the original31 discovery and11 selection
 matches, after the literature-led repair. No old confirmation examples were read.
-The separate23-match confirmation has not yet been evaluated.
+The separately frozen 23-match confirmation subsequently passed; see
+[the fresh results](11_fresh_confirmation_results.md). The numbers below retain
+their original development status.
 
 All336 corrected captures passed independent audits, including the complete17
 sites, source labels/timestamps/identities, spatial descriptor algebra and FP16
@@ -60,6 +62,7 @@ on discovery only. The two-stage temporal comparison reuses development selectio
 so an independent confirmation is required. An independent saved-coefficient
 audit precedes any causal execution or fresh evaluation.
 
-`development_models.npz` is too large for a Git blob and will be published as a
-GitHub release asset with an exact SHA256. Reports, plots, code and frozen choices
+`development_models.npz` is too large for a Git blob and is published as a
+[GitHub release asset](https://github.com/guptaishaan/mira-interp/releases/tag/development-v3-2026-09-07)
+with a verified remote SHA256. Reports, plots, code and frozen choices
 remain in Git. Source videos and physical-label arrays remain local.

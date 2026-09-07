@@ -16,6 +16,25 @@ Read live `results/development_prepare.json`, `development_capture_pilot.json`,
 worker reports and `fresh_confirmation_download.json` before resuming jobs.
 All substantial NumPy processes require `NUMPY_MADVISE_HUGEPAGE=0` on this host.
 
+The revised development capture and all 468 fitted/control models passed
+independent audits. Their choices were frozen and pushed in commit
+`9cd2198df5e3c9d3505b3d24e7f1faf894f9b800` before fresh capture. Exactly 23 of the
+24 candidates passed the unchanged clock rule, with no replacement. Fresh
+confirmation and its independent audit are now complete: 184 clips, 4,416 rows,
+32 fixed readouts. Role-position error is 80.9% below its mean baseline; horizontal
+velocity remains weak. See `docs/11_fresh_confirmation_results.md` and
+`results/fresh_confirmation_v3/confirmation_audit.json`. Never refit or reselect
+using these exposed fresh results.
+
+The causal discovery audit passed all 31 matches and two seeds, freezing block
+15/14/13 outputs. Registered exact selection interventions are active on GPU7;
+check `results/causal_development_v1/selection.exit`, log and audit before advancing.
+The first discovery attempt received SIGTERM; 32 verified artifacts were reused
+and the remaining 30 completed, with unchanged code/protocol. The interruption
+is preserved. The VideoMAE evaluator uses development data only and is active on
+GPU6; fresh confirmation outcomes must not be used to select evaluator models.
+Geometry/sparse tooling exists, but the actual studies have not yet run.
+
 ## Environment
 
 - Workspace: `/ccn2/u/ishaangp/mira-interp`; Python: `.venv/bin/python`.

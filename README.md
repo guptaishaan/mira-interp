@@ -6,12 +6,23 @@ their prerequisites pass. A software test is not evidence of a physical represen
 
 ## Current execution
 
-**Revision in progress:** the original result is retained as a pilot. A
-[literature-led review and repair](docs/08_review_and_repair.md) identifies a
-spatial-pooling bottleneck and three numerical/preprocessing deviations. New
-development captures preserve spatial bins, retain checkpoint precision and test
-viewing-player-relative targets. The old confirmation set will not be reused as
-untouched data. A separate 24-match candidate cohort is reserved using metadata.
+**The repaired readouts passed fresh confirmation.** On 23 new matches, frozen
+viewing-player and ball-relative position probes achieved **80.9% lower error
+than their mean baseline**. Ego position R² was **0.660 / 0.900 / 0.974** for XYZ;
+ball-minus-ego position R² was **0.520 / 0.694 / 0.926**. Horizontal velocity remains
+weak. All 184 clips, 4,416 scored rows, 32 fixed readouts and their bootstrap
+comparisons passed an independent audit. See the
+[fresh results and limitations](docs/11_fresh_confirmation_results.md).
+
+![Fresh confirmation of role-relative state decoding](figures/fresh_role_decoding.png)
+
+The [literature-led review](docs/08_review_and_repair.md) led to corrected
+checkpoint precision/preprocessing, stronger baselines, spatial readouts and
+viewing-player-relative targets. The target convention produced the clearest
+improvement; the tested spatial descriptor did not beat mean pooling. Choices
+were published before the new confirmation capture, and the original study is
+preserved. Exact causal interventions and the independent video evaluator are
+the active next steps.
 
 Pretrained execution and intervention wiring have passed on NVIDIA A40 GPUs. Official MIRA code is pinned
 to `3d739ec2d31daf83559d33eb01727cea48fe90f7`. Official pretrained MIRA weights were not
@@ -30,7 +41,7 @@ The full two-GPU capture and independent aggregation passed: **424 clips, 13,568
 rows, all 17 sites**. Each GPU peaked at 6.51 GiB. Every saved label, timestamp,
 player/view identity and source-frame join was checked against the audited input.
 
-**The observational probe study is complete.** The site chosen before confirmation
+**The original observational pilot is complete.** The site chosen before confirmation
 (block 5 output) achieved **20.1% lower standardized error than the mean baseline**
 on 11 confirmation matches. Ball-position R² was **0.506 / 0.758 / 0.871** for X/Y/Z;
 horizontal ball velocity and many player velocities remained weak. All **46 tests**
@@ -38,10 +49,12 @@ and **91 completion checks** passed. See the [results and limitations](docs/07_o
 
 ![Held-out decoding at every residual site](figures/observational_layers.png)
 
-This measures annotation decoding with observed target pixels present. Physical
-causal validation, geometry, sparse features, and steering remain unrun. The review
-corrects an overly restrictive stopping gate: narrow internal activation-patching
-studies can proceed with recipient actions fixed, without simulator resets.
+These readouts measure annotation decoding with observed target pixels present.
+Attribution screening has completed all 17 sites on 31 discovery matches with two
+paired seeds; exact replacement, ablation, restoration and controls are underway
+on separate selection matches. See the [causal study](docs/09_internal_causal_development.md).
+The review corrects an overly restrictive stopping gate: internal patching can
+proceed with recipient actions fixed, without simulator resets.
 Isolated physical-control claims still need suitable counterfactuals and an
 independently validated generated-video measurement. The full proposal is **not complete**.
 
@@ -60,6 +73,10 @@ with checksums in [the archive manifest](results/readiness_archive.json).
 ## Work and documentation
 
 - [Completed observational results, CSVs and figures](docs/07_observational_results.md)
+- [Literature review and diagnosis](docs/08_review_and_repair.md)
+- [Revised development readouts](docs/10_development_readout_results.md)
+- [Fresh confirmation and independent audit](docs/11_fresh_confirmation_results.md)
+- [Registered internal causal study](docs/09_internal_causal_development.md)
 - [Protocol and stage gates](docs/PROTOCOL.md)
 - [Environment and reproducibility](docs/00_setup.md)
 - [Model availability audit](docs/model_access_audit.md)
