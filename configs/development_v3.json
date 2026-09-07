@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "registered_at_utc": "2026-09-07T05:31:24.145552+00:00",
+  "scope": "development repair; no fresh confirmation claims",
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "cohort": {
+    "source_manifest": "data/qualified_clip_manifest.json",
+    "discovery_matches": 31,
+    "selection_matches": 11,
+    "clips_per_match": 8,
+    "old_confirmation_forbidden": true,
+    "fresh_confirmation": "new official dev matches to be metadata-selected before new confirmation work"
+  },
+  "capture": {
+    "parameters": "checkpoint FP32 preserved; BF16 autocast",
+    "resize": "CPU FP32 antialiased bilinear retaining fractions; normalization after resize differs only floating operation order from publisher",
+    "diffusion_mixing": "FP32 tau multiplication as publisher training",
+    "tau": 0.5,
+    "context_source_frames": 16,
+    "label_pair_end": true,
+    "sites": "block0 input and all16 block outputs",
+    "mean_dimensions": 2048,
+    "spatial_bins": [
+      3,
+      4
+    ],
+    "spatial_channels": 128,
+    "spatial_projection": "fixed data-independent orthonormal Gaussian QR seed20260907",
+    "spatial_dimensions": 1536,
+    "baseline_codec": "full9x16x32=4608 and mean32",
+    "baseline_RGB": "3x16x32=1536"
+  },
+  "analysis": {
+    "scored_latents": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "targets": [
+      "absolute30",
+      "ego position/velocity and ball-minus-ego position/velocity12; relative world axes"
+    ],
+    "ridge_alphas": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "weights": "equal total weight per match",
+    "fit_and_normalization": "discovery only",
+    "selection": "report all site/grid curves; separate absolute and role target definitions and all/position/velocity groups",
+    "temporal_stage": "current plus causal within-view same-clip previous-latent difference for the stage1 all-target residual winner per target definition; development reuse explicit",
+    "control": "whole-match label derangement"
+  },
+  "ordered_gates": [
+    "literature and source audit",
+    "reserved preparation/numerics/readout pilot",
+    "all336development input hash/pixel/PTS/label integrity",
+    "all336 captures and independent aggregate audit",
+    "development probe fits with stronger baselines",
+    "narrow internal attribution and exact causal patching with fixedrecipientactions",
+    "geometry and sparse feature development when data and causal scope are explicit",
+    "fresh frozen confirmation only after development choices locked"
+  ],
+  "causal_claim_tiers": {
+    "internal": "fixed recipient inputs/actions/noise, donor activation patch, differentiable output objective and exact controls; natural donor need not be single-variable simulatorcounterfactual",
+    "physical": "requires independently validated physical measurement on generated video and collateral/rollout controls"
+  },
+  "known_limits": [
+    "16frame context remains shorter than80frame publishertraining; separate context comparison is subsequent development",
+    "descriptor compression can still hide local state",
+    "old confirmation already inspected; cannot reuse as untouched",
+    "no intervention can guarantee positive outcome"
+  ]
+}

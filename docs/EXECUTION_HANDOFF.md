@@ -5,6 +5,17 @@ publish to `https://github.com/guptaishaan/mira-interp.git`. The user authentica
 Hugging Face and GitHub and authorized publishing the work. Continue within this
 scope without asking again.
 
+## Active revision
+
+The user requested a literature-led diagnosis and repair, then said to continue.
+Use `docs/08_review_and_repair.md` and `configs/development_v3.json`. Preserve all
+v2 results. The new study uses only original31 discovery/11 selection matches;
+old confirmation is exposed and cannot count as untouched again.24 official-dev
+candidate matches are reserved by metadata in `data/fresh_confirmation_split_manifest.json`.
+Read live `results/development_prepare.json`, `development_capture_pilot.json`,
+worker reports and `fresh_confirmation_download.json` before resuming jobs.
+All substantial NumPy processes require `NUMPY_MADVISE_HUGEPAGE=0` on this host.
+
 ## Environment
 
 - Workspace: `/ccn2/u/ishaangp/mira-interp`; Python: `.venv/bin/python`.
@@ -58,9 +69,8 @@ block-5 readout scored 0.846902 standardized MSE versus the mean baseline's
 1.060234 on 11 confirmation matches. All result exports and 91 completion checks
 passed. See `docs/07_observational_results.md`; do not rerun or overwrite these
 completed phases. The 1,138,648,642-byte derived-feature archive also passed every
-member hash and array-equivalence check. GitHub upload/remote verification is the
-remaining activity at this snapshot; inspect `results/observation_publication.json`
-before resuming publication.
+member hash and array-equivalence check. GitHub upload and API size/digest
+verification passed; see `results/observation_publication.json`.
 The ordered reproduction commands are documented in
 `docs/04_probes.md`; use the actual aggregate path above and output directory
 `results/probes_v2`.
@@ -92,7 +102,9 @@ streams over the prescribed 0.75-second horizon. This is a result for the frozen
 subset, not a claim about the complete Rocket Science dataset.
 
 Controlled single-variable state-reset/rendered pairs and an independently
-validated generated-video physical evaluator remain missing. Exact activation
-patching software is tested, but physical causal identification has not run.
-Do not advance to geometry, SAE/BSF recovery, or steering merely because an
-observational probe decodes annotations. See `docs/06_causal_prerequisites.md`.
+validated generated-video physical evaluator remain missing. The literature
+review corrects the earlier stopping rule: internal activation patching can run
+with recipient actions/noise fixed, and exploratory geometry/sparse features can
+be studied with narrow claims. Their physical causal faithfulness must still be
+measured. See `docs/08_review_and_repair.md`; the older prerequisite document
+records the previous, stronger gate.

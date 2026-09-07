@@ -6,6 +6,13 @@ their prerequisites pass. A software test is not evidence of a physical represen
 
 ## Current execution
 
+**Revision in progress:** the original result is retained as a pilot. A
+[literature-led review and repair](docs/08_review_and_repair.md) identifies a
+spatial-pooling bottleneck and three numerical/preprocessing deviations. New
+development captures preserve spatial bins, retain checkpoint precision and test
+viewing-player-relative targets. The old confirmation set will not be reused as
+untouched data. A separate 24-match candidate cohort is reserved using metadata.
+
 Pretrained execution and intervention wiring have passed on NVIDIA A40 GPUs. Official MIRA code is pinned
 to `3d739ec2d31daf83559d33eb01727cea48fe90f7`. Official pretrained MIRA weights were not
 found in the checked release channels. The executable model candidate is **Alakazam's
@@ -32,9 +39,11 @@ and **91 completion checks** passed. See the [results and limitations](docs/07_o
 ![Held-out decoding at every residual site](figures/observational_layers.png)
 
 This measures annotation decoding with observed target pixels present. Physical
-causal validation, geometry, sparse features, and steering remain unrun: controlled
-state-reset/rendered pairs and a validated generated-video physical evaluator are
-still required. The full proposal is **not complete**.
+causal validation, geometry, sparse features, and steering remain unrun. The review
+corrects an overly restrictive stopping gate: narrow internal activation-patching
+studies can proceed with recipient actions fixed, without simulator resets.
+Isolated physical-control claims still need suitable counterfactuals and an
+independently validated generated-video measurement. The full proposal is **not complete**.
 
 The [pretrained readiness report](results/pretrained_smoke.json) records strict loading,
 all 16 residual layers plus block-0 input, exact no-op controls, and generated output

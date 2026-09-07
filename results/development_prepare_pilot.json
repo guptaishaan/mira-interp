@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "scope": "development only; no old confirmation",
+  "input_manifest_sha256": "4872282a574e32e530e12c51dd08dbe4fe1505ecf09abfa8a7c232e886a9598a",
+  "code_sha256": "4779041b5f28cbd8d4bc271e9cd04155cf2214e1b2a9412fc73cc0a7a68b86c7",
+  "helper_sha256": "70603eb01a7c8996bf26f4b69193044a417377820244edbd173cb9f079f61e70",
+  "expected_clips": 1,
+  "records": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "split": "pilot",
+      "artifact_path": "/data2/ishaangp/mira-interp/prepared_float_v3/pilot/2026-05-29T18-17-39Z-fb68d7_clip00.npz",
+      "sha256": "773d234895507ede4cea7acf4eca2e518326b4d7deecd39b61d4b89068b45588",
+      "parent_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+      "source_pts_exact": true,
+      "round_to_previous_pixels_exact": true,
+      "max_resize_quantization": 0.5,
+      "source_component_sha256": {
+        "p0.jsonl": "274056de598ee53f78df54dcfe76c7887d0b68de138c4d65dbca2224e298abc2",
+        "p0.mp4": "662cef7df4bbdacca7c9c789af01fe8a9526176d8d493f0c15fd054969926745",
+        "p0.physics.jsonl": "698621670b0f81cd3d58df8aac47be93f5bb43436c8001a22a0f704955870fdb",
+        "p1.jsonl": "18eac0009c7de9b0be9312728c5210abba0b493fe46bcca56e241f1f39033483",
+        "p1.mp4": "69de80175b885925e4fdb84467d958b4bbec407e195a6c9436784b272ab559d4",
+        "p1.physics.jsonl": "6159bef90459ca9ddd2cbd902bd506742703f5361da964f4f37767b177d086c4",
+        "p2.jsonl": "605c0ef6b462b33f155782006cb3e08f3fea6354a460c2d35ea8787052945c61",
+        "p2.mp4": "8668c2cd1ea2a47839db3fa3392810d3b12103491be9fe1262ea0f3858a23db7",
+        "p2.physics.jsonl": "7aa41a8eb4397604c95a12f64b66f744aecd0693cb1f5fab1d88ba441e12bd7c",
+        "p3.jsonl": "9f80687a0585e7ed03a379d9ff1fc9e03bb47a9b2b01f3b149344368d4444805",
+        "p3.mp4": "d9557df9be276448efa8e9bbe4d6fc547a758e8a71c14a193aaee1de3eeaacd1",
+        "p3.physics.jsonl": "a522a63bd360270dc2fd8b33ddd85c2dd5f39634cdc6c4b2010c4278df9679d7"
+      },
+      "row_metadata_unchanged": true
+    }
+  ],
+  "errors": [],
+  "elapsed_seconds": 6.763703886419535
+}

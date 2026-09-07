@@ -1,0 +1,348 @@
+{
+  "checked_utc": "2026-09-07",
+  "index_url": "https://transformer-circuits.pub/",
+  "index_sha256": "54816334aea09c7f3c5e04ba04f6840f69440db64dacc1884aad129cfcb74739",
+  "inventory_count": 56,
+  "inventory": [
+    {
+      "url": "https://alignment.anthropic.com/2025/activation-oracles/",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://distill.pub/2020/circuits/",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://distill.pub/2021/distill-hiatus/",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/exercises/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/garcon/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2021/videos/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/mech-interp-essay/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/solu/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2022/toy_model/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/interpretability-dreams/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/july-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/may-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/privileged-basis/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/superposition-composition/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2023/toy-double-descent/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/april-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/august-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/crosscoders/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/features-as-classifiers/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/feb-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/jan-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/july-update/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/june-update/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/march-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/model-diffing/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/qualitative-essay/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/september-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/april-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-qk/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/august-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/bulk-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/crosscoder-diffing-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/faithfulness-toy-model/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/interference-weights/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/january-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/july-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/linebreaks/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/november-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/october-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/september-update/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/june-update/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+      "coverage": "relevant sections inspected"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/nla/index.html",
+      "coverage": "index inventory only; not read"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "coverage": "relevant sections inspected"
+    }
+  ],
+  "selected_sources": [
+    {
+      "url": "https://transformer-circuits.pub/2023/monosemantic-features/index.html",
+      "html_sha256": "d3011059d4b3d55dd7347cb5c295e8d28cc8478c6caeabcceea177ddc6ce68fa",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2023__monosemantic-features__index.html.txt",
+      "text_characters": 163969,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/features-as-classifiers/index.html",
+      "html_sha256": "7d80100d5576333debac8fc36fff7b8f5532ebef48409df34968467c89e43818",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2024__features-as-classifiers__index.html.txt",
+      "text_characters": 17042,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/july-update/index.html",
+      "html_sha256": "69efce85d74e35c84d0ddd3ebdaf0c88c3ca29f1c7e9cbd265ec986436cd54b1",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2024__july-update__index.html.txt",
+      "text_characters": 40261,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html",
+      "html_sha256": "dbef0950973c3767cc2e38edc9499f7e63d4fb0c2768b1d17634ed778b98fef6",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2024__scaling-monosemanticity__index.html.txt",
+      "text_characters": 142373,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html",
+      "html_sha256": "0a17caa271974ab39d618b7aa86a650984049bd8c4afd943607dd654314a4c73",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__attribution-graphs__biology.html.txt",
+      "text_characters": 179278,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "html_sha256": "a70ce88c09533238154875dbb1320fd2d2aebedfd5fc7e782518385b3d597673",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__attribution-graphs__methods.html.txt",
+      "text_characters": 192337,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/faithfulness-toy-model/index.html",
+      "html_sha256": "efd8336d4e504d420b89de57021925953c41fbace83d386dd91e02de1f3746cd",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__faithfulness-toy-model__index.html.txt",
+      "text_characters": 18027,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/interference-weights/index.html",
+      "html_sha256": "a1f3d55a0cbbc9271f51b74cf6f13dd5fcbdc524896a3d91a7fe39d0843c53de",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__interference-weights__index.html.txt",
+      "text_characters": 27730,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/linebreaks/index.html",
+      "html_sha256": "17505ac6ba2a152bccf98ee580ef2c48503aa7d0e5be3abffe9d9a59074816e6",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__linebreaks__index.html.txt",
+      "text_characters": 85033,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+      "html_sha256": "407c3482ab0442e8efb78816563fa9621eee2bba8dae4fd1736587850ec28f01",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2026__interference_effectiveness_helpfulness__index.html.txt",
+      "text_characters": 68830,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/june-update/index.html",
+      "html_sha256": "1a633814960950f469f3e29d5cc7ab7e052312eb6ee0a6f31fceedbd8673bec8",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2026__june-update__index.html.txt",
+      "text_characters": 5300,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "html_sha256": "339843f5e8d29cb5276c6d57cce64cc005523261d98b9d0b01393876e77d8599",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2026__workspace__index.html.txt",
+      "text_characters": 322974,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/crosscoders/index.html",
+      "html_sha256": "c3393d2682c323c57f497ba7753676f9186a9065523808bee4675bbe4133c27d",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2024__crosscoders__index.html.txt",
+      "text_characters": 45004,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2024/june-update/index.html",
+      "html_sha256": "13ad20b7ac3733dac85019d63b65c84e87fbd30f09018f4fe2070f4d5c408229",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2024__june-update__index.html.txt",
+      "text_characters": 23042,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2025/attention-qk/index.html",
+      "html_sha256": "8170ec72b430d91c77bda8be9c2913bc13921250084a8fe961aa4c612fd5c84e",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2025__attention-qk__index.html.txt",
+      "text_characters": 41172,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    },
+    {
+      "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+      "html_sha256": "c2f606a8af6244d722b18fd8a06b97df56be7f62c21f37e268b02c803c06d9b6",
+      "text_path": "/data2/ishaangp/mira-interp/review_sources/anthropic/2026__may-update__index.html.txt",
+      "text_characters": 10777,
+      "coverage": "Relevant methods, validation and limitations sections inspected; not a claim of exhaustive reading"
+    }
+  ],
+  "selected_count": 16,
+  "limitations": "Inventory of dated links from the Transformer Circuits index only; not all Anthropic research, supplements, references or interactive examples were read."
+}

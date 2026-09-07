@@ -1,0 +1,638 @@
+{
+  "status": "passed",
+  "scope": "reserved actual pilot numerical parity only",
+  "resize_quantization_removed": false,
+  "cuda_visible_devices": "7",
+  "numpy_madvise_hugepage": "0",
+  "variants": {
+    "original_full_bf16": {
+      "controls": {
+        "noop_bitwise_equal": true,
+        "repeat_bitwise_equal": true
+      },
+      "parameter_dtypes": [
+        "torch.bfloat16"
+      ],
+      "codec_dtype": "torch.bfloat16",
+      "interpolant_dtype": "torch.bfloat16",
+      "clean_past_dtype": "torch.bfloat16",
+      "prediction_dtype": "torch.bfloat16",
+      "noise_sha256": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+      "fp32_tau_mixing": false,
+      "peak_gpu_memory_allocated_bytes": 6987892736
+    },
+    "fp32_model_legacy_mix": {
+      "controls": {
+        "noop_bitwise_equal": true,
+        "repeat_bitwise_equal": true
+      },
+      "parameter_dtypes": [
+        "torch.float32"
+      ],
+      "codec_dtype": "torch.bfloat16",
+      "interpolant_dtype": "torch.bfloat16",
+      "clean_past_dtype": "torch.float32",
+      "prediction_dtype": "torch.bfloat16",
+      "noise_sha256": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+      "fp32_tau_mixing": false,
+      "peak_gpu_memory_allocated_bytes": 11294081024
+    },
+    "publisher_precision": {
+      "controls": {
+        "noop_bitwise_equal": true,
+        "repeat_bitwise_equal": true
+      },
+      "parameter_dtypes": [
+        "torch.float32"
+      ],
+      "codec_dtype": "torch.bfloat16",
+      "interpolant_dtype": "torch.float32",
+      "clean_past_dtype": "torch.float32",
+      "prediction_dtype": "torch.bfloat16",
+      "noise_sha256": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+      "fp32_tau_mixing": true,
+      "peak_gpu_memory_allocated_bytes": 11294867456
+    }
+  },
+  "stage": "complete",
+  "elapsed_seconds": 74.639,
+  "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+  "match_id": "2026-05-29T18-17-39Z-fb68d7",
+  "role": "pilot",
+  "input_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+  "pilot_report_sha256": "a2f4390bca48da6adc880630b9aacf0d08827406304497a70938b22dce319473",
+  "manifest_sha256": "4872282a574e32e530e12c51dd08dbe4fe1505ecf09abfa8a7c232e886a9598a",
+  "data_audit_sha256": "2c6cdd977fe3a010f4efaf64359f8aa6d6136db9195bade602a60fa01ea03b89",
+  "source_protocol_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "script_sha256": "5fd1aa34894ce8b10354fb12bfddd521a79d0908973516243557f4ad6cff31f9",
+  "source_capture_code_sha256": {
+    "scripts/capture_observations.py": "0c7cbe753960f19654cf6d0d4f11b8bccfb420c165bba2d30a2a44a5d188922e",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "src/mira_interp/instrumentation.py": "c1b5181b226d3dc583fdbd837e96347b207a3bd2bbdd7d6e9a00f22cc63684b1"
+  },
+  "seed": 6499556918389236576,
+  "load_provenance": {
+    "original_full_bf16": {
+      "source_revisions": {
+        "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+        "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+      },
+      "model_repo": "alakazamworld/mira-mini-4p",
+      "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+      "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+      "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+      "torch_version": "2.9.0+cu126",
+      "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+      "verified_assets": [
+        {
+          "name": "checkpoint-90000/checkpoint.pth",
+          "bytes": 8383271151,
+          "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+        }
+      ],
+      "original_config_sha256": {
+        "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+        "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+      },
+      "runtime_overrides": {
+        "codec_checkpoint": "local verified path",
+        "compile_dino": false,
+        "activation_checkpointing": false
+      },
+      "codec_strict_load": {
+        "passed": true,
+        "state_tensors": 936
+      },
+      "world_model_strict_load": {
+        "passed": true,
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "shape_mismatch": [],
+        "state_tensors": 1183
+      },
+      "codec_pair_integrity": {
+        "passed": true,
+        "compared_tensors": 936,
+        "mismatched_keys": [],
+        "comparison": "exact dtype and torch.equal",
+        "latent_mean_std": [
+          0.008073142703917577,
+          0.9276199261988762
+        ]
+      },
+      "parameter_count_including_codec": 2095609472,
+      "codec_parameter_count": 900300192
+    },
+    "fp32_model_legacy_mix": {
+      "source_revisions": {
+        "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+        "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+      },
+      "model_repo": "alakazamworld/mira-mini-4p",
+      "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+      "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+      "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+      "torch_version": "2.9.0+cu126",
+      "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+      "verified_assets": [
+        {
+          "name": "checkpoint-90000/checkpoint.pth",
+          "bytes": 8383271151,
+          "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+        }
+      ],
+      "original_config_sha256": {
+        "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+        "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+      },
+      "runtime_overrides": {
+        "codec_checkpoint": "local verified path",
+        "compile_dino": false,
+        "activation_checkpointing": false
+      },
+      "codec_strict_load": {
+        "passed": true,
+        "state_tensors": 936
+      },
+      "world_model_strict_load": {
+        "passed": true,
+        "missing_keys": [],
+        "unexpected_keys": [],
+        "shape_mismatch": [],
+        "state_tensors": 1183
+      },
+      "codec_pair_integrity": {
+        "passed": true,
+        "compared_tensors": 936,
+        "mismatched_keys": [],
+        "comparison": "exact dtype and torch.equal",
+        "latent_mean_std": [
+          0.008073142703917577,
+          0.9276199261988762
+        ]
+      },
+      "parameter_count_including_codec": 2095609472,
+      "codec_parameter_count": 900300192
+    }
+  },
+  "original_pooled_capture_replay_bitwise_equal": true,
+  "comparisons": {
+    "original_full_bf16__to__fp32_model_legacy_mix": {
+      "codec": {
+        "relative_l2": 0.019637791894109045,
+        "rmse": 0.02060311337701302,
+        "max_abs_difference": 0.5234375,
+        "bitwise_equal": false
+      },
+      "interpolant": {
+        "relative_l2": 0.014430719840456572,
+        "rmse": 0.010443141322525822,
+        "max_abs_difference": 0.26171875,
+        "bitwise_equal": false
+      },
+      "prediction": {
+        "relative_l2": 0.015905519938566683,
+        "rmse": 0.021671197962411827,
+        "max_abs_difference": 0.296875,
+        "bitwise_equal": false
+      },
+      "means": {
+        "relative_l2": 0.002179344272708254,
+        "rmse": 0.0012943448723350792,
+        "max_abs_difference": 0.03472137451171875,
+        "bitwise_equal": false
+      },
+      "sites": [
+        {
+          "site": "block_0_input",
+          "relative_l2": 0.0054152386407161045,
+          "rmse": 0.00022026106387827523,
+          "max_abs_difference": 0.002428680658340454,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_0_output",
+          "relative_l2": 0.0020588830742159555,
+          "rmse": 0.0003204575112881619,
+          "max_abs_difference": 0.0049641914665699005,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_1_output",
+          "relative_l2": 0.0019889658332252883,
+          "rmse": 0.0003605240900194191,
+          "max_abs_difference": 0.0056423619389534,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_2_output",
+          "relative_l2": 0.0019637839529971094,
+          "rmse": 0.0003965577276876443,
+          "max_abs_difference": 0.006104364991188049,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_3_output",
+          "relative_l2": 0.0019716323462681674,
+          "rmse": 0.000440585459770209,
+          "max_abs_difference": 0.00640869140625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_4_output",
+          "relative_l2": 0.0019198925832204356,
+          "rmse": 0.0005203258018638162,
+          "max_abs_difference": 0.008029460906982422,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_5_output",
+          "relative_l2": 0.0018911455901204901,
+          "rmse": 0.0006043557579121603,
+          "max_abs_difference": 0.009115219116210938,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_6_output",
+          "relative_l2": 0.0019697699378240416,
+          "rmse": 0.0007048689402250752,
+          "max_abs_difference": 0.01084136962890625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_7_output",
+          "relative_l2": 0.0020847833323028968,
+          "rmse": 0.0008388999801369283,
+          "max_abs_difference": 0.013315826654434204,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_8_output",
+          "relative_l2": 0.0021425553457531323,
+          "rmse": 0.0009642016168247669,
+          "max_abs_difference": 0.014100432395935059,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_9_output",
+          "relative_l2": 0.0021503814063841328,
+          "rmse": 0.0011102654202943903,
+          "max_abs_difference": 0.017795562744140625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_10_output",
+          "relative_l2": 0.0021347281876574076,
+          "rmse": 0.001228040835659565,
+          "max_abs_difference": 0.016681253910064697,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_11_output",
+          "relative_l2": 0.002177800408896558,
+          "rmse": 0.0014113280354317427,
+          "max_abs_difference": 0.018665730953216553,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_12_output",
+          "relative_l2": 0.0019915813293771077,
+          "rmse": 0.0016009416560955623,
+          "max_abs_difference": 0.019148051738739014,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_13_output",
+          "relative_l2": 0.0021261450074225655,
+          "rmse": 0.0019430172104861296,
+          "max_abs_difference": 0.02300262451171875,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_14_output",
+          "relative_l2": 0.0022158998554551073,
+          "rmse": 0.0025041755112674116,
+          "max_abs_difference": 0.026042938232421875,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_15_output",
+          "relative_l2": 0.0023487300932103486,
+          "rmse": 0.0027820710658861283,
+          "max_abs_difference": 0.03472137451171875,
+          "bitwise_equal": false
+        }
+      ]
+    },
+    "fp32_model_legacy_mix__to__publisher_precision": {
+      "codec": {
+        "relative_l2": 0.0,
+        "rmse": 0.0,
+        "max_abs_difference": 0.0,
+        "bitwise_equal": true
+      },
+      "interpolant": {
+        "relative_l2": 0.0017914027503800997,
+        "rmse": 0.001296656105266631,
+        "max_abs_difference": 0.0078125,
+        "bitwise_equal": false
+      },
+      "prediction": {
+        "relative_l2": 0.0,
+        "rmse": 0.0,
+        "max_abs_difference": 0.0,
+        "bitwise_equal": true
+      },
+      "means": {
+        "relative_l2": 0.0,
+        "rmse": 0.0,
+        "max_abs_difference": 0.0,
+        "bitwise_equal": true
+      },
+      "sites": [
+        {
+          "site": "block_0_input",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_0_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_1_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_2_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_3_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_4_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_5_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_6_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_7_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_8_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_9_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_10_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_11_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_12_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_13_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_14_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        },
+        {
+          "site": "block_15_output",
+          "relative_l2": 0.0,
+          "rmse": 0.0,
+          "max_abs_difference": 0.0,
+          "bitwise_equal": true
+        }
+      ]
+    },
+    "original_full_bf16__to__publisher_precision": {
+      "codec": {
+        "relative_l2": 0.019637791894109045,
+        "rmse": 0.02060311337701302,
+        "max_abs_difference": 0.5234375,
+        "bitwise_equal": false
+      },
+      "interpolant": {
+        "relative_l2": 0.01434535900747975,
+        "rmse": 0.010381367880033623,
+        "max_abs_difference": 0.2607421875,
+        "bitwise_equal": false
+      },
+      "prediction": {
+        "relative_l2": 0.015905519938566683,
+        "rmse": 0.021671197962411827,
+        "max_abs_difference": 0.296875,
+        "bitwise_equal": false
+      },
+      "means": {
+        "relative_l2": 0.002179344272708254,
+        "rmse": 0.0012943448723350792,
+        "max_abs_difference": 0.03472137451171875,
+        "bitwise_equal": false
+      },
+      "sites": [
+        {
+          "site": "block_0_input",
+          "relative_l2": 0.0054152386407161045,
+          "rmse": 0.00022026106387827523,
+          "max_abs_difference": 0.002428680658340454,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_0_output",
+          "relative_l2": 0.0020588830742159555,
+          "rmse": 0.0003204575112881619,
+          "max_abs_difference": 0.0049641914665699005,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_1_output",
+          "relative_l2": 0.0019889658332252883,
+          "rmse": 0.0003605240900194191,
+          "max_abs_difference": 0.0056423619389534,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_2_output",
+          "relative_l2": 0.0019637839529971094,
+          "rmse": 0.0003965577276876443,
+          "max_abs_difference": 0.006104364991188049,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_3_output",
+          "relative_l2": 0.0019716323462681674,
+          "rmse": 0.000440585459770209,
+          "max_abs_difference": 0.00640869140625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_4_output",
+          "relative_l2": 0.0019198925832204356,
+          "rmse": 0.0005203258018638162,
+          "max_abs_difference": 0.008029460906982422,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_5_output",
+          "relative_l2": 0.0018911455901204901,
+          "rmse": 0.0006043557579121603,
+          "max_abs_difference": 0.009115219116210938,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_6_output",
+          "relative_l2": 0.0019697699378240416,
+          "rmse": 0.0007048689402250752,
+          "max_abs_difference": 0.01084136962890625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_7_output",
+          "relative_l2": 0.0020847833323028968,
+          "rmse": 0.0008388999801369283,
+          "max_abs_difference": 0.013315826654434204,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_8_output",
+          "relative_l2": 0.0021425553457531323,
+          "rmse": 0.0009642016168247669,
+          "max_abs_difference": 0.014100432395935059,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_9_output",
+          "relative_l2": 0.0021503814063841328,
+          "rmse": 0.0011102654202943903,
+          "max_abs_difference": 0.017795562744140625,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_10_output",
+          "relative_l2": 0.0021347281876574076,
+          "rmse": 0.001228040835659565,
+          "max_abs_difference": 0.016681253910064697,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_11_output",
+          "relative_l2": 0.002177800408896558,
+          "rmse": 0.0014113280354317427,
+          "max_abs_difference": 0.018665730953216553,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_12_output",
+          "relative_l2": 0.0019915813293771077,
+          "rmse": 0.0016009416560955623,
+          "max_abs_difference": 0.019148051738739014,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_13_output",
+          "relative_l2": 0.0021261450074225655,
+          "rmse": 0.0019430172104861296,
+          "max_abs_difference": 0.02300262451171875,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_14_output",
+          "relative_l2": 0.0022158998554551073,
+          "rmse": 0.0025041755112674116,
+          "max_abs_difference": 0.026042938232421875,
+          "bitwise_equal": false
+        },
+        {
+          "site": "block_15_output",
+          "relative_l2": 0.0023487300932103486,
+          "rmse": 0.0027820710658861283,
+          "max_abs_difference": 0.03472137451171875,
+          "bitwise_equal": false
+        }
+      ]
+    }
+  },
+  "output_path": "/data2/ishaangp/mira-interp/captures/numerics_pilot.npz",
+  "output_sha256": "af8078f9da7768c930f42213194a5a31020cfb6a3eb0b9eb26bccdbebdb479ae",
+  "output_bytes": 13882221,
+  "gpu_name": "NVIDIA A40",
+  "physical_claim": "none; differences alone do not establish cause of weak probes"
+}

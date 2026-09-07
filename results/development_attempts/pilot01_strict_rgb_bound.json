@@ -1,0 +1,76 @@
+{
+  "status": "failed",
+  "started_utc": "2026-09-07T05:31:51.305748+00:00",
+  "code_sha256": {
+    "scripts/capture_development.py": "3efc5df1816489e19d95f89651ef3685d486353c0272d37e265f5adf3fbcdc6b",
+    "src/mira_interp/development_capture.py": "70603eb01a7c8996bf26f4b69193044a417377820244edbd173cb9f079f61e70",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6"
+  },
+  "registration_sha256": "607aef226c2cb241e66d00c9a3b7f323802c6bce869f96345c3a0b014a220755",
+  "input_manifest_sha256": "d301cf4ee84e6119347dac96ac8d1f2e7f4a72ddae050ca9d45a53801c3bed2d",
+  "expected": 1,
+  "completed": [],
+  "errors": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "type": "ValueError",
+      "message": "Invalid RGB range"
+    }
+  ],
+  "model_loading": {
+    "source_revisions": {
+      "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+      "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+    },
+    "model_repo": "alakazamworld/mira-mini-4p",
+    "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+    "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "torch_version": "2.9.0+cu126",
+    "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+    "verified_assets": [
+      {
+        "name": "checkpoint-90000/checkpoint.pth",
+        "bytes": 8383271151,
+        "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+      },
+      {
+        "name": "codec/checkpoint-125000/checkpoint.pth",
+        "bytes": 3601866873,
+        "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+      }
+    ],
+    "original_config_sha256": {
+      "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+      "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+    },
+    "runtime_overrides": {
+      "codec_checkpoint": "local verified path",
+      "compile_dino": false,
+      "activation_checkpointing": false
+    },
+    "codec_strict_load": {
+      "passed": true,
+      "state_tensors": 936
+    },
+    "world_model_strict_load": {
+      "passed": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatch": [],
+      "state_tensors": 1183
+    },
+    "codec_pair_integrity": {
+      "passed": true,
+      "compared_tensors": 936,
+      "mismatched_keys": [],
+      "comparison": "exact dtype and torch.equal",
+      "latent_mean_std": [
+        0.008073142703917577,
+        0.9276199261988762
+      ]
+    },
+    "parameter_count_including_codec": 2095609472,
+    "codec_parameter_count": 900300192
+  }
+}
