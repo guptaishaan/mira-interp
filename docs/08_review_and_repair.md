@@ -40,6 +40,12 @@ They are not diagnosed causes. The publisher uses80-frame training windows;
 the current controlled readout comparison retains16 frames to avoid conflating
 every change. It scores latent steps2–7 and then tests within-view temporal differences.
 
+The [MIRA Mini technical report](https://alakazam.gg/mira-mini/report.pdf), section17.1,
+also reports weak velocity decoding using ridge and a three-layer MLP on its
+single-player teacher/student comparison. That experiment differs from our
+multiplayer study, so its scores cannot be directly substituted. It supports
+testing model/readout limitations instead of assuming a simple code failure.
+
 ## Sources and coverage
 
 - [Probes, attribution and exact patching](review/probes_and_causality.md): the

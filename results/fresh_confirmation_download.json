@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "manifest_sha256": "df24e478d9f729474f75c80dca38f7b54369134dd97868f3f6c85fc69dc05048",
+  "expected_bytes": 45337691839,
+  "files": [
+    {
+      "path": "dev/dataset_00002.tar",
+      "bytes": 2992711680,
+      "sha256": "67c2a97318422c6a2bf3aa22d6f7898a77203a333861e601301f0355e7cd077b",
+      "publisher_sha256": "67c2a97318422c6a2bf3aa22d6f7898a77203a333861e601301f0355e7cd077b",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00004.tar",
+      "bytes": 2979676160,
+      "sha256": "595eaed651978682fd47ec456f0d232403c483205972c36a8f1468cdcc599dcf",
+      "publisher_sha256": "595eaed651978682fd47ec456f0d232403c483205972c36a8f1468cdcc599dcf",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00005.tar",
+      "bytes": 2867660800,
+      "sha256": "f3a55b40825df7d99a75b1d61cf361446c257ac3d39f7f44291898f02db409db",
+      "publisher_sha256": "f3a55b40825df7d99a75b1d61cf361446c257ac3d39f7f44291898f02db409db",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00006.tar",
+      "bytes": 2936156160,
+      "sha256": "735f5737902cf877861c54deb309aa06261fba96d1eaf24b9242e8d265944537",
+      "publisher_sha256": "735f5737902cf877861c54deb309aa06261fba96d1eaf24b9242e8d265944537",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00007.tar",
+      "bytes": 2656071680,
+      "sha256": "0d6bb2e8215f246c8794b885b983ae77c1ca03ae978386a4a80342b26d99bf83",
+      "publisher_sha256": "0d6bb2e8215f246c8794b885b983ae77c1ca03ae978386a4a80342b26d99bf83",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00012.tar",
+      "bytes": 2630062080,
+      "sha256": "3d27ff1c29531b8e68b39862ca585530d28889abea422e94b21a0f9ae2c47d77",
+      "publisher_sha256": "3d27ff1c29531b8e68b39862ca585530d28889abea422e94b21a0f9ae2c47d77",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00013.tar",
+      "bytes": 2850590720,
+      "sha256": "d0fdbdca1aa58c3198259ec2eeeddd649cc239b081a253612b8bf9116ee25f4e",
+      "publisher_sha256": "d0fdbdca1aa58c3198259ec2eeeddd649cc239b081a253612b8bf9116ee25f4e",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00014.tar",
+      "bytes": 2943918080,
+      "sha256": "df680512ebb87180cf4995915eeea47e0d44bfd15ba7945f77f71cfc7f6b972e",
+      "publisher_sha256": "df680512ebb87180cf4995915eeea47e0d44bfd15ba7945f77f71cfc7f6b972e",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00021.tar",
+      "bytes": 2688972800,
+      "sha256": "350b65893ebc1deddad962da7ba2d6718a1d48abf6c2d154da0cb59d0b7aae10",
+      "publisher_sha256": "350b65893ebc1deddad962da7ba2d6718a1d48abf6c2d154da0cb59d0b7aae10",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00031.tar",
+      "bytes": 2885980160,
+      "sha256": "af6a8fecf720f5a3ca4338f8cdadaa14054a51bb1020a7da40e5d1a174260043",
+      "publisher_sha256": "af6a8fecf720f5a3ca4338f8cdadaa14054a51bb1020a7da40e5d1a174260043",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00032.tar",
+      "bytes": 2872903680,
+      "sha256": "e998cabb29340ddf259e505f38d6079fd03565f1bbea0f9b052e8ce866b94335",
+      "publisher_sha256": "e998cabb29340ddf259e505f38d6079fd03565f1bbea0f9b052e8ce866b94335",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00034.tar",
+      "bytes": 2758031360,
+      "sha256": "952b5c555264fb3a6619770834098b4904e223ed1bfec5bf2b2bc40cfd7bfc70",
+      "publisher_sha256": "952b5c555264fb3a6619770834098b4904e223ed1bfec5bf2b2bc40cfd7bfc70",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00037.tar",
+      "bytes": 2633277440,
+      "sha256": "f70cc5c5a9a0af2f067a787eb0ea7268c3676f4f1ce3944af81227fd6426efee",
+      "publisher_sha256": "f70cc5c5a9a0af2f067a787eb0ea7268c3676f4f1ce3944af81227fd6426efee",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00038.tar",
+      "bytes": 2900715520,
+      "sha256": "38045267bcaf40d701b9a2059dc9034e286db94940c6f2f016077d595e5a03ac",
+      "publisher_sha256": "38045267bcaf40d701b9a2059dc9034e286db94940c6f2f016077d595e5a03ac",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00040.tar",
+      "bytes": 2850037760,
+      "sha256": "7536a6da081211c17ce0f8eb298eb876f51c49744f2510b45a3e16e14f7f2a27",
+      "publisher_sha256": "7536a6da081211c17ce0f8eb298eb876f51c49744f2510b45a3e16e14f7f2a27",
+      "verified": true
+    },
+    {
+      "path": "dev/dataset_00042.tar",
+      "bytes": 2884915200,
+      "sha256": "dbbaf775b471b2a07f3feb3e20902ddeb243cbd45d6f028ea8f5c2fca31c1c04",
+      "publisher_sha256": "dbbaf775b471b2a07f3feb3e20902ddeb243cbd45d6f028ea8f5c2fca31c1c04",
+      "verified": true
+    },
+    {
+      "path": "dev/index.json",
+      "bytes": 6010559,
+      "sha256": "b9072b94e2d74631e6d8d9b42c7976a6c9a52015fd6e55b3e1d2e7d7a4e81f32",
+      "publisher_sha256": null,
+      "verified": true
+    }
+  ]
+}

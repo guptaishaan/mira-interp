@@ -1,0 +1,20 @@
+{"completed_matches": 0, "passed_clips": 0, "errors": 0, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 1, "passed_clips": 0, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 2, "passed_clips": 8, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 4, "passed_clips": 24, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 5, "passed_clips": 32, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 6, "passed_clips": 40, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 7, "passed_clips": 48, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 8, "passed_clips": 56, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 9, "passed_clips": 64, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 12, "passed_clips": 88, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 13, "passed_clips": 96, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 14, "passed_clips": 104, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 16, "passed_clips": 120, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 17, "passed_clips": 128, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 18, "passed_clips": 136, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 20, "passed_clips": 152, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 21, "passed_clips": 160, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 22, "passed_clips": 168, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"completed_matches": 23, "passed_clips": 176, "errors": 1, "workers": 4, "total_cpu_thread_cap": 8}
+{"status": "failed", "prepared_matches": 23, "prepared_clips": 184, "expected_clips": 192, "errors": [{"match_id": "2026-05-09T09-58-52Z-f556ff", "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance", "stage": "source_clock_calibration", "type": "ValueError"}]}

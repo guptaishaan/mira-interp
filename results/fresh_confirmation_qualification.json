@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "scope": "fresh confirmation source qualification only; no performance inspected",
+  "registered_manifest_sha256": "df24e478d9f729474f75c80dca38f7b54369134dd97868f3f6c85fc69dc05048",
+  "source_audit_sha256": "3f13e331d290d5cd27d0045e74afd313e02ef47efebd9f75444718a305e00b6d",
+  "parent_clip_manifest_sha256": "f3ad3fd0d3ca63aca9559d9b3c2a08bddb1fc3e86e9c4c95302a8d9e1ecdc03a",
+  "registered_utc": "2026-09-07T05:34:36.562817+00:00",
+  "qualified_utc": "2026-09-07T05:48:49.830478+00:00",
+  "quality_rule": "all eight prescribed clips pass original source gates; no replacements or threshold changes",
+  "qualified_matches": [
+    "2026-05-09T00-26-21Z-a528c2",
+    "2026-05-09T11-16-41Z-0c9a7a",
+    "2026-05-09T16-33-20Z-9643f2",
+    "2026-05-09T22-29-10Z-e43803",
+    "2026-05-09T23-14-58Z-e3ef6c",
+    "2026-05-10T00-16-36Z-6cfcdc",
+    "2026-05-10T20-27-28Z-e9451a",
+    "2026-05-10T21-29-26Z-086e6c",
+    "2026-05-11T00-38-07Z-92ce05",
+    "2026-05-11T05-16-09Z-e42a67",
+    "2026-05-11T09-11-12Z-e77120",
+    "2026-05-13T11-19-27Z-a2075b",
+    "2026-05-13T11-49-53Z-f4c5dd",
+    "2026-05-13T18-34-42Z-96aaae",
+    "2026-05-13T18-45-35Z-7ea0c7",
+    "2026-05-13T19-06-27Z-26c444",
+    "2026-05-13T19-31-51Z-65801e",
+    "2026-05-13T19-36-27Z-fed60c",
+    "2026-05-13T21-07-57Z-cbafa5",
+    "2026-05-13T21-18-33Z-fc243a",
+    "2026-05-13T22-30-03Z-193371",
+    "2026-05-13T22-51-19Z-400d6c",
+    "2026-05-13T23-12-57Z-2fccc7"
+  ],
+  "excluded_matches": [
+    "2026-05-09T09-58-52Z-f556ff"
+  ],
+  "n_matches": 23,
+  "parent_errors": [
+    {
+      "match_id": "2026-05-09T09-58-52Z-f556ff",
+      "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+      "stage": "source_clock_calibration",
+      "type": "ValueError"
+    }
+  ],
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "qualified_clip_manifest_sha256": "ecb4b6de3d78baa70814ffb4d1c252e7affb993d642490f06ccec3f0d24efb67"
+}
