@@ -12,3 +12,4 @@ logs/
 .env.*
 *.token
 results/private/
+results/development_probes_v3/development_models.npz

@@ -1,0 +1,9 @@
+.........................                                                [100%]
+=============================== warnings summary ===============================
+tests/test_causal_development.py::test_spatial_pullback_controls_ablation_and_paired_randomness
+  /ccn2/u/ishaangp/mira-interp/tests/test_causal_development.py:118: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+  Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+    assert float(torch.linalg.vector_norm(edits[condition]-recipient)) == pytest.approx(delta_norm, rel=2e-5, abs=1e-5)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+25 passed, 1 warning in 4.29s

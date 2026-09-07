@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import sys
 import time
+from datetime import datetime,timezone
 import numpy as np
 ROOT=Path(__file__).resolve().parents[1]
 sys.path[:0]=[str(ROOT/'src'),str(ROOT/'external/mira/src'),str(ROOT/'scripts')]
@@ -24,16 +25,24 @@ def main():
     prep=json.loads(prep_path.read_text())
     if lock['status']!='frozen_before_fresh_capture' or prep['status']!='passed':
         raise ValueError('Registered choices and complete source preparation required')
+    qualified_path=ROOT/'data/qualified_fresh_confirmation_clip_manifest.json'
+    qualified=json.loads(qualified_path.read_text())
+    if prep['qualified_manifest_sha256']!=sha256(qualified_path) or qualified['registered_manifest_sha256']!=lock['candidate_manifest_sha256'] or qualified['status']!='passed':
+        raise ValueError('Fresh source qualification/reservation lineage failed')
+    if {r['clip_id'] for r in prep['records']}!={r['clip_id'] for r in qualified['records']} or len(prep['records'])!=len(qualified['records']):
+        raise ValueError('Fresh prepared cohort differs from qualification')
     d=ROOT/'results/development_probes_v3'
     if sha256(d/'development_selection.json')!=lock['development_selection_sha256'] or sha256(d/'development_models.npz')!=lock['model_archive_sha256']:
         raise ValueError('Development choices changed')
     if sha256(ROOT/'configs/development_v3.json')!=lock['feature_capture_protocol_sha256']:
         raise ValueError('Capture protocol changed')
     code_hashes={str(f.relative_to(ROOT)):sha256(f) for f in [Path(__file__),ROOT/'src/mira_interp/development_capture.py',ROOT/'src/mira_interp/model_loading.py']}
+    if code_hashes!=lock['capture_code_sha256']:
+        raise ValueError('Fresh capture code changed after registration')
     selection=prep['records'][args.worker::args.workers]
     out=Path('/data2/ishaangp/mira-interp/captures/fresh_confirmation_v3')
     report_path=ROOT/'results'/f'fresh_capture_worker{args.worker}.json'
-    report=dict(status='running',registration_sha256=sha256(lock_path),preparation_sha256=sha256(prep_path),code_sha256=code_hashes,
+    report=dict(status='running',started_utc=datetime.now(timezone.utc).isoformat(),registration_sha256=sha256(lock_path),preparation_sha256=sha256(prep_path),code_sha256=code_hashes,
                 expected=len(selection),records=[],errors=[],scope='fresh observational confirmation; no fitting')
     save(report_path,report)
     import torch

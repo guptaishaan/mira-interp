@@ -258,6 +258,19 @@ probe score.
 
 ## What remains valid
 
+The publisher's [MIRA Mini technical report, §17.1](https://alakazam.gg/mira-mini/report.pdf)
+provides useful diagnostic context: its single-player teacher/student experiment
+compares ridge with a three-layer, 1024-hidden-unit MLP. It reports position nMSE
+0.22–0.49 but velocity nMSE around0.9–1.1, near the mean predictor, despite the
+nonlinear readout. This is not our multiplayer checkpoint, state definition,
+cohort, capture setting or evaluation, so it neither replicates our result nor
+establishes a velocity ceiling here. It does show that weak velocity is not
+unique to our initial linear analysis. Our inference is to repair measurable
+readout/numerical restrictions without promising that those repairs must reveal
+strong velocity. That report also distinguishes real-sequence probe error from
+generated-rollout error; our clean-codec-trained output proxy needs the same
+distribution-shift qualification before supporting physical claims.
+
 The frozen v2 result is partial annotation decodability: ball position is much
 more accessible than horizontal velocity under one restricted readout. It is not
 a null result for all physical representations. Its match separation, full-layer

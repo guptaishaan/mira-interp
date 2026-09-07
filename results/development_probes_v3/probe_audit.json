@@ -1,0 +1,4124 @@
+{
+  "analysis_code_sha256": {
+    "scripts/analyze_development.py": "838f17956f9c3828de3e41d4143860777a38a4936c5be687baba7b154b600c7c",
+    "src/mira_interp/development.py": "9b282739adeac3b1d30095c60f3516d53a5cce104e63edbbcce749b836a86aaa",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  },
+  "audit_script_sha256": "f023546ea8e5404b95666d6ec53d5e74f48a23dc1d147a3d63c346bd296955d6",
+  "capture_audit_sha256": "ec7ffb84959188db3a5bc35090c1afcc67c9b7236f92f35268f6aef6742c13ce",
+  "capture_manifest_sha256": "081850a91a85c22638447ac4fa2443de230c3277f268c7d301ee15a5cae0524e",
+  "confirmation_arrays_read": false,
+  "development_report_sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178",
+  "development_selection_sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff",
+  "discovery_normalization_checked": true,
+  "elapsed_seconds": 22.694,
+  "model_archive_sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8",
+  "models_refitted": false,
+  "normal_equations_checked": true,
+  "readouts": [
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "mean/block_0_input/absolute30/all",
+          "normal_equation_max_relative_residual": 2.102101066071157e-14,
+          "selection_loss_preserved_minimum": 1.0945720307129534,
+          "selection_loss_recomputed": 1.0945720307129554,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/absolute30/all",
+          "normal_equation_max_relative_residual": 2.3188038788270443e-14,
+          "selection_loss_preserved_minimum": 1.1048941545371798,
+          "selection_loss_recomputed": 1.1048941545371804,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_0_input/absolute30/position",
+          "normal_equation_max_relative_residual": 2.1029082935679343e-14,
+          "selection_loss_preserved_minimum": 1.1762941117646402,
+          "selection_loss_recomputed": 1.1762941117646437,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/absolute30/position",
+          "normal_equation_max_relative_residual": 2.3188038788270443e-14,
+          "selection_loss_preserved_minimum": 1.2039257317173446,
+          "selection_loss_recomputed": 1.2039257317173464,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.3948978149487264e-15,
+          "selection_loss_preserved_minimum": 1.0101794498985934,
+          "selection_loss_recomputed": 1.0101794498985934,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.2650826747307615e-15,
+          "selection_loss_preserved_minimum": 1.0058625773570147,
+          "selection_loss_recomputed": 1.005862577357014,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_0_input/role12/all",
+          "normal_equation_max_relative_residual": 2.4586132598358764e-14,
+          "selection_loss_preserved_minimum": 1.0032809884207923,
+          "selection_loss_recomputed": 1.0032809884207978,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/role12/all",
+          "normal_equation_max_relative_residual": 3.2108096377930278e-15,
+          "selection_loss_preserved_minimum": 1.0635827838782526,
+          "selection_loss_recomputed": 1.063582783878253,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_0_input/role12/position",
+          "normal_equation_max_relative_residual": 2.466300100246766e-14,
+          "selection_loss_preserved_minimum": 1.0632949095320239,
+          "selection_loss_recomputed": 1.0632949095320339,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/role12/position",
+          "normal_equation_max_relative_residual": 3.2108096377930278e-15,
+          "selection_loss_preserved_minimum": 1.1936256447931715,
+          "selection_loss_recomputed": 1.1936256447931715,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/role12/velocity",
+          "normal_equation_max_relative_residual": 2.7814793567075877e-15,
+          "selection_loss_preserved_minimum": 0.9355846694062935,
+          "selection_loss_recomputed": 0.9355846694062939,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_input/role12/velocity",
+          "normal_equation_max_relative_residual": 2.6085189496655504e-15,
+          "selection_loss_preserved_minimum": 0.9335399229633335,
+          "selection_loss_recomputed": 0.9335399229633344,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_0_input",
+      "normal_equation_max_relative_residual": 2.466300100246766e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_0_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.109317165309876e-14,
+          "selection_loss_preserved_minimum": 1.026556139990364,
+          "selection_loss_recomputed": 1.0265561399903658,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2335432130696577e-14,
+          "selection_loss_preserved_minimum": 1.1044517838131374,
+          "selection_loss_recomputed": 1.1044517838131382,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_0_output/absolute30/position",
+          "normal_equation_max_relative_residual": 3.764017744072098e-14,
+          "selection_loss_preserved_minimum": 1.0449577784292672,
+          "selection_loss_recomputed": 1.0449577784292705,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2335432130696577e-14,
+          "selection_loss_preserved_minimum": 1.2029726467874702,
+          "selection_loss_recomputed": 1.2029726467874726,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_0_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 1.2230749840917574e-14,
+          "selection_loss_preserved_minimum": 0.9954240742027148,
+          "selection_loss_recomputed": 0.9954240742027148,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.469727490771888e-15,
+          "selection_loss_preserved_minimum": 1.0059309208388048,
+          "selection_loss_recomputed": 1.0059309208388039,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_0_output/role12/all",
+          "normal_equation_max_relative_residual": 4.582119394653563e-14,
+          "selection_loss_preserved_minimum": 0.7697797228419647,
+          "selection_loss_recomputed": 0.7697797228419683,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/role12/all",
+          "normal_equation_max_relative_residual": 3.8219165713266e-15,
+          "selection_loss_preserved_minimum": 1.0628649727978314,
+          "selection_loss_recomputed": 1.0628649727978312,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.001,
+          "name": "mean/block_0_output/role12/position",
+          "normal_equation_max_relative_residual": 1.7990316196480392e-13,
+          "selection_loss_preserved_minimum": 0.5917188213235977,
+          "selection_loss_recomputed": 0.5917188213236036,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/role12/position",
+          "normal_equation_max_relative_residual": 3.8219165713266e-15,
+          "selection_loss_preserved_minimum": 1.1912168517216644,
+          "selection_loss_recomputed": 1.191216851721664,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_0_output/role12/velocity",
+          "normal_equation_max_relative_residual": 1.8772118882162456e-14,
+          "selection_loss_preserved_minimum": 0.8877502242127523,
+          "selection_loss_recomputed": 0.8877502242127524,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_0_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.9429484720743994e-15,
+          "selection_loss_preserved_minimum": 0.934513093873998,
+          "selection_loss_recomputed": 0.9345130938739986,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_0_output",
+      "normal_equation_max_relative_residual": 1.7990316196480392e-13,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_1_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.098316097741633e-14,
+          "selection_loss_preserved_minimum": 1.0006249892532724,
+          "selection_loss_recomputed": 1.0006249892532737,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.1980802870632673e-14,
+          "selection_loss_preserved_minimum": 1.1057841267409876,
+          "selection_loss_recomputed": 1.1057841267409882,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_1_output/absolute30/position",
+          "normal_equation_max_relative_residual": 4.6897461818858045e-14,
+          "selection_loss_preserved_minimum": 1.006903324098154,
+          "selection_loss_recomputed": 1.006903324098158,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.1980802870632673e-14,
+          "selection_loss_preserved_minimum": 1.2045097960196582,
+          "selection_loss_recomputed": 1.20450979601966,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_1_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 5.410734642036524e-15,
+          "selection_loss_preserved_minimum": 0.9819205862541763,
+          "selection_loss_recomputed": 0.9819205862541766,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.661938976622427e-15,
+          "selection_loss_preserved_minimum": 1.0070584574623167,
+          "selection_loss_recomputed": 1.0070584574623163,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_1_output/role12/all",
+          "normal_equation_max_relative_residual": 6.400718984158927e-14,
+          "selection_loss_preserved_minimum": 0.6727973782338509,
+          "selection_loss_recomputed": 0.6727973782338535,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/role12/all",
+          "normal_equation_max_relative_residual": 4.3126522678702065e-15,
+          "selection_loss_preserved_minimum": 1.0638297448547764,
+          "selection_loss_recomputed": 1.063829744854777,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_1_output/role12/position",
+          "normal_equation_max_relative_residual": 5.098279639259102e-14,
+          "selection_loss_preserved_minimum": 0.4548884246350728,
+          "selection_loss_recomputed": 0.4548884246350771,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/role12/position",
+          "normal_equation_max_relative_residual": 4.3126522678702065e-15,
+          "selection_loss_preserved_minimum": 1.1923948885918232,
+          "selection_loss_recomputed": 1.1923948885918232,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_1_output/role12/velocity",
+          "normal_equation_max_relative_residual": 1.3990957659248134e-14,
+          "selection_loss_preserved_minimum": 0.841943306508664,
+          "selection_loss_recomputed": 0.8419433065086643,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_1_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.725092049994628e-15,
+          "selection_loss_preserved_minimum": 0.93526460111773,
+          "selection_loss_recomputed": 0.9352646011177305,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_1_output",
+      "normal_equation_max_relative_residual": 6.400718984158927e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_2_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9091437948718043e-14,
+          "selection_loss_preserved_minimum": 0.9776093337565357,
+          "selection_loss_recomputed": 0.9776093337565371,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.1766411767046065e-14,
+          "selection_loss_preserved_minimum": 1.1055963662213693,
+          "selection_loss_recomputed": 1.10559636622137,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_2_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9124711184974982e-14,
+          "selection_loss_preserved_minimum": 0.9722749086743361,
+          "selection_loss_recomputed": 0.9722749086743393,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.1766411767046065e-14,
+          "selection_loss_preserved_minimum": 1.2035189854824848,
+          "selection_loss_recomputed": 1.2035189854824868,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_2_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.306181564081311e-15,
+          "selection_loss_preserved_minimum": 0.9710258538387209,
+          "selection_loss_recomputed": 0.9710258538387203,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 5.013074931965984e-15,
+          "selection_loss_preserved_minimum": 1.0076737469602532,
+          "selection_loss_recomputed": 1.0076737469602526,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_2_output/role12/all",
+          "normal_equation_max_relative_residual": 3.9465136591536355e-14,
+          "selection_loss_preserved_minimum": 0.6148721692396741,
+          "selection_loss_recomputed": 0.6148721692396758,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/role12/all",
+          "normal_equation_max_relative_residual": 3.3125969716315115e-15,
+          "selection_loss_preserved_minimum": 1.0626541546379766,
+          "selection_loss_recomputed": 1.0626541546379766,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_2_output/role12/position",
+          "normal_equation_max_relative_residual": 2.894411644832984e-14,
+          "selection_loss_preserved_minimum": 0.38042941073683273,
+          "selection_loss_recomputed": 0.38042941073683606,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/role12/position",
+          "normal_equation_max_relative_residual": 3.3125969716315115e-15,
+          "selection_loss_preserved_minimum": 1.1898954924955665,
+          "selection_loss_recomputed": 1.1898954924955663,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_2_output/role12/velocity",
+          "normal_equation_max_relative_residual": 1.5580281336064075e-14,
+          "selection_loss_preserved_minimum": 0.8062395969366415,
+          "selection_loss_recomputed": 0.8062395969366417,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_2_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.9734905191775557e-15,
+          "selection_loss_preserved_minimum": 0.9354128167803871,
+          "selection_loss_recomputed": 0.9354128167803871,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_2_output",
+      "normal_equation_max_relative_residual": 3.9465136591536355e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_3_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.087478993333327e-14,
+          "selection_loss_preserved_minimum": 0.974652795654857,
+          "selection_loss_recomputed": 0.9746527956548583,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2161418753372193e-14,
+          "selection_loss_preserved_minimum": 1.1059326886943137,
+          "selection_loss_recomputed": 1.1059326886943142,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_3_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0869632426962878e-14,
+          "selection_loss_preserved_minimum": 0.9696260576247799,
+          "selection_loss_recomputed": 0.9696260576247828,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2161418753372193e-14,
+          "selection_loss_preserved_minimum": 1.2036911725900041,
+          "selection_loss_recomputed": 1.2036911725900064,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_3_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.101929919637323e-15,
+          "selection_loss_preserved_minimum": 0.9644479623242901,
+          "selection_loss_recomputed": 0.9644479623242905,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.142488637714439e-15,
+          "selection_loss_preserved_minimum": 1.0081742047986235,
+          "selection_loss_recomputed": 1.008174204798623,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_3_output/role12/all",
+          "normal_equation_max_relative_residual": 4.885075184678534e-14,
+          "selection_loss_preserved_minimum": 0.5678283288076854,
+          "selection_loss_recomputed": 0.5678283288076867,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/role12/all",
+          "normal_equation_max_relative_residual": 3.76192241140749e-15,
+          "selection_loss_preserved_minimum": 1.062833986371777,
+          "selection_loss_recomputed": 1.0628339863717768,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_3_output/role12/position",
+          "normal_equation_max_relative_residual": 4.4042495860189317e-14,
+          "selection_loss_preserved_minimum": 0.33450112397323717,
+          "selection_loss_recomputed": 0.3345011239732392,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/role12/position",
+          "normal_equation_max_relative_residual": 3.76192241140749e-15,
+          "selection_loss_preserved_minimum": 1.1914556416940993,
+          "selection_loss_recomputed": 1.191455641694099,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_3_output/role12/velocity",
+          "normal_equation_max_relative_residual": 1.5872242362637013e-14,
+          "selection_loss_preserved_minimum": 0.7672189018129325,
+          "selection_loss_recomputed": 0.7672189018129322,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_3_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.563120266223644e-15,
+          "selection_loss_preserved_minimum": 0.9342123310494546,
+          "selection_loss_recomputed": 0.9342123310494549,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_3_output",
+      "normal_equation_max_relative_residual": 4.885075184678534e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_4_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.1704257360677965e-14,
+          "selection_loss_preserved_minimum": 0.9732071485604262,
+          "selection_loss_recomputed": 0.973207148560428,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.328010436120847e-14,
+          "selection_loss_preserved_minimum": 1.106107166737625,
+          "selection_loss_recomputed": 1.1061071667376254,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_4_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.1685365823842865e-14,
+          "selection_loss_preserved_minimum": 0.9767903398447167,
+          "selection_loss_recomputed": 0.9767903398447202,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.328010436120847e-14,
+          "selection_loss_preserved_minimum": 1.203059813616032,
+          "selection_loss_recomputed": 1.203059813616034,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_4_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.826661534605678e-15,
+          "selection_loss_preserved_minimum": 0.9557612745369155,
+          "selection_loss_recomputed": 0.9557612745369156,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.022594899305913e-15,
+          "selection_loss_preserved_minimum": 1.0091545198592184,
+          "selection_loss_recomputed": 1.0091545198592173,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_4_output/role12/all",
+          "normal_equation_max_relative_residual": 2.388489402360483e-14,
+          "selection_loss_preserved_minimum": 0.5223292093243561,
+          "selection_loss_recomputed": 0.5223292093243574,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/role12/all",
+          "normal_equation_max_relative_residual": 3.5512534424354105e-15,
+          "selection_loss_preserved_minimum": 1.0630559034214555,
+          "selection_loss_recomputed": 1.063055903421455,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_4_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3901036918855916e-14,
+          "selection_loss_preserved_minimum": 0.3099520547793962,
+          "selection_loss_recomputed": 0.30995205477939813,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/role12/position",
+          "normal_equation_max_relative_residual": 3.5512534424354105e-15,
+          "selection_loss_preserved_minimum": 1.19215555419299,
+          "selection_loss_recomputed": 1.1921555541929891,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_4_output/role12/velocity",
+          "normal_equation_max_relative_residual": 7.15902591496558e-15,
+          "selection_loss_preserved_minimum": 0.7132294796947276,
+          "selection_loss_recomputed": 0.7132294796947277,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_4_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.37157076123271e-15,
+          "selection_loss_preserved_minimum": 0.9339562526499211,
+          "selection_loss_recomputed": 0.9339562526499213,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_4_output",
+      "normal_equation_max_relative_residual": 2.3901036918855916e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_5_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.012275153444254e-14,
+          "selection_loss_preserved_minimum": 0.9117063758668461,
+          "selection_loss_recomputed": 0.9117063758668478,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2384035306298512e-14,
+          "selection_loss_preserved_minimum": 1.1058264596865945,
+          "selection_loss_recomputed": 1.1058264596865957,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_5_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0117538913271845e-14,
+          "selection_loss_preserved_minimum": 0.8790965256701163,
+          "selection_loss_recomputed": 0.8790965256701196,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2384035306298512e-14,
+          "selection_loss_preserved_minimum": 1.2032269941139717,
+          "selection_loss_recomputed": 1.2032269941139735,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_5_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.754929534661098e-15,
+          "selection_loss_preserved_minimum": 0.9434516459214275,
+          "selection_loss_recomputed": 0.9434516459214272,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.027729364306909e-15,
+          "selection_loss_preserved_minimum": 1.0084259252592183,
+          "selection_loss_recomputed": 1.0084259252592174,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_5_output/role12/all",
+          "normal_equation_max_relative_residual": 2.4379371208451072e-14,
+          "selection_loss_preserved_minimum": 0.44671860243395817,
+          "selection_loss_recomputed": 0.4467186024339593,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/role12/all",
+          "normal_equation_max_relative_residual": 3.222494693570038e-15,
+          "selection_loss_preserved_minimum": 1.0618807618289816,
+          "selection_loss_recomputed": 1.0618807618289816,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_5_output/role12/position",
+          "normal_equation_max_relative_residual": 2.4330237630372433e-14,
+          "selection_loss_preserved_minimum": 0.2239692361733809,
+          "selection_loss_recomputed": 0.22396923617338296,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/role12/position",
+          "normal_equation_max_relative_residual": 3.222494693570038e-15,
+          "selection_loss_preserved_minimum": 1.190393047282759,
+          "selection_loss_recomputed": 1.1903930472827584,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_5_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.3952247992490338e-14,
+          "selection_loss_preserved_minimum": 0.6608548042185074,
+          "selection_loss_recomputed": 0.6608548042185076,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.598703055922922e-15,
+          "selection_loss_preserved_minimum": 0.9333684763752039,
+          "selection_loss_recomputed": 0.9333684763752047,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_5_output",
+      "normal_equation_max_relative_residual": 2.4379371208451072e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_6_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.8825440289520015e-14,
+          "selection_loss_preserved_minimum": 0.9314672695622647,
+          "selection_loss_recomputed": 0.9314672695622659,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2549042261475547e-14,
+          "selection_loss_preserved_minimum": 1.105770534777506,
+          "selection_loss_recomputed": 1.1057705347775075,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_6_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.8800033943985196e-14,
+          "selection_loss_preserved_minimum": 0.9065030042094082,
+          "selection_loss_recomputed": 0.9065030042094109,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2549042261475547e-14,
+          "selection_loss_preserved_minimum": 1.2030182359464332,
+          "selection_loss_recomputed": 1.2030182359464356,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_6_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 5.6184296440455116e-15,
+          "selection_loss_preserved_minimum": 0.9429346184561602,
+          "selection_loss_recomputed": 0.9429346184561602,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.154129742074295e-15,
+          "selection_loss_preserved_minimum": 1.0085228336085796,
+          "selection_loss_recomputed": 1.0085228336085785,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_6_output/role12/all",
+          "normal_equation_max_relative_residual": 4.445032934561967e-14,
+          "selection_loss_preserved_minimum": 0.44224932558073227,
+          "selection_loss_recomputed": 0.4422493255807336,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/role12/all",
+          "normal_equation_max_relative_residual": 3.694793980145463e-15,
+          "selection_loss_preserved_minimum": 1.063193876898546,
+          "selection_loss_recomputed": 1.063193876898545,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_6_output/role12/position",
+          "normal_equation_max_relative_residual": 2.4055887732408535e-14,
+          "selection_loss_preserved_minimum": 0.22618064652745304,
+          "selection_loss_recomputed": 0.22618064652745498,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/role12/position",
+          "normal_equation_max_relative_residual": 3.694793980145463e-15,
+          "selection_loss_preserved_minimum": 1.1919282065088777,
+          "selection_loss_recomputed": 1.1919282065088763,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_6_output/role12/velocity",
+          "normal_equation_max_relative_residual": 4.445032934561967e-14,
+          "selection_loss_preserved_minimum": 0.6480773265638158,
+          "selection_loss_recomputed": 0.6480773265638166,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.750775725482197e-15,
+          "selection_loss_preserved_minimum": 0.9344595472882142,
+          "selection_loss_recomputed": 0.9344595472882146,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_6_output",
+      "normal_equation_max_relative_residual": 4.445032934561967e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_7_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0572396245118292e-14,
+          "selection_loss_preserved_minimum": 0.9468883854476361,
+          "selection_loss_recomputed": 0.9468883854476376,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.219726488231086e-14,
+          "selection_loss_preserved_minimum": 1.1064301505030791,
+          "selection_loss_recomputed": 1.1064301505030796,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_7_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0570310739524795e-14,
+          "selection_loss_preserved_minimum": 0.9178245794287516,
+          "selection_loss_recomputed": 0.9178245794287547,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.219726488231086e-14,
+          "selection_loss_preserved_minimum": 1.204196347685446,
+          "selection_loss_recomputed": 1.2041963476854485,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_7_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.843192372231014e-15,
+          "selection_loss_preserved_minimum": 0.9507540085564447,
+          "selection_loss_recomputed": 0.9507540085564444,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.191960204362988e-15,
+          "selection_loss_preserved_minimum": 1.008663953320712,
+          "selection_loss_recomputed": 1.008663953320711,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_7_output/role12/all",
+          "normal_equation_max_relative_residual": 2.7573598555099175e-14,
+          "selection_loss_preserved_minimum": 0.4563614781769237,
+          "selection_loss_recomputed": 0.45636147817692496,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/role12/all",
+          "normal_equation_max_relative_residual": 3.608200587763988e-15,
+          "selection_loss_preserved_minimum": 1.062299301694031,
+          "selection_loss_recomputed": 1.062299301694031,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_7_output/role12/position",
+          "normal_equation_max_relative_residual": 2.254485093919366e-14,
+          "selection_loss_preserved_minimum": 0.23451913033685554,
+          "selection_loss_recomputed": 0.23451913033685756,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/role12/position",
+          "normal_equation_max_relative_residual": 3.608200587763988e-15,
+          "selection_loss_preserved_minimum": 1.1900475371120354,
+          "selection_loss_recomputed": 1.190047537112035,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_7_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.7573598555099175e-14,
+          "selection_loss_preserved_minimum": 0.6667020234572084,
+          "selection_loss_recomputed": 0.6667020234572085,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_7_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.508901316501356e-15,
+          "selection_loss_preserved_minimum": 0.9345510662760264,
+          "selection_loss_recomputed": 0.9345510662760272,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_7_output",
+      "normal_equation_max_relative_residual": 2.7573598555099175e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_8_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.228514060843326e-14,
+          "selection_loss_preserved_minimum": 0.9511916330057993,
+          "selection_loss_recomputed": 0.9511916330058011,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2932386535760875e-14,
+          "selection_loss_preserved_minimum": 1.106752290728779,
+          "selection_loss_recomputed": 1.1067522907287801,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_8_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2302023512146825e-14,
+          "selection_loss_preserved_minimum": 0.9095789088461314,
+          "selection_loss_recomputed": 0.9095789088461349,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2932386535760875e-14,
+          "selection_loss_preserved_minimum": 1.2051143899852683,
+          "selection_loss_recomputed": 1.205114389985271,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_8_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.463415113564903e-15,
+          "selection_loss_preserved_minimum": 0.959861704099882,
+          "selection_loss_recomputed": 0.9598617040998819,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.009901322335137e-15,
+          "selection_loss_preserved_minimum": 1.00839019147229,
+          "selection_loss_recomputed": 1.0083901914722893,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_8_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3630186360874144e-14,
+          "selection_loss_preserved_minimum": 0.49511547110357546,
+          "selection_loss_recomputed": 0.49511547110357684,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/role12/all",
+          "normal_equation_max_relative_residual": 3.3619027534356635e-15,
+          "selection_loss_preserved_minimum": 1.0621598837441666,
+          "selection_loss_recomputed": 1.0621598837441664,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_8_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3636483733041164e-14,
+          "selection_loss_preserved_minimum": 0.26071660843973976,
+          "selection_loss_recomputed": 0.26071660843974215,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/role12/position",
+          "normal_equation_max_relative_residual": 3.3619027534356635e-15,
+          "selection_loss_preserved_minimum": 1.1900345164833281,
+          "selection_loss_recomputed": 1.190034516483328,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_8_output/role12/velocity",
+          "normal_equation_max_relative_residual": 8.405297041776898e-15,
+          "selection_loss_preserved_minimum": 0.7183296062728285,
+          "selection_loss_recomputed": 0.7183296062728289,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_8_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.6355416016075734e-15,
+          "selection_loss_preserved_minimum": 0.9342852510050051,
+          "selection_loss_recomputed": 0.9342852510050051,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_8_output",
+      "normal_equation_max_relative_residual": 2.3636483733041164e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_9_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0919118291880124e-14,
+          "selection_loss_preserved_minimum": 0.957565058503907,
+          "selection_loss_recomputed": 0.9575650585039088,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.3172826006836928e-14,
+          "selection_loss_preserved_minimum": 1.1066819805554424,
+          "selection_loss_recomputed": 1.1066819805554429,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_9_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0926923064255028e-14,
+          "selection_loss_preserved_minimum": 0.9063409934935667,
+          "selection_loss_recomputed": 0.9063409934935697,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.3172826006836928e-14,
+          "selection_loss_preserved_minimum": 1.2049640873881624,
+          "selection_loss_recomputed": 1.2049640873881642,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_9_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.0762395478609605e-15,
+          "selection_loss_preserved_minimum": 0.9690287511849613,
+          "selection_loss_recomputed": 0.9690287511849613,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.051217698956237e-15,
+          "selection_loss_preserved_minimum": 1.0083998737227218,
+          "selection_loss_recomputed": 1.0083998737227213,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_9_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3047883002731367e-14,
+          "selection_loss_preserved_minimum": 0.5331028373280006,
+          "selection_loss_recomputed": 0.5331028373280019,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/role12/all",
+          "normal_equation_max_relative_residual": 3.6500246081556464e-15,
+          "selection_loss_preserved_minimum": 1.062342834836356,
+          "selection_loss_recomputed": 1.062342834836356,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_9_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3024580834500918e-14,
+          "selection_loss_preserved_minimum": 0.2799573483407563,
+          "selection_loss_recomputed": 0.27995734834075875,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/role12/position",
+          "normal_equation_max_relative_residual": 3.6500246081556464e-15,
+          "selection_loss_preserved_minimum": 1.1902637118845314,
+          "selection_loss_recomputed": 1.190263711884531,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_9_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.27438966440542e-15,
+          "selection_loss_preserved_minimum": 0.7685508400519669,
+          "selection_loss_recomputed": 0.7685508400519669,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_9_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.5067110586737716e-15,
+          "selection_loss_preserved_minimum": 0.9344219577881803,
+          "selection_loss_recomputed": 0.9344219577881804,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_9_output",
+      "normal_equation_max_relative_residual": 2.3172826006836928e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_10_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.774202614889199e-14,
+          "selection_loss_preserved_minimum": 0.9637853423676196,
+          "selection_loss_recomputed": 0.9637853423676214,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2035021072577677e-14,
+          "selection_loss_preserved_minimum": 1.1080346426532075,
+          "selection_loss_recomputed": 1.108034642653208,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_10_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.7753289778990455e-14,
+          "selection_loss_preserved_minimum": 0.9014657222594487,
+          "selection_loss_recomputed": 0.9014657222594524,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2035021072577677e-14,
+          "selection_loss_preserved_minimum": 1.2075787667507136,
+          "selection_loss_recomputed": 1.2075787667507163,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_10_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.3467824002698885e-15,
+          "selection_loss_preserved_minimum": 0.972434864951323,
+          "selection_loss_recomputed": 0.9724348649513231,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.870258542629546e-15,
+          "selection_loss_preserved_minimum": 1.0084905185557012,
+          "selection_loss_recomputed": 1.0084905185557005,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_10_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2505983975704135e-14,
+          "selection_loss_preserved_minimum": 0.5646794183733127,
+          "selection_loss_recomputed": 0.5646794183733141,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/role12/all",
+          "normal_equation_max_relative_residual": 3.7736558001931225e-15,
+          "selection_loss_preserved_minimum": 1.0613955821812693,
+          "selection_loss_recomputed": 1.061395582181269,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_10_output/role12/position",
+          "normal_equation_max_relative_residual": 2.2500442130800602e-14,
+          "selection_loss_preserved_minimum": 0.2867176756456045,
+          "selection_loss_recomputed": 0.2867176756456073,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/role12/position",
+          "normal_equation_max_relative_residual": 3.7736558001931225e-15,
+          "selection_loss_preserved_minimum": 1.1888898574702818,
+          "selection_loss_recomputed": 1.188889857470281,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_10_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.750893979533991e-15,
+          "selection_loss_preserved_minimum": 0.7989096951397213,
+          "selection_loss_recomputed": 0.7989096951397214,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_10_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.533301528426117e-15,
+          "selection_loss_preserved_minimum": 0.9339013068922567,
+          "selection_loss_recomputed": 0.9339013068922574,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_10_output",
+      "normal_equation_max_relative_residual": 2.2505983975704135e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "mean/block_11_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.966394611882367e-14,
+          "selection_loss_preserved_minimum": 0.966027589125369,
+          "selection_loss_recomputed": 0.9660275891253707,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2608509098163476e-14,
+          "selection_loss_preserved_minimum": 1.1091796938592564,
+          "selection_loss_recomputed": 1.1091796938592573,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_11_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9614339008213458e-14,
+          "selection_loss_preserved_minimum": 0.9085626352740931,
+          "selection_loss_recomputed": 0.9085626352740965,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2608509098163476e-14,
+          "selection_loss_preserved_minimum": 1.2095356877602417,
+          "selection_loss_recomputed": 1.2095356877602448,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_11_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.341380080577879e-15,
+          "selection_loss_preserved_minimum": 0.9738089962267036,
+          "selection_loss_recomputed": 0.9738089962267032,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.864386671835363e-15,
+          "selection_loss_preserved_minimum": 1.0088236999582707,
+          "selection_loss_recomputed": 1.0088236999582698,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_11_output/role12/all",
+          "normal_equation_max_relative_residual": 2.30387551712511e-14,
+          "selection_loss_preserved_minimum": 0.5840873008740789,
+          "selection_loss_recomputed": 0.5840873008740811,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/role12/all",
+          "normal_equation_max_relative_residual": 3.440211335135545e-15,
+          "selection_loss_preserved_minimum": 1.061960154779441,
+          "selection_loss_recomputed": 1.061960154779441,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_11_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3037276003614993e-14,
+          "selection_loss_preserved_minimum": 0.30055843526541676,
+          "selection_loss_recomputed": 0.30055843526541953,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/role12/position",
+          "normal_equation_max_relative_residual": 3.440211335135545e-15,
+          "selection_loss_preserved_minimum": 1.1896882593012417,
+          "selection_loss_recomputed": 1.1896882593012412,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_11_output/role12/velocity",
+          "normal_equation_max_relative_residual": 5.136017247836022e-15,
+          "selection_loss_preserved_minimum": 0.819538331262795,
+          "selection_loss_recomputed": 0.8195383312627956,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_11_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.462058413474255e-15,
+          "selection_loss_preserved_minimum": 0.9342320502576408,
+          "selection_loss_recomputed": 0.934232050257641,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_11_output",
+      "normal_equation_max_relative_residual": 2.30387551712511e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "mean/block_12_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0643545372674713e-14,
+          "selection_loss_preserved_minimum": 0.9728097775266276,
+          "selection_loss_recomputed": 0.9728097775266288,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2561058499558793e-14,
+          "selection_loss_preserved_minimum": 1.1097102203491158,
+          "selection_loss_recomputed": 1.1097102203491163,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_12_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.050897292816665e-14,
+          "selection_loss_preserved_minimum": 0.9250305352972894,
+          "selection_loss_recomputed": 0.9250305352972927,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2561058499558793e-14,
+          "selection_loss_preserved_minimum": 1.2109907475349617,
+          "selection_loss_recomputed": 1.210990747534964,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_12_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.0576221464392718e-15,
+          "selection_loss_preserved_minimum": 0.973318110648572,
+          "selection_loss_recomputed": 0.9733181106485723,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.509951483534431e-15,
+          "selection_loss_preserved_minimum": 1.0084296931632697,
+          "selection_loss_recomputed": 1.0084296931632692,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_12_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3173607913098636e-14,
+          "selection_loss_preserved_minimum": 0.6011935337381814,
+          "selection_loss_recomputed": 0.6011935337381837,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/role12/all",
+          "normal_equation_max_relative_residual": 3.58793867096163e-15,
+          "selection_loss_preserved_minimum": 1.0625721248908793,
+          "selection_loss_recomputed": 1.062572124890879,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_12_output/role12/position",
+          "normal_equation_max_relative_residual": 2.352773941917667e-14,
+          "selection_loss_preserved_minimum": 0.3239333799173956,
+          "selection_loss_recomputed": 0.3239333799173987,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/role12/position",
+          "normal_equation_max_relative_residual": 3.58793867096163e-15,
+          "selection_loss_preserved_minimum": 1.190714731643839,
+          "selection_loss_recomputed": 1.190714731643838,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_12_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.7078815452070785e-15,
+          "selection_loss_preserved_minimum": 0.8334756663516195,
+          "selection_loss_recomputed": 0.83347566635162,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_12_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.5975424233216313e-15,
+          "selection_loss_preserved_minimum": 0.9344295181379199,
+          "selection_loss_recomputed": 0.9344295181379203,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_12_output",
+      "normal_equation_max_relative_residual": 2.352773941917667e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "mean/block_13_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9487485601707798e-14,
+          "selection_loss_preserved_minimum": 0.9830049584158255,
+          "selection_loss_recomputed": 0.9830049584158276,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2256941851170822e-14,
+          "selection_loss_preserved_minimum": 1.1081888194775438,
+          "selection_loss_recomputed": 1.1081888194775444,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_13_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0174012445013808e-14,
+          "selection_loss_preserved_minimum": 0.9438639660831538,
+          "selection_loss_recomputed": 0.9438639660831571,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2256941851170822e-14,
+          "selection_loss_preserved_minimum": 1.2090491124273834,
+          "selection_loss_recomputed": 1.2090491124273852,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_13_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.1512229885877952e-15,
+          "selection_loss_preserved_minimum": 0.9720209338751462,
+          "selection_loss_recomputed": 0.9720209338751462,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.196016231881144e-15,
+          "selection_loss_preserved_minimum": 1.007328526527704,
+          "selection_loss_recomputed": 1.0073285265277032,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_13_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2662018878850914e-14,
+          "selection_loss_preserved_minimum": 0.6167451000827826,
+          "selection_loss_recomputed": 0.6167451000827852,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/role12/all",
+          "normal_equation_max_relative_residual": 3.645188830095263e-15,
+          "selection_loss_preserved_minimum": 1.0626229860953058,
+          "selection_loss_recomputed": 1.0626229860953054,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_13_output/role12/position",
+          "normal_equation_max_relative_residual": 2.275171794704214e-14,
+          "selection_loss_preserved_minimum": 0.34468884869447775,
+          "selection_loss_recomputed": 0.3446888486944811,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/role12/position",
+          "normal_equation_max_relative_residual": 3.645188830095263e-15,
+          "selection_loss_preserved_minimum": 1.1907199496092227,
+          "selection_loss_recomputed": 1.1907199496092218,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_13_output/role12/velocity",
+          "normal_equation_max_relative_residual": 5.355074001922916e-15,
+          "selection_loss_preserved_minimum": 0.8442218385758147,
+          "selection_loss_recomputed": 0.8442218385758155,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_13_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.6052437682210605e-15,
+          "selection_loss_preserved_minimum": 0.9345260225813895,
+          "selection_loss_recomputed": 0.9345260225813893,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_13_output",
+      "normal_equation_max_relative_residual": 2.275171794704214e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_14_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.974271476268906e-14,
+          "selection_loss_preserved_minimum": 0.9888579581055904,
+          "selection_loss_recomputed": 0.988857958105592,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.27304649043799e-14,
+          "selection_loss_preserved_minimum": 1.107958102201132,
+          "selection_loss_recomputed": 1.1079581022011327,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_14_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9733637662553612e-14,
+          "selection_loss_preserved_minimum": 0.9554941541861364,
+          "selection_loss_recomputed": 0.9554941541861397,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.27304649043799e-14,
+          "selection_loss_preserved_minimum": 1.208728874510824,
+          "selection_loss_recomputed": 1.2087288745108258,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_14_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 2.927986627033229e-15,
+          "selection_loss_preserved_minimum": 0.9711770730818896,
+          "selection_loss_recomputed": 0.9711770730818896,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.04900141900217e-15,
+          "selection_loss_preserved_minimum": 1.0071873298914407,
+          "selection_loss_recomputed": 1.0071873298914398,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_14_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3051829056789484e-14,
+          "selection_loss_preserved_minimum": 0.627766295986976,
+          "selection_loss_recomputed": 0.6277662959869783,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/role12/all",
+          "normal_equation_max_relative_residual": 3.596040337519997e-15,
+          "selection_loss_preserved_minimum": 1.0633864481683597,
+          "selection_loss_recomputed": 1.0633864481683595,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_14_output/role12/position",
+          "normal_equation_max_relative_residual": 2.305394187199922e-14,
+          "selection_loss_preserved_minimum": 0.3618547764283904,
+          "selection_loss_recomputed": 0.3618547764283939,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/role12/position",
+          "normal_equation_max_relative_residual": 3.596040337519997e-15,
+          "selection_loss_preserved_minimum": 1.1923950977601334,
+          "selection_loss_recomputed": 1.192395097760133,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_14_output/role12/velocity",
+          "normal_equation_max_relative_residual": 5.259246700009066e-15,
+          "selection_loss_preserved_minimum": 0.8451751484021907,
+          "selection_loss_recomputed": 0.8451751484021911,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_14_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.7877441014278077e-15,
+          "selection_loss_preserved_minimum": 0.9343777985765859,
+          "selection_loss_recomputed": 0.9343777985765858,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_14_output",
+      "normal_equation_max_relative_residual": 2.305394187199922e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 2048,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_15_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.071133801446381e-14,
+          "selection_loss_preserved_minimum": 0.9906834865375546,
+          "selection_loss_recomputed": 0.9906834865375558,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.284674998567351e-14,
+          "selection_loss_preserved_minimum": 1.1078127619000087,
+          "selection_loss_recomputed": 1.1078127619000093,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_15_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.070819322838971e-14,
+          "selection_loss_preserved_minimum": 0.9598425582608842,
+          "selection_loss_recomputed": 0.9598425582608875,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.284674998567351e-14,
+          "selection_loss_preserved_minimum": 1.2088589463878774,
+          "selection_loss_recomputed": 1.2088589463878798,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_15_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 2.8187032761047548e-15,
+          "selection_loss_preserved_minimum": 0.9705904673408389,
+          "selection_loss_recomputed": 0.9705904673408388,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.963551109962424e-15,
+          "selection_loss_preserved_minimum": 1.0067665774121397,
+          "selection_loss_recomputed": 1.006766577412139,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_15_output/role12/all",
+          "normal_equation_max_relative_residual": 2.28274549094547e-14,
+          "selection_loss_preserved_minimum": 0.6347606188627433,
+          "selection_loss_recomputed": 0.6347606188627458,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/role12/all",
+          "normal_equation_max_relative_residual": 3.767291064377783e-15,
+          "selection_loss_preserved_minimum": 1.06275164503592,
+          "selection_loss_recomputed": 1.0627516450359196,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_15_output/role12/position",
+          "normal_equation_max_relative_residual": 2.281217715952005e-14,
+          "selection_loss_preserved_minimum": 0.36717751882257116,
+          "selection_loss_recomputed": 0.3671775188225748,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/role12/position",
+          "normal_equation_max_relative_residual": 3.767291064377783e-15,
+          "selection_loss_preserved_minimum": 1.1912575644092522,
+          "selection_loss_recomputed": 1.1912575644092518,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_15_output/role12/velocity",
+          "normal_equation_max_relative_residual": 3.5580235447923256e-15,
+          "selection_loss_preserved_minimum": 0.8503810488767406,
+          "selection_loss_recomputed": 0.8503810488767413,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_15_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.6784083544675145e-15,
+          "selection_loss_preserved_minimum": 0.9342457256625879,
+          "selection_loss_recomputed": 0.9342457256625883,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_15_output",
+      "normal_equation_max_relative_residual": 2.284674998567351e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0478969670241132e-14,
+          "selection_loss_preserved_minimum": 1.0679802762150827,
+          "selection_loss_recomputed": 1.0679802762150847,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_input/absolute30/all",
+          "normal_equation_max_relative_residual": 2.312818900699899e-14,
+          "selection_loss_preserved_minimum": 1.1038443252322376,
+          "selection_loss_recomputed": 1.1038443252322383,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0467544854907427e-14,
+          "selection_loss_preserved_minimum": 1.1351483204907282,
+          "selection_loss_recomputed": 1.135148320490732,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_input/absolute30/position",
+          "normal_equation_max_relative_residual": 2.312818900699899e-14,
+          "selection_loss_preserved_minimum": 1.20008841172478,
+          "selection_loss_recomputed": 1.200088411724782,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.499860155643401e-15,
+          "selection_loss_preserved_minimum": 1.0008122319394377,
+          "selection_loss_recomputed": 1.0008122319394381,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_input/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.525465156689916e-15,
+          "selection_loss_preserved_minimum": 1.0076002387396954,
+          "selection_loss_recomputed": 1.0076002387396945,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_0_input/role12/all",
+          "normal_equation_max_relative_residual": 2.2714291280474265e-14,
+          "selection_loss_preserved_minimum": 0.8803130292410483,
+          "selection_loss_recomputed": 0.8803130292410525,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/role12/all",
+          "normal_equation_max_relative_residual": 3.962301629041622e-15,
+          "selection_loss_preserved_minimum": 1.0541002423351356,
+          "selection_loss_recomputed": 1.0541002423351353,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_0_input/role12/position",
+          "normal_equation_max_relative_residual": 2.2707542990501085e-14,
+          "selection_loss_preserved_minimum": 0.832156579733892,
+          "selection_loss_recomputed": 0.8321565797339004,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/role12/position",
+          "normal_equation_max_relative_residual": 3.836542359229231e-15,
+          "selection_loss_preserved_minimum": 1.1703524468974318,
+          "selection_loss_recomputed": 1.1703524468974311,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_input/role12/velocity",
+          "normal_equation_max_relative_residual": 3.325075270684593e-15,
+          "selection_loss_preserved_minimum": 0.9135559817471997,
+          "selection_loss_recomputed": 0.9135559817472002,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_input/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8500407119078865e-15,
+          "selection_loss_preserved_minimum": 0.9341937879033678,
+          "selection_loss_recomputed": 0.9341937879033688,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_0_input",
+      "normal_equation_max_relative_residual": 2.312818900699899e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.96900975027483e-14,
+          "selection_loss_preserved_minimum": 1.0656224831009333,
+          "selection_loss_recomputed": 1.0656224831009353,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2853445137945986e-14,
+          "selection_loss_preserved_minimum": 1.1037966066906644,
+          "selection_loss_recomputed": 1.1037966066906653,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_0_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.927096399199147e-14,
+          "selection_loss_preserved_minimum": 1.1131461104516704,
+          "selection_loss_recomputed": 1.1131461104516742,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2853445137945986e-14,
+          "selection_loss_preserved_minimum": 1.1999566673299553,
+          "selection_loss_recomputed": 1.199956667329957,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.2625341915493495e-15,
+          "selection_loss_preserved_minimum": 0.9975414777045373,
+          "selection_loss_recomputed": 0.9975414777045374,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.823282852990811e-15,
+          "selection_loss_preserved_minimum": 1.007636546051374,
+          "selection_loss_recomputed": 1.0076365460513736,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_0_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3419489872019347e-14,
+          "selection_loss_preserved_minimum": 0.8407330798197613,
+          "selection_loss_recomputed": 0.8407330798197653,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_output/role12/all",
+          "normal_equation_max_relative_residual": 3.71493036015246e-15,
+          "selection_loss_preserved_minimum": 1.0549725910058259,
+          "selection_loss_recomputed": 1.0549725910058259,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "spatial/block_0_output/role12/position",
+          "normal_equation_max_relative_residual": 2.166494270854571e-14,
+          "selection_loss_preserved_minimum": 0.6774775928649901,
+          "selection_loss_recomputed": 0.6774775928649962,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_output/role12/position",
+          "normal_equation_max_relative_residual": 3.71493036015246e-15,
+          "selection_loss_preserved_minimum": 1.174295377508039,
+          "selection_loss_recomputed": 1.1742953775080387,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_0_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8315088913859213e-15,
+          "selection_loss_preserved_minimum": 0.9089553569739985,
+          "selection_loss_recomputed": 0.9089553569739991,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_0_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8894832498308777e-15,
+          "selection_loss_preserved_minimum": 0.9345233772397835,
+          "selection_loss_recomputed": 0.9345233772397843,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_0_output",
+      "normal_equation_max_relative_residual": 2.3419489872019347e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_1_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9283305599175374e-14,
+          "selection_loss_preserved_minimum": 1.0574366161117088,
+          "selection_loss_recomputed": 1.057436616111711,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_1_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2717510368338847e-14,
+          "selection_loss_preserved_minimum": 1.1041231808924092,
+          "selection_loss_recomputed": 1.1041231808924103,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_1_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9307175571007972e-14,
+          "selection_loss_preserved_minimum": 1.094827033284673,
+          "selection_loss_recomputed": 1.0948270332846772,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_1_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2717510368338847e-14,
+          "selection_loss_preserved_minimum": 1.2004871545932843,
+          "selection_loss_recomputed": 1.2004871545932865,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_1_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.2230307277283356e-15,
+          "selection_loss_preserved_minimum": 0.9942182314835551,
+          "selection_loss_recomputed": 0.9942182314835547,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_1_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.209666428322843e-15,
+          "selection_loss_preserved_minimum": 1.0077592071915344,
+          "selection_loss_recomputed": 1.0077592071915338,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_1_output/role12/all",
+          "normal_equation_max_relative_residual": 2.4634179410464038e-14,
+          "selection_loss_preserved_minimum": 0.8036771202285369,
+          "selection_loss_recomputed": 0.8036771202285401,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_1_output/role12/all",
+          "normal_equation_max_relative_residual": 3.4725353327784863e-15,
+          "selection_loss_preserved_minimum": 1.0575974455546457,
+          "selection_loss_recomputed": 1.0575974455546453,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "spatial/block_1_output/role12/position",
+          "normal_equation_max_relative_residual": 3.0617780115010936e-14,
+          "selection_loss_preserved_minimum": 0.6470057966247305,
+          "selection_loss_recomputed": 0.6470057966247373,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_1_output/role12/position",
+          "normal_equation_max_relative_residual": 3.4725353327784863e-15,
+          "selection_loss_preserved_minimum": 1.178745997425063,
+          "selection_loss_recomputed": 1.1787459974250623,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_1_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.7943273105497823e-15,
+          "selection_loss_preserved_minimum": 0.9043966367502732,
+          "selection_loss_recomputed": 0.9043966367502728,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_1_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.956458276943456e-15,
+          "selection_loss_preserved_minimum": 0.934918045252914,
+          "selection_loss_recomputed": 0.9349180452529139,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_1_output",
+      "normal_equation_max_relative_residual": 3.0617780115010936e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_2_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.191270102951334e-14,
+          "selection_loss_preserved_minimum": 1.048142194679149,
+          "selection_loss_recomputed": 1.0481421946791507,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_2_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.255797071587939e-14,
+          "selection_loss_preserved_minimum": 1.1043464224792834,
+          "selection_loss_recomputed": 1.104346422479284,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_2_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.194147821191075e-14,
+          "selection_loss_preserved_minimum": 1.0804751944020632,
+          "selection_loss_recomputed": 1.0804751944020663,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_2_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.255797071587939e-14,
+          "selection_loss_preserved_minimum": 1.2008801924673613,
+          "selection_loss_recomputed": 1.200880192467363,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_2_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.267778201303388e-15,
+          "selection_loss_preserved_minimum": 0.9899881558257004,
+          "selection_loss_recomputed": 0.9899881558257005,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_2_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.193733501031759e-15,
+          "selection_loss_preserved_minimum": 1.0078126524912052,
+          "selection_loss_recomputed": 1.0078126524912046,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_2_output/role12/all",
+          "normal_equation_max_relative_residual": 2.1854910011912698e-14,
+          "selection_loss_preserved_minimum": 0.769204299883823,
+          "selection_loss_recomputed": 0.7692042998838261,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_2_output/role12/all",
+          "normal_equation_max_relative_residual": 4.1243816990554375e-15,
+          "selection_loss_preserved_minimum": 1.0593166484474683,
+          "selection_loss_recomputed": 1.0593166484474679,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_2_output/role12/position",
+          "normal_equation_max_relative_residual": 2.1855631600630415e-14,
+          "selection_loss_preserved_minimum": 0.5987318330412801,
+          "selection_loss_recomputed": 0.5987318330412857,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_2_output/role12/position",
+          "normal_equation_max_relative_residual": 4.1243816990554375e-15,
+          "selection_loss_preserved_minimum": 1.1812360752957118,
+          "selection_loss_recomputed": 1.1812360752957114,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_2_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.76784256862416e-15,
+          "selection_loss_preserved_minimum": 0.8850406863138519,
+          "selection_loss_recomputed": 0.885040686313853,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_2_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.9820750145138134e-15,
+          "selection_loss_preserved_minimum": 0.9350614525909138,
+          "selection_loss_recomputed": 0.9350614525909141,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_2_output",
+      "normal_equation_max_relative_residual": 2.255797071587939e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_3_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9579336999487237e-14,
+          "selection_loss_preserved_minimum": 1.04227718677127,
+          "selection_loss_recomputed": 1.0422771867712717,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_3_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2770444872710502e-14,
+          "selection_loss_preserved_minimum": 1.1045289341204318,
+          "selection_loss_recomputed": 1.104528934120432,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_3_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.959187762350076e-14,
+          "selection_loss_preserved_minimum": 1.0727815694467464,
+          "selection_loss_recomputed": 1.0727815694467502,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_3_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2770444872710502e-14,
+          "selection_loss_preserved_minimum": 1.2011060974022183,
+          "selection_loss_recomputed": 1.20110609740222,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_3_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.669732708795646e-15,
+          "selection_loss_preserved_minimum": 0.9861472059137498,
+          "selection_loss_recomputed": 0.9861472059137498,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_3_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.256364339580314e-15,
+          "selection_loss_preserved_minimum": 1.0079517708386456,
+          "selection_loss_recomputed": 1.007951770838645,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_3_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3373674778910643e-14,
+          "selection_loss_preserved_minimum": 0.7366584645567759,
+          "selection_loss_recomputed": 0.7366584645567782,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_3_output/role12/all",
+          "normal_equation_max_relative_residual": 3.5900742237963825e-15,
+          "selection_loss_preserved_minimum": 1.0596989003804091,
+          "selection_loss_recomputed": 1.059698900380409,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_3_output/role12/position",
+          "normal_equation_max_relative_residual": 2.336674460786719e-14,
+          "selection_loss_preserved_minimum": 0.5622361742790295,
+          "selection_loss_recomputed": 0.5622361742790346,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_3_output/role12/position",
+          "normal_equation_max_relative_residual": 3.695437776234777e-15,
+          "selection_loss_preserved_minimum": 1.1844372652314201,
+          "selection_loss_recomputed": 1.18443726523142,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_3_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.556653475684166e-15,
+          "selection_loss_preserved_minimum": 0.852825519168488,
+          "selection_loss_recomputed": 0.852825519168488,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_3_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8632360205412965e-15,
+          "selection_loss_preserved_minimum": 0.934770613279951,
+          "selection_loss_recomputed": 0.9347706132799511,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_3_output",
+      "normal_equation_max_relative_residual": 2.3373674778910643e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_4_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0761539919927862e-14,
+          "selection_loss_preserved_minimum": 1.0343021584624241,
+          "selection_loss_recomputed": 1.034302158462426,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2922690703981504e-14,
+          "selection_loss_preserved_minimum": 1.1047630978983234,
+          "selection_loss_recomputed": 1.1047630978983238,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_4_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0767644303134233e-14,
+          "selection_loss_preserved_minimum": 1.0644546135628776,
+          "selection_loss_recomputed": 1.0644546135628812,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2922690703981504e-14,
+          "selection_loss_preserved_minimum": 1.2012583220630293,
+          "selection_loss_recomputed": 1.201258322063031,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_4_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.921418123056265e-15,
+          "selection_loss_preserved_minimum": 0.9799220462848421,
+          "selection_loss_recomputed": 0.979922046284842,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.030686574990522e-15,
+          "selection_loss_preserved_minimum": 1.0082678737336175,
+          "selection_loss_recomputed": 1.008267873733617,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_4_output/role12/all",
+          "normal_equation_max_relative_residual": 2.5352802706630812e-14,
+          "selection_loss_preserved_minimum": 0.6918124201837812,
+          "selection_loss_recomputed": 0.6918124201837834,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/role12/all",
+          "normal_equation_max_relative_residual": 3.449898400659298e-15,
+          "selection_loss_preserved_minimum": 1.0599588023678737,
+          "selection_loss_recomputed": 1.0599588023678737,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_4_output/role12/position",
+          "normal_equation_max_relative_residual": 2.5363462757813013e-14,
+          "selection_loss_preserved_minimum": 0.5270135731798844,
+          "selection_loss_recomputed": 0.5270135731798883,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/role12/position",
+          "normal_equation_max_relative_residual": 3.449898400659298e-15,
+          "selection_loss_preserved_minimum": 1.1851073165924613,
+          "selection_loss_recomputed": 1.1851073165924606,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_4_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.728591678155994e-15,
+          "selection_loss_preserved_minimum": 0.8029634121318735,
+          "selection_loss_recomputed": 0.8029634121318737,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_4_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.76463668108471e-15,
+          "selection_loss_preserved_minimum": 0.9348102881432864,
+          "selection_loss_recomputed": 0.9348102881432866,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_4_output",
+      "normal_equation_max_relative_residual": 2.5363462757813013e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_5_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.194762360952725e-14,
+          "selection_loss_preserved_minimum": 1.0132063808001222,
+          "selection_loss_recomputed": 1.0132063808001235,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2917006196713278e-14,
+          "selection_loss_preserved_minimum": 1.1051016584721904,
+          "selection_loss_recomputed": 1.105101658472191,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_5_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.195751423216613e-14,
+          "selection_loss_preserved_minimum": 1.03151820041688,
+          "selection_loss_recomputed": 1.031518200416883,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2917006196713278e-14,
+          "selection_loss_preserved_minimum": 1.2018633423723724,
+          "selection_loss_recomputed": 1.2018633423723737,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_5_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.2837068542410752e-15,
+          "selection_loss_preserved_minimum": 0.975936902110314,
+          "selection_loss_recomputed": 0.9759369021103145,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.041104168279512e-15,
+          "selection_loss_preserved_minimum": 1.0083399745720087,
+          "selection_loss_recomputed": 1.008339974572008,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_5_output/role12/all",
+          "normal_equation_max_relative_residual": 2.4711237289802863e-14,
+          "selection_loss_preserved_minimum": 0.6490646293677408,
+          "selection_loss_recomputed": 0.649064629367743,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/role12/all",
+          "normal_equation_max_relative_residual": 3.740575264108986e-15,
+          "selection_loss_preserved_minimum": 1.0611235869307152,
+          "selection_loss_recomputed": 1.0611235869307152,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_5_output/role12/position",
+          "normal_equation_max_relative_residual": 2.471920107818481e-14,
+          "selection_loss_preserved_minimum": 0.4744405595765327,
+          "selection_loss_recomputed": 0.47444055957653647,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/role12/position",
+          "normal_equation_max_relative_residual": 3.740575264108986e-15,
+          "selection_loss_preserved_minimum": 1.1872943274841954,
+          "selection_loss_recomputed": 1.1872943274841947,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_5_output/role12/velocity",
+          "normal_equation_max_relative_residual": 5.596154574438685e-15,
+          "selection_loss_preserved_minimum": 0.7765075220965884,
+          "selection_loss_recomputed": 0.7765075220965887,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_5_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.920187760865993e-15,
+          "selection_loss_preserved_minimum": 0.9349528463772353,
+          "selection_loss_recomputed": 0.9349528463772362,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_5_output",
+      "normal_equation_max_relative_residual": 2.471920107818481e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_6_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0393003444907454e-14,
+          "selection_loss_preserved_minimum": 1.0222358718245597,
+          "selection_loss_recomputed": 1.0222358718245617,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.281698585454819e-14,
+          "selection_loss_preserved_minimum": 1.1052522777938631,
+          "selection_loss_recomputed": 1.1052522777938636,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_6_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0390692116500945e-14,
+          "selection_loss_preserved_minimum": 1.0481750724709853,
+          "selection_loss_recomputed": 1.0481750724709886,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.281698585454819e-14,
+          "selection_loss_preserved_minimum": 1.202160733439371,
+          "selection_loss_recomputed": 1.202160733439373,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_6_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.1476097687124547e-15,
+          "selection_loss_preserved_minimum": 0.974221250166805,
+          "selection_loss_recomputed": 0.9742212501668054,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.495196052918649e-15,
+          "selection_loss_preserved_minimum": 1.0083438221483554,
+          "selection_loss_recomputed": 1.0083438221483545,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_6_output/role12/all",
+          "normal_equation_max_relative_residual": 2.289582646171276e-14,
+          "selection_loss_preserved_minimum": 0.6559691367268113,
+          "selection_loss_recomputed": 0.6559691367268129,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/role12/all",
+          "normal_equation_max_relative_residual": 3.4678245781979482e-15,
+          "selection_loss_preserved_minimum": 1.0617717963940072,
+          "selection_loss_recomputed": 1.0617717963940072,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_6_output/role12/position",
+          "normal_equation_max_relative_residual": 2.2887372511536394e-14,
+          "selection_loss_preserved_minimum": 0.4896958255795309,
+          "selection_loss_recomputed": 0.48969582557953467,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/role12/position",
+          "normal_equation_max_relative_residual": 3.4678245781979482e-15,
+          "selection_loss_preserved_minimum": 1.1882430532831452,
+          "selection_loss_recomputed": 1.1882430532831445,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_6_output/role12/velocity",
+          "normal_equation_max_relative_residual": 6.141463722217504e-15,
+          "selection_loss_preserved_minimum": 0.7680056510738967,
+          "selection_loss_recomputed": 0.7680056510738967,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_6_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.6010423759349876e-15,
+          "selection_loss_preserved_minimum": 0.935300539504869,
+          "selection_loss_recomputed": 0.9353005395048694,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_6_output",
+      "normal_equation_max_relative_residual": 2.289582646171276e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_7_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0208974524619457e-14,
+          "selection_loss_preserved_minimum": 1.0263389990611314,
+          "selection_loss_recomputed": 1.026338999061133,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2987589988656732e-14,
+          "selection_loss_preserved_minimum": 1.1054626452002159,
+          "selection_loss_recomputed": 1.1054626452002168,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_7_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0220145113629185e-14,
+          "selection_loss_preserved_minimum": 1.0495700744233931,
+          "selection_loss_recomputed": 1.0495700744233962,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2987589988656732e-14,
+          "selection_loss_preserved_minimum": 1.2022696771672652,
+          "selection_loss_recomputed": 1.2022696771672678,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_7_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.242627135374143e-15,
+          "selection_loss_preserved_minimum": 0.9759780635190486,
+          "selection_loss_recomputed": 0.9759780635190486,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.300517306531848e-15,
+          "selection_loss_preserved_minimum": 1.008655613233167,
+          "selection_loss_recomputed": 1.0086556132331663,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_7_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2186527555836413e-14,
+          "selection_loss_preserved_minimum": 0.6748069840691748,
+          "selection_loss_recomputed": 0.6748069840691774,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/role12/all",
+          "normal_equation_max_relative_residual": 3.721766727310362e-15,
+          "selection_loss_preserved_minimum": 1.0616872217333821,
+          "selection_loss_recomputed": 1.061687221733382,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_7_output/role12/position",
+          "normal_equation_max_relative_residual": 2.2157461088472243e-14,
+          "selection_loss_preserved_minimum": 0.501979886787489,
+          "selection_loss_recomputed": 0.5019798867874931,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/role12/position",
+          "normal_equation_max_relative_residual": 3.721766727310362e-15,
+          "selection_loss_preserved_minimum": 1.1876017119134703,
+          "selection_loss_recomputed": 1.1876017119134694,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_7_output/role12/velocity",
+          "normal_equation_max_relative_residual": 3.838384398913863e-15,
+          "selection_loss_preserved_minimum": 0.786298956226692,
+          "selection_loss_recomputed": 0.7862989562266919,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_7_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.971777383938558e-15,
+          "selection_loss_preserved_minimum": 0.935772731553294,
+          "selection_loss_recomputed": 0.9357727315532944,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_7_output",
+      "normal_equation_max_relative_residual": 2.2987589988656732e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_8_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.8642334627412124e-14,
+          "selection_loss_preserved_minimum": 1.0271455707401247,
+          "selection_loss_recomputed": 1.0271455707401265,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2570616334854397e-14,
+          "selection_loss_preserved_minimum": 1.1056203829348819,
+          "selection_loss_recomputed": 1.105620382934883,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_8_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.8632594615480592e-14,
+          "selection_loss_preserved_minimum": 1.0431114628022806,
+          "selection_loss_recomputed": 1.043111462802284,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2570616334854397e-14,
+          "selection_loss_preserved_minimum": 1.2023400133603845,
+          "selection_loss_recomputed": 1.2023400133603868,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_8_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.105074227248149e-15,
+          "selection_loss_preserved_minimum": 0.978043204541235,
+          "selection_loss_recomputed": 0.9780432045412348,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.072513115634633e-15,
+          "selection_loss_preserved_minimum": 1.0089007525093803,
+          "selection_loss_recomputed": 1.0089007525093796,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_8_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2377324391269383e-14,
+          "selection_loss_preserved_minimum": 0.6774862865011636,
+          "selection_loss_recomputed": 0.6774862865011665,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/role12/all",
+          "normal_equation_max_relative_residual": 4.270234989665045e-15,
+          "selection_loss_preserved_minimum": 1.0615307781389165,
+          "selection_loss_recomputed": 1.0615307781389167,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_8_output/role12/position",
+          "normal_equation_max_relative_residual": 2.238503570579202e-14,
+          "selection_loss_preserved_minimum": 0.5025172749615318,
+          "selection_loss_recomputed": 0.5025172749615361,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/role12/position",
+          "normal_equation_max_relative_residual": 4.270234989665045e-15,
+          "selection_loss_preserved_minimum": 1.1874708215663368,
+          "selection_loss_recomputed": 1.1874708215663363,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_8_output/role12/velocity",
+          "normal_equation_max_relative_residual": 4.616200818761452e-15,
+          "selection_loss_preserved_minimum": 0.8090190287117434,
+          "selection_loss_recomputed": 0.8090190287117437,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_8_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8230476311458e-15,
+          "selection_loss_preserved_minimum": 0.9355907347114961,
+          "selection_loss_recomputed": 0.9355907347114969,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_8_output",
+      "normal_equation_max_relative_residual": 2.2570616334854397e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_9_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0257038609515856e-14,
+          "selection_loss_preserved_minimum": 1.0270313174241188,
+          "selection_loss_recomputed": 1.0270313174241208,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2527782410644613e-14,
+          "selection_loss_preserved_minimum": 1.1051766925518511,
+          "selection_loss_recomputed": 1.1051766925518518,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_9_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0288519651036817e-14,
+          "selection_loss_preserved_minimum": 1.0336204507278623,
+          "selection_loss_recomputed": 1.033620450727866,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2527782410644613e-14,
+          "selection_loss_preserved_minimum": 1.2018394737248672,
+          "selection_loss_recomputed": 1.2018394737248692,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_9_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 2.9506916117906298e-15,
+          "selection_loss_preserved_minimum": 0.9800719310372303,
+          "selection_loss_recomputed": 0.98007193103723,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.804566093240865e-15,
+          "selection_loss_preserved_minimum": 1.0085139113788348,
+          "selection_loss_recomputed": 1.008513911378834,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_9_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3694603135520383e-14,
+          "selection_loss_preserved_minimum": 0.6897279912809138,
+          "selection_loss_recomputed": 0.6897279912809166,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/role12/all",
+          "normal_equation_max_relative_residual": 3.8069371320563805e-15,
+          "selection_loss_preserved_minimum": 1.0615217731548068,
+          "selection_loss_recomputed": 1.0615217731548061,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_9_output/role12/position",
+          "normal_equation_max_relative_residual": 2.392603630388265e-14,
+          "selection_loss_preserved_minimum": 0.5049276757368896,
+          "selection_loss_recomputed": 0.5049276757368943,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/role12/position",
+          "normal_equation_max_relative_residual": 3.8069371320563805e-15,
+          "selection_loss_preserved_minimum": 1.1875160732434182,
+          "selection_loss_recomputed": 1.187516073243417,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_9_output/role12/velocity",
+          "normal_equation_max_relative_residual": 3.888182014535026e-15,
+          "selection_loss_preserved_minimum": 0.836111045193904,
+          "selection_loss_recomputed": 0.836111045193904,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_9_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8220460195237025e-15,
+          "selection_loss_preserved_minimum": 0.9355274730661951,
+          "selection_loss_recomputed": 0.9355274730661952,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_9_output",
+      "normal_equation_max_relative_residual": 2.392603630388265e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_10_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9952605498340954e-14,
+          "selection_loss_preserved_minimum": 1.026951484537941,
+          "selection_loss_recomputed": 1.026951484537943,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.297761507139315e-14,
+          "selection_loss_preserved_minimum": 1.105508059263901,
+          "selection_loss_recomputed": 1.1055080592639017,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_10_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9984968679355228e-14,
+          "selection_loss_preserved_minimum": 1.0196673984303732,
+          "selection_loss_recomputed": 1.0196673984303766,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.297761507139315e-14,
+          "selection_loss_preserved_minimum": 1.202106304083485,
+          "selection_loss_recomputed": 1.2021063040834867,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_10_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.1575454685521908e-15,
+          "selection_loss_preserved_minimum": 0.9806540720544293,
+          "selection_loss_recomputed": 0.9806540720544292,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.2975025863558946e-15,
+          "selection_loss_preserved_minimum": 1.0089098144443172,
+          "selection_loss_recomputed": 1.0089098144443167,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_10_output/role12/all",
+          "normal_equation_max_relative_residual": 2.265315877905406e-14,
+          "selection_loss_preserved_minimum": 0.6861055429663918,
+          "selection_loss_recomputed": 0.6861055429663948,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/role12/all",
+          "normal_equation_max_relative_residual": 3.917388843035309e-15,
+          "selection_loss_preserved_minimum": 1.0607273370616916,
+          "selection_loss_recomputed": 1.0607273370616916,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_10_output/role12/position",
+          "normal_equation_max_relative_residual": 2.2634396012305565e-14,
+          "selection_loss_preserved_minimum": 0.49333543038374933,
+          "selection_loss_recomputed": 0.49333543038375377,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/role12/position",
+          "normal_equation_max_relative_residual": 3.917388843035309e-15,
+          "selection_loss_preserved_minimum": 1.1864752592100896,
+          "selection_loss_recomputed": 1.1864752592100893,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_10_output/role12/velocity",
+          "normal_equation_max_relative_residual": 5.324411880422853e-15,
+          "selection_loss_preserved_minimum": 0.8550457817099876,
+          "selection_loss_recomputed": 0.8550457817099882,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_10_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.8766520200468046e-15,
+          "selection_loss_preserved_minimum": 0.9349794149132934,
+          "selection_loss_recomputed": 0.9349794149132938,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_10_output",
+      "normal_equation_max_relative_residual": 2.297761507139315e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_11_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.0362071934984312e-14,
+          "selection_loss_preserved_minimum": 1.0169679524801065,
+          "selection_loss_recomputed": 1.0169679524801085,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.3240023645924092e-14,
+          "selection_loss_preserved_minimum": 1.105546720653268,
+          "selection_loss_recomputed": 1.1055467206532685,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_11_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.037927076005188e-14,
+          "selection_loss_preserved_minimum": 1.0032713145377234,
+          "selection_loss_recomputed": 1.0032713145377272,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.3240023645924092e-14,
+          "selection_loss_preserved_minimum": 1.2021922873126127,
+          "selection_loss_recomputed": 1.2021922873126143,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_11_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.190964980708597e-15,
+          "selection_loss_preserved_minimum": 0.9801317301979565,
+          "selection_loss_recomputed": 0.9801317301979563,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.12137446163579e-15,
+          "selection_loss_preserved_minimum": 1.0089011539939234,
+          "selection_loss_recomputed": 1.0089011539939226,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_11_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2314659432077693e-14,
+          "selection_loss_preserved_minimum": 0.6843227894036517,
+          "selection_loss_recomputed": 0.6843227894036549,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/role12/all",
+          "normal_equation_max_relative_residual": 3.746528830425645e-15,
+          "selection_loss_preserved_minimum": 1.0597507657170835,
+          "selection_loss_recomputed": 1.0597507657170833,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "spatial/block_11_output/role12/position",
+          "normal_equation_max_relative_residual": 2.232205442412399e-14,
+          "selection_loss_preserved_minimum": 0.4857491484268875,
+          "selection_loss_recomputed": 0.4857491484268923,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/role12/position",
+          "normal_equation_max_relative_residual": 3.746528830425645e-15,
+          "selection_loss_preserved_minimum": 1.1848091115625576,
+          "selection_loss_recomputed": 1.1848091115625572,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_11_output/role12/velocity",
+          "normal_equation_max_relative_residual": 4.680650214684112e-15,
+          "selection_loss_preserved_minimum": 0.8694606883860301,
+          "selection_loss_recomputed": 0.8694606883860305,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_11_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.953822540253916e-15,
+          "selection_loss_preserved_minimum": 0.9346924198716094,
+          "selection_loss_recomputed": 0.9346924198716092,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_11_output",
+      "normal_equation_max_relative_residual": 2.3240023645924092e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_12_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9590212108877987e-14,
+          "selection_loss_preserved_minimum": 1.0150126129896326,
+          "selection_loss_recomputed": 1.0150126129896344,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.3052507938881837e-14,
+          "selection_loss_preserved_minimum": 1.1054708731304388,
+          "selection_loss_recomputed": 1.1054708731304395,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_12_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9542170365833215e-14,
+          "selection_loss_preserved_minimum": 1.0079126357031438,
+          "selection_loss_recomputed": 1.007912635703147,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.3052507938881837e-14,
+          "selection_loss_preserved_minimum": 1.2024935486357522,
+          "selection_loss_recomputed": 1.202493548635754,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_12_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.4490384594903477e-15,
+          "selection_loss_preserved_minimum": 0.9792742917016194,
+          "selection_loss_recomputed": 0.9792742917016194,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.997179269532181e-15,
+          "selection_loss_preserved_minimum": 1.0084481976251254,
+          "selection_loss_recomputed": 1.0084481976251252,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_12_output/role12/all",
+          "normal_equation_max_relative_residual": 2.261739067612322e-14,
+          "selection_loss_preserved_minimum": 0.6965738378986818,
+          "selection_loss_recomputed": 0.6965738378986851,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/role12/all",
+          "normal_equation_max_relative_residual": 3.870792398676871e-15,
+          "selection_loss_preserved_minimum": 1.058768727782352,
+          "selection_loss_recomputed": 1.058768727782352,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_12_output/role12/position",
+          "normal_equation_max_relative_residual": 2.26091679979023e-14,
+          "selection_loss_preserved_minimum": 0.5102834807342291,
+          "selection_loss_recomputed": 0.5102834807342352,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/role12/position",
+          "normal_equation_max_relative_residual": 3.870792398676871e-15,
+          "selection_loss_preserved_minimum": 1.18336865848202,
+          "selection_loss_recomputed": 1.1833686584820196,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_12_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.851553033418312e-15,
+          "selection_loss_preserved_minimum": 0.8795368225532174,
+          "selection_loss_recomputed": 0.8795368225532183,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_12_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.9647902273301375e-15,
+          "selection_loss_preserved_minimum": 0.9341687970826835,
+          "selection_loss_recomputed": 0.9341687970826839,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_12_output",
+      "normal_equation_max_relative_residual": 2.3052507938881837e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_13_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.16988415962882e-14,
+          "selection_loss_preserved_minimum": 1.0238750716310492,
+          "selection_loss_recomputed": 1.0238750716310512,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.301450707192258e-14,
+          "selection_loss_preserved_minimum": 1.1049767809213757,
+          "selection_loss_recomputed": 1.1049767809213769,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_13_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.1356724336144922e-14,
+          "selection_loss_preserved_minimum": 1.0284001358263615,
+          "selection_loss_recomputed": 1.0284001358263646,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.301450707192258e-14,
+          "selection_loss_preserved_minimum": 1.2016906191244423,
+          "selection_loss_recomputed": 1.201690619124445,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_13_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.4587898421976773e-15,
+          "selection_loss_preserved_minimum": 0.9805876746772337,
+          "selection_loss_recomputed": 0.9805876746772342,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.1275740540257554e-15,
+          "selection_loss_preserved_minimum": 1.0082629427183094,
+          "selection_loss_recomputed": 1.0082629427183085,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_13_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3494886514903287e-14,
+          "selection_loss_preserved_minimum": 0.7114734875411725,
+          "selection_loss_recomputed": 0.7114734875411758,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/role12/all",
+          "normal_equation_max_relative_residual": 3.647036898745681e-15,
+          "selection_loss_preserved_minimum": 1.058650609118548,
+          "selection_loss_recomputed": 1.0586506091185472,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_13_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3513967620490758e-14,
+          "selection_loss_preserved_minimum": 0.5400046519573692,
+          "selection_loss_recomputed": 0.5400046519573755,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/role12/position",
+          "normal_equation_max_relative_residual": 3.647036898745681e-15,
+          "selection_loss_preserved_minimum": 1.183249048696185,
+          "selection_loss_recomputed": 1.183249048696184,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_13_output/role12/velocity",
+          "normal_equation_max_relative_residual": 4.1675377440328876e-15,
+          "selection_loss_preserved_minimum": 0.8829423231249756,
+          "selection_loss_recomputed": 0.882942323124976,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_13_output/role12/velocity",
+          "normal_equation_max_relative_residual": 3.0404509087890864e-15,
+          "selection_loss_preserved_minimum": 0.9340521695409104,
+          "selection_loss_recomputed": 0.9340521695409109,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_13_output",
+      "normal_equation_max_relative_residual": 2.3513967620490758e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_14_output/absolute30/all",
+          "normal_equation_max_relative_residual": 1.944432398358441e-14,
+          "selection_loss_preserved_minimum": 1.0296253632291192,
+          "selection_loss_recomputed": 1.0296253632291208,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.270407069331533e-14,
+          "selection_loss_preserved_minimum": 1.1046056260818868,
+          "selection_loss_recomputed": 1.1046056260818875,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_14_output/absolute30/position",
+          "normal_equation_max_relative_residual": 1.8487877944838667e-14,
+          "selection_loss_preserved_minimum": 1.0523090194912434,
+          "selection_loss_recomputed": 1.0523090194912474,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.270407069331533e-14,
+          "selection_loss_preserved_minimum": 1.2013699854388922,
+          "selection_loss_recomputed": 1.201369985438894,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_14_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.0956209281027203e-15,
+          "selection_loss_preserved_minimum": 0.9810534200247933,
+          "selection_loss_recomputed": 0.981053420024793,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.109286247563225e-15,
+          "selection_loss_preserved_minimum": 1.0078412667248815,
+          "selection_loss_recomputed": 1.0078412667248806,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_14_output/role12/all",
+          "normal_equation_max_relative_residual": 2.2849955294302894e-14,
+          "selection_loss_preserved_minimum": 0.7333914905327349,
+          "selection_loss_recomputed": 0.733391490532738,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/role12/all",
+          "normal_equation_max_relative_residual": 3.6808700964913875e-15,
+          "selection_loss_preserved_minimum": 1.0588410798150292,
+          "selection_loss_recomputed": 1.0588410798150287,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_14_output/role12/position",
+          "normal_equation_max_relative_residual": 2.2846103712911005e-14,
+          "selection_loss_preserved_minimum": 0.5783097138601906,
+          "selection_loss_recomputed": 0.5783097138601965,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/role12/position",
+          "normal_equation_max_relative_residual": 3.6808700964913875e-15,
+          "selection_loss_preserved_minimum": 1.1836029544315096,
+          "selection_loss_recomputed": 1.1836029544315083,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_14_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.7248639934977414e-15,
+          "selection_loss_preserved_minimum": 0.8834695729183754,
+          "selection_loss_recomputed": 0.8834695729183756,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_14_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.997938792347649e-15,
+          "selection_loss_preserved_minimum": 0.9340792051985486,
+          "selection_loss_recomputed": 0.9340792051985493,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_14_output",
+      "normal_equation_max_relative_residual": 2.2849955294302894e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_15_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.13395781864417e-14,
+          "selection_loss_preserved_minimum": 1.0303559308618833,
+          "selection_loss_recomputed": 1.030355930861885,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_15_output/absolute30/all",
+          "normal_equation_max_relative_residual": 2.3324237259602568e-14,
+          "selection_loss_preserved_minimum": 1.1043714025885154,
+          "selection_loss_recomputed": 1.104371402588516,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_15_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2872457179907805e-14,
+          "selection_loss_preserved_minimum": 1.0533205679416777,
+          "selection_loss_recomputed": 1.0533205679416808,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_15_output/absolute30/position",
+          "normal_equation_max_relative_residual": 2.3324237259602568e-14,
+          "selection_loss_preserved_minimum": 1.2010069673289647,
+          "selection_loss_recomputed": 1.2010069673289672,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_15_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.4409124448891683e-15,
+          "selection_loss_preserved_minimum": 0.9819011481911131,
+          "selection_loss_recomputed": 0.9819011481911128,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_15_output/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.2145149872712384e-15,
+          "selection_loss_preserved_minimum": 1.0077358378480659,
+          "selection_loss_recomputed": 1.0077358378480656,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_15_output/role12/all",
+          "normal_equation_max_relative_residual": 2.3565892420565855e-14,
+          "selection_loss_preserved_minimum": 0.7329808554383413,
+          "selection_loss_recomputed": 0.7329808554383449,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_15_output/role12/all",
+          "normal_equation_max_relative_residual": 3.9691483984769215e-15,
+          "selection_loss_preserved_minimum": 1.0587218417994537,
+          "selection_loss_recomputed": 1.0587218417994537,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "spatial/block_15_output/role12/position",
+          "normal_equation_max_relative_residual": 2.3580214136777312e-14,
+          "selection_loss_preserved_minimum": 0.5831952471537086,
+          "selection_loss_recomputed": 0.5831952471537155,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_15_output/role12/position",
+          "normal_equation_max_relative_residual": 4.200845089043046e-15,
+          "selection_loss_preserved_minimum": 1.1824570537548638,
+          "selection_loss_recomputed": 1.1824570537548633,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "spatial/block_15_output/role12/velocity",
+          "normal_equation_max_relative_residual": 2.880471891261886e-15,
+          "selection_loss_preserved_minimum": 0.8827528326731096,
+          "selection_loss_recomputed": 0.88275283267311,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "spatial/block_15_output/role12/velocity",
+          "normal_equation_max_relative_residual": 3.0659129298031347e-15,
+          "selection_loss_preserved_minimum": 0.9338972997626153,
+          "selection_loss_recomputed": 0.9338972997626159,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "spatial/block_15_output",
+      "normal_equation_max_relative_residual": 2.3580214136777312e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 32,
+      "models": [
+        {
+          "alpha": 0.1,
+          "name": "codec_mean_X/absolute30/all",
+          "normal_equation_max_relative_residual": 2.1310193375408996e-14,
+          "selection_loss_preserved_minimum": 1.0961101339111836,
+          "selection_loss_recomputed": 1.0961101339111854,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_mean_X/absolute30/all",
+          "normal_equation_max_relative_residual": 2.471204204466733e-14,
+          "selection_loss_preserved_minimum": 1.1042586499521032,
+          "selection_loss_recomputed": 1.1042586499521037,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "codec_mean_X/absolute30/position",
+          "normal_equation_max_relative_residual": 2.13227714021509e-14,
+          "selection_loss_preserved_minimum": 1.1782693122156196,
+          "selection_loss_recomputed": 1.1782693122156225,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_mean_X/absolute30/position",
+          "normal_equation_max_relative_residual": 2.471204204466733e-14,
+          "selection_loss_preserved_minimum": 1.202151647413591,
+          "selection_loss_recomputed": 1.2021516474135925,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_mean_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.389680879417641e-15,
+          "selection_loss_preserved_minimum": 1.0082854262931018,
+          "selection_loss_recomputed": 1.0082854262931018,
+          "variant": "main"
+        },
+        {
+          "alpha": 1.0,
+          "name": "codec_mean_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.771923324359773e-15,
+          "selection_loss_preserved_minimum": 1.0055019152934206,
+          "selection_loss_recomputed": 1.00550191529342,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "codec_mean_X/role12/all",
+          "normal_equation_max_relative_residual": 2.4745433832972575e-14,
+          "selection_loss_preserved_minimum": 1.005452481440872,
+          "selection_loss_recomputed": 1.0054524814408772,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_mean_X/role12/all",
+          "normal_equation_max_relative_residual": 3.729864781195542e-15,
+          "selection_loss_preserved_minimum": 1.0623421870527905,
+          "selection_loss_recomputed": 1.0623421870527903,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.001,
+          "name": "codec_mean_X/role12/position",
+          "normal_equation_max_relative_residual": 2.4330020512922357e-14,
+          "selection_loss_preserved_minimum": 1.0645668303613776,
+          "selection_loss_recomputed": 1.064566830361387,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_mean_X/role12/position",
+          "normal_equation_max_relative_residual": 4.525543486809168e-15,
+          "selection_loss_preserved_minimum": 1.1899773994653329,
+          "selection_loss_recomputed": 1.189977399465332,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_mean_X/role12/velocity",
+          "normal_equation_max_relative_residual": 4.1881810031539124e-15,
+          "selection_loss_preserved_minimum": 0.9354346679420913,
+          "selection_loss_recomputed": 0.9354346679420917,
+          "variant": "main"
+        },
+        {
+          "alpha": 1.0,
+          "name": "codec_mean_X/role12/velocity",
+          "normal_equation_max_relative_residual": 3.778960667632025e-15,
+          "selection_loss_preserved_minimum": 0.933312208962288,
+          "selection_loss_recomputed": 0.9333122089622882,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "codec_mean_X",
+      "normal_equation_max_relative_residual": 2.4745433832972575e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 4608,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "codec_spatial_X/absolute30/all",
+          "normal_equation_max_relative_residual": 1.8650083598128105e-14,
+          "selection_loss_preserved_minimum": 1.0528345584637524,
+          "selection_loss_recomputed": 1.0528345584637542,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2537960557518984e-14,
+          "selection_loss_preserved_minimum": 1.104730598410099,
+          "selection_loss_recomputed": 1.1047305984100997,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_spatial_X/absolute30/position",
+          "normal_equation_max_relative_residual": 1.8646313412334796e-14,
+          "selection_loss_preserved_minimum": 1.105436186124604,
+          "selection_loss_recomputed": 1.1054361861246076,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2537960557518984e-14,
+          "selection_loss_preserved_minimum": 1.201743853930896,
+          "selection_loss_recomputed": 1.2017438539308982,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.6028898678449035e-15,
+          "selection_loss_preserved_minimum": 1.0000876846614082,
+          "selection_loss_recomputed": 1.000087684661408,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.809732591952756e-15,
+          "selection_loss_preserved_minimum": 1.0077173428893018,
+          "selection_loss_recomputed": 1.0077173428893018,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_spatial_X/role12/all",
+          "normal_equation_max_relative_residual": 2.144818178509052e-14,
+          "selection_loss_preserved_minimum": 0.8531184813011649,
+          "selection_loss_recomputed": 0.8531184813011699,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/role12/all",
+          "normal_equation_max_relative_residual": 4.299359203358736e-15,
+          "selection_loss_preserved_minimum": 1.0508957580173124,
+          "selection_loss_recomputed": 1.050895758017312,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "codec_spatial_X/role12/position",
+          "normal_equation_max_relative_residual": 2.145685670127992e-14,
+          "selection_loss_preserved_minimum": 0.7323988317626248,
+          "selection_loss_recomputed": 0.7323988317626329,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/role12/position",
+          "normal_equation_max_relative_residual": 4.299359203358736e-15,
+          "selection_loss_preserved_minimum": 1.1685171059261272,
+          "selection_loss_recomputed": 1.168517105926127,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "codec_spatial_X/role12/velocity",
+          "normal_equation_max_relative_residual": 3.140611050627431e-15,
+          "selection_loss_preserved_minimum": 0.902515510659887,
+          "selection_loss_recomputed": 0.9025155106598876,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "codec_spatial_X/role12/velocity",
+          "normal_equation_max_relative_residual": 3.49029364681354e-15,
+          "selection_loss_preserved_minimum": 0.9332744101084969,
+          "selection_loss_recomputed": 0.933274410108497,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "codec_spatial_X",
+      "normal_equation_max_relative_residual": 2.2537960557518984e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 1536,
+      "models": [
+        {
+          "alpha": 10.0,
+          "name": "RGB_X/absolute30/all",
+          "normal_equation_max_relative_residual": 1.9859291485514117e-14,
+          "selection_loss_preserved_minimum": 1.0638239750604224,
+          "selection_loss_recomputed": 1.0638239750604241,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "RGB_X/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2849029324368462e-14,
+          "selection_loss_preserved_minimum": 1.1072234395656224,
+          "selection_loss_recomputed": 1.107223439565623,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "RGB_X/absolute30/position",
+          "normal_equation_max_relative_residual": 1.9383956489147753e-14,
+          "selection_loss_preserved_minimum": 1.1036701432930731,
+          "selection_loss_recomputed": 1.103670143293077,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "RGB_X/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2849029324368462e-14,
+          "selection_loss_preserved_minimum": 1.205758789580611,
+          "selection_loss_recomputed": 1.2057587895806137,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "RGB_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 5.381521073179606e-15,
+          "selection_loss_preserved_minimum": 1.003239313244175,
+          "selection_loss_recomputed": 1.0032393132441748,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "RGB_X/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.964789663552492e-15,
+          "selection_loss_preserved_minimum": 1.0086880895506338,
+          "selection_loss_recomputed": 1.0086880895506327,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "RGB_X/role12/all",
+          "normal_equation_max_relative_residual": 2.2109296980897648e-14,
+          "selection_loss_preserved_minimum": 0.8996650586169485,
+          "selection_loss_recomputed": 0.8996650586169549,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "RGB_X/role12/all",
+          "normal_equation_max_relative_residual": 5.081486305028392e-15,
+          "selection_loss_preserved_minimum": 1.0494950558123632,
+          "selection_loss_recomputed": 1.0494950558123632,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "RGB_X/role12/position",
+          "normal_equation_max_relative_residual": 2.2116648095358155e-14,
+          "selection_loss_preserved_minimum": 0.8798413476973251,
+          "selection_loss_recomputed": 0.8798413476973365,
+          "variant": "main"
+        },
+        {
+          "alpha": 10.0,
+          "name": "RGB_X/role12/position",
+          "normal_equation_max_relative_residual": 5.081486305028392e-15,
+          "selection_loss_preserved_minimum": 1.163398636437292,
+          "selection_loss_recomputed": 1.1633986364372912,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "RGB_X/role12/velocity",
+          "normal_equation_max_relative_residual": 4.697187872671329e-15,
+          "selection_loss_preserved_minimum": 0.911743214675523,
+          "selection_loss_recomputed": 0.9117432146755232,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "RGB_X/role12/velocity",
+          "normal_equation_max_relative_residual": 2.868650353998739e-15,
+          "selection_loss_preserved_minimum": 0.934625621658963,
+          "selection_loss_recomputed": 0.9346256216589633,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "RGB_X",
+      "normal_equation_max_relative_residual": 2.2849029324368462e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 4096,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/all",
+          "normal_equation_max_relative_residual": 2.080087923857282e-14,
+          "selection_loss_preserved_minimum": 0.9201311711539842,
+          "selection_loss_recomputed": 0.9201311711539859,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2512388255267276e-14,
+          "selection_loss_preserved_minimum": 1.1063921005407413,
+          "selection_loss_recomputed": 1.1063921005407418,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0769949147292034e-14,
+          "selection_loss_preserved_minimum": 0.8914162917456185,
+          "selection_loss_recomputed": 0.8914162917456224,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2512388255267276e-14,
+          "selection_loss_preserved_minimum": 1.2036162146677556,
+          "selection_loss_recomputed": 1.2036162146677576,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.800012097737711e-15,
+          "selection_loss_preserved_minimum": 0.9398139674722791,
+          "selection_loss_recomputed": 0.9398139674722786,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.322211220788527e-15,
+          "selection_loss_preserved_minimum": 1.0091679864137268,
+          "selection_loss_recomputed": 1.009167986413726,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_5_output/current_and_delta/role12/all",
+          "normal_equation_max_relative_residual": 2.3248390104033788e-14,
+          "selection_loss_preserved_minimum": 0.454867495226194,
+          "selection_loss_recomputed": 0.45486749522619513,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/role12/all",
+          "normal_equation_max_relative_residual": 3.839504234959115e-15,
+          "selection_loss_preserved_minimum": 1.0619424714670245,
+          "selection_loss_recomputed": 1.061942471467024,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_5_output/current_and_delta/role12/position",
+          "normal_equation_max_relative_residual": 2.346360122263986e-14,
+          "selection_loss_preserved_minimum": 0.23888341367836516,
+          "selection_loss_recomputed": 0.23888341367836707,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/role12/position",
+          "normal_equation_max_relative_residual": 3.839504234959115e-15,
+          "selection_loss_preserved_minimum": 1.190168864748487,
+          "selection_loss_recomputed": 1.1901688647484863,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_5_output/current_and_delta/role12/velocity",
+          "normal_equation_max_relative_residual": 5.2788170407623676e-15,
+          "selection_loss_preserved_minimum": 0.6468796250338414,
+          "selection_loss_recomputed": 0.6468796250338414,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_5_output/current_and_delta/role12/velocity",
+          "normal_equation_max_relative_residual": 2.766534976450287e-15,
+          "selection_loss_preserved_minimum": 0.9337160781855617,
+          "selection_loss_recomputed": 0.933716078185562,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_5_output/current_and_delta",
+      "normal_equation_max_relative_residual": 2.346360122263986e-14,
+      "selected_models_checked": 12
+    },
+    {
+      "discovery_normalization_checked": true,
+      "feature_width": 4096,
+      "models": [
+        {
+          "alpha": 1.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/all",
+          "normal_equation_max_relative_residual": 2.057692720406292e-14,
+          "selection_loss_preserved_minimum": 0.9411634736253057,
+          "selection_loss_recomputed": 0.9411634736253073,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/all",
+          "normal_equation_max_relative_residual": 2.2943426402804675e-14,
+          "selection_loss_preserved_minimum": 1.1062555868100412,
+          "selection_loss_recomputed": 1.1062555868100428,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/position",
+          "normal_equation_max_relative_residual": 2.0566476148316602e-14,
+          "selection_loss_preserved_minimum": 0.9183161978754858,
+          "selection_loss_recomputed": 0.9183161978754888,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/position",
+          "normal_equation_max_relative_residual": 2.2943426402804675e-14,
+          "selection_loss_preserved_minimum": 1.2032641763825433,
+          "selection_loss_recomputed": 1.2032641763825458,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 10.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/velocity",
+          "normal_equation_max_relative_residual": 3.2853364755273114e-15,
+          "selection_loss_preserved_minimum": 0.9410521798894482,
+          "selection_loss_recomputed": 0.9410521798894481,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/absolute30/velocity",
+          "normal_equation_max_relative_residual": 4.1206151507387694e-15,
+          "selection_loss_preserved_minimum": 1.00924699723754,
+          "selection_loss_recomputed": 1.0092469972375393,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.1,
+          "name": "mean/block_6_output/current_and_delta/role12/all",
+          "normal_equation_max_relative_residual": 2.3588934465224745e-14,
+          "selection_loss_preserved_minimum": 0.4513939624914574,
+          "selection_loss_recomputed": 0.4513939624914584,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/role12/all",
+          "normal_equation_max_relative_residual": 3.5428302140477924e-15,
+          "selection_loss_preserved_minimum": 1.0633160902203735,
+          "selection_loss_recomputed": 1.063316090220373,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 0.01,
+          "name": "mean/block_6_output/current_and_delta/role12/position",
+          "normal_equation_max_relative_residual": 2.3867830838362886e-14,
+          "selection_loss_preserved_minimum": 0.2452873577952752,
+          "selection_loss_recomputed": 0.24528735779527697,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/role12/position",
+          "normal_equation_max_relative_residual": 3.5428302140477924e-15,
+          "selection_loss_preserved_minimum": 1.1916900609261674,
+          "selection_loss_recomputed": 1.1916900609261665,
+          "variant": "shuffled"
+        },
+        {
+          "alpha": 1.0,
+          "name": "mean/block_6_output/current_and_delta/role12/velocity",
+          "normal_equation_max_relative_residual": 7.157018266415736e-15,
+          "selection_loss_preserved_minimum": 0.6380627656572333,
+          "selection_loss_recomputed": 0.6380627656572336,
+          "variant": "main"
+        },
+        {
+          "alpha": 100.0,
+          "name": "mean/block_6_output/current_and_delta/role12/velocity",
+          "normal_equation_max_relative_residual": 2.5864665767411432e-15,
+          "selection_loss_preserved_minimum": 0.9349421195145798,
+          "selection_loss_recomputed": 0.9349421195145798,
+          "variant": "shuffled"
+        }
+      ],
+      "name": "mean/block_6_output/current_and_delta",
+      "normal_equation_max_relative_residual": 2.3867830838362886e-14,
+      "selected_models_checked": 12
+    }
+  ],
+  "readouts_checked": 39,
+  "registration_sha256": "607aef226c2cb241e66d00c9a3b7f323802c6bce869f96345c3a0b014a220755",
+  "residual_winners_checked": true,
+  "scope": "development saved-model audit; no new confirmation",
+  "selected_alphas_minimize_preserved_curves": true,
+  "selected_models_checked": 468,
+  "selection_losses_recomputed": true,
+  "stage": "complete",
+  "status": "passed"
+}

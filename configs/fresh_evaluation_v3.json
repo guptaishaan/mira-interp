@@ -1,0 +1,81 @@
+{
+  "registered_utc": "2026-09-07T05:59:55.058356+00:00",
+  "status": "frozen_before_fresh_capture",
+  "scope": "fresh-match observational confirmation; not physical causal control",
+  "choices": {
+    "absolute30": {
+      "all": {
+        "primary": "mean/block_5_output/absolute30/all",
+        "mean_current": "mean/block_5_output/absolute30/all",
+        "spatial_current": "spatial/block_5_output/absolute30/all",
+        "codec_spatial": "codec_spatial_X/absolute30/all",
+        "codec_mean": "codec_mean_X/absolute30/all",
+        "RGB": "RGB_X/absolute30/all"
+      },
+      "position": {
+        "primary": "mean/block_5_output/absolute30/position",
+        "mean_current": "mean/block_5_output/absolute30/position",
+        "spatial_current": "spatial/block_11_output/absolute30/position",
+        "codec_spatial": "codec_spatial_X/absolute30/position",
+        "codec_mean": "codec_mean_X/absolute30/position",
+        "RGB": "RGB_X/absolute30/position"
+      },
+      "velocity": {
+        "primary": "mean/block_5_output/current_and_delta/absolute30/velocity",
+        "mean_current": "mean/block_6_output/absolute30/velocity",
+        "spatial_current": "spatial/block_6_output/absolute30/velocity",
+        "codec_spatial": "codec_spatial_X/absolute30/velocity",
+        "codec_mean": "codec_mean_X/absolute30/velocity",
+        "RGB": "RGB_X/absolute30/velocity"
+      }
+    },
+    "role12": {
+      "all": {
+        "primary": "mean/block_6_output/role12/all",
+        "mean_current": "mean/block_6_output/role12/all",
+        "spatial_current": "spatial/block_5_output/role12/all",
+        "codec_spatial": "codec_spatial_X/role12/all",
+        "codec_mean": "codec_mean_X/role12/all",
+        "RGB": "RGB_X/role12/all"
+      },
+      "position": {
+        "primary": "mean/block_5_output/role12/position",
+        "mean_current": "mean/block_5_output/role12/position",
+        "spatial_current": "spatial/block_5_output/role12/position",
+        "codec_spatial": "codec_spatial_X/role12/position",
+        "codec_mean": "codec_mean_X/role12/position",
+        "RGB": "RGB_X/role12/position"
+      },
+      "velocity": {
+        "primary": "mean/block_6_output/current_and_delta/role12/velocity",
+        "mean_current": "mean/block_6_output/role12/velocity",
+        "spatial_current": "spatial/block_6_output/role12/velocity",
+        "codec_spatial": "codec_spatial_X/role12/velocity",
+        "codec_mean": "codec_mean_X/role12/velocity",
+        "RGB": "RGB_X/role12/velocity"
+      }
+    }
+  },
+  "development_selection_sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff",
+  "model_archive_sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8",
+  "development_report_sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178",
+  "probe_audit_sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c",
+  "candidate_manifest_sha256": "df24e478d9f729474f75c80dca38f7b54369134dd97868f3f6c85fc69dc05048",
+  "feature_capture_protocol_sha256": "607aef226c2cb241e66d00c9a3b7f323802c6bce869f96345c3a0b014a220755",
+  "capture_code_sha256": {
+    "scripts/capture_fresh_confirmation.py": "e9f9d2cf8ad15873e4208baf5c073f3d0308c38340ef544ca1fde4cb7a2e02a5",
+    "src/mira_interp/development_capture.py": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6"
+  },
+  "evaluation_code_sha256": {
+    "scripts/confirm_development.py": "6078046334f838a315e835ccb81ba6ba5cfc04309016899c6d90346d6fda25fc",
+    "scripts/aggregate_captures.py": "8b17900ce8ac4345a38fc760e5220a7a6f07a0f1de72432f153fa6f300d7e812",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a",
+    "src/mira_interp/development.py": "9b282739adeac3b1d30095c60f3516d53a5cce104e63edbbcce749b836a86aaa"
+  },
+  "model_refit": false,
+  "rows": "latent2..7 perview",
+  "bootstrap": "500 paired whole-match resamples; descriptive intervals, no family-wide significance claim",
+  "choices_rule": "minimum development selection standardizedMSE within each target family and residual readouts; report fixed current-mean/current-spatial and codec/RGB comparators",
+  "no_fresh_activation_or_prediction_inspected": true
+}

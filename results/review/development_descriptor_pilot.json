@@ -1,0 +1,70 @@
+{
+  "all_feature_arrays_finite": true,
+  "all_layers_complete": true,
+  "all_source_label_joins_exact": true,
+  "audit_script_sha256": "0ee589053d4aaebdf6852c3497cf75c1b0424825a0ba426b66b4acd4c65ff8d1",
+  "capture_manifest_sha256": "02b6af745ee498c18e1ceb4e005f685f0cf752001186559367f14cc7059421e2",
+  "checkpoint_integrity_checked": true,
+  "clips": [
+    {
+      "RGB_max_abs_difference": 0.0,
+      "RGB_source_recomputed": true,
+      "capture_sha256": "803bd53db41c1eec6a962acc3e69849357ceb9883f2ee30153f476b47167003e",
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "codec_mean_max_abs_difference": 0.0004878044128417969,
+      "exact_label_timestamp_identity_join": true,
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "original_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+      "prepared_sha256": "773d234895507ede4cea7acf4eca2e518326b4d7deecd39b61d4b89068b45588",
+      "rows": 32,
+      "spatial_global_consistency_max_abs_difference": 0.0011932849884033203,
+      "split": "pilot"
+    }
+  ],
+  "code_sha256": {
+    "scripts/capture_development.py": "3efc5df1816489e19d95f89651ef3685d486353c0272d37e265f5adf3fbcdc6b",
+    "src/mira_interp/development_capture.py": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6"
+  },
+  "confirmation_npz_read": false,
+  "confirmation_used": false,
+  "descriptor_math": {
+    "bin_order": "row bin then column bin then projected channel",
+    "fixture_is_research_data": false,
+    "mean_max_abs_difference": 0.0,
+    "orthogonality_max_abs_difference": 2.384185791015625e-07,
+    "projection_hash_scope": "independent reconstruction; workers did not serialize the matrix",
+    "projection_seed": 20260907,
+    "projection_sha256": "535e4582cdb11c410a038ed1992aa69a1324d4298c9e3c6d1b41e0e49057c37b",
+    "spatial_max_abs_difference": 2.1457672119140625e-06,
+    "status": "passed",
+    "view_time_order": "view then latent time"
+  },
+  "elapsed_seconds": 2.233,
+  "exact_clip_cohort": true,
+  "gpu_used": false,
+  "match_counts": {
+    "pilot": 1
+  },
+  "match_splits_disjoint": true,
+  "pilot_only": true,
+  "pilot_report_sha256": "02b6af745ee498c18e1ceb4e005f685f0cf752001186559367f14cc7059421e2",
+  "preparation_helper_review": {
+    "changed_functions": [
+      "make_inputs"
+    ],
+    "current_sha256": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
+    "old_path": "/ccn2/u/ishaangp/mira-interp/results/development_attempts/helper_before_rgb_tolerance.py.txt",
+    "old_sha256": "70603eb01a7c8996bf26f4b69193044a417377820244edbd173cb9f079f61e70",
+    "preparation_used_code_and_globals_identical": true,
+    "status": "reviewed_nonpreparation_change"
+  },
+  "preparation_sha256": "d301cf4ee84e6119347dac96ac8d1f2e7f4a72ddae050ca9d45a53801c3bed2d",
+  "registration_sha256": "607aef226c2cb241e66d00c9a3b7f323802c6bce869f96345c3a0b014a220755",
+  "rows": 32,
+  "scope": "reserved descriptor pilot",
+  "source_manifest_sha256": "4872282a574e32e530e12c51dd08dbe4fe1505ecf09abfa8a7c232e886a9598a",
+  "split_manifest_sha256": "6f7b1b48f815c5681b1a966eca1ca4726815eacd04cf51fb3555a531358bd5fd",
+  "stage": "complete",
+  "status": "passed"
+}
