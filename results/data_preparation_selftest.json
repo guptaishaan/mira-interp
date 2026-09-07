@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-09-07T00:11:26.958961+00:00",
+  "finished_at_utc": "2026-09-07T00:11:30.356672+00:00",
+  "command": "PYTHONPATH=src python -m pytest -q tests/test_data.py tests/test_clips.py",
+  "exit_code": 0,
+  "stdout": "......................                                                   [100%]\n22 passed in 2.18s\n",
+  "stderr": "",
+  "synthetic_software_tests_only": true,
+  "research_evidence": false,
+  "tested_input_sha256": {
+    "src/mira_interp/data.py": "13c916c8572dc8f9d94356924fef7de8ef5096182dd98aba19e7cad0a1d3cb6d",
+    "src/mira_interp/clips.py": "3c198218c35efe83915888bea1bfae8f87a800e032fca2c1b2079c84381cbea8",
+    "scripts/prepare_data.py": "26e170ce1807e16391ed3350d3cda5369e8906bf811c7a3b64f8f6ca3d7ddd6a",
+    "tests/test_data.py": "13b6d264e81a843c94cb3ec7e9432bf4e0d49c26ef330bdca641a04dcc9869ca",
+    "tests/test_clips.py": "e70e63a552de027467789da90b065995160ac8345c1a52a6487f5cd9a924970d"
+  }
+}

@@ -1,0 +1,3451 @@
+{
+  "alignment_basis": "publisher own-view row correspondence, exact source/NPZ hashes, counts/PTS/player checks, calibrated score events, limited pilot HUD spotcheck",
+  "clip_manifest_sha256": "cf0fb3679151b21d508996125b5694cd7021f748cade5d09f538d3ef488d29b5",
+  "clips": [
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip00",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "156bd04448d7e42fac170b436ca06c96a4f714ea83892db6357990e268fab8a8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip01",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "5fb000145e44af7071810c899689ab458592629ed269a1c003d03088532d5dab",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip02",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "6bce813f38dac1f22411c8fa49866508c25a5d4b68e85a55be081729c0e73e25",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip03",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "e3d71afd791ce8cce4eaaebe8679f740057dcbb093d30ad147decf80a3722cca",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip04",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "ce32bda8f326d0b71784a7e5cd6b1f458473e14dbe9f6cb0e7cce8f1934bd7a8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip05",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "be72a7393c094c62c15607ca024765f78180d060d83bc508aa5c4a2673165fe5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip06",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "adcfc2fd9d3b92a4d21466be800d8fbb410c941ce8f022fd2cc1dd93ba8c6c25",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-08T20-37-10Z-5f298d_clip07",
+      "match_id": "2026-05-08T20-37-10Z-5f298d",
+      "npz_sha256": "48656fb0aef7cbc4f3e65507a36e7ac67f238c31968c518c1191cb2ebe2da8c8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip00",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "83162ddb18aa0f5e20c79dbe3eb57947bdf50b70ad6e8ed9c7b64fd86683a41f",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip01",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "599f067acb665317208d590f2cabfd72f9f306ff1518da2f889e6dccbc17c3b0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip02",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "86c96f400614b8f0cecd9fd32f5783193f99cc2f3a586a50b3c6dabd52fe4db7",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip03",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "0e8d4360a6f56957912995a5784b498ebfa71bef7438dd2aac7d565308d9d132",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip04",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "d87928d91f4a00b121665a843a3ed78125e52aef544695dfe77edee7f166beae",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip05",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "318d77884503f917e90efd4d0bdc7bf94e224a9a61113734df89df2cf77b57f1",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip06",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "5b120ced06552c6cd51b4361e1b16cffb3c92de118de688758ca9a41d2d0bee5",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip07",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "npz_sha256": "7633ba595a04fa5879bc199b125e56713b772c07b751cd1b3035145c4d2c0af3",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip00",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "e69e5e2a56407e83e55425e9302536485c920a3385e7d11544b31aa93facf460",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip01",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "0e3d9a3d3d4891823a43484e5ac2b3f789f108d4b186a3e66ab95067d8d26506",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip02",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "41c2f69f6c12878e883e629f10e211d624efdc81ca8b1087b9aaf3fe11155ff2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip03",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "9e3f22eeef4a99f79f7b4f6ea0b08d8fc582cdeb1863f346f1753d2c53449691",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip04",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "493c0134194c90701abdd985af0b220fdc77f8b50cbf6a45e3ad2fda65ef53f9",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip05",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "a279f913868677389751f9017be22c3cd813cf0b4028248f53d55c741f26885f",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip06",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "e81d9ae526b10bc9ad078900ab51589f1ae9a1d8980da869b8f30c29c0e00ecf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T01-25-13Z-fdcbf9_clip07",
+      "match_id": "2026-05-10T01-25-13Z-fdcbf9",
+      "npz_sha256": "d4e2272a729a2e57ba4fdfd322ca2da827dcb1dbc02ec28b05a7b4c3c2a1153c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip00",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "d4d2970bafa9d3dc2cc10f66882d7da3fb0f047addd700c71d875b635d08331c",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip01",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "89c73e138dbf25e41b34dd885056fb70960aa51b4c9181c251757295e06362ff",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip02",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "63f591dc03852e07e9391e5876f2dfccec4e0723d55f84237bfed70c4f836f33",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip03",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "56916665916f8311ba13d098997fbb7991c62c8d6288b53a0fc2ed1cabbac6b5",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip04",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "09a4ea9294a97dbd006839889dada2ec1f3be163b9cfc869428b27f5c3231062",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip05",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "54e735b8387c3f44c3c65a5a6331c3ce175c8cf71ab62d8d4b05449c4d6a22b6",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip06",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "789fa5c3c26f81def84d2e46baae53eeb3241ad06e7dd80271e0faaa3d4a62b0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip07",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "npz_sha256": "fdeccbad7d0dfc99b6c1d5473db89897b1c13cac53c0e2d956c525f1d57206e0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip00",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "84c3b06595193d5de78bb2bfaa4db8b7a636e86ab458147dc430659ac71b4e1d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip01",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "5a1693c7307242bc3f4e0c71b9c4c21e6a83fe29a6fa18fee6b86cbcdd3cbe61",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip02",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "a3f46470fe5d78b25a02316591b0533bb33bbb433647acfe7c6f051164b6b321",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip03",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "0b944bdfd802ddd57a7346cc49d95a92180aa0276cfa93c8f6e8b055466cde34",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip04",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "d4594042d716c0b2e95ea0698b66ef367c6813ab4f73ebbb4a08ab43a7e0c73e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip05",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "cd4d7ac1f7f1e42d8ac67f526b341b0827a28a236428299346fe2b543a3909f4",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip06",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "5ec2074aafc6159bfb7de71bde57692ddbd2d13385c84b4c135ae13aadf0b82b",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip07",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "npz_sha256": "0cc2299729ec83c1bbb5db575b62d102d83e0cc5fe1f1d6abe8d1d300ea91526",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip00",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "98090acbd0c8beb9891094ba53b3fdbf06c82c103bb044ab87865d33f7112f07",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip01",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "a86ca1be46501e83afdc6f60ce2578ad31f6d6d90e5c1d0a1b782c89473c5322",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip02",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "59d4abc77910095b43ed13d823473015f151590725ee6632cb7d6125860e6cc2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip03",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "f8450359326829c487ab2cdacacfef7362831f617064ad216dd6ae8d0df21c91",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip04",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "cd21792a83ebf2b085da954fe6eeb967c5670c450e7ee33b6f2464d69023dcb9",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip05",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "9fc8b532cc5deb7122ce4530700e1b9a3167f59d5e1d8d862a354970ae617055",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip06",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "33348cfee9e6fba4f5248123c78f7b21e291c225fdbe6fd17c02202ce9a1ec8c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T05-41-36Z-fd4f85_clip07",
+      "match_id": "2026-05-11T05-41-36Z-fd4f85",
+      "npz_sha256": "9a4df100ee1ec6181727971bcdb5bee39884f15d4e8fb5aed1b382a23ccd08f7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip00",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "f03306dc81920233d97b2060010471938b6fb4f7e6f8cf7ab40f7e8116439e38",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip01",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "8bc2fb58880c55a0895da5d3099259f6220e4c59e4e83b9d5d64f1267bb87493",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip02",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "d9784c57a40a4b3fdf4a389d356fd01bae36155274993eebc99ecec22df057b8",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip03",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "0c443dc6326fe702a250ccfed87491d15ad1922d6a5f27176e9911c5707da3b8",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip04",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "f591877727d8719e681a923f66daccbfc638cae2c34eeef70f8277a81931340f",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip05",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "35c204f0e525c122cd34f95d27fb5fa4325febf4dd92973dd21b536a3bca07d9",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip06",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "cb2f22c0ad7481be7d5e78645ebd2ae9407ae412be8ce130bc1affa39029d007",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T14-02-56Z-ea929b_clip07",
+      "match_id": "2026-05-11T14-02-56Z-ea929b",
+      "npz_sha256": "ea27e821d11f55f58a50492dca615cbacdfa8a6188026dea97741129965f85db",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip00",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "fb5489cfd4da6953ac71024e1428b1163331f357f830869baebc7386e4f1e7bd",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip01",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "161b801b0611131925e9ba92fd160a6bc7ef7cea21d7963805b19d8ed48471cc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip02",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "d51549062166caa9b75c7285064eb0d530ef9d067872344dbb0f7df09c1b3b55",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip03",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "9753605ac87bebcdf542a3c18683ccb836cf11f6cc6f45283ddeb362584c8531",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip04",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "f3f483a2882fe34b4f1e8ee4ee593511ba560237371c8b5023f17b2e529c4352",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip05",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "e70ef7d4f30af7b180527d17e5e59a6f6f95b5f18484b16d7d902d26049ce39e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip06",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "b2dbf8474b01da33e80f6dc5b3b3a27a554952906515e870141342c4f3d9bd41",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-11T15-55-44Z-189dad_clip07",
+      "match_id": "2026-05-11T15-55-44Z-189dad",
+      "npz_sha256": "1e2e1ba363e68ac3507bfc7ef6982c37e0f2a4e3a83793ae4b18aa5890c4101a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip00",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "baf16a49b11c7fd28f6fb6aa6a80da4e62d30b44fe8038f9391d6051ff2c0571",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip01",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "b77c8d056852a6a67fc44fb0168ae4c680feb2e833c9631f676ee55c7a7a2c2d",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip02",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "cc84d5ed21ec3d12adcd7fea6aa448347c92175672b788389b15a0039b99fe1d",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip03",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "2e535be6a92c0d3ff7836548318ac84b6ae25a0939f4045f88bd408ca9c754fb",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip04",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "ae519ab404b2c8fe6194c748109f36fa4c2a10cf19fb0d3164df359a6aba0dfd",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip05",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "198c2e0dc91428e3e55b4c733ccacd001b2efc45b77d233dd47e7fe447989f52",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip06",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "646ec1bc71c9ba9bcaff7b9ba4887082bfc958cb5e8d2e829cda65e1ad2868d5",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T18-55-40Z-5ff10f_clip07",
+      "match_id": "2026-05-13T18-55-40Z-5ff10f",
+      "npz_sha256": "940c91a91cd686fcd39ab9cafb346b2e1960f6e1924338be705b9e5648749b64",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip00",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "975bddf4beca39293e9e02b8a058b75414ba318d38022d06c487d74dbd3706a1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip01",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "c97c4712e9e59bfb7ee40d22c72c80b4f67b49ef3e0c58361a0450c233f3ba10",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip02",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "98f0432d84fd1f809811f1a9926ad5811e55b5f71dd45b3db9377051aca22fd3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip03",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "1888eac4e3cde2d37ce685321788a1b7d8a8a23413a6788c240532ce42410ce8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip04",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "48e0ea12d455f0583f11207e6ff546a2ae32a8b0987eae331dd1cc36b345e86c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip05",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "fe15fbc5f2d5405a2483596ca9503b12d95f7c9b99ee41ce5f399d14c916e454",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip06",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "402c96f5595edf3a1e4671892d3c2c93c5d9869eb3e2e69bc3da1b46cb808432",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T20-32-47Z-e88a9e_clip07",
+      "match_id": "2026-05-13T20-32-47Z-e88a9e",
+      "npz_sha256": "cd006c42abda56f457e84ca8fd3ec9150941b9d3428ad73aedff0861aca4f6e5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip00",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "3a531813a194620201f6b2b854a5d980a783e45ed21b203aec0deb130de5a78d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip01",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "c873a6399a9ea7a110a97de4652bcfde5b25b537744121bfa6537b4cf335fea3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip02",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "4fa624db9c42a658e4fb03f847e420028573da960ccc6b97701929b56211214b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip03",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "14ec9c28078e7378ab95986da2b57e7e1f20d3de96b1acde664a0d45b026f152",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip04",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "9d3c0f01e7304274629853cd49dfe6c659bd4f31e76948bd4ff468a1734579c0",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip05",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "e57f51b3da53eb5726c1cbc43a3d2046f6dee8dba8d65c0251604d1145bbb9fa",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip06",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "a79b710d519c41366ea8dd93daa4d58a0c094ead80d150f4b071abfd8d0d5002",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T21-34-58Z-8de141_clip07",
+      "match_id": "2026-05-13T21-34-58Z-8de141",
+      "npz_sha256": "09f8d11d02f5dfd3e94c6b6b19abb15d7610122e67bd4c1d98254dc437c4a919",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip00",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "b003bc138a2833f97616687449f093c04335908fb9d686e025d86a1ac8895bb7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip01",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "b10c82c29a90803614e5ea077da1d09110487ba75997b452b95ae93fba9ef833",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip02",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "4e94bf97510ed486f339fee384b259227b361e22593bf19238ad6c843efdbee3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip03",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "3aaeccc09c96ccb720f430c42787477b405aa85ad5cffde7d6e57005658824f3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip04",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "a26614106863f7085ee2d19e5087835368ddc4d1f68ecd172bd1ff503d0ac5be",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip05",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "a46b33363735cf89d60ba68173f1e3923eedf8334eed33b328e10cc07bb08a99",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip06",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "ee07916b46b176c6040d282df28c618bd8df8fbbc405e22467b21bda606cb0b5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-13T23-29-01Z-52ee67_clip07",
+      "match_id": "2026-05-13T23-29-01Z-52ee67",
+      "npz_sha256": "70eea1528ba74c32a4800172335bb7326ac5698fa362b196aef2bc779c139bb7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip00",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "6e88b6034ff76eec86c6f96757ad870ddc46f7a2783b4cbc05eac7046aa4c588",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip01",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "457fab2c5b6236db545eed6662daede97d3caad299482379d9a356cd69ec1827",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip02",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "42c3dad6d30a600c27d5023018a64ee8da8d683b854c5c7610b712a94c928714",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip03",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "eee4c445e86103563d0b9306d70f0bff639d70829e8cf1a8be2c325265b5d05e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip04",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "5d7882b47f2a6e724d709fcbbc61d4df99315dc359eaa28b729e539f7a979dc0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip05",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "008a5fa2cb0e1435c2f1924ef16ffcd4566093a3fb59862ff3d465d770031dea",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip06",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "246de4e10051ac97c2f31d0c51ff333475c91972012c4e765f6a811752c5d9d8",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip07",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "npz_sha256": "91074a387a3c41130f0a046dcf0077a38627a1b673384048a6d171a12b6b2712",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip00",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "1ca4dcaf7eb360c4f88e961a1dd53e5d0e3cc3a79f1ca1a34c3d41e828a2accc",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip01",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "257be84ca6e7095e53543eb6434dc2e47f106f6716c7a1cf12827516a648a100",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip02",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "247690a9f5b2d11e0c5a9435332a0df2a2cedf9e1caf9dc5f42e9b3a6a83abd7",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip03",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "15f4bf7664ba86b8d6b2dc8098f5cd0f23979d885dc40443bf6493d548c92252",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip04",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "6ab5fe49560d1df887cee7b2385f13bbcdfc1c7b09f1308d6d7b2ae4afed1f2d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip05",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "107e8eaa3d59607b60f7fed0127fb8eb33317cd523259a1d77ad17cd47a0b295",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip06",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "dc58c9c5f2b0e476ec652b6dce001d06400856f2d248c368db9f6f070a5d33a3",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T03-59-16Z-82019b_clip07",
+      "match_id": "2026-05-14T03-59-16Z-82019b",
+      "npz_sha256": "575c1293d004e8cab2320bc757cbda973d081cb80b0971b43c7eb653b7a9e43b",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip00",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "bfb261cecf9737e066dddb58fa055ee70d9d794df15cba7e7af6f1b90aae4ef4",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip01",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "79bda80d5668a333d584f5dda0a71807acc1eb599a4d9a814cdc2fb2cab135b9",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip02",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "6c9365c63301577a442a91e5d18085baff3257e2d7626e4cf4d51cbe6a4b3471",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip03",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "613ce5c2b511a4e14ad7bb65aa53350fc0f9fac8408ffd147671fa9c480bf7b4",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip04",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "2506a7581dde497390b200c25c69b7d798eddeb933366f2d18ad97de0bc5d13f",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip05",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "53f70343eb17efc87045e44230a8fe93f6b02ce6d6a7d8a382a116fdbf2808a9",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip06",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "58d6a1c99c9c1dd14de2876c96d7f69650923e7d188c59142095e0b8908620aa",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T04-28-19Z-6cdc25_clip07",
+      "match_id": "2026-05-14T04-28-19Z-6cdc25",
+      "npz_sha256": "9416f5e8a3a4ec29f6beeb90d262602a2a5c6738b9d9462db8d2186e5dc48181",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip00",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "3e49b0ba33583562e8b479c6e64596700fdea3f51507d4134e0777090f3efd36",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip01",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "e64f7eac798ed850bdb58f1d78e7d71cbd00ebcea4c2780a8a6b18912d1ca46c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip02",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "d6a7d61d66956c83b6594079156b603209e5552d491ed4dc82942b8787dccd9d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip03",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "9a28f99a9e2887d7414b4d1a7ffa476c73cf48afd615814d4856b251ab088ca2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip04",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "4e70c1f86cbbed298b5b5979fe9c5a2d2f9020d7035cc580d6ea0323df521132",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip05",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "0ec5b4e6bd74532decce0f0e8b7b301fa15847c46676f66eb393fc4ed3bd5e88",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip06",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "e28841412c54c4e921ebe3743d6b02dee9dad897b42ec977112f598ec3ee72c8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T05-26-09Z-9b8807_clip07",
+      "match_id": "2026-05-14T05-26-09Z-9b8807",
+      "npz_sha256": "ccbd3d9e66b223ee3bfaa18a095b1bb20e6768091c01aa90e92c391a1db44069",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip00",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "8b65c6158715135a95d1b696dd1dca3a8daeff962440868d74f07aa6bd38dba1",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip01",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "532d14671b7d63be529be50ee425c2b97838133476ae8c9383187ad76590ed96",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip02",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "f106e4ee0459d88bc413f9b87af14280c04a77f4f5925b38c51c2481b2777b17",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip03",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "ab85a49339c3f9f2c26abe682c2d47889b2ab14e9914209dc781a400cce640c5",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip04",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "40ffefe9de78f2b6da905a3787d577c5f9fa59d881b641cf99662a12c81d1ff9",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip05",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "66fe2d586760662e6eff24ef8422df99356a2635955d5d77b086181dfd5234d7",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip06",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "fb514dd490d1908b20cfd137d49652d25aa67a3a83f83db90ad34b9d5b961385",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T06-43-39Z-49fc7e_clip07",
+      "match_id": "2026-05-14T06-43-39Z-49fc7e",
+      "npz_sha256": "f71a46d05e78091fcb96ca94d6d80ee42cf6f53772bdd7dec5ae13ebb7ff229a",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip00",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "1f2fdd712cc68d2d790b2fc3278024bd7817f09786c576ca0ce2b55e68ca189d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip01",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "bbc5902ed310557d29bcd1b42edfc32506bb3aa7d944244e845cb1e21eb34e54",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip02",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "e1482e6077c9baffc7a2ab6b4153692b6fa3a12e0321e16995af8713e66351e7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip03",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "14f4775f8269277b8c24378d9ae8ad4f2b5e9b909e7c19ab49be8ef8ba33515e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip04",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "9edb0849371f5f771dd447f5428d53e3ce8d8565d14a28a9e947e067fe1a4b0f",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip05",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "eaa7f43457dd10d0e622a100916e2edeb0f135e5c7b4a6d063741fa5620f2d77",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip06",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "d0e472df2ace579f732207677a49b9256ea92c0d014b01f4ccb1fcf07858b35e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T12-57-27Z-245393_clip07",
+      "match_id": "2026-05-14T12-57-27Z-245393",
+      "npz_sha256": "69052caa7984ceaa44bd2508b4899b6fb916c23ae77cb3a1a9ae906480bba260",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip00",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "134146146387aebfee19abc61c0029623ade61fba0085e3a7e063a22798590b7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip01",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "3932d154b253008c59983775ecbb8a5de7b7e1a228810c304df9d1fe7270fa85",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip02",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "19e0442406764d21e1d68d2c842148d27d9a8451c74b34afda974d09b030adb6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip03",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "21e79c6d17ff19d254b43d433a20b24c8268823097e814cd622db79e7c2d2464",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip04",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "9238992d6d36470b85768bb6d82841939e2fe296bc3a29d1c19fd05611769d04",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip05",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "37d74d9caf8ffd03046547757bf27fd426dfd91c8628fa72295e76365f8c63d5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip06",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "656bea5d57fb32d1c094a0cd1badc77c7ce5e32b931f1faeca08e2c1559fe07e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T14-45-28Z-bbd18a_clip07",
+      "match_id": "2026-05-14T14-45-28Z-bbd18a",
+      "npz_sha256": "15e4adeb51faa3c99bfcc23b7fd2ea7999966b9d0f8e116ad225fa3a8bec3cfa",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip00",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "dda3dbad5a4bfe334d9cee5478a735de0c3e9950ce397440cde24e4ebc605baf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip01",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "eee7faedb46bc74e01f8e3332f5f95b83bc0687156e1ae43f90e7278dbad0f99",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip02",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "66fba5129fd16f40a144082e57f279cf97a5ff22756d89fcd4c7f0fedaf244f7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip03",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "1c53e9917455b42297a7a724b6822819c8fd4bffa101ffe6dd7dc7f0771ff664",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip04",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "8fe8684ba79a3bde8694e1f9bcc9ced54d2a5073cfe60135ab79167e66057ce0",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip05",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "1ca668a690c80b6eaed558e2773ed38fff1f4e361c998cb1f7ed3c6d9d10d405",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip06",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "282dadabfabd20522d0132a12f3a30e73137492a655256cd69ca0604b2f54072",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T16-20-09Z-dfeb76_clip07",
+      "match_id": "2026-05-14T16-20-09Z-dfeb76",
+      "npz_sha256": "a63f75928d37a631f0bfb4ec6620035582b182e517fa6a19a059960030b0ca80",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip00",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "4206983096073b71c1de63ac5d61fd248210237620f317d350191719644a246a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip01",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "e198ce36af8fb78c1b7001fe72417fbd06b83fb4ecc7626329d04eb766731126",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip02",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "a39c17441d47c7215807d16b9fa58dbdae932472e456376bb1d4ad84f05d6688",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip03",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "5b359c4eb130e19472831ad437c943bf20e2c19c80dc68c0e495b1274c494f96",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip04",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "215f925a53a30a32fdb3c30965ab8485b049ecd3d789fc927905113d9b16356a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip05",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "7543c36aef1c98f40bbe59b4964f27516bf1a4254c1a9335f281a6bd3cfad8f6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip06",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "b79f6c778ae824b39084f70648c4273c8c36a1674fb991a5ecdeb98a729efc3d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T17-12-55Z-c884a0_clip07",
+      "match_id": "2026-05-14T17-12-55Z-c884a0",
+      "npz_sha256": "7a186b3bcae3e5a2053b3fc5d5adcbfa06c8bae875064f64c7b84b0d34a2345c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip00",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "6ae24609bf2f99047c33c93dcf374d338707c62ce26716324b24bb25697840d7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip01",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "83ce7cdf9d22fbb3f2f0d299a847c503cc48587d35d926cdf6703981270c0cd1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip02",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "106dfe72a52f43ff242226d7ad8e0562827a2c7d842139a304ed91bbb14e549e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip03",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "cb16b134cdee5373b264cb738144baf698290b149c1dd3a9a4130d4075e7ddfd",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip04",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "f5a7da81d977a7e01410973e390bca205f4096eae5f8cab67780e4fa26f9db23",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip05",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "8a5c0d324bdd08fd1453d669b5d6f99e7d7c64e571409aa804ef811c517ebef1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip06",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "9863ac07b9e872e4753e97a463675c57b067407dfc86ba85ef6e965be8e791d2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T19-52-11Z-2d848b_clip07",
+      "match_id": "2026-05-14T19-52-11Z-2d848b",
+      "npz_sha256": "787572af3728a2c4e53f1c161c27e1dee6901465a1215ada9e629550a1b1240f",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip00",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "5b1faaef7c64471ed1664ad41230b8ca4b47186ccac84a1c4009bc895bbe79a1",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip01",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "c38c2db6effb219cbd34ee7d4f8dffba89d2ad46778734dca46f4d2bfad77657",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip02",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "775a61ccb7486cd9b60f443dda0cb7b0657f09f204222037e97921b885fd6989",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip03",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "c608e6c62f4306a6ef272951653d4cd613b8b7db40c002e301ea699b0569c8c6",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip04",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "9a09b1ed89addcea87d0162cdf65aeda42c076f41d684dbebe7bd106db1af79f",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip05",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "bdfe27595aec908bcb1b634c07eb61e3889a235bdc66eb7e121e895d6621900c",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip06",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "f4dbd6621f01b2758fb241b833c79e8a22de2801d4f5d10137ff0b3f3bf241a0",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T20-13-00Z-9c0ecf_clip07",
+      "match_id": "2026-05-14T20-13-00Z-9c0ecf",
+      "npz_sha256": "a985db5538379af94a8e60cb2df8cc61c04a619926010f0f1789956ba6815459",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip00",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "371bd55057bcc6048963feae9b3d95eb209259ae38ae62501bf1ba9abacd3faf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip01",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "d008cdba1ee79738772f1614eb7c5bed4e79475d4dcd92d5c37d63f06a35a56a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip02",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "ea22aaafeba972f74816b768b30920db00e7a79746e2529f209fb3a2abca298e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip03",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "1e610363b4cee8417049bf7634502a4aa83e62535c088f5d20198029a0ea8e5a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip04",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "78a4b51ef823972c17c006f9d2dffa9470905e84f4c804ff3a3ea35df1fdcea3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip05",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "f9b627bafde9d024ce7f60625f1efb1d2824f27ccf57a037120620acbcc6ccb6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip06",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "233120e68779b54dacbcf11221d49859879cbc2bb727758c086527301486b3b3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T21-15-36Z-36d97e_clip07",
+      "match_id": "2026-05-14T21-15-36Z-36d97e",
+      "npz_sha256": "b4d392b246ee959cd2f235dd235563e5ea16a3aaf4246332b3f9cbb6b20d6d75",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip00",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "1566cfe256bf72aa8c457d29fb883bfcb1f6bdb05691fc5850aa612b4615e021",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip01",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "dd161b857f07aded6d091bb3a374bba7e4f782a74dc581b6cf192683fc510c15",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip02",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "fcf8c26c4d11319635c9124e88d2bbdbb105c1fb65f76231944db9f51c23187f",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip03",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "fe58cdf0032dfe5b857ad2df8fed8a33c70d312fa9b8ca7eba4638fe9b181e8e",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip04",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "c04b4d002688a2645196d217e0f4cf9eeef5136d8833c975267b1edaba20a5bf",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip05",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "006a1b39c213114e805185a8040a71e51d91c34ea8f661638333a99a33f8595f",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip06",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "7d4b526c1052102238a47187548eb9e70270c5db754d41ce8c9f8be665aa89ea",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-02-54Z-867f88_clip07",
+      "match_id": "2026-05-14T22-02-54Z-867f88",
+      "npz_sha256": "8ac407900c893499ca8ce1578d58ab36d55fe156814e51a53dd620e8e74427cb",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip00",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "f482c060b198e153c19508212fc1fd30e0be3bf50827b5ed676593d02123c1da",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip01",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "18cba47920b39587ea9158ee76ac21d19e74b91ab987b44a51beea1d4d22156d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip02",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "56084046bc8dd5ea76ca6628489b5574e708b7077b47a1e435943c6b81d4548f",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip03",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "da648cc738138fb570560236a8e734163c8ba2c3c7c70e6bfc81bc4211a77387",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip04",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "6cf6252fa2175d4bd9cc186ebf62d2ed098d6679398f4a456caafb8dcda9fd07",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip05",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "0dfa74fa41a1fcf2f1b51236eb5deb250621c21422c157aeb934ca7691d433ed",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip06",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "1c2c86e00543e27868495291e1829f808a69c40606c94cd12e82fdaad592f3bd",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip07",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "npz_sha256": "22b9e3ae3715f6e849a3e5e6e68f38e8d58b4d6237d0d4d63c0566c53aa35698",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip00",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "e5f991afb25a6e081f892120f741296ee0f4df21c0a4a7e671846ecb38b49eb3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip01",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "54fc3e3089379b3674ff66a2d450fd1919d0f5e5760c299acee1a301261e2458",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip02",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "77b57b04235bce38b99938b9a9cfb5c3136dbd3ff9fbe164821c08060c360bac",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip03",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "5691795aca765ae14ad77dba75089781ce948e012a470fc079915e5a71a772ac",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip04",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "fc22c3ba8317b3736937becc716d42f3f2fd90971b6461a71bba64054f517dcd",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip05",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "48f3b17761bf03c30e2d6e6187208a998cf9ade8198b40b9687a9acc94aa805a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip06",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "261478ab0a4461b1e9c6206ae13c6e2d18bcbda256410e68866274746a75ba15",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-36-17Z-695130_clip07",
+      "match_id": "2026-05-14T23-36-17Z-695130",
+      "npz_sha256": "3c2238970b667078d377652c8ff9c035b09b5f10e5a532f143bd71a1c74af431",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip00",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "171c96cae90ae194c0fd09d87d58fd25980a4314ae5612f81c95094fe20c0bbf",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip01",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "a3dc4530f42f978d160dc6e0f4019e8d8e3996f18b50b964bac6715cab33516c",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip02",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "bee7902ed9ee5627c8b08f38b63b48d80404ecf48f6396cc3a167b664ea9a51b",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip03",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "de0d3c7c4c9bba477ed8947a4ef34457d7bcd1bde4788772aaaf56a4992dbadf",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip04",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "fc2e0453525d8dd335ba3804d1373dd16361fe50d8a8f1c9f7edc9c2fd3f85c4",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip05",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "b9964c20e31d8e713b317b967a96e44b1ec112cdf968af6136e4dd1c3a6c446e",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip06",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "ec111a9223840c7cc7fc1c1e717f004175eff910206f3620906412a75381b56d",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-14T23-55-04Z-91d317_clip07",
+      "match_id": "2026-05-14T23-55-04Z-91d317",
+      "npz_sha256": "3a08be2186eedd86e518e55d116e3945ba4da7d2747bebf4875070a555f43501",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip00",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "b4faa2c2db3eb2c902b9a983a9bfca52c83f60a3febf87e49e88e3830985573d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip01",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "09639b1a2c17389b873e5cd2114b9e248009a1711798c092deaa0b8bf9296b78",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip02",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "b886011537ae9806e57f49044bd4f529a3670583f6cd2b68702e2157e81bdf3a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip03",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "e3992fc62adfaf62d34b1e7d32223e3d868e161e37e39bbd0be952c255505464",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip04",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "c3874608b81f935ef23c84ecd3edf1a1e075568c18d287f050a1c130693e6838",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip05",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "b0676e78622db597d07248126cbdb17633476bd5c3f944a68ceb7a8d6cc5b3cc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip06",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "db6e9ec9126232bb897e90ad032dc6174eaed4a1a7e7f6009b44282e3c4fd931",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-56-25Z-a03e37_clip07",
+      "match_id": "2026-05-15T00-56-25Z-a03e37",
+      "npz_sha256": "7684e23505f2c2f1a95c7c0fa27810ede16e729e1e6af23856b00275a8e80cc2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip00",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "9e9cf8a7bb864834d6ed1a9020568113be18fd20e99bbba1fcc8b7f883ab4857",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip01",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "56392518c22dcc51a95e414e71387468be7c62e20528bd6091c1351f5cf7623a",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip02",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "b3d06fa7696f84f39d93d5e213ca4aaaaedf3525394a47b21510a1e8525e6ad5",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip03",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "aa8ec3a0bc24c301a340d6b084f182c991353fd97272f1e156da5235fc38bfe6",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip04",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "1b195416baa9fb70cdbc0102d421144d651209508bdfd49ce9a48613cfa1ac68",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip05",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "2422cd4ce346f662bd8b8fa4d4f2deb0b16c1a69b87cd34de5f94548c5f40097",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip06",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "c9038d97bc5a07db382d32b2cc73c48c799563453dfce556b01763518b0409cb",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T00-59-32Z-91dbec_clip07",
+      "match_id": "2026-05-15T00-59-32Z-91dbec",
+      "npz_sha256": "539fe6193166b6ed69238693ba276aedbc4286c9f69681c5b6a09844cb6e781d",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip00",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "f9c5635221bb614619b0fa4f45a0bdab40584822147a5d61026818eea4c4c4bb",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip01",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "8fd6b16fc7df987b0b2ad11d5d9954cc9b09ecaa0d4699ec65fc69201676e5a4",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip02",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "8e200dc78bb387102b94099f4e70277e2f841545af7f46e7a015b9390388d81d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip03",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "1d2b50faf227f0b2240d41cdd2de7793a8932b50f9e2c20c1abb640ce73df261",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip04",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "0c6778954596720f50e384fa5c13b7ae8063b2bb713e680b7c25c30a7f6304a3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip05",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "0614d7fb9e899d18faf37e21156fc4e57ea1b97af9bd4cb99937f1a104a86ae5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip06",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "baea46b648a465dbefb2eee933b0c764b7422b48666a832e3e2df78c4daeb2e6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T01-16-25Z-9e3385_clip07",
+      "match_id": "2026-05-15T01-16-25Z-9e3385",
+      "npz_sha256": "499ea5bf75e801cb92bcb5bbe60f10cd71c82c5c662afc29a1773fd9f8b55009",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip00",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "35aa4e21256e0f780bd1fab28bf3e99ccc8dee7b493027613a7b404db7f2324e",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip01",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "6b45d8bc2f2334c0e3fff3ae04b1c31e3c34ba8f3f2420c666f4cc5ad13a8be1",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip02",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "529be2f5f58c610ba3cbbf8ec079470c1e1fd6a6aa3f651ffbe41e5e419253e5",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip03",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "26e77ee94f1b92f6ec5e2672ce9675c026c1a7ddd84b793cc05cb41335cfd891",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip04",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "3f23520948f51a7ec4dc60eac04ecbff6419a06c637432b5e954b2d081a82e9d",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip05",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "24300c5ca7ed4dbb189190fc3a377d81ed032bb80be46bae17d757bf5a2a2158",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip06",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "6a7d65982ce427652923393bfcf9926aca92e2acafba0b817409ad56631fd852",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-16-38Z-bfc2f9_clip07",
+      "match_id": "2026-05-15T03-16-38Z-bfc2f9",
+      "npz_sha256": "501925327d971347df219dfc1f6ab8b90f495a7d36573e376b8a43704b762cb4",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip00",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "8af2f15cf936c1421c54c800f29e9cf0363d260d6e282972d97aac3efb11d2e1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip01",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "b7abb9c59c68ea80831e970aefca05b9550a41b91d5bcfb84dddd37b96c66061",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip02",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "4bd9fbc817d612fa7e601a0b59830c69a22e11607fe39b61372eb5859d2751e8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip03",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "bda71545e15aee01f807a74e1a8f376b7cfc87972d9b5845c20e10156d021226",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip04",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "276bdd68e1640f8180354fdd066a6f40980a26aac2fc6f67ce4f1b9c9f2352a7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip05",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "05000159a29122c66a71b573941841e46b1585243be14740d1041707c07f8754",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip06",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "dbae4e6a2e5ba1f1c6c848a2d9a629730647d7d64c2f899ae64e04cd0013111c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-19-27Z-ab6c7e_clip07",
+      "match_id": "2026-05-15T03-19-27Z-ab6c7e",
+      "npz_sha256": "49c84142247858f8c25d1ea1d7ebb3a5fee9b5629029272a5d901cca4a724d10",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip00",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "fbcd8fed4b045dd64da23bec96d63a91f009c92ddb8207c1d6a4d526c8353b5c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip01",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "5db7a3fd2fafbc3744ca35d2d2bb1fe72364889a950ef5137a7e4b06007b64cf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip02",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "3e24629d8422fabcd07b6336863665725b36d5654b549cadee18a2fc0f583baa",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip03",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "d7287ec9570786fab0a628eb6f07e438b8f933879635039bb166fa1c58ff00b8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip04",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "40cc527ffa5cb1f40d942219b897b2158ed476654b4ca14f9817902fab7dfbd6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip05",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "9cc3b47b8a446e1a93e8f7101ba45a4bf664013d63373d03b24d2c296179f98b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip06",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "b304ff398c209a5d6a148c56dc13a7e9340aac73533061dce92a22be91c83d83",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-33-40Z-d01d8f_clip07",
+      "match_id": "2026-05-15T03-33-40Z-d01d8f",
+      "npz_sha256": "533d8226ae0f59f75c5a4b0512db185f9f4d4309e388c99fe3043f944ba38eb1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip00",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "841e94cb6f8e80c509ceecc8cddf964708382a15a2703a1feaa04646733e7377",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip01",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "620ce8435d019989b0519ffa109dd33ac517d9d6232ef2e9b3492c4a767aec24",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip02",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "95ddd50d6024e5d73f806f940f4063372e814e31c563ac537e8d05450824a446",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip03",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "6664cb3b81f8c44be25d33a986c17bfc1b841c14b3532b8891bba629748c0680",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip04",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "4815d73c2887d5c38159c3ecd9f097b3bc5baa12c25fc454705a1f5c13088ba9",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip05",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "beb40fba45d247081897cf0ba52f827801b74bded16664a705c67a31815d4302",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip06",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "8b7706a3451505e846c8fd5e12b1af49b552c5d9646bb3c995c2b7f45d177dfa",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-38-45Z-0f81df_clip07",
+      "match_id": "2026-05-15T03-38-45Z-0f81df",
+      "npz_sha256": "97dfb7c42b87b9671bcab3cbd751d53dbc946b9f44d38bb48628374f8568c12a",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip00",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "2d0c6beff530cbf73f7694e4c610a5669c33dfb06140dc57cfa4eed0912784ec",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip01",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "f21c72631c85a11be25d5508adfd382c79408c7511dd58ae30fc59ce1819055b",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip02",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "4e0eff074f54a49d4ccebff7cec7733c9b870092460879013c8c7a37c6159aef",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip03",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "fe4e2216642cb1d5a1f66f28ce064cd14d0caf70f225282dc3ffeb6b1540efa4",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip04",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "ba9901179ffca614ffe7d7a150f71b887c96dd8900b7b8c05dba7800f8ed3a26",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip05",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "e75d1079f5cc36fdfa67020cf67a5129708249b54df446dacd5f97bc334f9fe6",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip06",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "41aa90e5a2e65f7454df9bf4631cc2f5fe3998eb94f1311985870de5b0f1ecb3",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip07",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "npz_sha256": "fa468c15c0ef209b4300965242f52d987620ec65884922ed0772609c9c2b6a70",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip00",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "7ef5ad7484177f57e3f85cdefc016671cde7975426685c565afe6ff9eaba8354",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip01",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "d08d143c3433f9dfd933e2294355d0f113c9b9ad583920145b64be7530d2d50b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip02",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "db4f48cf94b6747ef398549557685197db78f063f7c1fd25441f4d2714b5beed",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip03",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "14c437d4c8fcb6505a569db688a95099e131aa698173f9ec09e481f0938cac79",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip04",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "64dd5c896ca36ef9aaae67b19c2b4399cf4a63efc33fdaf626c16dde2d18b595",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip05",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "f6efd352b382e79327ea835ec157fceae373a22d737ba513978ee75a6d5d8a59",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip06",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "0dbacc816e5d3eb0385c3485e8fbebf3cb402e3220ab15e2ee16809eee913661",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T05-59-49Z-565a4f_clip07",
+      "match_id": "2026-05-15T05-59-49Z-565a4f",
+      "npz_sha256": "449b90834723bf291964b05967379215e8b6fb0c2ad8301cd85bd6e05033da0a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip00",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "628a7dd484fe05d4ac877e6e4d7d362da4de6fc127b332bc8310c25b8635f7f7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip01",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "0851ec4832520f3e0c8e94303af9796215afd02a4a5728a2e38e322f454d79b0",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip02",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "07288c231670e5b03cb63d3e2f53d965bbd127ebdfacc321ccdf04965cf910e9",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip03",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "021e8f80e931e4efa1b1d6eceba421a7fa111ef36e98fb026394a318b27e545c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip04",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "ff7c22aee409cf49bac52a05af0722402149c12ae4c510cd26e121adec4aa6d1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip05",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "ec13e8fa3de5f059f9c728e770b236ab3de708612cf5d4f532f025aee90a30cc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip06",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "d8e65dfb6443b9881fba514c0804447b7cdc941930f85b9d39c237f1399e87b2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-15T14-14-24Z-09c432_clip07",
+      "match_id": "2026-05-15T14-14-24Z-09c432",
+      "npz_sha256": "47a1c576d2c4e07b912a4976e78b9497eaec80ed22213f781475a2112ce80316",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip00",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "067aa4e24781e12d6a7ca0a27f4ccbafc7628f3fd4e059fe785563206b65a819",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip01",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "dbcc5f41978156cef88d321a80bb956bbb3811483752d5d4536760ec0546421d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip02",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "aba141ce5cf06fcf5919bf056076c230954bd2561c2152de4b24e8e81e6eca28",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip03",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "035d855fbdb3821c38a86cb6f3339afd030189363ad51684970578665d06b29e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip04",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "59d44d35dceb4eb69ee69cfbcf4f8003b1fcf550347034522aff26c0fe9b7fb2",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip05",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "3b75480d48eb1150ed8bf7c75b1c1b8e1eb87a715bf470c873803a597aca41cf",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip06",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "a763465a63f284cb384e43591207c82031133874b8b8df6cc468a010b85f6c0e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip07",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "npz_sha256": "2d609bb21f97e31fe78beba4cd0ee801fe58acaa2086faebc073579a812b5f7e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip00",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "ed986e4f8786c7c9428656cf3f514288262aa782260d9ad72c2e401e179d79f8",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip01",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "7ae917fd4322f422ceb127c998946eacafd6c52cfe755f41d329af93580dbc4e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip02",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "1133ad5863e5beae95c24d6a54f35e1b5c39f6c873e89a9bc60ff5c6400f44bb",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip03",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "eb702139552f5367ed4da3d470dabdfb6464862432ab16ecc13bf45401bfeb6b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip04",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "3d8e4f523571f4334f1b683b0b5f23be5de63e3a8adaa2fcc3d9129c02c133bf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip05",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "da1ba35b95b93004461293b159c625f3286630a87063e830f5e19effb32128a7",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip06",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "c0c0347307097ff48d249b3394d833c7252318f72fee730e080a22f8ef30455b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-12Z-ed1ca9_clip07",
+      "match_id": "2026-05-29T18-26-12Z-ed1ca9",
+      "npz_sha256": "b9c6cbb021f401d9f5602df37eaad63ed9ba1bbe514f98d477b89a607f988d45",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip00",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "40bd7578d08b7e7744bdba1e3dcacccd00aaa7d7b9bc40879aa94659138e0874",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip01",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "0579ca9d8d8de4e079d1151e16152498ac1099f2f9127f96478a4b07ffd6d0f9",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip02",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "8b0cad1fcc00ede50bc4d2e05232cfd80a8df35b61dce7371ab9153234b1275d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip03",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "65865fa2a3a6375332cd59b9f051276825c3e7af4c891da302046eb6cffb5be0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip04",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "d6b1bfe8065bb70e777438f232e20676c492be82ff9ea2ffdbb982ce53d382ca",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip05",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "56eb878915b31e6d1907385efd0a20c7ca8ae99add6180f22e66d8ed0a9ea794",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip06",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "e0cc9f1c748ddd72afed1a51aa6de0082917eb78dc444666e7d57c8b8d06c00d",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip07",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "npz_sha256": "7be5152e0b4dcbda1ca8e1374ee57cb3cef720ce86c34bd9335089dc045b95bc",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip00",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "ccc5db4d26bf6cc5da377749b1c303a54cc270851b921513aafcf57bd0103c30",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip01",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "24cd3ee87ee9df6ab8d6bba0427471e300337977977ffbdba75e67067aa0af83",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip02",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "08f03f5d1990ac17ca3263abc1432e3c446c29c08f4233af12d02a68c1a7e681",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip03",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "52c5622969b9e12b2df49e806713b942afe5ee0b346c624a8498f574956ccc5a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip04",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "df5ad17a091f8f265b26a454d49f934e0194d1d752cb604a455078a7a7259d04",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip05",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "75cccfe555ccb5d625b7f1f680cb1fe1b826a2094be8a007476e5c63014abe1b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip06",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "7d4ac3c6f7b533a8b641c2d1c10099069374b6c218452c83077090f38660bbb2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-50-47Z-6448b3_clip07",
+      "match_id": "2026-05-29T18-50-47Z-6448b3",
+      "npz_sha256": "b87e2d83925256b0cf0ea4cbee4d8481b39ea2d6e88254c329f8a5d2776f8ba4",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip00",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "1635a71da09c6cb9e62047fa0405286e84ae277ae4b40af027c58edabcd0e412",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip01",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "e28bf51a4904932f7eee0b4664e73a03787921b50000ec5749f047edd9006c31",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip02",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "bdd184a0aa4866f0be1cfd08871058d78da594e90f71193c5a39642495f66190",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip03",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "baa6e1f86b50ab2524052a75cc09be3ded57e50eb2dc5c7153642164098de461",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip04",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "a7e8915f852d00515550ddb096d087763d8cb7bf4a1c11d6989182338750e1fc",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip05",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "656745c9dea3156eaf8084c0f7f7b638b28b44182c9f33b3952269b9adc9154f",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip06",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "413c605a3ddae6fdbb9d3a64c936e3b4b2cf68df68cf2654e84b06ecb197b1d8",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip07",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "npz_sha256": "cf58c841a62723beab2905bb22ba80c0ad6ab6668ccbb6e384f3d3041565aa65",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip00",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "725498b8940a28cfa7921ae5c4e1c6997c66fccaabd4abdd2bdf4908fc8902ca",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip01",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "e3c3081f770e4cf58df1c5c774f195963d5361f6b9b6f3214a32987aa3fe6e25",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip02",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "40aa37b52fc4480a5d24a2002cfd127b15f4b951a53ddf5a82203964a96d18bd",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip03",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "4771fe5b0f574c88674ea090efd3fee0641fbd7b0a048071a961cedd313dd50f",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip04",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "04fdc195e37b5b0b05de21003b7ed22a8c1c673fbe5d724dc1bdb0fe8e2d426d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip05",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "585f9e3cf7d6bc648f8448bacb2f2cb769e7b16efb4046126ff7d5f9e1941ad2",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip06",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "7164c9a5caa0838cfa6e4df5db2142c8c483c54397f97898a93b7dada864d834",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T01-54-01Z-16c3a0_clip07",
+      "match_id": "2026-05-30T01-54-01Z-16c3a0",
+      "npz_sha256": "da2500c98d1feb0cd3cbbf3c8af519c63ff2848cd61c1233cb695d070e45d38a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip00",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "9b5ae488247a473dc13b19bad4ef8878bc92e2ea489b5a6c57066a8da5850870",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip01",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "f2d3e4256d377d210b134384f236c3eb2f6b5e52ce429bde2912814ced2c55b5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip02",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "96d11e207add4acba5a7f3bc38802d7d3195fb3959ab2d440d267f4e3f4e5d9f",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip03",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "8a31abc8da41ad7d837ff30692e361ac94a3dd455ed8e9a3a4f9ce73a9ac7343",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip04",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "e149869e5d4304efdebfe1e13b7caa4c5643a8e12484e1dc68a93bf95fd80284",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip05",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "c7d96dfef0fa69f51302a41a546f439a17089780d55cb9c3938b15a502c8708d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip06",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "31335314e9c44ac15a2c522f151c19710bcd52338b81ba3064e4587b2659ae8e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-02-12Z-b25fb4_clip07",
+      "match_id": "2026-05-30T02-02-12Z-b25fb4",
+      "npz_sha256": "722c990b46164e42a7c9e89fee558d43c353b7d6875ca56062f548a1b08a5f0e",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip00",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "1329e85883b22750d1d4dc84819fa4afd773dec381d672bc448267ae47c8e02c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip01",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "7bc17fcaad21fe90342946a2702485faac0e8e475037abe530edc6c1043ea9f9",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip02",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "2f98a219022afec8fb4eba01327f84eb7def9ed607fe0e3ac54e3d2d9e5554e0",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip03",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "7bde88ddef0ebd70757faf03121fbdbc8c06cb24a9a7fbed8620a2140be07ac5",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip04",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "55f1ef6a8592d64796043b8d0f0def8093e69ac62bd971ace1e23f11cbec1217",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip05",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "4a283a0f8efe1edbd726096d9caa8a4c76638945b90f2b65adbd0460cbf5b3c3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip06",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "5b252454ef3912734f434c745238fd0f07476c1c6e4e3cfa3de999d67f84dcdc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T02-59-38Z-866559_clip07",
+      "match_id": "2026-05-30T02-59-38Z-866559",
+      "npz_sha256": "e04179298012dd522cb1d2bb0f949e2721608f5af9c0d59aa297714aa0c6dfd6",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip00",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "71d1fb48920e6190f44c8537069527d9f7f51a379cc621c6f9995680b5fd788b",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip01",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "f3af29538570b97973a927451ed24dc8a3fd358bf1d75d4eb50dc996d298f44a",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip02",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "98eaabf568fc0fbf757a6acb4ea1a9366c752eeb9a9a0d9b3dfd39f85800a357",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip03",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "188a2038afc7dcee19da8b367c033ece17731ce5466399a2a8ffb9d2e571817c",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip04",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "5a4a4c7902801a4558f3fd9ee36b3daf6a8b11b8f9da669a3b2854101feef9fe",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip05",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "f4612119fe876df2f256b1a6fdceeaa5917a52527189f03eeaa7cc2a3f1f03cd",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip06",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "60522bd1c17f6994eda406cdb9b54d439a353b239f1249e1a35298962aa00849",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T03-59-33Z-d170b2_clip07",
+      "match_id": "2026-05-30T03-59-33Z-d170b2",
+      "npz_sha256": "bc79898a16cf6debd9390865661ddd7c4e6c6ab9d2a2262197c676cf568c2925",
+      "role": "confirmation",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip00",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "caed2668377103a305e786e78cc3e34d2741be05f6017e75bb4afdc84adba8e8",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip01",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "d54ca370180ef5e3a6d600e7ec4ba6f335069c3f7dcee5dbb5bef6b0a75d55e1",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip02",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "9ced97863c51fb783a3a729e6f091f9051cc4a955ebd21811d7592f7c24adb64",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip03",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "dc4e8ea6475e7c82d3d02cf3da4f52907a1ad1c842c07f4811e8605fb7ce0b55",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip04",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "b7a26b8adbe8d6ccb6e33f0f8c5d9c5f8f25915aac90505c5a72d1f7d15457d0",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip05",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "063b55b799158ceaf00fa4ec473888cf9041b8494c60346a0ffe5fbbcbcc632e",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip06",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "85bf94569fe4cf1a7023bb057042c20b71fdadc91f41a23c2bc10bfda4c9533a",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip07",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "npz_sha256": "db1d0524a624f8de0f1cbb1beef0427506c7c5db9257222ca6b31894825c18f3",
+      "role": "selection",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip00",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "9fe046c1b6b93318ee4c3b720e550f5713b96b6dcf57a7cc5e5765a448eb588a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip01",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "cfb3edea1d4b2e0e33ce11ee29a6e61f6f0980292d5062aad52e363bd1cfa000",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip02",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "bd15782a08a36cfa52a909679a88f90572d0c1f7cb96c243147dbe288b98acf4",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip03",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "fac91b4cd733b72267aa6fca1a91983d7d77ae9919eba95a2e51375825f95d54",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip04",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "9b8128bd7598c7a73190a175d2abd395ca62f22dd0bb4cce578025df3d481304",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip05",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "fb8c053b7a0cad13a6ad58c770a012d45743bcfe839c311e3c36dd551f4b356c",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip06",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "8e0eac2758a70f1e7652f43599a9964dc1636c993317aee6c15d345b199acd6d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-08-38Z-efbe60_clip07",
+      "match_id": "2026-05-30T06-08-38Z-efbe60",
+      "npz_sha256": "895dbc85f6a293158fceed6e27bbf74056a6a03354a3eb087844b1a90d631612",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip00",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "6b9636aee24a6af078e07bf0a99865c393a6c3c15cf06a670ae825daa9a80505",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip01",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "a789616d69a3dfdf9336d441316a4100c509a3ef52c039790f471488ddf45123",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip02",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "389037a1c84ae69e41aa58aeaea9f369ee461d94e6305b3c40df49036db2f778",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip03",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "4901406e72f93e9d327de2a40d14eef30305cf0ff2e34ff089062e435e3aa4db",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip04",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "ea15f97f8c89cde32dc89933bfb3a1e3f9134551d17ce5e08931f857457779bd",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip05",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "bef12474c6c41e0cb4c9cf4d4f7000f7eec37e8103a283833560c1ce7a7bf8c3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip06",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "a3c17a4c86177bf3118594eea2f2f4d28c56e3fadc44b07a0144fdf92dd1da09",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T06-53-38Z-33fb48_clip07",
+      "match_id": "2026-05-30T06-53-38Z-33fb48",
+      "npz_sha256": "5d5f8f209721ede6c06d30f7804a816441aa03c83f56cb2e06ca9cb598b6044a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip00",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "74cc77a6ab3f1c415003535c133deb4e0f2ea6f6ba6af9e01aa4304ec3f80f4a",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip01",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "26e08040bb0872694eb27b4fa30130db6a84f49a89030e350d54d5908b842433",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip02",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "47568566450ad40270dce9382ad3af37c04127298af457a2d25a00fcfe7e97dc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip03",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "50e616a6a3b099817f1fec2501d38af8f7497738595fb6f499d7183d6743174d",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip04",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "42c6f0f3ed73133148ed588afe2e37cb3776cb69475e7110e0dcf7e31efae251",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip05",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "fd9d21576cf9fb8eb03791e9856a79b5d0c5f0816f219ddeac8a09aa4c668ef3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip06",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "d134e5ba68fcf6688359c8849855c87518aa1efa89e6d515a3ce083a05c45220",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T07-07-44Z-20b6c6_clip07",
+      "match_id": "2026-05-30T07-07-44Z-20b6c6",
+      "npz_sha256": "b64d16ce1b89312ab6ac94bd0b3c34659afbb10eaddabd12c61e05f045789a83",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip00",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "66393c9338a2f868948e7a2ae52c618d882dcab6260b839a0a5bb83fac3a3e96",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip01",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "4fe97a078dadee49ac47c91a73fd088c7f6127ebbb81f404308e46decb023f4b",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip02",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "2e7e97a04449ed12625cc2eed7844e9633ef900eb44d9cafd67697cd317c8f72",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip03",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "5ce9e1f71e7b03b0cefd50c28005074f2588f0ba0007f9f9d148f1357ba038ed",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip04",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "e1a9f5654667911b40f8e825987519fc528222e5b2e645b42c845a96cee4fa42",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip05",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "e0a468d8c5e441a2617330648ef9dfacdbf988ae76fadbd861fba24b6e4f0a68",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip06",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "392e03dfb929113b90c4bcba92416d2d3776d01f54af2ac7e914d92321fb44cf",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-42-08Z-2a5fa6_clip07",
+      "match_id": "2026-05-30T08-42-08Z-2a5fa6",
+      "npz_sha256": "52a085be5874f3b2fabad0cdd5338a54889b07f4d1cd02d5e3b1258e2d477b56",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip00",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "c34ffabae52ce0e9e44f9e6184a8b4ecc0add9968216006e406ba062d08028b1",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip01",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "35c38a27fa1aeeb04ced5753cf8dd8a462708455bf520f6d77d12638f1b22550",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip02",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "d25385d082239bd20b483c8fa163ca8f9da5ec6a685d21babcc84fdc8e01f788",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip03",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "c17a4d7e932df45a2b86a4ad0f01ac32a2e4c2d6af4523d5637fb86b1e9c5748",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip04",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "3d1592f10578f8970315b91c8a33cf42e73fb9baee303f29a20771852b2a12dc",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip05",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "705f66c5a76a3bf209bcb0bca8c59de8a448d10af46ff80e3d7e36ad8b451561",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip06",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "9ddc074c239daafe6f3f50760dc4bf1f4723b2c38eb9b35bf131283a60bee6e3",
+      "role": "discovery",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-30T08-52-57Z-7c78d9_clip07",
+      "match_id": "2026-05-30T08-52-57Z-7c78d9",
+      "npz_sha256": "6a9c1ec898dcc3ede85729a0603bc5b5e32cca80b09d018c4c9ae2fed3df8f0b",
+      "role": "discovery",
+      "status": "passed"
+    }
+  ],
+  "clips_per_match": 8,
+  "cohort_sha256": "0d2839314f3f54d136384e230657e92a7c5ba874a63174842856ad8c05ea6d78",
+  "errors": [],
+  "exact_controlled_trajectories_available": false,
+  "excluded_match_ids": [
+    "2026-05-12T05-37-07Z-d83e77",
+    "2026-05-13T18-00-40Z-71cb6b",
+    "2026-05-14T06-22-31Z-04ba16",
+    "2026-05-14T07-15-40Z-cc6ba1",
+    "2026-05-14T13-09-02Z-b9bf35",
+    "2026-05-14T23-00-48Z-f2f4f5",
+    "2026-05-15T03-58-02Z-f42fe4",
+    "2026-05-15T05-52-52Z-1b82dd"
+  ],
+  "expected_clips": 424,
+  "expected_matches": 53,
+  "finished_at_utc": "2026-09-07T00:09:48.866452+00:00",
+  "independent_audit_script_sha256": "a59212f25b6c09cc544802dd5ac03d576562d2fbda95383a9c918eacc060bb75",
+  "match_counts": {
+    "confirmation": 11,
+    "discovery": 31,
+    "selection": 11
+  },
+  "original_clip_manifest_sha256": "10f314067298bced0c0035d6b21e7e9abb188313749cd6b137f50c32fbe986bf",
+  "original_full_audit_sha256": "01a8d55c39cfcd22147c18271a1b9cd4575f696b1ca0299d84283c25ce805893",
+  "original_full_audit_status": "failed",
+  "original_passed_pilot_audit_sha256": "edeae15c43fa64049a04fe442140fd911e760c7e1c92a432ea9a63f9ba19af64",
+  "per_view_zero_visual_state_latency_independently_proven": false,
+  "preparation_code_sha256": {
+    "scripts/prepare_clips.py": "7cc6a3f574fe5af04991b0da576183fbe5663cfbbfa54f676808acb88e6157a2",
+    "src/mira_interp/clips.py": "3c198218c35efe83915888bea1bfae8f87a800e032fca2c1b2079c84381cbea8",
+    "src/mira_interp/data.py": "13c916c8572dc8f9d94356924fef7de8ef5096182dd98aba19e7cad0a1d3cb6d"
+  },
+  "prepared_clips": 424,
+  "prepared_matches": 53,
+  "protocol_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "raw_data_rewritten": false,
+  "registration_sha256": "f7d562bd9438a79130f5b7d6008c2bcaf5abd5c35b58e5ff90e62b9fa5966d2c",
+  "research_stage_completed": false,
+  "roles": [
+    "discovery",
+    "selection",
+    "confirmation"
+  ],
+  "roles_or_clips_reselected": false,
+  "schema_version": 1,
+  "scope": "qualified observational research data integrity",
+  "source_clock_diagnostics_sha256": "3c877583b6c2e1ee866401b4cdb5e94ba99f1067295b6823a369741755682d4f",
+  "split_manifest_sha256": "6f7b1b48f815c5681b1a966eca1ca4726815eacd04cf51fb3555a531358bd5fd",
+  "started_at_utc": "2026-09-07T00:09:33.507529+00:00",
+  "status": "passed",
+  "thresholds_changed": false,
+  "verified_clips": 424
+}

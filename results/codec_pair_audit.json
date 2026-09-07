@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-09-06T23:53:20.473650+00:00",
+  "method": "torch.load weights_only=True mmap CPU; exact key shape dtype and torch.equal tensor comparisons",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "prefix": "single_world_model.codec.",
+  "standalone_state_tensors": 936,
+  "embedded_state_tensors": 936,
+  "missing": [],
+  "unexpected": [],
+  "differences": [],
+  "standalone_latent_mean_std": [
+    0.008073142703917577,
+    0.9276199261988762
+  ],
+  "world_model_metadata_keys": [
+    "loss_total",
+    "loss_diffusion",
+    "iter_num"
+  ],
+  "elapsed_seconds": 0.6449121050536633,
+  "gpu_used": false,
+  "verified_assets": {
+    "checkpoint-90000/checkpoint.pth": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0",
+    "codec/checkpoint-125000/checkpoint.pth": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+  }
+}

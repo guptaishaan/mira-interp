@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "repo": "kyutai/rocket-science",
+  "revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "budget_gib": 40,
+  "disk_reserve_gib": 25,
+  "files": [
+    {
+      "path": "test/dataset_00000.tar",
+      "bytes": 2911815680,
+      "sha256": "099e9388854a2490df25d6cc9840dba7ff1df1574ec209063d721969b01bf902",
+      "publisher_sha256": "099e9388854a2490df25d6cc9840dba7ff1df1574ec209063d721969b01bf902",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00001.tar",
+      "bytes": 2580387840,
+      "sha256": "5cf1ea61d5c0e08982e38c989ea2339de9214ec5ac3e82035e942afb0937cd00",
+      "publisher_sha256": "5cf1ea61d5c0e08982e38c989ea2339de9214ec5ac3e82035e942afb0937cd00",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00002.tar",
+      "bytes": 2903080960,
+      "sha256": "f54e3d6851169659e81ff8d6e6976a399adadc5ccbcc5d0648dd0e81dae0b2a6",
+      "publisher_sha256": "f54e3d6851169659e81ff8d6e6976a399adadc5ccbcc5d0648dd0e81dae0b2a6",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00003.tar",
+      "bytes": 2840913920,
+      "sha256": "6488c30cb30a5d0ce6588dc088824be56f78553ac8211cdfc4eb9826b0b45cf1",
+      "publisher_sha256": "6488c30cb30a5d0ce6588dc088824be56f78553ac8211cdfc4eb9826b0b45cf1",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00004.tar",
+      "bytes": 2945505280,
+      "sha256": "62eb319d9ab66e42c8c5db6fa19173564108115784340df8cd1e10dee76fcad2",
+      "publisher_sha256": "62eb319d9ab66e42c8c5db6fa19173564108115784340df8cd1e10dee76fcad2",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00005.tar",
+      "bytes": 2931394560,
+      "sha256": "622fd085da9e1dacfdf717b71951c4eec552123829ae1b52bd866e46066f12b2",
+      "publisher_sha256": "622fd085da9e1dacfdf717b71951c4eec552123829ae1b52bd866e46066f12b2",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00006.tar",
+      "bytes": 2944573440,
+      "sha256": "eceb46d38705efce9cc4bb167d4cfa600d787876a3262f7626de3d71891bd340",
+      "publisher_sha256": "eceb46d38705efce9cc4bb167d4cfa600d787876a3262f7626de3d71891bd340",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00007.tar",
+      "bytes": 2894520320,
+      "sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec",
+      "publisher_sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00008.tar",
+      "bytes": 2562437120,
+      "sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241",
+      "publisher_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00009.tar",
+      "bytes": 2828554240,
+      "sha256": "30bf8d09c15b6856e607de3236f7a0b3f2fde26b5c9600460db10ce5bea8d855",
+      "publisher_sha256": "30bf8d09c15b6856e607de3236f7a0b3f2fde26b5c9600460db10ce5bea8d855",
+      "verified": true
+    },
+    {
+      "path": "test/dataset_00010.tar",
+      "bytes": 2769899520,
+      "sha256": "a0f4385245d7ce0441a44d810a1291df40ae4a979d0fe0506f376435e2bcff90",
+      "publisher_sha256": "a0f4385245d7ce0441a44d810a1291df40ae4a979d0fe0506f376435e2bcff90",
+      "verified": true
+    },
+    {
+      "path": "test/index.json",
+      "bytes": 1801403,
+      "sha256": "566ac2a3879474527d2911e5f2de8ed8cea4f29ea6047e031e2434f09b6a406e",
+      "publisher_sha256": null,
+      "verified": true
+    }
+  ],
+  "scope": "test split download integrity; video/state alignment audited separately",
+  "updated_utc": "2026-09-06T23:50:39.321833+00:00",
+  "expected_bytes": 31114884283
+}

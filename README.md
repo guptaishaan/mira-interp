@@ -12,10 +12,17 @@ found in the checked release channels. The executable model candidate is **Alaka
 MIRA Mini 4P**, an independently trained 1B reproduction, with separately pinned weights.
 Results for this model must not be described as results for the original 5B MIRA.
 
-Rocket Science access is now working. Data integrity preparation is in progress:
-the first pilot exposed a source-clock/event-clock offset, so research capture is
-waiting for a corrected alignment audit. A metadata-only 37/12/12 discovery/selection/
-confirmation cohort plus one separate pilot is registered before research capture.
+Rocket Science access is working, and all 31.1 GB of the pinned test split passed
+publisher checksum verification. The full 61-match data audit rejected eight
+matches at the unchanged clock-calibration gate. A separately registered
+[quality-qualified study](docs/05_cohort_amendment.md) retains all 53 passing
+matches: 31 discovery, 11 selection, and 11 confirmation, eight clips each.
+The original failed audit and all exclusions remain available.
+
+The full two-GPU capture and independent aggregation passed: **424 clips, 13,568
+rows, all 17 sites**. Each GPU peaked at 6.51 GiB. Every saved label, timestamp,
+player/view identity and source-frame join was checked against the audited input.
+Probe discovery and selection are running; confirmation has not been evaluated.
 Causal validation, geometry, sparse feature training, and steering remain unrun.
 
 The [pretrained readiness report](results/pretrained_smoke.json) records strict loading,
@@ -38,7 +45,11 @@ with checksums in [the archive manifest](results/readiness_archive.json).
 - [Data preparation](docs/01_data.md)
 - [Residual hooks and patching tests](docs/02_instrumentation.md)
 - [Pretrained model readiness](docs/03_pretrained.md)
-- [Registered observational probe protocol](configs/observational_probe_v1.json)
+- [Real-observation capture](docs/04_capture.md)
+- [All-layer probe analysis](docs/04_probes.md)
+- [Cohort amendment and exclusions](docs/05_cohort_amendment.md)
+- [Current observational protocol](configs/observational_probe_v2.json)
+- [Execution handoff](docs/EXECUTION_HANDOFF.md)
 
 Compact reports live in `results/`; exportable figures live in `figures/`.
 Large downloaded weights and gated source data stay outside Git. Their provenance,

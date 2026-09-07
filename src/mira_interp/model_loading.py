@@ -121,6 +121,18 @@ def load_pretrained_four_player(assets: Path, *, root: Path = ROOT, report: dict
     report["world_model_strict_load"] = {"passed": False, "missing_keys": missing, "unexpected_keys": unexpected, "shape_mismatch": mismatch, "state_tensors": len(state)}
     if missing or unexpected or mismatch:
         raise RuntimeError("Checkpoint architecture mismatch; no random fallback permitted")
+    # The world-model checkpoint embeds codec weights and overwrites the separately
+    # loaded codec. Its normalization metadata came from that standalone codec,
+    # so require exact identity before permitting this overwrite.
+    codec_state = codec.state_dict()
+    pair_mismatches = [key for key, value in codec_state.items()
+                       if state[f"single_world_model.codec.{key}"].dtype != value.dtype
+                       or not torch.equal(state[f"single_world_model.codec.{key}"], value)]
+    report["codec_pair_integrity"] = {"passed": not pair_mismatches, "compared_tensors": len(codec_state),
+                                     "mismatched_keys": pair_mismatches, "comparison": "exact dtype and torch.equal",
+                                     "latent_mean_std": codec.info_from_checkpoint["latent_mean_std"]}
+    if pair_mismatches:
+        raise RuntimeError("Embedded and standalone codec differ; latent normalization pairing is unverified")
     torch.nn.Module.load_state_dict(model, state, strict=True, assign=True)
     report["world_model_strict_load"]["passed"] = True
     report["parameter_count_including_codec"] = sum(p.numel() for p in model.parameters())

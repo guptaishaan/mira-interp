@@ -1,0 +1,422 @@
+{
+  "status": "passed",
+  "stage": "complete",
+  "pilot": true,
+  "evidence_level": "observational_teacher_forced_reconstruction_decoding",
+  "cuda_visible_devices": "7",
+  "worker_index": 0,
+  "workers": 1,
+  "clips": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "role": "pilot",
+      "player_ids": [
+        302,
+        306,
+        307,
+        308
+      ],
+      "rows": 32,
+      "output_path": "/data2/ishaangp/mira-interp/captures/observation_pilot/a8a425f7613da19aec914013.npz",
+      "output_sha256": "ea25b29b6f15037425e5ff174530e67a0365bbfd154a9ced2b304395abf46a95",
+      "output_bytes": 2093213,
+      "input_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+      "protocol_sha256": "2437f915ceb14a10c33a6b003b7273ee6ba135e8495d4b15b03ff72f0edbd6a3",
+      "script_sha256": "da4eb68cfbd6a906f1b305fcdbfef16d8b33be85441095f8404ad60f9b8ba3af",
+      "code_sha256": {
+        "scripts/capture_observations.py": "da4eb68cfbd6a906f1b305fcdbfef16d8b33be85441095f8404ad60f9b8ba3af",
+        "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+        "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+        "src/mira_interp/instrumentation.py": "c1b5181b226d3dc583fdbd837e96347b207a3bd2bbdd7d6e9a00f22cc63684b1"
+      },
+      "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+      "verified_checkpoint_assets": [
+        {
+          "name": "checkpoint-90000/checkpoint.pth",
+          "bytes": 8383271151,
+          "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+        },
+        {
+          "name": "codec/checkpoint-125000/checkpoint.pth",
+          "bytes": 3601866873,
+          "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+        }
+      ],
+      "site_names": [
+        "block_0_input",
+        "block_0_output",
+        "block_1_output",
+        "block_2_output",
+        "block_3_output",
+        "block_4_output",
+        "block_5_output",
+        "block_6_output",
+        "block_7_output",
+        "block_8_output",
+        "block_9_output",
+        "block_10_output",
+        "block_11_output",
+        "block_12_output",
+        "block_13_output",
+        "block_14_output",
+        "block_15_output"
+      ],
+      "row_order": "view_major_then_latent_time",
+      "target_alignment": "own_view_source_frame2t+1",
+      "noise_seed": 6499556918389236576,
+      "noise_sha256": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+      "tau": 0.5,
+      "metadata": {
+        "sample_ids": [
+          "2026-05-29T18-17-39Z-fb68d7_clip00"
+        ],
+        "condition": "teacher_forced_noisy_observed_target_no_intervention",
+        "noise_seed": 6499556918389236576,
+        "noise_id": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+        "rollout_step": 0,
+        "diffusion_step": 0,
+        "tau": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "tau_shape": [
+          1,
+          8,
+          1,
+          1,
+          1
+        ],
+        "latent_frame_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "cache_mode": "fresh"
+      },
+      "controls": {
+        "noop_bitwise_equal": true,
+        "repeat_bitwise_equal": true,
+        "noop_max_abs_difference": 0.0,
+        "full_tensor_pooling": [
+          {
+            "site": 0,
+            "max_abs_difference": 5.960464477539063e-08,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_00.pt",
+            "sha256": "9b1a7e8decaefd1ba6d814449385f58d4dd43e2ca89c782929a09b5c50c054de",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 1,
+            "max_abs_difference": 2.384185791015625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_01.pt",
+            "sha256": "b4f031afd79be9d5b61e9104f54ea6288399d6eb96a83179599cec6887af861a",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 2,
+            "max_abs_difference": 4.76837158203125e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_02.pt",
+            "sha256": "70fa1fdfaec9fe178b4a41cfbb20d3ca1d772ea8cdc7b52d00e2909805033a48",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 3,
+            "max_abs_difference": 4.76837158203125e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_03.pt",
+            "sha256": "d2f63700580b7dd3c62c1a8307cc1dfbf9629aa9880e612ed3c5180566cb1013",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 4,
+            "max_abs_difference": 4.76837158203125e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_04.pt",
+            "sha256": "296b6cc7b0ac9f8f8bae8bad6712122e6bee2c9f64c7a912d4e21bd520319c91",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 5,
+            "max_abs_difference": 4.76837158203125e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_05.pt",
+            "sha256": "ccd46a9a11019bc6df5c7fa74005a317d2b91a9db123d2cf20c1fd8585a62ec6",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 6,
+            "max_abs_difference": 9.5367431640625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_06.pt",
+            "sha256": "c3f31495e53218970db99d827a9f5c35bba242efee2d4edf355c33c20f3b6bad",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 7,
+            "max_abs_difference": 9.5367431640625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_07.pt",
+            "sha256": "01242bb486f18e85404744b0ef59281902311b772c40d208d24e57bcd388983d",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 8,
+            "max_abs_difference": 9.5367431640625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_08.pt",
+            "sha256": "987afd22248c2221cc6bfa9365611dc69db12cbbc75543cc24be2169845a324d",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 9,
+            "max_abs_difference": 9.5367431640625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_09.pt",
+            "sha256": "1f49ff3f98ed7c4c229e7ea95c86bd71470feff69c9c2e59116663b64d666289",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 10,
+            "max_abs_difference": 9.5367431640625e-07,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_10.pt",
+            "sha256": "f4c7801071eeeca6e5a68f55effb8694686b4d1de2a61f23ca12061d7db57cb8",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 11,
+            "max_abs_difference": 1.9073486328125e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_11.pt",
+            "sha256": "551983ecaedb241e8a6d389998a9005823b7449a733885319279799b1077f01c",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 12,
+            "max_abs_difference": 1.9073486328125e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_12.pt",
+            "sha256": "8fb6250cf5222c346c1175f15083dbe4212a0f378f95fa62657c8b4ce1cf6e6e",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 13,
+            "max_abs_difference": 1.9073486328125e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_13.pt",
+            "sha256": "c7dea28a59a7b9f01eadaac969313808de48faeda32bf0d8110e26e561a3b9e4",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 14,
+            "max_abs_difference": 1.9073486328125e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_14.pt",
+            "sha256": "9f895d30799e3823abdedbb02fbf234bfb7de6e57692d2f17422eeb375990c15",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 15,
+            "max_abs_difference": 3.814697265625e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_15.pt",
+            "sha256": "9c17e0a152637b8ad4e21a50153c65a14b025b73cd75de3ec0aac6adc5f42755",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          },
+          {
+            "site": 16,
+            "max_abs_difference": 3.814697265625e-06,
+            "path": "/data2/ishaangp/mira-interp/captures/observation_pilot/pilot_full/site_16.pt",
+            "sha256": "82046169644c6dcc631eaf1a300b9c2ffe1c62e3665fa3fb5c832a81511b22da",
+            "shape": [
+              1,
+              8,
+              36,
+              16,
+              2048
+            ]
+          }
+        ],
+        "full_tensor_pooling_passed": true
+      },
+      "capture_seconds": 4.9261467680335045,
+      "storage_max_abs_quantization_error": 0.015625,
+      "prediction_shape": [
+        1,
+        8,
+        36,
+        16,
+        32
+      ]
+    }
+  ],
+  "elapsed_seconds": 46.022,
+  "code_sha256": {
+    "scripts/capture_observations.py": "da4eb68cfbd6a906f1b305fcdbfef16d8b33be85441095f8404ad60f9b8ba3af",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "src/mira_interp/instrumentation.py": "c1b5181b226d3dc583fdbd837e96347b207a3bd2bbdd7d6e9a00f22cc63684b1"
+  },
+  "protocol_sha256": "2437f915ceb14a10c33a6b003b7273ee6ba135e8495d4b15b03ff72f0edbd6a3",
+  "data_audit_sha256": "edeae15c43fa64049a04fe442140fd911e760c7e1c92a432ea9a63f9ba19af64",
+  "manifest_sha256": "27c2c85313955e7e73117de5bf996a01d2e8729946048bf788268a0144a8d857",
+  "split_manifest_sha256": "fa47137ab1034cd4cc3b69d165a5d8dfb8a9ef9d70fa093869f0a05d4289922e",
+  "script_sha256": "da4eb68cfbd6a906f1b305fcdbfef16d8b33be85441095f8404ad60f9b8ba3af",
+  "cohort_sha256": "b9754a876c5d54f22c9a38e60b1361daebd4bed13634ab961722a54e99f357bf",
+  "expected_clips": 1,
+  "model_loading": {
+    "source_revisions": {
+      "mira": "3d739ec2d31daf83559d33eb01727cea48fe90f7",
+      "dinov3": "6876159a11b4df116f30f667f8c9888617df0751"
+    },
+    "model_repo": "alakazamworld/mira-mini-4p",
+    "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+    "loader_sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "adapter_sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "torch_version": "2.9.0+cu126",
+    "compatibility_adapter": "AlakazamFourPlayerWorldModel: project each player then average",
+    "verified_assets": [
+      {
+        "name": "checkpoint-90000/checkpoint.pth",
+        "bytes": 8383271151,
+        "sha256": "13a684a5f64613ae640d846b25cb16ac3c4059f97c9ccedacb1121f5241a5be0"
+      },
+      {
+        "name": "codec/checkpoint-125000/checkpoint.pth",
+        "bytes": 3601866873,
+        "sha256": "0b56cc07c878ab231a2c1faea155f20b0d49dbc378e3b67e84b2c7026eec59f9"
+      }
+    ],
+    "original_config_sha256": {
+      "world_model_config.yaml": "d6c49a8e92a28c1c9b3bc9d87950487095686dcee5d55c8bd029839da352fa87",
+      "codec/codec_config.yaml": "c7e48bf87756e08b8f048c68cfb722365b2d53f27760c6c29dbc88d5154d5c24"
+    },
+    "runtime_overrides": {
+      "codec_checkpoint": "local verified path",
+      "compile_dino": false,
+      "activation_checkpointing": false
+    },
+    "codec_strict_load": {
+      "passed": true,
+      "state_tensors": 936
+    },
+    "world_model_strict_load": {
+      "passed": true,
+      "missing_keys": [],
+      "unexpected_keys": [],
+      "shape_mismatch": [],
+      "state_tensors": 1183
+    },
+    "codec_pair_integrity": {
+      "passed": true,
+      "compared_tensors": 936,
+      "mismatched_keys": [],
+      "comparison": "exact dtype and torch.equal",
+      "latent_mean_std": [
+        0.008073142703917577,
+        0.9276199261988762
+      ]
+    },
+    "parameter_count_including_codec": 2095609472,
+    "codec_parameter_count": 900300192
+  },
+  "gpu_name": "NVIDIA A40",
+  "peak_gpu_memory_allocated_bytes": 6987892736,
+  "completed_clips": 1,
+  "rows": 32
+}

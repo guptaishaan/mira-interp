@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "capture_report_sha256": "e4cf5ef3d9d14905b4c24a8ef7347347586f19560ca07a0425c8f5581dd3d3d6",
+  "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+  "checks": {
+    "labels_exact_pair_final": true,
+    "timestamps_exact_own_view": true,
+    "target_name_order_exact": true,
+    "view_major_order": true,
+    "latent_time_order": true,
+    "input_hash_exact": true,
+    "output_hash_exact": true
+  },
+  "research_data_used": false
+}

@@ -1,0 +1,74 @@
+{
+  "alignment_gate": "frame counts, per-view PTS, player/team identities, nonfrozen physics, no demolitions; cross-view ball mean residual<=100uu after+-4frame lag",
+  "clips": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip01",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip03",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip04",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip07",
+      "role": "pilot",
+      "status": "passed"
+    }
+  ],
+  "clips_per_match": 8,
+  "cohort_sha256": "b9754a876c5d54f22c9a38e60b1361daebd4bed13634ab961722a54e99f357bf",
+  "cross_view_shared_timestamp_claim": false,
+  "errors": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip02",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "message": "fully frozen physical-state transition in proposed live clip",
+      "type": "ValueError"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip05",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "message": "fully frozen physical-state transition in proposed live clip",
+      "type": "ValueError"
+    },
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip06",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "message": "cross-view ball trajectories disagree beyond 100 uu after up to four frames of lag",
+      "type": "ValueError"
+    }
+  ],
+  "exact_controlled_trajectories_available": false,
+  "expected_clips": 8,
+  "expected_matches": 1,
+  "finished_at_utc": "2026-09-06T23:45:38.860927+00:00",
+  "prepared_clips": 5,
+  "prepared_matches": 1,
+  "research_stage_completed": false,
+  "resize": "upstream-equivalent bilinear antialias=True align_corners=False round/clamp uint8; 288x512",
+  "roles": [
+    "pilot"
+  ],
+  "schema_version": 1,
+  "scope": "observational per-view data integrity",
+  "selection_rule": "metadata-live windows, disjoint length16 at20FPS, center of eight equal candidate quantiles",
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "source_shard_hashes": {
+    "/data2/ishaangp/mira-interp/rocket-science/test/dataset_00008.tar": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241"
+  },
+  "split_manifest_sha256": "fa47137ab1034cd4cc3b69d165a5d8dfb8a9ef9d70fa093869f0a05d4289922e",
+  "started_at_utc": "2026-09-06T23:45:25.234235+00:00",
+  "status": "failed"
+}

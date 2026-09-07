@@ -1,0 +1,119 @@
+{
+  "alignment_basis": "publisher own-view row correspondence, exact source/NPZ hashes, counts/PTS/player checks, calibrated score events, limited pilot HUD spotcheck",
+  "clip_manifest_sha256": "4872282a574e32e530e12c51dd08dbe4fe1505ecf09abfa8a7c232e886a9598a",
+  "clips": [
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip01",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "82941f245914a8842c91e78d60757da69103c5886b4c591540da39e91aba17f6",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip02",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "59d9a099de115a3a41dc7366e8e46ef075f3e15f5012a6ac4c3909d65fa29f0c",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip03",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "e161b66998c7d754cefa231d707e4e3008562ef49e189124d68b941b3dd3c696",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip04",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "d9767373750f2729b741c08bebe8bf5eb832b3db1873e18cb24e570703c0c88c",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip05",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "b3cff18de5a580a65b528271abc4f8bbd15763007636c54ad34c9025af0711ef",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip06",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "93a0591a8c786554dbba28a4dfb4505ed0621187b982cef6a4f39f0b4ff096a0",
+      "role": "pilot",
+      "status": "passed"
+    },
+    {
+      "all_view_arrays_and_timestamps_verified": true,
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip07",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "npz_sha256": "ce731884e7c136aaeaa65322754bcc8449009fd3cc21aec6a9f7154836745145",
+      "role": "pilot",
+      "status": "passed"
+    }
+  ],
+  "clips_per_match": 8,
+  "cohort_sha256": "0d2839314f3f54d136384e230657e92a7c5ba874a63174842856ad8c05ea6d78",
+  "errors": [],
+  "exact_controlled_trajectories_available": false,
+  "excluded_match_ids": [
+    "2026-05-12T05-37-07Z-d83e77",
+    "2026-05-13T18-00-40Z-71cb6b",
+    "2026-05-14T06-22-31Z-04ba16",
+    "2026-05-14T07-15-40Z-cc6ba1",
+    "2026-05-14T13-09-02Z-b9bf35",
+    "2026-05-14T23-00-48Z-f2f4f5",
+    "2026-05-15T03-58-02Z-f42fe4",
+    "2026-05-15T05-52-52Z-1b82dd"
+  ],
+  "expected_clips": 8,
+  "expected_matches": 1,
+  "finished_at_utc": "2026-09-07T00:09:49.179957+00:00",
+  "independent_audit_script_sha256": "a59212f25b6c09cc544802dd5ac03d576562d2fbda95383a9c918eacc060bb75",
+  "match_counts": {
+    "pilot": 1
+  },
+  "original_clip_manifest_sha256": "10f314067298bced0c0035d6b21e7e9abb188313749cd6b137f50c32fbe986bf",
+  "original_full_audit_sha256": "01a8d55c39cfcd22147c18271a1b9cd4575f696b1ca0299d84283c25ce805893",
+  "original_full_audit_status": "failed",
+  "original_passed_pilot_audit_sha256": "edeae15c43fa64049a04fe442140fd911e760c7e1c92a432ea9a63f9ba19af64",
+  "per_view_zero_visual_state_latency_independently_proven": false,
+  "preparation_code_sha256": {
+    "scripts/prepare_clips.py": "7cc6a3f574fe5af04991b0da576183fbe5663cfbbfa54f676808acb88e6157a2",
+    "src/mira_interp/clips.py": "3c198218c35efe83915888bea1bfae8f87a800e032fca2c1b2079c84381cbea8",
+    "src/mira_interp/data.py": "13c916c8572dc8f9d94356924fef7de8ef5096182dd98aba19e7cad0a1d3cb6d"
+  },
+  "prepared_clips": 8,
+  "prepared_matches": 1,
+  "protocol_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "raw_data_rewritten": false,
+  "registration_sha256": "f7d562bd9438a79130f5b7d6008c2bcaf5abd5c35b58e5ff90e62b9fa5966d2c",
+  "research_stage_completed": false,
+  "roles": [
+    "pilot"
+  ],
+  "roles_or_clips_reselected": false,
+  "schema_version": 1,
+  "scope": "qualified observational pilot data integrity",
+  "source_clock_diagnostics_sha256": "3c877583b6c2e1ee866401b4cdb5e94ba99f1067295b6823a369741755682d4f",
+  "split_manifest_sha256": "6f7b1b48f815c5681b1a966eca1ca4726815eacd04cf51fb3555a531358bd5fd",
+  "started_at_utc": "2026-09-07T00:09:33.507529+00:00",
+  "status": "passed",
+  "thresholds_changed": false,
+  "verified_clips": 8
+}

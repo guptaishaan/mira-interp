@@ -1,0 +1,95 @@
+{
+  "aggregate_script_sha256": "8b17900ce8ac4345a38fc760e5220a7a6f07a0f1de72432f153fa6f300d7e812",
+  "all_17_sites_finite": true,
+  "all_source_labels_and_timestamps_exact": true,
+  "capture_report_sha256": "a2f4390bca48da6adc880630b9aacf0d08827406304497a70938b22dce319473",
+  "code_sha256": {
+    "scripts/capture_observations.py": "0c7cbe753960f19654cf6d0d4f11b8bccfb420c165bba2d30a2a44a5d188922e",
+    "src/mira_interp/instrumentation.py": "c1b5181b226d3dc583fdbd837e96347b207a3bd2bbdd7d6e9a00f22cc63684b1",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d"
+  },
+  "corrupted_provenance_rejected": {
+    "input_sha256": "Prepared input hash mismatch: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "noise_seed": "Clip noise protocol mismatch: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "output_sha256": "Capture hash mismatch: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "protocol_sha256": "Clip protocol mismatch: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "rehashed_corrupted_X": "Invalid array X: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "rehashed_corrupted_timestamps": "Timestamp join mismatch: 2026-05-29T18-17-39Z-fb68d7_clip00",
+    "rehashed_corrupted_view_index": "Rows are not view-major",
+    "rehashed_corrupted_y": "Labels are not exact own-view pair-final targets: 2026-05-29T18-17-39Z-fb68d7_clip00"
+  },
+  "protocol_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "row_audit": {
+    "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+    "exact_labels_checked": true,
+    "exact_row_identity_checked": true,
+    "exact_timestamps_checked": true,
+    "input_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+    "match_id": "2026-05-29T18-17-39Z-fb68d7",
+    "noise_seed": 6499556918389236576,
+    "noise_sha256": "458fbb5e40e0b0c39c8dc63388ea0a087fe292a5672a29fc3e69648dde946f55",
+    "output_path": "/data2/ishaangp/mira-interp/captures/observation_pilot_v2/a8a425f7613da19aec914013.npz",
+    "output_sha256": "ea25b29b6f15037425e5ff174530e67a0365bbfd154a9ced2b304395abf46a95",
+    "role": "pilot",
+    "rows": 32
+  },
+  "scope": "reserved pilot only; not a research aggregate or probe gate",
+  "shapes": {
+    "RGB_X": [
+      32,
+      192
+    ],
+    "X": [
+      32,
+      17,
+      2048
+    ],
+    "canonical_player_ids": [
+      32,
+      4
+    ],
+    "chunk_index": [
+      32
+    ],
+    "clip_ids": [
+      32
+    ],
+    "codec_X": [
+      32,
+      32
+    ],
+    "latent_frame_index": [
+      32
+    ],
+    "match_ids": [
+      32
+    ],
+    "player_id": [
+      32
+    ],
+    "sites": [
+      17
+    ],
+    "source_frame_index": [
+      32
+    ],
+    "split": [
+      32
+    ],
+    "target_names": [
+      30
+    ],
+    "timestamps": [
+      32
+    ],
+    "view_index": [
+      32
+    ],
+    "y": [
+      32,
+      30
+    ]
+  },
+  "status": "passed"
+}

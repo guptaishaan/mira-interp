@@ -1,0 +1,8 @@
+{
+  "status": "VERIFIED",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/readiness-2026-09-06",
+  "asset_url": "https://github.com/guptaishaan/mira-interp/releases/download/readiness-2026-09-06/readiness-2026-09-06.tar.gz",
+  "remote_sha256": "sha256:dba542a17214ee656f2c5a1a409d721b77f8cf0ebebc1e19893541ff5c0588a8",
+  "remote_bytes": 66137224,
+  "content_commit": "4227cd3e2d56da25939e4cd8d54b9d06619b2a99"
+}

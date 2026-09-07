@@ -1,0 +1,38 @@
+{
+  "action_comparison": "exact equality of all4players x sourceframes1..15 x9keys, at20FPS; no pooling",
+  "canonical_player_identity_rule": "same match and identical ordered player IDs only",
+  "causal_identification_gate_passed": false,
+  "clips_per_match": 8,
+  "cohort_sha256": "0d2839314f3f54d136384e230657e92a7c5ba874a63174842856ad8c05ea6d78",
+  "controlled_counterfactual_pairs_established": 0,
+  "discovery_clips": 248,
+  "discovery_matches": 31,
+  "discovery_npz_inventory_sha256": "1e4aeff32d1feb575d71e12919cf16179210cf381a59d1c2ffa58d9058f65081",
+  "exact_action_pairs_with_identical_initial_30_coordinates": 0,
+  "exact_action_pairs_with_one_initial_coordinate_changed": 0,
+  "exact_all_player_future_action_matches": 0,
+  "finished_at_utc": "2026-09-07T00:13:04.450327+00:00",
+  "future_horizon_seconds": 0.75,
+  "limitations": [
+    "Availability is exhaustive only among the frozen8clips per discovery match, not the complete dataset.",
+    "Thirty coordinates omit rotation, angular velocity, boost, contact state, camera history, and hidden simulator state.",
+    "Observed equal actions and a one-coordinate label difference would not prove a controlled state intervention.",
+    "No simulator reset interface or reproducible counterfactual renderer has been established.",
+    "No paired-seed causal model intervention or independently validated generated-video physical evaluator was run.",
+    "No selected pairs or physical label values are exported by this audit."
+  ],
+  "matches_with_any_exact_action_pair": 0,
+  "protocol_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "qualified_clip_manifest_sha256": "cf0fb3679151b21d508996125b5694cd7021f748cade5d09f538d3ef488d29b5",
+  "qualified_data_audit_sha256": "7a2240e4d4b917cee18ba731b1e9dda3850594f762e0eea2622809a92f4bef6b",
+  "roles_read": [
+    "discovery"
+  ],
+  "schema_version": 1,
+  "script_sha256": "721459cc6dda848fd5081c84e669bd01c8ae725209dd5c74347c63686c512b12",
+  "selection_or_confirmation_arrays_read": false,
+  "started_at_utc": "2026-09-07T00:13:01.358279+00:00",
+  "state_comparison": "view0 sourceframe0,30 ball/player XYZ position/velocity coordinates; exact float equality",
+  "status": "completed_availability_audit",
+  "within_match_pairs_evaluated": 868
+}
