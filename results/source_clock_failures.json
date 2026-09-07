@@ -1,0 +1,1995 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-09-07T00:04:27.905964+00:00",
+  "diagnostic_only": true,
+  "target_positions_velocities_or_model_outputs_analyzed": false,
+  "cohort_gate_relaxed": false,
+  "audit_sha256": "01a8d55c39cfcd22147c18271a1b9cd4575f696b1ca0299d84283c25ce805893",
+  "failed_matches": 8,
+  "findings": [
+    {
+      "match_id": "2026-05-12T05-37-07Z-d83e77",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 526,
+          "paired_goals": 3,
+          "median_origin_seconds": 8.131344100000007,
+          "max_absolute_residual_seconds": 0.016323499999998603,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1370,
+              "source_seconds": 68.5,
+              "anchor_seconds": 76.6476676,
+              "offset_seconds": 8.147667600000005,
+              "residual_seconds": 0.016323499999998603
+            },
+            {
+              "score_total": 2,
+              "source_frame": 4545,
+              "source_seconds": 227.25,
+              "anchor_seconds": 235.3813441,
+              "offset_seconds": 8.131344100000007,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 3,
+              "source_frame": 5810,
+              "source_seconds": 290.5,
+              "anchor_seconds": 298.6217436,
+              "offset_seconds": 8.121743600000002,
+              "residual_seconds": -0.009600500000004786
+            }
+          ],
+          "score_track_sha256": "df924d853468a05c4f8c470f000d3f31e5cc575457e886f0e213525aae9ea0e1",
+          "anchor_sha256": "ed3805af33c05c7e6daa63fbf5a627870e0b47ee85e0ab7d1dc490bf66635320"
+        },
+        {
+          "view": 1,
+          "player_id": 530,
+          "paired_goals": 3,
+          "median_origin_seconds": 8.171743600000013,
+          "max_absolute_residual_seconds": 0.02407600000000798,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1370,
+              "source_seconds": 68.5,
+              "anchor_seconds": 76.6476676,
+              "offset_seconds": 8.147667600000005,
+              "residual_seconds": -0.02407600000000798
+            },
+            {
+              "score_total": 2,
+              "source_frame": 4544,
+              "source_seconds": 227.2,
+              "anchor_seconds": 235.3813441,
+              "offset_seconds": 8.181344100000018,
+              "residual_seconds": 0.009600500000004786
+            },
+            {
+              "score_total": 3,
+              "source_frame": 5809,
+              "source_seconds": 290.45,
+              "anchor_seconds": 298.6217436,
+              "offset_seconds": 8.171743600000013,
+              "residual_seconds": 0.0
+            }
+          ],
+          "score_track_sha256": "5ed7af43dca93b1d5881aa78ef4ff1e50c3994b8f34c0c8e06c6df6c3f0815ac",
+          "anchor_sha256": "ed3805af33c05c7e6daa63fbf5a627870e0b47ee85e0ab7d1dc490bf66635320"
+        },
+        {
+          "view": 2,
+          "player_id": 531,
+          "paired_goals": 3,
+          "median_origin_seconds": 8.097667600000008,
+          "max_absolute_residual_seconds": 13.516323500000013,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1371,
+              "source_seconds": 68.55,
+              "anchor_seconds": 76.6476676,
+              "offset_seconds": 8.097667600000008,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 2,
+              "source_frame": 4816,
+              "source_seconds": 240.8,
+              "anchor_seconds": 235.3813441,
+              "offset_seconds": -5.4186559000000045,
+              "residual_seconds": -13.516323500000013
+            },
+            {
+              "score_total": 3,
+              "source_frame": 5809,
+              "source_seconds": 290.45,
+              "anchor_seconds": 298.6217436,
+              "offset_seconds": 8.171743600000013,
+              "residual_seconds": 0.07407600000000514
+            }
+          ],
+          "score_track_sha256": "d7887761c3e1ff9c312c7df90fc90e3c72027fc6d9b724086b4bfd4898ee09ed",
+          "anchor_sha256": "ed3805af33c05c7e6daa63fbf5a627870e0b47ee85e0ab7d1dc490bf66635320"
+        },
+        {
+          "view": 3,
+          "player_id": 532,
+          "paired_goals": 3,
+          "median_origin_seconds": 8.147667600000005,
+          "max_absolute_residual_seconds": 0.02407600000000798,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1370,
+              "source_seconds": 68.5,
+              "anchor_seconds": 76.6476676,
+              "offset_seconds": 8.147667600000005,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 2,
+              "source_frame": 4545,
+              "source_seconds": 227.25,
+              "anchor_seconds": 235.3813441,
+              "offset_seconds": 8.131344100000007,
+              "residual_seconds": -0.016323499999998603
+            },
+            {
+              "score_total": 3,
+              "source_frame": 5809,
+              "source_seconds": 290.45,
+              "anchor_seconds": 298.6217436,
+              "offset_seconds": 8.171743600000013,
+              "residual_seconds": 0.02407600000000798
+            }
+          ],
+          "score_track_sha256": "e003295e67a3cea8f0672b209ff0408ba874b571f69f561e2e353f1e85655192",
+          "anchor_sha256": "ed3805af33c05c7e6daa63fbf5a627870e0b47ee85e0ab7d1dc490bf66635320"
+        }
+      ],
+      "source_shard": "dataset_00001.tar",
+      "source_shard_sha256": "5cf1ea61d5c0e08982e38c989ea2339de9214ec5ac3e82035e942afb0937cd00"
+    },
+    {
+      "match_id": "2026-05-13T18-00-40Z-71cb6b",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 267,
+          "paired_goals": 10,
+          "median_origin_seconds": 8.7120866,
+          "max_absolute_residual_seconds": 0.417739399999995,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 143,
+              "source_seconds": 7.15,
+              "anchor_seconds": 15.9321451,
+              "offset_seconds": 8.7821451,
+              "residual_seconds": 0.07005850000000002
+            },
+            {
+              "score_total": 2,
+              "source_frame": 976,
+              "source_seconds": 48.8,
+              "anchor_seconds": 57.541937,
+              "offset_seconds": 8.741937,
+              "residual_seconds": 0.029850400000000832
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1844,
+              "source_seconds": 92.2,
+              "anchor_seconds": 100.9332808,
+              "offset_seconds": 8.733280800000003,
+              "residual_seconds": 0.021194200000003605
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3103,
+              "source_seconds": 155.15,
+              "anchor_seconds": 163.9101741,
+              "offset_seconds": 8.7601741,
+              "residual_seconds": 0.04808750000000117
+            },
+            {
+              "score_total": 5,
+              "source_frame": 3834,
+              "source_seconds": 191.7,
+              "anchor_seconds": 200.4637922,
+              "offset_seconds": 8.763792200000012,
+              "residual_seconds": 0.05170560000001245
+            },
+            {
+              "score_total": 6,
+              "source_frame": 4895,
+              "source_seconds": 244.75,
+              "anchor_seconds": 253.4408924,
+              "offset_seconds": 8.690892399999996,
+              "residual_seconds": -0.021194200000003605
+            },
+            {
+              "score_total": 7,
+              "source_frame": 5753,
+              "source_seconds": 287.65,
+              "anchor_seconds": 295.9736847,
+              "offset_seconds": 8.323684700000001,
+              "residual_seconds": -0.3884018999999981
+            },
+            {
+              "score_total": 8,
+              "source_frame": 6552,
+              "source_seconds": 327.6,
+              "anchor_seconds": 335.8984368,
+              "offset_seconds": 8.29843679999999,
+              "residual_seconds": -0.41364980000000884
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8648,
+              "source_seconds": 432.4,
+              "anchor_seconds": 440.7004679,
+              "offset_seconds": 8.300467900000001,
+              "residual_seconds": -0.4116186999999982
+            },
+            {
+              "score_total": 10,
+              "source_frame": 9138,
+              "source_seconds": 456.9,
+              "anchor_seconds": 465.1943472,
+              "offset_seconds": 8.294347200000004,
+              "residual_seconds": -0.417739399999995
+            }
+          ],
+          "score_track_sha256": "99561efceeaaf37cad05c76490d0a1058ba5781e11d5f3b21eab1f0b616f6efa",
+          "anchor_sha256": "fd7175ceea6b3b9a175140eea4f3524c7003d74e73c8d40438527ab8a36dae1b"
+        },
+        {
+          "view": 1,
+          "player_id": 271,
+          "paired_goals": 10,
+          "median_origin_seconds": 8.737608900000001,
+          "max_absolute_residual_seconds": 0.25328350000000555,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 143,
+              "source_seconds": 7.15,
+              "anchor_seconds": 15.9321451,
+              "offset_seconds": 8.7821451,
+              "residual_seconds": 0.044536199999997805
+            },
+            {
+              "score_total": 2,
+              "source_frame": 976,
+              "source_seconds": 48.8,
+              "anchor_seconds": 57.541937,
+              "offset_seconds": 8.741937,
+              "residual_seconds": 0.004328099999998614
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1844,
+              "source_seconds": 92.2,
+              "anchor_seconds": 100.9332808,
+              "offset_seconds": 8.733280800000003,
+              "residual_seconds": -0.004328099999998614
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3103,
+              "source_seconds": 155.15,
+              "anchor_seconds": 163.9101741,
+              "offset_seconds": 8.7601741,
+              "residual_seconds": 0.022565199999998953
+            },
+            {
+              "score_total": 5,
+              "source_frame": 3834,
+              "source_seconds": 191.7,
+              "anchor_seconds": 200.4637922,
+              "offset_seconds": 8.763792200000012,
+              "residual_seconds": 0.026183300000010234
+            },
+            {
+              "score_total": 6,
+              "source_frame": 4889,
+              "source_seconds": 244.45,
+              "anchor_seconds": 253.4408924,
+              "offset_seconds": 8.990892400000007,
+              "residual_seconds": 0.25328350000000555
+            },
+            {
+              "score_total": 7,
+              "source_frame": 5745,
+              "source_seconds": 287.25,
+              "anchor_seconds": 295.9736847,
+              "offset_seconds": 8.723684699999978,
+              "residual_seconds": -0.013924200000023035
+            },
+            {
+              "score_total": 8,
+              "source_frame": 6545,
+              "source_seconds": 327.25,
+              "anchor_seconds": 335.8984368,
+              "offset_seconds": 8.648436800000013,
+              "residual_seconds": -0.08917209999998832
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8640,
+              "source_seconds": 432.0,
+              "anchor_seconds": 440.7004679,
+              "offset_seconds": 8.700467899999978,
+              "residual_seconds": -0.03714100000002318
+            },
+            {
+              "score_total": 10,
+              "source_frame": 9131,
+              "source_seconds": 456.55,
+              "anchor_seconds": 465.1943472,
+              "offset_seconds": 8.64434719999997,
+              "residual_seconds": -0.09326170000003131
+            }
+          ],
+          "score_track_sha256": "e19c5050e154b5b6e2a2a12fe338dfb17edf7381455e48f8580253f9e3d76e25",
+          "anchor_sha256": "fd7175ceea6b3b9a175140eea4f3524c7003d74e73c8d40438527ab8a36dae1b"
+        },
+        {
+          "view": 2,
+          "player_id": 272,
+          "paired_goals": 10,
+          "median_origin_seconds": 8.749452350000013,
+          "max_absolute_residual_seconds": 0.03382844999998724,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 144,
+              "source_seconds": 7.2,
+              "anchor_seconds": 15.9321451,
+              "offset_seconds": 8.7321451,
+              "residual_seconds": -0.01730725000001243
+            },
+            {
+              "score_total": 2,
+              "source_frame": 976,
+              "source_seconds": 48.8,
+              "anchor_seconds": 57.541937,
+              "offset_seconds": 8.741937,
+              "residual_seconds": -0.007515350000012688
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1843,
+              "source_seconds": 92.15,
+              "anchor_seconds": 100.9332808,
+              "offset_seconds": 8.7832808,
+              "residual_seconds": 0.03382844999998724
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3103,
+              "source_seconds": 155.15,
+              "anchor_seconds": 163.9101741,
+              "offset_seconds": 8.7601741,
+              "residual_seconds": 0.010721749999987651
+            },
+            {
+              "score_total": 5,
+              "source_frame": 3834,
+              "source_seconds": 191.7,
+              "anchor_seconds": 200.4637922,
+              "offset_seconds": 8.763792200000012,
+              "residual_seconds": 0.014339849999998933
+            },
+            {
+              "score_total": 6,
+              "source_frame": 4894,
+              "source_seconds": 244.7,
+              "anchor_seconds": 253.4408924,
+              "offset_seconds": 8.740892400000007,
+              "residual_seconds": -0.008559950000005756
+            },
+            {
+              "score_total": 7,
+              "source_frame": 5744,
+              "source_seconds": 287.2,
+              "anchor_seconds": 295.9736847,
+              "offset_seconds": 8.77368469999999,
+              "residual_seconds": 0.024232349999977032
+            },
+            {
+              "score_total": 8,
+              "source_frame": 6543,
+              "source_seconds": 327.15,
+              "anchor_seconds": 335.8984368,
+              "offset_seconds": 8.748436800000036,
+              "residual_seconds": -0.0010155499999768836
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8639,
+              "source_seconds": 431.95,
+              "anchor_seconds": 440.7004679,
+              "offset_seconds": 8.75046789999999,
+              "residual_seconds": 0.0010155499999768836
+            },
+            {
+              "score_total": 10,
+              "source_frame": 9129,
+              "source_seconds": 456.45,
+              "anchor_seconds": 465.1943472,
+              "offset_seconds": 8.744347199999993,
+              "residual_seconds": -0.005105150000019876
+            }
+          ],
+          "score_track_sha256": "00bac9cb7c948b180b4469fe5671c2201e584d6dbcb8bca76e28b09ac15142f3",
+          "anchor_sha256": "fd7175ceea6b3b9a175140eea4f3524c7003d74e73c8d40438527ab8a36dae1b"
+        },
+        {
+          "view": 3,
+          "player_id": 273,
+          "paired_goals": 10,
+          "median_origin_seconds": 8.737086600000005,
+          "max_absolute_residual_seconds": 0.14273940000004615,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 143,
+              "source_seconds": 7.15,
+              "anchor_seconds": 15.9321451,
+              "offset_seconds": 8.7821451,
+              "residual_seconds": 0.04505849999999434
+            },
+            {
+              "score_total": 2,
+              "source_frame": 976,
+              "source_seconds": 48.8,
+              "anchor_seconds": 57.541937,
+              "offset_seconds": 8.741937,
+              "residual_seconds": 0.0048503999999951475
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1844,
+              "source_seconds": 92.2,
+              "anchor_seconds": 100.9332808,
+              "offset_seconds": 8.733280800000003,
+              "residual_seconds": -0.0038058000000020797
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3103,
+              "source_seconds": 155.15,
+              "anchor_seconds": 163.9101741,
+              "offset_seconds": 8.7601741,
+              "residual_seconds": 0.023087499999995487
+            },
+            {
+              "score_total": 5,
+              "source_frame": 3834,
+              "source_seconds": 191.7,
+              "anchor_seconds": 200.4637922,
+              "offset_seconds": 8.763792200000012,
+              "residual_seconds": 0.02670560000000677
+            },
+            {
+              "score_total": 6,
+              "source_frame": 4894,
+              "source_seconds": 244.7,
+              "anchor_seconds": 253.4408924,
+              "offset_seconds": 8.740892400000007,
+              "residual_seconds": 0.0038058000000020797
+            },
+            {
+              "score_total": 7,
+              "source_frame": 5747,
+              "source_seconds": 287.35,
+              "anchor_seconds": 295.9736847,
+              "offset_seconds": 8.623684699999956,
+              "residual_seconds": -0.11340190000004924
+            },
+            {
+              "score_total": 8,
+              "source_frame": 6545,
+              "source_seconds": 327.25,
+              "anchor_seconds": 335.8984368,
+              "offset_seconds": 8.648436800000013,
+              "residual_seconds": -0.08864979999999179
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8641,
+              "source_seconds": 432.05,
+              "anchor_seconds": 440.7004679,
+              "offset_seconds": 8.650467899999967,
+              "residual_seconds": -0.08661870000003802
+            },
+            {
+              "score_total": 10,
+              "source_frame": 9132,
+              "source_seconds": 456.6,
+              "anchor_seconds": 465.1943472,
+              "offset_seconds": 8.594347199999959,
+              "residual_seconds": -0.14273940000004615
+            }
+          ],
+          "score_track_sha256": "9162cd48e59b8af3933772c4b3e9518466723990ec4d569a89fab6d8d98f8b01",
+          "anchor_sha256": "fd7175ceea6b3b9a175140eea4f3524c7003d74e73c8d40438527ab8a36dae1b"
+        }
+      ],
+      "source_shard": "dataset_00001.tar",
+      "source_shard_sha256": "5cf1ea61d5c0e08982e38c989ea2339de9214ec5ac3e82035e942afb0937cd00"
+    },
+    {
+      "match_id": "2026-05-14T06-22-31Z-04ba16",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 340,
+          "paired_goals": 9,
+          "median_origin_seconds": 8.0883708,
+          "max_absolute_residual_seconds": 0.02636299999995373,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 734,
+              "source_seconds": 36.7,
+              "anchor_seconds": 44.7883708,
+              "offset_seconds": 8.0883708,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1346,
+              "source_seconds": 67.3,
+              "anchor_seconds": 75.3860369,
+              "offset_seconds": 8.086036899999996,
+              "residual_seconds": -0.0023339000000035526
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2526,
+              "source_seconds": 126.3,
+              "anchor_seconds": 134.380516,
+              "offset_seconds": 8.080516000000003,
+              "residual_seconds": -0.007854799999996942
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3413,
+              "source_seconds": 170.65,
+              "anchor_seconds": 178.7514618,
+              "offset_seconds": 8.101461799999981,
+              "residual_seconds": 0.013090999999981534
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4007,
+              "source_seconds": 200.35,
+              "anchor_seconds": 208.4540031,
+              "offset_seconds": 8.1040031,
+              "residual_seconds": 0.015632300000000043
+            },
+            {
+              "score_total": 6,
+              "source_frame": 6077,
+              "source_seconds": 303.85,
+              "anchor_seconds": 311.9647338,
+              "offset_seconds": 8.114733799999954,
+              "residual_seconds": 0.02636299999995373
+            },
+            {
+              "score_total": 7,
+              "source_frame": 7619,
+              "source_seconds": 380.95,
+              "anchor_seconds": 389.0433238,
+              "offset_seconds": 8.093323800000007,
+              "residual_seconds": 0.004953000000007535
+            },
+            {
+              "score_total": 8,
+              "source_frame": 8306,
+              "source_seconds": 415.3,
+              "anchor_seconds": 423.3872897,
+              "offset_seconds": 8.087289699999985,
+              "residual_seconds": -0.001081100000014601
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8784,
+              "source_seconds": 439.2,
+              "anchor_seconds": 447.2836611,
+              "offset_seconds": 8.083661100000029,
+              "residual_seconds": -0.004709699999970951
+            }
+          ],
+          "score_track_sha256": "2faec8035e3327405fbb0512c50fb1c059db1f0a6f07f0859a2a386b56380675",
+          "anchor_sha256": "316d6c41e79a5d733392032fe6eeeef3e11773821ae835f1bcafd0fd84968abc"
+        },
+        {
+          "view": 1,
+          "player_id": 344,
+          "paired_goals": 9,
+          "median_origin_seconds": 8.101461799999981,
+          "max_absolute_residual_seconds": 0.032199300000058884,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 734,
+              "source_seconds": 36.7,
+              "anchor_seconds": 44.7883708,
+              "offset_seconds": 8.0883708,
+              "residual_seconds": -0.013090999999981534
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1346,
+              "source_seconds": 67.3,
+              "anchor_seconds": 75.3860369,
+              "offset_seconds": 8.086036899999996,
+              "residual_seconds": -0.015424899999985087
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2525,
+              "source_seconds": 126.25,
+              "anchor_seconds": 134.380516,
+              "offset_seconds": 8.130516,
+              "residual_seconds": 0.029054200000018682
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3413,
+              "source_seconds": 170.65,
+              "anchor_seconds": 178.7514618,
+              "offset_seconds": 8.101461799999981,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4007,
+              "source_seconds": 200.35,
+              "anchor_seconds": 208.4540031,
+              "offset_seconds": 8.1040031,
+              "residual_seconds": 0.0025413000000185093
+            },
+            {
+              "score_total": 6,
+              "source_frame": 6077,
+              "source_seconds": 303.85,
+              "anchor_seconds": 311.9647338,
+              "offset_seconds": 8.114733799999954,
+              "residual_seconds": 0.013271999999972195
+            },
+            {
+              "score_total": 7,
+              "source_frame": 7619,
+              "source_seconds": 380.95,
+              "anchor_seconds": 389.0433238,
+              "offset_seconds": 8.093323800000007,
+              "residual_seconds": -0.008137999999974
+            },
+            {
+              "score_total": 8,
+              "source_frame": 8306,
+              "source_seconds": 415.3,
+              "anchor_seconds": 423.3872897,
+              "offset_seconds": 8.087289699999985,
+              "residual_seconds": -0.014172099999996135
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8783,
+              "source_seconds": 439.15,
+              "anchor_seconds": 447.2836611,
+              "offset_seconds": 8.13366110000004,
+              "residual_seconds": 0.032199300000058884
+            }
+          ],
+          "score_track_sha256": "df601942a737788016bf489c5c022164a9434e14e15418318119b99335b726d8",
+          "anchor_sha256": "316d6c41e79a5d733392032fe6eeeef3e11773821ae835f1bcafd0fd84968abc"
+        },
+        {
+          "view": 2,
+          "player_id": 345,
+          "paired_goals": 9,
+          "median_origin_seconds": 8.1040031,
+          "max_absolute_residual_seconds": 13.5156323,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1004,
+              "source_seconds": 50.2,
+              "anchor_seconds": 44.7883708,
+              "offset_seconds": -5.4116292,
+              "residual_seconds": -13.5156323
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1345,
+              "source_seconds": 67.25,
+              "anchor_seconds": 75.3860369,
+              "offset_seconds": 8.136036899999993,
+              "residual_seconds": 0.03203379999999356
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2525,
+              "source_seconds": 126.25,
+              "anchor_seconds": 134.380516,
+              "offset_seconds": 8.130516,
+              "residual_seconds": 0.026512900000000172
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3413,
+              "source_seconds": 170.65,
+              "anchor_seconds": 178.7514618,
+              "offset_seconds": 8.101461799999981,
+              "residual_seconds": -0.0025413000000185093
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4007,
+              "source_seconds": 200.35,
+              "anchor_seconds": 208.4540031,
+              "offset_seconds": 8.1040031,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 6,
+              "source_frame": 6077,
+              "source_seconds": 303.85,
+              "anchor_seconds": 311.9647338,
+              "offset_seconds": 8.114733799999954,
+              "residual_seconds": 0.010730699999953686
+            },
+            {
+              "score_total": 7,
+              "source_frame": 7619,
+              "source_seconds": 380.95,
+              "anchor_seconds": 389.0433238,
+              "offset_seconds": 8.093323800000007,
+              "residual_seconds": -0.010679299999992509
+            },
+            {
+              "score_total": 8,
+              "source_frame": 8306,
+              "source_seconds": 415.3,
+              "anchor_seconds": 423.3872897,
+              "offset_seconds": 8.087289699999985,
+              "residual_seconds": -0.016713400000014644
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8783,
+              "source_seconds": 439.15,
+              "anchor_seconds": 447.2836611,
+              "offset_seconds": 8.13366110000004,
+              "residual_seconds": 0.029658000000040374
+            }
+          ],
+          "score_track_sha256": "d74ee67559b3d929a985df4b08440d0dd74ce2992261493fdd1375805cffcc54",
+          "anchor_sha256": "316d6c41e79a5d733392032fe6eeeef3e11773821ae835f1bcafd0fd84968abc"
+        },
+        {
+          "view": 3,
+          "player_id": 346,
+          "paired_goals": 9,
+          "median_origin_seconds": 8.093323800000007,
+          "max_absolute_residual_seconds": 0.04396589999998923,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 734,
+              "source_seconds": 36.7,
+              "anchor_seconds": 44.7883708,
+              "offset_seconds": 8.0883708,
+              "residual_seconds": -0.004953000000007535
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1346,
+              "source_seconds": 67.3,
+              "anchor_seconds": 75.3860369,
+              "offset_seconds": 8.086036899999996,
+              "residual_seconds": -0.007286900000011087
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2526,
+              "source_seconds": 126.3,
+              "anchor_seconds": 134.380516,
+              "offset_seconds": 8.080516000000003,
+              "residual_seconds": -0.012807800000004477
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3413,
+              "source_seconds": 170.65,
+              "anchor_seconds": 178.7514618,
+              "offset_seconds": 8.101461799999981,
+              "residual_seconds": 0.008137999999974
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4007,
+              "source_seconds": 200.35,
+              "anchor_seconds": 208.4540031,
+              "offset_seconds": 8.1040031,
+              "residual_seconds": 0.010679299999992509
+            },
+            {
+              "score_total": 6,
+              "source_frame": 6077,
+              "source_seconds": 303.85,
+              "anchor_seconds": 311.9647338,
+              "offset_seconds": 8.114733799999954,
+              "residual_seconds": 0.021409999999946194
+            },
+            {
+              "score_total": 7,
+              "source_frame": 7619,
+              "source_seconds": 380.95,
+              "anchor_seconds": 389.0433238,
+              "offset_seconds": 8.093323800000007,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 8,
+              "source_frame": 8305,
+              "source_seconds": 415.25,
+              "anchor_seconds": 423.3872897,
+              "offset_seconds": 8.137289699999997,
+              "residual_seconds": 0.04396589999998923
+            },
+            {
+              "score_total": 9,
+              "source_frame": 8784,
+              "source_seconds": 439.2,
+              "anchor_seconds": 447.2836611,
+              "offset_seconds": 8.083661100000029,
+              "residual_seconds": -0.009662699999978486
+            }
+          ],
+          "score_track_sha256": "8321dfa321e00f06616fe9a23e692b024cb7e5258797c0ee8d22f0cb420003b9",
+          "anchor_sha256": "316d6c41e79a5d733392032fe6eeeef3e11773821ae835f1bcafd0fd84968abc"
+        }
+      ],
+      "source_shard": "dataset_00003.tar",
+      "source_shard_sha256": "6488c30cb30a5d0ce6588dc088824be56f78553ac8211cdfc4eb9826b0b45cf1"
+    },
+    {
+      "match_id": "2026-05-14T07-15-40Z-cc6ba1",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 343,
+          "paired_goals": 6,
+          "median_origin_seconds": 8.0911172,
+          "max_absolute_residual_seconds": 0.019918099999998162,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1170,
+              "source_seconds": 58.5,
+              "anchor_seconds": 66.5883756,
+              "offset_seconds": 8.088375600000006,
+              "residual_seconds": -0.0027415999999931273
+            },
+            {
+              "score_total": 2,
+              "source_frame": 2294,
+              "source_seconds": 114.7,
+              "anchor_seconds": 122.7804605,
+              "offset_seconds": 8.080460500000001,
+              "residual_seconds": -0.010656699999998409
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2789,
+              "source_seconds": 139.45,
+              "anchor_seconds": 147.5439765,
+              "offset_seconds": 8.093976500000025,
+              "residual_seconds": 0.002859300000025655
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3933,
+              "source_seconds": 196.65,
+              "anchor_seconds": 204.7438588,
+              "offset_seconds": 8.093858799999992,
+              "residual_seconds": 0.0027415999999931273
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4630,
+              "source_seconds": 231.5,
+              "anchor_seconds": 239.6110353,
+              "offset_seconds": 8.111035299999998,
+              "residual_seconds": 0.019918099999998162
+            },
+            {
+              "score_total": 6,
+              "source_frame": 7527,
+              "source_seconds": 376.35,
+              "anchor_seconds": 384.4253636,
+              "offset_seconds": 8.075363600000003,
+              "residual_seconds": -0.01575359999999648
+            }
+          ],
+          "score_track_sha256": "d6b53b240e0ef2e4684fd39e796b233fdd4122423ba2d0c32a310540cf5c31ac",
+          "anchor_sha256": "d8ef07e34cf7c021d4be2b167f193e3d8f3dacfaec72e2be07e92b38afec90ab"
+        },
+        {
+          "view": 1,
+          "player_id": 347,
+          "paired_goals": 6,
+          "median_origin_seconds": 8.127912050000006,
+          "max_absolute_residual_seconds": 14.416876750000014,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1169,
+              "source_seconds": 58.45,
+              "anchor_seconds": 66.5883756,
+              "offset_seconds": 8.138375600000003,
+              "residual_seconds": 0.010463549999997213
+            },
+            {
+              "score_total": 2,
+              "source_frame": 2293,
+              "source_seconds": 114.65,
+              "anchor_seconds": 122.7804605,
+              "offset_seconds": 8.130460499999998,
+              "residual_seconds": 0.0025484499999919308
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2789,
+              "source_seconds": 139.45,
+              "anchor_seconds": 147.5439765,
+              "offset_seconds": 8.093976500000025,
+              "residual_seconds": -0.03393554999998116
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3932,
+              "source_seconds": 196.6,
+              "anchor_seconds": 204.7438588,
+              "offset_seconds": 8.143858800000004,
+              "residual_seconds": 0.015946749999997678
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4918,
+              "source_seconds": 245.9,
+              "anchor_seconds": 239.6110353,
+              "offset_seconds": -6.288964700000008,
+              "residual_seconds": -14.416876750000014
+            },
+            {
+              "score_total": 6,
+              "source_frame": 7526,
+              "source_seconds": 376.3,
+              "anchor_seconds": 384.4253636,
+              "offset_seconds": 8.125363600000014,
+              "residual_seconds": -0.0025484499999919308
+            }
+          ],
+          "score_track_sha256": "557752f9f5f262fa36d039cf422d5c64caed5487bf328c5d1313164c12a07487",
+          "anchor_sha256": "d8ef07e34cf7c021d4be2b167f193e3d8f3dacfaec72e2be07e92b38afec90ab"
+        },
+        {
+          "view": 2,
+          "player_id": 348,
+          "paired_goals": 6,
+          "median_origin_seconds": 8.127912050000006,
+          "max_absolute_residual_seconds": 0.03405325000001369,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1169,
+              "source_seconds": 58.45,
+              "anchor_seconds": 66.5883756,
+              "offset_seconds": 8.138375600000003,
+              "residual_seconds": 0.010463549999997213
+            },
+            {
+              "score_total": 2,
+              "source_frame": 2293,
+              "source_seconds": 114.65,
+              "anchor_seconds": 122.7804605,
+              "offset_seconds": 8.130460499999998,
+              "residual_seconds": 0.0025484499999919308
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2788,
+              "source_seconds": 139.4,
+              "anchor_seconds": 147.5439765,
+              "offset_seconds": 8.143976500000008,
+              "residual_seconds": 0.016064450000001784
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3933,
+              "source_seconds": 196.65,
+              "anchor_seconds": 204.7438588,
+              "offset_seconds": 8.093858799999992,
+              "residual_seconds": -0.03405325000001369
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4630,
+              "source_seconds": 231.5,
+              "anchor_seconds": 239.6110353,
+              "offset_seconds": 8.111035299999998,
+              "residual_seconds": -0.016876750000008656
+            },
+            {
+              "score_total": 6,
+              "source_frame": 7526,
+              "source_seconds": 376.3,
+              "anchor_seconds": 384.4253636,
+              "offset_seconds": 8.125363600000014,
+              "residual_seconds": -0.0025484499999919308
+            }
+          ],
+          "score_track_sha256": "a112d5c735d94fff694c31b60d968454ed303166a0c0f47606b2fa3010809da2",
+          "anchor_sha256": "d8ef07e34cf7c021d4be2b167f193e3d8f3dacfaec72e2be07e92b38afec90ab"
+        },
+        {
+          "view": 3,
+          "player_id": 349,
+          "paired_goals": 6,
+          "median_origin_seconds": 8.102505900000011,
+          "max_absolute_residual_seconds": 0.02795459999998684,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1170,
+              "source_seconds": 58.5,
+              "anchor_seconds": 66.5883756,
+              "offset_seconds": 8.088375600000006,
+              "residual_seconds": -0.014130300000005036
+            },
+            {
+              "score_total": 2,
+              "source_frame": 2293,
+              "source_seconds": 114.65,
+              "anchor_seconds": 122.7804605,
+              "offset_seconds": 8.130460499999998,
+              "residual_seconds": 0.02795459999998684
+            },
+            {
+              "score_total": 3,
+              "source_frame": 2789,
+              "source_seconds": 139.45,
+              "anchor_seconds": 147.5439765,
+              "offset_seconds": 8.093976500000025,
+              "residual_seconds": -0.008529399999986254
+            },
+            {
+              "score_total": 4,
+              "source_frame": 3933,
+              "source_seconds": 196.65,
+              "anchor_seconds": 204.7438588,
+              "offset_seconds": 8.093858799999992,
+              "residual_seconds": -0.008647100000018781
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4630,
+              "source_seconds": 231.5,
+              "anchor_seconds": 239.6110353,
+              "offset_seconds": 8.111035299999998,
+              "residual_seconds": 0.008529399999986254
+            },
+            {
+              "score_total": 6,
+              "source_frame": 7526,
+              "source_seconds": 376.3,
+              "anchor_seconds": 384.4253636,
+              "offset_seconds": 8.125363600000014,
+              "residual_seconds": 0.02285770000000298
+            }
+          ],
+          "score_track_sha256": "af000cd58a4f51444af3a7f1dd4506117810e62bf90ead9db089deef4bf1357c",
+          "anchor_sha256": "d8ef07e34cf7c021d4be2b167f193e3d8f3dacfaec72e2be07e92b38afec90ab"
+        }
+      ],
+      "source_shard": "dataset_00003.tar",
+      "source_shard_sha256": "6488c30cb30a5d0ce6588dc088824be56f78553ac8211cdfc4eb9826b0b45cf1"
+    },
+    {
+      "match_id": "2026-05-14T13-09-02Z-b9bf35",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 457,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.351714000000015,
+          "max_absolute_residual_seconds": 0.03204410000000735,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1093,
+              "source_seconds": 54.65,
+              "anchor_seconds": 63.0055976,
+              "offset_seconds": 8.355597600000003,
+              "residual_seconds": 0.0038835999999875526
+            },
+            {
+              "score_total": 2,
+              "source_frame": 3472,
+              "source_seconds": 173.6,
+              "anchor_seconds": 181.9196699,
+              "offset_seconds": 8.319669900000008,
+              "residual_seconds": -0.03204410000000735
+            },
+            {
+              "score_total": 3,
+              "source_frame": 4487,
+              "source_seconds": 224.35,
+              "anchor_seconds": 232.7030289,
+              "offset_seconds": 8.353028899999998,
+              "residual_seconds": 0.0013148999999827993
+            },
+            {
+              "score_total": 4,
+              "source_frame": 5586,
+              "source_seconds": 279.3,
+              "anchor_seconds": 287.651714,
+              "offset_seconds": 8.351714000000015,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 7271,
+              "source_seconds": 363.55,
+              "anchor_seconds": 371.8794738,
+              "offset_seconds": 8.329473800000017,
+              "residual_seconds": -0.022240199999998822
+            }
+          ],
+          "score_track_sha256": "3ba4a432ab2d82675760c5202030b1e04c1026b600e2bf9ffbe410500e59a918",
+          "anchor_sha256": "3c6ccc3ffffad77d6744cc5e544638d38753f33186305c44cca51469f21e2e9b"
+        },
+        {
+          "view": 1,
+          "player_id": 461,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.353028899999998,
+          "max_absolute_residual_seconds": 14.273555099999982,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1093,
+              "source_seconds": 54.65,
+              "anchor_seconds": 63.0055976,
+              "offset_seconds": 8.355597600000003,
+              "residual_seconds": 0.0025687000000047533
+            },
+            {
+              "score_total": 2,
+              "source_frame": 3471,
+              "source_seconds": 173.55,
+              "anchor_seconds": 181.9196699,
+              "offset_seconds": 8.369669899999991,
+              "residual_seconds": 0.0166409999999928
+            },
+            {
+              "score_total": 3,
+              "source_frame": 4487,
+              "source_seconds": 224.35,
+              "anchor_seconds": 232.7030289,
+              "offset_seconds": 8.353028899999998,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 4,
+              "source_frame": 5586,
+              "source_seconds": 279.3,
+              "anchor_seconds": 287.651714,
+              "offset_seconds": 8.351714000000015,
+              "residual_seconds": -0.0013148999999827993
+            },
+            {
+              "score_total": 5,
+              "source_frame": 7556,
+              "source_seconds": 377.8,
+              "anchor_seconds": 371.8794738,
+              "offset_seconds": -5.920526199999983,
+              "residual_seconds": -14.273555099999982
+            }
+          ],
+          "score_track_sha256": "6d20f84ad2659f18bd01a58bb8f58b883ab7429af5189a9fc6772f216b668b94",
+          "anchor_sha256": "3c6ccc3ffffad77d6744cc5e544638d38753f33186305c44cca51469f21e2e9b"
+        },
+        {
+          "view": 2,
+          "player_id": 462,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.355597600000003,
+          "max_absolute_residual_seconds": 0.023876200000024994,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1093,
+              "source_seconds": 54.65,
+              "anchor_seconds": 63.0055976,
+              "offset_seconds": 8.355597600000003,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 2,
+              "source_frame": 3471,
+              "source_seconds": 173.55,
+              "anchor_seconds": 181.9196699,
+              "offset_seconds": 8.369669899999991,
+              "residual_seconds": 0.014072299999988047
+            },
+            {
+              "score_total": 3,
+              "source_frame": 4487,
+              "source_seconds": 224.35,
+              "anchor_seconds": 232.7030289,
+              "offset_seconds": 8.353028899999998,
+              "residual_seconds": -0.0025687000000047533
+            },
+            {
+              "score_total": 4,
+              "source_frame": 5586,
+              "source_seconds": 279.3,
+              "anchor_seconds": 287.651714,
+              "offset_seconds": 8.351714000000015,
+              "residual_seconds": -0.0038835999999875526
+            },
+            {
+              "score_total": 5,
+              "source_frame": 7270,
+              "source_seconds": 363.5,
+              "anchor_seconds": 371.8794738,
+              "offset_seconds": 8.379473800000028,
+              "residual_seconds": 0.023876200000024994
+            }
+          ],
+          "score_track_sha256": "125799980f935dd3b98f55f8ede3f4e3cc149a64750f0ac087f7f896a4873cee",
+          "anchor_sha256": "3c6ccc3ffffad77d6744cc5e544638d38753f33186305c44cca51469f21e2e9b"
+        },
+        {
+          "view": 3,
+          "player_id": 463,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.355597600000003,
+          "max_absolute_residual_seconds": 0.023876200000024994,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1093,
+              "source_seconds": 54.65,
+              "anchor_seconds": 63.0055976,
+              "offset_seconds": 8.355597600000003,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 2,
+              "source_frame": 3471,
+              "source_seconds": 173.55,
+              "anchor_seconds": 181.9196699,
+              "offset_seconds": 8.369669899999991,
+              "residual_seconds": 0.014072299999988047
+            },
+            {
+              "score_total": 3,
+              "source_frame": 4487,
+              "source_seconds": 224.35,
+              "anchor_seconds": 232.7030289,
+              "offset_seconds": 8.353028899999998,
+              "residual_seconds": -0.0025687000000047533
+            },
+            {
+              "score_total": 4,
+              "source_frame": 5586,
+              "source_seconds": 279.3,
+              "anchor_seconds": 287.651714,
+              "offset_seconds": 8.351714000000015,
+              "residual_seconds": -0.0038835999999875526
+            },
+            {
+              "score_total": 5,
+              "source_frame": 7270,
+              "source_seconds": 363.5,
+              "anchor_seconds": 371.8794738,
+              "offset_seconds": 8.379473800000028,
+              "residual_seconds": 0.023876200000024994
+            }
+          ],
+          "score_track_sha256": "125799980f935dd3b98f55f8ede3f4e3cc149a64750f0ac087f7f896a4873cee",
+          "anchor_sha256": "3c6ccc3ffffad77d6744cc5e544638d38753f33186305c44cca51469f21e2e9b"
+        }
+      ],
+      "source_shard": "dataset_00003.tar",
+      "source_shard_sha256": "6488c30cb30a5d0ce6588dc088824be56f78553ac8211cdfc4eb9826b0b45cf1"
+    },
+    {
+      "match_id": "2026-05-14T23-00-48Z-f2f4f5",
+      "role": "confirmation",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 440,
+          "paired_goals": 7,
+          "median_origin_seconds": 8.117554399999996,
+          "max_absolute_residual_seconds": 0.024622799999995948,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 285,
+              "source_seconds": 14.25,
+              "anchor_seconds": 22.3657561,
+              "offset_seconds": 8.115756099999999,
+              "residual_seconds": -0.0017982999999972549
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1277,
+              "source_seconds": 63.85,
+              "anchor_seconds": 71.9675544,
+              "offset_seconds": 8.117554399999996,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1968,
+              "source_seconds": 98.4,
+              "anchor_seconds": 106.4929316,
+              "offset_seconds": 8.0929316,
+              "residual_seconds": -0.024622799999995948
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4331,
+              "source_seconds": 216.55,
+              "anchor_seconds": 224.6794111,
+              "offset_seconds": 8.129411099999999,
+              "residual_seconds": 0.011856700000002718
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4858,
+              "source_seconds": 242.9,
+              "anchor_seconds": 251.0325672,
+              "offset_seconds": 8.132567199999983,
+              "residual_seconds": 0.015012799999986726
+            },
+            {
+              "score_total": 6,
+              "source_frame": 5376,
+              "source_seconds": 268.8,
+              "anchor_seconds": 276.920553,
+              "offset_seconds": 8.120552999999973,
+              "residual_seconds": 0.0029985999999766477
+            },
+            {
+              "score_total": 7,
+              "source_frame": 8190,
+              "source_seconds": 409.5,
+              "anchor_seconds": 417.5976581,
+              "offset_seconds": 8.09765809999999,
+              "residual_seconds": -0.019896300000006306
+            }
+          ],
+          "score_track_sha256": "6db1274905103ec85985e2d46d48cc7c85b9be244a45f8b73127073ff1d52a93",
+          "anchor_sha256": "0183210912c8f43a160dbf8d154edf49c69b90584bad0eebdbef888cb7da5d54"
+        },
+        {
+          "view": 1,
+          "player_id": 444,
+          "paired_goals": 7,
+          "median_origin_seconds": 8.129411099999999,
+          "max_absolute_residual_seconds": 0.018247000000002345,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 285,
+              "source_seconds": 14.25,
+              "anchor_seconds": 22.3657561,
+              "offset_seconds": 8.115756099999999,
+              "residual_seconds": -0.013654999999999973
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1277,
+              "source_seconds": 63.85,
+              "anchor_seconds": 71.9675544,
+              "offset_seconds": 8.117554399999996,
+              "residual_seconds": -0.011856700000002718
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1967,
+              "source_seconds": 98.35,
+              "anchor_seconds": 106.4929316,
+              "offset_seconds": 8.142931600000011,
+              "residual_seconds": 0.013520500000012703
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4331,
+              "source_seconds": 216.55,
+              "anchor_seconds": 224.6794111,
+              "offset_seconds": 8.129411099999999,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4858,
+              "source_seconds": 242.9,
+              "anchor_seconds": 251.0325672,
+              "offset_seconds": 8.132567199999983,
+              "residual_seconds": 0.003156099999984008
+            },
+            {
+              "score_total": 6,
+              "source_frame": 5376,
+              "source_seconds": 268.8,
+              "anchor_seconds": 276.920553,
+              "offset_seconds": 8.120552999999973,
+              "residual_seconds": -0.00885810000002607
+            },
+            {
+              "score_total": 7,
+              "source_frame": 8189,
+              "source_seconds": 409.45,
+              "anchor_seconds": 417.5976581,
+              "offset_seconds": 8.147658100000001,
+              "residual_seconds": 0.018247000000002345
+            }
+          ],
+          "score_track_sha256": "9a0a50c0a8c924a863d50ec12dc9aba48e8bd7de8672e90346da56efe7082642",
+          "anchor_sha256": "0183210912c8f43a160dbf8d154edf49c69b90584bad0eebdbef888cb7da5d54"
+        },
+        {
+          "view": 2,
+          "player_id": 445,
+          "paired_goals": 7,
+          "median_origin_seconds": 8.129411099999999,
+          "max_absolute_residual_seconds": 13.546843899999999,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 284,
+              "source_seconds": 14.2,
+              "anchor_seconds": 22.3657561,
+              "offset_seconds": 8.1657561,
+              "residual_seconds": 0.03634500000000074
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1277,
+              "source_seconds": 63.85,
+              "anchor_seconds": 71.9675544,
+              "offset_seconds": 8.117554399999996,
+              "residual_seconds": -0.011856700000002718
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1967,
+              "source_seconds": 98.35,
+              "anchor_seconds": 106.4929316,
+              "offset_seconds": 8.142931600000011,
+              "residual_seconds": 0.013520500000012703
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4331,
+              "source_seconds": 216.55,
+              "anchor_seconds": 224.6794111,
+              "offset_seconds": 8.129411099999999,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 5129,
+              "source_seconds": 256.45,
+              "anchor_seconds": 251.0325672,
+              "offset_seconds": -5.4174328,
+              "residual_seconds": -13.546843899999999
+            },
+            {
+              "score_total": 6,
+              "source_frame": 5376,
+              "source_seconds": 268.8,
+              "anchor_seconds": 276.920553,
+              "offset_seconds": 8.120552999999973,
+              "residual_seconds": -0.00885810000002607
+            },
+            {
+              "score_total": 7,
+              "source_frame": 8189,
+              "source_seconds": 409.45,
+              "anchor_seconds": 417.5976581,
+              "offset_seconds": 8.147658100000001,
+              "residual_seconds": 0.018247000000002345
+            }
+          ],
+          "score_track_sha256": "78f32a9f157569aa04f757d7a16d555debb879019b329e4dcdd04dbe7e37d134",
+          "anchor_sha256": "0183210912c8f43a160dbf8d154edf49c69b90584bad0eebdbef888cb7da5d54"
+        },
+        {
+          "view": 3,
+          "player_id": 446,
+          "paired_goals": 7,
+          "median_origin_seconds": 8.129411099999999,
+          "max_absolute_residual_seconds": 0.018247000000002345,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 285,
+              "source_seconds": 14.25,
+              "anchor_seconds": 22.3657561,
+              "offset_seconds": 8.115756099999999,
+              "residual_seconds": -0.013654999999999973
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1277,
+              "source_seconds": 63.85,
+              "anchor_seconds": 71.9675544,
+              "offset_seconds": 8.117554399999996,
+              "residual_seconds": -0.011856700000002718
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1967,
+              "source_seconds": 98.35,
+              "anchor_seconds": 106.4929316,
+              "offset_seconds": 8.142931600000011,
+              "residual_seconds": 0.013520500000012703
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4331,
+              "source_seconds": 216.55,
+              "anchor_seconds": 224.6794111,
+              "offset_seconds": 8.129411099999999,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 4858,
+              "source_seconds": 242.9,
+              "anchor_seconds": 251.0325672,
+              "offset_seconds": 8.132567199999983,
+              "residual_seconds": 0.003156099999984008
+            },
+            {
+              "score_total": 6,
+              "source_frame": 5376,
+              "source_seconds": 268.8,
+              "anchor_seconds": 276.920553,
+              "offset_seconds": 8.120552999999973,
+              "residual_seconds": -0.00885810000002607
+            },
+            {
+              "score_total": 7,
+              "source_frame": 8189,
+              "source_seconds": 409.45,
+              "anchor_seconds": 417.5976581,
+              "offset_seconds": 8.147658100000001,
+              "residual_seconds": 0.018247000000002345
+            }
+          ],
+          "score_track_sha256": "9a0a50c0a8c924a863d50ec12dc9aba48e8bd7de8672e90346da56efe7082642",
+          "anchor_sha256": "0183210912c8f43a160dbf8d154edf49c69b90584bad0eebdbef888cb7da5d54"
+        }
+      ],
+      "source_shard": "dataset_00005.tar",
+      "source_shard_sha256": "622fd085da9e1dacfdf717b71951c4eec552123829ae1b52bd866e46066f12b2"
+    },
+    {
+      "match_id": "2026-05-15T03-58-02Z-f42fe4",
+      "role": "discovery",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 353,
+          "paired_goals": 2,
+          "median_origin_seconds": 8.11653930000002,
+          "max_absolute_residual_seconds": 0.011697800000014524,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1175,
+              "source_seconds": 58.75,
+              "anchor_seconds": 66.8548415,
+              "offset_seconds": 8.104841500000006,
+              "residual_seconds": -0.011697800000014524
+            },
+            {
+              "score_total": 2,
+              "source_frame": 5719,
+              "source_seconds": 285.95,
+              "anchor_seconds": 294.0782371,
+              "offset_seconds": 8.128237100000035,
+              "residual_seconds": 0.011697800000014524
+            }
+          ],
+          "score_track_sha256": "e0db8d3c87dc3dc2adc693b6f0bc939f7468bc6e580d0b0e7408262db8b08592",
+          "anchor_sha256": "fa772abb316e4ea88f6cd67d84842ef5c1c7551d261826f3cc4b479db9b243db"
+        },
+        {
+          "view": 1,
+          "player_id": 357,
+          "paired_goals": 2,
+          "median_origin_seconds": 8.14153930000002,
+          "max_absolute_residual_seconds": 0.013302199999984055,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1174,
+              "source_seconds": 58.7,
+              "anchor_seconds": 66.8548415,
+              "offset_seconds": 8.154841500000003,
+              "residual_seconds": 0.013302199999984055
+            },
+            {
+              "score_total": 2,
+              "source_frame": 5719,
+              "source_seconds": 285.95,
+              "anchor_seconds": 294.0782371,
+              "offset_seconds": 8.128237100000035,
+              "residual_seconds": -0.013302199999984055
+            }
+          ],
+          "score_track_sha256": "ca767a84d46ceab5d2e90a1cda782f828328a23785266bdfaaeee51c5a4da0d0",
+          "anchor_sha256": "fa772abb316e4ea88f6cd67d84842ef5c1c7551d261826f3cc4b479db9b243db"
+        },
+        {
+          "view": 2,
+          "player_id": 358,
+          "paired_goals": 2,
+          "median_origin_seconds": 8.11653930000002,
+          "max_absolute_residual_seconds": 0.011697800000014524,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1175,
+              "source_seconds": 58.75,
+              "anchor_seconds": 66.8548415,
+              "offset_seconds": 8.104841500000006,
+              "residual_seconds": -0.011697800000014524
+            },
+            {
+              "score_total": 2,
+              "source_frame": 5719,
+              "source_seconds": 285.95,
+              "anchor_seconds": 294.0782371,
+              "offset_seconds": 8.128237100000035,
+              "residual_seconds": 0.011697800000014524
+            }
+          ],
+          "score_track_sha256": "75f68d78e72e0e5b28b81db177ec41129f8bae341f4ad7335f39167ac7b73b85",
+          "anchor_sha256": "fa772abb316e4ea88f6cd67d84842ef5c1c7551d261826f3cc4b479db9b243db"
+        },
+        {
+          "view": 3,
+          "player_id": 359,
+          "paired_goals": 2,
+          "median_origin_seconds": 8.14153930000002,
+          "max_absolute_residual_seconds": 0.013302199999984055,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 1174,
+              "source_seconds": 58.7,
+              "anchor_seconds": 66.8548415,
+              "offset_seconds": 8.154841500000003,
+              "residual_seconds": 0.013302199999984055
+            },
+            {
+              "score_total": 2,
+              "source_frame": 5719,
+              "source_seconds": 285.95,
+              "anchor_seconds": 294.0782371,
+              "offset_seconds": 8.128237100000035,
+              "residual_seconds": -0.013302199999984055
+            }
+          ],
+          "score_track_sha256": "ca767a84d46ceab5d2e90a1cda782f828328a23785266bdfaaeee51c5a4da0d0",
+          "anchor_sha256": "fa772abb316e4ea88f6cd67d84842ef5c1c7551d261826f3cc4b479db9b243db"
+        }
+      ],
+      "source_shard": "dataset_00007.tar",
+      "source_shard_sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec"
+    },
+    {
+      "match_id": "2026-05-15T05-52-52Z-1b82dd",
+      "role": "selection",
+      "views": [
+        {
+          "view": 0,
+          "player_id": 380,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.115702100000007,
+          "max_absolute_residual_seconds": 13.486831900000013,
+          "problems": [],
+          "passes_original_clock_gate": false,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 228,
+              "source_seconds": 11.4,
+              "anchor_seconds": 19.5059631,
+              "offset_seconds": 8.105963099999999,
+              "residual_seconds": -0.009739000000008602
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1074,
+              "source_seconds": 53.7,
+              "anchor_seconds": 61.8259732,
+              "offset_seconds": 8.125973199999997,
+              "residual_seconds": 0.010271099999989985
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1772,
+              "source_seconds": 88.6,
+              "anchor_seconds": 96.7157021,
+              "offset_seconds": 8.115702100000007,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4678,
+              "source_seconds": 233.9,
+              "anchor_seconds": 228.5288702,
+              "offset_seconds": -5.371129800000006,
+              "residual_seconds": -13.486831900000013
+            },
+            {
+              "score_total": 5,
+              "source_frame": 6967,
+              "source_seconds": 348.35,
+              "anchor_seconds": 356.4690698,
+              "offset_seconds": 8.119069799999977,
+              "residual_seconds": 0.0033676999999698864
+            }
+          ],
+          "score_track_sha256": "f484f09a0804917a55c8ee29d1b2322d852e78266579a671aaa78df020b00df6",
+          "anchor_sha256": "51be45b07be811e4506d84c3099838fa199431fb375c5bd0ea333237c4899246"
+        },
+        {
+          "view": 1,
+          "player_id": 384,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.128870199999994,
+          "max_absolute_residual_seconds": 0.04019959999999401,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 227,
+              "source_seconds": 11.35,
+              "anchor_seconds": 19.5059631,
+              "offset_seconds": 8.1559631,
+              "residual_seconds": 0.02709290000000486
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1074,
+              "source_seconds": 53.7,
+              "anchor_seconds": 61.8259732,
+              "offset_seconds": 8.125973199999997,
+              "residual_seconds": -0.002896999999997263
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1772,
+              "source_seconds": 88.6,
+              "anchor_seconds": 96.7157021,
+              "offset_seconds": 8.115702100000007,
+              "residual_seconds": -0.013168099999987248
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4408,
+              "source_seconds": 220.4,
+              "anchor_seconds": 228.5288702,
+              "offset_seconds": 8.128870199999994,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 5,
+              "source_frame": 6966,
+              "source_seconds": 348.3,
+              "anchor_seconds": 356.4690698,
+              "offset_seconds": 8.169069799999988,
+              "residual_seconds": 0.04019959999999401
+            }
+          ],
+          "score_track_sha256": "8e3eb3c6e44a0bc343b7d33a282296b894597f2f2c45a747b0e5445af7a4f3a6",
+          "anchor_sha256": "51be45b07be811e4506d84c3099838fa199431fb375c5bd0ea333237c4899246"
+        },
+        {
+          "view": 2,
+          "player_id": 385,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.125973199999997,
+          "max_absolute_residual_seconds": 0.029989900000002123,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 227,
+              "source_seconds": 11.35,
+              "anchor_seconds": 19.5059631,
+              "offset_seconds": 8.1559631,
+              "residual_seconds": 0.029989900000002123
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1074,
+              "source_seconds": 53.7,
+              "anchor_seconds": 61.8259732,
+              "offset_seconds": 8.125973199999997,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1772,
+              "source_seconds": 88.6,
+              "anchor_seconds": 96.7157021,
+              "offset_seconds": 8.115702100000007,
+              "residual_seconds": -0.010271099999989985
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4408,
+              "source_seconds": 220.4,
+              "anchor_seconds": 228.5288702,
+              "offset_seconds": 8.128870199999994,
+              "residual_seconds": 0.002896999999997263
+            },
+            {
+              "score_total": 5,
+              "source_frame": 6967,
+              "source_seconds": 348.35,
+              "anchor_seconds": 356.4690698,
+              "offset_seconds": 8.119069799999977,
+              "residual_seconds": -0.006903400000020099
+            }
+          ],
+          "score_track_sha256": "c4402c3e1b5fdb57b7d43fd64a7a2debcd3211b223a71d9406e71a322a50e022",
+          "anchor_sha256": "51be45b07be811e4506d84c3099838fa199431fb375c5bd0ea333237c4899246"
+        },
+        {
+          "view": 3,
+          "player_id": 386,
+          "paired_goals": 5,
+          "median_origin_seconds": 8.125973199999997,
+          "max_absolute_residual_seconds": 0.029989900000002123,
+          "problems": [],
+          "passes_original_clock_gate": true,
+          "goal_pairs": [
+            {
+              "score_total": 1,
+              "source_frame": 227,
+              "source_seconds": 11.35,
+              "anchor_seconds": 19.5059631,
+              "offset_seconds": 8.1559631,
+              "residual_seconds": 0.029989900000002123
+            },
+            {
+              "score_total": 2,
+              "source_frame": 1074,
+              "source_seconds": 53.7,
+              "anchor_seconds": 61.8259732,
+              "offset_seconds": 8.125973199999997,
+              "residual_seconds": 0.0
+            },
+            {
+              "score_total": 3,
+              "source_frame": 1772,
+              "source_seconds": 88.6,
+              "anchor_seconds": 96.7157021,
+              "offset_seconds": 8.115702100000007,
+              "residual_seconds": -0.010271099999989985
+            },
+            {
+              "score_total": 4,
+              "source_frame": 4408,
+              "source_seconds": 220.4,
+              "anchor_seconds": 228.5288702,
+              "offset_seconds": 8.128870199999994,
+              "residual_seconds": 0.002896999999997263
+            },
+            {
+              "score_total": 5,
+              "source_frame": 6967,
+              "source_seconds": 348.35,
+              "anchor_seconds": 356.4690698,
+              "offset_seconds": 8.119069799999977,
+              "residual_seconds": -0.006903400000020099
+            }
+          ],
+          "score_track_sha256": "c4402c3e1b5fdb57b7d43fd64a7a2debcd3211b223a71d9406e71a322a50e022",
+          "anchor_sha256": "51be45b07be811e4506d84c3099838fa199431fb375c5bd0ea333237c4899246"
+        }
+      ],
+      "source_shard": "dataset_00007.tar",
+      "source_shard_sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec"
+    }
+  ]
+}

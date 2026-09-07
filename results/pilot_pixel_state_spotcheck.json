@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-09-07T00:05:18.465159+00:00",
+  "selection": "first frame of the first predetermined reserved pilot clip, all four views",
+  "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+  "source_frame": 336,
+  "artifact_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+  "pilot_manifest_sha256": "27c2c85313955e7e73117de5bf996a01d2e8729946048bf788268a0144a8d857",
+  "image_path": "/data2/ishaangp/mira-interp/pilot_four_views.png",
+  "image_sha256": "f17c9e3cf8792187f09491aa5922c16993e1c5fca3e763f17fb17efcd3ac66e3",
+  "observations": [
+    {
+      "view": 0,
+      "player_id": 302,
+      "observed_hud_boost_integer": 81,
+      "physics_boost_percent": 81.54229521751404,
+      "floor_boost_matches": true,
+      "observed_team_color": "blue",
+      "physics_team": 0,
+      "observed_score_blue": 0,
+      "observed_score_orange": 0,
+      "physics_score_blue": 0,
+      "physics_score_orange": 0
+    },
+    {
+      "view": 1,
+      "player_id": 306,
+      "observed_hud_boost_integer": 96,
+      "physics_boost_percent": 96.66998386383057,
+      "floor_boost_matches": true,
+      "observed_team_color": "orange",
+      "physics_team": 1,
+      "observed_score_blue": 0,
+      "observed_score_orange": 0,
+      "physics_score_blue": 0,
+      "physics_score_orange": 0
+    },
+    {
+      "view": 2,
+      "player_id": 307,
+      "observed_hud_boost_integer": 0,
+      "physics_boost_percent": 0.0,
+      "floor_boost_matches": true,
+      "observed_team_color": "blue",
+      "physics_team": 0,
+      "observed_score_blue": 0,
+      "observed_score_orange": 0,
+      "physics_score_blue": 0,
+      "physics_score_orange": 0
+    },
+    {
+      "view": 3,
+      "player_id": 308,
+      "observed_hud_boost_integer": 4,
+      "physics_boost_percent": 4.087474942207336,
+      "floor_boost_matches": true,
+      "observed_team_color": "orange",
+      "physics_team": 1,
+      "observed_score_blue": 0,
+      "observed_score_orange": 0,
+      "physics_score_blue": 0,
+      "physics_score_orange": 0
+    }
+  ],
+  "interpretation": "The observed boost/team/score fields support own-view frame-to-physics row correspondence for this four-view pilot snapshot.",
+  "limitations": [
+    "This single manual spotcheck does not establish complete frame-exact 3D alignment or camera calibration.",
+    "The physics JSONL has no per-row timestamp; complete correspondence still partly relies on the publisher export contract.",
+    "The visible clock reads4:42 while the local physics clock is281.089s; subsecond HUD quantization or display delay has not been calibrated.",
+    "This is engineering data validation, not evidence of a model representation."
+  ]
+}

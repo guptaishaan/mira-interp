@@ -1,0 +1,17 @@
+{
+  "original_protocol_status": "FAILED_DATA_GATE",
+  "parent_artifact_sha256": {
+    "configs/observational_probe_v1.json": "2437f915ceb14a10c33a6b003b7273ee6ba135e8495d4b15b03ff72f0edbd6a3",
+    "data/clip_manifest.json": "10f314067298bced0c0035d6b21e7e9abb188313749cd6b137f50c32fbe986bf",
+    "data/split_manifest.json": "fa47137ab1034cd4cc3b69d165a5d8dfb8a9ef9d70fa093869f0a05d4289922e",
+    "results/cohort_data_audit.json": "01a8d55c39cfcd22147c18271a1b9cd4575f696b1ca0299d84283c25ce805893"
+  },
+  "protocol_path": "configs/observational_probe_v2.json",
+  "qualified_cohort_sha256": "0d2839314f3f54d136384e230657e92a7c5ba874a63174842856ad8c05ea6d78",
+  "qualified_split_manifest_path": "data/qualified_split_manifest.json",
+  "qualified_split_manifest_sha256": "6f7b1b48f815c5681b1a966eca1ca4726815eacd04cf51fb3555a531358bd5fd",
+  "registered_at_utc": "2026-09-07T00:05:44.301529+00:00",
+  "registration_script_sha256": "9128222a45f6cae11c33f900c4be42447f89201439b27e2d80d679cc983a39f4",
+  "sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "state": "REGISTERED_BEFORE_RESEARCH_CAPTURE_AND_FITTING"
+}

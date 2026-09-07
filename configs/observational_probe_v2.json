@@ -1,0 +1,224 @@
+{
+  "capture": {
+    "dtype_storage": "float16; pooled in float32",
+    "mode": "teacher_forced_noisy_reconstruction",
+    "no_predictive_claim": true,
+    "noise": "fixed SHA256-derived per-clip seed",
+    "readout": "spatial mean within each view tile, channel dimension2048",
+    "row_order": "clip order, then view major, then latent time",
+    "sites": [
+      "block_0_input",
+      "block_0_output",
+      "block_1_output",
+      "block_2_output",
+      "block_3_output",
+      "block_4_output",
+      "block_5_output",
+      "block_6_output",
+      "block_7_output",
+      "block_8_output",
+      "block_9_output",
+      "block_10_output",
+      "block_11_output",
+      "block_12_output",
+      "block_13_output",
+      "block_14_output",
+      "block_15_output"
+    ],
+    "target_alignment": "each view own source frame2*t+1 for temporal codec pair t",
+    "tau": 0.5
+  },
+  "cohort": {
+    "amendment": {
+      "excluded_matches": [
+        {
+          "match_id": "2026-05-12T05-37-07Z-d83e77",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-13T18-00-40Z-71cb6b",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-14T06-22-31Z-04ba16",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-14T07-15-40Z-cc6ba1",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-14T13-09-02Z-b9bf35",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-14T23-00-48Z-f2f4f5",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "confirmation",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-15T03-58-02Z-f42fe4",
+          "message": "fewer than three unambiguous goal anchors; trimmed source origin is unknown",
+          "original_role": "discovery",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        },
+        {
+          "match_id": "2026-05-15T05-52-52Z-1b82dd",
+          "message": "score-anchor timestamp residual exceeds frozen 0.1 second tolerance",
+          "original_role": "selection",
+          "stage": "source_clock_calibration",
+          "type": "ValueError"
+        }
+      ],
+      "inclusion_rule": "Every original research match that passes all unchanged source-quality gates and all eight prescribed clips; original roles retained, no replacement or rebalancing.",
+      "limits": [
+        "The estimand is the quality-qualified subset, not all Rocket Science matches.",
+        "Clock qualification can bias toward matches with at least three recorded goals and consistent clients.",
+        "Frozen-state and demolition filtering further restricts the sampled live-play population.",
+        "31/11/11 matches satisfy operational minima; this is not an a priori power calculation.",
+        "Own-view one-to-one video/state alignment is a publisher assumption plus count/PTS/identity checks; zero visual-state latency is not independently established.",
+        "Shared players can occur across matches; match-disjoint does not mean player-disjoint.",
+        "Recorded observations are not single-variable simulator counterfactuals."
+      ],
+      "original_protocol_status": "FAILED_DATA_GATE",
+      "parent_artifact_sha256": {
+        "configs/observational_probe_v1.json": "2437f915ceb14a10c33a6b003b7273ee6ba135e8495d4b15b03ff72f0edbd6a3",
+        "data/clip_manifest.json": "10f314067298bced0c0035d6b21e7e9abb188313749cd6b137f50c32fbe986bf",
+        "data/split_manifest.json": "fa47137ab1034cd4cc3b69d165a5d8dfb8a9ef9d70fa093869f0a05d4289922e",
+        "results/cohort_data_audit.json": "01a8d55c39cfcd22147c18271a1b9cd4575f696b1ca0299d84283c25ce805893"
+      },
+      "reason": "Original 61-match quality gate failed: 7 inconsistent score clocks and 1 insufficient-anchor match. Separate quality-qualified observational cohort before any research capture or fit.",
+      "registered_at_utc": "2026-09-07T00:05:44.301529+00:00",
+      "research_capture_or_probe_performance_used": false,
+      "timing_gates": {
+        "maximum_clock_residual_seconds": 0.1,
+        "minimum_goal_pairs_per_view": 3
+      }
+    },
+    "balanced_manifest_sha256": "0d2839314f3f54d136384e230657e92a7c5ba874a63174842856ad8c05ea6d78",
+    "confirmation": 11,
+    "discovery": 31,
+    "pilot": 1,
+    "selection": 11,
+    "source": "Exactly all quality-passing members of the original official-test cohort"
+  },
+  "later_stages": {
+    "causal_identification": "pending controlled-pair/evaluator gates",
+    "geometry": "not run",
+    "sparse_features": "not run",
+    "steering": "not run"
+  },
+  "model": "Alakazam MIRA Mini 4P 1B independent reproduction",
+  "model_revision": "d58ee2f9bca27289554c1e652943dc0e539e8971",
+  "probes": {
+    "alphas": [
+      0.1,
+      1,
+      10,
+      100,
+      1000
+    ],
+    "baselines": [
+      "discovery mean",
+      "codec per-view mean32D",
+      "optional per-view RGB8x8 descriptor192D",
+      "whole-match training-label shuffle with within-match row order preserved"
+    ],
+    "minimum_match_counts": [
+      30,
+      10,
+      10
+    ],
+    "model": "linear ridge with intercept",
+    "refit_with_selection": false,
+    "selection": "minimize mean standardized30-target selection MSE per site; freeze global best site before confirmation",
+    "standardization": "discovery only, features and labels",
+    "weights": "equal weight per match, sum weights=1"
+  },
+  "reason_for_adjustment": "Original 61-match quality gate failed: 7 inconsistent score clocks and 1 insufficient-anchor match. Separate quality-qualified observational cohort before any research capture or fit.",
+  "registration_basis": "After full source-quality audit, before any research activation capture, probe fitting, selection, or confirmation",
+  "reporting": {
+    "all_sites": true,
+    "all_targets": true,
+    "causal_stage_gate": "confirmed candidate plus controlled-pair audit and independent generated-video physical evaluator; observational probe accuracy alone cannot satisfy this",
+    "metrics": [
+      "raw-unit MAE",
+      "raw-unit RMSE",
+      "R2",
+      "standardized MSE"
+    ],
+    "population": "Only quality-qualified matches and eligible live clips; original 61-match plan failed its data gate",
+    "significance": "confidence intervals descriptive; no family-wide physical or causal significance claim from all-site curves",
+    "uncertainty": "bootstrap independent matches; views and frames are repeated observations"
+  },
+  "sampling": {
+    "clips_per_match": 8,
+    "eligibility": "deterministic uniformly spaced live chunks after integrity filtering; any insufficiency blocks the cohort",
+    "fps": 20,
+    "frames_per_clip": 16,
+    "independent_unit": "match",
+    "players": 4,
+    "repeated_measurements": [
+      "clip",
+      "view",
+      "latent_frame"
+    ],
+    "resolution": [
+      288,
+      512
+    ]
+  },
+  "scope": "Quality-qualified observational, teacher-forced physical-state reconstruction decoding only",
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "targets": [
+    "ball.location.x",
+    "ball.location.y",
+    "ball.location.z",
+    "ball.velocity.x",
+    "ball.velocity.y",
+    "ball.velocity.z",
+    "player0.location.x",
+    "player0.location.y",
+    "player0.location.z",
+    "player0.velocity.x",
+    "player0.velocity.y",
+    "player0.velocity.z",
+    "player1.location.x",
+    "player1.location.y",
+    "player1.location.z",
+    "player1.velocity.x",
+    "player1.velocity.y",
+    "player1.velocity.z",
+    "player2.location.x",
+    "player2.location.y",
+    "player2.location.z",
+    "player2.velocity.x",
+    "player2.velocity.y",
+    "player2.velocity.z",
+    "player3.location.x",
+    "player3.location.y",
+    "player3.location.z",
+    "player3.velocity.x",
+    "player3.velocity.y",
+    "player3.velocity.z"
+  ],
+  "version": 2
+}
