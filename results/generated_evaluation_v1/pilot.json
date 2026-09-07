@@ -1,0 +1,74 @@
+{
+  "status": "passed_frozen_generated_video_evaluation",
+  "phase": "pilot",
+  "records": 2,
+  "protocol_sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+  "generation_manifest_sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b",
+  "generation_audit_sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc",
+  "prediction_artifact": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v1/pilot_predictions.npz",
+    "sha256": "e66518158152b944ce85ec2fcbf7691da80faeef8684212304a7b1a70dd10f82"
+  },
+  "evaluator": {
+    "checkpoint_sha256": "668858de6257b94a4a6544a193d7f8e83876f3a7771ac8297afd7551efc52539",
+    "analysis_sha256": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e",
+    "training_registration_sha256": "3ba4b9434040d9c9af1fcac3a8d05c4f6242ea0117c65fe3c118bd09d456db1d",
+    "encoder": {
+      "model": "MCG-NJU/videomae-base",
+      "revision": "dc740ceda42fce44faed2ea03c6d447db72f6af9",
+      "weight_sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290",
+      "strict_loaded_tensors": 266,
+      "original_checkpoint_tensors": 250,
+      "converted_attention_modules": 16,
+      "bias_conversion_max_abs_error": 0.0,
+      "bias_conversion_source": "https://github.com/huggingface/transformers/blob/v4.22.0/src/transformers/models/videomae/modeling_videomae.py",
+      "encoder_parameters": 86236416,
+      "transformers_version": "5.14.1",
+      "torch_version": "2.9.0+cu126",
+      "config_sha256": "5fbedfea3706bd9fe6c0dc706beeb501ae72e4954703e03bebe3406f046f8212",
+      "processor_config_sha256": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2",
+      "frozen_encoder": true,
+      "has_cls_token": false,
+      "tubelets": 8,
+      "spatial_grid": [
+        14,
+        14
+      ],
+      "readout": "last tubelet,3x4 spatial bins,all768 channels;9216D",
+      "preprocessing": "full-frame224x224 FP32 bilinear antialias; no center crop; published mean/std",
+      "domain_limit": "codec reconstructions do not establish reliability on generated or intervened videos"
+    },
+    "target_names": [
+      "ego.location.x",
+      "ego.location.y",
+      "ego.location.z",
+      "ego.velocity.x",
+      "ego.velocity.y",
+      "ego.velocity.z",
+      "ball_minus_ego.location.x",
+      "ball_minus_ego.location.y",
+      "ball_minus_ego.location.z",
+      "ball_minus_ego.velocity.x",
+      "ball_minus_ego.velocity.y",
+      "ball_minus_ego.velocity.z"
+    ],
+    "window_end_frames": [
+      17,
+      19,
+      21,
+      23
+    ],
+    "input_video_range": [
+      0,
+      1
+    ],
+    "claim_limit": "Independent learned video estimates; no generated/intervened3D accuracy established"
+  },
+  "generated_video_accuracy_established": false,
+  "physical_control_established": false,
+  "elapsed_seconds": 5.253793831914663,
+  "peak_gpu_allocated_bytes": 1634317824,
+  "any_context_pixels_changed": false,
+  "engineering_only": true,
+  "repeated_predictions_bitwise_equal": true
+}

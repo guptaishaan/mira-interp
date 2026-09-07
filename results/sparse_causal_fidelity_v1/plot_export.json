@@ -1,0 +1,14 @@
+{
+  "status": "passed_audited_plot_export",
+  "fidelity_results_sha256": "0c6787a0e1e4ffc1fb16824dbba8af8d65f43d14e4862043bec1b0a612a1a62c",
+  "fidelity_audit_sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2",
+  "script_sha256": "243a0c2b4d4150e13f170b6e74792f46854ed044a7ea8e6cd9c99d746a4fa91d",
+  "artifacts": {
+    "recipient_reconstruction_fidelity.png": "186dd685577d4192025d4c56ed81c42f31b1069f93ebc9b9cedfba60b521e544",
+    "recipient_reconstruction_fidelity.pdf": "ee168983765b3527a1968a72343e411fee19161a52dd96c291f03ed0b77c8d02",
+    "donor_reconstruction_fidelity.png": "3ce5fa57e892770da3904ecf987f5dbb985c8b4d8a3e40320c49591d181ae5bd",
+    "donor_reconstruction_fidelity.pdf": "26ea30a7150bca0830d16dae73134afb57df888cd94c101ed2176173b4822259"
+  },
+  "all_dictionary_seeds_retained": true,
+  "physical_control_claim": false
+}

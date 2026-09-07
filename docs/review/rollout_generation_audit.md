@@ -18,3 +18,11 @@ NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/pyth
 ```
 
 Use `selection` or `confirmation` for subsequent phases. Successful output is `results/rollout_steering_v1/{phase}_audit.json` with status `passed_rollout_generation_audit` and the exact completed `manifest_sha256`. Existing audit files are not overwritten. CPU tests deliberately corrupt cache timing, action-hash format, target call, latent order, and array-comparison inputs, and verify the independent descriptor/lift right-inverse relation. No generated experiment is implied by those tests.
+
+## Completed reserved pilot
+
+The corrected registered pilot completed five inferences and passed the independent CPU audit in 1.99 seconds. `results/rollout_steering_v1/pilot_audit.json` has SHA256 `c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc` and binds pilot manifest `99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b`. Both saved conditions passed all trace, source/action, array, context, and intervention-metric checks. The four control hashes matched. The +300 requested edit had effective dose +300, with realized residual edit L2 6.08856 and requested lift L2 6.01542. The descriptor rounding-error L2 was 0.05751.
+
+The pilot used 12.702 GB peak allocated GPU memory. Its two compressed saved outputs total 72.46 MB; recorded individual control inference times were 5.15–7.34 seconds. These are reserved engineering measurements, not a statistical steering result. The initial failed attempt used uint8 actions directly as embedding indices and is preserved under `results/rollout_attempts/01_action_dtype`; the rerun casts those unchanged binary values to int32 before the upstream action encoder.
+
+The saved trace records BF16 latent/tau dtype, but the original producer does not separately persist the intervened block-output dtype. The auditor's BF16 rounding bound is therefore conservative if the residual used a more precise dtype. Actual saved tile differences, descriptors, and norm/proxy metrics are still recomputed directly. This limitation does not establish or refute a physical intervention effect.

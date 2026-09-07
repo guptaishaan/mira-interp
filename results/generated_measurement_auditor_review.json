@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "scope": "independent source review and synthetic no-GPU tests; no generated outcomes read",
+  "reviewer": "data_stage",
+  "code_sha256": {
+    "scripts/audit_generated_measurements.py": "92a1fb7afe11d05a5019d6c67b15881f734ea234472a8c0e46d29a73b9b0e31d",
+    "tests/test_generated_measurement_audit.py": "b6ed7cc1412f5c8755bde5cb577ab81e128dc90698ca0a86018782497426d18b"
+  },
+  "tests_passed": 5,
+  "test_log_sha256": "c0964ffc85325b91914057c5a569780d0149da2f1265407164b39ca6cc0f9f12",
+  "producer_code_review_sha256": "f39e0ee1b783a303e83c12886ee23f0e678204d088f45767ffc4fa1a591fb269",
+  "independent_formulas": [
+    "Explicit six-plus-six absolute ball coordinates",
+    "Scalar-loop collateral over exact eleven role coordinates",
+    "Average-tie rank computation without producer rankdata helper",
+    "Within-match seed averages then equal-match bootstrap",
+    "Random/wrong-variable paired contrasts"
+  ],
+  "pilot_repeat_limit": "Producer repeat equality attested by frozen execution; separate repeat arrays absent and auditor does not rerun VideoMAE",
+  "generated_measurements_audited": false
+}

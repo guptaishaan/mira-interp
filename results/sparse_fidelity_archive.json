@@ -1,0 +1,17 @@
+{
+  "status": "passed_derived_sparse_fidelity_archive",
+  "archive_path": "/data2/ishaangp/mira-interp/publication/mira_sparse_conditional_fidelity_v1.tar.gz",
+  "archive_sha256": "91c5c38bc8d43a98087f3f720dc4b677e300926946bcd796707ad939e1659b56",
+  "archive_bytes": 460616978,
+  "members_verified": 65,
+  "tensor_archives_verified": 23,
+  "arrays_verified": 3013,
+  "registration_sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1",
+  "fidelity_audit_sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2",
+  "all_members_and_arrays_read_back": true,
+  "source_physical_labels_included": false,
+  "source_actions_or_video_included": false,
+  "physical_control_established": false,
+  "script_sha256": "5f203ccb50eb61fc43f2244693288cd660bc3554665f26cfdb8023c04b2d02e7",
+  "elapsed_seconds": 30.15185058116913
+}

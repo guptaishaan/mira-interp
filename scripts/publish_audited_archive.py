@@ -44,6 +44,10 @@ def main():
         raise RuntimeError("Publication report is immutable; inspect the completed record")
     report_hash, notes_hash = sha(args.archive_report), sha(args.notes_file)
     source = json.loads(args.archive_report.read_text())
+    if source["status"] == "passed_derived_sparse_fidelity_archive":
+        if not source["all_members_and_arrays_read_back"] or source["tensor_archives_verified"] != 23 or source["arrays_verified"] != 3013:
+            raise RuntimeError("Sparse fidelity archive readback is incomplete")
+        source = {**source, "status":"passed"}
     if source["status"] == "passed_derived_artifact_release_audit":
         if not (source["all_members_readback_verified"] and source["all_included_derived_source_hashes_verified"]):
             raise RuntimeError("Derived archive readback/provenance audit is incomplete")

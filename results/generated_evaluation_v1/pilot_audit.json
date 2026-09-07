@@ -1,0 +1,123 @@
+{
+  "status": "passed_generated_measurement_audit",
+  "phase": "pilot",
+  "evaluation_sha256": "565703ca9416d7a288cabf02961f0b8776ac9e5e42fa5c0aa4e7131e0b2e90ac",
+  "protocol_sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+  "generation_manifest_sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b",
+  "generation_audit_sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc",
+  "prediction_artifact_sha256": "e66518158152b944ce85ec2fcbf7691da80faeef8684212304a7b1a70dd10f82",
+  "checkpoint_sha256": "668858de6257b94a4a6544a193d7f8e83876f3a7771ac8297afd7551efc52539",
+  "all_cache_predictions_exact": true,
+  "all_record_source_seed_joins_exact": true,
+  "all_absolute_ball_coordinates_recomputed": true,
+  "frozen_calibration_scale_exact": true,
+  "all_summary_metrics_independently_recomputed": false,
+  "new_model_execution_or_adaptation": false,
+  "generated_video_accuracy_established": false,
+  "physical_control_established": false,
+  "pilot_repeat_verification": "Attested by frozen producer execution and its recorded equality flag; repeated prediction arrays are not separately retained or independently rerun.",
+  "records_checked": 2,
+  "cache_records": [
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "path": "/data2/ishaangp/mira-interp/generated_evaluation_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "sha256": "2b26b3d461e25812e10f1f99af1efe3cda8288969b00fcff1af3f82d0b19755b",
+      "generated_sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4"
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "path": "/data2/ishaangp/mira-interp/generated_evaluation_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "sha256": "dc73cd917ba65a015934713ffb1aa81701c1b448ea25d91d538f486144216a40",
+      "generated_sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec"
+    }
+  ],
+  "matches": 1,
+  "audit_script_sha256": "92a1fb7afe11d05a5019d6c67b15881f734ea234472a8c0e46d29a73b9b0e31d",
+  "elapsed_seconds": 0.248,
+  "artifact_bindings": [
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/audit_generated_measurements.py",
+      "sha256": "92a1fb7afe11d05a5019d6c67b15881f734ea234472a8c0e46d29a73b9b0e31d"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/package_development.py",
+      "sha256": "b0881339e37d2c6f46e1e01ea1d1cfd8353941778f7dc3a72a85791a9a6cf536"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/configs/generated_evaluation_v1.json",
+      "sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/evaluate_rollouts.py",
+      "sha256": "4855d35c28a6e3e02f11772d09fe18e595eedc70016cecf5b3cf49972655763e"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/rollout_evaluator.py",
+      "sha256": "185d62ae2b5536b3f0bab9ab8d19fa42a6cebfd0d65849c9167e2c857598859a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator.py",
+      "sha256": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator_finetune.py",
+      "sha256": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator_training.py",
+      "sha256": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_code_review.json",
+      "sha256": "f39e0ee1b783a303e83c12886ee23f0e678204d088f45767ffc4fa1a591fb269"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/tests/test_generated_evaluation.py",
+      "sha256": "0759000da4a4b9e15b8b506d83870d0639e689bc1a8577ce2f6023da9d649414"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/videomae_finetune_v1.json",
+      "sha256": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/videomae_finetune_v1_audit.json",
+      "sha256": "7f3d3f1af97d7facd9218f4958496f92992c6746f2dd162a545966a018fc49e2"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/video_evaluator_v1/partial_finetune/fit_v1/step500.pt",
+      "sha256": "668858de6257b94a4a6544a193d7f8e83876f3a7771ac8297afd7551efc52539"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v1/pilot.json",
+      "sha256": "565703ca9416d7a288cabf02961f0b8776ac9e5e42fa5c0aa4e7131e0b2e90ac"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot.json",
+      "sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot_audit.json",
+      "sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v1/pilot_predictions.npz",
+      "sha256": "e66518158152b944ce85ec2fcbf7691da80faeef8684212304a7b1a70dd10f82"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/generated_evaluation_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "sha256": "2b26b3d461e25812e10f1f99af1efe3cda8288969b00fcff1af3f82d0b19755b"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/generated_evaluation_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "sha256": "dc73cd917ba65a015934713ffb1aa81701c1b448ea25d91d538f486144216a40"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-# Sparse dictionary causal fidelity: prepared protocol
+# Sparse dictionary conditional causal fidelity
 
-**Status: registered; reserved GPU pilot and its independent audit passed;
-full 22-pair evaluation is running.** All 30 trained dictionaries passed their
+**Status: complete and independently audited: 22 paired-seed examples from
+11 matches, 30 dictionaries, and 1364 dictionary/control conditions.** All 30 trained dictionaries passed their
 independent reconstruction audit before registration. This extends the completed internal causal test in
 [docs09](../09_internal_causal_development.md), whose original discovery ranking
 fixed block 15 output. It does not establish physical trajectory control.
@@ -97,7 +97,7 @@ experiment record.
 
 The protocol was registered with SHA256
 `65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1`.
-The reserved pilot completed all 62 conditions with exit0, 29.43 seconds after
+The reserved pilot completed all 62 conditions with exit 0, 29.43 seconds after
 loading and final checks, and 10.52 GiB peak allocated GPU memory. Its native
 baseline, native donor and zero-lift replay controls were bitwise exact. The
 maximum descriptor round-trip absolute error was 1.67×10⁻⁶. Its 18.87 MiB
@@ -110,7 +110,63 @@ The independent pilot audit passed all 62 conditions in 5.58 seconds. Its
 maximum independently reconstructed descriptor difference was 4.77×10⁻⁷ and
 maximum recomputed objective-gain difference was 4.86×10⁻¹⁶. The audit SHA256 is
 `4e05a827d4b548091919d6c76bcbb0e6c39324ff188fdad6201e1517d9478dc9`.
-The full study subsequently started on GPU7 in durable tmux session
-`mira_sparse_fidelity_full`; `evaluate.log` and `evaluate.exit` record progress
-and process completion. Full scientific comparisons require the final output
-and its independent audit, not the presence of a running session.
+The full study ran on GPU7 in durable tmux session `mira_sparse_fidelity_full`
+and completed with exit 0 in 573.38 seconds after loading. Peak allocated GPU
+memory remained 10.52 GiB. `evaluate.log` and `evaluate.exit` retain the execution
+record. The independent full audit passed all 1364 conditions, all source
+time/entity joins, 62 match summaries and 60 paired mean-control comparisons in
+52.71 seconds. Maximum independently reconstructed descriptor difference was
+8.34×10⁻⁷; maximum objective-gain difference was 7.11×10⁻¹⁵. Native reference
+replays were exact, and earlier flow frames remained bitwise unchanged.
+
+The full result SHA256 is
+`0c6787a0e1e4ffc1fb16824dbba8af8d65f43d14e4862043bec1b0a612a1a62c`;
+the independent audit SHA256 is
+`321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2`.
+
+## What the mean controls show
+
+The dictionaries improve conditional reconstruction, but most of the average
+full-donor effect survives even when the entire descriptor is replaced by its
+discovery mean. The original full-donor standardized error gain is 0.682834.
+The mean-descriptor donor control gives 0.672032; its difference from the native
+effect is −0.010802, with descriptive 95% interval [−0.035499,0.006261]. Its two-seed
+mean is positive in 6/11 matches, exactly as for the original full donor.
+
+| Donor reconstruction measure | Shared discovery-mean control | Range across all 30 dictionaries |
+| --- | ---: | ---: |
+| Standardized donor-error gain | 0.672032 | 0.678243–0.685742 |
+| Difference from native full-donor gain | −0.010802 | −0.004592–0.002908 |
+| Full-flow L2 distance from native donor output | 3.50649 | 2.59503–2.90289 |
+| Descriptor reconstruction RMSE | 0.535831 | 0.408295–0.448925 |
+| Matches with positive donor-error gain | 6/11 | 6/11 for every dictionary |
+
+Relative to the mean control, dictionary mean donor-objective gains increase
+by 0.006211–0.013710 standardized units. Their paired improvement in absolute
+deviation from the native gain is 0.005917–0.012570. The match intervals are
+wide: many include zero. All per-model intervals and per-match values are
+retained, and there is no multiplicity-adjusted claim or outcome-selected
+dictionary winner. Improved descriptor reconstruction is therefore accompanied
+by a modest improvement in conditional output fidelity; it does not explain
+the large original donor effect by itself.
+
+For recipient reconstruction, the shared mean descriptor changes the donor
+objective by +0.004890[−0.006915,0.019669] relative to the native recipient.
+Dictionary changes range from −0.001940 to +0.008647. They reduce full-flow
+distance from 3.70940 for the mean control to 2.75949–3.17981, and descriptor
+RMSE from 0.566418 to 0.441285–0.493901. Recipient-objective changes are not a
+physical-accuracy test: the objective still targets the natural donor's height.
+
+Both PNG/PDF figure pairs, `donor_reconstruction_fidelity` and
+`recipient_reconstruction_fidelity`, show every dictionary, training seed,
+matched activity budget, and mean control. The shaded intervals and individual
+point intervals are descriptive whole-match bootstraps. No observations or
+seed variants are dropped. Nominal capacity/activity budgets are matched;
+achieved activity and reconstruction error need not be equal across families.
+
+The conclusion is **conditional fidelity, not feature sufficiency**. A native
+294,912-coordinate residual tile retains a large complement outside the
+1536-coordinate descriptor. The mean controls directly show that this retained
+information can support most of the average original transfer. Neither this
+study nor the earlier full-donor effect establishes generated physical-state
+control, reliable success across matches, or a recovered nonlinear manifold.
