@@ -149,8 +149,6 @@ def register(args):
         "path_definition": "Probe minimum-norm feature offset or frozen forward map f(clippedtarget)-f(clippedbase); lift with Q, preserving native descriptor nullspace. Random and wrong-ball-x directions match quadratic raw lift norm.",
         "normalization": "Frozen discovery probe and forward-map normalizers; no new fits or selected paths",
         "actions": "Original24-frame action batch fixed. Upstream windows slice [1:17],[3:19],[5:21],[7:23]; final generated latent action pairs [15:17],[17:19],[19:21],[21:23]. Frame23 action is unused by published alignment.",
-        "action_dtype": "Convert a separate keyboard-action copy to int32 for upstream embeddings; source uint8 arrays and all numeric action values remain unchanged.",
-        "engineering_amendment": "Initial reserved pilot failed before baseline because ByteTensor indices reached the keyboard embedding. Original registration/code/log/exit are preserved in results/rollout_attempts/01_action_dtype. This dtype-only correction changes no research choices.",
         "seeds": SEEDS, "pilot_seed": SEEDS[0], "random_direction_seed_offset": 1777,
         "pilot_dose_candidates_uu": [300., -300.],
         "pilot_dose_rule": "Use+300 if clipping leaves a positive effective dose; otherwise use-300. Reserved engineering coverage only; main dose grid unchanged.",
@@ -195,8 +193,7 @@ def source_arrays(record):
 def infer(model, frames, action_array, seed, schedule, projection, *, delta=None, placeholder=0., hooked=True):
     video = hidden_video(frames, placeholder=placeholder)
     actions = ActionTensors(model.config.actions, batch_size=4)
-    actions.key_presses = action_array.to(torch.int32).clone()
-    require(torch.equal(actions.key_presses.float(), action_array.float()), "Action dtype conversion changed values")
+    actions.key_presses = action_array.clone()
     actions.mouse_movements = torch.zeros(4, 24, 2)
     batch = VideoActionBatch(video, actions).to("cuda")
     config = WorldModelInferenceConfig(n_diffusion_steps=10, schedule_type="linear_quadratic", noise_level=0.)

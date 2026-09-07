@@ -1,0 +1,13 @@
+{
+  "status": "failed_engineering_pilot_before_baseline",
+  "failure": "Source uint8 keyboard actions passed to integer-only embedding",
+  "prior_registration_sha256": "cc430b50e7781ab0527b2d4d244e219e322f7b7da7e0d4e34de445bffac116c9",
+  "research_outcomes_generated": false,
+  "correction": "Convert a separate ActionTensors keyboard copy to int32, preserving source values and action timing",
+  "preserved": {
+    "rollout_steering.py": "acc64717a8f7b102d7dc960a2c720442dbc0e7735afb0d45a483bd6c206f97ce",
+    "registration.json": "cc430b50e7781ab0527b2d4d244e219e322f7b7da7e0d4e34de445bffac116c9",
+    "pilot_runner.json": "52799e520d3bdb7c3bf9857af0040c902571161a6ebf4d02c8667b0a3325b8e7",
+    "pilot.log": "3c6aeaba7acabaaeb3cf8555518dfb3e7055a9bce9ff770eb2f1ea6ea9f42b50"
+  }
+}

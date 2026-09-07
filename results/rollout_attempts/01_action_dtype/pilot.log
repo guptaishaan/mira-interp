@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering.py", line 455, in <module>
+    main()
+  File "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering.py", line 451, in main
+    execute(args)
+  File "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering.py", line 324, in execute
+    baseline = infer(model, frames, actions, seed, schedule, projection)
+  File "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering.py", line 208, in infer
+    output = model.inference(batch, config, progress_bar=False)
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+    return func(*args, **kwargs)
+  File "/ccn2/u/ishaangp/mira-interp/external/mira/src/mira/world_model/multi_wrapper_world_model.py", line 189, in inference
+    a_flat_step = swm.action_encoder(
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ccn2/u/ishaangp/mira-interp/external/mira/src/mira/world_model/layers/action_encoder.py", line 181, in forward
+    embed_k = self.keyboard_embedding_dict[str(k)](key_presses[:, :, k])
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/modules/sparse.py", line 192, in forward
+    return F.embedding(
+  File "/ccn2/u/ishaangp/miniconda3/envs/ccwm/lib/python3.10/site-packages/torch/nn/functional.py", line 2542, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Expected tensor for argument #1 'indices' to have one of the following scalar types: Long, Int; but got torch.cuda.ByteTensor instead (while checking arguments for embedding)

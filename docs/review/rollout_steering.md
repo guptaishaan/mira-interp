@@ -1,7 +1,13 @@
 # Prepared generated-rollout steering protocol
 
 **Status: code and CPU tests prepared. No rollout steering GPU run has been
-launched.** Registration requires the passed extended-input audit, frozen probe
+completed.** The first reserved pilot failed before baseline generation at the
+keyboard embedding because source actions were uint8. Its code, registration,
+log and exit are preserved in `results/rollout_attempts/01_action_dtype`. The
+corrected inference adapter makes an int32 copy, as the original input loader
+does, and checks that every numeric action value is identical. It is re-registered
+before repeating the reserved pilot; no research outcome informed the correction.
+Registration requires the passed extended-input audit, frozen probe
 and geometry maps, and completed independently audited sparse causal fidelity.
 The fidelity prerequisite concerns valid execution; its effects need not be
 positive. The executing agent reviews the reserved pilot before committing the

@@ -1,5 +1,4 @@
 {
-  "action_dtype": "Convert a separate keyboard-action copy to int32 for upstream embeddings; source uint8 arrays and all numeric action values remain unchanged.",
   "actions": "Original24-frame action batch fixed. Upstream windows slice [1:17],[3:19],[5:21],[7:23]; final generated latent action pairs [15:17],[17:19],[19:21],[21:23]. Frame23 action is unused by published alignment.",
   "alternate_pilot_placeholder": 255,
   "base_height": "Frozen spatial ball-z probe on baseline first generated latent at actual registered tau; no source state used.",
@@ -48,7 +47,7 @@
     "external/mira/src/mira/world_model/schedule.py": "7da79b69b50b50760a64238ad1cf8f1add18988c731a3c3fe5ee6cbfb0a9d2f6",
     "scripts/analyze_development.py": "838f17956f9c3828de3e41d4143860777a38a4936c5be687baba7b154b600c7c",
     "scripts/causal_development.py": "6739e498fea863beb3ce8ed803da0cbbc04fca299ece248c6d80b4341207cbd8",
-    "scripts/rollout_steering.py": "50fd13135f9e87122f969d0c4bebe5871c3b0d0a1958769cb680eaa5db122b4b",
+    "scripts/rollout_steering.py": "acc64717a8f7b102d7dc960a2c720442dbc0e7735afb0d45a483bd6c206f97ce",
     "src/mira_interp/causal_development.py": "5cf43b1095149fb1201a816503c533856f9498073ce05bf1a11c4e28dc2bd7e0",
     "src/mira_interp/development_capture.py": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
     "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
@@ -147,7 +146,7 @@
   "confirmation_scope": "These matches were used for prior observational decoding confirmation, but not for these generated intervention outcomes. No rollout-based choice may precede their frozen evaluation.",
   "context_control": "Report decoded first16 pixel equality and latent context equality for each condition; evaluator windows contain decoded context.",
   "context_frames": 16,
-  "created_utc": "2026-09-07T07:36:34.803642+00:00",
+  "created_utc": "2026-09-07T07:31:25.931936+00:00",
   "doses_uu": [
     -600.0,
     -300.0,
@@ -155,7 +154,6 @@
     300.0,
     600.0
   ],
-  "engineering_amendment": "Initial reserved pilot failed before baseline because ByteTensor indices reached the keyboard embedding. Original registration/code/log/exit are preserved in results/rollout_attempts/01_action_dtype. This dtype-only correction changes no research choices.",
   "full_budget": {
     "agent_resource_review_after_pilot_required": true,
     "confirmation_rollouts": 924,

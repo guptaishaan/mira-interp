@@ -1,0 +1,21 @@
+{
+  "status": "failed",
+  "phase": "pilot",
+  "assignments": [
+    [
+      7,
+      null
+    ]
+  ],
+  "workers": [
+    {
+      "gpu": 7,
+      "worker_index": null,
+      "pid": 4082790,
+      "log": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot.log",
+      "exit_code": 1
+    }
+  ],
+  "started_unix": 1788766392.106568,
+  "elapsed_seconds": 48.131895303726196
+}
