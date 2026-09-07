@@ -184,6 +184,8 @@ def figures(report, figure_dir):
                 fontsize=11, fontweight="semibold")
     ax.add_patch(Rectangle((-.5, winner - .5), 30, 1, fill=False, edgecolor="#161B22", linewidth=1.6))
     color_bar = fig.colorbar(plot, ax=ax, pad=.015, fraction=.028)
+    ticks = ([low, low / 2] if low < 0 else []) + list(np.linspace(0., high, 6))
+    color_bar.set_ticks(ticks, labels=[f"{tick:.3f}" if tick < 0 else f"{tick:.1f}" for tick in ticks])
     color_bar.set_label("R² · full observed range, including negative values")
     ax.set_xlabel("Physical-state annotations (position XYZ, then velocity XYZ, within each entity)", labelpad=12)
     fig.suptitle("Confirmation R² for all 17 residual sites and 30 targets", fontsize=17, y=.98)

@@ -1,0 +1,6 @@
+{
+  "causal_stage_ready": false,
+  "confirmation_sha256": "4bd750fa2a3ee297a1f64baed79971a2f90136bcbfc9a0d861714c4e8f134cb4",
+  "frozen_selection_sha256": "b37a98b3afc8634d89c50eb19a7630668d5738fa8566c34cf7b25c3141e5c343",
+  "status": "passed_observational_analysis"
+}

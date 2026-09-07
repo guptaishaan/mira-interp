@@ -1,0 +1,250 @@
+{
+  "scope": "All pooled research features and baselines; all 17 full pilot residuals",
+  "rows": 13568,
+  "match_counts": {
+    "confirmation": 11,
+    "discovery": 31,
+    "selection": 11
+  },
+  "source_labels_and_video_included": false,
+  "all_derived_arrays_equal_audited_source": true,
+  "derived_array_fingerprints": {
+    "RGB_X": {
+      "shape": [
+        13568,
+        192
+      ],
+      "dtype": "float16",
+      "sha256": "9d8acf2bb5b8ba8148fa6d7169f41a08d76a656fcf1bb144af7e7641938a1b36"
+    },
+    "X": {
+      "shape": [
+        13568,
+        17,
+        2048
+      ],
+      "dtype": "float16",
+      "sha256": "3cd9a1b4184a400637fc5724da7abc41eed0235d431125b73286329be1c68c81"
+    },
+    "canonical_player_ids": {
+      "shape": [
+        13568,
+        4
+      ],
+      "dtype": "int64",
+      "sha256": "6641246c73091e99e49728cd1fdf5981b9cdaba5141f6b19be10d1119c0b5f72"
+    },
+    "chunk_index": {
+      "shape": [
+        13568
+      ],
+      "dtype": "int64",
+      "sha256": "0f7c6101692210b40a08b228c9f985eb692d33b54406e14999adee25497eacf6"
+    },
+    "clip_ids": {
+      "shape": [
+        13568
+      ],
+      "dtype": "<U34",
+      "sha256": "44421daea9847382fac191ba365615d58cab644c191f391a09ef775644a9904c"
+    },
+    "codec_X": {
+      "shape": [
+        13568,
+        32
+      ],
+      "dtype": "float16",
+      "sha256": "cb68b737d840c55b349d08da26e1075513591e81aec3fb104c8a2d1d2a1b4fe0"
+    },
+    "latent_frame_index": {
+      "shape": [
+        13568
+      ],
+      "dtype": "int64",
+      "sha256": "57165a94977fcb770294bf33a336ff3dcbe9b1fde3522fcd260c4520355cb697"
+    },
+    "match_ids": {
+      "shape": [
+        13568
+      ],
+      "dtype": "<U27",
+      "sha256": "5237c36f33150799fa65f8ed9ba03d48288d78e4ba09543b92bb874e29991ec8"
+    },
+    "player_id": {
+      "shape": [
+        13568
+      ],
+      "dtype": "int64",
+      "sha256": "99f5a35429069ecad5b301f0629e4425d57d7871c0cb7c66f6578a0f95e13c5c"
+    },
+    "sites": {
+      "shape": [
+        17
+      ],
+      "dtype": "<U15",
+      "sha256": "dca15d05624b2f43dea32339a9e607e4f04bda864392c0725371a11186fb69a8"
+    },
+    "source_frame_index": {
+      "shape": [
+        13568
+      ],
+      "dtype": "int64",
+      "sha256": "3599696ab28577fea31746e527d5969472e72ef09278748b7601aa282aa33d0c"
+    },
+    "split": {
+      "shape": [
+        13568
+      ],
+      "dtype": "<U12",
+      "sha256": "a18f430300d194e7db6821e7ca6e35c17f5ef928abf62e08822fc0f0db76d6e7"
+    },
+    "target_names": {
+      "shape": [
+        30
+      ],
+      "dtype": "<U18",
+      "sha256": "37639be216dadf75b2deb038d134baab2074349d96328223bbd5fdf53529bb86"
+    },
+    "timestamps": {
+      "shape": [
+        13568
+      ],
+      "dtype": "float64",
+      "sha256": "7df7d5c172498444dacb79f813ae6305c6ae7782a10989a1b94e0e445db5a7b8"
+    },
+    "view_index": {
+      "shape": [
+        13568
+      ],
+      "dtype": "int64",
+      "sha256": "c45faa53ae0dc3c1bca2aa07fe5a0a4a0cf11acd078eb532a4cbadbb6d5bca47"
+    }
+  },
+  "source_label_reproduction": "Accept Rocket Science terms and use the pinned data/capture/aggregation scripts; source y is deliberately excluded from this public derived-feature archive.",
+  "source_aggregate_sha256": "b007c5476951bd064b3b7a30545dbe448e5f9c02eacf598d26cfcc9f72b734f2",
+  "registration_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "files": [
+    {
+      "path": "derived_features.npz",
+      "sha256": "770fd8622e34c960973e0f66be8173d733a82d95f7a802cd1ca3dde170522e14",
+      "bytes": 955899714
+    },
+    {
+      "path": "pilot_full/site_00.pt",
+      "sha256": "9b1a7e8decaefd1ba6d814449385f58d4dd43e2ca89c782929a09b5c50c054de",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_01.pt",
+      "sha256": "b4f031afd79be9d5b61e9104f54ea6288399d6eb96a83179599cec6887af861a",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_02.pt",
+      "sha256": "70fa1fdfaec9fe178b4a41cfbb20d3ca1d772ea8cdc7b52d00e2909805033a48",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_03.pt",
+      "sha256": "d2f63700580b7dd3c62c1a8307cc1dfbf9629aa9880e612ed3c5180566cb1013",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_04.pt",
+      "sha256": "296b6cc7b0ac9f8f8bae8bad6712122e6bee2c9f64c7a912d4e21bd520319c91",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_05.pt",
+      "sha256": "ccd46a9a11019bc6df5c7fa74005a317d2b91a9db123d2cf20c1fd8585a62ec6",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_06.pt",
+      "sha256": "c3f31495e53218970db99d827a9f5c35bba242efee2d4edf355c33c20f3b6bad",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_07.pt",
+      "sha256": "01242bb486f18e85404744b0ef59281902311b772c40d208d24e57bcd388983d",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_08.pt",
+      "sha256": "987afd22248c2221cc6bfa9365611dc69db12cbbc75543cc24be2169845a324d",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_09.pt",
+      "sha256": "1f49ff3f98ed7c4c229e7ea95c86bd71470feff69c9c2e59116663b64d666289",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_10.pt",
+      "sha256": "f4c7801071eeeca6e5a68f55effb8694686b4d1de2a61f23ca12061d7db57cb8",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_11.pt",
+      "sha256": "551983ecaedb241e8a6d389998a9005823b7449a733885319279799b1077f01c",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_12.pt",
+      "sha256": "8fb6250cf5222c346c1175f15083dbe4212a0f378f95fa62657c8b4ce1cf6e6e",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_13.pt",
+      "sha256": "c7dea28a59a7b9f01eadaac969313808de48faeda32bf0d8110e26e561a3b9e4",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_14.pt",
+      "sha256": "9f895d30799e3823abdedbb02fbf234bfb7de6e57692d2f17422eeb375990c15",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_15.pt",
+      "sha256": "9c17e0a152637b8ad4e21a50153c65a14b025b73cd75de3ec0aac6adc5f42755",
+      "bytes": 18875945
+    },
+    {
+      "path": "pilot_full/site_16.pt",
+      "sha256": "82046169644c6dcc631eaf1a300b9c2ffe1c62e3665fa3fb5c832a81511b22da",
+      "bytes": 18875945
+    },
+    {
+      "path": "aggregate_audit.json",
+      "sha256": "1147a3594ba892004e99620409345b41f727a0b02f4bfdaca87bb5c3609d008e",
+      "bytes": 320440
+    },
+    {
+      "path": "capture_pilot.json",
+      "sha256": "a2f4390bca48da6adc880630b9aacf0d08827406304497a70938b22dce319473",
+      "bytes": 14252
+    },
+    {
+      "path": "confirmation.json",
+      "sha256": "4bd750fa2a3ee297a1f64baed79971a2f90136bcbfc9a0d861714c4e8f134cb4",
+      "bytes": 494094
+    },
+    {
+      "path": "completion_audit.json",
+      "sha256": "a4a49561d65aa897dfbfe1fd1c9b44f57259bc854a631dc478057badf9d24174",
+      "bytes": 5464
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "510466d6810d69540f1f5f6560ecfa3e6e1e1f55025aeb5b83046fe4560219e6",
+      "bytes": 1194
+    }
+  ],
+  "status": "passed",
+  "archive": "observations-2026-09-06.tar.gz",
+  "archive_sha256": "90ea5de76ac2f440f3e5415477a662f8b7241c535637eaf4b6de1ba60a5bc18a",
+  "archive_bytes": 1138648642,
+  "all_archive_members_verified": true,
+  "packaging_script_sha256": "a7ad95b3288aea9de75d4f421f8186592911c0ea7d05ec74ff2473b50ccfa858",
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/observations-2026-09-06"
+}

@@ -53,8 +53,15 @@ present. Do not call this predictive future-state decoding.
 
 ## Analysis and publication
 
-Inspect `results/probes_v2/` and actual process status before resuming. Selection
-was launched after aggregate review. The ordered commands are documented in
+Selection, independent selection audit and confirmation **completed**. The frozen
+block-5 readout scored 0.846902 standardized MSE versus the mean baseline's
+1.060234 on 11 confirmation matches. All result exports and 91 completion checks
+passed. See `docs/07_observational_results.md`; do not rerun or overwrite these
+completed phases. The 1,138,648,642-byte derived-feature archive also passed every
+member hash and array-equivalence check. GitHub upload/remote verification is the
+remaining activity at this snapshot; inspect `results/observation_publication.json`
+before resuming publication.
+The ordered reproduction commands are documented in
 `docs/04_probes.md`; use the actual aggregate path above and output directory
 `results/probes_v2`.
 

@@ -1,0 +1,294 @@
+{
+  "analysis_code_sha256": {
+    "scripts/analyze_probes.py": "abbdcfeb024377526d99a383daa9defd797cd6e1402ba4a98b0286a7a0d38d1d",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  },
+  "audit_script_sha256": "9c33fa46ad90b3dd3eac0f5a02f6f0c2afc39c6dc4c2b6020973921c4a41856f",
+  "capture_audit_sha256": "1147a3594ba892004e99620409345b41f727a0b02f4bfdaca87bb5c3609d008e",
+  "confirmation_target_rows_materialized": 0,
+  "confirmation_target_values_used": false,
+  "created_utc": "2026-09-07T00:32:03.704822+00:00",
+  "frozen_selection_sha256": "b37a98b3afc8634d89c50eb19a7630668d5738fa8566c34cf7b25c3141e5c343",
+  "frozen_winner": "block_5_output",
+  "input_npz_sha256": "b007c5476951bd064b3b7a30545dbe448e5f9c02eacf598d26cfcc9f72b734f2",
+  "limits": "Chosen models and losses independently recomputed; unselected-alpha curves checked for completeness and choice consistency, not refitted.",
+  "match_counts": {
+    "confirmation": 11,
+    "discovery": 31,
+    "selection": 11
+  },
+  "model_archive_sha256": "697e0742bbdf4bc6a7cdcd4efc118b72a61a195ab411f8b571afe93661c63587",
+  "models": [
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.0364972768961422e-15,
+        "selection_normalized_mse": 1.0868462950190703
+      },
+      "name": "block_0_input",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 7.494005416219807e-16,
+        "selection_normalized_mse": 1.097446695287374
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.331536435613458e-15,
+        "selection_normalized_mse": 1.0185708866339453
+      },
+      "name": "block_0_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.718447854656915e-16,
+        "selection_normalized_mse": 1.0977378604924435
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.29250515740398e-15,
+        "selection_normalized_mse": 0.9913073941270636
+      },
+      "name": "block_1_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.718447854656915e-16,
+        "selection_normalized_mse": 1.0977082622784975
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 5.116133211524598e-15,
+        "selection_normalized_mse": 0.968329673130807
+      },
+      "name": "block_2_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.544975507059235e-16,
+        "selection_normalized_mse": 1.0976296126463898
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.1624008967057193e-15,
+        "selection_normalized_mse": 0.9635936309921703
+      },
+      "name": "block_3_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.0130785099704553e-15,
+        "selection_normalized_mse": 1.097303615887075
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 5.585809592645319e-15,
+        "selection_normalized_mse": 0.9607790087391717
+      },
+      "name": "block_4_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.0939474033052647e-16,
+        "selection_normalized_mse": 1.0969887523232247
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.4867941867133823e-15,
+        "selection_normalized_mse": 0.8983389798575631
+      },
+      "name": "block_5_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 2.1163626406917047e-15,
+        "selection_normalized_mse": 1.0967498355265926
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 2.9524993561125257e-15,
+        "selection_normalized_mse": 0.9159543626530411
+      },
+      "name": "block_6_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 5.134781488891349e-16,
+        "selection_normalized_mse": 1.0968327892567717
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 2.9086975883441113e-15,
+        "selection_normalized_mse": 0.9301236897127498
+      },
+      "name": "block_7_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.712308238590367e-16,
+        "selection_normalized_mse": 1.0967527075730192
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 2.447694824603275e-15,
+        "selection_normalized_mse": 0.9344430151145139
+      },
+      "name": "block_8_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.787836793695988e-16,
+        "selection_normalized_mse": 1.0967527076452601
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 2.185751579730777e-15,
+        "selection_normalized_mse": 0.9408881702654188
+      },
+      "name": "block_9_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.1917550279960665e-15,
+        "selection_normalized_mse": 1.0966635202939266
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.32836450172924e-15,
+        "selection_normalized_mse": 0.9462224602048792
+      },
+      "name": "block_10_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 5.924080670460796e-16,
+        "selection_normalized_mse": 1.0966146884471586
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.742963412487697e-15,
+        "selection_normalized_mse": 0.9513441284785525
+      },
+      "name": "block_11_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.0939474033052647e-16,
+        "selection_normalized_mse": 1.0965667548047728
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.807581861967833e-15,
+        "selection_normalized_mse": 0.9588124144420678
+      },
+      "name": "block_12_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.2038980923279041e-15,
+        "selection_normalized_mse": 1.0966268812978397
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.1744077932362984e-15,
+        "selection_normalized_mse": 0.9665817059175835
+      },
+      "name": "block_13_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.718447854656915e-16,
+        "selection_normalized_mse": 1.096557423775615
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.536964999715451e-15,
+        "selection_normalized_mse": 0.9703743520872372
+      },
+      "name": "block_14_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.822531263215524e-16,
+        "selection_normalized_mse": 1.0964279626473168
+      }
+    },
+    {
+      "kind": "residual",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.2784912017949068e-15,
+        "selection_normalized_mse": 0.9724313583464951
+      },
+      "name": "block_15_output",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 5.238864897449957e-16,
+        "selection_normalized_mse": 1.096300805548778
+      }
+    },
+    {
+      "kind": "baseline",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 8.634586101674557e-16,
+        "selection_normalized_mse": 1.0869083205127958
+      },
+      "name": "codec_X",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 3.0531133177191805e-16,
+        "selection_normalized_mse": 1.096284598374493
+      }
+    },
+    {
+      "kind": "baseline",
+      "main": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 1.5872719805187785e-15,
+        "selection_normalized_mse": 1.055473190527721
+      },
+      "name": "RGB_X",
+      "shuffled": {
+        "discovery_normalization_checked": true,
+        "normal_equation_max_abs_residual": 4.2327252813834093e-16,
+        "selection_normalized_mse": 1.0963396697685583
+      }
+    }
+  ],
+  "models_refitted": false,
+  "registration_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "ridge_normal_equations_checked": true,
+  "status": "passed",
+  "unselected_alpha_models_independently_refitted": false
+}

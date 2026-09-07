@@ -1,0 +1,47 @@
+{
+  "confidence_intervals": "copied from completed report; no recomputation",
+  "confirmation_matches": 11,
+  "created_utc": "2026-09-07T00:34:42.600359+00:00",
+  "frozen_selection_winner": "block_5_output",
+  "heatmap_color_max": 1.0,
+  "heatmap_color_min": -0.18999761538049853,
+  "heatmap_observed_max_r2": 0.8711162021819049,
+  "heatmap_observed_min_r2": -0.18999761538049853,
+  "models_fit_or_reselected": false,
+  "outputs": {
+    "figures/observational_layers.pdf": {
+      "bytes": 19436,
+      "sha256": "3a7e9023b2579dfba04428c62a118f8d405ad72135d94f591574ebc42e81593b"
+    },
+    "figures/observational_layers.png": {
+      "bytes": 243089,
+      "sha256": "ea74d919bd13639c5c262c315c34df9ae44f0e6bcc7e42b4bd3b9749b0e4ea2a"
+    },
+    "figures/observational_targets.pdf": {
+      "bytes": 59113,
+      "sha256": "fa0ffb9464eddaaba1e95e617514055e475625b7867f9a7047a00f32dc360884"
+    },
+    "figures/observational_targets.png": {
+      "bytes": 355150,
+      "sha256": "c2429e3762d3c2cc15a60842f1abd4a339096b33292abb82c54581b770f207e9"
+    },
+    "results/probes_v2/site_summary.csv": {
+      "bytes": 9249,
+      "sha256": "81801b2e8bb96e4d1584a1b99c25dc45c2ed4cbc56c2ec2e988170e6bef8eaae"
+    },
+    "results/probes_v2/target_metrics.csv": {
+      "bytes": 273289,
+      "sha256": "4e136f708258645942c2a354466e7be61ed3764253687702d56a29c8958075d2"
+    }
+  },
+  "r2_csv_nulls": "empty fields preserve undefined R2 values and bounds",
+  "raw_data_or_activations_loaded": false,
+  "script_sha256": "e602d320d9db2d71f72612d2867781d241f4062fdcfd47a3c4a7c6cad81711a9",
+  "site_csv_rows": 19,
+  "source_confirmation_sha256": "4bd750fa2a3ee297a1f64baed79971a2f90136bcbfc9a0d861714c4e8f134cb4",
+  "source_frozen_selection_sha256": "b37a98b3afc8634d89c50eb19a7630668d5738fa8566c34cf7b25c3141e5c343",
+  "source_registration_sha256": "e144ef6c2c5e257114474b9a48e83b11cc4de67a6423924e4b058822339c19d2",
+  "status": "completed_format_only_export",
+  "target_csv_rows": 1140,
+  "undefined_r2_cells": 0
+}

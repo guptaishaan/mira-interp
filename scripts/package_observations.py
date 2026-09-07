@@ -61,16 +61,24 @@ def main():
             names = set(arrays.files) - {"y"}
             if not names <= allowed or not {"X", "codec_X", "RGB_X", "clip_ids"} <= names:
                 raise ValueError(f"Unexpected aggregate publication schema: {sorted(names)}")
-            np.savez_compressed(features, **{key: arrays[key] for key in sorted(names)})
+            values = {key: arrays[key] for key in sorted(names)}
+            fingerprints = {key: {"shape": list(value.shape), "dtype": str(value.dtype),
+                                   "sha256": hashlib.sha256(memoryview(np.ascontiguousarray(value)).cast("B")).hexdigest()}
+                            for key, value in values.items()}
+            # The outer archive compresses once; an inner compressed ZIP adds cost.
+            np.savez(features, **values)
+            del values
         with np.load(features, allow_pickle=False) as arrays:
             if "y" in arrays.files or len(arrays["X"]) != audit["rows"]:
                 raise ValueError("Published feature coverage or source-label exclusion failed")
-            with np.load(source, allow_pickle=False) as original:
-                if set(arrays.files) != set(original.files) - {"y"}:
-                    raise ValueError("A derived array was omitted")
-                for name in arrays.files:
-                    if not np.array_equal(arrays[name], original[name]):
-                        raise ValueError(f"Published array differs from audited aggregate: {name}")
+            if set(arrays.files) != set(fingerprints):
+                raise ValueError("A derived array was omitted")
+            for name in arrays.files:
+                value = arrays[name]
+                observed = {"shape": list(value.shape), "dtype": str(value.dtype),
+                            "sha256": hashlib.sha256(memoryview(np.ascontiguousarray(value)).cast("B")).hexdigest()}
+                if observed != fingerprints[name]:
+                    raise ValueError(f"Published array differs from audited aggregate: {name}")
         files = [("derived_features.npz", features)]
         controls = pilot["clips"][0]["controls"]
         if not controls["full_tensor_pooling_passed"] or len(controls["full_tensor_pooling"]) != 17:
@@ -87,6 +95,7 @@ def main():
                     "rows": audit["rows"], "match_counts": audit["match_counts"],
                     "source_labels_and_video_included": False,
                     "all_derived_arrays_equal_audited_source": True,
+                    "derived_array_fingerprints": fingerprints,
                     "source_label_reproduction": "Accept Rocket Science terms and use the pinned data/capture/aggregation scripts; source y is deliberately excluded from this public derived-feature archive.",
                     "source_aggregate_sha256": audit["analysis_npz_sha256"],
                     "registration_sha256": audit["registration_sha256"],

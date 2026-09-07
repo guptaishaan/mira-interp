@@ -1,8 +1,9 @@
 # Observational all-layer physical-state probes
 
-**Implementation ready; scientific execution requires the real-data and activation
-audit gates.** The mathematical tests use synthetic arrays only. This document does
-not report a decoding result.
+**The registered observational execution is complete.** Data, capture, selection,
+independent selection audit and confirmation all passed their execution gates.
+See [actual results and limitations](07_observational_results.md). The mathematical
+software tests use synthetic arrays; the reported research results use real data.
 
 The registered analysis measures **decoding of contemporaneously indexed
 physical-state annotations from observed videos at diffusion time tau=0.5**. The model sees noisy latent encodings of
