@@ -1,0 +1,43 @@
+{
+  "status": "passed_rollout_generation_audit",
+  "phase": "pilot",
+  "manifest_sha256": "51701c75e2bb89daa665a90f3bf442468377777946d5c0ce0e5995b950f3ca32",
+  "registration_sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101",
+  "script_sha256": "7e7fa2351ff0d97acc119e5b33f6d5471f1c0152c9887f81e1e1cb285d53c38a",
+  "records": [
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "generated_sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8",
+      "decoded_context_exact": true,
+      "max_lift_storage_error": 0.0
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "generated_sha256": "1bcd9c6d3c2f3699e2e869617551d4197a8209fd5a029605c48581bae6e9d252",
+      "decoded_context_exact": true,
+      "max_lift_storage_error": 0.06091803673974283
+    }
+  ],
+  "n_records": 2,
+  "n_matches": 1,
+  "n_seeds": 1,
+  "complete_registered_grid": true,
+  "source_report_and_generated_hashes_verified": true,
+  "exact_action_conditioning_preserved": true,
+  "preintervention_sampler_inputs_bitwise_equal": true,
+  "fixed_context_latents_unchanged": true,
+  "all_stored_context_pixels_exact": true,
+  "all45_sampler_calls_validated": true,
+  "saved_tile_descriptor_lift_metrics_recomputed": true,
+  "source_labels_loaded": false,
+  "source_future_pixels_loaded": false,
+  "gpu_used": false,
+  "physical_control_established": false,
+  "independent_generated_accuracy_established": false,
+  "limits": [
+    "Discarded pilot controls verified by persisted hash equality and executed-code binding, not independently rerun.",
+    "Clipped pixel archives cannot reconstruct unclipped decoder values; raw hashes remain producer evidence when clipping occurred.",
+    "CPU lift recomputation allows one BF16 storage spacing and small FP32 reduction tolerances; this is an engineering integrity audit."
+  ],
+  "elapsed_seconds": 2.2282649949193
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scope": "CPU integrity tests; actual pilot parity is reported separately",
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 /ccn2/u/ishaangp/miniconda3/envs/ccwm/bin/python -m pytest tests/test_rollout_storage_parity.py -q",
+  "result": "2 passed in 0.15s",
+  "code_sha256": {
+    "scripts/audit_rollout_storage_parity.py": "4fe78eb7c11009cb7b7ef373017c6a0ed596426c8d68e371337e497b470bb0e7",
+    "tests/test_rollout_storage_parity.py": "2271bb6c723d2e3e8c4fbb58190e502c2d67703dab022dd070b43574ccb30b5a"
+  },
+  "gpu_used": false
+}

@@ -24,3 +24,20 @@ NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/pyth
 ```
 
 The script refuses to replace a completed report or existing trial files. Changing ZIP compression does not change loaded array content; the parent must separately verify this invariant through the new complete inference pilot before changing the main rollout writer.
+
+## Complete inference parity passed
+
+The separate version2 producer passed seven CPU writer tests and an independent source-diff review (`results/rollout_storage_v2_review.json`, SHA256 `3fea6ab6159badb1b498245c2e56f785595b54576f4b1284cc96b25d2e253683`). Its changes are restricted to storage, associated provenance, and default output directories. Rewriting the full original baseline through the new helper also exactly reproduced the independently benchmarked level-1 archive hash; see `results/rollout_storage_helper_check.json`.
+
+A newly registered five-inference version2 pilot then passed its generation audit. The independent parity auditor compared all six arrays in both saved conditions against version1 and found every bit unchanged. Action hashes, all sampler calls, raw decoder hashes, intervention site, probe shifts, and common scientific registration/code hashes also matched exactly. Both independent generation audits were prerequisites. The parity report is `results/rollout_steering_v2/pilot_parity_audit.json`, status `passed_storage_only_pilot_parity`, SHA256 `0ecc2952d76256eff9e83b1f40eeee137f5d09721b86a5ebee3c5d9a609a2e5e`.
+
+The version2 inference/save loop took 33.91 seconds versus 46.95 seconds for version1, and its two saved files total 90.50 MB versus 72.46 MB. The difference is consistent with the isolated write benchmark. These checks establish lossless storage and unchanged pilot outputs; they add no physical-steering evidence.
+
+Run the independent parity audit only after both complete generation audits pass:
+
+```bash
+NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/python \
+  scripts/audit_rollout_storage_parity.py
+```
+
+The auditor permits only explicitly named encoding, path, registration, and runtime metadata differences. Its CPU corruption tests reject altered action hashes, model-call records, doses, unknown metadata, array dtypes/shapes, and even a changed sign bit on zero.

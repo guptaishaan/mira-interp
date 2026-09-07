@@ -1,0 +1,45 @@
+{
+  "status": "approved_by_executing_agent_within_user_authorization",
+  "reviewed_unix": 1788767796.5665183,
+  "registration_sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101",
+  "required_passed_audits": [
+    {
+      "name": "generation_pilot_audit",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot_audit.json",
+      "sha256": "b4678e89ab704e9e483704b17a7d41f465a11ccf6d0c86d8bfd22c828b5941d4"
+    },
+    {
+      "name": "storage_parity_audit",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot_parity_audit.json",
+      "sha256": "0ecc2952d76256eff9e83b1f40eeee137f5d09721b86a5ebee3c5d9a609a2e5e"
+    },
+    {
+      "name": "measurement_pilot_audit",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/pilot_audit.json",
+      "sha256": "72d40a0e1e6404ca859b00d8944bd3551b81caf69ff9e810b1b271b057749f87"
+    }
+  ],
+  "measurement_parity_sha256": "15858f9d22c4ffaede4fcc24d81f13ece5e534b279cbc0ba7c0fab5b5d74197f",
+  "authorized_physical_gpus": [
+    6,
+    7
+  ],
+  "selection_rollouts": 420,
+  "confirmation_rollouts": 924,
+  "total_rollouts": 1344,
+  "projected_generated_bytes": 60814087488,
+  "available_bytes": 606138077184,
+  "minimum_free_bytes": 26843545600,
+  "storage_benchmark_sha256": "327f2ee15af51fa555829352eac5949e7bafd355d9747292cca1669ed20ca798",
+  "pilot_peak_gpu_allocated_bytes": 12701998592,
+  "pilot_individual_inference_seconds": [
+    5.143454808741808,
+    7.546825081110001,
+    5.186643488705158,
+    5.8199550323188305
+  ],
+  "budget_basis": "All registered conditions retained. Level1 storage is bitwise identical and projects about61GB; current free space exceeds this plus25GiB reserve. Two disjoint match workers use GPUs6/7; frozen video scoring follows each independent generation audit.",
+  "estimated_total_wall_hours": 2.1,
+  "eta_limit": "Pilot-based compute/storage estimate, excluding unexpected failures or node contention; actual progress tracked per condition and stage.",
+  "full_study_launched": false
+}

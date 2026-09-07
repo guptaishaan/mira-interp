@@ -1,0 +1,343 @@
+{
+  "status": "passed_storage_only_pilot_parity",
+  "records": [
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "old_archive_sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4",
+      "new_archive_sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8",
+      "old_bytes": 36227233,
+      "new_bytes": 45247402,
+      "arrays": {
+        "edited_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "edited_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        },
+        "frames": {
+          "shape": [
+            4,
+            24,
+            3,
+            288,
+            512
+          ],
+          "dtype": "float32",
+          "sha256": "5def1fc5dc4e1981b836befb6f8c871d9f681c9339b3669545fe390805198116"
+        },
+        "latents": {
+          "shape": [
+            4,
+            12,
+            9,
+            16,
+            32
+          ],
+          "dtype": "float32",
+          "sha256": "62ad1a89c4485c2b02c0aeae2bbddd7c34ca2800b67c9fd88e2553e27a1db29a"
+        },
+        "native_edit_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "native_edit_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        }
+      },
+      "all_six_arrays_bitwise_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "old_archive_sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec",
+      "new_archive_sha256": "1bcd9c6d3c2f3699e2e869617551d4197a8209fd5a029605c48581bae6e9d252",
+      "old_bytes": 36232111,
+      "new_bytes": 45249752,
+      "arrays": {
+        "edited_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "sha256": "96c5b92a459842668926fc52fc43e3fae87a398c72e4984774faec09efcf685e"
+        },
+        "edited_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "sha256": "fd6e37a06ad66ebcaeaed7b292dc533c812ac3d8f8e000d62b754b5cc7b4ac55"
+        },
+        "frames": {
+          "shape": [
+            4,
+            24,
+            3,
+            288,
+            512
+          ],
+          "dtype": "float32",
+          "sha256": "37f4e02ba14d53171c87695091912195ca452e96793eb5f544d2f518bf95d6fe"
+        },
+        "latents": {
+          "shape": [
+            4,
+            12,
+            9,
+            16,
+            32
+          ],
+          "dtype": "float32",
+          "sha256": "315330d8c945d037256aee26c038678caab042e38748720b0642cd99346dcc88"
+        },
+        "native_edit_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "native_edit_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        }
+      },
+      "all_six_arrays_bitwise_equal": true
+    }
+  ],
+  "old_manifest_sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b",
+  "new_manifest_sha256": "51701c75e2bb89daa665a90f3bf442468377777946d5c0ce0e5995b950f3ca32",
+  "old_audit_sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc",
+  "new_audit_sha256": "b4678e89ab704e9e483704b17a7d41f465a11ccf6d0c86d8bfd22c828b5941d4",
+  "old_registration_sha256": "2188f6818aecd5fa3b0644af6dccfae426c0bc5e2deaaf47154af3975da476b3",
+  "new_registration_sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101",
+  "review_sha256": "3fea6ab6159badb1b498245c2e56f785595b54576f4b1284cc96b25d2e253683",
+  "all_model_output_arrays_bitwise_equal": true,
+  "all_actions_traces_raw_hashes_sites_probe_effects_exact": true,
+  "same_frozen_science_and_implementation_except_storage": true,
+  "only_encoding_paths_provenance_and_runtime_metadata_differ": true,
+  "physical_control_established": false,
+  "gpu_used": false,
+  "source_video_or_simulator_labels_loaded": false,
+  "script_sha256": "4fe78eb7c11009cb7b7ef373017c6a0ed596426c8d68e371337e497b470bb0e7",
+  "elapsed_seconds": 2.934555370360613,
+  "artifact_bindings": [
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/audit_rollout_storage_parity.py",
+      "sha256": "4fe78eb7c11009cb7b7ef373017c6a0ed596426c8d68e371337e497b470bb0e7"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_storage_v2_review.json",
+      "sha256": "3fea6ab6159badb1b498245c2e56f785595b54576f4b1284cc96b25d2e253683"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering.py",
+      "sha256": "50fd13135f9e87122f969d0c4bebe5871c3b0d0a1958769cb680eaa5db122b4b"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/rollout_steering_v2.py",
+      "sha256": "9d3743425e68125e478fa54a2bdcdeb93912714269477a0d4d02630e7d849d8b"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/array_storage.py",
+      "sha256": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/tests/test_array_storage.py",
+      "sha256": "14e3ac874679ff13bd7d9e22c2774b528aacbca3b4840e841893068163470997"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/registration.json",
+      "sha256": "2188f6818aecd5fa3b0644af6dccfae426c0bc5e2deaaf47154af3975da476b3"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot.json",
+      "sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot_audit.json",
+      "sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/external/mira/src/mira/world_model/latent_world_model.py",
+      "sha256": "b6570b4ff943960fbdabcf767c09109e210495147e5a7a2ca683054bf80f2ab6"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/external/mira/src/mira/world_model/multi_wrapper_world_model.py",
+      "sha256": "1c1cbf679aea534fadb4d66283201a6f3e0bcc1e6761d1591c894570eb9ab47a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/external/mira/src/mira/world_model/schedule.py",
+      "sha256": "7da79b69b50b50760a64238ad1cf8f1add18988c731a3c3fe5ee6cbfb0a9d2f6"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/analyze_development.py",
+      "sha256": "838f17956f9c3828de3e41d4143860777a38a4936c5be687baba7b154b600c7c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/causal_development.py",
+      "sha256": "6739e498fea863beb3ce8ed803da0cbbc04fca299ece248c6d80b4341207cbd8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/causal_development.py",
+      "sha256": "5cf43b1095149fb1201a816503c533856f9498073ce05bf1a11c4e28dc2bd7e0"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/development_capture.py",
+      "sha256": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/feature_geometry.py",
+      "sha256": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/model_loading.py",
+      "sha256": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/pretrained.py",
+      "sha256": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/probes.py",
+      "sha256": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/rollout_steering.py",
+      "sha256": "079449ebb0be88c57d1d0bdbdade20b2e106946ef35912c29a86376ddd61334c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/sparse_causal_fidelity.py",
+      "sha256": "c49e56c35052d0431fcc928e01fce79078e9b0b7215189f811ac745bc3ff0811"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/feature_development_v1/sparse_audit.json",
+      "sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_audit.json",
+      "sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/registration.json",
+      "sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_results.json",
+      "sha256": "0c6787a0e1e4ffc1fb16824dbba8af8d65f43d14e4862043bec1b0a612a1a62c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/export.json",
+      "sha256": "698c5c7d616561bc3465d2b1391bef7ad5300f127cbf715fe21e3d279bb80c35"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/report.json",
+      "sha256": "b06f1b2eb6b0367abd731e060e0ef5de4d508c0ecee179f22fdc2d6b4d6000c8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_inputs_v1_audit.json",
+      "sha256": "73d72cd7bcbed79a1a6976e9a4c962688c899c17b23db39a307403a9e515927d"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_inputs_v1.json",
+      "sha256": "bd62bcee191d15eabcd686beae665293b8497e3cfde742caf3ee939af7d30f5c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/geometry_maps.npz",
+      "sha256": "41a84d16fa24c0c3638eb52aae2ece38b9facd1791be0f90fc4b10a316f616f4"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_models.npz",
+      "sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/probe_audit.json",
+      "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_report.json",
+      "sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_selection.json",
+      "sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/registration.json",
+      "sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot.json",
+      "sha256": "51701c75e2bb89daa665a90f3bf442468377777946d5c0ce0e5995b950f3ca32"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot_audit.json",
+      "sha256": "b4678e89ab704e9e483704b17a7d41f465a11ccf6d0c86d8bfd22c828b5941d4"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_storage_benchmark.json",
+      "sha256": "327f2ee15af51fa555829352eac5949e7bafd355d9747292cca1669ed20ca798"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.json",
+      "sha256": "09cefd0b9e54790d6863c5b125b6529a62bdd4f34862f0f503751c7b2328911d"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.json",
+      "sha256": "8f9c29b7e04dd1fea122119f094b1118d5b8437b3f975c1e4a21c9696f814d83"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v2/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.json",
+      "sha256": "cc39501b16f2691cc190b1dd0f09e1378f22972a5177197b2702314458b7c225"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.json",
+      "sha256": "f25e7b8503b37c5877358092105931c597590fdbf5ffe58122542ac313b3d1ab"
+    },
+    {
+      "path": "/data2/ishaangp/mira-interp/rollout_steering_v2/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "sha256": "1bcd9c6d3c2f3699e2e869617551d4197a8209fd5a029605c48581bae6e9d252"
+    }
+  ]
+}

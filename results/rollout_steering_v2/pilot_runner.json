@@ -1,0 +1,21 @@
+{
+  "status": "passed_generation_pending_independent_audit",
+  "phase": "pilot",
+  "assignments": [
+    [
+      7,
+      null
+    ]
+  ],
+  "workers": [
+    {
+      "gpu": 7,
+      "worker_index": null,
+      "pid": 4113001,
+      "log": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot.log",
+      "exit_code": 0
+    }
+  ],
+  "started_unix": 1788767457.5003638,
+  "elapsed_seconds": 78.15510702133179
+}

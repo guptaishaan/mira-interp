@@ -19,3 +19,14 @@ The auditor's separate five synthetic tests compare its independent formulas wit
 Per-observation source simulator labels are not loaded by this auditor. It validates generated artifact hashes before and after measurement checks, and reads frozen calibration metadata/checkpoint scales. Bootstrap intervals describe match sampling, not uncertainty in the video evaluator or simultaneous guarantees across paths and times. A completed measurement audit verifies computation, not physical steering success.
 
 The generated-measurement pilot audit passed both records. Its report is `results/generated_evaluation_v1/pilot_audit.json`, SHA256 `666a67ddc7c92b33a73c8925a7730b0d70cfb4312a6d27c8dd4d5138dfe0abed`, bound to evaluation SHA256 `565703ca9416d7a288cabf02961f0b8776ac9e5e42fa5c0aa4e7131e0b2e90ac`. Source/cache joins, all four views and endpoint axes, absolute ball conversion, and frozen target scales were exact. The audit took 0.248 seconds after the producer completed its two-record measurement pass. This is an engineering gate, not a physical-steering result.
+
+After the separate lossless-storage amendment, the version-2 pilot measurement audit also passed: `results/generated_evaluation_v2/pilot_audit.json`, SHA256 `72d40a0e1e6404ca859b00d8944bd3551b81caf69ff9e810b1b271b057749f87`. Its unchanged measurement protocol is `configs/generated_evaluation_v1.json`. All four saved prediction arrays—record IDs, role predictions, absolute-ball predictions, and target scales—matched version 1 in dtype, shape, values, and raw bytes. This cross-version check is recorded in `pilot_measurement_parity.json`, SHA256 `15858f9d22c4ffaede4fcc24d81f13ece5e534b279cbc0ba7c0fab5b5d74197f`.
+
+To audit subsequent version-2 outputs, pass the matching directories:
+
+```bash
+NUMPY_MADVISE_HUGEPAGE=0 .venv/bin/python scripts/audit_generated_measurements.py \
+  --phase selection --generation-dir results/rollout_steering_v2 \
+  --evaluation-dir results/generated_evaluation_v2 \
+  --cache-dir /data2/ishaangp/mira-interp/generated_evaluation_v2
+```

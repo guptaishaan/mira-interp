@@ -1,0 +1,12 @@
+{
+  "status": "passed_prelaunch_supervisor_review",
+  "code_sha256": {
+    "scripts/run_registered_rollouts.py": "0921084994b8d035a7a5cc435adc8af980924073bc05e8c9efd338c0c57d9b09",
+    "scripts/run_rollout_phase.py": "8092bbefd11b906e5247296d222172e37538b747d2725b799f59dd0497a0b5a8"
+  },
+  "actual_three_pilot_gates_pass": true,
+  "missing_or_corrupted_gate_cases_rejected": 4,
+  "independent_phase_cleanup_review": "capture_stage reported6 realCPUchildprocess fixtures passing with no remaining ownedchildren:success,workerfailure,secondPopenfailure,aggregatefailure,missingreport,SIGTERM",
+  "full_study_launched": false,
+  "scope": "Prelaunch execution and gate review, not scientific evidence"
+}

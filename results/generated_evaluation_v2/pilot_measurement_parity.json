@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "scope": "unchanged frozen evaluator across lossless storage formats",
+  "protocol_sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+  "old_evaluation_sha256": "565703ca9416d7a288cabf02961f0b8776ac9e5e42fa5c0aa4e7131e0b2e90ac",
+  "new_evaluation_sha256": "38d4b2f6ea9eaf72603c271486b0fe1d6c32039de3436c5b2bd6aa8f1fb15c0d",
+  "old_independent_audit_sha256": "666a67ddc7c92b33a73c8925a7730b0d70cfb4312a6d27c8dd4d5138dfe0abed",
+  "new_independent_audit_sha256": "72d40a0e1e6404ca859b00d8944bd3551b81caf69ff9e810b1b271b057749f87",
+  "arrays": {
+    "record_ids": {
+      "dtype": "<U76",
+      "shape": [
+        2
+      ],
+      "bitwise_equal": true
+    },
+    "role_predictions": {
+      "dtype": "float64",
+      "shape": [
+        2,
+        4,
+        4,
+        12
+      ],
+      "bitwise_equal": true
+    },
+    "absolute_ball_predictions": {
+      "dtype": "float64",
+      "shape": [
+        2,
+        4,
+        4,
+        6
+      ],
+      "bitwise_equal": true
+    },
+    "role_target_scale": {
+      "dtype": "float64",
+      "shape": [
+        12
+      ],
+      "bitwise_equal": true
+    }
+  },
+  "all_estimates_ids_and_scales_exact": true,
+  "new_hypotheses_or_fits": false
+}
