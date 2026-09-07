@@ -1,0 +1,128 @@
+https://github.com/guptaishaan/mira-interp/releases/tag/generated-selection-v2-2026-09-07
+{"verified_asset": "mira-generated-v2-selection-part0001.tar", "bytes": 1791221760, "completed": 1, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0001.tar.json", "bytes": 915543, "completed": 2, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0002.tar", "bytes": 1788825600, "completed": 3, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0002.tar.json", "bytes": 468830, "completed": 4, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0003.tar", "bytes": 1785118720, "completed": 5, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0003.tar.json", "bytes": 449860, "completed": 6, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0004.tar", "bytes": 1785364480, "completed": 7, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0004.tar.json", "bytes": 449946, "completed": 8, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0005.tar", "bytes": 664514560, "completed": 9, "total": 12}
+{"verified_asset": "mira-generated-v2-selection-part0005.tar.json", "bytes": 166187, "completed": 10, "total": 12}
+{"verified_asset": "archive_manifest.json", "bytes": 4439947, "completed": 11, "total": 12}
+{"verified_asset": "generated_publication_selection_complete.json", "bytes": 7208, "completed": 12, "total": 12}
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T09:25:01.873456+00:00",
+  "phase": "selection",
+  "packaged_records": 420,
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/generated-selection-v2-2026-09-07",
+  "release_id": 383955334,
+  "target_commit": "21ea4db6c4c37059ffebef2515cc1bca7218f6fd",
+  "assets": [
+    {
+      "id": 548495086,
+      "name": "mira-generated-v2-selection-part0001.tar",
+      "size": 1791221760,
+      "digest": "sha256:e8f7c673240a2d686c1b668332717128b2df782e917f11b7f826be55fe79c00e",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0001.tar"
+    },
+    {
+      "id": 548514170,
+      "name": "mira-generated-v2-selection-part0001.tar.json",
+      "size": 915543,
+      "digest": "sha256:a2fb5248dc6ec68489c10694f0146cb3c3c4cd8b8e4d169524f62026b4b620eb",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0001.tar.json"
+    },
+    {
+      "id": 548514241,
+      "name": "mira-generated-v2-selection-part0002.tar",
+      "size": 1788825600,
+      "digest": "sha256:1fce72ce93d258fbd8d727575208030c2ff2e94d218f83be7c3f7dcc0cb0fd93",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0002.tar"
+    },
+    {
+      "id": 548516195,
+      "name": "mira-generated-v2-selection-part0002.tar.json",
+      "size": 468830,
+      "digest": "sha256:f3856ceba28358d756057dc09060dbeb6ef54c8587e1766194a087f928f0530f",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0002.tar.json"
+    },
+    {
+      "id": 548516242,
+      "name": "mira-generated-v2-selection-part0003.tar",
+      "size": 1785118720,
+      "digest": "sha256:6de1580b0f578268625ace2a6d8fccc8101c929c036b60b93e8d518857eda78f",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0003.tar"
+    },
+    {
+      "id": 548517778,
+      "name": "mira-generated-v2-selection-part0003.tar.json",
+      "size": 449860,
+      "digest": "sha256:4c80c2bea7f3ab4fd35130f7a24f66cb7332895c2c2d3aafd19c57c175d3ab25",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0003.tar.json"
+    },
+    {
+      "id": 548517856,
+      "name": "mira-generated-v2-selection-part0004.tar",
+      "size": 1785364480,
+      "digest": "sha256:a307ced090cfb482ecf1af969e43d3732147e895f44c675d425f8c2f91160dd6",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0004.tar"
+    },
+    {
+      "id": 548520808,
+      "name": "mira-generated-v2-selection-part0004.tar.json",
+      "size": 449946,
+      "digest": "sha256:5794d6285008f84ac6baee198b380cd08b6c54efdf97a846d4384b38a461c24b",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0004.tar.json"
+    },
+    {
+      "id": 548520853,
+      "name": "mira-generated-v2-selection-part0005.tar",
+      "size": 664514560,
+      "digest": "sha256:81cc0bafec28648a1537ac06c693a68cb40cf8a0b03c78441b46dfc95d134025",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0005.tar"
+    },
+    {
+      "id": 548524983,
+      "name": "mira-generated-v2-selection-part0005.tar.json",
+      "size": 166187,
+      "digest": "sha256:32793ec19dd972fec4973a6a85c5af4251872ff2dbfc19093a025f39411d0976",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/mira-generated-v2-selection-part0005.tar.json"
+    },
+    {
+      "id": 548525015,
+      "name": "archive_manifest.json",
+      "size": 4439947,
+      "digest": "sha256:de34b69c1183390ebe3f95d39fd3b315a28e26b7a14b663eea2415212baac3ea",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/archive_manifest.json"
+    },
+    {
+      "id": 548525051,
+      "name": "generated_publication_selection_complete.json",
+      "size": 7208,
+      "digest": "sha256:e9faf11b6ce2c04feedc69af3bc97ad8ae6320e633389cdeaa955e64eae108fd",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-selection-v2-2026-09-07/generated_publication_selection_complete.json"
+    }
+  ],
+  "all_remote_sizes_and_sha256_equal_local": true,
+  "actual_release_tag_commit_verified": true,
+  "package_report_sha256": "e9faf11b6ce2c04feedc69af3bc97ad8ae6320e633389cdeaa955e64eae108fd",
+  "release_notes_sha256": "ecdc846848c5e63746463376112e42148af68041caa2293523ce67740e9979d0",
+  "code_bindings": {
+    "/ccn2/u/ishaangp/mira-interp/scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+    "/ccn2/u/ishaangp/mira-interp/scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9"
+  }
+}

@@ -1,5 +1,12 @@
 # Complete generated-output publication
 
+The [complete selection release](https://github.com/guptaishaan/mira-interp/releases/tag/generated-selection-v2-2026-09-07)
+contains all 420 conditions in five tar parts (7,815,045,120 bytes total).
+All 12 release assets, including sidecars and reports, passed remote size/SHA256
+and actual tag-commit verification in
+[the publication report](../results/generated_selection_v2_publication.json).
+Confirmation remains in progress; its package is not yet complete.
+
 `scripts/package_generated_outputs.py` packages every condition of one completed phase. It requires the phase's successful generation audit and independent frozen-video measurement audit, bound to the exact manifests. It checks the full registered coverage: two reserved pilot conditions, 420 selection conditions, or 924 confirmation conditions. It does not select examples based on visual quality or measured response.
 
 Each public NPZ contains exactly six arrays. `frames` is the original `frames[:,16:]`, with shape `[4,8,3,288,512]`; `latents` is the original `latents[:,8:]`, with shape `[4,4,9,16,32]`. Both remain FP32 with every bit preserved. The native and edited residual tiles and descriptors are copied in full. Observed video context, action arrays, simulator-label arrays, and model checkpoints are excluded. Source file hashes and both original/exported array fingerprints document the exact slicing.

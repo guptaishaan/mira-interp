@@ -91,8 +91,10 @@ file listed in its `fixed_bindings` while the supervisor runs.**
 The sequence is selection generation420→independent generation audit→fixed
 VideoMAE measurement→independent metric audit, then the same sequence for924
 confirmation rollouts. Two match workers use GPUs6/7; video scoring uses GPU6
-after generation finishes. No outcome selects a new path or dose. Pilot-based
-runtime is about two hours, and full private output is projected at61GB.
+after generation finishes. No outcome selects a new path or dose. The initial
+pilot-based compute forecast was about two hours; measured stage times are in
+the live status, and archive packaging/upload adds time. Full private output was
+projected at61GB.
 `resource_review.json` is an immutable pre-launch snapshot; `study_status.json`
 is the live authority. A successful terminal supervisor status still says
 `pending_publication`; do not call scientific physical steering established.
@@ -148,6 +150,24 @@ already-pushed `--target` commit, `--tag`, `--title`, `--notes-file`, and immuta
 Full package reports will be `results/generated_publication_{phase}_complete.json`;
 archives stay below `/data2/ishaangp/mira-interp/publication/generated_v2_complete/`.
 Do not run duplicate generators/evaluators/auditors/exporters/packagers.
+
+The full selection release is now complete: all420 conditions, five archive
+parts totaling7,815,045,120bytes, plus five sidecars, the archive manifest and
+package report. `results/generated_selection_v2_publication.json` verifies all12
+remote asset sizes/SHA256 values and the actual release tag, pointing to pushed
+commit`21ea4db6c4c37059ffebef2515cc1bca7218f6fd`. Preserve its completed report.
+
+For confirmation publication, use the separately reviewed
+`scripts/publish_generated_package_parallel.py` with the same required arguments
+and `--workers 3`; it leaves the original uploader unchanged. Read
+`docs/14_parallel_publication.md` and the source-bound review before launch.
+The new publisher and final completion auditor passed independent source reviews
+and the full193-test suite. After confirmation figures are visually checked and
+all publication assets verify, run `scripts/audit_registered_rollout_completion.py
+--report results/rollout_steering_v2/execution_and_publication_audit.json`.
+This final read-only join checks all eight stages, both exports/packages/releases,
+and the actual GitHub tag and asset digests. It refuses unfinished inputs and
+does not equate execution/publication with reliable physical steering.
 
 ## Environment
 

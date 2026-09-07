@@ -1,0 +1,27 @@
+{
+  "status": "passed_independent_completion_auditor_source_review",
+  "checked_utc": "2026-09-07T09:22:11.849485+00:00",
+  "reviewer_agent": "/root/capture_stage",
+  "additional_reviewer": "/root/data_stage",
+  "scope": "Read-only source review and current schema joins; no final completion or network execution.",
+  "code_and_selftest_sha256": {
+    "scripts/audit_registered_rollout_completion.py": "90fd45bf4b55c6d073f51d789ad7fadaf7a5cee2b9b0c1f16c9799d2f203b94a",
+    "tests/test_registered_rollout_completion.py": "baf6f06ad4347407be4049551289d47e5412d68a7be8565a7c707dc36590bd5c",
+    "docs/review/registered_rollout_completion_audit.md": "747b926cc8427ad706016412f4df6f9072acda4e5229285b6bf261eb71fd9622",
+    "results/registered_rollout_completion_selftest.json": "f0872062c305947d11871970c5a5ea8b3b515b49f5dd594f0a5905526ed9fc09"
+  },
+  "all_material_findings_resolved": true,
+  "resolved_findings": [
+    "Startup execution-source hash bound before source/API work.",
+    "Eight independent per-part review fields required, preventing vacuous agreement.",
+    "Real sidecar members checked through exact summary fields, counts, canonical part-manifest digest and cross-part coverage.",
+    "Both current README image hashes and sizes bound through reviewed progress manifests."
+  ],
+  "reviewer_conclusion": "No remaining material finding in stage/package/publication joins, claim boundaries or prior-versus-current verification wording.",
+  "tests_passed": 27,
+  "actual_selection_metadata_schema_passed": true,
+  "live_incomplete_study_correctly_refused": true,
+  "full_execution_and_publication_audit_performed": false,
+  "gpu_used": false,
+  "remote_mutations_performed": false
+}

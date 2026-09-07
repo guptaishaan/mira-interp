@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-09-07T08:52:13.755579+00:00",
+  "snapshot_utc": "2026-09-07T09:26:56.378832+00:00",
   "status": "running",
   "current_stage": "confirmation_generation",
   "completed_stages": [
@@ -38,5 +38,13 @@
   "live_status_local_path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/study_status.json",
   "live_status_sha256_at_snapshot": "1f5afbea8ee5b895783bf2fa247a8a1f7657f60f12b21033f06143d78149de9c",
   "presentation_focus": "Careful initial data/model validation and held-out decoding; two progress figures. Full rollout study remains separately documented.",
-  "note": "Repository checkpoint, not a live dashboard. Engineering completion is not physical-control validation."
+  "note": "Repository checkpoint, not a live dashboard. Engineering completion is not physical-control validation.",
+  "confirmation_records_saved": 747,
+  "selection_complete_release_verified": {
+    "path": "results/generated_selection_v2_publication.json",
+    "sha256": "459ccccd90ae3564655a993ec2191a546ef41316428d5aff8b15564cbcc6472b",
+    "conditions": 420,
+    "archive_parts": 5,
+    "remote_assets": 12
+  }
 }

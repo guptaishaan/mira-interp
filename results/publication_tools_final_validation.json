@@ -1,0 +1,21 @@
+{
+  "status": "passed_root_publication_tool_validation",
+  "checked_utc": "2026-09-07T09:25:07.990918+00:00",
+  "tests_passed": 193,
+  "test_wall_seconds": 14.38,
+  "exit_code": 0,
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 PYTHONPATH=src:external/mira/src .venv/bin/python -m pytest -q",
+  "source_review": "Root inspected both new publication/completion scripts after independent review; no remaining material findings.",
+  "scientific_code_or_results_changed": false,
+  "publication_or_scientific_completion_implied": false,
+  "bindings": {
+    "scripts/publish_generated_package_parallel.py": "58376c01c002d9afe28e52fc19958c506c34d0ef4587554ff9ef7c203a9f9a77",
+    "scripts/audit_registered_rollout_completion.py": "90fd45bf4b55c6d073f51d789ad7fadaf7a5cee2b9b0c1f16c9799d2f203b94a",
+    "scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+    "scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9",
+    "tests/test_parallel_generated_publisher.py": "705e017d38117091687362d0eb3423c87d1087af2bc7b5531714c0bb1e2fe893",
+    "tests/test_registered_rollout_completion.py": "baf6f06ad4347407be4049551289d47e5412d68a7be8565a7c707dc36590bd5c",
+    "results/generated_parallel_publisher_review.json": "3129543d8a99f83e64a2342a5f473dcc25c6db7b8e6316aa6daef8270d75a057",
+    "results/registered_rollout_completion_code_review.json": "c716537ad572b56591a0890c82b19de588dcd07b2baf179e39204d78ddb99451"
+  }
+}

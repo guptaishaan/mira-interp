@@ -36,6 +36,7 @@ figures from the decoding work; the remaining experiments and checks are here.
 
 - [Figure and table exports](review/generated_measurement_exports.md)
 - [Generated artifact format](13_generated_publication.md)
+- [Parallel archive publication](14_parallel_publication.md) and [final execution/publication check](review/registered_rollout_completion_audit.md)
 - [GitHub releases](https://github.com/guptaishaan/mira-interp/releases)
 - [Execution handoff](EXECUTION_HANDOFF.md)
 - [Archived project log](archive/project_log_before_readme_simplification.md)

@@ -1,0 +1,49 @@
+{
+  "status": "passed_parallel_generated_publisher_review",
+  "created_utc": "2026-09-07T09:23:25.120895+00:00",
+  "reviewer_agent": "/root/capture_stage",
+  "review_type": "Independent read-only source review plus local fake-gh subprocess tests",
+  "code_sha256": {
+    "scripts/publish_generated_package_parallel.py": "58376c01c002d9afe28e52fc19958c506c34d0ef4587554ff9ef7c203a9f9a77",
+    "scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+    "scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9",
+    "tests/test_parallel_generated_publisher.py": "705e017d38117091687362d0eb3423c87d1087af2bc7b5531714c0bb1e2fe893",
+    "tests/test_generated_publisher.py": "e718a50763fb971b0026e6aea65f84fa88910af9f2474b51f8dbf86388aa66c2",
+    "docs/14_parallel_publication.md": "42d07d19f17e99ed7a4b165efb007879aecba33ff16d60de666115d7fa17724f"
+  },
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/python -m pytest tests/test_parallel_generated_publisher.py tests/test_generated_publisher.py -q",
+    "passed": 27,
+    "failed": 0,
+    "reported_seconds": 4.04
+  },
+  "reviewed_checks": [
+    "Three concurrent distinct owned upload process groups maximum",
+    "Existing remote assets all verified before new mutation; no clobber or delete",
+    "Unchanged request resume and final exact remote asset set/SHA256/size checks",
+    "Exact actual tag target, public release identity/title/body before and after upload",
+    "Original validator/remote digest helper unchanged and all3 source hashes bound before import/work",
+    "Failed upload leaders remain owned through validation; exited leaders cannot leave live descendants",
+    "All API/tag/probe/create commands use scoped process groups with45second caps and remaining overall budget",
+    "Early SIGTERM handler precedes the first child; interruption and timeout cleanup affect only owned groups",
+    "Completed publication report remains schema-compatible with the original publisher"
+  ],
+  "resolved_findings": [
+    "Failed leaders were removed from tracking before validation; tracking and group cleanup now persist through verification",
+    "Initial metadata calls lacked timeouts; every network command now uses a bounded owned wrapper",
+    "Matching draft releases could be treated as public; drafts now fail",
+    "SIGTERM handler originally followed the first API call; installed before all child/network calls"
+  ],
+  "remaining_material_findings": [],
+  "old_publisher_and_helper_unchanged": true,
+  "existing_selection_upload_modified": false,
+  "actual_network_requests_performed": false,
+  "actual_publication_performed": false,
+  "gpu_used": false,
+  "limits": [
+    "Local fake-gh tests establish lifecycle/scheduling behavior; real remote publication still requires actual final digest checks.",
+    "Interrupted partial remote assets are refused on resume and require explicit review; no automatic deletion.",
+    "Keep one publisher per release.",
+    "No throughput speedup is claimed until an authorized real run measures it."
+  ]
+}

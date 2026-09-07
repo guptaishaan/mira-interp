@@ -1,0 +1,586 @@
+{
+  "status": "passed_publication_presentation_review",
+  "checked_utc": "2026-09-07T09:27:13.915096+00:00",
+  "scope": "Present working-tree README, progress text, three folder indexes, generated-selection interpretation, two newly linked publication/audit documents, progress artifact bindings, and complete tracked path inventory. Numerical and visual checks retained after verifying their unchanged hashes; historical experiment prose and raw research arrays were not reaudited.",
+  "git_head": "21ea4db6c4c37059ffebef2515cc1bca7218f6fd",
+  "readme": {
+    "whitespace_delimited_words": 113,
+    "count_definition": "len(markdown_source.split()), consistent with the existing figure_review.json; Markdown-stripped whitespace count differs.",
+    "exactly_two_figures": true,
+    "figure_paths": [
+      "figures/progress/layer_position_decoding.png",
+      "figures/progress/fresh_state_decoding.png"
+    ],
+    "strong_initial_decoding_steps_foregrounded": true,
+    "physical_control_claimed": false,
+    "pretraining_novelty_claimed": false
+  },
+  "claims": {
+    "observed_target_pixels_explicit": true,
+    "weak_horizontal_velocity_visible": true,
+    "new_matches_means_held_out_from_our_probe_fit_and_selection": true,
+    "unknown_world_model_training_overlap_explicit_in_progress": true,
+    "causal_and_generated_work_identified_as_incomplete_or_negative": true,
+    "all20_generated_primary_table_rows_match_audited_report_rounding": true,
+    "positive_match_and_ordered_pair_denominators_distinguished": true,
+    "generated_estimator_accuracy_unvalidated_explicit": true
+  },
+  "links": {
+    "local_checked": 72,
+    "broken": [],
+    "all_target_files_tracked_or_directory_contains_tracked_files": true,
+    "detail": [
+      {
+        "source": "README.md",
+        "target": "figures/progress/layer_position_decoding.png",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "figures/progress/fresh_state_decoding.png",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/progress/README.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "docs/README.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "src/mira_interp/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "scripts/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "configs/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "results/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "README.md",
+        "target": "figures/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/progress/README.md",
+        "target": "../../figures/progress/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/progress/README.md",
+        "target": "../../results/progress/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/progress/README.md",
+        "target": "../11_fresh_confirmation_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/progress/README.md",
+        "target": "../13_diagnosis_and_repairs.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/progress/README.md",
+        "target": "../README.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "progress/README.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "00_setup.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "01_data.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "05_cohort_amendment.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "model_access_audit.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "03_pretrained.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "02_instrumentation.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "04_capture.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "05_aggregate.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "PROTOCOL.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "07_observational_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "10_development_readout_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "11_fresh_confirmation_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "08_review_and_repair.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "13_diagnosis_and_repairs.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/probes_and_causality.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/geometry_and_features.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/anthropic_and_model_audit.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/anthropic_extended_review_a.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/anthropic_extended_review_b.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "09_internal_causal_development.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/geometry_development_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/sparse_development_audit.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/sparse_causal_fidelity.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/video_evaluator.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/rollout_steering.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/generated_measurements.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/generated_selection_results.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/generated_measurement_exports.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "13_generated_publication.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "14_parallel_publication.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "review/registered_rollout_completion_audit.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "EXECUTION_HANDOFF.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/README.md",
+        "target": "archive/project_log_before_readme_simplification.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "progress/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "probes_v2/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "development_probes_v3/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "fresh_confirmation_v3/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "review/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "causal_development_v1/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "feature_development_v1/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "sparse_causal_fidelity_v1/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "videomae_exports/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "videomae_repair_exports/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "rollout_steering_v2/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "results/README.md",
+        "target": "generated_evaluation_v2/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "figures/README.md",
+        "target": "progress/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "figures/README.md",
+        "target": "../results/progress/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "figures/README.md",
+        "target": "../results/",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "rollout_steering.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "generated_measurements.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/generated_evaluation_v2/selection_delivery/summary.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "sparse_causal_fidelity.md",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/generated_evaluation_v2/selection.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/generated_evaluation_v2/selection_audit.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/rollout_steering_v2/selection.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/rollout_steering_v2/selection_audit.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      },
+      {
+        "source": "docs/review/generated_selection_results.md",
+        "target": "../../results/generated_evaluation_v2/selection_figures/export.json",
+        "exists": true,
+        "tracked_or_tracked_directory": true
+      }
+    ],
+    "external_checked": [
+      {
+        "url": "https://huggingface.co/alakazamworld/mira-mini-4p",
+        "result": "publisher page retrieved by web tool"
+      },
+      {
+        "url": "https://huggingface.co/datasets/kyutai/rocket-science",
+        "result": "publisher dataset card retrieved by web tool"
+      },
+      {
+        "url": "https://github.com/guptaishaan/mira-interp/releases",
+        "result": "releases page retrieved by web tool"
+      },
+      {
+        "url": "https://alakazam.gg/mira-mini/report.pdf",
+        "result": "web PDF parser failed; independent direct GET returned HTTP200, application/pdf, valid PDF header, 6206929 bytes"
+      }
+    ]
+  },
+  "progress_artifacts": {
+    "source_and_output_hashes_all_match": true,
+    "figure_manifest_sha256": "862b7ce9602ee6695ce4c061db41ed0759d0a4b6673623fd26b649c65d08243a",
+    "figure_review_sha256": "56f6cbcf933aa098196586f54b8a3a1e45c3ff8f8e88271db0037027902e88bf",
+    "all37_layer_baseline_and12_target_rows_previously_audited": true,
+    "both_pngs_independently_visually_inspected_now": true,
+    "visual_findings": "All 17 residual sites, both readout types and three baselines retained. Fresh figure includes every ego/ball-relative position and velocity axis, with near-zero/negative horizontal velocity and match-bootstrap intervals visible. Captions identify observed target frames."
+  },
+  "tracked_placement": {
+    "files": 1205,
+    "top_level_counts": {
+      "(root)": 5,
+      "configs": 10,
+      "data": 10,
+      "docs": 62,
+      "figures": 28,
+      "results": 950,
+      "scripts": 94,
+      "src": 18,
+      "tests": 28
+    },
+    "root_files": [
+      ".gitattributes",
+      ".gitignore",
+      "README.md",
+      "THIRD_PARTY.md",
+      "pyproject.toml"
+    ],
+    "code_outside_src_scripts_tests": [
+      "results/review/preparation_helper_70603eb0.py",
+      "results/rollout_attempts/01_action_dtype/rollout_steering.py",
+      "results/videomae_attempts/03_finetune_script.py",
+      "results/videomae_attempts/04_finetune_script.py",
+      "results/videomae_attempts/05_finetune_script.py"
+    ],
+    "historical_code_exception_explanation": "Five source snapshots are deliberately retained under results/review or results/*attempts to preserve registered provenance; active code is separated into src/scripts/tests.",
+    "active_scientific_results_in_results": true,
+    "settings_in_configs": true,
+    "data_directory_contains_manifests_not_large_source_videos": true,
+    "progress_docs_results_figures_separated": true,
+    "largest_tracked_file_bytes": 17293635,
+    "root_output_clutter": false,
+    "publication_scope": "Local index includes staged files. This review does not claim that all working-tree changes are already committed or uploaded."
+  },
+  "material_findings": [],
+  "optional_observations": [
+    "113 words uses the existing source-whitespace counting convention; no README edit requested.",
+    "Detailed historical result figures remain beside their reports as documented; do not relocate hash-bound evidence merely to flatten the folder structure."
+  ],
+  "artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "34b0f02dc68bd5a0f9b81dd5518d0f03f84b85b6d8b5263a470eeadeb2dab7af"
+    },
+    {
+      "path": "docs/progress/README.md",
+      "sha256": "37c021ea6c32eeffd0d49fc6e90d4b0d49c45613ea82b9fb9d7ae11ba1a0ec34"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "190b83948157f093e90e1b29aeaa3f2cc803885c6cdb21cd221117c918c36382"
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "cda1757ad1075c86edd07b670557b662176a756ecfec8830b459653a676e3f43"
+    },
+    {
+      "path": "figures/README.md",
+      "sha256": "da472fdf91a2916da26f1a3afd7ec5f00a47b6c77f5f415a97739160da116e05"
+    },
+    {
+      "path": "docs/review/generated_selection_results.md",
+      "sha256": "96dcc27fe6ded7d259d99848f3d361235daca6ebe49f3aa753f29b8f03574935"
+    },
+    {
+      "path": "docs/14_parallel_publication.md",
+      "sha256": "42d07d19f17e99ed7a4b165efb007879aecba33ff16d60de666115d7fa17724f"
+    },
+    {
+      "path": "docs/review/registered_rollout_completion_audit.md",
+      "sha256": "747b926cc8427ad706016412f4df6f9072acda4e5229285b6bf261eb71fd9622"
+    }
+  ],
+  "generated_selection_measurement_sha256": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0",
+  "models_refitted": false,
+  "gpu_used": false,
+  "existing_files_modified": false,
+  "physical_control_established": false,
+  "refresh": {
+    "reason": "Parent requested refresh before first commit after adding two documentation-index links.",
+    "previous_uncommitted_review_sha256": "739fb9119ed526893f6b29e97460f5c9330171e467c2b7cc48b8947888530527",
+    "prior_numerical_and_visual_review_utc": "2026-09-07T09:05:44.802420+00:00",
+    "new_documentation_links": [
+      "docs/14_parallel_publication.md",
+      "docs/review/registered_rollout_completion_audit.md"
+    ],
+    "both_new_documents_staged_at_refresh": true,
+    "README_and_all_progress_source_output_hashes_unchanged": true,
+    "new_numerical_or_image_review_performed": false,
+    "new_material_findings": []
+  }
+}
