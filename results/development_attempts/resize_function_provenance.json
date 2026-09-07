@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "old_file_sha256": "70603eb01a7c8996bf26f4b69193044a417377820244edbd173cb9f079f61e70",
+  "new_file_sha256": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
+  "decode_float_video_source_identical": true,
+  "decode_function_sha256": "311a44108eb1d9b6b04b465915a4f0631ae604ccdb611f1859863aa251236d72",
+  "historical_snapshot": "results/development_attempts/helper_before_rgb_tolerance.py.txt",
+  "only_change": "RGB numerical tolerance in make_inputs; preparation never calls make_inputs"
+}
