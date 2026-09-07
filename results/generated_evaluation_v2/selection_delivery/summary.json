@@ -1,0 +1,203 @@
+{
+  "status": "passed_audited_edit_delivery_summary",
+  "phase": "selection",
+  "analysis_type": "Posthoc descriptive engineering summary of previously independently recomputed metadata.",
+  "sources": {
+    "generation": {
+      "path": "results/rollout_steering_v2/selection.json",
+      "sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84"
+    },
+    "generation_audit": {
+      "path": "results/rollout_steering_v2/selection_audit.json",
+      "sha256": "503437ff00d0038b1e17cc67fa4fa58c262d2737d8bb07a4bfd819e9eb12e28f"
+    },
+    "measurement": {
+      "path": "results/generated_evaluation_v2/selection.json",
+      "sha256": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0"
+    },
+    "measurement_audit": {
+      "path": "results/generated_evaluation_v2/selection_audit.json",
+      "sha256": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f"
+    },
+    "development": {
+      "path": "results/development_probes_v3/development_report.json",
+      "sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178"
+    },
+    "development_audit": {
+      "path": "results/development_probes_v3/probe_audit.json",
+      "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+    }
+  },
+  "script_sha256": "16a11bc24b0fd64d00ee3e706f1a050abe522265c138bcc340bfafeddf9af23e",
+  "target_names": [
+    "ball.location.x",
+    "ball.location.y",
+    "ball.location.z",
+    "player0.location.x",
+    "player0.location.y",
+    "player0.location.z",
+    "player1.location.x",
+    "player1.location.y",
+    "player1.location.z",
+    "player2.location.x",
+    "player2.location.y",
+    "player2.location.z",
+    "player3.location.x",
+    "player3.location.y",
+    "player3.location.z"
+  ],
+  "target_index": 2,
+  "summary": {
+    "affine_forward": {
+      "n_conditions": 80,
+      "zero_effective_dose_conditions": 0,
+      "linear_probe_delivery_fraction": {
+        "n": 0,
+        "minimum": null,
+        "median": null,
+        "maximum": null
+      },
+      "relative_descriptor_mismatch": {
+        "n": 80,
+        "minimum": 0.019333565209838824,
+        "median": 0.03547587162517176,
+        "maximum": 0.0455578526705588
+      },
+      "actual_to_requested_raw_norm": {
+        "n": 80,
+        "minimum": 1.0041397756523238,
+        "median": 1.0171125019690113,
+        "maximum": 1.0330182669348864
+      },
+      "descriptor_delta_cosine": {
+        "n": 80,
+        "minimum": 0.9991294561702497,
+        "median": 0.9994370587173791,
+        "maximum": 0.999814453158256
+      }
+    },
+    "probe_linear": {
+      "n_conditions": 80,
+      "zero_effective_dose_conditions": 0,
+      "linear_probe_delivery_fraction": {
+        "n": 80,
+        "minimum": 0.9751808783381056,
+        "median": 0.9916655043565159,
+        "maximum": 0.9980812541152788
+      },
+      "relative_descriptor_mismatch": {
+        "n": 80,
+        "minimum": 0.0179477468941838,
+        "median": 0.03257968981086467,
+        "maximum": 0.05384571778333292
+      },
+      "actual_to_requested_raw_norm": {
+        "n": 80,
+        "minimum": 1.0058631132147786,
+        "median": 1.0250956359559318,
+        "maximum": 1.0377743948560207
+      },
+      "descriptor_delta_cosine": {
+        "n": 80,
+        "minimum": 0.9988016148603184,
+        "median": 0.9994994084694724,
+        "maximum": 0.9998415138932973
+      }
+    },
+    "quadratic_forward": {
+      "n_conditions": 80,
+      "zero_effective_dose_conditions": 0,
+      "linear_probe_delivery_fraction": {
+        "n": 0,
+        "minimum": null,
+        "median": null,
+        "maximum": null
+      },
+      "relative_descriptor_mismatch": {
+        "n": 80,
+        "minimum": 0.018775266028500354,
+        "median": 0.028274501485933398,
+        "maximum": 0.03774884611916881
+      },
+      "actual_to_requested_raw_norm": {
+        "n": 80,
+        "minimum": 1.0033227917092042,
+        "median": 1.0118860282525708,
+        "maximum": 1.0248217814588967
+      },
+      "descriptor_delta_cosine": {
+        "n": 80,
+        "minimum": 0.9993686747277379,
+        "median": 0.9996150976315662,
+        "maximum": 0.9998256623163656
+      }
+    },
+    "random_norm": {
+      "n_conditions": 80,
+      "zero_effective_dose_conditions": 0,
+      "linear_probe_delivery_fraction": {
+        "n": 0,
+        "minimum": null,
+        "median": null,
+        "maximum": null
+      },
+      "relative_descriptor_mismatch": {
+        "n": 80,
+        "minimum": 0.014093251841028241,
+        "median": 0.02107831526574127,
+        "maximum": 0.029442333117023704
+      },
+      "actual_to_requested_raw_norm": {
+        "n": 80,
+        "minimum": 1.0040150004721982,
+        "median": 1.0123273656869347,
+        "maximum": 1.027144960781782
+      },
+      "descriptor_delta_cosine": {
+        "n": 80,
+        "minimum": 0.9995767866001712,
+        "median": 0.9997794773289163,
+        "maximum": 0.999901757403942
+      }
+    },
+    "wrong_variable_ball_x": {
+      "n_conditions": 80,
+      "zero_effective_dose_conditions": 0,
+      "linear_probe_delivery_fraction": {
+        "n": 0,
+        "minimum": null,
+        "median": null,
+        "maximum": null
+      },
+      "relative_descriptor_mismatch": {
+        "n": 80,
+        "minimum": 0.01417061521318661,
+        "median": 0.021089499718194953,
+        "maximum": 0.031726943734363654
+      },
+      "actual_to_requested_raw_norm": {
+        "n": 80,
+        "minimum": 1.004135321591883,
+        "median": 1.013430486696762,
+        "maximum": 1.0259378413173514
+      },
+      "descriptor_delta_cosine": {
+        "n": 80,
+        "minimum": 0.9995127772404158,
+        "median": 0.9997779322090503,
+        "maximum": 0.9999001726334307
+      }
+    }
+  },
+  "per_condition": {
+    "path": "results/generated_evaluation_v2/selection_delivery/per_condition.csv",
+    "sha256": "75758d293b4e5792409f9f1b5475c425d66b712ca338650441c37aad7dd996a5"
+  },
+  "model_execution": false,
+  "new_fitting_or_selection": false,
+  "limits": [
+    "Delivery fraction measures the internal probe scalar used to construct linear edits; it is not independent physical validation.",
+    "Raw and descriptor norms differ in scale; controls match the quadratic path only.",
+    "These summaries do not measure downstream propagation, explain all rounding effects, or establish physical control."
+  ]
+}

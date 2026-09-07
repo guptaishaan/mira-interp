@@ -1,0 +1,249 @@
+{
+  "status": "passed_audited_generated_measurement_export",
+  "phase": "selection",
+  "measurement_audit_sha256": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f",
+  "evaluation_sha256": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0",
+  "protocol_sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+  "generation_manifest_sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84",
+  "prediction_artifact_sha256": "a1b680fa5cc1add969be62a2e5e58f0e728e0d47be4be55e9d74fc4ace0ca486",
+  "all_five_paths_four_times_retained": true,
+  "requested_dose_grouping_unchanged": true,
+  "effective_dose_axis": "Mean effective dose within each fixed requested-dose group; no regrouping or dose fitting",
+  "uncertainty": "Registered1000 whole-match bootstrap draws after paired-seed averaging; per-dose bands are descriptive pointwise display, not simultaneous inference",
+  "negative_cases_omitted": false,
+  "undefined_ranks_imputed": false,
+  "model_or_probe_fitting_performed": false,
+  "generated_video_accuracy_established": false,
+  "physical_control_established": false,
+  "csv": {
+    "summary.csv": {
+      "rows": 20,
+      "columns": [
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "matches",
+        "view0_extreme_contrast.mean",
+        "view0_extreme_contrast.match_bootstrap_ci95.0",
+        "view0_extreme_contrast.match_bootstrap_ci95.1",
+        "positive_contrast_matches",
+        "allviews_extreme_contrast.mean",
+        "allviews_extreme_contrast.match_bootstrap_ci95.0",
+        "allviews_extreme_contrast.match_bootstrap_ci95.1",
+        "view0_nontarget_role_rms.mean",
+        "view0_nontarget_role_rms.match_bootstrap_ci95.0",
+        "view0_nontarget_role_rms.match_bootstrap_ci95.1",
+        "view0_mean_height_by_requested_dose.0",
+        "view0_mean_height_by_requested_dose.1",
+        "view0_mean_height_by_requested_dose.2",
+        "view0_mean_height_by_requested_dose.3",
+        "view0_mean_height_by_requested_dose.4",
+        "nondecreasing_nonzero_pair_fraction",
+        "mean_match_spearman",
+        "eligible_rank_matches",
+        "undefined_rank_matches",
+        "undefined_rank_pairs",
+        "inconsistent_duplicate_dose_pairs",
+        "view0_contrast_minus_random_norm.mean",
+        "view0_contrast_minus_random_norm.match_bootstrap_ci95.0",
+        "view0_contrast_minus_random_norm.match_bootstrap_ci95.1",
+        "view0_contrast_minus_wrong_variable_ball_x.mean",
+        "view0_contrast_minus_wrong_variable_ball_x.match_bootstrap_ci95.0",
+        "view0_contrast_minus_wrong_variable_ball_x.match_bootstrap_ci95.1"
+      ],
+      "sha256": "9c68b52658db904c0ece715101155bc0aa6edd1fe55ce43e83fde168d58947cf",
+      "bytes": 9604
+    },
+    "per_pair_time.csv": {
+      "rows": 400,
+      "columns": [
+        "match_id",
+        "seed",
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "view0_extreme_contrast",
+        "allviews_extreme_contrast",
+        "view0_nontarget_role_rms",
+        "spearman",
+        "slope",
+        "positive_adjacent_fraction",
+        "nondecreasing_with_nonzero_span",
+        "duplicate_effective_responses_consistent",
+        "distinct_effective_doses",
+        "any_clipped_dose",
+        "decoded_context_changed"
+      ],
+      "sha256": "2fb7b4effd6de69fb3a465b5ae0ba7a174729ef8ba2f8c64d6e9e66451bb67b7",
+      "bytes": 76167
+    },
+    "per_pair_dose.csv": {
+      "rows": 2000,
+      "columns": [
+        "match_id",
+        "seed",
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "requested_dose_uu",
+        "effective_dose_uu",
+        "dose_clipped",
+        "view0_height_change_uu",
+        "allviews_mean_height_change_uu"
+      ],
+      "sha256": "acf7df983eef4941b9cc979710f3bf37b8fbf5a984cfed405c16120aadde5be3",
+      "bytes": 228311
+    },
+    "per_match_time.csv": {
+      "rows": 200,
+      "columns": [
+        "match_id",
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "seeds",
+        "any_clipped_seed_count",
+        "decoded_context_changed_seed_count",
+        "view0_extreme_contrast",
+        "allviews_extreme_contrast",
+        "view0_nontarget_role_rms",
+        "spearman_finite_seed_mean",
+        "spearman_defined_seed_count",
+        "slope_finite_seed_mean",
+        "slope_defined_seed_count",
+        "positive_adjacent_fraction_finite_seed_mean",
+        "positive_adjacent_fraction_defined_seed_count",
+        "nondecreasing_nonzero_seed_fraction",
+        "inconsistent_duplicate_seed_count",
+        "view0_contrast_minus_random_norm",
+        "view0_contrast_minus_wrong_variable_ball_x"
+      ],
+      "sha256": "31031de8f03c8997c449062ab52259c08baa53bb69a19ba66e1c72e559a4a5bb",
+      "bytes": 42253
+    },
+    "per_match_dose.csv": {
+      "rows": 1000,
+      "columns": [
+        "match_id",
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "requested_dose_uu",
+        "effective_dose_seed_mean_uu",
+        "effective_dose_seed_min_uu",
+        "effective_dose_seed_max_uu",
+        "clipped_seed_count",
+        "view0_height_change_seed_mean_uu",
+        "allviews_height_change_seed_mean_uu"
+      ],
+      "sha256": "3ff79107b59295e178876f9919f5f65f1e1abb8e6451c7c90dd3fd42c2858d4b",
+      "bytes": 120302
+    },
+    "dose_response.csv": {
+      "rows": 100,
+      "columns": [
+        "path",
+        "time_index",
+        "seconds_after_context",
+        "requested_dose_uu",
+        "view0_estimated_height_change_mean_uu",
+        "pointwise_match_bootstrap_low_uu",
+        "pointwise_match_bootstrap_high_uu",
+        "mean_effective_dose_uu",
+        "minimum_effective_dose_uu",
+        "maximum_effective_dose_uu",
+        "clipped_pair_fraction",
+        "matches",
+        "paired_seeds_per_match"
+      ],
+      "sha256": "4e337f1fde941b7c63d99a6005ba2e4f90302ffcf07f85f35380876a4c2c2473",
+      "bytes": 12706
+    }
+  },
+  "figures": {
+    "dose_response_requested.png": {
+      "sha256": "7c0081c48e936b0cf603ce327af5484c9fcb422a0c726a244ab6462cde081c6b",
+      "bytes": 629127
+    },
+    "dose_response_requested.pdf": {
+      "sha256": "1e17252529200192e027e3bb58ce48e22fbecbb7ca10b9240e8b50a3f0285a7e",
+      "bytes": 30131
+    },
+    "dose_response_effective.png": {
+      "sha256": "e4915f1dafe32860b651d59c1b76027114ac02d2e141e74e09afa57ba7bc85bb",
+      "bytes": 633870
+    },
+    "dose_response_effective.pdf": {
+      "sha256": "5eb5c5f5941e42b9612884732abc6094eb377bda2da60efb673fa7b7a3559a3d",
+      "bytes": 30246
+    },
+    "contrasts_controls_nuisance.png": {
+      "sha256": "15287d7f38a5a5df7b2f3e59ffc1c746e120d567509afb59d43f558537b17525",
+      "bytes": 523698
+    },
+    "contrasts_controls_nuisance.pdf": {
+      "sha256": "bb475666cc176523d40894c0c1be0a1057a594dadfeda0cfc6c337606afc5ab3",
+      "bytes": 30120
+    },
+    "ordering_and_undefined.png": {
+      "sha256": "3a8e9739a1a7508c3f1dda0ee4f84796f3c13bcc7a94d5f546e5aeb520b88d7f",
+      "bytes": 247021
+    },
+    "ordering_and_undefined.pdf": {
+      "sha256": "f66f98d92846aa79320e0ee256e3c05ecff5b071e0e3f7258a6df98c8f399c0d",
+      "bytes": 28956
+    }
+  },
+  "script_sha256": "ee1ad5df9c02de1a592b13fd42c1a28d1ee40fb5e0413cfc5ec9cb460b48b3a7",
+  "elapsed_seconds": 3.151,
+  "artifact_bindings": [
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/export_generated_measurements.py",
+      "sha256": "ee1ad5df9c02de1a592b13fd42c1a28d1ee40fb5e0413cfc5ec9cb460b48b3a7"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/selection_audit.json",
+      "sha256": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/selection.json",
+      "sha256": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/configs/generated_evaluation_v1.json",
+      "sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/scripts/evaluate_rollouts.py",
+      "sha256": "4855d35c28a6e3e02f11772d09fe18e595eedc70016cecf5b3cf49972655763e"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/rollout_evaluator.py",
+      "sha256": "185d62ae2b5536b3f0bab9ab8d19fa42a6cebfd0d65849c9167e2c857598859a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator.py",
+      "sha256": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator_finetune.py",
+      "sha256": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/src/mira_interp/video_evaluator_training.py",
+      "sha256": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection.json",
+      "sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection_audit.json",
+      "sha256": "503437ff00d0038b1e17cc67fa4fa58c262d2737d8bb07a4bfd819e9eb12e28f"
+    },
+    {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/selection_predictions.npz",
+      "sha256": "a1b680fa5cc1add969be62a2e5e58f0e728e0d47be4be55e9d74fc4ace0ca486"
+    }
+  ]
+}

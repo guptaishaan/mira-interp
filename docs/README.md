@@ -30,6 +30,7 @@ figures from the decoding work; the remaining experiments and checks are here.
 - [Conditional causal fidelity](review/sparse_causal_fidelity.md)
 - [Video evaluator](review/video_evaluator.md)
 - [Generated-rollout protocol](review/rollout_steering.md) and [measurement](review/generated_measurements.md)
+- [Audited generated selection results](review/generated_selection_results.md)
 
 ## Reproduction and artifacts
 

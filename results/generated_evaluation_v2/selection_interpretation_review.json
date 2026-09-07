@@ -1,0 +1,114 @@
+{
+  "status": "passed_independent_generated_selection_interpretation_review",
+  "reviewed_utc": "2026-09-07T08:50:42.899942+00:00",
+  "phase": "selection",
+  "scope": "Read-only review of already independently audited generation/measurement outputs, followed by a new interpretation document and this review record.",
+  "source_sha256": {
+    "docs/review/generated_selection_results.md": "96dcc27fe6ded7d259d99848f3d361235daca6ebe49f3aa753f29b8f03574935",
+    "results/generated_evaluation_v2/selection.json": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0",
+    "results/generated_evaluation_v2/selection_audit.json": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f",
+    "results/rollout_steering_v2/selection.json": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84",
+    "results/rollout_steering_v2/selection_audit.json": "503437ff00d0038b1e17cc67fa4fa58c262d2737d8bb07a4bfd819e9eb12e28f",
+    "results/generated_evaluation_v2/selection_delivery/summary.json": "03f7b633831782e1c2cf06ab3ff7bbe826da2c6f5873635ec5621704995f2c13",
+    "results/generated_evaluation_v2/selection_delivery/per_condition.csv": "75758d293b4e5792409f9f1b5475c425d66b712ca338650441c37aad7dd996a5",
+    "scripts/summarize_edit_delivery.py": "16a11bc24b0fd64d00ee3e706f1a050abe522265c138bcc340bfafeddf9af23e",
+    "results/development_probes_v3/development_report.json": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178",
+    "results/development_probes_v3/probe_audit.json": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c",
+    "configs/generated_evaluation_v1.json": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+    "results/generated_evaluator_reference_calibration.json": "26c5a6b72a28c8e17a708b640b86ea7c2e1ee7deb3b8a2bcc41a28853ed0973c"
+  },
+  "gates": {
+    "generation_and_measurement_audits_passed_before_outcome_access": true,
+    "generation_and_evaluation_hash_bindings_verified": true,
+    "complete_registered_conditions": 420,
+    "matches": 10,
+    "paired_seeds_per_match": 2
+  },
+  "interpretation_checks": {
+    "all_registered_path_time_rows_retained": 20,
+    "all_five_paths_retained": true,
+    "equal_match_means_independently_recomputed_from_per_pair": true,
+    "mean_metrics_checked": [
+      "view0_extreme_contrast",
+      "allviews_extreme_contrast",
+      "view0_nontarget_role_rms"
+    ],
+    "mean_agreement_absolute_tolerance": 1e-10,
+    "bootstrap_intervals_taken_from_preexisting_independently_audited_report": true,
+    "new_bootstrap_or_fitting_performed": false,
+    "positive_match_counts_distinguished_from_ordered_pair_counts": true,
+    "candidate_vs_random_intervals_including_zero": 12,
+    "candidate_vs_random_comparisons": 12,
+    "candidate_vs_wrong_x_intervals_excluding_zero": [
+      {
+        "path": "probe_linear",
+        "seconds_after_context": 0.1,
+        "mean": 1.8424491882324219,
+        "ci95": [
+          0.37832197189331057,
+          3.297226390838623
+        ]
+      }
+    ],
+    "candidate_ordered_pair_count_range": [
+      0,
+      2
+    ],
+    "ordered_pair_denominator": 20,
+    "negative_600_clipped_pairs": 19,
+    "negative_300_clipped_pairs": 6,
+    "any_clipping_matches": 10,
+    "duplicate_effective_dose_pairs": 6,
+    "duplicate_effective_dose_matches": 4,
+    "inconsistent_duplicate_responses": 0,
+    "undefined_rank_pairs": 1,
+    "undefined_rank_scope": "wrong_variable_ball_x at0.2s; the other seed preserves eligibility for all10matches",
+    "baseline_height_clipped": false,
+    "all_context_pixels_unchanged": true,
+    "nonzero_edit_records_with_nonzero_latent_difference_at_all_four_times": 400
+  },
+  "delivery_checks": {
+    "summary_sha256": "03f7b633831782e1c2cf06ab3ff7bbe826da2c6f5873635ec5621704995f2c13",
+    "source_code_and_csv_hashes_independently_verified": true,
+    "complete_per_condition_rows_independently_checked": 400,
+    "complete_path_groups_independently_checked": 5,
+    "per_path_conditions": 80,
+    "target_name": "ball.location.z",
+    "target_index": 2,
+    "index_verified_from": "spatial/block_15_output absolute30 position target_names in audited development report",
+    "formulas_checked": {
+      "linear_probe_delivery_fraction": "actual_internal_height_probe_delta / effective_dose; defined only for nonzero probe_linear edits",
+      "relative_descriptor_mismatch": "descriptor_rounding_error_l2 / requested_descriptor_delta_l2",
+      "actual_to_requested_raw_norm": "actual_edit_l2 / requested_raw_lift_l2",
+      "descriptor_delta_cosine": "0.5*(actual/requested + requested/actual - mismatch^2/(actual*requested))"
+    },
+    "null_nonapplicable_values_preserved": true,
+    "min_median_max_and_counts_recomputed": true,
+    "independent_median_implementation": "Python statistics.median",
+    "maximum_per_row_formula_difference": 3.3306690738754696e-16,
+    "absolute_comparison_tolerance": 1e-12,
+    "linear_internal_probe_delivery_min_median_max": [
+      0.9751808783381056,
+      0.9916655043565159,
+      0.9980812541152788
+    ],
+    "interpretation": "An internal edit was delivered; the constructing probe is not independent physical validation.",
+    "precision_scope": "Registered mixed-precision inference; actual block-output dtype was not directly recorded. Delivery does not exclude downstream precision sensitivity or other numerical effects."
+  },
+  "conclusion": "No reliable ordered ball-height steering demonstrated in the fixed selection cohort under the learned video estimator; preserve isolated positive contrasts, reversals, controls and weak ordering.",
+  "limits_explicit": [
+    "Reference absolute MAE is not a paired-effect detection threshold.",
+    "Generated-domain evaluator calibration and generated-ground-truth R2 are unavailable.",
+    "Covariance/subspace-matched controls are absent; random/wrong-x norms match quadratic only.",
+    "Intervals are descriptive whole-match intervals and omit evaluator bias and simultaneous coverage.",
+    "Every rolling evaluation window retains the first edited generated frames; later estimates alone do not prove physical persistence.",
+    "Native complement limits prior sparse-fidelity sufficiency claims; weak geometry fits do not establish manifold control.",
+    "No outcome-driven change to path, dose, site, evaluator, endpoint or confirmation protocol."
+  ],
+  "new_model_execution": false,
+  "gpu_used": false,
+  "new_fitting_or_selection": false,
+  "confirmation_outcomes_inspected": false,
+  "frozen_scientific_files_modified": false,
+  "remaining_material_findings": []
+}

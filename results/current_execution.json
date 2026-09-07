@@ -1,22 +1,42 @@
 {
-  "snapshot_utc": "2026-09-07T08:26:18.213427+00:00",
+  "snapshot_utc": "2026-09-07T08:52:13.755579+00:00",
   "status": "running",
-  "current_stage": "selection_generation_audit",
+  "current_stage": "confirmation_generation",
   "completed_stages": [
     {
       "stage": "selection_generation",
       "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection.json",
       "sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84",
       "elapsed_seconds": 1565.7604269981384
+    },
+    {
+      "stage": "selection_generation_audit",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection_audit.json",
+      "sha256": "503437ff00d0038b1e17cc67fa4fa58c262d2737d8bb07a4bfd819e9eb12e28f",
+      "elapsed_seconds": 413.62583446502686
+    },
+    {
+      "stage": "selection_video_measurement",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/selection.json",
+      "sha256": "55b483c3a240629ea53cf226e91e36597d16713229ef6748fc59e0735ab4c5b0",
+      "elapsed_seconds": 618.8940448760986
+    },
+    {
+      "stage": "selection_measurement_audit",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/selection_audit.json",
+      "sha256": "0f11d0e92a119b9db059148426401b405f0021b566442fb74d3112778c8fd48f",
+      "elapsed_seconds": 35.31360673904419
     }
   ],
   "selection_records_saved": 420,
   "selection_expected": 420,
+  "selection_generation_and_measurement_independently_audited": true,
+  "selection_scientific_result": "Reliable ordered ball-height steering not demonstrated under the frozen video estimator. All paths/controls and negative results retained.",
   "confirmation_expected": 924,
   "physical_control_established": false,
   "all_prerequisite_pilots_independently_passed": true,
   "live_status_local_path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/study_status.json",
-  "live_status_sha256_at_snapshot": "6d9f26a3b0bc97b49ca2928527d37e2339e1a92bc4e0cd1b6ca89983fcdc87fd",
+  "live_status_sha256_at_snapshot": "1f5afbea8ee5b895783bf2fa247a8a1f7657f60f12b21033f06143d78149de9c",
   "presentation_focus": "Careful initial data/model validation and held-out decoding; two progress figures. Full rollout study remains separately documented.",
-  "note": "Repository checkpoint, not a live dashboard. Saved generation is not an independent phase audit or physical-control result."
+  "note": "Repository checkpoint, not a live dashboard. Engineering completion is not physical-control validation."
 }

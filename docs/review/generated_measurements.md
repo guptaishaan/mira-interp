@@ -13,6 +13,12 @@ height: estimated ego height plus estimated ball-minus-ego height. The all-view
 mean is secondary. Each edit is compared with its explicit same-match, same-clip,
 same-seed baseline.
 
+All four windows still contain the first edited generated frames16–17. A shift
+at a later measured endpoint can therefore reflect those shared early pixels;
+four shifted estimates do not independently prove persistent later-frame
+physical motion. Saved later-frame pixels and latents provide separate evidence
+of numerical rollout changes, not simulator-validated state.
+
 The five fixed requested doses include a shared zero baseline. Reports retain
 actual clipped doses, estimate dose-response slopes and rank correlations, and
 compare the+600 and−600 conditions. A constant response does not count as steering.
@@ -31,7 +37,8 @@ height remains a nuisance coordinate and is not silently removed.
 These are learned video measurements. Recorded and codec-reconstructed
 development clips established an absolute ball-height MAE of approximately264
 and265 simulator units, respectively. Those errors are not uncertainty intervals
-for edited generated videos. Match-bootstrap intervals do not include evaluator
+for edited generated videos or thresholds for detecting paired changes. Paired
+errors may cancel, or may acquire edit-dependent bias. Match-bootstrap intervals do not include evaluator
 bias or simultaneous testing uncertainty. Changed pixels, monotonic estimates,
 or successful execution alone do not establish accurate physical control.
 

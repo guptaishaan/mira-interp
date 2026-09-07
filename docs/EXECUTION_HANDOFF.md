@@ -107,6 +107,48 @@ frames16–23 and latents8–11 may be public; observed context remains private.
 Update README and this handoff, commit/push all completed outputs, and verify
 remote HEAD. Do not stop while required stages remain runnable or running.
 
+The initial-progress README and two exact-source figures were published in
+commit `39555ea`. Their source tables and root review are in `results/progress/`.
+Preserve the short README and keep further exploratory findings in the detailed
+notes. The supplemental source reading covers the remaining40 index pages at
+their stated scope; `results/review/anthropic_coverage_complete.json` crosschecks
+all56 inventory URLs without claiming exhaustive appendices/references/video coverage.
+
+The complete reserved pilot tensors are published in release
+`generated-pilot-v2-2026-09-07`, with remote size/SHA256 and actual tag commit
+verified in `results/generated_pilot_v2_publication.json`. Full selection
+generation420 has passed its independent audit (SHA256
+`503437ff00d0038b1e17cc67fa4fa58c262d2737d8bb07a4bfd819e9eb12e28f`).
+Read the live supervisor for measurement/confirmation status.
+
+Selection video measurement420 and its independent audit have now passed. The
+complete figures/CSVs and visual review are in `results/generated_evaluation_v2/`.
+`docs/review/generated_selection_results.md` reports all20 path/time contrasts:
+none of the12 target-path contrasts clearly exceeded the random control; dose
+ordering was uncommon and early effects did not remain consistent over time.
+The posthoc delivery summary confirms the80 linear edits changed their internal
+height probe by97.52–99.81% of the effective request. This does not validate a
+physical coordinate. Its independent review covers all400 nonzero conditions.
+Confirmation continues under the unchanged registration; it must not be retuned
+using these selection results.
+
+Separate CPU watchers own post-audit export and packaging. Export tmux:
+`mira_generated_exports_v2`, status
+`results/generated_evaluation_v2/export_watcher/status.json`. Packaging tmux:
+`mira_publication_selection_v2` and `mira_publication_confirmation_v2`, statuses
+`results/generated_publication_waiter_v2/{selection,confirmation}.json`.
+Their source hashes are also frozen while they run. The first packaging-waiter
+attempts were stopped before any child work to fix accepted-audit hash binding;
+their code/logs/states are preserved under `results/publication_waiter_attempts/`.
+
+Root must still inspect audited figures and publish every completed package with
+`scripts/publish_generated_package.py`. It takes `--package-report`, an exact
+already-pushed `--target` commit, `--tag`, `--title`, `--notes-file`, and immutable
+`--report`. It verifies actual tag resolution and every remote asset digest.
+Full package reports will be `results/generated_publication_{phase}_complete.json`;
+archives stay below `/data2/ishaangp/mira-interp/publication/generated_v2_complete/`.
+Do not run duplicate generators/evaluators/auditors/exporters/packagers.
+
 ## Environment
 
 - Workspace: `/ccn2/u/ishaangp/mira-interp`; Python: `.venv/bin/python`.

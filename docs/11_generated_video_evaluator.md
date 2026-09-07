@@ -1,9 +1,12 @@
 # Frozen evaluator for generated rollouts
 
-The generated-video measurement code is prepared; no generated rollout has yet
-been scored through this helper. It freezes the independently audited VideoMAE
-step 500 checkpoint. There is no training or parameter-selection interface. Its
-outputs are learned state estimates, not ground-truth simulator state.
+The generated-video helper freezes the independently audited VideoMAE step500
+checkpoint. Reserved generation and measurement pilots have since completed and
+passed independent audits, including exact prediction parity after a lossless
+storage change. See [the v2 pilot audit](../results/generated_evaluation_v2/pilot_audit.json).
+There is no training or parameter-selection interface. Outputs are learned state
+estimates, not ground-truth simulator state. The full study's current stage is
+recorded separately in [the execution snapshot](../results/current_execution.json).
 
 ## Inputs and alignment
 
@@ -69,6 +72,11 @@ an intervention error. Baseline drift and seed variability must remain visible.
 The sampler must also expose any decoded context-pixel change across conditions,
 since the measurement windows contain some context frames.
 
+Each window also retains generated frames16–17, where the first edit enters the
+video. Overlapping-window estimates do not independently establish persistence
+of a physical effect in later frames. Requested probe/map doses are expressed
+in simulator units; they are not verified realized physical displacements.
+
 ## Calibration limits
 
 `results/generated_evaluator_reference_calibration.json` recomputes empirical
@@ -77,6 +85,8 @@ selection predictions. It includes real/codec MAE, RMSE, and the range of
 per-match MAEs. This data also selected the evaluator checkpoint, so these are
 optimistic development reference errors, not independent calibration intervals.
 No generated-video accuracy or predictive uncertainty interval is established.
+The absolute reference errors are not paired-change detection thresholds:
+correlated errors can cancel, while edit-dependent bias can remain.
 
 The recorded source future is not ground truth for an edited generated video.
 Disagreement with that source mixes model rollout error, intervention effects,
@@ -108,4 +118,4 @@ must not be described as wholly uninspected matches.
 
 Four synthetic helper tests cover endpoint windows, exact absolute-ball coordinate
 sums, input pixel units/shape, and explicit paired-seed/baseline validation. These software tests are not
-an actual generated-video evaluator pilot.
+substitutes for the separately completed generated-video evaluator pilots.
