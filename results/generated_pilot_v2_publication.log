@@ -1,0 +1,56 @@
+https://github.com/guptaishaan/mira-interp/releases/tag/generated-pilot-v2-2026-09-07
+{"verified_asset": "mira-generated-v2-pilot-part0001.tar", "bytes": 32051200, "completed": 1, "total": 4}
+{"verified_asset": "mira-generated-v2-pilot-part0001.tar.json", "bytes": 26031, "completed": 2, "total": 4}
+{"verified_asset": "archive_manifest.json", "bytes": 37354, "completed": 3, "total": 4}
+{"verified_asset": "generated_publication_pilot_reviewed.json", "bytes": 3680, "completed": 4, "total": 4}
+{
+  "status": "passed",
+  "verified_utc": "2026-09-07T08:21:45.599276+00:00",
+  "phase": "pilot",
+  "packaged_records": 2,
+  "release_url": "https://github.com/guptaishaan/mira-interp/releases/tag/generated-pilot-v2-2026-09-07",
+  "release_id": 383930117,
+  "target_commit": "8d73100c199d5ba7be53c3dd25c3c7000065d459",
+  "assets": [
+    {
+      "id": 548434877,
+      "name": "mira-generated-v2-pilot-part0001.tar",
+      "size": 32051200,
+      "digest": "sha256:96cb76ce2e1fa525d98e4a05baa198a09fe6ca42703f6fa5d7955b046c88ad8e",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/mira-generated-v2-pilot-part0001.tar"
+    },
+    {
+      "id": 548434924,
+      "name": "mira-generated-v2-pilot-part0001.tar.json",
+      "size": 26031,
+      "digest": "sha256:c42ccf6036566cb5bcbe4a83dd7aaa49cf633ab79394defe30eea42c6b329186",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/mira-generated-v2-pilot-part0001.tar.json"
+    },
+    {
+      "id": 548434972,
+      "name": "archive_manifest.json",
+      "size": 37354,
+      "digest": "sha256:099bd8356c4c3015df65db9b0afc63e4679122c069dfd9a03bbaaa18e0ceda01",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/archive_manifest.json"
+    },
+    {
+      "id": 548434998,
+      "name": "generated_publication_pilot_reviewed.json",
+      "size": 3680,
+      "digest": "sha256:090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/generated_publication_pilot_reviewed.json"
+    }
+  ],
+  "all_remote_sizes_and_sha256_equal_local": true,
+  "actual_release_tag_commit_verified": true,
+  "package_report_sha256": "090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676",
+  "release_notes_sha256": "9929d7d3927fa6d714d9ef55ad00ed7d8a806f7f5424d119bb4ac3644dc50d60",
+  "code_bindings": {
+    "/ccn2/u/ishaangp/mira-interp/scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+    "/ccn2/u/ishaangp/mira-interp/scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9"
+  }
+}

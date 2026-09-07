@@ -5,6 +5,22 @@ publish to `https://github.com/guptaishaan/mira-interp.git`. The user authentica
 Hugging Face and GitHub and authorized publishing the work. Continue within this
 scope without asking again.
 
+## Presentation priority
+
+The user clarified that this should demonstrate a strong, careful start to the
+project, not a claim of overall success or a rush through every proposed method.
+Keep the root README short and plain, with only two initial-progress figures:
+the all-layer position readout comparison and frozen decoding on new matches.
+Use `docs/progress/`, `results/progress/`, and `figures/progress/` for that small
+subset. Keep detailed experiments, audits, and negative findings separately
+accessible through `docs/README.md` and the folder indexes. The prior long README
+is preserved in `docs/archive/project_log_before_readme_simplification.md`.
+
+The already registered rollout study may finish under its unchanged protocol.
+Its completion is not an overall project-success claim. Do not select favorable
+paths or add new experiments just to fill the proposal checklist. Further causal
+claims require better evidence, including specificity and measurement validity.
+
 ## Active revision
 
 The user requested a literature-led diagnosis and repair, then said to continue.

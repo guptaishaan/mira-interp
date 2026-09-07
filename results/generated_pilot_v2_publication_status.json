@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-07T08:21:34.973376+00:00",
+  "request": {
+    "tag": "generated-pilot-v2-2026-09-07",
+    "target_commit": "8d73100c199d5ba7be53c3dd25c3c7000065d459",
+    "title": "Generated steering pilot: complete audited outputs",
+    "package_report_sha256": "090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676",
+    "release_notes_sha256": "9929d7d3927fa6d714d9ef55ad00ed7d8a806f7f5424d119bb4ac3644dc50d60",
+    "phase": "pilot",
+    "assets": [
+      {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_reviewed/pilot/mira-generated-v2-pilot-part0001.tar",
+        "name": "mira-generated-v2-pilot-part0001.tar",
+        "bytes": 32051200,
+        "sha256": "96cb76ce2e1fa525d98e4a05baa198a09fe6ca42703f6fa5d7955b046c88ad8e"
+      },
+      {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_reviewed/pilot/mira-generated-v2-pilot-part0001.tar.json",
+        "name": "mira-generated-v2-pilot-part0001.tar.json",
+        "bytes": 26031,
+        "sha256": "c42ccf6036566cb5bcbe4a83dd7aaa49cf633ab79394defe30eea42c6b329186"
+      },
+      {
+        "path": "/data2/ishaangp/mira-interp/publication/generated_v2_reviewed/pilot/archive_manifest.json",
+        "name": "archive_manifest.json",
+        "bytes": 37354,
+        "sha256": "099bd8356c4c3015df65db9b0afc63e4679122c069dfd9a03bbaaa18e0ceda01"
+      },
+      {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/generated_publication_pilot_reviewed.json",
+        "name": "generated_publication_pilot_reviewed.json",
+        "bytes": 3680,
+        "sha256": "090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676"
+      }
+    ],
+    "code_bindings": {
+      "/ccn2/u/ishaangp/mira-interp/scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+      "/ccn2/u/ishaangp/mira-interp/scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9"
+    }
+  },
+  "verified_assets": [
+    {
+      "id": 548434877,
+      "name": "mira-generated-v2-pilot-part0001.tar",
+      "size": 32051200,
+      "digest": "sha256:96cb76ce2e1fa525d98e4a05baa198a09fe6ca42703f6fa5d7955b046c88ad8e",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/mira-generated-v2-pilot-part0001.tar"
+    },
+    {
+      "id": 548434924,
+      "name": "mira-generated-v2-pilot-part0001.tar.json",
+      "size": 26031,
+      "digest": "sha256:c42ccf6036566cb5bcbe4a83dd7aaa49cf633ab79394defe30eea42c6b329186",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/mira-generated-v2-pilot-part0001.tar.json"
+    },
+    {
+      "id": 548434972,
+      "name": "archive_manifest.json",
+      "size": 37354,
+      "digest": "sha256:099bd8356c4c3015df65db9b0afc63e4679122c069dfd9a03bbaaa18e0ceda01",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/archive_manifest.json"
+    },
+    {
+      "id": 548434998,
+      "name": "generated_publication_pilot_reviewed.json",
+      "size": 3680,
+      "digest": "sha256:090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676",
+      "state": "uploaded",
+      "browser_download_url": "https://github.com/guptaishaan/mira-interp/releases/download/generated-pilot-v2-2026-09-07/generated_publication_pilot_reviewed.json"
+    }
+  ],
+  "stage": "complete",
+  "current_asset": "generated_publication_pilot_reviewed.json",
+  "publication_report_sha256": "0f09e7a5e1228d0f29ad0bf11d2bcf4549a95b292afa1990688a33b50e91f835"
+}

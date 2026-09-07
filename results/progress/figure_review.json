@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-09-07T08:27:42.528518+00:00",
+  "figure_manifest_sha256": "862b7ce9602ee6695ce4c061db41ed0759d0a4b6673623fd26b649c65d08243a",
+  "all37_layer_baseline_rows_equal_audited_source": true,
+  "all12_target_r2_and_interval_rows_equal_audited_source": true,
+  "all_source_and_output_hashes_verified": true,
+  "both_pngs_visually_inspected_by_root": true,
+  "local_documentation_links_checked": true,
+  "readme_figure_count": 2,
+  "readme_words": 113,
+  "models_refitted": false,
+  "physical_control_claimed": false
+}

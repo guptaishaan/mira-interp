@@ -1,27 +1,22 @@
 {
-  "snapshot_utc": "2026-09-07T08:01:40.021962+00:00",
+  "snapshot_utc": "2026-09-07T08:26:18.213427+00:00",
   "status": "running",
-  "current_stage": "selection_generation",
-  "completed_stages": [],
-  "selection_workers": [
+  "current_stage": "selection_generation_audit",
+  "completed_stages": [
     {
-      "worker_index": 0,
-      "physical_gpu": 6,
-      "records_saved": 22,
-      "expected_records": 210
-    },
-    {
-      "worker_index": 1,
-      "physical_gpu": 7,
-      "records_saved": 23,
-      "expected_records": 210
+      "stage": "selection_generation",
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/selection.json",
+      "sha256": "02ebf78b9c3c54cf38a84a4fa58c79b2ff56201af55d4e5d55f8f96eb5285d84",
+      "elapsed_seconds": 1565.7604269981384
     }
   ],
+  "selection_records_saved": 420,
   "selection_expected": 420,
   "confirmation_expected": 924,
   "physical_control_established": false,
   "all_prerequisite_pilots_independently_passed": true,
   "live_status_local_path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/study_status.json",
-  "live_status_sha256_at_snapshot": "014525e48056e3c5b873279e63143230edf854c96096726a3f87928b2717e280",
-  "note": "Repository checkpoint, not a live dashboard. Only completed independent audits establish phase completion."
+  "live_status_sha256_at_snapshot": "6d9f26a3b0bc97b49ca2928527d37e2339e1a92bc4e0cd1b6ca89983fcdc87fd",
+  "presentation_focus": "Careful initial data/model validation and held-out decoding; two progress figures. Full rollout study remains separately documented.",
+  "note": "Repository checkpoint, not a live dashboard. Saved generation is not an independent phase audit or physical-control result."
 }

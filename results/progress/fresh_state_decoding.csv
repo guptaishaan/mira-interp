@@ -1,0 +1,13 @@
+family,model_key,target,r2,ci95_low,ci95_high,n_matches,n_rows,bootstrap_unit,bootstrap_replicates,bootstrap_seed
+position,mean/block_5_output/role12/position,ego.location.x,0.659664443425743,0.5920595618640453,0.7233065974115791,23,4416,whole_match,500,20260907
+position,mean/block_5_output/role12/position,ego.location.y,0.899701953209484,0.890167575576615,0.9075700571210377,23,4416,whole_match,500,20260907
+position,mean/block_5_output/role12/position,ego.location.z,0.9739045586308789,0.9655561821129269,0.9809394120372191,23,4416,whole_match,500,20260907
+position,mean/block_5_output/role12/position,ball_minus_ego.location.x,0.5204626560598731,0.4230172678933623,0.5853122542425409,23,4416,whole_match,500,20260907
+position,mean/block_5_output/role12/position,ball_minus_ego.location.y,0.6938364343836335,0.6646736014508867,0.7198747028708528,23,4416,whole_match,500,20260907
+position,mean/block_5_output/role12/position,ball_minus_ego.location.z,0.9256624927989588,0.9121173611223973,0.9351125058351869,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ego.velocity.x,0.09005331134425887,0.023337190192419015,0.14235700515231672,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ego.velocity.y,0.1000372200383649,0.04129295590712132,0.1489894277959345,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ego.velocity.z,0.8826743308499743,0.8498146925752961,0.9033403951457109,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ball_minus_ego.velocity.x,-0.00687335981708026,-0.06065095462079152,0.03550585022679027,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ball_minus_ego.velocity.y,0.014324662893894557,-0.028374917482106337,0.051988051855102996,23,4416,whole_match,500,20260907
+velocity,mean/block_6_output/current_and_delta/role12/velocity,ball_minus_ego.velocity.z,0.5426603677370021,0.4863408936538127,0.5861480019644493,23,4416,whole_match,500,20260907

@@ -1,0 +1,88 @@
+{
+  "status": "passed_audited_initial_progress_export",
+  "script_sha256": "f167f9e56ebd1c6befae0ac5e8f8eea30b3bbb1f0df11f7a4224ebc34c8ba15d",
+  "sources": {
+    "development": {
+      "path": "results/development_probes_v3/development_report.json",
+      "sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178"
+    },
+    "probe_audit": {
+      "path": "results/development_probes_v3/probe_audit.json",
+      "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+    },
+    "selection": {
+      "path": "results/development_probes_v3/development_selection.json",
+      "sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff"
+    },
+    "development_capture": {
+      "path": "results/development_capture_audit.json",
+      "sha256": "ec7ffb84959188db3a5bc35090c1afcc67c9b7236f92f35268f6aef6742c13ce"
+    },
+    "development_manifest": {
+      "path": "results/development_capture_manifest.json",
+      "sha256": "081850a91a85c22638447ac4fa2443de230c3277f268c7d301ee15a5cae0524e"
+    },
+    "fresh": {
+      "path": "results/fresh_confirmation_v3/confirmation.json",
+      "sha256": "25201a123806a8b11715a2915a1edd309b29d750b99016e72a8362d659d7f3ea"
+    },
+    "fresh_audit": {
+      "path": "results/fresh_confirmation_v3/confirmation_audit.json",
+      "sha256": "8e966474da029de603eadc7a8b5f91002afa81ea44f654be4dec92dd8e1a6c0d"
+    },
+    "fresh_capture": {
+      "path": "results/fresh_confirmation_v3/capture_audit.json",
+      "sha256": "c80da115fda264369bbc2813a09f63696dbb3e81ff3e78c74b92e867bd4caedd"
+    },
+    "registration": {
+      "path": "configs/fresh_evaluation_v3.json",
+      "sha256": "2750c3a9df2478898aaef6f5bf470d5241eb4315257a2e75f59daddd6a7476b9"
+    }
+  },
+  "outputs": [
+    {
+      "path": "results/progress/layer_position_decoding.csv",
+      "sha256": "d0b24de99954361fee2924230b1a5981722e6c473ae389d30ea0a652ef5bc135",
+      "bytes": 3646
+    },
+    {
+      "path": "results/progress/fresh_state_decoding.csv",
+      "sha256": "da9d5022ba9337674f0155ee5d21765b797022fc9de474c533cc2230f2dfa7be",
+      "bytes": 2115
+    },
+    {
+      "path": "figures/progress/layer_position_decoding.png",
+      "sha256": "b51ef5e0f4a7619121bdeebb8795916078a1707116d3823927bee5883a328df3",
+      "bytes": 119872
+    },
+    {
+      "path": "figures/progress/layer_position_decoding.pdf",
+      "sha256": "38f1ce0145c3ab249e723c586a48dff71e9ccbab061db67bfd62f43d3c9e477b",
+      "bytes": 23860
+    },
+    {
+      "path": "figures/progress/fresh_state_decoding.png",
+      "sha256": "1366f997be3f6871cc29c6e4406347c55cf7bebc99d6520ca5caff128bade4eb",
+      "bytes": 82852
+    },
+    {
+      "path": "figures/progress/fresh_state_decoding.pdf",
+      "sha256": "52be7338f292a35b22a11c0fe6ae18aa7ff318b2b58b9900a56c30e7025ee5c3",
+      "bytes": 23766
+    }
+  ],
+  "layer_rows": 37,
+  "fresh_target_rows": 12,
+  "models_refitted": false,
+  "new_bootstrap_performed": false,
+  "source_files_unchanged": true,
+  "gpu_used": false,
+  "figure1": "All17 current sites, both descriptors and all3 baselines; exact role12 position selection NMSE.",
+  "figure2": "Frozen primary models by family, all12 ego/ball-relative coordinates; saved fresh-match R2 intervals.",
+  "limits": [
+    "Contemporaneous observational annotation decoding; target frames are present.",
+    "Development selection results informed model choices. Fresh choices were frozen before evaluation.",
+    "Horizontal velocities remain weak. Decoding does not establish causal physical control.",
+    "Confidence intervals resample matches; no training-seed or population guarantee."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "array_storage_sha256": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+  "gpu_used": false,
+  "packager_sha256": "3da7aeb8ebd243fb55f5c7648f0eea769b0c2d2e3bae44b787dbabe53aa88256",
+  "parts": [
+    {
+      "bytes": 32051200,
+      "filename": "mira-generated-v2-pilot-part0001.tar",
+      "sha256": "96cb76ce2e1fa525d98e4a05baa198a09fe6ca42703f6fa5d7955b046c88ad8e"
+    }
+  ],
+  "parts_byte_identical": true,
+  "pilot_report": {
+    "path": "results/generated_publication_pilot_reviewed.json",
+    "sha256": "090a3ea365263fff5a8cefdd19b1173fc164e809c4f36647034e437a1f7f2676"
+  },
+  "rebuild_report": {
+    "path": "/data2/ishaangp/mira-interp/publication/generated_v2_reviewed_rebuild_pilot_report.json",
+    "sha256": "2e6a3be784431152b2563b48bba779df0f035cf60b684d584c093bf76d50c7d5"
+  },
+  "status": "passed_generated_publication_rebuild",
+  "test_sha256": "3ffcba89e2ebac1529cb1e968c37b1ff9fea1c08990a9ffeee650659721bf6b5",
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 .venv/bin/python -m pytest tests/test_generated_publication.py -q",
+    "elapsed_seconds": 0.16,
+    "passed": 6,
+    "scope": "prior focused test run; complete pilot rebuild verified here"
+  },
+  "timestamp_unix": 1788769241.2345796
+}
