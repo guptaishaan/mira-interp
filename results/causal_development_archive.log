@@ -1,0 +1,19 @@
+{"stage": "write", "members": 20, "elapsed_seconds": 16.61}
+{"stage": "write", "members": 40, "elapsed_seconds": 22.14}
+{"stage": "write", "members": 60, "elapsed_seconds": 27.67}
+{"stage": "write", "members": 80, "elapsed_seconds": 33.2}
+{"stage": "write", "members": 100, "elapsed_seconds": 38.73}
+{"stage": "write", "members": 120, "elapsed_seconds": 44.26}
+{"stage": "write", "members": 140, "elapsed_seconds": 98.8}
+{"stage": "write", "members": 160, "elapsed_seconds": 174.37}
+{"stage": "write", "members": 180, "elapsed_seconds": 212.28}
+{"stage": "readback", "members": 20, "elapsed_seconds": 212.88}
+{"stage": "readback", "members": 40, "elapsed_seconds": 213.04}
+{"stage": "readback", "members": 60, "elapsed_seconds": 213.21}
+{"stage": "readback", "members": 80, "elapsed_seconds": 213.37}
+{"stage": "readback", "members": 100, "elapsed_seconds": 213.54}
+{"stage": "readback", "members": 120, "elapsed_seconds": 213.69}
+{"stage": "readback", "members": 140, "elapsed_seconds": 216.3}
+{"stage": "readback", "members": 160, "elapsed_seconds": 219.97}
+{"stage": "readback", "members": 180, "elapsed_seconds": 221.8}
+{"status": "passed", "archive_path": "/data2/ishaangp/mira-interp/releases/causal-development-v1-2026-09-07.tar.gz", "archive_bytes": 1116295253, "archive_sha256": "2eef5d5a14d876c9bbcb02767ac999a3d47586643a91018586f84d820d96a2ba", "elapsed_seconds": 223.469}

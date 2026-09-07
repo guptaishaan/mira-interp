@@ -1,0 +1,39 @@
+{
+  "all_included_derived_source_hashes_verified": true,
+  "all_members_readback_verified": true,
+  "archive": {
+    "bytes": 163870720,
+    "member_count": 413,
+    "path": "/data2/ishaangp/mira-interp/publication/videomae_v1/videomae-derived-v1.tar",
+    "sha256": "97c653601ea53914b62a67d3c53c2d0125c1f62810b59f88d9e1ff523f9ef7ec"
+  },
+  "checkpoints": 4,
+  "deterministic_second_build_identical": true,
+  "feature_artifacts": 337,
+  "manifest_sha256": "76982cbba6400cd34b9ca9ea0ceaf32ce6ab87edc13f4bc631d6eae070a22f92",
+  "original_files_mutated": false,
+  "predictions": 6,
+  "prefix_caches_included": false,
+  "ridge_checkpoints": 2,
+  "sanitized_npz_arrays_exactly_preserved": true,
+  "script_sha256": "343cb1d002be05e77019570980dc6d5354ca42f0194ad0001dac918bab892f25",
+  "source_dataset_arrays_included": false,
+  "source_report_sha256": {
+    "videomae_access": "e6a05818cc448f38336a22393832a3cb266cb5a9f5440bd65a866a0604022b9f",
+    "videomae_analysis": "0a562c621d86352c6a534dedf68221ebdf880e88e9d4a317ef2ac852a1beb735",
+    "videomae_capture": "35c4ae164e31694d3984e4d4933da7849c36dc631d0b203b31076c4633cd5d39",
+    "videomae_capture_audit": "d93ce7540ce0be7f1fadcf13a962c18366cdf851dd05c41f12ffbcfa4d6421ee",
+    "videomae_finetune_pilot": "b0e6bf4b373a72163cbdce782eaaabd16552098ad042f3a729d25ff51c2cb061",
+    "videomae_finetune_v1": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e",
+    "videomae_finetune_v1_audit": "7f3d3f1af97d7facd9218f4958496f92992c6746f2dd162a545966a018fc49e2",
+    "videomae_matched_input_calibration": "1ec8e4f49b2c83b574112d29d88d5cd08bf4b3310bd1e3f5b07073c8599bfe4f",
+    "videomae_mlp": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3",
+    "videomae_model_load": "6f57d67c1ad9a6aa0220abc475940eec3a997ae7536337c607d91a4ecbbdb04f",
+    "videomae_pilot": "56ba8c20d17c44a841652b858b9e41c1561461501a2e3c8996056b03d6d69454",
+    "videomae_prefix": "f4c0c786974543e238dc26d9c04e4a6be45373a115a8af73e9109330a218f2a3",
+    "videomae_selftest": "a57903ade63e4e67d46cb092abaab1666e579348bdc9d4852777ea4a63a45e32",
+    "videomae_training_selftest": "19a711ca00d8d8993943b7163d0b7419b342d23875f13c2b4516bacd81478c15"
+  },
+  "status": "passed_derived_artifact_release_audit",
+  "uploaded_to_github": false
+}

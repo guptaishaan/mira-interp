@@ -1,0 +1,7 @@
+{"stage": "write", "members": 20, "elapsed_seconds": 27.87}
+{"stage": "write", "members": 40, "elapsed_seconds": 41.63}
+{"stage": "write", "members": 60, "elapsed_seconds": 41.68}
+{"stage": "readback", "members": 20, "elapsed_seconds": 45.86}
+{"stage": "readback", "members": 40, "elapsed_seconds": 47.82}
+{"stage": "readback", "members": 60, "elapsed_seconds": 47.82}
+{"status": "passed", "archive_path": "/data2/ishaangp/mira-interp/releases/sparse-development-v1-2026-09-07.tar.gz", "archive_bytes": 1090009905, "archive_sha256": "9fe4e9f01e9aa212aab37fb14c3414f66d13cc430a7aadeb15f5ded39aaa7998", "elapsed_seconds": 49.667}
