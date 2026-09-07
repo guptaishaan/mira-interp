@@ -1,0 +1,247 @@
+{
+  "status": "passed_synthetic_generated_export_review",
+  "checked_utc": "2026-09-07T08:17:07.866759+00:00",
+  "code_sha256": {
+    "scripts/export_generated_measurements.py": "ee1ad5df9c02de1a592b13fd42c1a28d1ee40fb5e0413cfc5ec9cb460b48b3a7",
+    "scripts/run_generated_exports.py": "56fa146c78e44ed09b8bf2f2905daab4e5ce91f0fc84ffaa25cba9f5db48c34a",
+    "tests/test_generated_export.py": "80b7da7be74fe205efcfa60aede4e69661437efefab7a4cc74c02019039badcb",
+    "tests/test_generated_evaluation.py": "0759000da4a4b9e15b8b506d83870d0639e689bc1a8577ce2f6023da9d649414",
+    "scripts/evaluate_rollouts.py": "4855d35c28a6e3e02f11772d09fe18e595eedc70016cecf5b3cf49972655763e"
+  },
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 PYTHONPATH=src .venv/bin/python -m pytest -q tests/test_generated_export.py",
+    "passed": 8,
+    "elapsed_seconds": 2.29,
+    "log_path": "results/generated_exporter_tests_reviewed.log",
+    "log_sha256": "f73f2a15f1c05d82468e7cbf743799c70d2483e3583ec488655814d7e221d9f2"
+  },
+  "independent_review": {
+    "reviewer": "/root/capture_stage",
+    "exporter_status": "passed",
+    "watcher_status": "passed",
+    "remaining_material_blockers": false,
+    "initial_runtime_findings": [
+      "Exporter runtime originally unbounded by watcher wait timeout",
+      "SIGTERM initially lacked owned-child cleanup and failed status",
+      "Previously completed audit could allow a new export after a later study failure"
+    ],
+    "fixes_before_launch": [
+      "One remaining wall-time budget for waits and exporter execution",
+      "SIGTERM and BaseException cleanup only owned exporter process group; save failure",
+      "Reject failed supervisor before every new phase"
+    ],
+    "math_checks": [
+      "All five paths and four times retained",
+      "Two seeds averaged within each match then equal match weighting",
+      "Registered shared whole-match bootstrap draws",
+      "Effective-dose axis preserves original requested-dose groups",
+      "Negative, constant and undefined cases retained",
+      "Source predictions and generation dose metadata rejoined exactly",
+      "Source and code hashes checked before and after export"
+    ]
+  },
+  "synthetic_render": {
+    "path": "/data2/ishaangp/mira-interp/engineering/generated_exporter_synthetic_v1/synthetic_manifest.json",
+    "sha256": "414c1369704203572961a4a98b96992991fcf6c243e887c8b25c8be965dd0e6f",
+    "figures": {
+      "dose_response_requested.png": {
+        "sha256": "18d335f06c7ac0b814b82e2e2db3689f04db6bb1da9786ade4636408dacad189",
+        "bytes": 376102
+      },
+      "dose_response_requested.pdf": {
+        "sha256": "5bb970eb8dc0a74f5d52c599c149394d2abaef89644351791bd975f65b4370b3",
+        "bytes": 29131
+      },
+      "dose_response_effective.png": {
+        "sha256": "115aebd4c64e18b1cf0463bd9d5277a72e0fb83e5ed8b0cac5055c3fecc72555",
+        "bytes": 408374
+      },
+      "dose_response_effective.pdf": {
+        "sha256": "871f87f8a6da1fde8c35fe1ae2c24b7e99aac0759b9b9539159a803e9fa5eb28",
+        "bytes": 29055
+      },
+      "contrasts_controls_nuisance.png": {
+        "sha256": "bfdf61c7c39791666f10ea58e1d97c1f62fd7e0ef0ad6128dd1e24cbbc68208c",
+        "bytes": 322729
+      },
+      "contrasts_controls_nuisance.pdf": {
+        "sha256": "0b560bc122f20b992cf9a888d4165e9fd7206d6d3d784d860764bc7b78b6adc1",
+        "bytes": 27997
+      },
+      "ordering_and_undefined.png": {
+        "sha256": "3868ec49e754b1d0317552c354222b4ff21af22e11909fadcbf65673555bba34",
+        "bytes": 192886
+      },
+      "ordering_and_undefined.pdf": {
+        "sha256": "cdbe28b8bb5d3b598bed1cebda523952ec8bb0f63cb980358bdd9fda4d21e0b9",
+        "bytes": 28602
+      }
+    },
+    "csv": {
+      "summary.csv": {
+        "rows": 20,
+        "columns": [
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "matches",
+          "view0_extreme_contrast.mean",
+          "view0_extreme_contrast.match_bootstrap_ci95.0",
+          "view0_extreme_contrast.match_bootstrap_ci95.1",
+          "positive_contrast_matches",
+          "allviews_extreme_contrast.mean",
+          "allviews_extreme_contrast.match_bootstrap_ci95.0",
+          "allviews_extreme_contrast.match_bootstrap_ci95.1",
+          "view0_nontarget_role_rms.mean",
+          "view0_nontarget_role_rms.match_bootstrap_ci95.0",
+          "view0_nontarget_role_rms.match_bootstrap_ci95.1",
+          "view0_mean_height_by_requested_dose.0",
+          "view0_mean_height_by_requested_dose.1",
+          "view0_mean_height_by_requested_dose.2",
+          "view0_mean_height_by_requested_dose.3",
+          "view0_mean_height_by_requested_dose.4",
+          "nondecreasing_nonzero_pair_fraction",
+          "mean_match_spearman",
+          "eligible_rank_matches",
+          "undefined_rank_matches",
+          "undefined_rank_pairs",
+          "inconsistent_duplicate_dose_pairs",
+          "view0_contrast_minus_random_norm.mean",
+          "view0_contrast_minus_random_norm.match_bootstrap_ci95.0",
+          "view0_contrast_minus_random_norm.match_bootstrap_ci95.1",
+          "view0_contrast_minus_wrong_variable_ball_x.mean",
+          "view0_contrast_minus_wrong_variable_ball_x.match_bootstrap_ci95.0",
+          "view0_contrast_minus_wrong_variable_ball_x.match_bootstrap_ci95.1"
+        ],
+        "sha256": "9d709df45d12a6184333036dfc55e2491cfede5af9584e6c74743f1812990e8c",
+        "bytes": 4464
+      },
+      "per_pair_time.csv": {
+        "rows": 80,
+        "columns": [
+          "match_id",
+          "seed",
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "view0_extreme_contrast",
+          "allviews_extreme_contrast",
+          "view0_nontarget_role_rms",
+          "spearman",
+          "slope",
+          "positive_adjacent_fraction",
+          "nondecreasing_with_nonzero_span",
+          "duplicate_effective_responses_consistent",
+          "distinct_effective_doses",
+          "any_clipped_dose",
+          "decoded_context_changed"
+        ],
+        "sha256": "b543552f09d9df78083745e82af52936b7e377618424f9eb40571ed7f0a2f86f",
+        "bytes": 7444
+      },
+      "per_pair_dose.csv": {
+        "rows": 400,
+        "columns": [
+          "match_id",
+          "seed",
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "requested_dose_uu",
+          "effective_dose_uu",
+          "dose_clipped",
+          "view0_height_change_uu",
+          "allviews_mean_height_change_uu"
+        ],
+        "sha256": "eb7f1be88d1d41ae57fde2b3831c589653d1a203889adaefc1e1bc6f39b1ec1e",
+        "bytes": 26032
+      },
+      "per_match_time.csv": {
+        "rows": 40,
+        "columns": [
+          "match_id",
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "seeds",
+          "any_clipped_seed_count",
+          "decoded_context_changed_seed_count",
+          "view0_extreme_contrast",
+          "allviews_extreme_contrast",
+          "view0_nontarget_role_rms",
+          "spearman_finite_seed_mean",
+          "spearman_defined_seed_count",
+          "slope_finite_seed_mean",
+          "slope_defined_seed_count",
+          "positive_adjacent_fraction_finite_seed_mean",
+          "positive_adjacent_fraction_defined_seed_count",
+          "nondecreasing_nonzero_seed_fraction",
+          "inconsistent_duplicate_seed_count",
+          "view0_contrast_minus_random_norm",
+          "view0_contrast_minus_wrong_variable_ball_x"
+        ],
+        "sha256": "4d77e2e3bdfb1bb395d94b903a2c76d91b34935dc9d2791d61684c9b692c3f5f",
+        "bytes": 3968
+      },
+      "per_match_dose.csv": {
+        "rows": 200,
+        "columns": [
+          "match_id",
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "requested_dose_uu",
+          "effective_dose_seed_mean_uu",
+          "effective_dose_seed_min_uu",
+          "effective_dose_seed_max_uu",
+          "clipped_seed_count",
+          "view0_height_change_seed_mean_uu",
+          "allviews_height_change_seed_mean_uu"
+        ],
+        "sha256": "184933956df1e19fd7dd0e05c239829815d8b3a7121945ff7c2089a7b68428d9",
+        "bytes": 12697
+      },
+      "dose_response.csv": {
+        "rows": 100,
+        "columns": [
+          "path",
+          "time_index",
+          "seconds_after_context",
+          "requested_dose_uu",
+          "view0_estimated_height_change_mean_uu",
+          "pointwise_match_bootstrap_low_uu",
+          "pointwise_match_bootstrap_high_uu",
+          "mean_effective_dose_uu",
+          "minimum_effective_dose_uu",
+          "maximum_effective_dose_uu",
+          "clipped_pair_fraction",
+          "matches",
+          "paired_seeds_per_match"
+        ],
+        "sha256": "159d15aae4472b25865c509136e9a564d82106883a04905f6e08c4e1d309f4a1",
+        "bytes": 7498
+      }
+    },
+    "all_four_pngs_visually_inspected": true,
+    "all_member_hashes_rechecked": true
+  },
+  "synthetic_data_only": true,
+  "real_selection_or_confirmation_outcomes_read": false,
+  "gpu_used": false,
+  "full_export_requires_passed_corresponding_measurement_audit": true,
+  "watcher_requires_owner_completed_stage_hash": true,
+  "watcher_does_not_repeat_audits_or_model_execution": true,
+  "negative_paths_or_failed_cases_selected_out": false,
+  "generated_video_accuracy_established": false,
+  "physical_control_established": false,
+  "study_fixed_sources_at_review": {
+    "count": 34,
+    "all_hashes_match": true,
+    "current_stage": "selection_generation",
+    "bindings_sha256": "df05ad24763a71e5ea2e2a97f2767952eef359c6fd96185485adce0080314c57"
+  },
+  "documentation": {
+    "path": "docs/review/generated_measurement_exports.md",
+    "sha256": "3e95f2f8308da61f374ccc7bc70311edf350e72892d9716feb5c3060669d8847"
+  }
+}

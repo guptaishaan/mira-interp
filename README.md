@@ -99,6 +99,7 @@ with checksums in [the archive manifest](results/readiness_archive.json).
 
 - [Completed observational results, CSVs and figures](docs/07_observational_results.md)
 - [Literature review and diagnosis](docs/08_review_and_repair.md)
+- [What went wrong and which repairs worked](docs/13_diagnosis_and_repairs.md)
 - [Revised development readouts](docs/10_development_readout_results.md)
 - [Fresh confirmation and independent audit](docs/11_fresh_confirmation_results.md)
 - [Registered internal causal study](docs/09_internal_causal_development.md)

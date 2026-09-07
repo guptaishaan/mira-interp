@@ -1,0 +1,67 @@
+{
+  "all_exported_arrays_exact_source_slices": true,
+  "all_members_readback_verified": true,
+  "all_registered_conditions_included": true,
+  "archive_manifest": {
+    "path": "/data2/ishaangp/mira-interp/publication/generated_v2/pilot/archive_manifest.json",
+    "sha256": "fb1499d6f4e5ffa457c3ca69a052dde058fc9d15094f552ed736124ec6d139d5"
+  },
+  "array_storage_sha256": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+  "elapsed_seconds": 4.151229556649923,
+  "evaluation_sha256": "38d4b2f6ea9eaf72603c271486b0fe1d6c32039de3436c5b2bd6aa8f1fb15c0d",
+  "expected_records": 2,
+  "free_bytes_after": 601538813952,
+  "generation_audit_sha256": "b4678e89ab704e9e483704b17a7d41f465a11ccf6d0c86d8bfd22c828b5941d4",
+  "generation_manifest_sha256": "51701c75e2bb89daa665a90f3bf442468377777946d5c0ce0e5995b950f3ca32",
+  "gpu_used": false,
+  "max_part_bytes": 1800000000,
+  "measurement_audit_sha256": "72d40a0e1e6404ca859b00d8944bd3551b81caf69ff9e810b1b271b057749f87",
+  "packaged_records": 2,
+  "parts": [
+    {
+      "bytes": 31733760,
+      "filename": "mira-generated-v2-pilot-part0001.tar",
+      "manifest_sha256": "858631e54a523f8146428e4e5e637d5289cea72213d9b9f24beda0d0c8b7efce",
+      "member_count": 19,
+      "part_index": 1,
+      "path": "/data2/ishaangp/mira-interp/publication/generated_v2/pilot/mira-generated-v2-pilot-part0001.tar",
+      "readback_verified": true,
+      "record_count": 2,
+      "sha256": "2793ede743d697c46e6739c7c0f04239a324661439f0ae2df5dd3d364f0244b8"
+    }
+  ],
+  "phase": "pilot",
+  "private_sources_unchanged": true,
+  "protocol_sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3",
+  "registration_sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101",
+  "script_sha256": "439c1511a10ac18c788892935080d24a466a4f062f9d976d6943aa146c8e63f4",
+  "source_bindings": {
+    "evaluation_manifest": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/pilot.json",
+      "sha256": "38d4b2f6ea9eaf72603c271486b0fe1d6c32039de3436c5b2bd6aa8f1fb15c0d"
+    },
+    "evaluation_protocol": {
+      "path": "/ccn2/u/ishaangp/mira-interp/configs/generated_evaluation_v1.json",
+      "sha256": "3fc58d3d8583773e6342089894ab52a9851c25a32c161cb8481920bea772d4b3"
+    },
+    "generation_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot_audit.json",
+      "sha256": "b4678e89ab704e9e483704b17a7d41f465a11ccf6d0c86d8bfd22c828b5941d4"
+    },
+    "generation_manifest": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/pilot.json",
+      "sha256": "51701c75e2bb89daa665a90f3bf442468377777946d5c0ce0e5995b950f3ca32"
+    },
+    "generation_registration": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v2/registration.json",
+      "sha256": "5f00703eee0526456c9274e53ce4417f1cab7cdedbddfbab4e49cd47e7c10101"
+    },
+    "measurement_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/generated_evaluation_v2/pilot_audit.json",
+      "sha256": "72d40a0e1e6404ca859b00d8944bd3551b81caf69ff9e810b1b271b057749f87"
+    }
+  },
+  "source_context_actions_simulator_labels_included": false,
+  "status": "passed_generated_artifact_package",
+  "uploaded_to_github": false
+}

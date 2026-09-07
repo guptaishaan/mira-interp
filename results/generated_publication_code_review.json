@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "scope": "Independent source review and synthetic CPU tests of generated-measurement export, watched export execution, exact future-output packaging and multipart GitHub publication; not a full-run completion or physical-results audit",
+  "reviewer": "capture_stage",
+  "created_utc": "2026-09-07T08:17:52.235786+00:00",
+  "code_sha256": {
+    "scripts/export_generated_measurements.py": "ee1ad5df9c02de1a592b13fd42c1a28d1ee40fb5e0413cfc5ec9cb460b48b3a7",
+    "scripts/run_generated_exports.py": "56fa146c78e44ed09b8bf2f2905daab4e5ce91f0fc84ffaa25cba9f5db48c34a",
+    "scripts/package_generated_outputs.py": "3da7aeb8ebd243fb55f5c7648f0eea769b0c2d2e3bae44b787dbabe53aa88256",
+    "scripts/publish_generated_package.py": "367100ab3c0c045389d8e6d52d1c1b6c8033caa5323164a88ac07e1128428670",
+    "scripts/publish_audited_archive.py": "f027b479ee80b5bfc2ba6633bf3f740656bc790d4fc8d3a0ec5ca45e6a6928b9",
+    "src/mira_interp/array_storage.py": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+    "tests/test_generated_export.py": "80b7da7be74fe205efcfa60aede4e69661437efefab7a4cc74c02019039badcb",
+    "tests/test_generated_publication.py": "3ffcba89e2ebac1529cb1e968c37b1ff9fea1c08990a9ffeee650659721bf6b5",
+    "tests/test_generated_publisher.py": "e718a50763fb971b0026e6aea65f84fa88910af9f2474b51f8dbf86388aa66c2"
+  },
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=8 OPENBLAS_NUM_THREADS=8 .venv/bin/python -m pytest -q tests/test_generated_export.py tests/test_generated_publication.py tests/test_generated_publisher.py",
+    "passed": 23,
+    "failed": 0,
+    "reported_seconds": 1.74
+  },
+  "reviewed_checks": {
+    "exporter": [
+      "All five paths, four times, signed/negative/constant responses retained",
+      "Two paired seeds averaged within match before equal-match bootstrap; identical registered resampling draws",
+      "Effective-dose display retains fixed requested-dose groups; no regrouping or model fitting",
+      "Undefined ordering remains missing and does not count as success",
+      "Every response rejoins exact saved prediction artifacts; full passed audits required",
+      "CSV roundtrip and source/code hash rechecks"
+    ],
+    "watcher": [
+      "Requires owner-completed measurement-audit stage and exact audit hash",
+      "One wall-clock budget covers waiting and export execution",
+      "Failed supervisor stops new exports; SIGTERM records failure and cleans only owned export subprocess",
+      "Output directories remain immutable; no GPU exposure"
+    ],
+    "packager": [
+      "All registered420 or924 full-phase records, unique source/dose/seed identities and audit/cache bindings",
+      "Only frames[:,16:] and latents[:,8:] plus four native/edited feature arrays; no observed context/action/simulator-label arrays",
+      "Exact FP32 public slices, lossless NPZ, complete member and array readback",
+      "Safe relative member names and deterministic USTAR metadata",
+      "Actual padded part sizes bounded at1.8GB",
+      "Model attribution, license notices and exact registered source copies included",
+      "Packaging/helper hashes captured before work and rechecked when embedding and at completion"
+    ],
+    "uploader": [
+      "Complete package/part/sidecar agreement, unique records, summed part counts, local sizes/SHA256 and unchanged source bindings",
+      "Exact already-published commit, actual lightweight or recursively peeled annotated tag target checked before/final publication",
+      "No overwrite of conflicting remote assets; resumed request inputs must match",
+      "Every remote asset state, size and SHA256 verified and exact final asset set required",
+      "Uploader/helper hashes captured initially and rechecked before final pass"
+    ]
+  },
+  "resolved_findings": [
+    "Packaging/helper code was initially hashed too late; startup binding now enforced",
+    "Watcher originally left SIGTERM/timeout gaps; bounded owned-child cleanup now implemented",
+    "Release target metadata alone was insufficient; actual Git tag target is now resolved",
+    "Manifest unique IDs and total part record count now checked"
+  ],
+  "remaining_material_findings": [],
+  "limits": [
+    "Synthetic tests do not replace each real phase generation/measurement audit or actual package readback",
+    "Remote GitHub requests/uploads were not executed by this review; tag resolution and remote conflicts were tested with fixtures",
+    "Published future-only clips omit evaluator observed-context inputs; exact frozen prediction reruns require authorized context access",
+    "Publication and successful execution do not establish generated physical accuracy or reliable physical control"
+  ],
+  "real_full_phase_results_read": false,
+  "gpu_used": false,
+  "fixed_study_files_modified": false,
+  "remote_upload_performed": false
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "final attributed complete-pilot package rebuilt in different directory",
+  "original_report_sha256": "6be1afd37395de012f681f32a73e227091b5b7fbd6c274848fef53d0f96e2c1a",
+  "rebuild_report_path": "/data2/ishaangp/mira-interp/publication/generated_v2_complete_rebuild_pilot_report.json",
+  "rebuild_report_sha256": "bc3e55dc90d7159521ff362fe5a896a582258974e589762fa5c0c3c36523a798",
+  "all_part_bytes_and_hashes_identical": true,
+  "part_count": 1,
+  "source_context_actions_simulator_labels_included": false,
+  "gpu_used": false,
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 /ccn2/u/ishaangp/miniconda3/envs/ccwm/bin/python -m pytest tests/test_generated_publication.py -q",
+    "result": "6 passed in 0.26s"
+  },
+  "script_sha256": "0b195ddf984a3aa44377f567e25066d0612a188ed7d60096f5e58a71c4ebef0d",
+  "tests_sha256": "3ffcba89e2ebac1529cb1e968c37b1ff9fea1c08990a9ffeee650659721bf6b5"
+}

@@ -1,0 +1,115 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-09-07T08:17:24.791836+00:00",
+  "releases": [
+    {
+      "tag": "readiness-2026-09-06",
+      "expected_commit": "4227cd3e2d56da25939e4cd8d54b9d06619b2a99",
+      "actual_tag_commit": "4227cd3e2d56da25939e4cd8d54b9d06619b2a99",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "readiness-2026-09-06.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "0c15f9556131071eb0d56d8ba15a8af79663931279149f48ac6c5ae967ebb23b"
+    },
+    {
+      "tag": "observations-2026-09-06",
+      "expected_commit": "0b2f858ab66901cc114f357a572d9bfbf9419e50",
+      "actual_tag_commit": "0b2f858ab66901cc114f357a572d9bfbf9419e50",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "observations-2026-09-06.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "375dc80c5212a5ef9454160bd75d022ddb7f209c830da5474bd8f642d511f984"
+    },
+    {
+      "tag": "development-v3-2026-09-07",
+      "expected_commit": "9cd2198df5e3c9d3505b3d24e7f1faf894f9b800",
+      "actual_tag_commit": "9cd2198df5e3c9d3505b3d24e7f1faf894f9b800",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "development-v3-2026-09-07.tar.gz",
+          "passed": true
+        },
+        {
+          "name": "development_models.npz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "f8ca47e96c9b96d5cdfa27d2ea03690f2db7fd10bacce52ea0352f36e6eadbdc"
+    },
+    {
+      "tag": "fresh-confirmation-v3-2026-09-07",
+      "expected_commit": "b713fe976674248bbde9fdbc96a7b13d1cb91f49",
+      "actual_tag_commit": "b713fe976674248bbde9fdbc96a7b13d1cb91f49",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "fresh-confirmation-v3-2026-09-07.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "36ceed196fc1b1c0f477d513004c1a2aa91d22f32819f050be7e052f9a7c3a0f"
+    },
+    {
+      "tag": "causal-development-v1-2026-09-07",
+      "expected_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "actual_tag_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "causal-development-v1-2026-09-07.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "1630eaf970af4d7989f767fbe10b18741aec7e0ff528c6aa20ea018162ad9010"
+    },
+    {
+      "tag": "sparse-development-v1-2026-09-07",
+      "expected_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "actual_tag_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "sparse-development-v1-2026-09-07.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "a930f4192b95bccb35895c8b1ca950d89340e7d9f96c7db3102df02c8b4d0998"
+    },
+    {
+      "tag": "videomae-v1-2026-09-07",
+      "expected_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "actual_tag_commit": "795b65b4c36f38e8ab0ff46e685f41dd2a7e7ac7",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "videomae-derived-v1.tar",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "143cfced2be12354fb9ed1f8221c60d5ceb8984dfdc0748ddfa62402fd5e1fd1"
+    },
+    {
+      "tag": "sparse-fidelity-v1-2026-09-07",
+      "expected_commit": "c366647a7d198f432a7085c57a06ba33de452f4d",
+      "actual_tag_commit": "c366647a7d198f432a7085c57a06ba33de452f4d",
+      "tag_matches": true,
+      "assets": [
+        {
+          "name": "mira_sparse_conditional_fidelity_v1.tar.gz",
+          "passed": true
+        }
+      ],
+      "source_report_sha256": "c4fe9fd5ea2a6b5d72a45e3ccc6cc49c7791cfd4dcaffb16871d6c3efee5d737"
+    }
+  ],
+  "scope": "Read-only recheck of actual peeled release tag commits and all previously verified asset sizes/digests"
+}
