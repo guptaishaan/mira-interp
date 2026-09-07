@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "started_utc": "2026-09-07T07:45:45.496277+00:00",
+  "tag": "sparse-fidelity-v1-2026-09-07",
+  "target_commit": "c366647a7d198f432a7085c57a06ba33de452f4d",
+  "archive_path": "/data2/ishaangp/mira-interp/publication/mira_sparse_conditional_fidelity_v1.tar.gz",
+  "archive_sha256": "91c5c38bc8d43a98087f3f720dc4b677e300926946bcd796707ad939e1659b56",
+  "archive_report_sha256": "7b063cc690f8cf06075c4e17eefd9ab9054d9ddaea15064c3493f08518566949",
+  "release_notes_sha256": "6b57aad1e695c0f948cfffc62c12a474dbebf3d0bcf3ed9702f58e2ef2fb743a",
+  "stage": "complete",
+  "publication_report_sha256": "c4fe9fd5ea2a6b5d72a45e3ccc6cc49c7791cfd4dcaffb16871d6c3efee5d737"
+}

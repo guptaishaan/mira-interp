@@ -1,0 +1,340 @@
+{
+  "status": "passed_storage_benchmark",
+  "script_sha256": "d3a031f1da19f378f7e7f84c2deb5af1acadedca6f7496ad92cf832d139879e9",
+  "pilot_manifest_sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b",
+  "numpy_version": "1.26.0",
+  "python_zipfile_compression": "zlib DEFLATE or ZIP_STORED",
+  "source_artifacts": [
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "source_path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0.npz",
+      "source_sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4",
+      "source_compressed_bytes": 36227233,
+      "arrays": {
+        "frames": {
+          "shape": [
+            4,
+            24,
+            3,
+            288,
+            512
+          ],
+          "dtype": "float32",
+          "bytes": 169869312,
+          "sha256": "5def1fc5dc4e1981b836befb6f8c871d9f681c9339b3669545fe390805198116"
+        },
+        "latents": {
+          "shape": [
+            4,
+            12,
+            9,
+            16,
+            32
+          ],
+          "dtype": "float32",
+          "bytes": 884736,
+          "sha256": "62ad1a89c4485c2b02c0aeae2bbddd7c34ca2800b67c9fd88e2553e27a1db29a"
+        },
+        "native_edit_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "bytes": 6144,
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "edited_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "bytes": 6144,
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "native_edit_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "bytes": 1179648,
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        },
+        "edited_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "bytes": 1179648,
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        }
+      }
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "source_path": "/data2/ishaangp/mira-interp/rollout_steering_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300.npz",
+      "source_sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec",
+      "source_compressed_bytes": 36232111,
+      "arrays": {
+        "frames": {
+          "shape": [
+            4,
+            24,
+            3,
+            288,
+            512
+          ],
+          "dtype": "float32",
+          "bytes": 169869312,
+          "sha256": "37f4e02ba14d53171c87695091912195ca452e96793eb5f544d2f518bf95d6fe"
+        },
+        "latents": {
+          "shape": [
+            4,
+            12,
+            9,
+            16,
+            32
+          ],
+          "dtype": "float32",
+          "bytes": 884736,
+          "sha256": "315330d8c945d037256aee26c038678caab042e38748720b0642cd99346dcc88"
+        },
+        "native_edit_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "bytes": 6144,
+          "sha256": "1af2a90557d96bed049fe4e3de94f1397777a1535f18d58c3a3a7a69d866ff55"
+        },
+        "edited_descriptor": {
+          "shape": [
+            1,
+            1536
+          ],
+          "dtype": "float32",
+          "bytes": 6144,
+          "sha256": "96c5b92a459842668926fc52fc43e3fae87a398c72e4984774faec09efcf685e"
+        },
+        "native_edit_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "bytes": 1179648,
+          "sha256": "7b0a189d6bb64be37916c24cab4eab77d4dec43c8c040d635fce4e5840877174"
+        },
+        "edited_tile": {
+          "shape": [
+            9,
+            16,
+            2048
+          ],
+          "dtype": "float32",
+          "bytes": 1179648,
+          "sha256": "fd6e37a06ad66ebcaeaed7b292dc533c812ac3d8f8e000d62b754b5cc7b4ac55"
+        }
+      }
+    }
+  ],
+  "trials": [
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 0,
+      "mode": "deflate_default",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat0_deflate_default.npz",
+      "sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4",
+      "bytes": 36227233,
+      "write_seconds_including_flush_fsync": 8.100085824728012,
+      "warm_read_seconds": 0.3607931323349476,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 0,
+      "mode": "stored",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat0_stored.npz",
+      "sha256": "8d5d1d2b06d4674774cfcdfae2f37c68e252bfd199dd21ea86173965ac10259b",
+      "bytes": 173127204,
+      "write_seconds_including_flush_fsync": 0.15360473468899727,
+      "warm_read_seconds": 0.1249261237680912,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 0,
+      "mode": "deflate_level1",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat0_deflate_level1.npz",
+      "sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8",
+      "bytes": 45247402,
+      "write_seconds_including_flush_fsync": 1.4456226527690887,
+      "warm_read_seconds": 0.4673468768596649,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 1,
+      "mode": "stored",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat1_stored.npz",
+      "sha256": "8d5d1d2b06d4674774cfcdfae2f37c68e252bfd199dd21ea86173965ac10259b",
+      "bytes": 173127204,
+      "write_seconds_including_flush_fsync": 0.15589478239417076,
+      "warm_read_seconds": 0.1284279264509678,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 1,
+      "mode": "deflate_level1",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat1_deflate_level1.npz",
+      "sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8",
+      "bytes": 45247402,
+      "write_seconds_including_flush_fsync": 1.4454590044915676,
+      "warm_read_seconds": 0.45755571126937866,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_baseline_dose+0",
+      "repetition": 1,
+      "mode": "deflate_default",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition0_repeat1_deflate_default.npz",
+      "sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4",
+      "bytes": 36227233,
+      "write_seconds_including_flush_fsync": 8.080444149672985,
+      "warm_read_seconds": 0.3578139469027519,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 0,
+      "mode": "stored",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat0_stored.npz",
+      "sha256": "a69a16f9318399b064a274be47d0b06596af0b4a20da9a16a7c4b522fddedaa9",
+      "bytes": 173127204,
+      "write_seconds_including_flush_fsync": 0.15358522906899452,
+      "warm_read_seconds": 0.12368159741163254,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 0,
+      "mode": "deflate_level1",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat0_deflate_level1.npz",
+      "sha256": "1bcd9c6d3c2f3699e2e869617551d4197a8209fd5a029605c48581bae6e9d252",
+      "bytes": 45249752,
+      "write_seconds_including_flush_fsync": 1.4470626637339592,
+      "warm_read_seconds": 0.4551687128841877,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 0,
+      "mode": "deflate_default",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat0_deflate_default.npz",
+      "sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec",
+      "bytes": 36232111,
+      "write_seconds_including_flush_fsync": 8.05903872102499,
+      "warm_read_seconds": 0.36128297075629234,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 1,
+      "mode": "deflate_level1",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat1_deflate_level1.npz",
+      "sha256": "1bcd9c6d3c2f3699e2e869617551d4197a8209fd5a029605c48581bae6e9d252",
+      "bytes": 45249752,
+      "write_seconds_including_flush_fsync": 1.4460079409182072,
+      "warm_read_seconds": 0.45642784982919693,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 1,
+      "mode": "deflate_default",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat1_deflate_default.npz",
+      "sha256": "3d04a0aa9d1a17d1f86b8df3e0043dc5f86c7a23e297933a3dfceac860fbf0ec",
+      "bytes": 36232111,
+      "write_seconds_including_flush_fsync": 8.083035707473755,
+      "warm_read_seconds": 0.36039773747324944,
+      "all_array_metadata_and_bytes_equal": true
+    },
+    {
+      "record_id": "2026-05-29T18-17-39Z-fb68d7_clip00_seed2026090701_quadratic_forward_dose+300",
+      "repetition": 1,
+      "mode": "stored",
+      "path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/condition1_repeat1_stored.npz",
+      "sha256": "a69a16f9318399b064a274be47d0b06596af0b4a20da9a16a7c4b522fddedaa9",
+      "bytes": 173127204,
+      "write_seconds_including_flush_fsync": 0.15217013284564018,
+      "warm_read_seconds": 0.1242106594145298,
+      "all_array_metadata_and_bytes_equal": true
+    }
+  ],
+  "summary": {
+    "deflate_default": {
+      "trials": 4,
+      "median_write_seconds": 8.08173992857337,
+      "write_seconds_range": [
+        8.05903872102499,
+        8.100085824728012
+      ],
+      "median_warm_read_seconds": 0.3605954349040985,
+      "mean_bytes": 36229672.0,
+      "projected_1344_output_bytes": 48692679168,
+      "projected_1344_serial_write_seconds_saved_vs_default": 0.0,
+      "projected_1344_two_writer_wall_seconds_saved_vs_default": 0.0,
+      "projected_free_bytes_after_1344_outputs": 558599618048,
+      "projected25GiB_reserve_preserved": true
+    },
+    "stored": {
+      "trials": 4,
+      "median_write_seconds": 0.1535949818789959,
+      "write_seconds_range": [
+        0.15217013284564018,
+        0.15589478239417076
+      ],
+      "median_warm_read_seconds": 0.1245683915913105,
+      "mean_bytes": 173127204.0,
+      "projected_1344_output_bytes": 232682962176,
+      "projected_1344_serial_write_seconds_saved_vs_default": 10655.426808357239,
+      "projected_1344_two_writer_wall_seconds_saved_vs_default": 5327.713404178619,
+      "projected_free_bytes_after_1344_outputs": 374609335040,
+      "projected25GiB_reserve_preserved": true
+    },
+    "deflate_level1": {
+      "trials": 4,
+      "median_write_seconds": 1.445815296843648,
+      "write_seconds_range": [
+        1.4454590044915676,
+        1.4470626637339592
+      ],
+      "median_warm_read_seconds": 0.4569917805492878,
+      "mean_bytes": 45248577.0,
+      "projected_1344_output_bytes": 60814087488,
+      "projected_1344_serial_write_seconds_saved_vs_default": 8918.682705044746,
+      "projected_1344_two_writer_wall_seconds_saved_vs_default": 4459.341352522373,
+      "projected_free_bytes_after_1344_outputs": 546478209728,
+      "projected25GiB_reserve_preserved": true
+    }
+  },
+  "write_timing": "includes ZIP close, stream flush, and fsync; source arrays already in memory",
+  "read_timing": "warm filesystem cache after file hashing; includes complete array materialization, excludes verification",
+  "projection_limit": "Extrapolates two reserved conditions only; compression and concurrent throughput may vary on other videos. Two-writer estimate assumes equal independent throughput.",
+  "free_bytes_before": 607292297216,
+  "free_bytes_after": 606273851392,
+  "original_artifacts_and_manifest_unchanged": true,
+  "all_reloaded_arrays_bitwise_equal": true,
+  "model_or_protocol_changed": false,
+  "gpu_used": false,
+  "elapsed_seconds": 46.791749741882086
+}

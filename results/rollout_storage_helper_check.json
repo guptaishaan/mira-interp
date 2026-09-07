@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "independent actual-pilot serialization readback; no model execution",
+  "helper_sha256": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+  "original_source_sha256": "f1a07050c61f14ddedadd26f71755babbf94730b0af166ef5488b6d0ccd7f4b4",
+  "output_path": "/data2/ishaangp/mira-interp/storage_benchmark_v1/independent_v2_helper.npz",
+  "output_sha256": "730c784dc573316b50abfffb4b55b5f816833190630f7bc67cb3fa3f6fb8a1f8",
+  "output_bytes": 45247402,
+  "all_arrays_bitwise_equal": true,
+  "exact_archive_match_to_independent_level1_benchmark": true,
+  "invalid_array_names_and_object_arrays_rejected": true,
+  "helper_write_seconds": 1.4785537980496883,
+  "gpu_used": false,
+  "original_source_unchanged": true
+}

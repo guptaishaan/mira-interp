@@ -19,8 +19,10 @@ def write(path, value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--phase", choices=("pilot", "selection", "confirmation"), required=True)
+    parser.add_argument("--version", type=int, choices=(1,2), default=2)
     args = parser.parse_args()
-    directory = ROOT/"results/rollout_steering_v1"
+    directory = ROOT/f"results/rollout_steering_v{args.version}"
+    producer = ROOT/"scripts"/("rollout_steering.py" if args.version==1 else "rollout_steering_v2.py")
     status_path = directory/(args.phase+"_runner.json")
     if status_path.exists() or (directory/(args.phase+".json")).exists():
         raise RuntimeError("Inspect existing phase/runner output before resumption")
@@ -36,7 +38,7 @@ def main():
     for gpu,index in assignments:
         suffix = "" if index is None else f"_worker{index}"
         log=directory/(args.phase+suffix+".log")
-        command=[str(ROOT/".venv/bin/python"),str(ROOT/"scripts/rollout_steering.py"),"--phase",args.phase]
+        command=[str(ROOT/".venv/bin/python"),str(producer),"--phase",args.phase]
         if index is not None: command.extend(["--worker-index",str(index)])
         environment=os.environ.copy()
         environment.update(CUDA_VISIBLE_DEVICES=str(gpu),NUMPY_MADVISE_HUGEPAGE="0",OPENBLAS_NUM_THREADS="8",OMP_NUM_THREADS="8")
@@ -56,7 +58,7 @@ def main():
         write(status_path,state)
         raise RuntimeError("Generation worker failed; preserve and inspect its output")
     if args.phase!="pilot":
-        aggregate=[str(ROOT/".venv/bin/python"),str(ROOT/"scripts/rollout_steering.py"),"--phase",args.phase,"--aggregate"]
+        aggregate=[str(ROOT/".venv/bin/python"),str(producer),"--phase",args.phase,"--aggregate"]
         with (directory/(args.phase+"_aggregate.log")).open("x") as output:
             completed=subprocess.run(aggregate,cwd=ROOT,stdout=output,stderr=subprocess.STDOUT)
         state["aggregate_exit_code"]=completed.returncode

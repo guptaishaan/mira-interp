@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "scope": "independent read-only storage helper and complete v1-to-v2 source diff review before v2 inference",
+  "code_sha256": {
+    "scripts/rollout_steering.py": "50fd13135f9e87122f969d0c4bebe5871c3b0d0a1958769cb680eaa5db122b4b",
+    "scripts/rollout_steering_v2.py": "9d3743425e68125e478fa54a2bdcdeb93912714269477a0d4d02630e7d849d8b",
+    "src/mira_interp/array_storage.py": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+    "tests/test_array_storage.py": "14e3ac874679ff13bd7d9e22c2774b528aacbca3b4840e841893068163470997"
+  },
+  "diff_sha256": "233fd7302d53d7659ba471eb597c653489aa8704f287400f587caeee9af1d9fe",
+  "allowed_changes": [
+    "Explicit level1 lossless NPZ helper and source hash bindings",
+    "Storage benchmark and successful v1 pilot/audit provenance with matching hash/status prerequisites",
+    "Storage description in registration",
+    "Version2 default output/artifact/selection-audit directories"
+  ],
+  "model_actions_seeds_paths_doses_and_arithmetic_unchanged": true,
+  "new_provenance_bindings_rechecked_by_verify": true,
+  "actual_pilot_helper_check": {
+    "path": "results/rollout_storage_helper_check.json",
+    "sha256": "1e76511be439163e450dee2b76ea85c8263a14935aca29a89b3f45bdc17e74cf"
+  },
+  "benchmark_sha256": "327f2ee15af51fa555829352eac5949e7bafd355d9747292cca1669ed20ca798",
+  "tests": {
+    "command": "NUMPY_MADVISE_HUGEPAGE=0 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 /ccn2/u/ishaangp/miniconda3/envs/ccwm/bin/python -m pytest tests/test_array_storage.py -q",
+    "result": "7 passed in 0.07s"
+  },
+  "requires_new_complete_pilot_and_exact_v1_array_parity_before_main": true,
+  "gpu_used": false
+}

@@ -1,0 +1,2193 @@
+{
+  "action_dtype": "Convert a separate keyboard-action copy to int32 for upstream embeddings; source uint8 arrays and all numeric action values remain unchanged.",
+  "actions": "Original24-frame action batch fixed. Upstream windows slice [1:17],[3:19],[5:21],[7:23]; final generated latent action pairs [15:17],[17:19],[19:21],[21:23]. Frame23 action is unused by published alignment.",
+  "alternate_pilot_placeholder": 255,
+  "base_height": "Frozen spatial ball-z probe on baseline first generated latent at actual registered tau; no source state used.",
+  "bindings": {
+    "feature_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/feature_development_v1/sparse_audit.json",
+      "sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54"
+    },
+    "fidelity_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_audit.json",
+      "sha256": "321059bc7bf6ec017a3b1f5c9edcd3a295294872d0d594a6e2de8bb05a4b71f2"
+    },
+    "fidelity_registration": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/registration.json",
+      "sha256": "65f269ca1352d6e1c3967b463d0926012c0da28bbf216e5a988aaf8923282de1"
+    },
+    "fidelity_results": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/sparse_causal_fidelity_v1/fidelity_results.json",
+      "sha256": "0c6787a0e1e4ffc1fb16824dbba8af8d65f43d14e4862043bec1b0a612a1a62c"
+    },
+    "geometry_export": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/export.json",
+      "sha256": "698c5c7d616561bc3465d2b1391bef7ad5300f127cbf715fe21e3d279bb80c35"
+    },
+    "geometry_report": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/report.json",
+      "sha256": "b06f1b2eb6b0367abd731e060e0ef5de4d508c0ecee179f22fdc2d6b4d6000c8"
+    },
+    "input_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_inputs_v1_audit.json",
+      "sha256": "73d72cd7bcbed79a1a6976e9a4c962688c899c17b23db39a307403a9e515927d"
+    },
+    "inputs": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_inputs_v1.json",
+      "sha256": "bd62bcee191d15eabcd686beae665293b8497e3cfde742caf3ee939af7d30f5c"
+    },
+    "maps": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/geometry_maps.npz",
+      "sha256": "41a84d16fa24c0c3638eb52aae2ece38b9facd1791be0f90fc4b10a316f616f4"
+    },
+    "prior_successful_pilot": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot.json",
+      "sha256": "99a0dbeaf4a216e6fc9053b5d4adb64f5b38523664790386f6faf50c30459b3b"
+    },
+    "prior_successful_pilot_audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_steering_v1/pilot_audit.json",
+      "sha256": "c4c4b48d9aea274790126e092880a86308f3ad45a7f4200275efe9e59c1255fc"
+    },
+    "storage_benchmark": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/rollout_storage_benchmark.json",
+      "sha256": "327f2ee15af51fa555829352eac5949e7bafd355d9747292cca1669ed20ca798"
+    }
+  },
+  "clipping": "Clamp base probe height to fixed discovery support, then clamp base+requested dose. Report both clipping flags and effective dose; retain all21 nominal conditions.",
+  "code_sha256": {
+    "external/mira/src/mira/world_model/latent_world_model.py": "b6570b4ff943960fbdabcf767c09109e210495147e5a7a2ca683054bf80f2ab6",
+    "external/mira/src/mira/world_model/multi_wrapper_world_model.py": "1c1cbf679aea534fadb4d66283201a6f3e0bcc1e6761d1591c894570eb9ab47a",
+    "external/mira/src/mira/world_model/schedule.py": "7da79b69b50b50760a64238ad1cf8f1add18988c731a3c3fe5ee6cbfb0a9d2f6",
+    "scripts/analyze_development.py": "838f17956f9c3828de3e41d4143860777a38a4936c5be687baba7b154b600c7c",
+    "scripts/causal_development.py": "6739e498fea863beb3ce8ed803da0cbbc04fca299ece248c6d80b4341207cbd8",
+    "scripts/rollout_steering_v2.py": "9d3743425e68125e478fa54a2bdcdeb93912714269477a0d4d02630e7d849d8b",
+    "src/mira_interp/array_storage.py": "6bafeff8fc249bb67aa9761b37b81829471bfd1dc73e7337728d4a2bd5891098",
+    "src/mira_interp/causal_development.py": "5cf43b1095149fb1201a816503c533856f9498073ce05bf1a11c4e28dc2bd7e0",
+    "src/mira_interp/development_capture.py": "e85b244e533a306ca67261ebd28c0532ea30c2d7afd91769778c601f94db4226",
+    "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
+    "src/mira_interp/model_loading.py": "6db30b2de7d47e4d38c694194d98596affc3290937751461077d4840318838b6",
+    "src/mira_interp/pretrained.py": "966f8c7e648c4fe999a0936818ccdc0fcb73cd67de333b86deb789d0f54c5e4d",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a",
+    "src/mira_interp/rollout_steering.py": "079449ebb0be88c57d1d0bdbdade20b2e106946ef35912c29a86376ddd61334c",
+    "src/mira_interp/sparse_causal_fidelity.py": "c49e56c35052d0431fcc928e01fce79078e9b0b7215189f811ac745bc3ff0811"
+  },
+  "condition_grid": [
+    [
+      "baseline",
+      0.0
+    ],
+    [
+      "probe_linear",
+      -600.0
+    ],
+    [
+      "probe_linear",
+      -300.0
+    ],
+    [
+      "probe_linear",
+      300.0
+    ],
+    [
+      "probe_linear",
+      600.0
+    ],
+    [
+      "affine_forward",
+      -600.0
+    ],
+    [
+      "affine_forward",
+      -300.0
+    ],
+    [
+      "affine_forward",
+      300.0
+    ],
+    [
+      "affine_forward",
+      600.0
+    ],
+    [
+      "quadratic_forward",
+      -600.0
+    ],
+    [
+      "quadratic_forward",
+      -300.0
+    ],
+    [
+      "quadratic_forward",
+      300.0
+    ],
+    [
+      "quadratic_forward",
+      600.0
+    ],
+    [
+      "random_norm",
+      -600.0
+    ],
+    [
+      "random_norm",
+      -300.0
+    ],
+    [
+      "random_norm",
+      300.0
+    ],
+    [
+      "random_norm",
+      600.0
+    ],
+    [
+      "wrong_variable_ball_x",
+      -600.0
+    ],
+    [
+      "wrong_variable_ball_x",
+      -300.0
+    ],
+    [
+      "wrong_variable_ball_x",
+      300.0
+    ],
+    [
+      "wrong_variable_ball_x",
+      600.0
+    ]
+  ],
+  "confirmation_scope": "These matches were used for prior observational decoding confirmation, but not for these generated intervention outcomes. No rollout-based choice may precede their frozen evaluation.",
+  "context_control": "Report decoded first16 pixel equality and latent context equality for each condition; evaluator windows contain decoded context.",
+  "context_frames": 16,
+  "created_utc": "2026-09-07T07:47:40.899648+00:00",
+  "doses_uu": [
+    -600.0,
+    -300.0,
+    0.0,
+    300.0,
+    600.0
+  ],
+  "engineering_amendment": "Initial reserved pilot failed before baseline because ByteTensor indices reached the keyboard embedding. Original registration/code/log/exit are preserved in results/rollout_attempts/01_action_dtype. This dtype-only correction changes no research choices.",
+  "full_budget": {
+    "agent_resource_review_after_pilot_required": true,
+    "confirmation_rollouts": 924,
+    "minimum_free_bytes": 26843545600,
+    "partition": "registered phase match order, indices worker_index::2",
+    "selection_rollouts": 420,
+    "workers": 2
+  },
+  "future_video_placeholder": 0,
+  "generated_frames": 8,
+  "generated_latent_index": 0,
+  "height_support_uu": [
+    86.37890625,
+    1810.9219970703125
+  ],
+  "interpretation": "Geometry comparisons did not establish a nonlinear manifold. Physical response, monotonicity, nuisance changes and persistence require independent frozen evaluator analysis; code completion is not scientific success.",
+  "intervention_step_index": 8,
+  "intervention_tau": 0.527789294719696,
+  "intervention_tau_bf16": 0.52734375,
+  "match_counts": {
+    "confirmation": 22,
+    "pilot": 1,
+    "selection": 10
+  },
+  "model_api": "Published Alakazam-compatible model.inference; fresh local streaming KV cache each condition",
+  "n_conditions_per_pair": 21,
+  "n_diffusion_steps": 10,
+  "noise_level": 0.0,
+  "normalization": "Frozen discovery probe and forward-map normalizers; no new fits or selected paths",
+  "output": "Private NPZ frames FP32[4,24,3,288,512] clipped0..1 with clipping counts and raw output hashes, latents FP32[4,12,9,16,32]. Public export must use generated last8 frames only.",
+  "path_definition": "Probe minimum-norm feature offset or frozen forward map f(clippedtarget)-f(clippedbase); lift with Q, preserving native descriptor nullspace. Random and wrong-ball-x directions match quadratic raw lift norm.",
+  "paths": [
+    "probe_linear",
+    "affine_forward",
+    "quadratic_forward",
+    "random_norm",
+    "wrong_variable_ball_x"
+  ],
+  "persistence": "One edit only; remaining denoising steps and next3 generated latents unedited. tau1 cache initialization/update never edited.",
+  "physical_control_established": false,
+  "pilot": "Five inferences: original unhooked, hooked baseline, alternate255 placeholders, zero lift, quadratic active edit. Engineering dose is+300 if clipped effective dose is positive, otherwise-300. Require nonzero actual edit. Compare exact latents/raw decoder outputs and measure runtime/storage.",
+  "pilot_dose_candidates_uu": [
+    300.0,
+    -300.0
+  ],
+  "pilot_dose_rule": "Use+300 if clipping leaves a positive effective dose; otherwise use-300. Reserved engineering coverage only; main dose grid unchanged.",
+  "pilot_seed": 2026090701,
+  "probe_bindings": {
+    "archive": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_models.npz",
+      "sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8"
+    },
+    "audit": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/probe_audit.json",
+      "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+    },
+    "report": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_report.json",
+      "sha256": "a47bcf2665e8fc1b102833bd5faf243ed36c6ab8ccbfb4f538553bed52126178"
+    },
+    "selection": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/development_selection.json",
+      "sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff"
+    }
+  },
+  "probe_sha256": "d52675dec0317f23e13d88ef18eb71b9bcdaa618db968cd02286f8cb87257e37",
+  "random_direction_seed_offset": 1777,
+  "records": [
+    {
+      "clip_id": "2026-05-29T18-17-39Z-fb68d7_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-29T18-17-39Z-fb68d7",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "254512e46030b00d5dc293b693e796464204c8c9f715b43e691bc2eec9d8bdba",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/pilot/2026-05-29T18-17-39Z-fb68d7_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 45.47056090971659,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 6.9655574512697855,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 43.89876440862223,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          16.950131304065746,
+          13.895300350913255,
+          101.57354747746331,
+          53.172509209923064
+        ]
+      },
+      "role": "pilot",
+      "sha256": "f64d0993661c9f0a33e3a84e48a1b97894c6482842d6d609baae8a3d47b6081a",
+      "source_component_sha256": {
+        "p0.jsonl": "274056de598ee53f78df54dcfe76c7887d0b68de138c4d65dbca2224e298abc2",
+        "p0.mp4": "662cef7df4bbdacca7c9c789af01fe8a9526176d8d493f0c15fd054969926745",
+        "p0.physics.jsonl": "698621670b0f81cd3d58df8aac47be93f5bb43436c8001a22a0f704955870fdb",
+        "p1.jsonl": "18eac0009c7de9b0be9312728c5210abba0b493fe46bcca56e241f1f39033483",
+        "p1.mp4": "69de80175b885925e4fdb84467d958b4bbec407e195a6c9436784b272ab559d4",
+        "p1.physics.jsonl": "6159bef90459ca9ddd2cbd902bd506742703f5361da964f4f37767b177d086c4",
+        "p2.jsonl": "605c0ef6b462b33f155782006cb3e08f3fea6354a460c2d35ea8787052945c61",
+        "p2.mp4": "8668c2cd1ea2a47839db3fa3392810d3b12103491be9fe1262ea0f3858a23db7",
+        "p2.physics.jsonl": "7aa41a8eb4397604c95a12f64b66f744aecd0693cb1f5fab1d88ba441e12bd7c",
+        "p3.jsonl": "9f80687a0585e7ed03a379d9ff1fc9e03bb47a9b2b01f3b149344368d4444805",
+        "p3.mp4": "d9557df9be276448efa8e9bbe4d6fc547a758e8a71c14a193aaee1de3eeaacd1",
+        "p3.physics.jsonl": "a522a63bd360270dc2fd8b33ddd85c2dd5f39634cdc6c4b2010c4278df9679d7"
+      },
+      "source_shard_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241"
+    },
+    {
+      "clip_id": "2026-05-09T10-15-51Z-b7fd20_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T10-15-51Z-b7fd20",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "83162ddb18aa0f5e20c79dbe3eb57947bdf50b70ad6e8ed9c7b64fd86683a41f",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-09T10-15-51Z-b7fd20_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 3.5835466311959516,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 34.287769770757365,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 8.064708831740564,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          4.158169816284878,
+          10.770498827689181,
+          32.91540277385196,
+          34.96795838142287
+        ]
+      },
+      "role": "selection",
+      "sha256": "6693e95647a12649521edf10178dc64cb8e8f889836dc6d355de72c2a91bd32c",
+      "source_component_sha256": {
+        "p0.jsonl": "7aba862753aedf464535896a9e984975d1c015b019e5574d204594816e0b9e89",
+        "p0.mp4": "00e6ffdf21487c0d7c92cb3767db104048bcb9e54212d50f1b2b13cec0afce26",
+        "p0.physics.jsonl": "ae293c10a04de561bd2f163cd3e8cc6f13007f2549cfb1e9c611d39dc39097a5",
+        "p1.jsonl": "9f15a0e4498ba1de811ef3ae2b5f571c4bd4f4771077faea85bda11ddc597ca7",
+        "p1.mp4": "0434f142238c2f21c92b6f6a468e9f7b15d5442bd83cc4b66daede6823f581eb",
+        "p1.physics.jsonl": "dc3ccb4d49bcf946a8277ccdf77435a3c2520265c1386bac86bae2e582729f4b",
+        "p2.jsonl": "9da32a8b3585ab8c040730d03981efbf530eba3229d4a9a46812967812ed4b1c",
+        "p2.mp4": "39bb9c3cf10aeca20594a1a8206526a32d0adb2b2caf9b4ab5e6fb602fa75191",
+        "p2.physics.jsonl": "bb8f407fa2e755c44fc9c4ead338b396d080826919a443ed4318b8f4e74b629d",
+        "p3.jsonl": "186b2a15b8cdeb86ed1a1460885cb4fa3ee451ad8911bcc9a8330a10cb89add4",
+        "p3.mp4": "93c515e753ef497559d953b3fedfca4c033e17968b24589370f17aee29405e6f",
+        "p3.physics.jsonl": "28c60463cfd618f25cf89ffcb7a5e611b79222a84be85ec9a47dab8f170ba233"
+      },
+      "source_shard_sha256": "099e9388854a2490df25d6cc9840dba7ff1df1574ec209063d721969b01bf902"
+    },
+    {
+      "clip_id": "2026-05-10T09-50-31Z-8f49f2_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-10T09-50-31Z-8f49f2",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "d4d2970bafa9d3dc2cc10f66882d7da3fb0f047addd700c71d875b635d08331c",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-10T09-50-31Z-8f49f2_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 18.80195829273651,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 32.9757757461279,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 21.79218889497433,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          5.361013417699998,
+          8.315935544056531,
+          7.132175069084054,
+          26.62117600015131
+        ]
+      },
+      "role": "selection",
+      "sha256": "a9c07aa230bffbd20f5035e2c817c3e2ac85c24dac573ae36b40e7a789d2e779",
+      "source_component_sha256": {
+        "p0.jsonl": "1d2a7e0702d627ee861aaa7c9695a53fba433f911f6207b93349d8cfa48f16e2",
+        "p0.mp4": "ea70d147a80e7915c9ce4ccdeddd5c9c7ac73340d0bf2f89411e5241bdd2fd20",
+        "p0.physics.jsonl": "07ef8d736956cca7d0a4e7f2e9feb07923e259fd058dc70392a8d790f54b0461",
+        "p1.jsonl": "4449071fa09869bbc6dfb2623a352d38baf0d80c64f20b7a4fd7d2626a6c2c67",
+        "p1.mp4": "62789e633c3e3591bde4c5e83620e68c014f73e119a9c5adc9bbb3caf59a5591",
+        "p1.physics.jsonl": "fdad11ce47267cfe6e0087b67e7f73bab7e3649d4796c8f0e29253dcc72ef3c7",
+        "p2.jsonl": "7391e6518db1586b8b1c3acbaedd1f4a33292f52d949e856a1069c803ff7f0b9",
+        "p2.mp4": "e86d23e91e2d353903cdfcea637b1702ae4bb54997dbf724a6b8ab1eba8a9093",
+        "p2.physics.jsonl": "9a33bb2f789f3c8e6733a3e8117c7f2ce0cd05f08f0cb3ad124128b4104d27f0",
+        "p3.jsonl": "dfd27b9bc76933916a89ae0015cb83106386b4adadc701a21c304fba2d854bce",
+        "p3.mp4": "e232d3b9f90352751bc32a00123fdf6e56967f972ab894de2803ff58a3fb99ce",
+        "p3.physics.jsonl": "e0819a40ef62e45cc1da16972f9ef4837849f9c75218f8b8e60a5c78e4b8b023"
+      },
+      "source_shard_sha256": "099e9388854a2490df25d6cc9840dba7ff1df1574ec209063d721969b01bf902"
+    },
+    {
+      "clip_id": "2026-05-10T23-26-14Z-67db4f_clip01",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-10T23-26-14Z-67db4f",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "5a1693c7307242bc3f4e0c71b9c4c21e6a83fe29a6fa18fee6b86cbcdd3cbe61",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-10T23-26-14Z-67db4f_clip01.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 19.200408425806295,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 20.67405761641449,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 23.38411201432874,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          3.483891618258798,
+          8.678691635043837,
+          22.16529056232818,
+          82.50291721114208
+        ]
+      },
+      "role": "selection",
+      "sha256": "4659953c8853d54eda2cf7b9dd43e76721c82a40f6e3db05934e45c323c2ae13",
+      "source_component_sha256": {
+        "p0.jsonl": "9af7daee1d1f7498a7902090c6fb8e3a5bf6d50a3ef845e246095cb746fe105a",
+        "p0.mp4": "b5922639da80be96d5224cdb09e6d580a1a969651130364546c6506fb5f97ec0",
+        "p0.physics.jsonl": "44f280fe9c05a5aec849282a05e70e01d04d884682750c2ab6809bc2c0509fd5",
+        "p1.jsonl": "8b18a769ad113e7eb4cf065af60cf0fa49c3e7d0b5f6229e01520197fe43ddfe",
+        "p1.mp4": "b22f6767715349d8b444ee15625e58371d739c528941d3384cfbab8dc5c432fa",
+        "p1.physics.jsonl": "6051335e7add89307dd987be3be16f0db5f0e3e8dd407c73f32d8d87bbb86c12",
+        "p2.jsonl": "a87d4302b426165a56a92fbdf6df454e1f6ecb76d523ea3dacdfe912d97744d4",
+        "p2.mp4": "85583bfe0b193846d8f4e7f9181b3ab14362ae5ff8dab8ab59dbc44e2f884df3",
+        "p2.physics.jsonl": "70a380819b50307786b0ee1437582720d18022df55fa166a9c50c07fcc807494",
+        "p3.jsonl": "67a2ca11e2f5e625b1aaf9a5a9745825831bae18743c787e0885d23dcfabe25e",
+        "p3.mp4": "fcf6ce0cc3c8221b5dc3ae0d454e1d9de55b0d6d072e582ceb41e788a6f40123",
+        "p3.physics.jsonl": "585e20cb1ca6e7ff67e09a430641a72acf91f6bd56933528d3bc4792f79f3c6b"
+      },
+      "source_shard_sha256": "099e9388854a2490df25d6cc9840dba7ff1df1574ec209063d721969b01bf902"
+    },
+    {
+      "clip_id": "2026-05-14T03-11-22Z-090bf8_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-14T03-11-22Z-090bf8",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "6e88b6034ff76eec86c6f96757ad870ddc46f7a2783b4cbc05eac7046aa4c588",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-14T03-11-22Z-090bf8_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 53.95681228245568,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 33.83905785529356,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 39.27779334802003,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          201.80578743335602,
+          345.90009717240076,
+          205.33232622521837,
+          227.5727851737922
+        ]
+      },
+      "role": "selection",
+      "sha256": "037ce7d0c1d76865e22f4593950e140e5c01cfa0ca5e0965b4358b68aafd2167",
+      "source_component_sha256": {
+        "p0.jsonl": "ce967d6fac49ebefc12fd100d29d5d6fca112c37a4724020910a410f3b87d1b1",
+        "p0.mp4": "9bf2c1a2698cbfb26bff4631a98432a284095a3e1ba41e8b04106bfddaae5784",
+        "p0.physics.jsonl": "eddd8ba3eb76f02d663de6e6ceea60bc739587aa5774a5789abd82e9370b4dbc",
+        "p1.jsonl": "83f7fc3d269ef884a1a934573d0fa20cc09a20dcad21e96ace9f777acbacf1a3",
+        "p1.mp4": "ccff61d0ebce113296830981718f2f34fce9382a858fcd21af86c02f076109e3",
+        "p1.physics.jsonl": "ad27d7f780ad9fc1b94bc035f09bc2cd0d07678068dadd113c18d4d67ba35b5e",
+        "p2.jsonl": "b51722d0915cbe5359c54f67bfa28d9de5ca50dcf0da6ea86b79639b5c2282eb",
+        "p2.mp4": "6b65c6b2a2ad0b4457a28abc2c5fbb962fe41348dfb312d60985d023b9ae8d2a",
+        "p2.physics.jsonl": "fe3bd17f1fdef47f29aeea0807dc854ccc64b1cc18ad9a6dbf656569162f18dd",
+        "p3.jsonl": "902dbecb51d7e787556c168c80d96f7923e8cb4b1018f31c447036b136f039e7",
+        "p3.mp4": "90ed31595e59d532146ae8e557e32b09df14669e86f67834414ae925320aafae",
+        "p3.physics.jsonl": "c4849c2f63a3a7022548baef1a6d5ba5372a72a9fd79355311b80327591bcc7a"
+      },
+      "source_shard_sha256": "f54e3d6851169659e81ff8d6e6976a399adadc5ccbcc5d0648dd0e81dae0b2a6"
+    },
+    {
+      "clip_id": "2026-05-14T22-34-33Z-a2015e_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-14T22-34-33Z-a2015e",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "f482c060b198e153c19508212fc1fd30e0be3bf50827b5ed676593d02123c1da",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-14T22-34-33Z-a2015e_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 21.02615772441245,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 15.009096519243645,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.715290297674073,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          2.8105968035350894,
+          2.795271811997445,
+          5.192960904153618,
+          28.27738039808538
+        ]
+      },
+      "role": "selection",
+      "sha256": "b7d9f8aafc47467ff27e37568ada7f5cd63cdc2578d992791ffaca89210a5245",
+      "source_component_sha256": {
+        "p0.jsonl": "26fc0e210e616d051ce8e6740864437bfba9e8ceefcf58111bd850379188e0a2",
+        "p0.mp4": "ef8a91b7339cd4d647421e4af6f6b0059fc6c530a466137873f7d85edc99ab9f",
+        "p0.physics.jsonl": "389c565f46b58d5bdfca774b76f7bd5d37a12642d4540baf5cf857f5134bfa08",
+        "p1.jsonl": "b4a8e613cf23d1c9e3f92f48c1ee104d91bd05687ad925325593d03743278d2c",
+        "p1.mp4": "4b6f9d703ec2f0a300fb5da5871a5c421bcb96e83bdf2cad6d235a6a7f3b2a78",
+        "p1.physics.jsonl": "f71ab577ddb778aafb11553c4ec2e79b551767d90501784e91e3092bbf6e832d",
+        "p2.jsonl": "a7c2ad50ffd05365ef6cd96e1311d6672f8f15bebba2363a8e515cedefd96e55",
+        "p2.mp4": "8b86403763f21c192a53b89e26d780d2b36b4009781247b54b6d6cefb4c07adb",
+        "p2.physics.jsonl": "c52236384dbd0dbb23cadd3cd3cce3c25c95a77a43321d1189c4e6050eee8d1d",
+        "p3.jsonl": "d91cc6fe0301966ad2af04d54547eb79acd48191b6fdf22336f95dbc0d4d41c0",
+        "p3.mp4": "b58c2f4b9c8f56b591d58c5853d0b8dd970654c7d082b01a7cdbeba2f252a187",
+        "p3.physics.jsonl": "157d85fbd87cd61f3c37965dbb9a4db353ca6074d2f9acf46749b9a39319befc"
+      },
+      "source_shard_sha256": "622fd085da9e1dacfdf717b71951c4eec552123829ae1b52bd866e46066f12b2"
+    },
+    {
+      "clip_id": "2026-05-15T03-56-59Z-e3a44c_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-15T03-56-59Z-e3a44c",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "2d0c6beff530cbf73f7694e4c610a5669c33dfb06140dc57cfa4eed0912784ec",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-15T03-56-59Z-e3a44c_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 21.328008873077767,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 16.03123187109107,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 10.769822247766552,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          43.62189285676674,
+          3.0210880053946902,
+          5.572254426585918,
+          13.73008152204616
+        ]
+      },
+      "role": "selection",
+      "sha256": "2bcb8a88eb5ee4bc27dffff96942357e2c2cb45667ecd7f42f007420bc950df1",
+      "source_component_sha256": {
+        "p0.jsonl": "f8e019c0d5be98e7f35031a498323f93587c85209cc21804aab7902b227d6f0b",
+        "p0.mp4": "e24118ecb1aa5b539484f6524777ef213a835d675c1819ebb934b77a6015ee9e",
+        "p0.physics.jsonl": "c68154ba9582204e865f0c7f30e972c1d78cb28c22b6430b6dfcc372e0945013",
+        "p1.jsonl": "98f1d4399bad75ab8d041a02784110b54efd30a9dda21d4dc9950878d294ce23",
+        "p1.mp4": "22af5937845769e21b15011eb30736843d8d5f9a5d0ba9656c487662f4d13003",
+        "p1.physics.jsonl": "e67011a7ecc46d51a1ed47d730a3e9fa60a2cc04cb0a1db49341f1a7701e0f50",
+        "p2.jsonl": "c8c396ea63d5d2f5709110d3e89a1aa75319c14f36fbf418946b14cbff2c9066",
+        "p2.mp4": "d5fb4fe084d6f3082c9b8b9530f0aff2ed9ade6335560fe6140fc2f3869e6973",
+        "p2.physics.jsonl": "1fc1eb49b91d24953021ffbcdba9d85ce9a7d611adcf9fa6f96f0b55965a19c9",
+        "p3.jsonl": "8efe59883dbd2f6ff8b2a285430e67e91b4d167a26914561b4178553992bbf8c",
+        "p3.mp4": "579899eb64e87e92553e5c66e42baa5e5cebf6323a72a39993a8b84f28260181",
+        "p3.physics.jsonl": "8751188a6fa07b01e297e49f81aa8b7041fa081af100f06b79915ebdd797fa5e"
+      },
+      "source_shard_sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec"
+    },
+    {
+      "clip_id": "2026-05-29T18-15-24Z-2b37eb_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-29T18-15-24Z-2b37eb",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "067aa4e24781e12d6a7ca0a27f4ccbafc7628f3fd4e059fe785563206b65a819",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-29T18-15-24Z-2b37eb_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 6.4504079852123795,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 4.833882325493733,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 8.752539403550609,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          7.097697839224069,
+          5.164734783810874,
+          2.86520038630611,
+          55.69687796697512
+        ]
+      },
+      "role": "selection",
+      "sha256": "e4187d0187e17fcbcdf3acda63ae9dcac46529fed8742329e8f09e29a41f8414",
+      "source_component_sha256": {
+        "p0.jsonl": "4c56e7736ade9fbef42744500f33aecd6fa981e30e586eb4656268515822bc3f",
+        "p0.mp4": "8bf53e1a2c703c0787ef295f90c5bbd3ca76f37d1594e56dd1f299ac898faf30",
+        "p0.physics.jsonl": "992c0e3e40e32bdc63a33e8f93738fffb49074902381dd656d0707626371f660",
+        "p1.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p1.mp4": "6b9f110c4a7b8df61323639f613749cdff4a7a61ad2f5b4d5362e257d7ec3771",
+        "p1.physics.jsonl": "f31a7c56765a0cd30530b5b9136b073d8af46ca9f837a2bb5c1c7d46851cee6c",
+        "p2.jsonl": "812fdc9d293bca2a34938f87ce9435d73f3a28891239b6e3a03945a2e2e79af7",
+        "p2.mp4": "13e585e741384f567cbd20e664169b153d0c614646f1e14c4140b1df8710a336",
+        "p2.physics.jsonl": "93d8616eda8642c2cb593e452ab33d57f12b2844091f12d22a346a1ac39d781f",
+        "p3.jsonl": "8e81e434f0a691e4c57e421bd09363ea0450404df6f8a63d7751f60f3ce4163f",
+        "p3.mp4": "699fda5f210bc80cf98613f45500b0651592d6d4aec872faf6ec3d0fe6c1e2f5",
+        "p3.physics.jsonl": "15b0819521705627324d7d0708e1c7d43582957dfedddfaf7a600738566ddc2e"
+      },
+      "source_shard_sha256": "bba15ad19ba4e18549c5452d37b5fc8d2e616868e24fc105584ef84b8f1b4dec"
+    },
+    {
+      "clip_id": "2026-05-29T18-26-16Z-a78ba5_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-29T18-26-16Z-a78ba5",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "40bd7578d08b7e7744bdba1e3dcacccd00aaa7d7b9bc40879aa94659138e0874",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-29T18-26-16Z-a78ba5_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 9.936924447958681,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.537946731682478,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 5.529521987697124,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          11.567647954393237,
+          81.40415465064218,
+          8.861825181445031,
+          51.18092948351794
+        ]
+      },
+      "role": "selection",
+      "sha256": "055fab6bc610e2a68b4ee7cf8f1bd4d4dfbdaba147aae3fc7462a95d35ef074d",
+      "source_component_sha256": {
+        "p0.jsonl": "da53892b2bc8cb314cef540a6c0e731574e788210bdd529db341de04b3b5cc6c",
+        "p0.mp4": "256cf31c6040cd65db650c992f69cb05ea32c4868e144577d444daf98765ea9c",
+        "p0.physics.jsonl": "11a475b5b2d3bee8f1d63b9202f32bcc5026438a8136b52d4fe6f49f9bb44972",
+        "p1.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p1.mp4": "2bf9bbbcee313db74945dfa6193e906abb495b07f65d040648a7068e0bb6e83f",
+        "p1.physics.jsonl": "ae355e85481e23cfdf60ab6efe9f2274aab6e60d573f7bc80e5af6be2ccfc87e",
+        "p2.jsonl": "773d8156022477467d162fc90d2637f0162912a270b68345579e8feb6b66668e",
+        "p2.mp4": "f683fa4df9236b37b2ce8b3b420f2912d409fa90190a4cec2592da9ffa1abf1d",
+        "p2.physics.jsonl": "04c5aa14e3d858abd5446a4e1028730283ffafa231c401080571b938c41d8745",
+        "p3.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p3.mp4": "6c64c25cf7350dba9475929aa8fe4b406311c045006143f2225ad4d2ce8948d5",
+        "p3.physics.jsonl": "48f81d6bf423523c84e7b3db5f867e97d918ba12293f73eba942cbb633f31b5d"
+      },
+      "source_shard_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241"
+    },
+    {
+      "clip_id": "2026-05-29T21-26-09Z-fa4c61_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-29T21-26-09Z-fa4c61",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "1635a71da09c6cb9e62047fa0405286e84ae277ae4b40af027c58edabcd0e412",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-29T21-26-09Z-fa4c61_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.849100371051412,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.578880405502781,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 17.90512411055727,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          5.748965904084399,
+          75.95739805398706,
+          36.852736422744385,
+          68.55579138436985
+        ]
+      },
+      "role": "selection",
+      "sha256": "16bae0758f753a328dbdc5d941c5f7f88183a587e0b7b62c9a3ffef0640279c8",
+      "source_component_sha256": {
+        "p0.jsonl": "8a4d61e310941edf24b32e14ce7c3f3b3a72a5713e7c03a6468c5020eb49b4c8",
+        "p0.mp4": "1be47c7bcdd0a394e28ef94b29e8cb81ee7cc2e1d7bd764ea6de5f76606ac2d7",
+        "p0.physics.jsonl": "661f21d842bd033391436664babcf8fa89f7b972693d026e014a45b928ec11e2",
+        "p1.jsonl": "67c3ad7ad7527aa2895971621a8aadf49309103e096b19acac08076c8677fa23",
+        "p1.mp4": "33b805cad38c30ce9da2afc5da1eee331e4881b9f43ba4c1ad8503b909a91750",
+        "p1.physics.jsonl": "ace33ebe42749249f0988a7a059b4ffbae6e994aac2b3883befb2b4f9e0bf647",
+        "p2.jsonl": "64c7c1a3c618256a4d7c72ce905913776d64d1db41a9a89981d62cae6c9a4951",
+        "p2.mp4": "e69f0321efdd0eb2f6ffb06b013fd63ecb95cb48e9c2c68b10682816ac893630",
+        "p2.physics.jsonl": "4ff3e5ca5481264bb4b30576e69bb7fd542a29be767ffe830b047b443bdae25b",
+        "p3.jsonl": "ef8561cdf5de92936589e277a9547fb1fce3288b7b3f1b8570bbea539cb618ec",
+        "p3.mp4": "aab41316cef0dcc5256f87941a9f474513a0e072701edf702a680167c1bba779",
+        "p3.physics.jsonl": "49f75c52688b155b2698098478bc9ddd19b03ed6152bb8c812ffb79d217104fb"
+      },
+      "source_shard_sha256": "723abf04300cacff2df6b40b996ae9db0298a1de2382c1ecb9bd506b59d20241"
+    },
+    {
+      "clip_id": "2026-05-30T04-09-19Z-e64537_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-30T04-09-19Z-e64537",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "caed2668377103a305e786e78cc3e34d2741be05f6017e75bb4afdc84adba8e8",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/selection/2026-05-30T04-09-19Z-e64537_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 59.54996026715589,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 52.89660489930598,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 45.71480744499696,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          36.26421537752656,
+          23.692783484560213,
+          53.67338965946956,
+          42.165138846200655
+        ]
+      },
+      "role": "selection",
+      "sha256": "016af36cf9d31bcda893d2e1cc20b5e99914317e70c40dd239fb880426318861",
+      "source_component_sha256": {
+        "p0.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p0.mp4": "f0161c104e5121fba2e0008bb026a835fede1a113e84bfd18814bde17fffb62c",
+        "p0.physics.jsonl": "4ebdbceccc3c56d30a46b7ea2be1ebe49e5c133edfe39ae61dfff64c8f0da2ab",
+        "p1.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p1.mp4": "d0dc1fd99da19831314923964bdeaa572afa25fd9c428550a636de41e163add7",
+        "p1.physics.jsonl": "1a5c27ad0dd107bfb1121ac0dddd0227fca18ada6cfc5a655bcd3b4f4e6d1464",
+        "p2.jsonl": "5e9eecafa55d21ce1b6fc754144b83085f20435478efdbc8c30ea4e62e26c27e",
+        "p2.mp4": "8756455b1f0d3c2429244c7bbf57ad95e651b585a40320095a04bf5cae3a7637",
+        "p2.physics.jsonl": "6e53fdc38dad2e214f0042cdee0acfbaf0fc7565aef17be718ca82638064782c",
+        "p3.jsonl": "059370ccb1f49659b95b0a5eac53e1fe6a17bc56c43375fad44f718e404fe81c",
+        "p3.mp4": "75fc506602166c404874ffe832e8e25612990877c2bfdc41137fe661f0c66a1f",
+        "p3.physics.jsonl": "f753131814ff8900bd447683d9d41d5e5b2d8eba99351cbdddb6d2eea638ab7b"
+      },
+      "source_shard_sha256": "30bf8d09c15b6856e607de3236f7a0b3f2fde26b5c9600460db10ce5bea8d855"
+    },
+    {
+      "clip_id": "2026-05-09T00-26-21Z-a528c2_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T00-26-21Z-a528c2",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "f100a12d7058f5f0c84d50b78011eeeb370c714b96167a4425095504e99c952b",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-09T00-26-21Z-a528c2_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 8.430599375054607,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 15.032682675173318,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 9.85297754205747,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          46.800738808928415,
+          51.593686915195626,
+          2.7785689723930456,
+          2.795209883935048
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "6dc840b146cf7b2ff793ebab2fee1632e7a10551d74a36382bf4875c43f5471c",
+      "source_component_sha256": {
+        "p0.jsonl": "357c3512369fa379071f135481c5ae13ddbf84648658a2b1738604e633ebe431",
+        "p0.mp4": "dab98accb08705fb04af408bd0cf8a35b7a6569c8125bdbc041c40203a15b4de",
+        "p0.physics.jsonl": "c9f6a2462ec6a61fee269925c1b3eb1c1c266b33a17fd5fbf5ac7eb0fa748a74",
+        "p1.jsonl": "edaff5c1b411385250e7eb49d73268451c7f0843f8d0443cad5ecde069e873a4",
+        "p1.mp4": "a6807c35fe4b995a9614de3b2d97d07a808f2fa367aac87532fd5446813b9f81",
+        "p1.physics.jsonl": "d710693f04b05a22e72b620796debc100be9143cfb38d545ab28ea9c6cabd771",
+        "p2.jsonl": "73eb09255ae017ebd9df3bcf809f36cf19a6df6ecef9020659d69fcfced2df65",
+        "p2.mp4": "aebbab5eff6db9297d5d425496770c4ec7c3653dcba0ca64924a77a67bf3246f",
+        "p2.physics.jsonl": "9552eae2aeafbc335a6ba259814390d2ed7f7f2ac7a5363960e358da5ca60816",
+        "p3.jsonl": "a4e5c31dd1e65e6a081741eefdc2a0efa38b698a67dfd5267992a89d080830b7",
+        "p3.mp4": "b069deb8c235a4f5239e5d2f65a9c70ebfe6ed0b176215713e21f30ef19ae001",
+        "p3.physics.jsonl": "33a53968a9dbbbe254ff75a675f174f92d41fa6ad18ae8979d6b73e3655c8a82"
+      },
+      "source_shard_sha256": "67c2a97318422c6a2bf3aa22d6f7898a77203a333861e601301f0355e7cd077b"
+    },
+    {
+      "clip_id": "2026-05-09T11-16-41Z-0c9a7a_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T11-16-41Z-0c9a7a",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "44c8f282013fd58254af51577bb543e6061cc113bec9e4c8bc0f5c7e824ca3b7",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-09T11-16-41Z-0c9a7a_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 11.438925200685636,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 3.661699631030099,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.037760212849749,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          9.926963351630173,
+          14.297151356057977,
+          3.091117790832863,
+          3.460800830721401
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "d1257585580a0fe782fe6487f195571cc429ac52a79c044e3a069d915c5a5a0f",
+      "source_component_sha256": {
+        "p0.jsonl": "fa32c900e81de65dbf1240b877c7897a080c221b8c4e7498e4dafbcb4cadde5f",
+        "p0.mp4": "f4911e1e370496906ed74cd814b1d176e594575e204fe6179d6f6d46793d19d1",
+        "p0.physics.jsonl": "17d5aa9562fb3c2be2e0f1db7ac6c7b752e202641f1eaf4c71ad83a1b0fa3075",
+        "p1.jsonl": "abcda6e6f8c8951902887098739fdac8d817c7dba3e1a2b397ade348940d8c84",
+        "p1.mp4": "1870c782f75373f2f4fecb71e6483b3f6bfedaf3c108297013e594a87d7f8ad5",
+        "p1.physics.jsonl": "c1f86ac0440b6eaa40e56f8551901bff29e8d77a03dc749e8686cadc51f958c2",
+        "p2.jsonl": "6d04cbf3a6a94247f7c6fd150669d1721bbfb9766845ed35efba05a45acd002d",
+        "p2.mp4": "cbf665a2a145b56b22caed8d941304dc2f7824929fcf7cd50a4acf93afb83cf0",
+        "p2.physics.jsonl": "0b34a55baca023bc29f8550ffeffad9843c4099c9f33a6a17edf195aa0f13e60",
+        "p3.jsonl": "ba02f9b546e5c60e1d6d4aa639693136763d6e645edd3d92dd47a1a297e7842a",
+        "p3.mp4": "ba648ae07f8a25ecf4392a6b500878821655bd2fd9bf0f65b2fd14557d839f12",
+        "p3.physics.jsonl": "4c0f8d22b6e4060a1320172631e2243f31eb4e35fe113436d35f923dbee269ae"
+      },
+      "source_shard_sha256": "595eaed651978682fd47ec456f0d232403c483205972c36a8f1468cdcc599dcf"
+    },
+    {
+      "clip_id": "2026-05-09T16-33-20Z-9643f2_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T16-33-20Z-9643f2",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "9a6e9be54a0af30ab2a7d0a2e8f36a0ba52c932838e2acedb5de6c05c27bfe56",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-09T16-33-20Z-9643f2_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 8.553077438065264,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 7.359156057949181,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 8.687718808722915,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "355ec6f716daa4b3392a317a4e2671c2dbaeef188609707c296249fe899d247d",
+      "source_component_sha256": {
+        "p0.jsonl": "b6034eadb129d467c356b03e01bdcd6cd1575f36d4bece054ed1528862e96680",
+        "p0.mp4": "a9b8832183294a6620c76828ea9397d5aa4ae6d69cbc5a5eb1f62def64ed14ac",
+        "p0.physics.jsonl": "63b63acd0dbc841c69ce82740de9f330e2bbe5f4b1456a59ba7b00058788d18c",
+        "p1.jsonl": "604e06504dcc497ddeef18ad906ed0eaf9188a971952eab3f809119a318c5556",
+        "p1.mp4": "1ff270a45da1d51f653dc15137229f564e5fb15f05faadb460440e17cf7d23f8",
+        "p1.physics.jsonl": "e3179d616c5c0c20f8d5f111a106f357ac2e723062699d7eebe108a899fa0de5",
+        "p2.jsonl": "7a9214eb1fd62534015e7c2f305921858b64a6a048592889df099b8fa55234cd",
+        "p2.mp4": "bb614d6d632fa4b4b49c409c0bf91710271876d1ea533ac43e071cb6f7553d24",
+        "p2.physics.jsonl": "38ca372478466336b6abe8624b60a68ed6da423b512089b8cf03b6864940f850",
+        "p3.jsonl": "fbc856f33c1d5eb9398215f216321a7ccd536a44d3823c9e843d5a3b19be81f5",
+        "p3.mp4": "c7cb31ae1bd541632ef07712f8c00cedf04e6f9b236a0b05c77b3cde7d46610c",
+        "p3.physics.jsonl": "0967d2b76061d67d8e2133ee3490dd8b1e877ec4afe23011cffe1b363901ae25"
+      },
+      "source_shard_sha256": "f3a55b40825df7d99a75b1d61cf361446c257ac3d39f7f44291898f02db409db"
+    },
+    {
+      "clip_id": "2026-05-09T22-29-10Z-e43803_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T22-29-10Z-e43803",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "68319841d5af26d994d7776d0b710a1fa3a84610b6eb6d154655289baf4e1ca0",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-09T22-29-10Z-e43803_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 26.56049899528529,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 21.657619376898612,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 24.149681319390456,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          2.9001552375113557,
+          7.749308067072655,
+          3.812809963194612,
+          68.00064439021374
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "5b8815b2f0b65e26d8eec283753b66ca48b3ec5e1505bcefb151b84ea86b3c1a",
+      "source_component_sha256": {
+        "p0.jsonl": "e4b6920176e8856730773cf20c3de3866046184b914081928c6fffe894ca49a5",
+        "p0.mp4": "d5b95cd1bc62cc3aae097bc96e2b7aecd70705f48b7ffc9c8957ebe2bc12cd82",
+        "p0.physics.jsonl": "d63a4085f217a8215dec4c7c70650fe38d93b21ea1ea7faf4696d9768110a195",
+        "p1.jsonl": "9bd34e2ae2241aae4d4448cb4213f3d1b50e6bbc27fa6ee61b14fc723c76a8c2",
+        "p1.mp4": "cfb8352f6d83383dd59f96d1f2467ac328ba9cb221ab60b221f3445fcc340884",
+        "p1.physics.jsonl": "b4d84cb96637b79d57910bb1bd4674914ed3c5e45c5d9b71b863698770088c28",
+        "p2.jsonl": "365e95c34d5261acc6de114adee12d64bf51fbf0de55d0cb0182e5a0396406f0",
+        "p2.mp4": "f6aadbe3d1805ea206df660f0042f7aadbe6efdafec045dbf616252724fc1f80",
+        "p2.physics.jsonl": "7436a9d2c876a043c9058c39eca8a511344c009efb88d941320527fac1729303",
+        "p3.jsonl": "d05ef51b544d8a9725747ab70d1d6cde8ea7f967898317bea9872ba791be723d",
+        "p3.mp4": "1ebe9c73823dc0bd7e1b2ecaf997d47f7d7188abc9d109554332bdb1cacad285",
+        "p3.physics.jsonl": "0fc8cc67f2ebfea128e2deb616862b8c4c968bac41bd77f8359521acf45d9a1e"
+      },
+      "source_shard_sha256": "735f5737902cf877861c54deb309aa06261fba96d1eaf24b9242e8d265944537"
+    },
+    {
+      "clip_id": "2026-05-09T23-14-58Z-e3ef6c_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-09T23-14-58Z-e3ef6c",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "2f97d0c87a836642e9afbbc5845b8ab30820d4df877567969cbf9314d9b739d0",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-09T23-14-58Z-e3ef6c_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 18.862885566979305,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 24.651473482554124,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 10.404562985290587,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          51.93622778495373,
+          20.385369817235294,
+          44.306469074044955,
+          9.985314281097898
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "36f30937e6bef22bb0b26859e7c082bcb2c58a3d980a371fc6cc04a3e1ff8aac",
+      "source_component_sha256": {
+        "p0.jsonl": "8637f440997ca276b311a8d8d29a13309d42bb8a6c474eb82ae374c1f999ed67",
+        "p0.mp4": "2f1a8f8b7cf96403a2b92f1e025121d8f108a60cd92e89914b3f84adc2cc0e09",
+        "p0.physics.jsonl": "1586678817042494cbd73ea9cd4e880af391d7bb5572f5b9c339bf574a39383c",
+        "p1.jsonl": "95b2cd4c2b67b9ad4f273f3eff9af2170ff855cdb8e37d94d81977d2c99faf8e",
+        "p1.mp4": "3f1cc34fb236ca668afdf6ddabfc4e3597ed8ada563aff5aee51b72f5273163f",
+        "p1.physics.jsonl": "a07a7edbd33534437acb27f7b4b514c29701183a145a1bfc154d1ea0f98bf472",
+        "p2.jsonl": "e5972d22c916c4fbdf66b4ce82516296d4d7d000385c47cc698c27d91580e2ae",
+        "p2.mp4": "aff734a4a1516c4b876fe9312b12353c4b8440d4f0d9e3e5abb03c04de128771",
+        "p2.physics.jsonl": "0f7c21049e792f7a753b03a4bcd9da2ec74345610f9cf94347e0516283d7124b",
+        "p3.jsonl": "cfb3de77ac8c386fd4f3f05722e519c648e027707f84ab080cd5eae04a78605c",
+        "p3.mp4": "a0f4fdc421e99159648bc6c057d0c585987a7b0b2914a8b78c4f1403ea76b0bd",
+        "p3.physics.jsonl": "c3bde44dce7e452fae638b0e532c54cc9a97227646916636513396b1bb067786"
+      },
+      "source_shard_sha256": "735f5737902cf877861c54deb309aa06261fba96d1eaf24b9242e8d265944537"
+    },
+    {
+      "clip_id": "2026-05-10T00-16-36Z-6cfcdc_clip01",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-10T00-16-36Z-6cfcdc",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "e0c4064a060727a183030161bacab8d777f0c4176362aa356aef81c7046dbbd0",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-10T00-16-36Z-6cfcdc_clip01.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 27.89079225177446,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 19.667274086923165,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 25.98526039798187,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          29.956060253362526,
+          2.92804344166438,
+          18.347077782277044,
+          21.49289316606224
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "99fb84316ab4c3462218bad65ad72434134c0e42de09c5ec939e508c7232283f",
+      "source_component_sha256": {
+        "p0.jsonl": "361d2a9cfdc58dd7294b725d89fae6957d285d12b1dc7eb531657eea6b94e9c3",
+        "p0.mp4": "1292e6975a43b900ca549e1fc57b189b551aee6c0360cc68f1184a2c025b1dd1",
+        "p0.physics.jsonl": "fe1ed1306689a6898bbc9fae75b79e0be1a8f60800fd9cde06f6d37d9ac0ec97",
+        "p1.jsonl": "48794ac12d89868ce110945d49e9c3a7826f2391d0c6e63150033a0bbd5891ea",
+        "p1.mp4": "7e2364b30465b4d6c09c765761cc7cd30bd4728c83ec6bf4b05f622670e43584",
+        "p1.physics.jsonl": "3b8b0ac6daa3689a9ace9d1211ba24d41684575e2d47225e09492c9f588babbb",
+        "p2.jsonl": "3b0283703368c1fa0fd162284de159a4caabad13f746d8795a0f2fe762c8ba46",
+        "p2.mp4": "c7660136adf5452133d33a3d71b3fea4d57957c8e0334c3878a37cf8efc76e65",
+        "p2.physics.jsonl": "1469ca9f736b281453b8d19f5584427b6eb9804556eeeade4d8a52f705d19912",
+        "p3.jsonl": "9ba55ab8f3b6eb6cae2f260e28ec87381f4f236e67beb0cb80cf0e09af9e91c3",
+        "p3.mp4": "d152b9ae18bf8820556207516634999fd72a8eecc712756ce79ef03e3bd1c8c4",
+        "p3.physics.jsonl": "2d14a28124b90b1d8ae141a15826c3f89f24d9095b00f82a9774b6f5717b5c2f"
+      },
+      "source_shard_sha256": "0d6bb2e8215f246c8794b885b983ae77c1ca03ae978386a4a80342b26d99bf83"
+    },
+    {
+      "clip_id": "2026-05-10T20-27-28Z-e9451a_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-10T20-27-28Z-e9451a",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "bfc5f4b91b961f9270b3db07d1763f6a92de3e8cea7fb1538178bb9ea84566a7",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-10T20-27-28Z-e9451a_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 27.217584679625972,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 29.22328027093241,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 32.27188178706218,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          4.479424791696622,
+          4.746812099650702,
+          2.8800078275693686,
+          3.5206590637233397
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "ff0c8154a941dc55e23562ba65f3e25984a86b7c7332a4ddf4b651d9d21b2a1c",
+      "source_component_sha256": {
+        "p0.jsonl": "23c4424c33a99de1a47dd04c0ab75b6ebbce97b4bf146dba9000e1b5887befbe",
+        "p0.mp4": "b8af7b6c460689c1709d6961a3f92064d4e5f5c179406d298184b73b4e5f7bd0",
+        "p0.physics.jsonl": "ba2db6f7345aad9e608827a61ad0cd23074bc0c9edcfb088eb0314d4a717cff3",
+        "p1.jsonl": "7787a73756872bc4f44715ea5e682a43de0084e386c4de824c5de6479f4a7a6d",
+        "p1.mp4": "c2d7227231dfc99e7534033288d1eb1cd36db6df267a54ba12696be8dd000f5e",
+        "p1.physics.jsonl": "8f360a1d4aa64ce372aa8ca642c3206c758d4634a21e38b70b8d941ea42b760c",
+        "p2.jsonl": "09c4022cd106cd4c3b83c6bfabebc8eb54c33fffc9c0cfdc045fb8ae30c24fad",
+        "p2.mp4": "c0d60604af0d822eff90992ed3b0710a6f5eb96f1e9ee8ff16cf5e5a063973eb",
+        "p2.physics.jsonl": "63c4d6b895d5eaa4b761a4bf5e192e4d7047ec9edb6b2b7e1ca161c11a6de682",
+        "p3.jsonl": "2d398b118ebfd0652e0853c1b535e4b430b5f910214037815d1cfa3ccad34a67",
+        "p3.mp4": "090891287b7f385f90b2efa14c391a37f22ee29fa14bfcea5a8edb28c6cc0cf0",
+        "p3.physics.jsonl": "2f3fb82e0c56ae241ee0fb5a991750ca8007e1382e029b707fd02fbf43324929"
+      },
+      "source_shard_sha256": "3d27ff1c29531b8e68b39862ca585530d28889abea422e94b21a0f9ae2c47d77"
+    },
+    {
+      "clip_id": "2026-05-10T21-29-26Z-086e6c_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-10T21-29-26Z-086e6c",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "7084aec544d56826b582150abe74cbee5c021825dbf278498982a08c4b9defe9",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-10T21-29-26Z-086e6c_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.083986693728876,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 19.496290184057276,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 17.796909336406596,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          2.774113640356564,
+          47.42649271407104,
+          11.12322596076346,
+          12.573176199475983
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "d288717c7ca1c1875ff80d815331da4dfa134eab870f120b69e7f031c48a1217",
+      "source_component_sha256": {
+        "p0.jsonl": "ca2d21c4ea91c94c7d7f5297b192e674877f03ab58e5f708964c37edf351b3cd",
+        "p0.mp4": "ded2710cfd05ab862b9a93a0dc8107a1f53de64bb56cd7758754c160f1962c5b",
+        "p0.physics.jsonl": "30bcd424d25074f0e1ea6213391a4065c69aef81bf527af622aaef38145c65a1",
+        "p1.jsonl": "d19f4289271a859f941fe52bb228fea71e2d4803a497a245848f11aed707fd88",
+        "p1.mp4": "4fd6cd8ccaa7e898f8e226d03d17500ea00ae0519eec301520f1343fd3729746",
+        "p1.physics.jsonl": "114cef6584a77415af7ef2d76d458398f6c9bfe032855e425aa67fedf198f1ca",
+        "p2.jsonl": "bdef6b43cde155db8abed5271e6c2003ba0d1ea83992ed14af40b409245068a6",
+        "p2.mp4": "57b7deb09e92ac77251716724914f4ac33c4878d58f634d44820515338ea4dc1",
+        "p2.physics.jsonl": "fdd1d517d822fb6eb47dfaee9a955f69c8ba12147ad15ec9c5e831960645ca6a",
+        "p3.jsonl": "b16726a12c95bded102ea8f52c5e8df37f2f8891093e8f205969a270371730a2",
+        "p3.mp4": "660c531644e8c45e271325e6cd118130bf78269dae32a5097c71ca5d31d8c578",
+        "p3.physics.jsonl": "3c97b9517296cda936a9bbd88142d60e96cbd0c07815610543b87ab3f164f688"
+      },
+      "source_shard_sha256": "3d27ff1c29531b8e68b39862ca585530d28889abea422e94b21a0f9ae2c47d77"
+    },
+    {
+      "clip_id": "2026-05-11T00-38-07Z-92ce05_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-11T00-38-07Z-92ce05",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "17f1d1abba10f8522ec0e1bf6171c6b2a345a9cfda6bb3dd332f6cd388162c04",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-11T00-38-07Z-92ce05_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 25.36887722526749,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 21.274092915605323,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 25.927394806497258,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          2.906481563073977,
+          3.9940380249265455,
+          4.215261993838331,
+          4.168025468551932
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "17569acaa30da15ee65a9097abc41c387fa1e078854c221b69ecb1b8ebff58fc",
+      "source_component_sha256": {
+        "p0.jsonl": "18e7457c00ac8ba4236b5e8191b936db4c1f6a2cedf9720e3462f886b2d39cac",
+        "p0.mp4": "68e8e9e3c83b4ac848dbb726d1fb274bc7f54523e73988cd6617bf377ab75a11",
+        "p0.physics.jsonl": "7b9ec3f97b095b5a40a963352b0ad8b2454f2bb962a363e7f922b0690cd8658a",
+        "p1.jsonl": "47a442eb4d53adb57699813cd8efbd34116ed02febc9100966ff738657c7e622",
+        "p1.mp4": "026362bf5bf9ca42a8cb5048cd720c8e6c76982c19f24910aa574389e6c4aa30",
+        "p1.physics.jsonl": "bf9d6c14bc10c61664da7b0ebb89af7743def6d8e9a862fc417d1ecbc896a532",
+        "p2.jsonl": "9d234b3df86b969b56f91dc03ff0aad8adf590ea5f98144e229dcb90e81eb0fc",
+        "p2.mp4": "063c78e1b23018f570d9c97906389750fef9d8a7bed426bd73f23b5283655f99",
+        "p2.physics.jsonl": "01e2a30c7284a224bacc7c5af3d20edeba9c677236ae16f5aa860c5f3ecc2a27",
+        "p3.jsonl": "236cfb60cbc1b8d856cdbae54c1a25d1d707603a3ffc14bac2a7436935c7d58c",
+        "p3.mp4": "f3cf31e3d9c8c9c5849f00b39a532bc4887d7d1b46c5b93ccd56a70de383f759",
+        "p3.physics.jsonl": "4b3d24e55222ff1915ec5b2915dbf6180494ce1e188008ef41bfc20e2bc1d975"
+      },
+      "source_shard_sha256": "d0fdbdca1aa58c3198259ec2eeeddd649cc239b081a253612b8bf9116ee25f4e"
+    },
+    {
+      "clip_id": "2026-05-11T05-16-09Z-e42a67_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-11T05-16-09Z-e42a67",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "7cbab1d229ed460b60d84143c54df2c5999ac5807a2cafaa68e843ff4a3a24f6",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-11T05-16-09Z-e42a67_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 29.819709651606914,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 27.428057572249465,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 27.679004099922178,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          4.453077012041926,
+          2.824097978514535,
+          17.744912223882363,
+          12.834541510044797
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "2317941e78172dd31c1885da3f4788a6284dd99655be3be9d61ccf427ef6320d",
+      "source_component_sha256": {
+        "p0.jsonl": "eafd2be7fb46853523c1eb119b1aff02e0bd590408deea7945b076c6226d65a1",
+        "p0.mp4": "ae49132aa854ca63e2a3382693322cb356d99da27867316c797d8a89ff9279c7",
+        "p0.physics.jsonl": "c76ec4e1b8503eac173475396dac21d14700a348db910acfcf2822d698c5282a",
+        "p1.jsonl": "b29822cd7d6432dbaffa31af65aa53be87b73a41dfa1d050ac4acdb79bbcdb73",
+        "p1.mp4": "d367ebb4c194de1499a5818f5cc099dd23819759dc0c2235cacc9a082d89f7f7",
+        "p1.physics.jsonl": "91699b7c1960280ab1011ccd751a887201bd713bc00d5e000f9a1f4efa854549",
+        "p2.jsonl": "4384e146bc44d80bee1645018d93aea077cdc5e7cbb091c3a5e7272e766be7b5",
+        "p2.mp4": "35c547548b3ae5d6042213f034886a13d404753cf75cae2cf6d1efd9d4f658b1",
+        "p2.physics.jsonl": "09f97ebeaec1e7f5c771ee91709f7cd701e1a2c70aafd1fac17fe968603cd9ba",
+        "p3.jsonl": "993d1c08266b5f8e66e979af43ffa3fd98fde89b10413eb5a12db52eeabd9d07",
+        "p3.mp4": "0a3c55dbfa6d6aabd7ebbc76fce72130ca04322e24360c1dda8608d49888f720",
+        "p3.physics.jsonl": "aba139f8d1903b01e878006679ff834e81d7fabe33d2ada2c081ad59b1dd15d5"
+      },
+      "source_shard_sha256": "df680512ebb87180cf4995915eeea47e0d44bfd15ba7945f77f71cfc7f6b972e"
+    },
+    {
+      "clip_id": "2026-05-11T09-11-12Z-e77120_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-11T09-11-12Z-e77120",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "376bdf116db9bfa83a9374165d96372d0e955297c9e258deec0ba1e230336fb1",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-11T09-11-12Z-e77120_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 26.48632809770171,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 24.257566489245065,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 41.74825807015832,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          10.111614434350296,
+          14.140135432570665,
+          37.12498140564278,
+          106.40831831880776
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "d81e34aea97d77fcc3f9b1e4ae232474b43dd216bd31f6c2324cde8cca87b8e7",
+      "source_component_sha256": {
+        "p0.jsonl": "65af00652e5aa67a5f7dd2487fef1b4c003ea1e5ca1e676db9a18051c69223cf",
+        "p0.mp4": "dc4db12ffc36d6730f29f23ea1dbeec917b8dec6d60cae9fdec37990d31acb02",
+        "p0.physics.jsonl": "41a7dce7230e88633587793b5ef1dd6d940dc8bc580a599951af72fd56e483ef",
+        "p1.jsonl": "aded2b1c77f906d3f3bb64f5e008c99ee928dd101eaf1dc97d06fc27e5354ddf",
+        "p1.mp4": "4376695bf7e0a93e02e6c1f1a2905df1373bf9a4a91b66df8ee3d9a4d99f5496",
+        "p1.physics.jsonl": "93fec59cb643791a2ef8e0bd447cc3175a574b551a35f6197534657a6f52f201",
+        "p2.jsonl": "2822e53a79ed8fd86f4f432dc3520d0a0903a9b1403564640fa0ec7f0edb176e",
+        "p2.mp4": "9540f7250a50bc33f80cae9b03f744e6c08592d0429d2e6646b485523303bad7",
+        "p2.physics.jsonl": "b45edfd69e13093b657378b68b7dcf0936ed60445611ecdb011d482fdd7476b0",
+        "p3.jsonl": "11d2670542c1f8f8a7c05be04f2907868812adb828d0f0f113a236d756f468ff",
+        "p3.mp4": "86dd457901cdf2eb55db2ab1da921f4aab0c14a7e4df309042f7b68fd4488963",
+        "p3.physics.jsonl": "63c91e5422c8787e9ee8cadbe93c22ac4be9ada4e4fdbd77494a238e6ceb3c11"
+      },
+      "source_shard_sha256": "df680512ebb87180cf4995915eeea47e0d44bfd15ba7945f77f71cfc7f6b972e"
+    },
+    {
+      "clip_id": "2026-05-13T11-19-27Z-a2075b_clip02",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T11-19-27Z-a2075b",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "26330f98c41572a67ea91b0972d68f7c25b482fbf4ee8e024daa6f42fb0d40d9",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T11-19-27Z-a2075b_clip02.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 9.659198615548824,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 20.731204938950494,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 19.548904806876802,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          129.61693632033183,
+          73.8370964215444,
+          171.9016203743868,
+          182.13656252851246
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "c5f22a5b8d8d4457d330f87bc44b805af003cb0950c1db48ed0d918673f400d7",
+      "source_component_sha256": {
+        "p0.jsonl": "194572ef1df6d81aca13dbc19f9a40cdfd121a125d0c59c102aa871ecb9676e0",
+        "p0.mp4": "ee78c7490db0b5cbd96628f392276bf0df40de1959a10b184f8a35af8e9c207c",
+        "p0.physics.jsonl": "7d971517868606fbcfd8210e776d4363b506e5d394f08c7dcbdc798071300f71",
+        "p1.jsonl": "d9671be4be6b289bac83b20056c23a2236bac156ca91981502566ebc1741d4e6",
+        "p1.mp4": "ddbf5d8a1c92da903bf14b00f157e4f962bd3ea0831a9a019619d71032f5388c",
+        "p1.physics.jsonl": "d088b072601330a1cc2073460141d5ea81db9c7a77291e339d18ec37d736a360",
+        "p2.jsonl": "eb1bd5bab18a131a2c4967131859e6abeb9411cf7b0f253871bb153c4e1265f4",
+        "p2.mp4": "d82842a10fa9e8785f909ccf101b99a563ce0fded6cf3c2b956d1644af62961c",
+        "p2.physics.jsonl": "1b26c3229ba45182d48330959fe67e0258aa6def07bc13c82569b728a39fcc66",
+        "p3.jsonl": "f9b49ad0a6e057434027d7a2d507455d65f91993958717150f1a7bcf19a97e8a",
+        "p3.mp4": "d870543dafc5e6e49a807f9478bd7cfab550b3ce15296ec5d85c744f2508e0fa",
+        "p3.physics.jsonl": "b84b0629a473dedd77533d36be1e51d30edbc00f99efdb50fe069f5d4d0cd478"
+      },
+      "source_shard_sha256": "350b65893ebc1deddad962da7ba2d6718a1d48abf6c2d154da0cb59d0b7aae10"
+    },
+    {
+      "clip_id": "2026-05-13T11-49-53Z-f4c5dd_clip01",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T11-49-53Z-f4c5dd",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "03b95db3791b91f68f897855af89c1f6439e585242674ee361cd71e42a46b2a0",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T11-49-53Z-f4c5dd_clip01.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 30.488960804134493,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 15.983385439266003,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 4.181255205119444,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          3.3710916831064353,
+          3.963560401226419,
+          4.623949149500791,
+          5.956847744679264
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "cbb115e0d9dc69bd14a86d4469a2fdb3c680520116a0dce9f4451890ae1583d0",
+      "source_component_sha256": {
+        "p0.jsonl": "f0469d6f01f89a09e2ff9ea115ed135bfdaa6de8d5113a9a8e859c7dfb2dc417",
+        "p0.mp4": "782b25a09ee50546726015f1a4e3c28ada7890a9c2daae299f2252b892de5a66",
+        "p0.physics.jsonl": "c36f4f8f33805775a4eb2c0d8f0f52266575f433f6f5f19a19352a854e34eb90",
+        "p1.jsonl": "a16589fc1c2954f5c102ff6272a7a776467741eee655e40c275f3d4b86099b83",
+        "p1.mp4": "9471c4ee80b860c624d03728472c316839ff1a3d3069a5bd5e499c9e6a40f6d7",
+        "p1.physics.jsonl": "9fa774f304ab3ff4465bfcd7501855ac0b6e8e7c379ee9cdcff09f15f7c66ffd",
+        "p2.jsonl": "3373f0c980ef0121bca12d98e04eaec9d08aede1b2664be05941427ed4b026d8",
+        "p2.mp4": "010388a750a6e9afbd168e6965bc8e639f280bea136234d37c7315d475543a78",
+        "p2.physics.jsonl": "9f5c00a38e0dd5b25b32831becf66db329af3abcd40dd160691a17f85ca8c66a",
+        "p3.jsonl": "081b34a202ea03567668d07d206f8a662c2cfe33b76f4350d8f35c8becdbdc0b",
+        "p3.mp4": "e69099bee51195f1c8cc4a4e625fff36faeee3400a1be6a3ff3a1860910e6377",
+        "p3.physics.jsonl": "136cee361c724dd62d1977b0525c858952551de19560e6e7cdee9aa28fa3ca8f"
+      },
+      "source_shard_sha256": "350b65893ebc1deddad962da7ba2d6718a1d48abf6c2d154da0cb59d0b7aae10"
+    },
+    {
+      "clip_id": "2026-05-13T18-34-42Z-96aaae_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T18-34-42Z-96aaae",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "95ee93709a56e2aa0993fb950d72826dcf537a2a4e9cf78ec07cf8628dbb8dc6",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T18-34-42Z-96aaae_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 24.14865261099145,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 16.940538584315828,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 18.990469171050083,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          15.351430673695258,
+          6.2010684341645055,
+          5.287046592858936,
+          5.862053214458986
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "9ffc55d8c43bb769568ecac08e609fe09d99705a7bc4da10d78cd4e97a3d253a",
+      "source_component_sha256": {
+        "p0.jsonl": "b4e9af0733de0d1427630607580d9608c80b36cd79e66ab4cab59661f8222007",
+        "p0.mp4": "02e208ac7476d04266f481747455142210b9c49def00548db8477a7be1e01239",
+        "p0.physics.jsonl": "952ad1c885eb3c7757e8c8a05230c1050019b6c34414ab82c5cfeadc73c04ce7",
+        "p1.jsonl": "9feff95aa899dd920a635269edb4d61ed7eaf893b070326ac5d9790418588c68",
+        "p1.mp4": "da6a3c263b71b022c80c4465526535b2eac73103319de52482fc4f0fd9fa833b",
+        "p1.physics.jsonl": "742c8c1a53092661056b07258e130c825af040a43bcf05f8acb7a2d5fa364ebb",
+        "p2.jsonl": "31a2fab5c6fd77b7f188b2b3f803a25c0d3fba267284792aefd08508a05c5e46",
+        "p2.mp4": "7df9f4117e0979c9db38b543da3fe3ad999092a687011144b0865a154a24760a",
+        "p2.physics.jsonl": "7a23409d0357d736695683f91e57c960f214ed73949d999138837418d919d045",
+        "p3.jsonl": "ea48581e36627a0c686c99548c33eaf15c3e77bb4d899b6575050438bd452909",
+        "p3.mp4": "575ac579bab5c7eaefb32a241332f4a524a8bfc3c05cebe4552f08bf289a836a",
+        "p3.physics.jsonl": "30a90a28c88e1763aa119070f013d1c4d301bf8fafdd56328e2be886b16a6bcb"
+      },
+      "source_shard_sha256": "af6a8fecf720f5a3ca4338f8cdadaa14054a51bb1020a7da40e5d1a174260043"
+    },
+    {
+      "clip_id": "2026-05-13T18-45-35Z-7ea0c7_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T18-45-35Z-7ea0c7",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "dabcdf89315516d5b321da88a01c29df5fed1bdd3153ac082232d1dd6dbebda7",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T18-45-35Z-7ea0c7_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 6.021733790086168,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 12.69519479161613,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 6.193953348380155,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          41.88515743040053,
+          50.21580509298309,
+          18.39267183925451,
+          30.025531882824914
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "ace0a40a165ddf5c8030298bcb5e04212b31e52533dfa0575564f75a044ba01c",
+      "source_component_sha256": {
+        "p0.jsonl": "c434b43ac2c66ded6ecd32579b78e56a0f4841908b2ba2179e8175fb28bc51d7",
+        "p0.mp4": "ab844e2400011b4d85962dff6cec3b1f73d94d48069e173f929c886e6e3e7a9f",
+        "p0.physics.jsonl": "d1359519271a4857d2d786617d19017cfd91066feab7812ae9fbc82fd01e1817",
+        "p1.jsonl": "91f612de5fd2d08611b783494f0939543ab9f8f50e4a664d47759316034aa0d1",
+        "p1.mp4": "43af8b3ad3ddf868cd8497d0296046e450a76d9cb3af6fe83f8b61c551c958d9",
+        "p1.physics.jsonl": "cf5865256f256e57e32f4f1957b6be813b51c2eb1394de40f8da6eb378c27704",
+        "p2.jsonl": "c0fa3f27302fe6db33196cbbac6c4f2dd8cf9b2e93ba6ee1f242580f4610d73b",
+        "p2.mp4": "146eabeac9abe1cd729e98c6b9d7fb085b809c280148aa83c950b6c7a33c48ae",
+        "p2.physics.jsonl": "32cc59eaaf78bed515b2f388bbc1099b27558d92cbea62ad448f066bf5f88ec2",
+        "p3.jsonl": "85a52808b18bd19bf2da4c948c6d82ec3893176177ae0918a38e220cc534a071",
+        "p3.mp4": "19ce720e04e33a775d6965c90c29bf1ffd39aa3bb1d17ee13c3cef1290b45a89",
+        "p3.physics.jsonl": "cf4cad5f5a64189caffdd0089e5e50ec106741d8c667bd8403881224113b215f"
+      },
+      "source_shard_sha256": "e998cabb29340ddf259e505f38d6079fd03565f1bbea0f9b052e8ce866b94335"
+    },
+    {
+      "clip_id": "2026-05-13T19-06-27Z-26c444_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T19-06-27Z-26c444",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "94b66dcf49487a257cf40b62f0eeae3708604a3f49b6922975f9f0c880281fbe",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T19-06-27Z-26c444_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 42.289328556174354,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 43.05805290191017,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 31.786538014562392,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          15.06292498943595,
+          181.66233130210094,
+          91.91774979528091,
+          104.85041527907586
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "f12c6639ded71237159419dd734514090ee9395fb831ffa99cf0be6df0eb6c84",
+      "source_component_sha256": {
+        "p0.jsonl": "51c972ffe74759bb73fea7ee2f443780f0c91a09a65efddea8a7e2b1d975ab8c",
+        "p0.mp4": "323c468b4dba9074e8914033e14c5b7874980deb2613da1def387a797454d4f4",
+        "p0.physics.jsonl": "f517bc89c5070c6fe2554f9f64ec5b1f6ac9679f41589f0c60d3a04799c43770",
+        "p1.jsonl": "d2fc0c71d95e92873d0d011f0d08ff6d7eb6256b08428819425127e4f212beb9",
+        "p1.mp4": "a79c987f5bb2a1db44e8f717cc909f7f2725ac0accc2f812a2acde37db678e51",
+        "p1.physics.jsonl": "4058b71d5e7734ccaacca0527cf294c967ce020a4c19a900ad32acf5dbb17d4a",
+        "p2.jsonl": "8a15c10e62b930e370fd28edacefa9e9baa9dcf0cc3694e65cd8c4a462f32082",
+        "p2.mp4": "d87b1228b9c0937389389a609236d67432ee4faf0fdd87457603e963925edf5a",
+        "p2.physics.jsonl": "eb90a8eeaacbaa5c0e0228c7a8c580c8e19a3850679c6cab55a2bf2344c62a3f",
+        "p3.jsonl": "46f05a8d9b918730b84849b473336cbca0fd939744e3ad1bb966315af96f48f8",
+        "p3.mp4": "0a4a26355ff3d9f7392a10468a93d9852bc98a0669ea290d1de9157d8be4c545",
+        "p3.physics.jsonl": "555527a4187cf94f88b0cd0e7f862fe62874fc8418ecc8808c068068c3697806"
+      },
+      "source_shard_sha256": "e998cabb29340ddf259e505f38d6079fd03565f1bbea0f9b052e8ce866b94335"
+    },
+    {
+      "clip_id": "2026-05-13T19-31-51Z-65801e_clip01",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T19-31-51Z-65801e",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "9fee67db6a91c40b906497e77d3913caa829a3810855c95adbffe17691dc8cf7",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T19-31-51Z-65801e_clip01.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 4.046287557685604,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 3,
+            "mean_ball_residual_uu": 21.783038248243344,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 19.018683910448004,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          12.758487703158233,
+          8.01522885764386,
+          7.224410350935751,
+          3.5965551558201043
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "cf875ceaddb3a603230c3ead2ed9414f308196f49d6d2b97dce8887ea96f36df",
+      "source_component_sha256": {
+        "p0.jsonl": "38cfb2bc06c4f65bf3865f99d4bed02dd675741bb8799a9952f14bbcedeb447b",
+        "p0.mp4": "01f7a96d1ae3ec31263ef5b0ee614cefade420234ef9804452ac8a59b147d514",
+        "p0.physics.jsonl": "5cb8feff55a4cde6204c7a4a3f2197fcc6d02bca8ca009e4790a289c5be07904",
+        "p1.jsonl": "51b8eae095c9c25d1ab78cbeeb1c0248e9fdf4ded034c2a2e1e515c43f7739b4",
+        "p1.mp4": "b06f1a03abfad9bc77700795abb56feee3b0adff427019270eaa665e98fb27ee",
+        "p1.physics.jsonl": "fb065a64af50edf7fa5c881437eeae07cfa3cb118a0144bbfac901405dd9e9a7",
+        "p2.jsonl": "15b0fa68953dafe9f2de164c95084ab9cb035e499e18bed5407e6807dadacdb2",
+        "p2.mp4": "c2311cef7d0ef775cefa9db6f249acd29452e1301ee53ebc590b3df409b3825f",
+        "p2.physics.jsonl": "f8c3b6693a891468555d28bd93b466df7ff8b404ec9585e9f71cf27a9535ef11",
+        "p3.jsonl": "bb950776640d2252e87430db4ac1bc61b139682e793e9a9d68571cabe1966598",
+        "p3.mp4": "f3bd67bcd64f3529c1018c938cc728af3b81e9f9a9acfd38fbc1a4179a2b0e78",
+        "p3.physics.jsonl": "cd19b304b094e43addd08787e185c65f5e213f6323395874b24953ae6af18050"
+      },
+      "source_shard_sha256": "952b5c555264fb3a6619770834098b4904e223ed1bfec5bf2b2bc40cfd7bfc70"
+    },
+    {
+      "clip_id": "2026-05-13T19-36-27Z-fed60c_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T19-36-27Z-fed60c",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "678dbb92fb46e6dfc39a069f3a222f6297ed2ff70d7f84a3f66c3400bb4ea88d",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T19-36-27Z-fed60c_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 0.8236310559402618,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 1.6151581854456138,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 0.8007319193609423,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "d9df33b9364ec3ab32e1b8a9da1ad0feb1f9685cde27573d6bb549f87197baee",
+      "source_component_sha256": {
+        "p0.jsonl": "7798d6621e22e38412a5a3118c60485b08b904e0b161207b91bb84a6c1dec082",
+        "p0.mp4": "25329c74dfc52fcf8dbca25cbfbca863b7a7a97f20454d278de61902cae0d41c",
+        "p0.physics.jsonl": "26976b53db380af83f870df16947c20690d305c3d3c99eb3b18b6329f9056def",
+        "p1.jsonl": "c71c5d59d89d5dcedebd59fea2bba6999555da8f0174f79dfe3413a4294df2ff",
+        "p1.mp4": "d7f175b8f487d4494cefe3f9a911a19dc9e2bbbe73d0fe046524b94a0c6981d2",
+        "p1.physics.jsonl": "85fe38fbbdb01102672e148b9dd786060c558b8ac1bc888164654135fc4c0879",
+        "p2.jsonl": "5a6efb164dcadf1a4b6d778481ac3ed6ea2db51ec7eca3997930bb47904ef236",
+        "p2.mp4": "fc0251c9e51603a113cb67127641687d2dd3ec02d9eedb0d3091f57b25e4576d",
+        "p2.physics.jsonl": "b7d2af421e15061120cf3e437620ddc44324a0a6e59cfbafd016b2780f205b40",
+        "p3.jsonl": "d8baa6e980b575aa96e50d21c1410b79b612c668a9864cf4dc8cae6188f13793",
+        "p3.mp4": "735cee14f222bc98617318d00c91d78901ac2918fdd077c6aa3e0ea993f81ea3",
+        "p3.physics.jsonl": "9ba11f349b22486d41a9010feb547411fd958e52162928d5a8579050411f46bc"
+      },
+      "source_shard_sha256": "952b5c555264fb3a6619770834098b4904e223ed1bfec5bf2b2bc40cfd7bfc70"
+    },
+    {
+      "clip_id": "2026-05-13T21-07-57Z-cbafa5_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T21-07-57Z-cbafa5",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "840ecbad57000a8d89fa9ec8af5bc59e59dfb02470f923594c600589f07a743a",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T21-07-57Z-cbafa5_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 39.588076065473984,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 29.57628551081832,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 19.55747531433551,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          5.109397451479462,
+          151.91363152485044,
+          29.910898008112746,
+          12.219608394160351
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "c1cbc54275aeef8521fb645e0495e36efeff4a1c557c7f9c6625220b9ed189e5",
+      "source_component_sha256": {
+        "p0.jsonl": "c4da0e83779fad4c73463ff83991c3f0bf1b166c2acfc63758d86f37a35b5145",
+        "p0.mp4": "0547c905c4f29feaa50e457e6e93fa305c9ff79ea5ec4ada572347702d5cfb75",
+        "p0.physics.jsonl": "63e9428432e1f06aec0e634225be543aff70cd3c9065e38a88b17d92d1b7c8a8",
+        "p1.jsonl": "3773a2ef283c125fd2b8f63fc6b81cdef28a3959ebce5a851af4911106ac6176",
+        "p1.mp4": "48e57c5abb6ee50b647b1e3cbd86df1d4a851de060e13a6ed9450732cde853e3",
+        "p1.physics.jsonl": "2914d240b2fcae7b91ad3fa968d8d38fbc7c748c7d6859c01806bdb86de40473",
+        "p2.jsonl": "4d306f022745abcd17c71d49218bda41aeb88f1167d714ca67e40ad923378b8f",
+        "p2.mp4": "356b1966638a6f513743ffacebbc5b1826910da14c69c5a26187f3707a3d6d03",
+        "p2.physics.jsonl": "6933c498fcb381d9d234df26a2e0ec26c933c258d66aafce46300afb5d910e03",
+        "p3.jsonl": "12aa9e3a270d86e866190526fde8bc3d792dd0887793001e07176c81e444809d",
+        "p3.mp4": "25482b5a54e7d045378e32ad2a9b6d33e50832c4eb2bfea5561a5d153b39b2e6",
+        "p3.physics.jsonl": "ae59d7e8595c9b235cd6e1a70fe2bedfd9af5b563dd48965ef151da658d30b3c"
+      },
+      "source_shard_sha256": "f70cc5c5a9a0af2f067a787eb0ea7268c3676f4f1ce3944af81227fd6426efee"
+    },
+    {
+      "clip_id": "2026-05-13T21-18-33Z-fc243a_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T21-18-33Z-fc243a",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "d5e2941a4a4f122d732d7e2a098368b04e7e925ce35d4c88f6c7de7f628d7dc9",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T21-18-33Z-fc243a_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 17.529199485025707,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 35.47664141496315,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 25.08104272830834,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          11.094073476784944,
+          48.934259736213,
+          25.872983939941708,
+          31.10672191348708
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "a633cc15f5f3e11206fb5adc0e97c3719f214e7357a261f60a7a301715e20aeb",
+      "source_component_sha256": {
+        "p0.jsonl": "90f409290244b88bcaa579520ed8bc8c57db38cb5704754c8f380fa33ded3a55",
+        "p0.mp4": "65429fd974cd993a1d56a914614f640be0a6706978d89a0cb064cb7bef0c1820",
+        "p0.physics.jsonl": "6300a32ab76d6fc237f11b24e1cba04ada6818bbb07fed2fcfb0b38239b1cbba",
+        "p1.jsonl": "a392b3576bac0cb179945188008ea292c015a27f7461c374d8540697b8487d38",
+        "p1.mp4": "0f67f0be080daa10390811892fc5be24d70081bf77a05c306b9a1c14a94ae4e6",
+        "p1.physics.jsonl": "17665b8fcfb8de8e635e40d9eea7df5b66ea038265b51e09218836bcd38fa065",
+        "p2.jsonl": "c7319d61130a8533b18515804505c119288b01d9d903d62cb5612237a6d9b658",
+        "p2.mp4": "1bfb623868ac0f41c2a71e74fd53e0de5d33a17cc65e6340d183133293da2460",
+        "p2.physics.jsonl": "359ec39c563cbde10ce0a594e94330722cc57626a5d82f3719e9a3f988f49fcd",
+        "p3.jsonl": "a98799260f4b30384bf92c164e82ed31fa3856ec08feeb211aa79b9767e4ec7b",
+        "p3.mp4": "98872e61fcb2a7232f76a6f447300c80d2708dbe1761afe9ab2ff899da055905",
+        "p3.physics.jsonl": "7258e313681bf914ac3e0d36e5dbe04b1548b809b8b0f91f239a4357bcb44dfb"
+      },
+      "source_shard_sha256": "38045267bcaf40d701b9a2059dc9034e286db94940c6f2f016077d595e5a03ac"
+    },
+    {
+      "clip_id": "2026-05-13T22-30-03Z-193371_clip01",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T22-30-03Z-193371",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "a0782ad5de628566ff459648a2769f8f61a3cf8ff706e583256485ca71118f1c",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T22-30-03Z-193371_clip01.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": -4,
+            "mean_ball_residual_uu": 0.0,
+            "view": 1
+          },
+          {
+            "best_lag_frames": -4,
+            "mean_ball_residual_uu": 0.0,
+            "view": 2
+          },
+          {
+            "best_lag_frames": -4,
+            "mean_ball_residual_uu": 0.0,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "03fefaa38c75f68d697a2be91c2ad81988d6bf2b9a8358208ef46fffb066206f",
+      "source_component_sha256": {
+        "p0.jsonl": "78f17bc1f3503163d32fb6eaf3541773e0ecd4ce33a9b8eb51742b921aee409f",
+        "p0.mp4": "a94aab1553254ca00583632461b980657355d0631e00171b5d1c33afcb45d1bf",
+        "p0.physics.jsonl": "731961a8bcec7b8294a510dea09f5a54aff2d4717c398fb0d09788b5635dea24",
+        "p1.jsonl": "6141b22114715e18b669e0624ce5d21d559cf287fab5fc6620cb556f81daeda8",
+        "p1.mp4": "90dbd0dfd91f243fe285727b65d8e97c3c591f75e561f94c2bd0519990b95073",
+        "p1.physics.jsonl": "4eb6f7b35abd4b8136bb7b64015e0c859cd073c561b9b54abd43281cf384710d",
+        "p2.jsonl": "7e058568aa20bb724b4604e3f76ba1db3b6a106622a1c9ffdc19319ec575221d",
+        "p2.mp4": "984d20bdb0a09d1dd36e4d324d098a27ee04633e88cb53e8e503b9d67733f00f",
+        "p2.physics.jsonl": "f73eb9bda151b9f728d93b078f8d9f56cb39a9f31f3bd074245c86ca889bdb7a",
+        "p3.jsonl": "7c15faff031ef4adaddf77479086e4d8a930d1aaaa2e45ace73cac48b258a1b8",
+        "p3.mp4": "f78d297cb49df9f2692a8add3af1c76dac6eeeac29d920752e7173fac0f3e65f",
+        "p3.physics.jsonl": "2f2aac44eda99b6ae3b2a3fdb09dde0591d90738f9e2f27964f79b9bafe8e57a"
+      },
+      "source_shard_sha256": "7536a6da081211c17ce0f8eb298eb876f51c49744f2510b45a3e16e14f7f2a27"
+    },
+    {
+      "clip_id": "2026-05-13T23-12-57Z-2fccc7_clip00",
+      "context16_source_join_exact": true,
+      "frames": 24,
+      "future_ground_truth_use": "calibration/reference only; all eight future video frames will be hidden from generator",
+      "match_id": "2026-05-13T23-12-57Z-2fccc7",
+      "observed_context_frames": 16,
+      "own_view_time_alignment": true,
+      "parent_source_sha256": "fe7f89db3cc3a04089ff43f83ee306b9cb3cf260a5c53c3fd9ee6ed6a732579f",
+      "path": "/data2/ishaangp/mira-interp/rollout_inputs_v1/confirmation/2026-05-13T23-12-57Z-2fccc7_clip00.npz",
+      "physical_audit": {
+        "all_player_identities_checked": true,
+        "all_team_ids_checked": true,
+        "cross_view_ball_alignment": [
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 30.567893273588638,
+            "view": 1
+          },
+          {
+            "best_lag_frames": 1,
+            "mean_ball_residual_uu": 29.667046719826104,
+            "view": 2
+          },
+          {
+            "best_lag_frames": 2,
+            "mean_ball_residual_uu": 22.215580313251955,
+            "view": 3
+          }
+        ],
+        "demolished_entity_frames": 0,
+        "exact_cross_view_synchronization": false,
+        "frozen_transitions": 0,
+        "median_ball_finite_difference_velocity_error_uu_s": [
+          7.008277772952495,
+          49.16214234502671,
+          2.9809419025862045,
+          5.819694611269497
+        ]
+      },
+      "role": "confirmation",
+      "sha256": "25336313ed257b40de4c4e2d86696bed277c79a67cc99c45785b3da9c9ccdc31",
+      "source_component_sha256": {
+        "p0.jsonl": "bf7e598024531c8481a811805be0ae0bed1fbe08b2b7ea97cfee9635bff32ea2",
+        "p0.mp4": "d5d1aa483a6edfe18dd13308ae9964118b92bdb6108ce71f471af42035a65faf",
+        "p0.physics.jsonl": "57db407a089e02d733e8b24000777332fa3a289ace79ab40758a31fb8b10988f",
+        "p1.jsonl": "84d910eca395b816526fbdb9579f502b3b0ca64a7c4775c02c6de0d5621bb249",
+        "p1.mp4": "1956fe9288ef6ba072a2f605a094a83e7c5d353bc0fac5fa89ebf97acc81e18f",
+        "p1.physics.jsonl": "8831dc5a9dfa68cbe7fb9c765cb7c3632d7bcc88cc06b2a8f1b2460ada5d9366",
+        "p2.jsonl": "974888082788a855ed5f8b7b93c386c05bb5375152cdc1d770265f005cfb61d7",
+        "p2.mp4": "23d7b977c1a51406213d8b60586c1fdcd98965fc749e4141a332efde37a9411b",
+        "p2.physics.jsonl": "ce823d6b4d301a48640b26b9487b2e24947c6d535999b6ac288d67edc1d7b528",
+        "p3.jsonl": "10d86a2a7f780f695fb49f014111e537d1c58485ca5889744cc4ac0a5729bd8f",
+        "p3.mp4": "2663b6a5fa416b561968af0680c519f78c79a4b1c458fc7f0ac80031df7ee19c",
+        "p3.physics.jsonl": "4f999876901e995a9767d56401fa67198926fcc14aa51294e3b10adbf1c08c28"
+      },
+      "source_shard_sha256": "dbbaf775b471b2a07f3feb3e20902ddeb243cbd45d6f028ea8f5c2fca31c1c04"
+    }
+  ],
+  "sampler_precision": "Published sampler retains codec latent dtype. Tau is nominal FP32 schedule cast to that dtype; under BF16 step8 is actually0.52734375. Record actual tau/dtype every call; do not rewrite sampler to FP32.",
+  "schedule_type": "linear_quadratic",
+  "schedule_values_bf16": [
+    0.0,
+    0.02001953125,
+    0.0400390625,
+    0.06005859375,
+    0.080078125,
+    0.10009765625,
+    0.205078125,
+    0.34765625,
+    0.52734375,
+    0.74609375,
+    1.0
+  ],
+  "schedule_values_fp32": [
+    0.0,
+    0.019999999552965164,
+    0.03999999910593033,
+    0.06000000238418579,
+    0.07999999821186066,
+    0.10000000149011612,
+    0.20519286394119263,
+    0.34778931736946106,
+    0.527789294719696,
+    0.7451928853988647,
+    1.0
+  ],
+  "scope": "Frozen candidate generated-video steering; independent video evaluation required",
+  "seeds": [
+    2026090701,
+    2026090702
+  ],
+  "site": "block_15_output",
+  "status": "registered_before_rollout_steering",
+  "storage": "Lossless NPZ DEFLATE level1; same arrays and model arithmetic as successful v1 pilot",
+  "tau_amendment": "Before any rollout: published10-step default has no0.5 step; preserve original schedule and edit nearest actual tau0.527789294719696. Teacher-forced tau0.5 and generated cached tau~0.528 are different distributions.",
+  "view": 0
+}
