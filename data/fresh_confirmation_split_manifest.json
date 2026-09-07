@@ -1,0 +1,2844 @@
+{
+  "source_revision": "a248fc918baa93389e3242fefba193f1bfb0474a",
+  "registered_utc": "2026-09-07T05:34:36.562817+00:00",
+  "input_index_sha256": [
+    "b9072b94e2d74631e6d8d9b42c7976a6c9a52015fd6e55b3e1d2e7d7a4e81f32"
+  ],
+  "sha256": "ac8f009e72cb6393af429c5222174c4809a0f326fe3532595ff0faa999918406",
+  "matches": [
+    {
+      "match_id": "2026-05-08T16-17-40Z-dba748",
+      "split": "unused",
+      "player_ids": [
+        286,
+        290,
+        291,
+        292
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T16-33-49Z-0c07f5",
+      "split": "unused",
+      "player_ids": [
+        282,
+        286,
+        287,
+        288
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T17-39-53Z-463824",
+      "split": "unused",
+      "player_ids": [
+        296,
+        300,
+        301,
+        302
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T18-39-20Z-fd4a8d",
+      "split": "unused",
+      "player_ids": [
+        313,
+        317,
+        318,
+        319
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T19-16-07Z-291406",
+      "split": "unused",
+      "player_ids": [
+        348,
+        352,
+        353,
+        354
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T20-11-57Z-e66428",
+      "split": "unused",
+      "player_ids": [
+        411,
+        415,
+        416,
+        417
+      ],
+      "shard": "dataset_00000.tar"
+    },
+    {
+      "match_id": "2026-05-08T20-15-26Z-32fc3e",
+      "split": "unused",
+      "player_ids": [
+        380,
+        384,
+        385,
+        386
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T20-22-22Z-1d246a",
+      "split": "unused",
+      "player_ids": [
+        389,
+        393,
+        394,
+        395
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T20-27-22Z-efe23c",
+      "split": "unused",
+      "player_ids": [
+        348,
+        352,
+        353,
+        354
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T20-27-23Z-d398d6",
+      "split": "unused",
+      "player_ids": [
+        429,
+        433,
+        434,
+        435
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T21-21-26Z-0b4302",
+      "split": "unused",
+      "player_ids": [
+        382,
+        386,
+        387,
+        388
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T22-36-23Z-f911ce",
+      "split": "unused",
+      "player_ids": [
+        418,
+        422,
+        423,
+        424
+      ],
+      "shard": "dataset_00001.tar"
+    },
+    {
+      "match_id": "2026-05-08T22-37-06Z-4e9cec",
+      "split": "unused",
+      "player_ids": [
+        435,
+        439,
+        440,
+        441
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-08T22-39-54Z-935a68",
+      "split": "unused",
+      "player_ids": [
+        422,
+        426,
+        427,
+        428
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-08T23-51-57Z-0f2281",
+      "split": "unused",
+      "player_ids": [
+        537,
+        541,
+        542,
+        543
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-09T00-26-21Z-a528c2",
+      "split": "confirmation",
+      "player_ids": [
+        582,
+        586,
+        587,
+        588
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-09T00-33-23Z-ebea86",
+      "split": "unused",
+      "player_ids": [
+        525,
+        529,
+        530,
+        531
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-09T01-26-38Z-cfe79d",
+      "split": "unused",
+      "player_ids": [
+        522,
+        526,
+        527,
+        528
+      ],
+      "shard": "dataset_00002.tar"
+    },
+    {
+      "match_id": "2026-05-09T01-49-55Z-759554",
+      "split": "unused",
+      "player_ids": [
+        581,
+        585,
+        586,
+        587
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T01-57-22Z-43bd00",
+      "split": "unused",
+      "player_ids": [
+        497,
+        501,
+        502,
+        503
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T09-03-47Z-e16772",
+      "split": "unused",
+      "player_ids": [
+        312,
+        316,
+        317,
+        318
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T09-08-24Z-a28754",
+      "split": "unused",
+      "player_ids": [
+        289,
+        293,
+        294,
+        295
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T09-17-42Z-1fe979",
+      "split": "unused",
+      "player_ids": [
+        298,
+        302,
+        303,
+        304
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T09-56-34Z-1b344c",
+      "split": "unused",
+      "player_ids": [
+        375,
+        379,
+        380,
+        381
+      ],
+      "shard": "dataset_00003.tar"
+    },
+    {
+      "match_id": "2026-05-09T09-58-52Z-f556ff",
+      "split": "confirmation",
+      "player_ids": [
+        302,
+        306,
+        307,
+        308
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T10-45-15Z-6e4daa",
+      "split": "unused",
+      "player_ids": [
+        356,
+        360,
+        361,
+        362
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T11-16-41Z-0c9a7a",
+      "split": "confirmation",
+      "player_ids": [
+        372,
+        376,
+        377,
+        378
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T11-56-26Z-a30a14",
+      "split": "unused",
+      "player_ids": [
+        335,
+        339,
+        340,
+        341
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T11-56-48Z-73fc64",
+      "split": "unused",
+      "player_ids": [
+        391,
+        395,
+        396,
+        397
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T12-50-09Z-e85c3d",
+      "split": "unused",
+      "player_ids": [
+        421,
+        425,
+        426,
+        427
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T13-03-26Z-d4b871",
+      "split": "unused",
+      "player_ids": [
+        375,
+        379,
+        380,
+        381
+      ],
+      "shard": "dataset_00004.tar"
+    },
+    {
+      "match_id": "2026-05-09T13-07-06Z-8ee961",
+      "split": "unused",
+      "player_ids": [
+        402,
+        406,
+        407,
+        408
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T13-37-30Z-f7e03e",
+      "split": "unused",
+      "player_ids": [
+        411,
+        415,
+        416,
+        417
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T16-33-20Z-9643f2",
+      "split": "confirmation",
+      "player_ids": [
+        654,
+        658,
+        659,
+        660
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T16-55-37Z-3b22a0",
+      "split": "unused",
+      "player_ids": [
+        673,
+        677,
+        678,
+        679
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T19-10-52Z-291030",
+      "split": "unused",
+      "player_ids": [
+        270,
+        274,
+        275,
+        276
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T19-45-02Z-fc71f1",
+      "split": "unused",
+      "player_ids": [
+        298,
+        302,
+        303,
+        304
+      ],
+      "shard": "dataset_00005.tar"
+    },
+    {
+      "match_id": "2026-05-09T20-06-55Z-cdf585",
+      "split": "unused",
+      "player_ids": [
+        292,
+        296,
+        297,
+        298
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-09T20-54-15Z-2410cd",
+      "split": "unused",
+      "player_ids": [
+        323,
+        327,
+        328,
+        329
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-09T22-17-39Z-15f55b",
+      "split": "unused",
+      "player_ids": [
+        394,
+        398,
+        399,
+        400
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-09T22-29-10Z-e43803",
+      "split": "confirmation",
+      "player_ids": [
+        365,
+        369,
+        370,
+        371
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-09T23-09-20Z-f74756",
+      "split": "unused",
+      "player_ids": [
+        454,
+        458,
+        459,
+        460
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-09T23-14-58Z-e3ef6c",
+      "split": "confirmation",
+      "player_ids": [
+        366,
+        370,
+        371,
+        372
+      ],
+      "shard": "dataset_00006.tar"
+    },
+    {
+      "match_id": "2026-05-10T00-16-36Z-6cfcdc",
+      "split": "confirmation",
+      "player_ids": [
+        387,
+        391,
+        392,
+        393
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T00-19-28Z-b52648",
+      "split": "unused",
+      "player_ids": [
+        392,
+        396,
+        397,
+        398
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T00-39-42Z-c5eada",
+      "split": "unused",
+      "player_ids": [
+        414,
+        418,
+        419,
+        420
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T01-10-23Z-380959",
+      "split": "unused",
+      "player_ids": [
+        393,
+        397,
+        398,
+        399
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T02-49-04Z-a3eb1d",
+      "split": "unused",
+      "player_ids": [
+        516,
+        520,
+        521,
+        522
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T02-56-20Z-b1e848",
+      "split": "unused",
+      "player_ids": [
+        525,
+        529,
+        530,
+        531
+      ],
+      "shard": "dataset_00007.tar"
+    },
+    {
+      "match_id": "2026-05-10T02-57-52Z-709cc0",
+      "split": "unused",
+      "player_ids": [
+        454,
+        458,
+        459,
+        460
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T02-58-46Z-f9bfcd",
+      "split": "unused",
+      "player_ids": [
+        476,
+        480,
+        481,
+        482
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T03-04-49Z-3c7fd5",
+      "split": "unused",
+      "player_ids": [
+        601,
+        605,
+        606,
+        607
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T05-23-43Z-31f0c1",
+      "split": "unused",
+      "player_ids": [
+        269,
+        273,
+        274,
+        275
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T05-34-29Z-599321",
+      "split": "unused",
+      "player_ids": [
+        269,
+        273,
+        274,
+        275
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T06-05-12Z-c8366e",
+      "split": "unused",
+      "player_ids": [
+        305,
+        309,
+        310,
+        311
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T06-20-25Z-8764b8",
+      "split": "unused",
+      "player_ids": [
+        333,
+        337,
+        338,
+        339
+      ],
+      "shard": "dataset_00008.tar"
+    },
+    {
+      "match_id": "2026-05-10T08-04-20Z-6f12ce",
+      "split": "unused",
+      "player_ids": [
+        330,
+        334,
+        335,
+        336
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T08-11-39Z-83ab33",
+      "split": "unused",
+      "player_ids": [
+        300,
+        304,
+        305,
+        306
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T08-16-54Z-cdc7ee",
+      "split": "unused",
+      "player_ids": [
+        421,
+        425,
+        426,
+        427
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T08-18-31Z-403945",
+      "split": "unused",
+      "player_ids": [
+        329,
+        333,
+        334,
+        335
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T09-19-02Z-a30827",
+      "split": "unused",
+      "player_ids": [
+        382,
+        386,
+        387,
+        388
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T09-30-59Z-1b1d66",
+      "split": "unused",
+      "player_ids": [
+        383,
+        387,
+        388,
+        389
+      ],
+      "shard": "dataset_00009.tar"
+    },
+    {
+      "match_id": "2026-05-10T09-55-58Z-94d63c",
+      "split": "unused",
+      "player_ids": [
+        340,
+        344,
+        345,
+        346
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T10-12-42Z-be9ee1",
+      "split": "unused",
+      "player_ids": [
+        437,
+        441,
+        442,
+        443
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T10-13-08Z-ec5b66",
+      "split": "unused",
+      "player_ids": [
+        365,
+        369,
+        370,
+        371
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T10-39-09Z-d9551f",
+      "split": "unused",
+      "player_ids": [
+        384,
+        388,
+        389,
+        390
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T10-49-36Z-90c941",
+      "split": "unused",
+      "player_ids": [
+        465,
+        469,
+        470,
+        471
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T14-09-54Z-74106e",
+      "split": "unused",
+      "player_ids": [
+        599,
+        603,
+        604,
+        605
+      ],
+      "shard": "dataset_00010.tar"
+    },
+    {
+      "match_id": "2026-05-10T15-00-45Z-609378",
+      "split": "unused",
+      "player_ids": [
+        547,
+        551,
+        552,
+        553
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T15-39-28Z-53a497",
+      "split": "unused",
+      "player_ids": [
+        258,
+        262,
+        263,
+        264
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T16-27-22Z-907dae",
+      "split": "unused",
+      "player_ids": [
+        305,
+        309,
+        310,
+        311
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T16-39-05Z-5911fc",
+      "split": "unused",
+      "player_ids": [
+        281,
+        285,
+        286,
+        287
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T19-08-24Z-d091f8",
+      "split": "unused",
+      "player_ids": [
+        391,
+        395,
+        396,
+        397
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T19-28-40Z-3391ff",
+      "split": "unused",
+      "player_ids": [
+        385,
+        389,
+        390,
+        391
+      ],
+      "shard": "dataset_00011.tar"
+    },
+    {
+      "match_id": "2026-05-10T20-27-28Z-e9451a",
+      "split": "confirmation",
+      "player_ids": [
+        395,
+        399,
+        400,
+        401
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-10T20-56-54Z-650d79",
+      "split": "unused",
+      "player_ids": [
+        459,
+        463,
+        464,
+        465
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-10T21-29-26Z-086e6c",
+      "split": "confirmation",
+      "player_ids": [
+        440,
+        444,
+        445,
+        446
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-10T22-00-43Z-d7d98b",
+      "split": "unused",
+      "player_ids": [
+        425,
+        429,
+        430,
+        431
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-10T22-27-17Z-753a00",
+      "split": "unused",
+      "player_ids": [
+        455,
+        459,
+        460,
+        461
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-10T23-19-31Z-124630",
+      "split": "unused",
+      "player_ids": [
+        579,
+        583,
+        584,
+        585
+      ],
+      "shard": "dataset_00012.tar"
+    },
+    {
+      "match_id": "2026-05-11T00-19-38Z-9afd64",
+      "split": "unused",
+      "player_ids": [
+        549,
+        553,
+        554,
+        555
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T00-21-13Z-9ccb45",
+      "split": "unused",
+      "player_ids": [
+        553,
+        557,
+        558,
+        559
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T00-34-45Z-4ad905",
+      "split": "unused",
+      "player_ids": [
+        559,
+        563,
+        564,
+        565
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T00-38-07Z-92ce05",
+      "split": "confirmation",
+      "player_ids": [
+        573,
+        577,
+        578,
+        579
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T01-17-24Z-28a258",
+      "split": "unused",
+      "player_ids": [
+        618,
+        622,
+        623,
+        624
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T03-27-53Z-bb15a9",
+      "split": "unused",
+      "player_ids": [
+        280,
+        284,
+        285,
+        286
+      ],
+      "shard": "dataset_00013.tar"
+    },
+    {
+      "match_id": "2026-05-11T05-16-09Z-e42a67",
+      "split": "confirmation",
+      "player_ids": [
+        355,
+        359,
+        360,
+        361
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T05-44-14Z-b2f197",
+      "split": "unused",
+      "player_ids": [
+        396,
+        400,
+        401,
+        402
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T09-11-12Z-e77120",
+      "split": "confirmation",
+      "player_ids": [
+        531,
+        535,
+        536,
+        537
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T11-59-47Z-c0db26",
+      "split": "unused",
+      "player_ids": [
+        453,
+        457,
+        458,
+        459
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T12-02-06Z-f5d58c",
+      "split": "unused",
+      "player_ids": [
+        565,
+        569,
+        570,
+        571
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T13-04-13Z-b5fa1b",
+      "split": "unused",
+      "player_ids": [
+        266,
+        270,
+        271,
+        272
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T13-51-38Z-8a4d6d",
+      "split": "unused",
+      "player_ids": [
+        284,
+        288,
+        289,
+        290
+      ],
+      "shard": "dataset_00014.tar"
+    },
+    {
+      "match_id": "2026-05-11T14-57-01Z-f8837a",
+      "split": "unused",
+      "player_ids": [
+        307,
+        311,
+        312,
+        313
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T15-10-38Z-d8f095",
+      "split": "unused",
+      "player_ids": [
+        374,
+        378,
+        379,
+        380
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T15-26-57Z-1c079d",
+      "split": "unused",
+      "player_ids": [
+        350,
+        354,
+        355,
+        356
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T16-03-45Z-5698e1",
+      "split": "unused",
+      "player_ids": [
+        368,
+        372,
+        373,
+        374
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T17-15-37Z-c67e6c",
+      "split": "unused",
+      "player_ids": [
+        420,
+        424,
+        425,
+        426
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T17-26-25Z-3a18b7",
+      "split": "unused",
+      "player_ids": [
+        411,
+        415,
+        416,
+        417
+      ],
+      "shard": "dataset_00015.tar"
+    },
+    {
+      "match_id": "2026-05-11T17-31-18Z-d25008",
+      "split": "unused",
+      "player_ids": [
+        430,
+        434,
+        435,
+        436
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T18-19-34Z-b45635",
+      "split": "unused",
+      "player_ids": [
+        384,
+        388,
+        389,
+        390
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T18-27-13Z-e3c183",
+      "split": "unused",
+      "player_ids": [
+        493,
+        497,
+        498,
+        499
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T18-41-37Z-d0c089",
+      "split": "unused",
+      "player_ids": [
+        474,
+        478,
+        479,
+        480
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T18-55-43Z-db069d",
+      "split": "unused",
+      "player_ids": [
+        395,
+        399,
+        400,
+        401
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T18-56-34Z-158861",
+      "split": "unused",
+      "player_ids": [
+        437,
+        441,
+        442,
+        443
+      ],
+      "shard": "dataset_00016.tar"
+    },
+    {
+      "match_id": "2026-05-11T21-11-38Z-d85812",
+      "split": "unused",
+      "player_ids": [
+        489,
+        493,
+        494,
+        495
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-11T21-18-31Z-418c78",
+      "split": "unused",
+      "player_ids": [
+        425,
+        429,
+        430,
+        431
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-11T21-50-04Z-9a1546",
+      "split": "unused",
+      "player_ids": [
+        461,
+        465,
+        466,
+        467
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-11T22-04-01Z-e1652a",
+      "split": "unused",
+      "player_ids": [
+        468,
+        472,
+        473,
+        474
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-11T22-27-45Z-674deb",
+      "split": "unused",
+      "player_ids": [
+        488,
+        492,
+        493,
+        494
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-11T23-22-36Z-62264c",
+      "split": "unused",
+      "player_ids": [
+        278,
+        282,
+        283,
+        284
+      ],
+      "shard": "dataset_00017.tar"
+    },
+    {
+      "match_id": "2026-05-12T00-48-35Z-68afbd",
+      "split": "unused",
+      "player_ids": [
+        278,
+        282,
+        283,
+        284
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T01-10-34Z-c6a261",
+      "split": "unused",
+      "player_ids": [
+        308,
+        312,
+        313,
+        314
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T01-35-08Z-130b84",
+      "split": "unused",
+      "player_ids": [
+        308,
+        312,
+        313,
+        314
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T02-10-56Z-0d9850",
+      "split": "unused",
+      "player_ids": [
+        302,
+        306,
+        307,
+        308
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T02-57-36Z-5a1b98",
+      "split": "unused",
+      "player_ids": [
+        378,
+        382,
+        383,
+        384
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T03-24-58Z-f067cd",
+      "split": "unused",
+      "player_ids": [
+        385,
+        389,
+        390,
+        391
+      ],
+      "shard": "dataset_00018.tar"
+    },
+    {
+      "match_id": "2026-05-12T04-53-03Z-6887a4",
+      "split": "unused",
+      "player_ids": [
+        389,
+        393,
+        394,
+        395
+      ],
+      "shard": "dataset_00019.tar"
+    },
+    {
+      "match_id": "2026-05-12T05-49-54Z-40b1fd",
+      "split": "unused",
+      "player_ids": [
+        375,
+        379,
+        380,
+        381
+      ],
+      "shard": "dataset_00019.tar"
+    },
+    {
+      "match_id": "2026-05-12T05-58-39Z-ae8642",
+      "split": "unused",
+      "player_ids": [
+        455,
+        459,
+        460,
+        461
+      ],
+      "shard": "dataset_00019.tar"
+    },
+    {
+      "match_id": "2026-05-12T07-15-21Z-4be8ee",
+      "split": "unused",
+      "player_ids": [
+        457,
+        461,
+        462,
+        463
+      ],
+      "shard": "dataset_00019.tar"
+    },
+    {
+      "match_id": "2026-05-12T07-29-44Z-50b8ce",
+      "split": "unused",
+      "player_ids": [
+        567,
+        571,
+        572,
+        573
+      ],
+      "shard": "dataset_00019.tar"
+    },
+    {
+      "match_id": "2026-05-12T08-32-27Z-dec539",
+      "split": "unused",
+      "player_ids": [
+        554,
+        558,
+        559,
+        560
+      ],
+      "shard": "dataset_00020.tar"
+    },
+    {
+      "match_id": "2026-05-12T09-11-48Z-d84d08",
+      "split": "unused",
+      "player_ids": [
+        484,
+        488,
+        489,
+        490
+      ],
+      "shard": "dataset_00020.tar"
+    },
+    {
+      "match_id": "2026-05-12T09-49-26Z-aa39b5",
+      "split": "unused",
+      "player_ids": [
+        603,
+        607,
+        608,
+        609
+      ],
+      "shard": "dataset_00020.tar"
+    },
+    {
+      "match_id": "2026-05-12T09-56-15Z-a9cdb0",
+      "split": "unused",
+      "player_ids": [
+        612,
+        616,
+        617,
+        618
+      ],
+      "shard": "dataset_00020.tar"
+    },
+    {
+      "match_id": "2026-05-12T10-12-33Z-971229",
+      "split": "unused",
+      "player_ids": [
+        630,
+        634,
+        635,
+        636
+      ],
+      "shard": "dataset_00020.tar"
+    },
+    {
+      "match_id": "2026-05-12T11-23-22Z-194f70",
+      "split": "unused",
+      "player_ids": [
+        301,
+        305,
+        306,
+        307
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-12T11-45-44Z-4f4466",
+      "split": "unused",
+      "player_ids": [
+        327,
+        331,
+        332,
+        333
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-19-27Z-a2075b",
+      "split": "confirmation",
+      "player_ids": [
+        258,
+        262,
+        263,
+        264
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-27-59Z-b16c2f",
+      "split": "unused",
+      "player_ids": [
+        259,
+        263,
+        264,
+        265
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-47-00Z-762ac5",
+      "split": "unused",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-49-53Z-f4c5dd",
+      "split": "confirmation",
+      "player_ids": [
+        265,
+        269,
+        270,
+        271
+      ],
+      "shard": "dataset_00021.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-52-33Z-aa57eb",
+      "split": "unused",
+      "player_ids": [
+        264,
+        268,
+        269,
+        270
+      ],
+      "shard": "dataset_00022.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-53-46Z-5456da",
+      "split": "unused",
+      "player_ids": [
+        286,
+        290,
+        291,
+        292
+      ],
+      "shard": "dataset_00022.tar"
+    },
+    {
+      "match_id": "2026-05-13T11-59-22Z-e796f3",
+      "split": "unused",
+      "player_ids": [
+        295,
+        299,
+        300,
+        301
+      ],
+      "shard": "dataset_00022.tar"
+    },
+    {
+      "match_id": "2026-05-13T12-07-11Z-dd99b3",
+      "split": "unused",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00022.tar"
+    },
+    {
+      "match_id": "2026-05-13T12-08-26Z-4e23bb",
+      "split": "unused",
+      "player_ids": [
+        291,
+        295,
+        296,
+        297
+      ],
+      "shard": "dataset_00022.tar"
+    },
+    {
+      "match_id": "2026-05-13T12-12-32Z-d4d376",
+      "split": "unused",
+      "player_ids": [
+        290,
+        294,
+        295,
+        296
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T12-32-23Z-5423dd",
+      "split": "unused",
+      "player_ids": [
+        296,
+        300,
+        301,
+        302
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T13-55-45Z-f3126e",
+      "split": "unused",
+      "player_ids": [
+        258,
+        262,
+        263,
+        264
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T13-55-46Z-4bbd08",
+      "split": "unused",
+      "player_ids": [
+        258,
+        262,
+        263,
+        264
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T13-55-52Z-cd8d9b",
+      "split": "unused",
+      "player_ids": [
+        258,
+        262,
+        263,
+        264
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-02-45Z-5aaea0",
+      "split": "unused",
+      "player_ids": [
+        259,
+        263,
+        264,
+        265
+      ],
+      "shard": "dataset_00023.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-04-29Z-267de6",
+      "split": "unused",
+      "player_ids": [
+        259,
+        263,
+        264,
+        265
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-05-24Z-e3180c",
+      "split": "unused",
+      "player_ids": [
+        259,
+        263,
+        264,
+        265
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-12-29Z-5391c3",
+      "split": "unused",
+      "player_ids": [
+        269,
+        273,
+        274,
+        275
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-12-56Z-3919b3",
+      "split": "unused",
+      "player_ids": [
+        268,
+        272,
+        273,
+        274
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-16-22Z-5f6d24",
+      "split": "unused",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-18-13Z-032e98",
+      "split": "unused",
+      "player_ids": [
+        270,
+        274,
+        275,
+        276
+      ],
+      "shard": "dataset_00024.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-18-43Z-167c74",
+      "split": "unused",
+      "player_ids": [
+        269,
+        273,
+        274,
+        275
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-37-11Z-6a9e71",
+      "split": "unused",
+      "player_ids": [
+        274,
+        278,
+        279,
+        280
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-37-36Z-29e7dc",
+      "split": "unused",
+      "player_ids": [
+        296,
+        300,
+        301,
+        302
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T14-49-18Z-71fba7",
+      "split": "unused",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-05-36Z-bd7d0c",
+      "split": "unused",
+      "player_ids": [
+        324,
+        328,
+        329,
+        330
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-05-37Z-8e9773",
+      "split": "unused",
+      "player_ids": [
+        286,
+        290,
+        291,
+        292
+      ],
+      "shard": "dataset_00025.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-05-37Z-a0cf52",
+      "split": "unused",
+      "player_ids": [
+        287,
+        291,
+        292,
+        293
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-05-51Z-694303",
+      "split": "unused",
+      "player_ids": [
+        310,
+        314,
+        315,
+        316
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-21-28Z-749c14",
+      "split": "unused",
+      "player_ids": [
+        306,
+        310,
+        311,
+        312
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-22-23Z-b54685",
+      "split": "unused",
+      "player_ids": [
+        286,
+        290,
+        291,
+        292
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-26-44Z-837c2a",
+      "split": "unused",
+      "player_ids": [
+        279,
+        283,
+        284,
+        285
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-37-11Z-4b78cd",
+      "split": "unused",
+      "player_ids": [
+        308,
+        312,
+        313,
+        314
+      ],
+      "shard": "dataset_00026.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-38-07Z-68c81b",
+      "split": "unused",
+      "player_ids": [
+        293,
+        297,
+        298,
+        299
+      ],
+      "shard": "dataset_00027.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-46-49Z-e3b402",
+      "split": "unused",
+      "player_ids": [
+        298,
+        302,
+        303,
+        304
+      ],
+      "shard": "dataset_00027.tar"
+    },
+    {
+      "match_id": "2026-05-13T15-59-28Z-550c82",
+      "split": "unused",
+      "player_ids": [
+        343,
+        347,
+        348,
+        349
+      ],
+      "shard": "dataset_00027.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-03-23Z-8b667d",
+      "split": "unused",
+      "player_ids": [
+        305,
+        309,
+        310,
+        311
+      ],
+      "shard": "dataset_00027.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-18-58Z-330934",
+      "split": "unused",
+      "player_ids": [
+        334,
+        338,
+        339,
+        340
+      ],
+      "shard": "dataset_00027.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-19-32Z-ae2307",
+      "split": "unused",
+      "player_ids": [
+        314,
+        318,
+        319,
+        320
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-21-09Z-648ac8",
+      "split": "unused",
+      "player_ids": [
+        367,
+        371,
+        372,
+        373
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-27-03Z-686e69",
+      "split": "unused",
+      "player_ids": [
+        327,
+        331,
+        332,
+        333
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-28-27Z-2a546a",
+      "split": "unused",
+      "player_ids": [
+        301,
+        305,
+        306,
+        307
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-33-00Z-6a7e04",
+      "split": "unused",
+      "player_ids": [
+        315,
+        319,
+        320,
+        321
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-39-55Z-dcb422",
+      "split": "unused",
+      "player_ids": [
+        346,
+        350,
+        351,
+        352
+      ],
+      "shard": "dataset_00028.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-50-54Z-50d58a",
+      "split": "unused",
+      "player_ids": [
+        368,
+        372,
+        373,
+        374
+      ],
+      "shard": "dataset_00029.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-50-55Z-78a151",
+      "split": "unused",
+      "player_ids": [
+        375,
+        379,
+        380,
+        381
+      ],
+      "shard": "dataset_00029.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-51-18Z-b48ab9",
+      "split": "unused",
+      "player_ids": [
+        338,
+        342,
+        343,
+        344
+      ],
+      "shard": "dataset_00029.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-53-53Z-c3d3b7",
+      "split": "unused",
+      "player_ids": [
+        322,
+        326,
+        327,
+        328
+      ],
+      "shard": "dataset_00029.tar"
+    },
+    {
+      "match_id": "2026-05-13T16-54-13Z-344b6c",
+      "split": "unused",
+      "player_ids": [
+        364,
+        368,
+        369,
+        370
+      ],
+      "shard": "dataset_00029.tar"
+    },
+    {
+      "match_id": "2026-05-13T17-13-09Z-cdf740",
+      "split": "unused",
+      "player_ids": [
+        375,
+        379,
+        380,
+        381
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T17-17-45Z-452f74",
+      "split": "unused",
+      "player_ids": [
+        361,
+        365,
+        366,
+        367
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-05-30Z-b2269c",
+      "split": "unused",
+      "player_ids": [
+        269,
+        273,
+        274,
+        275
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-06-05Z-44aa43",
+      "split": "unused",
+      "player_ids": [
+        268,
+        272,
+        273,
+        274
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-15-13Z-796624",
+      "split": "unused",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-18-19Z-d99ccc",
+      "split": "unused",
+      "player_ids": [
+        280,
+        284,
+        285,
+        286
+      ],
+      "shard": "dataset_00030.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-20-38Z-241464",
+      "split": "unused",
+      "player_ids": [
+        294,
+        298,
+        299,
+        300
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-25-13Z-0f1665",
+      "split": "unused",
+      "player_ids": [
+        265,
+        269,
+        270,
+        271
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-27-40Z-a310bd",
+      "split": "unused",
+      "player_ids": [
+        265,
+        269,
+        270,
+        271
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-28-12Z-509ad0",
+      "split": "unused",
+      "player_ids": [
+        280,
+        284,
+        285,
+        286
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-34-42Z-96aaae",
+      "split": "confirmation",
+      "player_ids": [
+        274,
+        278,
+        279,
+        280
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-40-04Z-713157",
+      "split": "unused",
+      "player_ids": [
+        276,
+        280,
+        281,
+        282
+      ],
+      "shard": "dataset_00031.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-45-35Z-7ea0c7",
+      "split": "confirmation",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-52-01Z-101315",
+      "split": "unused",
+      "player_ids": [
+        292,
+        296,
+        297,
+        298
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-54-46Z-56173a",
+      "split": "unused",
+      "player_ids": [
+        273,
+        277,
+        278,
+        279
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T18-59-05Z-2bfadb",
+      "split": "unused",
+      "player_ids": [
+        303,
+        307,
+        308,
+        309
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-06-27Z-26c444",
+      "split": "confirmation",
+      "player_ids": [
+        277,
+        281,
+        282,
+        283
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-14-00Z-13fa33",
+      "split": "unused",
+      "player_ids": [
+        313,
+        317,
+        318,
+        319
+      ],
+      "shard": "dataset_00032.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-18-19Z-b42f41",
+      "split": "unused",
+      "player_ids": [
+        292,
+        296,
+        297,
+        298
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-19-13Z-750897",
+      "split": "unused",
+      "player_ids": [
+        293,
+        297,
+        298,
+        299
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-21-04Z-e818e8",
+      "split": "unused",
+      "player_ids": [
+        312,
+        316,
+        317,
+        318
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-26-00Z-5b3e82",
+      "split": "unused",
+      "player_ids": [
+        295,
+        299,
+        300,
+        301
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-26-31Z-020bc5",
+      "split": "unused",
+      "player_ids": [
+        285,
+        289,
+        290,
+        291
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-26-40Z-5b1d1e",
+      "split": "unused",
+      "player_ids": [
+        301,
+        305,
+        306,
+        307
+      ],
+      "shard": "dataset_00033.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-31-51Z-65801e",
+      "split": "confirmation",
+      "player_ids": [
+        317,
+        321,
+        322,
+        323
+      ],
+      "shard": "dataset_00034.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-36-27Z-fed60c",
+      "split": "confirmation",
+      "player_ids": [
+        332,
+        336,
+        337,
+        338
+      ],
+      "shard": "dataset_00034.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-44-12Z-fcc1b0",
+      "split": "unused",
+      "player_ids": [
+        319,
+        323,
+        324,
+        325
+      ],
+      "shard": "dataset_00034.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-44-36Z-bc2989",
+      "split": "unused",
+      "player_ids": [
+        325,
+        329,
+        330,
+        331
+      ],
+      "shard": "dataset_00034.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-46-10Z-d66df8",
+      "split": "unused",
+      "player_ids": [
+        327,
+        331,
+        332,
+        333
+      ],
+      "shard": "dataset_00034.tar"
+    },
+    {
+      "match_id": "2026-05-13T19-48-07Z-fe1e4c",
+      "split": "unused",
+      "player_ids": [
+        297,
+        301,
+        302,
+        303
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-03-20Z-2808e2",
+      "split": "unused",
+      "player_ids": [
+        317,
+        321,
+        322,
+        323
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-05-35Z-0c25a8",
+      "split": "unused",
+      "player_ids": [
+        315,
+        319,
+        320,
+        321
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-14-45Z-747cc8",
+      "split": "unused",
+      "player_ids": [
+        306,
+        310,
+        311,
+        312
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-20-38Z-cc17a5",
+      "split": "unused",
+      "player_ids": [
+        321,
+        325,
+        326,
+        327
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-34-45Z-dc3575",
+      "split": "unused",
+      "player_ids": [
+        332,
+        336,
+        337,
+        338
+      ],
+      "shard": "dataset_00035.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-37-05Z-0cdde1",
+      "split": "unused",
+      "player_ids": [
+        344,
+        348,
+        349,
+        350
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-38-32Z-bab7a8",
+      "split": "unused",
+      "player_ids": [
+        367,
+        371,
+        372,
+        373
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-42-50Z-8b0b95",
+      "split": "unused",
+      "player_ids": [
+        333,
+        337,
+        338,
+        339
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-43-43Z-164aa5",
+      "split": "unused",
+      "player_ids": [
+        326,
+        330,
+        331,
+        332
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-46-39Z-76d609",
+      "split": "unused",
+      "player_ids": [
+        365,
+        369,
+        370,
+        371
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-50-59Z-92bec2",
+      "split": "unused",
+      "player_ids": [
+        343,
+        347,
+        348,
+        349
+      ],
+      "shard": "dataset_00036.tar"
+    },
+    {
+      "match_id": "2026-05-13T20-59-15Z-4883df",
+      "split": "unused",
+      "player_ids": [
+        365,
+        369,
+        370,
+        371
+      ],
+      "shard": "dataset_00037.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-04-39Z-39ad7b",
+      "split": "unused",
+      "player_ids": [
+        358,
+        362,
+        363,
+        364
+      ],
+      "shard": "dataset_00037.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-04-44Z-2b6a4a",
+      "split": "unused",
+      "player_ids": [
+        339,
+        343,
+        344,
+        345
+      ],
+      "shard": "dataset_00037.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-06-47Z-374509",
+      "split": "unused",
+      "player_ids": [
+        358,
+        362,
+        363,
+        364
+      ],
+      "shard": "dataset_00037.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-07-57Z-cbafa5",
+      "split": "confirmation",
+      "player_ids": [
+        384,
+        388,
+        389,
+        390
+      ],
+      "shard": "dataset_00037.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-08-07Z-fb6f7a",
+      "split": "unused",
+      "player_ids": [
+        316,
+        320,
+        321,
+        322
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-12-16Z-117dd1",
+      "split": "unused",
+      "player_ids": [
+        311,
+        315,
+        316,
+        317
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-18-33Z-fc243a",
+      "split": "confirmation",
+      "player_ids": [
+        392,
+        396,
+        397,
+        398
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-25-52Z-20b968",
+      "split": "unused",
+      "player_ids": [
+        345,
+        349,
+        350,
+        351
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-27-25Z-e75c6f",
+      "split": "unused",
+      "player_ids": [
+        407,
+        411,
+        412,
+        413
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-29-03Z-21c284",
+      "split": "unused",
+      "player_ids": [
+        363,
+        367,
+        368,
+        369
+      ],
+      "shard": "dataset_00038.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-44-39Z-1cd3bb",
+      "split": "unused",
+      "player_ids": [
+        378,
+        382,
+        383,
+        384
+      ],
+      "shard": "dataset_00039.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-46-42Z-409c3a",
+      "split": "unused",
+      "player_ids": [
+        381,
+        385,
+        386,
+        387
+      ],
+      "shard": "dataset_00039.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-52-03Z-1734f8",
+      "split": "unused",
+      "player_ids": [
+        361,
+        365,
+        366,
+        367
+      ],
+      "shard": "dataset_00039.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-54-49Z-ba4d68",
+      "split": "unused",
+      "player_ids": [
+        376,
+        380,
+        381,
+        382
+      ],
+      "shard": "dataset_00039.tar"
+    },
+    {
+      "match_id": "2026-05-13T21-57-31Z-401d8c",
+      "split": "unused",
+      "player_ids": [
+        422,
+        426,
+        427,
+        428
+      ],
+      "shard": "dataset_00039.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-07-29Z-de0bb4",
+      "split": "unused",
+      "player_ids": [
+        366,
+        370,
+        371,
+        372
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-14-17Z-ed217c",
+      "split": "unused",
+      "player_ids": [
+        364,
+        368,
+        369,
+        370
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-20-08Z-2eb735",
+      "split": "unused",
+      "player_ids": [
+        350,
+        354,
+        355,
+        356
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-20-51Z-e22e58",
+      "split": "unused",
+      "player_ids": [
+        361,
+        365,
+        366,
+        367
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-22-58Z-a5c130",
+      "split": "unused",
+      "player_ids": [
+        338,
+        342,
+        343,
+        344
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-30-03Z-193371",
+      "split": "confirmation",
+      "player_ids": [
+        387,
+        391,
+        392,
+        393
+      ],
+      "shard": "dataset_00040.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-33-04Z-d2bccf",
+      "split": "unused",
+      "player_ids": [
+        380,
+        384,
+        385,
+        386
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-33-27Z-b6b4b6",
+      "split": "unused",
+      "player_ids": [
+        445,
+        449,
+        450,
+        451
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-34-50Z-bbbf68",
+      "split": "unused",
+      "player_ids": [
+        379,
+        383,
+        384,
+        385
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-35-32Z-6bb622",
+      "split": "unused",
+      "player_ids": [
+        387,
+        391,
+        392,
+        393
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-37-53Z-f317f5",
+      "split": "unused",
+      "player_ids": [
+        396,
+        400,
+        401,
+        402
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-43-48Z-1ebfa5",
+      "split": "unused",
+      "player_ids": [
+        388,
+        392,
+        393,
+        394
+      ],
+      "shard": "dataset_00041.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-51-19Z-400d6c",
+      "split": "confirmation",
+      "player_ids": [
+        397,
+        401,
+        402,
+        403
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T22-58-33Z-241485",
+      "split": "unused",
+      "player_ids": [
+        358,
+        362,
+        363,
+        364
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-01-43Z-486bad",
+      "split": "unused",
+      "player_ids": [
+        402,
+        406,
+        407,
+        408
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-02-55Z-8cc3d7",
+      "split": "unused",
+      "player_ids": [
+        412,
+        416,
+        417,
+        418
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-07-02Z-881169",
+      "split": "unused",
+      "player_ids": [
+        456,
+        460,
+        461,
+        462
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-12-57Z-2fccc7",
+      "split": "confirmation",
+      "player_ids": [
+        367,
+        371,
+        372,
+        373
+      ],
+      "shard": "dataset_00042.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-17-33Z-5772c0",
+      "split": "unused",
+      "player_ids": [
+        398,
+        402,
+        403,
+        404
+      ],
+      "shard": "dataset_00043.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-29-54Z-33d9a8",
+      "split": "unused",
+      "player_ids": [
+        397,
+        401,
+        402,
+        403
+      ],
+      "shard": "dataset_00043.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-34-00Z-705f5c",
+      "split": "unused",
+      "player_ids": [
+        513,
+        517,
+        518,
+        519
+      ],
+      "shard": "dataset_00043.tar"
+    },
+    {
+      "match_id": "2026-05-13T23-34-19Z-39a601",
+      "split": "unused",
+      "player_ids": [
+        449,
+        453,
+        454,
+        455
+      ],
+      "shard": "dataset_00043.tar"
+    }
+  ],
+  "selection_rule": "24 smallest seeded SHA256 IDs among official-dev entries with four perspectives and >=3 indexed goals each; metadata only; fixed IDs and no replacements",
+  "candidate_matches": 24,
+  "eligible_metadata_matches": 248,
+  "test_match_overlap": false,
+  "features_or_physical_performance_inspected": false,
+  "qualification": "same clock>=3 goal pairs residual<=0.1s, live nonfrozen nondemolished windows, eight16frameclips, original source integrity gates; failures excluded and reported before any capture",
+  "role": "fresh confirmation reserved; no fitting, selection, or adaptation on these matches"
+}
