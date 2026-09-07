@@ -1,0 +1,26 @@
+{
+  "descriptor_identity": "spatial/block_15_output",
+  "feature_dim": 1536,
+  "temporal_readout": "current",
+  "input_npz_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "selected_probe_sha256": "5eb4c63dc5cebf69b696012fe3b001c5be024badb41457370b1224e50942f387",
+  "probe_audit": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/probe_audit.json",
+    "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+  },
+  "causal_audit": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/selection_audit.json",
+    "sha256": "69f36fec2aaf396bf0c0276e014c8c9f857757ba417952924e302dee654b54a9"
+  },
+  "entity_mapping_verified": false,
+  "view_identity_verified": true,
+  "descriptor_entity_localized": false,
+  "temporal_correspondence_scope": "same_match_clip_view",
+  "status": "passed_feature_development_prerequisites",
+  "scope": "development_only",
+  "physical_causality_claim": false,
+  "causal_scope": "internal_model_output",
+  "reviewed_utc": "2026-09-07T06:29:59.182130+00:00",
+  "review": "Root reviewed complete input/probe/exact-intervention audits. Original top-attribution site is retained. Full transfer has variable effects and the probe-component effect is small; no physical or tracked-entity claim.",
+  "input_audit_sha256": "b2a8fd1d936566ba10b44a3459f3514c1c976df6f49e9765ac1bc9bf127209cc"
+}

@@ -1,0 +1,115 @@
+{
+  "status": "selected_after_exact_causal_audit",
+  "selected_utc": "2026-09-07T06:28:02.473234+00:00",
+  "selection_rule": "Explicitly requested original first attribution-ranked site; no reselection on exact or fresh outcomes",
+  "descriptor_identity": "spatial/block_15_output",
+  "feature_dim": 1536,
+  "temporal_readout": "current",
+  "site": "block_15_output",
+  "site_index": 16,
+  "probe_name": "spatial/block_15_output/absolute30/position",
+  "model_sha256": "d52675dec0317f23e13d88ef18eb71b9bcdaa618db968cd02286f8cb87257e37",
+  "probe_archive_sha256": "775cd8b89467e9ed6bdc07048d69b8074fcff1c2a4ef5648c01702e8a04b70f8",
+  "selected_probe_record": {
+    "feature_spec": {
+      "array": "spatial_X",
+      "site_index": 16,
+      "summary": "spatial",
+      "temporal": "current"
+    },
+    "joined_target_indices": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      12,
+      13,
+      14,
+      18,
+      19,
+      20,
+      24,
+      25,
+      26
+    ],
+    "kind": "residual",
+    "model_sha256": "d52675dec0317f23e13d88ef18eb71b9bcdaa618db968cd02286f8cb87257e37",
+    "name": "spatial/block_15_output/absolute30/position",
+    "readout": "spatial/block_15_output",
+    "selected_alpha": 1.0,
+    "selection_curve": [
+      {
+        "alpha": 0.0001,
+        "main_normalized_mse": 1.395852985188687,
+        "shuffle_normalized_mse": 1.8846244484908736
+      },
+      {
+        "alpha": 0.001,
+        "main_normalized_mse": 1.3925941532465729,
+        "shuffle_normalized_mse": 1.8798252807891631
+      },
+      {
+        "alpha": 0.01,
+        "main_normalized_mse": 1.3633457336952615,
+        "shuffle_normalized_mse": 1.8366578321471583
+      },
+      {
+        "alpha": 0.1,
+        "main_normalized_mse": 1.2193093179389232,
+        "shuffle_normalized_mse": 1.619730055460304
+      },
+      {
+        "alpha": 1.0,
+        "main_normalized_mse": 1.0533205679416777,
+        "shuffle_normalized_mse": 1.331205037366744
+      },
+      {
+        "alpha": 10.0,
+        "main_normalized_mse": 1.0788107135326535,
+        "shuffle_normalized_mse": 1.2188059047508588
+      },
+      {
+        "alpha": 100.0,
+        "main_normalized_mse": 1.168786256731553,
+        "shuffle_normalized_mse": 1.2010069673289647
+      }
+    ],
+    "shuffle_alpha": 100.0,
+    "shuffle_model_sha256": "4d1530af8da75609d0727ac6cc4ae8aca77322c60ca00517b91ee7057ffd0e04",
+    "target_definition": "absolute30",
+    "target_group": "position",
+    "target_names": [
+      "ball.location.x",
+      "ball.location.y",
+      "ball.location.z",
+      "player0.location.x",
+      "player0.location.y",
+      "player0.location.z",
+      "player1.location.x",
+      "player1.location.y",
+      "player1.location.z",
+      "player2.location.x",
+      "player2.location.y",
+      "player2.location.z",
+      "player3.location.x",
+      "player3.location.y",
+      "player3.location.z"
+    ]
+  },
+  "development_selection_sha256": "efedaae8e3558fc562f500fc5c4c8f082d68c88dc864b1c285d802483b9360ff",
+  "probe_audit": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/development_probes_v3/probe_audit.json",
+    "sha256": "3db136b7ebc8cc020728a6415ee5279a9c0c841b1db06d0f5e481601e734f52c"
+  },
+  "causal_audit": {
+    "path": "/ccn2/u/ishaangp/mira-interp/results/causal_development_v1/selection_audit.json",
+    "sha256": "69f36fec2aaf396bf0c0276e014c8c9f857757ba417952924e302dee654b54a9"
+  },
+  "causal_scope": "internal_model_output",
+  "descriptor_entity_localized": false,
+  "ball_visibility_verified": false,
+  "annotation_entity": "global ball",
+  "physical_causality_claim": false
+}

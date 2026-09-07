@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "engineering protocol guards only; no research arrays or fits",
+  "existing_pytest_command": "PYTHONPATH=src .venv/bin/python -m pytest -q tests/test_feature_geometry.py -k \"gate or descriptor\"",
+  "existing_tests_passed": 2,
+  "registered_argument_configurations_accepted": 2,
+  "registered_argument_mutations_rejected": 12,
+  "mutations": [
+    "geometry interval",
+    "geometry alpha",
+    "unregistered variable",
+    "geometry CUDA device",
+    "nonheading speed threshold",
+    "combined stage",
+    "unregistered sparse seed",
+    "sparse steps",
+    "incomplete activity budgets",
+    "sparse temporal weight",
+    "sparse time interval",
+    "sparse CPU device"
+  ],
+  "code_sha256": {
+    "scripts/analyze_feature_geometry.py": "c4a49464cf83dc9bf8ccb2f93438174b1d978aea53ee39333383b32d5119dbd9",
+    "scripts/export_feature_geometry.py": "32a4b895e9d85e4c3125d939f29619c42d64ada040af649ce4946a59d0979303"
+  }
+}

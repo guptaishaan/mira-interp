@@ -1,0 +1,85 @@
+{
+  "status": "registered_before_geometry_and_sparse_research",
+  "registered_utc": "2026-09-07T06:29:59.183715+00:00",
+  "input_path": "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+  "input_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "selected_probe_path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/selected_probe.json",
+  "selected_probe_sha256": "5eb4c63dc5cebf69b696012fe3b001c5be024badb41457370b1224e50942f387",
+  "gate_path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/gate.json",
+  "gate_sha256": "72026ed331a7b33cdf7141f2b14fc1fd5cefae7a6cb81e0105066756f8f87982",
+  "code_sha256": {
+    "scripts/analyze_feature_geometry.py": "e75ff8dacf687460d007d8a3e8faff3c5bb5cc9927a919116792932128cf38a4",
+    "scripts/export_feature_geometry.py": "57e22cbc0e1a61646228f842f48d3d3a60375d071b2e81520a59fb7d6c99f702",
+    "src/mira_interp/feature_geometry.py": "cd39a0f68a3ec93b714d70cd153a1324ff7a0846e3507db125d74ee2918c5a9f",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  },
+  "bsf_equivalence_sha256": "170902e4c2fd153e23e97da9dd79a309432b5b04a760db717c989c9d9f4283fe",
+  "scope": "development only; internal output causality, observational geometry, whole-view temporal prototype",
+  "geometry": {
+    "height": [
+      400.0,
+      800.0
+    ],
+    "vz": [
+      -250.0,
+      250.0
+    ],
+    "speed": [
+      800.0,
+      1200.0
+    ],
+    "heading": [
+      -0.39269908169872414,
+      0.39269908169872414
+    ]
+  },
+  "minimum_heading_speed": 200.0,
+  "ridge_alpha": 0.01,
+  "geometry_order": [
+    "height",
+    "vz",
+    "speed",
+    "heading"
+  ],
+  "sparse": {
+    "width": 3072,
+    "active_budgets": [
+      32,
+      64
+    ],
+    "group_size": 8,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "steps": 1000,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "temporal_weight": 0.1,
+    "temporal_shuffled_control": true,
+    "variants": [
+      "relu",
+      "signed",
+      "block",
+      "block_temporal",
+      "block_temporal_shuffled"
+    ],
+    "total_models": 30,
+    "normalization": "equal-match discovery mean and one global RMS",
+    "capacity_activity": "equal parameter counts and active scalar budgets; report actual ReLU activity",
+    "reconstruction_budget": "measure tradeoffs at the fixed activity budgets; no assertion of exact three-way reconstruction matching",
+    "training_checkpoints": "final1000 updates only; no selection-based early stop"
+  },
+  "ordered_gates": [
+    "source/probe/causal audits passed",
+    "geometry analysis and independent coefficient/error audit",
+    "synthetic full-dimension training pilot",
+    "all30 sparse fits",
+    "independent sparse reconstruction and geometry-retention audit",
+    "original-model causal fidelity for every dictionary"
+  ],
+  "physical_control_established": false,
+  "nuisance_limit": "Camera, position, other state and actions vary; no controlled physical-value sweep",
+  "temporal_limit": "Same match/clip/view; no object localization or visibility tracks"
+}

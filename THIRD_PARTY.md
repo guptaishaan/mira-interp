@@ -12,6 +12,11 @@
   gated videos, state/action labels, or access credentials.
 - **Rocket League:** copyright Psyonix LLC / Epic Games, Inc. Trademarks remain with
   their respective owners. This project is independent and not endorsed by them.
+- **Block Sparse Featurizer:** Goodfire, MIT license, source checked out separately
+  from https://github.com/goodfire-ai/block-sparse-featurizer at
+  `219f121ea82d2b19200d1dac918396e6058d7eb9`. The local signed scalar and VanillaBSF
+  adapters are tested for operator equivalence; this is not a replication of
+  published training results. The external checkout retains its original license.
 
 Figures derived from the public MIRA Mini context or generated with its model are
 identified and attributed in their accompanying documentation and distributed under

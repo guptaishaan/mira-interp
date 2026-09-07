@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "official_revision": "219f121ea82d2b19200d1dac918396e6058d7eb9",
+  "scope": "signed scalar and VanillaBSF forward, loss-gradient and decoder-normalization equivalence at matched weights; not a published training-result replication",
+  "checks": [
+    {
+      "group_size": 1,
+      "code_and_output_exact": true,
+      "maximum_gradient_error": 0.0,
+      "normalized_decoder_exact": true,
+      "trainable_parameters": 4160
+    },
+    {
+      "group_size": 8,
+      "code_and_output_exact": true,
+      "maximum_gradient_error": 0.0,
+      "normalized_decoder_exact": true,
+      "trainable_parameters": 4160
+    }
+  ],
+  "source_sha256": {
+    "external/block-sparse-featurizer/bsf/base.py": "4d873a68093462dcc0e16bfcd6ddadc6d00e97960d61d0e7460fb093fa14df80",
+    "external/block-sparse-featurizer/bsf/vanilla.py": "2463ae99a6eb88b2204e146a5b407bcfb6a4ed38716cded4e4b12aef3f3acd98",
+    "src/mira_interp/feature_geometry.py": "cd39a0f68a3ec93b714d70cd153a1324ff7a0846e3507db125d74ee2918c5a9f"
+  }
+}
