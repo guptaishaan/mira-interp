@@ -1,0 +1,5 @@
+variant,normalized_mse,selection_matches,view_rows
+real_selection,0.7968624818797246,11,352
+codec_selection,0.7994645579527436,11,352
+mean_baseline,1.0737267013070877,11,352
+shuffled_selection,1.082859768460322,11,352

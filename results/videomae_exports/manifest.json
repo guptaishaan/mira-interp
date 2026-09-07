@@ -1,0 +1,15 @@
+{
+  "status": "passed_export",
+  "input_report_sha256": "0a562c621d86352c6a534dedf68221ebdf880e88e9d4a317ef2ac852a1beb735",
+  "script_sha256": "8f28e529674a40e7f33fdd75d970c06c03c15b19b643d9ad21e6c282da12cc4c",
+  "scope": "development selection only; no refit or new analysis",
+  "csv_target_rows": 48,
+  "files": {
+    "results/videomae_exports/target_metrics.csv": "216f4368c06f34c46a2acfc8cceb9f1bb0dbb97659b85a5683de3a2922ab36f2",
+    "results/videomae_exports/summary.csv": "91fe204ea1bcd9eed885bb9443dc6a8b95253b369d8f8c572b03569f17f617b3",
+    "figures/videomae_state_r2.png": "17cce72b17aa8c7e994ed83161e24fbd51a49496ca5deb35a4a18b713828a89f",
+    "figures/videomae_state_r2.pdf": "1434a2a3c49f0a708226071e637f1a66d182c926b900ccdb36c1015f0e9a46a3",
+    "figures/videomae_state_mae.png": "4661000fa7fb3ddf5676fe8076ec6147784f7a133ba67ea57fa57094ea4385f5",
+    "figures/videomae_state_mae.pdf": "f55b9d2f6cc07df72a44da6e12e8be3c6886fae0628c81f881c57a26fd9a31b7"
+  }
+}

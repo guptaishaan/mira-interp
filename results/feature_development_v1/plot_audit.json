@@ -1,0 +1,613 @@
+{
+  "status": "passed",
+  "sparse_audit_sha256": "8f0c7fd1ce3c02503dff4f214c86da7be30b5022897a850a1e0c58604a5b2e54",
+  "script_sha256": "062fada0178ff4d5b8da54df75cf594edfc53f4e1749b7910286eb450122e988",
+  "all30_models_plotted": true,
+  "seed_whiskers_are_confidence_intervals": false,
+  "outputs": {
+    "sparse_comparison.png": "71fab63f3eb02a1e540c73cb6a9821f44160ea5acdd62986a9dadbd6d92ebef4",
+    "sparse_comparison.pdf": "d3db9dda966d91b2435bfd279d24478b4745fe0abe31bcf0a22f515dd07131f5"
+  },
+  "values": [
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.642670549409972,
+        0.6398979194575186,
+        0.6412214158441533
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.6474758501757274,
+        0.6454949173652991,
+        0.6507403246606842
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.7167139616935994,
+        0.7141207348357774,
+        0.7164738622677485
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.7099050556337744,
+        0.7064147676750454,
+        0.7077630543869665
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.7030362695681327,
+        0.7020691637316663,
+        0.7055513802845257
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.6016223793426021,
+        0.6021603164827507,
+        0.6043166870491183
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.6073115479455076,
+        0.6048012375267167,
+        0.6082198541526768
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.6901903050020336,
+        0.6849774583101724,
+        0.6869841983090297
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.6791247978919384,
+        0.676475611854006,
+        0.6804672287791177
+      ]
+    },
+    {
+      "metric": "Selection reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.6775994738563896,
+        0.6738804790163131,
+        0.6779376337530487
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.1897254794111891,
+        0.18846254686759886,
+        0.1895357580456172
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.2147897677208167,
+        0.2143845467631685,
+        0.21564022166046104
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.20370421046031245,
+        0.20308073296371892,
+        0.20573478001054074
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.19838712469521932,
+        0.20098301408432492,
+        0.20068815007608046
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.1973431002830127,
+        0.1994721887381128,
+        0.2010780635585737
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.16643927224895477,
+        0.16636358326493755,
+        0.16680515045081065
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.1977800068399188,
+        0.19781580298478085,
+        0.1990259871267343
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.20411594689264145,
+        0.2036086655749504,
+        0.20708138065729342
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.19218494745518425,
+        0.19216014412970295,
+        0.19361362065519058
+      ]
+    },
+    {
+      "metric": "Discovery reconstruction (lower is better)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.19222551633595109,
+        0.19151329125248906,
+        0.1929622085715559
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.27098480798833235,
+        0.27261368068866426,
+        0.2713870154238644
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.2311846664990298,
+        0.23790695547041563,
+        0.22664393251973453
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.4123160299760372,
+        0.41406386501409775,
+        0.4109686275605449
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.4308333460495552,
+        0.4338907053863458,
+        0.43813312957909956
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.4516017443754454,
+        0.4494372420520943,
+        0.43884741546247474
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.2468039893905039,
+        0.245088206758638,
+        0.24488345822319385
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.19613320492313835,
+        0.20034659875726157,
+        0.19717276662334124
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.3240552341819486,
+        0.3415133953856473,
+        0.33597165157764464
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.35553858786906023,
+        0.3615983611734752,
+        0.3513396805152296
+      ]
+    },
+    {
+      "metric": "Selection adjacent support (same camera view only)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.3589854441329159,
+        0.3603378292257812,
+        0.35297189953059627
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.14326071320143605,
+        0.14723776653872092,
+        0.13683489889445324
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.15674254372820653,
+        0.14600838426327065,
+        0.15543321150169745
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.18316069441120197,
+        0.19185764295571361,
+        0.18303622895215357
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.18304699911995612,
+        0.17807922592188427,
+        0.17686601669572033
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.1876542213953786,
+        0.17339296777943364,
+        0.17703128054135245
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.1322614102426212,
+        0.12823845982544715,
+        0.12688350866027412
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.1359233642586732,
+        0.14073265630430554,
+        0.12807606592571183
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.1793935453569552,
+        0.16406035423950904,
+        0.16806714906721465
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.1660075999750957,
+        0.16495929185091593,
+        0.17491539318775248
+      ]
+    },
+    {
+      "metric": "Selection frozen ball-z probe drift (lower is better)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.1554818312841653,
+        0.15729563260875876,
+        0.17061983286586724
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.9043571174507563,
+        0.888584114480704,
+        0.8972420141007463
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.8953520010584394,
+        0.8936292904114155,
+        0.8652453609193994
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.8915665952048468,
+        0.8735775980130457,
+        0.8593768832780014
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.879358381041671,
+        0.8638008368114939,
+        0.8853064520766418
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.8546168727223065,
+        0.8807841995936859,
+        0.9073171783031535
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.8909626750431829,
+        0.9071312957185903,
+        0.9054592004368642
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.9128890420353207,
+        0.8997171662470771,
+        0.915199507446052
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.8387867152246901,
+        0.8745593933404693,
+        0.8738474208177065
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.8946877788111977,
+        0.893783609114782,
+        0.8841078156628872
+      ]
+    },
+    {
+      "metric": "Height-bin variation retained (1 = native variation)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.9256655880973715,
+        0.9060294073194842,
+        0.8703399965359196
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 32,
+      "variant": "ReLU",
+      "values": [
+        0.09280138820623633,
+        0.07998156396558206,
+        0.11264567961429778
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 32,
+      "variant": "Signed",
+      "values": [
+        0.09497434798388013,
+        0.10650813959970608,
+        0.11934345335291006
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 32,
+      "variant": "Block",
+      "values": [
+        0.10686688267489103,
+        0.11368343690077738,
+        0.10824030061940987
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 32,
+      "variant": "Temporal block",
+      "values": [
+        0.0950811032434331,
+        0.10233888945245832,
+        0.09824256873711067
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 32,
+      "variant": "Shuffled time block",
+      "values": [
+        0.10172370579356321,
+        0.11845066511125718,
+        0.09178387716536364
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 64,
+      "variant": "ReLU",
+      "values": [
+        0.07398109241051024,
+        0.06199563545478835,
+        0.07445797275378549
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 64,
+      "variant": "Signed",
+      "values": [
+        0.08352293378768652,
+        0.10330555623204253,
+        0.11658207792393267
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 64,
+      "variant": "Block",
+      "values": [
+        0.12006450307748334,
+        0.07787664612152549,
+        0.11070577725638081
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 64,
+      "variant": "Temporal block",
+      "values": [
+        0.0872448432537173,
+        0.10447562932048693,
+        0.10403763231634394
+      ]
+    },
+    {
+      "metric": "Heading-bin distances changed (0 = preserved)",
+      "active_budget": 64,
+      "variant": "Shuffled time block",
+      "values": [
+        0.09656503184454665,
+        0.11428436879414687,
+        0.13701356611046558
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed_download_integrity",
+  "recorded_utc": "2026-09-07T05:45:17.162059+00:00",
+  "model_repo": "MCG-NJU/videomae-base",
+  "revision": "dc740ceda42fce44faed2ea03c6d447db72f6af9",
+  "source": "https://huggingface.co/MCG-NJU/videomae-base/tree/dc740ceda42fce44faed2ea03c6d447db72f6af9",
+  "files": [
+    {
+      "name": "config.json",
+      "path": "/data2/ishaangp/mira-interp/models/videomae-base/config.json",
+      "bytes": 725,
+      "sha256": "5fbedfea3706bd9fe6c0dc706beeb501ae72e4954703e03bebe3406f046f8212"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "path": "/data2/ishaangp/mira-interp/models/videomae-base/preprocessor_config.json",
+      "bytes": 271,
+      "sha256": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2"
+    },
+    {
+      "name": "README.md",
+      "path": "/data2/ishaangp/mira-interp/models/videomae-base/README.md",
+      "bytes": 3768,
+      "sha256": "1cfd632ad35d864085baeb8cc55168ee1b59592a3a92221c3f7d405374bd0376"
+    },
+    {
+      "name": "model.safetensors",
+      "path": "/data2/ishaangp/mira-interp/models/videomae-base/model.safetensors",
+      "bytes": 376873760,
+      "sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290"
+    }
+  ],
+  "total_bytes": 376878524,
+  "weight_lfs_sha256_verified": true,
+  "gpu_used": false,
+  "dependencies_installed": false,
+  "scientific_scope": "asset access only; evaluator accuracy and generated-domain reliability untested",
+  "script_sha256": "5f88453c12323eca50df237b48fa68efd27c9a02e5f600ee9cf3d789445cb703"
+}

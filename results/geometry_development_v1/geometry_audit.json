@@ -1,0 +1,302 @@
+{
+  "status": "passed",
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "input_npz_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "selected_probe_sha256": "5eb4c63dc5cebf69b696012fe3b001c5be024badb41457370b1224e50942f387",
+  "scope": "development_only",
+  "coefficients_refitted": false,
+  "confirmation_arrays_read": false,
+  "comparisons": [
+    {
+      "variable": "height",
+      "report": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/report.json",
+        "sha256": "b06f1b2eb6b0367abd731e060e0ef5de4d508c0ecee179f22fdc2d6b4d6000c8"
+      },
+      "export": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/export.json",
+        "sha256": "698c5c7d616561bc3465d2b1391bef7ad5300f127cbf715fe21e3d279bb80c35"
+      },
+      "maps": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/geometry_maps.npz",
+        "sha256": "41a84d16fa24c0c3638eb52aae2ece38b9facd1791be0f90fc4b10a316f616f4"
+      },
+      "figures": {
+        "geometry.png": "7a4547f7bfc5af3e499174ee62c4c90f85f6dcdb9bc6ffd234a04b5b2f9e4b7f",
+        "geometry.pdf": "b029fff939e2f6a20a97ef8e3c67d0fe8238b53d52593bd7acf5168979b4b75b"
+      },
+      "heldout_interval": [
+        400.0,
+        800.0
+      ],
+      "fit_rows": 4442,
+      "held_selection_rows": 426,
+      "held_selection_matches": 10,
+      "models": {
+        "affine": {
+          "raw_activation_mse": 0.3487392054853714,
+          "gain_over_mean_baseline": 0.0007708991186348157,
+          "normal_equation_max_relative_residual": 6.076205103217973e-13,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.37014096292640475,
+            "2026-05-10T09-50-31Z-8f49f2": 0.40885768931589606,
+            "2026-05-10T23-26-14Z-67db4f": 0.3020076260536446,
+            "2026-05-14T03-11-22Z-090bf8": 0.3592929101319937,
+            "2026-05-14T03-59-16Z-82019b": 0.316461256513428,
+            "2026-05-14T22-34-33Z-a2015e": 0.42118322492367766,
+            "2026-05-15T03-56-59Z-e3a44c": 0.34321996972201946,
+            "2026-05-29T18-26-16Z-a78ba5": 0.33111322163812057,
+            "2026-05-29T21-26-09Z-fa4c61": 0.3415156951850516,
+            "2026-05-30T04-09-19Z-e64537": 0.293599498443478
+          },
+          "model_sha256": "f20555d6bfb722a5eb9f4a92fee9e16dc72c49d90d0fa434ee4ac096dc27fde5"
+        },
+        "quadratic": {
+          "raw_activation_mse": 0.34834877440443857,
+          "gain_over_mean_baseline": 0.0011613301995676562,
+          "normal_equation_max_relative_residual": 1.8084697621949623e-14,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.36973783479282946,
+            "2026-05-10T09-50-31Z-8f49f2": 0.4063254894308019,
+            "2026-05-10T23-26-14Z-67db4f": 0.30310056551805475,
+            "2026-05-14T03-11-22Z-090bf8": 0.3572676975199852,
+            "2026-05-14T03-59-16Z-82019b": 0.3160477358027335,
+            "2026-05-14T22-34-33Z-a2015e": 0.41814119179314685,
+            "2026-05-15T03-56-59Z-e3a44c": 0.3450582097965656,
+            "2026-05-29T18-26-16Z-a78ba5": 0.33042278557339944,
+            "2026-05-29T21-26-09Z-fa4c61": 0.3425086144477548,
+            "2026-05-30T04-09-19Z-e64537": 0.29487761936911433
+          },
+          "model_sha256": "6d128a32ce56efb068bddd88245e9d755ce577acfde76c36b6866e30862af7ce"
+        }
+      },
+      "mean_baseline_raw_mse": 0.3495101046040062,
+      "paired_mse_gain_complex_over_simple": 0.00039043108093285704,
+      "paired_gain_ci95": [
+        -0.0005186760550261556,
+        0.0013931213143648176
+      ],
+      "conditional_discovery_means_recomputed": true
+    },
+    {
+      "variable": "vz",
+      "report": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/report.json",
+        "sha256": "5a3e298b9471e4f57b51330c3545160514b7e81c4056397163936d473a1e17b6"
+      },
+      "export": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/export.json",
+        "sha256": "2dca8f1eca2531706d3110b629158150f7f0911bb1d0398055811dface5ed45b"
+      },
+      "maps": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/geometry_maps.npz",
+        "sha256": "0056058e20eb32093bd3571cd781cdd05c8376d169408252a3abf1ad43c4f5d5"
+      },
+      "figures": {
+        "geometry.png": "574fa415b1468434c15ae65ea0084664bfeba12f03d9c05e624f2d101e3caa78",
+        "geometry.pdf": "fdc98a7d1f2e681d5d37c778b9655eebd1bbde4110e65f911f50f321515de969"
+      },
+      "heldout_interval": [
+        -250.0,
+        250.0
+      ],
+      "fit_rows": 3018,
+      "held_selection_rows": 1051,
+      "held_selection_matches": 11,
+      "models": {
+        "affine": {
+          "raw_activation_mse": 0.3115510276102881,
+          "gain_over_mean_baseline": 5.443209656841308e-05,
+          "normal_equation_max_relative_residual": 4.939666231816331e-13,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.3357661908356487,
+            "2026-05-10T09-50-31Z-8f49f2": 0.3164025158447396,
+            "2026-05-10T23-26-14Z-67db4f": 0.2901222282573324,
+            "2026-05-14T03-11-22Z-090bf8": 0.33155640037156414,
+            "2026-05-14T03-59-16Z-82019b": 0.2895397991192091,
+            "2026-05-14T22-34-33Z-a2015e": 0.3289486956193768,
+            "2026-05-15T03-56-59Z-e3a44c": 0.31042908217203696,
+            "2026-05-29T18-15-24Z-2b37eb": 0.3088035450708936,
+            "2026-05-29T18-26-16Z-a78ba5": 0.29492726470577474,
+            "2026-05-29T21-26-09Z-fa4c61": 0.3182595544350776,
+            "2026-05-30T04-09-19Z-e64537": 0.30230602728151534
+          },
+          "model_sha256": "85cb22e2d00266e12449c0963a351974e89b0d3ff380fc12a0ad92bd220f2c35"
+        },
+        "quadratic": {
+          "raw_activation_mse": 0.3102324241538125,
+          "gain_over_mean_baseline": 0.0013730355530439664,
+          "normal_equation_max_relative_residual": 3.6274643919736965e-14,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.3346309546963197,
+            "2026-05-10T09-50-31Z-8f49f2": 0.3235080614487698,
+            "2026-05-10T23-26-14Z-67db4f": 0.2849024210269915,
+            "2026-05-14T03-11-22Z-090bf8": 0.3372330514771097,
+            "2026-05-14T03-59-16Z-82019b": 0.28687940628185626,
+            "2026-05-14T22-34-33Z-a2015e": 0.32501304503734246,
+            "2026-05-15T03-56-59Z-e3a44c": 0.30571765620168423,
+            "2026-05-29T18-15-24Z-2b37eb": 0.3057892003575179,
+            "2026-05-29T18-26-16Z-a78ba5": 0.2928747892245678,
+            "2026-05-29T21-26-09Z-fa4c61": 0.31590279959392,
+            "2026-05-30T04-09-19Z-e64537": 0.300105280345859
+          },
+          "model_sha256": "2166690ed21304ec701c017f89cb2a81f8ef98a6c76b8bcf8ee6ad493b593bbf"
+        }
+      },
+      "mean_baseline_raw_mse": 0.3116054597068565,
+      "paired_mse_gain_complex_over_simple": 0.001318603456475513,
+      "paired_gain_ci95": [
+        -0.0010070828723044913,
+        0.0032548032465457327
+      ],
+      "conditional_discovery_means_recomputed": true
+    },
+    {
+      "variable": "speed",
+      "report": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/report.json",
+        "sha256": "881ce196a6a7a7baa319780c8767fb83c3469aac6db7998afeb5204cae32ff27"
+      },
+      "export": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/export.json",
+        "sha256": "aab8607c461da7aba707284323340c55e0e6f7fd419af5f6f0d03e765af0167b"
+      },
+      "maps": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/geometry_maps.npz",
+        "sha256": "f9229ca916704a00cec6a5ca12581f017300ae0e0446cbb6a97b7365ed0ac5cb"
+      },
+      "figures": {
+        "geometry.png": "21c0b5abfb5f618c7af2fdbe022d8d59f0984fc66f79ae18f56cb5dbb5edd529",
+        "geometry.pdf": "deaaf2e52745b6f40aa3348e33bf4f669d5b554645b39dfe130791e41dd6b152"
+      },
+      "heldout_interval": [
+        800.0,
+        1200.0
+      ],
+      "fit_rows": 4848,
+      "held_selection_rows": 419,
+      "held_selection_matches": 10,
+      "models": {
+        "affine": {
+          "raw_activation_mse": 0.3359327818375641,
+          "gain_over_mean_baseline": -0.0003304795265078875,
+          "normal_equation_max_relative_residual": 7.477578773450515e-13,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.3555032590986432,
+            "2026-05-10T09-50-31Z-8f49f2": 0.3404439323968745,
+            "2026-05-10T23-26-14Z-67db4f": 0.3284266970244499,
+            "2026-05-14T03-11-22Z-090bf8": 0.317834769277724,
+            "2026-05-14T03-59-16Z-82019b": 0.34719591208342565,
+            "2026-05-14T22-34-33Z-a2015e": 0.35639787949084145,
+            "2026-05-15T03-56-59Z-e3a44c": 0.32248434801669945,
+            "2026-05-29T18-15-24Z-2b37eb": 0.3030168170772143,
+            "2026-05-29T18-26-16Z-a78ba5": 0.3537387915197157,
+            "2026-05-29T21-26-09Z-fa4c61": 0.3342854123900521
+          },
+          "model_sha256": "aa818c23a8991c15638b18c39570bc2cb4de34e33760787f3406d77570fe094d"
+        },
+        "quadratic": {
+          "raw_activation_mse": 0.33530500131438246,
+          "gain_over_mean_baseline": 0.0002973009966737439,
+          "normal_equation_max_relative_residual": 6.339773277870005e-14,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.3538741852366926,
+            "2026-05-10T09-50-31Z-8f49f2": 0.3405510050161509,
+            "2026-05-10T23-26-14Z-67db4f": 0.32613158103583595,
+            "2026-05-14T03-11-22Z-090bf8": 0.3180242069250346,
+            "2026-05-14T03-59-16Z-82019b": 0.3476512054938335,
+            "2026-05-14T22-34-33Z-a2015e": 0.35325943105097407,
+            "2026-05-15T03-56-59Z-e3a44c": 0.3206857424653772,
+            "2026-05-29T18-15-24Z-2b37eb": 0.30312829941710584,
+            "2026-05-29T18-26-16Z-a78ba5": 0.3525682014574992,
+            "2026-05-29T21-26-09Z-fa4c61": 0.33717615504532056
+          },
+          "model_sha256": "869d2661de355dad0f8c5b8354b318db6867993b5db6ae148892d5518b722de2"
+        }
+      },
+      "mean_baseline_raw_mse": 0.3356023023110562,
+      "paired_mse_gain_complex_over_simple": 0.0006277805231815925,
+      "paired_gain_ci95": [
+        -0.0004760941953738713,
+        0.001577439766776161
+      ],
+      "conditional_discovery_means_recomputed": true
+    },
+    {
+      "variable": "heading",
+      "report": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/report.json",
+        "sha256": "4089b1795aeae6919fedfdcadb326f8c9ad74de8661e9e938bba9f3647def20f"
+      },
+      "export": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/export.json",
+        "sha256": "5255f1a3843083900ba6c4d30eaf87274495c18946984c270feba752e333cfd7"
+      },
+      "maps": {
+        "path": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/geometry_maps.npz",
+        "sha256": "6c9bd969fe709dfb2f83cd0c5f9f5467de9f15de972ce022ded33499cdbd572f"
+      },
+      "figures": {
+        "geometry.png": "05194b800bcba27d705827741ddca492b5c14234fd58c5732f0aacec742c4510",
+        "geometry.pdf": "4a1ab98ed0021014c88e7686a1e98355a32cf561a6920cb5313b26b836baf0ce"
+      },
+      "heldout_interval": [
+        -0.39269908169872414,
+        0.39269908169872414
+      ],
+      "fit_rows": 5046,
+      "held_selection_rows": 188,
+      "held_selection_matches": 8,
+      "models": {
+        "periodic_first": {
+          "raw_activation_mse": 0.3607217610553726,
+          "gain_over_mean_baseline": -0.004320715733165892,
+          "normal_equation_max_relative_residual": 3.422563743103172e-14,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.40575566211930875,
+            "2026-05-10T09-50-31Z-8f49f2": 0.30389161309161655,
+            "2026-05-10T23-26-14Z-67db4f": 0.30358366730483943,
+            "2026-05-14T03-59-16Z-82019b": 0.30191831425638843,
+            "2026-05-15T03-56-59Z-e3a44c": 0.35223813628427736,
+            "2026-05-29T18-26-16Z-a78ba5": 0.3019408230141043,
+            "2026-05-29T21-26-09Z-fa4c61": 0.3436827025749684,
+            "2026-05-30T04-09-19Z-e64537": 0.5727631697974775
+          },
+          "model_sha256": "c031f5842a3e76c652873e05be6b0395e0f01da5c48f15ea2caaa51edcc75204"
+        },
+        "periodic_second": {
+          "raw_activation_mse": 0.367722493400522,
+          "gain_over_mean_baseline": -0.011321448078315255,
+          "normal_equation_max_relative_residual": 7.0312655820505015e-15,
+          "per_match_raw_mse": {
+            "2026-05-09T10-15-51Z-b7fd20": 0.41299314578465846,
+            "2026-05-10T09-50-31Z-8f49f2": 0.29926682399253185,
+            "2026-05-10T23-26-14Z-67db4f": 0.3143376661721381,
+            "2026-05-14T03-59-16Z-82019b": 0.3130198377950913,
+            "2026-05-15T03-56-59Z-e3a44c": 0.36481871874457455,
+            "2026-05-29T18-26-16Z-a78ba5": 0.3073134585620202,
+            "2026-05-29T21-26-09Z-fa4c61": 0.35100063825393646,
+            "2026-05-30T04-09-19Z-e64537": 0.5790296578992252
+          },
+          "model_sha256": "04b44997ed73bcef63195f7dc50ad6fe8fd5732f51674b531ba7d6a81b181c6c"
+        }
+      },
+      "mean_baseline_raw_mse": 0.35640104532220673,
+      "paired_mse_gain_complex_over_simple": -0.0070007323451494186,
+      "paired_gain_ci95": [
+        -0.009911446715604615,
+        -0.00309286657900725
+      ],
+      "conditional_discovery_means_recomputed": true
+    }
+  ],
+  "elapsed_seconds": 2.165,
+  "models_checked": 8,
+  "all_four_registered_comparisons_complete": true,
+  "all_forward_normal_equations_checked": true,
+  "all_held_errors_and_intervals_recomputed": true,
+  "all_conditional_means_recomputed": true,
+  "audit_script_sha256": "82d69c3616f80ef4426401994b6d13c12fa73cb56482b60e8732cea02d33476e",
+  "physical_causality_claim": false,
+  "nonlinear_geometry_established": false
+}

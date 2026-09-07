@@ -21,8 +21,22 @@ checkpoint precision/preprocessing, stronger baselines, spatial readouts and
 viewing-player-relative targets. The target convention produced the clearest
 improvement; the tested spatial descriptor did not beat mean pooling. Choices
 were published before the new confirmation capture, and the original study is
-preserved. Exact internal causal interventions have completed; geometry, sparse
-features and the independent video evaluator are the active next steps.
+preserved. Exact internal causal interventions, geometry comparisons, 30 sparse
+models, and VideoMAE adaptation have completed and passed independent audits.
+Sparse causal fidelity and generated-rollout steering are the active next steps.
+
+The geometry comparisons did **not** establish a nonlinear advantage: quadratic
+height, speed and vertical-velocity gains were small and their match-bootstrap
+intervals included zero; extra heading harmonics worsened held-out prediction.
+ReLU Top-K reconstructed held-out descriptors better than the block variants,
+and correct temporal pairing did not beat the shuffled-time control. These
+negative findings remain visible in the [geometry report](docs/review/geometry_development_results.md)
+and [all-30-model sparse audit](docs/review/sparse_development_audit.md).
+
+The [adapted VideoMAE evaluator](docs/review/video_evaluator.md) reduced development
+state-regression NMSE from **0.797 to 0.698**; codec-reconstruction NMSE is **0.706**.
+Relative horizontal velocity remains weak. This calibration covers recorded and
+codec-reconstructed clips; accuracy on edited generated video is unverified.
 
 Pretrained execution and intervention wiring have passed on NVIDIA A40 GPUs. Official MIRA code is pinned
 to `3d739ec2d31daf83559d33eb01727cea48fe90f7`. Official pretrained MIRA weights were not
@@ -79,6 +93,10 @@ with checksums in [the archive manifest](results/readiness_archive.json).
 - [Revised development readouts](docs/10_development_readout_results.md)
 - [Fresh confirmation and independent audit](docs/11_fresh_confirmation_results.md)
 - [Registered internal causal study](docs/09_internal_causal_development.md)
+- [Geometry comparisons and independent audit](docs/review/geometry_development_results.md)
+- [Sparse feature comparisons and retention audit](docs/review/sparse_development_audit.md)
+- [Adapted VideoMAE evaluator](docs/review/video_evaluator.md)
+- [Generated-video measurement contract](docs/11_generated_video_evaluator.md)
 - [Protocol and stage gates](docs/PROTOCOL.md)
 - [Environment and reproducibility](docs/00_setup.md)
 - [Model availability audit](docs/model_access_audit.md)

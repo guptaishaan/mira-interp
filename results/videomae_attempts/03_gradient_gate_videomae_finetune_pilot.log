@@ -1,0 +1,11 @@
+/ccn2/u/ishaangp/mira-interp/scripts/finetune_video_evaluator.py:87: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  feature_error = float((cached_descriptor-full_descriptor).abs().max())
+Traceback (most recent call last):
+  File "/ccn2/u/ishaangp/mira-interp/scripts/finetune_video_evaluator.py", line 253, in <module>
+    if __name__ == '__main__': main()
+  File "/ccn2/u/ishaangp/mira-interp/scripts/finetune_video_evaluator.py", line 248, in main
+    try: {'pilot': pilot, 'capture': capture, 'train': train}[args.stage](report, path)
+  File "/ccn2/u/ishaangp/mira-interp/scripts/finetune_video_evaluator.py", line 103, in pilot
+    raise ValueError('Cached-prefix gradients differ from full frozen-prefix computation')
+ValueError: Cached-prefix gradients differ from full frozen-prefix computation

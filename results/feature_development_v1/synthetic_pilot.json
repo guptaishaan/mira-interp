@@ -1,0 +1,363 @@
+{
+  "status": "passed",
+  "scope": "synthetic full-width feasibility only; no research examples, models or results",
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "geometry_audit_sha256": "3baffdf98dd634647e5c0a1622e96695a574c7bb8964c287d9aaf858809669b1",
+  "code_sha256": "89f475f9f00fe71ba304be46ce45e835217956b34743175a92e61625edd7a145",
+  "visible_gpu": "7",
+  "elapsed_seconds": 3.7507199235260487,
+  "peak_gpu_bytes": 210040320,
+  "synthetic_models_discarded": true,
+  "reports": [
+    {
+      "kind": "relu",
+      "group_size": 1,
+      "latent_scalar_width": 3072,
+      "input_dimension": 1536,
+      "expansion": 2.0,
+      "dictionary_regime": "overcomplete",
+      "active_scalar_budget": 64,
+      "trainable_parameters": 9440256,
+      "steps": 20,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "seed": 20260907,
+      "temporal_weight": 0.0,
+      "temporal_edges": 0,
+      "expected_dt": 0.1,
+      "temporal_control": "adjacent",
+      "temporal_shuffle_scope": "same match, clip, annotation entity and view; exclude self and original next frame",
+      "temporal_identity_scope": "view_identity_only",
+      "tracked_entity_claim": false,
+      "temporal_penalty": "squared difference of soft support surrogates; no coordinate smoothness penalty",
+      "normalizer_fit": "equal-match discovery mean and one global RMS; preserves Euclidean geometry",
+      "selection_used_for_updates": false,
+      "official_bsf_replication": false,
+      "decoder_constraint": "each row has unit L2 norm",
+      "normalizer_sha256": "6f40b33e9d40ef98eb0f1efdb99d68de83ee7153c0f3b072ac336de4e807b3ba",
+      "elapsed_seconds": 1.4592731818556786,
+      "loss_endpoints": [
+        {
+          "step": 1,
+          "reconstruction": 0.8152105212211609,
+          "temporal_surrogate": 0.0
+        },
+        {
+          "step": 20,
+          "reconstruction": 0.06138647347688675,
+          "temporal_surrogate": 0.0
+        }
+      ],
+      "metrics": {
+        "discovery": {
+          "normalized_reconstruction_mse": 0.06309488590341061,
+          "raw_reconstruction_mse": 0.06224600336489164,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 64.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2415364682674408,
+          "dead_block_fraction": 0.2415364682674408,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_a": 0.0638974967327606,
+            "synthetic_b": 0.060594509997022664
+          },
+          "adjacent_support_jaccard": 0.009628752847352333
+        },
+        "selection": {
+          "normalized_reconstruction_mse": 0.8601193698123097,
+          "raw_reconstruction_mse": 0.8485472648106596,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 64.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2897135615348816,
+          "dead_block_fraction": 0.2897135615348816,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_c": 0.8497879881458261,
+            "synthetic_d": 0.8473065414754931
+          },
+          "adjacent_support_jaccard": 0.010648839866682408
+        }
+      }
+    },
+    {
+      "kind": "signed",
+      "group_size": 1,
+      "latent_scalar_width": 3072,
+      "input_dimension": 1536,
+      "expansion": 2.0,
+      "dictionary_regime": "overcomplete",
+      "active_scalar_budget": 64,
+      "trainable_parameters": 9440256,
+      "steps": 20,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "seed": 20260907,
+      "temporal_weight": 0.0,
+      "temporal_edges": 0,
+      "expected_dt": 0.1,
+      "temporal_control": "adjacent",
+      "temporal_shuffle_scope": "same match, clip, annotation entity and view; exclude self and original next frame",
+      "temporal_identity_scope": "view_identity_only",
+      "tracked_entity_claim": false,
+      "temporal_penalty": "squared difference of soft support surrogates; no coordinate smoothness penalty",
+      "normalizer_fit": "equal-match discovery mean and one global RMS; preserves Euclidean geometry",
+      "selection_used_for_updates": false,
+      "official_bsf_replication": false,
+      "decoder_constraint": "each row has unit L2 norm",
+      "normalizer_sha256": "6f40b33e9d40ef98eb0f1efdb99d68de83ee7153c0f3b072ac336de4e807b3ba",
+      "elapsed_seconds": 0.053641803562641144,
+      "loss_endpoints": [
+        {
+          "step": 1,
+          "reconstruction": 0.7884544730186462,
+          "temporal_surrogate": 0.0
+        },
+        {
+          "step": 20,
+          "reconstruction": 0.07227182388305664,
+          "temporal_surrogate": 0.0
+        }
+      ],
+      "metrics": {
+        "discovery": {
+          "normalized_reconstruction_mse": 0.0723948129452765,
+          "raw_reconstruction_mse": 0.07142080821287297,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 64.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.26171875,
+          "dead_block_fraction": 0.26171875,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_a": 0.07182028993614364,
+            "synthetic_b": 0.07102132648960227
+          },
+          "adjacent_support_jaccard": 0.012717774708665187
+        },
+        "selection": {
+          "normalized_reconstruction_mse": 0.8396152621135116,
+          "raw_reconstruction_mse": 0.8283190167239943,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 64.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2571614682674408,
+          "dead_block_fraction": 0.2571614682674408,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_c": 0.8274233777879619,
+            "synthetic_d": 0.829214655660027
+          },
+          "adjacent_support_jaccard": 0.010800619008800676
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "group_size": 8,
+      "latent_scalar_width": 3072,
+      "input_dimension": 1536,
+      "expansion": 2.0,
+      "dictionary_regime": "overcomplete",
+      "active_scalar_budget": 64,
+      "trainable_parameters": 9440256,
+      "steps": 20,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "seed": 20260907,
+      "temporal_weight": 0.0,
+      "temporal_edges": 0,
+      "expected_dt": 0.1,
+      "temporal_control": "adjacent",
+      "temporal_shuffle_scope": "same match, clip, annotation entity and view; exclude self and original next frame",
+      "temporal_identity_scope": "view_identity_only",
+      "tracked_entity_claim": false,
+      "temporal_penalty": "squared difference of soft support surrogates; no coordinate smoothness penalty",
+      "normalizer_fit": "equal-match discovery mean and one global RMS; preserves Euclidean geometry",
+      "selection_used_for_updates": false,
+      "official_bsf_replication": false,
+      "decoder_constraint": "each row has unit L2 norm",
+      "normalizer_sha256": "6f40b33e9d40ef98eb0f1efdb99d68de83ee7153c0f3b072ac336de4e807b3ba",
+      "elapsed_seconds": 0.05162392929196358,
+      "loss_endpoints": [
+        {
+          "step": 1,
+          "reconstruction": 0.9026271104812622,
+          "temporal_surrogate": 0.0
+        },
+        {
+          "step": 20,
+          "reconstruction": 0.06108593940734863,
+          "temporal_surrogate": 0.0
+        }
+      ],
+      "metrics": {
+        "discovery": {
+          "normalized_reconstruction_mse": 0.06219834313378669,
+          "raw_reconstruction_mse": 0.06136152200513582,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.1848958432674408,
+          "dead_block_fraction": 0.1848958432674408,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_a": 0.05861123109635164,
+            "synthetic_b": 0.06411181291391999
+          },
+          "adjacent_support_jaccard": 0.013056836301280609
+        },
+        "selection": {
+          "normalized_reconstruction_mse": 0.942660721950233,
+          "raw_reconstruction_mse": 0.9299781022955571,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2604166865348816,
+          "dead_block_fraction": 0.2604166865348816,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_c": 0.9308754528208494,
+            "synthetic_d": 0.9290807517702648
+          },
+          "adjacent_support_jaccard": 0.012903226479407283
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "group_size": 8,
+      "latent_scalar_width": 3072,
+      "input_dimension": 1536,
+      "expansion": 2.0,
+      "dictionary_regime": "overcomplete",
+      "active_scalar_budget": 64,
+      "trainable_parameters": 9440256,
+      "steps": 20,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "seed": 20260907,
+      "temporal_weight": 0.1,
+      "temporal_edges": 62,
+      "expected_dt": 0.1,
+      "temporal_control": "adjacent",
+      "temporal_shuffle_scope": "same match, clip, annotation entity and view; exclude self and original next frame",
+      "temporal_identity_scope": "view_identity_only",
+      "tracked_entity_claim": false,
+      "temporal_penalty": "squared difference of soft support surrogates; no coordinate smoothness penalty",
+      "normalizer_fit": "equal-match discovery mean and one global RMS; preserves Euclidean geometry",
+      "selection_used_for_updates": false,
+      "official_bsf_replication": false,
+      "decoder_constraint": "each row has unit L2 norm",
+      "normalizer_sha256": "6f40b33e9d40ef98eb0f1efdb99d68de83ee7153c0f3b072ac336de4e807b3ba",
+      "elapsed_seconds": 0.1349077671766281,
+      "loss_endpoints": [
+        {
+          "step": 1,
+          "reconstruction": 0.9026271104812622,
+          "temporal_surrogate": 0.031229151412844658
+        },
+        {
+          "step": 20,
+          "reconstruction": 0.0604352205991745,
+          "temporal_surrogate": 0.0335860438644886
+        }
+      ],
+      "metrics": {
+        "discovery": {
+          "normalized_reconstruction_mse": 0.058023220917675644,
+          "raw_reconstruction_mse": 0.057242572286802254,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2708333432674408,
+          "dead_block_fraction": 0.2708333432674408,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_a": 0.054263319519935044,
+            "synthetic_b": 0.06022182505366948
+          },
+          "adjacent_support_jaccard": 0.13460948077901716
+        },
+        "selection": {
+          "normalized_reconstruction_mse": 0.945735746063292,
+          "raw_reconstruction_mse": 0.9330117627957119,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2682291865348816,
+          "dead_block_fraction": 0.2682291865348816,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_c": 0.9329547397440437,
+            "synthetic_d": 0.9330687858473798
+          },
+          "adjacent_support_jaccard": 0.009831029681428786
+        }
+      }
+    },
+    {
+      "kind": "block",
+      "group_size": 8,
+      "latent_scalar_width": 3072,
+      "input_dimension": 1536,
+      "expansion": 2.0,
+      "dictionary_regime": "overcomplete",
+      "active_scalar_budget": 64,
+      "trainable_parameters": 9440256,
+      "steps": 20,
+      "batch_size": 128,
+      "learning_rate": 0.001,
+      "seed": 20260907,
+      "temporal_weight": 0.1,
+      "temporal_edges": 62,
+      "expected_dt": 0.1,
+      "temporal_control": "shuffled_within_match",
+      "temporal_shuffle_scope": "same match, clip, annotation entity and view; exclude self and original next frame",
+      "temporal_identity_scope": "view_identity_only",
+      "tracked_entity_claim": false,
+      "temporal_penalty": "squared difference of soft support surrogates; no coordinate smoothness penalty",
+      "normalizer_fit": "equal-match discovery mean and one global RMS; preserves Euclidean geometry",
+      "selection_used_for_updates": false,
+      "official_bsf_replication": false,
+      "decoder_constraint": "each row has unit L2 norm",
+      "normalizer_sha256": "6f40b33e9d40ef98eb0f1efdb99d68de83ee7153c0f3b072ac336de4e807b3ba",
+      "elapsed_seconds": 0.08144468069076538,
+      "loss_endpoints": [
+        {
+          "step": 1,
+          "reconstruction": 0.9026271104812622,
+          "temporal_surrogate": 0.031600989401340485
+        },
+        {
+          "step": 20,
+          "reconstruction": 0.060316137969493866,
+          "temporal_surrogate": 0.03564285486936569
+        }
+      ],
+      "metrics": {
+        "discovery": {
+          "normalized_reconstruction_mse": 0.058018374227685854,
+          "raw_reconstruction_mse": 0.05723779139633805,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2838541865348816,
+          "dead_block_fraction": 0.2838541865348816,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_a": 0.05617250356426695,
+            "synthetic_b": 0.058303079228409146
+          },
+          "adjacent_support_jaccard": 0.020737328236141512
+        },
+        "selection": {
+          "normalized_reconstruction_mse": 0.9447290897369385,
+          "raw_reconstruction_mse": 0.9320186491547497,
+          "active_scalar_mean": 64.0,
+          "active_block_mean": 8.0,
+          "match_count": 2,
+          "dead_scalar_fraction": 0.2682291865348816,
+          "dead_block_fraction": 0.2682291865348816,
+          "per_match_raw_reconstruction_mse": {
+            "synthetic_c": 0.9320001200649937,
+            "synthetic_d": 0.9320371782445058
+          },
+          "adjacent_support_jaccard": 0.011827957606123343
+        }
+      }
+    }
+  ]
+}

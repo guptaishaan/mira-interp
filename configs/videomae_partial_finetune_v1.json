@@ -1,0 +1,62 @@
+{
+  "status": "registered_before_research_optimization",
+  "scope": "original31/11 development only; confirmation forbidden",
+  "registered_utc": "2026-09-07T06:31:53.830421+00:00",
+  "inputs": {
+    "pilot": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/videomae_finetune_pilot.json",
+      "sha256": "b0e6bf4b373a72163cbdce782eaaabd16552098ad042f3a729d25ff51c2cb061"
+    },
+    "prefix": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/videomae_prefix.json",
+      "sha256": "f4c0c786974543e238dc26d9c04e4a6be45373a115a8af73e9109330a218f2a3"
+    },
+    "head": {
+      "path": "/ccn2/u/ishaangp/mira-interp/results/videomae_mlp.json",
+      "sha256": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3"
+    }
+  },
+  "code_sha256": {
+    "scripts/train_video_evaluator_partial.py": "a2f7d271009145a610f81d5fbb622688d98b5dba3b4ba157f4640ccf3b5c7eec",
+    "scripts/finetune_video_evaluator.py": "6472e051f0e420cc0bc646747fe794f7afbeccfacb7d5c1035f128474e2aab3b",
+    "src/mira_interp/video_evaluator_finetune.py": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a",
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077",
+    "src/mira_interp/video_evaluator.py": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1",
+    "src/mira_interp/development.py": "9b282739adeac3b1d30095c60f3516d53a5cce104e63edbbcce749b836a86aaa"
+  },
+  "seed": 0,
+  "updates": 500,
+  "microbatch": 4,
+  "accumulation": 4,
+  "effective_batch": 16,
+  "backbone_learning_rate": 1e-05,
+  "head_learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 1.0,
+  "checkpoint_steps": [
+    100,
+    250,
+    500
+  ],
+  "match_counts": {
+    "discovery": 31,
+    "selection": 11
+  },
+  "trainable_encoder_blocks": [
+    10,
+    11
+  ],
+  "fixed_original_key_biases": true,
+  "normalization": "original discovery-only feature and target normalizers, fixed throughout",
+  "head_initialization": "already selected frozen-feature MLP seed2 step500, unchanged checkpoint hash bound below",
+  "head_checkpoint": {
+    "path": "/data2/ishaangp/mira-interp/video_evaluator_v1/head_mlp/seed2_step500.pt",
+    "sha256": "a95b7bfbd4604a45fa20bfc948343306229723e8ec8b12173fe928a0c32720c1"
+  },
+  "selection_rule": "minimum real-selection equal-match12-target normalized MSE across exactly100/250/500 updates",
+  "codec_used_for_training_or_selection": false,
+  "precision": "FP32 parameters; BF16 autocast; native BF16 prefix restored; deterministic FP32 spatial averaging",
+  "attention_backend": "math",
+  "deterministic_algorithms": true,
+  "prospective_amendment": "HeadLR1e-4 replaces proposed1e-3 before any research optimization. The discarded reserved pilot showed first-update loss0.497->0.933; use conservative adaptation of the already trained head, with no further hyperparameter search."
+}

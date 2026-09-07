@@ -1,2 +1,4 @@
 *.csv text eol=lf
 results/probes_v2/*.csv -text
+results/videomae_exports/*.csv -text
+results/videomae_repair_exports/*.csv -text

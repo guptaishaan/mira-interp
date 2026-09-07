@@ -33,9 +33,27 @@ were positive on only 6/11 matches; probe-component effects were small. Preserve
 the narrower internal-output claim in `docs/09_internal_causal_development.md`.
 The first discovery attempt received SIGTERM; 32 verified artifacts were reused
 and the remaining 30 completed, with unchanged code/protocol. The interruption
-is preserved. The VideoMAE evaluator uses development data only and is active on
-GPU6; fresh confirmation outcomes must not be used to select evaluator models.
-Geometry/sparse tooling exists, but the actual studies have not yet run.
+is preserved. The VideoMAE evaluator uses development data only; fresh confirmation
+outcomes must not be used to select evaluator models. Frozen ridge, MLP and partial
+fine-tuning completed; the independently audited selected step500 model achieved
+0.698319 real-video and 0.70625 codec-reconstruction NMSE. Horizontal relative
+velocity remains weak and edited generated-video accuracy is unverified.
+
+The registered geometry comparisons completed with an independent audit. None
+established a nonlinear advantage; richer heading harmonics were worse. All30
+sparse dictionaries completed and passed the independent CPU audit at
+`results/feature_development_v1/sparse_audit.json`. ReLU had the lowest selection
+reconstruction error; the true temporal variant did not outperform shuffled-time
+controls. Preserve this outcome and the whole-view, non-entity-localized scope.
+
+Sparse causal fidelity is the next running stage, with fixed discovery-mean
+descriptor controls to separate reconstructed information from the retained
+native nullspace. See live `results/sparse_causal_fidelity_v1/` before launching
+or resuming. The prepared rollout inputs passed an independent audit: one pilot,
+10 selection matches and22 prior fresh-confirmation matches, each with16 context
+and8 future frames. Future source pixels must be hidden from inference. Rollout
+code requires completed fidelity plus its audit, then a reserved pilot that
+benchmarks runtime/storage before the full frozen condition grid is launched.
 
 ## Environment
 

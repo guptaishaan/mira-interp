@@ -1,0 +1,13 @@
+{
+  "status": "passed_software_tests",
+  "recorded_utc": "2026-09-07T06:27:14.930154+00:00",
+  "command": "NUMPY_MADVISE_HUGEPAGE=0 /ccn2/u/ishaangp/miniconda3/envs/ccwm/bin/python -m pytest -q tests/test_video_evaluator_training.py",
+  "observed_output": "3 passed in 2.69s",
+  "exit_code": 0,
+  "scope": "Synthetic normalization, parameter-mask, and linear pooling checks; separate actual reserved GPU pilot is reported independently",
+  "source_sha256": {
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077",
+    "src/mira_interp/video_evaluator_finetune.py": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a",
+    "tests/test_video_evaluator_training.py": "ca26760650a640470dc5ad12e4f49f305a8d1e6a430fd443d06e6c12b36303fa"
+  }
+}

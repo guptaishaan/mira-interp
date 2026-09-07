@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "capture_report_sha256": "35c4ae164e31694d3984e4d4933da7849c36dc631d0b203b31076c4633cd5d39",
+  "prepared_report_sha256": "64719ea55041e218d309a5479cc675e24fed73e80aa4f50368225506efb32a2f",
+  "clips": 336,
+  "view_rows": 1344,
+  "match_counts": {
+    "discovery": 31,
+    "selection": 11
+  },
+  "source_labels_independently_rejoined": true,
+  "selection_codec_rows": 352,
+  "old_confirmation_used": false,
+  "encoder_weight_sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290",
+  "audit_script_sha256": "2a300ce208c13b1ea1598c72aa40156d475d781cd318f590bd2649b1c5e0b695",
+  "codec_calibration": {
+    "clip_count": 88,
+    "mean_rgb_mse_0_255": 103.475548917597,
+    "maximum_clipped_fraction": 0.0
+  },
+  "codec_reconstruction_is_generated_rollout": false
+}

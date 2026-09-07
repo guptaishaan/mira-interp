@@ -1,0 +1,343 @@
+{
+  "status": "failed",
+  "stage": "pilot",
+  "scope": "original31/11 development only; no confirmation",
+  "code_sha256": {
+    "scripts/finetune_video_evaluator.py": "4a5365cd5991a6f5ee7cdd122bdc614f9574f7f498cfa010b15438a70fb19920",
+    "src/mira_interp/video_evaluator_finetune.py": "53633eba4a1e6273ac16bc55ef14ab3329b0e0202de955b6e750ef3a969406a5",
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077",
+    "src/mira_interp/video_evaluator.py": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1"
+  },
+  "cuda_visible_devices": "6",
+  "loading": {
+    "encoder": {
+      "model": "MCG-NJU/videomae-base",
+      "revision": "dc740ceda42fce44faed2ea03c6d447db72f6af9",
+      "weight_sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290",
+      "strict_loaded_tensors": 266,
+      "original_checkpoint_tensors": 250,
+      "converted_attention_modules": 16,
+      "bias_conversion_max_abs_error": 0.0,
+      "bias_conversion_source": "https://github.com/huggingface/transformers/blob/v4.22.0/src/transformers/models/videomae/modeling_videomae.py",
+      "encoder_parameters": 86236416,
+      "transformers_version": "5.14.1",
+      "torch_version": "2.9.0+cu126",
+      "config_sha256": "5fbedfea3706bd9fe6c0dc706beeb501ae72e4954703e03bebe3406f046f8212",
+      "processor_config_sha256": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2",
+      "frozen_encoder": true,
+      "has_cls_token": false,
+      "tubelets": 8,
+      "spatial_grid": [
+        14,
+        14
+      ],
+      "readout": "last tubelet,3x4 spatial bins,all768 channels;9216D",
+      "preprocessing": "full-frame224x224 FP32 bilinear antialias; no center crop; published mean/std",
+      "domain_limit": "codec reconstructions do not establish reliability on generated or intervened videos"
+    },
+    "encoder_trainability": {
+      "trainable": 14177280,
+      "frozen": 72059136,
+      "trainable_blocks": [
+        10,
+        11
+      ],
+      "final_layernorm": true
+    },
+    "head_checkpoint": {
+      "path": "/data2/ishaangp/mira-interp/video_evaluator_v1/head_mlp/seed2_step500.pt",
+      "sha256": "a95b7bfbd4604a45fa20bfc948343306229723e8ec8b12173fe928a0c32720c1"
+    },
+    "head_seed": 2,
+    "head_step": 500,
+    "head_parameters": 2362636,
+    "mlp_report_sha256": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3"
+  },
+  "gradient_diagnostics": {
+    "blocks.0.attention.attention.query.weight": {
+      "full_gradient_norm": 0.39677295088768005,
+      "cache_max_abs": 6.103515625e-05,
+      "cache_relative_l2": 0.0006751303468695777,
+      "repeat_max_abs": 6.103515625e-05,
+      "repeat_relative_l2": 0.0006769080901188877
+    },
+    "blocks.0.attention.attention.query.bias": {
+      "full_gradient_norm": 0.03634296730160713,
+      "cache_max_abs": 1.52587890625e-05,
+      "cache_relative_l2": 0.000565577282984578,
+      "repeat_max_abs": 7.62939453125e-06,
+      "repeat_relative_l2": 0.00042624090762941535
+    },
+    "blocks.0.attention.attention.key.weight": {
+      "full_gradient_norm": 0.36666133999824524,
+      "cache_max_abs": 3.0517578125e-05,
+      "cache_relative_l2": 0.0007795418131675292,
+      "repeat_max_abs": 6.103515625e-05,
+      "repeat_relative_l2": 0.0008509134061487121
+    },
+    "blocks.0.attention.attention.key.bias": {
+      "full_gradient_norm": 8.561746653867885e-05,
+      "cache_max_abs": 9.685754776000977e-07,
+      "cache_relative_l2": 0.046638673895816114,
+      "repeat_max_abs": 6.705522537231445e-07,
+      "repeat_relative_l2": 0.04825979366330491
+    },
+    "blocks.0.attention.attention.value.weight": {
+      "full_gradient_norm": 2.0919556617736816,
+      "cache_max_abs": 0.0001220703125,
+      "cache_relative_l2": 0.0003708689568206767,
+      "repeat_max_abs": 0.0001220703125,
+      "repeat_relative_l2": 0.000451280315388194
+    },
+    "blocks.0.attention.attention.value.bias": {
+      "full_gradient_norm": 0.3103824257850647,
+      "cache_max_abs": 6.103515625e-05,
+      "cache_relative_l2": 0.0002324992306851965,
+      "repeat_max_abs": 6.103515625e-05,
+      "repeat_relative_l2": 0.0002479424577836739
+    },
+    "blocks.0.attention.output.dense.weight": {
+      "full_gradient_norm": 2.209007501602173,
+      "cache_max_abs": 0.0001220703125,
+      "cache_relative_l2": 0.00024028678501044603,
+      "repeat_max_abs": 0.0001220703125,
+      "repeat_relative_l2": 0.0003040510715598415
+    },
+    "blocks.0.attention.output.dense.bias": {
+      "full_gradient_norm": 0.22360597550868988,
+      "cache_max_abs": 1.52587890625e-05,
+      "cache_relative_l2": 9.846463414528497e-05,
+      "repeat_max_abs": 3.0517578125e-05,
+      "repeat_relative_l2": 0.0001696375747491344
+    },
+    "blocks.0.intermediate.dense.weight": {
+      "full_gradient_norm": 3.8613545894622803,
+      "cache_max_abs": 0.0001220703125,
+      "cache_relative_l2": 9.876777705240498e-05,
+      "repeat_max_abs": 0.0001220703125,
+      "repeat_relative_l2": 0.00012760897661095278
+    },
+    "blocks.0.intermediate.dense.bias": {
+      "full_gradient_norm": 0.21938572824001312,
+      "cache_max_abs": 3.0517578125e-05,
+      "cache_relative_l2": 0.00014609116582563135,
+      "repeat_max_abs": 7.62939453125e-06,
+      "repeat_relative_l2": 5.180326740892032e-05
+    },
+    "blocks.0.output.dense.weight": {
+      "full_gradient_norm": 1.9622243642807007,
+      "cache_max_abs": 3.0517578125e-05,
+      "cache_relative_l2": 4.6559421185802326e-05,
+      "repeat_max_abs": 3.0517578125e-05,
+      "repeat_relative_l2": 6.85290511021809e-05
+    },
+    "blocks.0.output.dense.bias": {
+      "full_gradient_norm": 0.2374262809753418,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 7.62939453125e-06,
+      "repeat_relative_l2": 3.21337406284958e-05
+    },
+    "blocks.0.layernorm_before.weight": {
+      "full_gradient_norm": 0.7140053510665894,
+      "cache_max_abs": 5.227327346801758e-05,
+      "cache_relative_l2": 7.724821210166928e-05,
+      "repeat_max_abs": 2.2292137145996094e-05,
+      "repeat_relative_l2": 5.129449513843346e-05
+    },
+    "blocks.0.layernorm_before.bias": {
+      "full_gradient_norm": 0.4667416214942932,
+      "cache_max_abs": 2.9783695936203003e-06,
+      "cache_relative_l2": 5.3684783333915314e-05,
+      "repeat_max_abs": 3.7178397178649902e-06,
+      "repeat_relative_l2": 6.274728567224041e-05
+    },
+    "blocks.0.layernorm_after.weight": {
+      "full_gradient_norm": 0.20276860892772675,
+      "cache_max_abs": 1.7082784324884415e-06,
+      "cache_relative_l2": 2.458789393427908e-05,
+      "repeat_max_abs": 1.7015263438224792e-06,
+      "repeat_relative_l2": 2.8353863409763303e-05
+    },
+    "blocks.0.layernorm_after.bias": {
+      "full_gradient_norm": 0.31040388345718384,
+      "cache_max_abs": 1.341104507446289e-06,
+      "cache_relative_l2": 2.5784880652737765e-05,
+      "repeat_max_abs": 1.5497207641601562e-06,
+      "repeat_relative_l2": 3.121416792756935e-05
+    },
+    "blocks.1.attention.attention.query.weight": {
+      "full_gradient_norm": 0.6120420098304749,
+      "cache_max_abs": 7.62939453125e-06,
+      "cache_relative_l2": 2.5235553862939702e-05,
+      "repeat_max_abs": 7.62939453125e-06,
+      "repeat_relative_l2": 3.75615709521385e-05
+    },
+    "blocks.1.attention.attention.query.bias": {
+      "full_gradient_norm": 0.05083293467760086,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.key.weight": {
+      "full_gradient_norm": 0.7263106107711792,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.key.bias": {
+      "full_gradient_norm": 5.783620508736931e-05,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.value.weight": {
+      "full_gradient_norm": 2.532726287841797,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.value.bias": {
+      "full_gradient_norm": 0.325554758310318,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.output.dense.weight": {
+      "full_gradient_norm": 2.10025954246521,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.output.dense.bias": {
+      "full_gradient_norm": 0.19606353342533112,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.intermediate.dense.weight": {
+      "full_gradient_norm": 3.5877268314361572,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.intermediate.dense.bias": {
+      "full_gradient_norm": 0.15740501880645752,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.output.dense.weight": {
+      "full_gradient_norm": 1.6339353322982788,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.output.dense.bias": {
+      "full_gradient_norm": 0.18199962377548218,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_before.weight": {
+      "full_gradient_norm": 0.3381901979446411,
+      "cache_max_abs": 5.923211574554443e-07,
+      "cache_relative_l2": 2.484564564036441e-06,
+      "repeat_max_abs": 5.923211574554443e-07,
+      "repeat_relative_l2": 2.734293580115536e-06
+    },
+    "blocks.1.layernorm_before.bias": {
+      "full_gradient_norm": 0.4745529890060425,
+      "cache_max_abs": 2.384185791015625e-07,
+      "cache_relative_l2": 1.5906142586398886e-06,
+      "repeat_max_abs": 2.682209014892578e-07,
+      "repeat_relative_l2": 2.168984107591115e-06
+    },
+    "blocks.1.layernorm_after.weight": {
+      "full_gradient_norm": 0.13836103677749634,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_after.bias": {
+      "full_gradient_norm": 0.23993009328842163,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "norm.weight": {
+      "full_gradient_norm": 0.3976353704929352,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "norm.bias": {
+      "full_gradient_norm": 1.5487746000289917,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.0.weight": {
+      "full_gradient_norm": 2.5562386512756348,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.0.bias": {
+      "full_gradient_norm": 0.03183363005518913,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.3.weight": {
+      "full_gradient_norm": 8.793179512023926,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.3.bias": {
+      "full_gradient_norm": 0.28339916467666626,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    }
+  },
+  "prefix_requires_grad": false,
+  "prefix_native_dtype": "torch.bfloat16",
+  "prefix_native_stride": [
+    1204224,
+    768,
+    1
+  ],
+  "restored_prefix_stride": [
+    1204224,
+    768,
+    1
+  ],
+  "attention_implementation": "sdpa",
+  "cached_full_descriptor_max_abs": 0.0,
+  "fp32_reference_max_abs": 0.0,
+  "full_loss": 0.4976694583892822,
+  "cached_loss": 0.4976694583892822,
+  "repeated_loss": 0.4976694583892822,
+  "error": "ValueError: Cached-prefix gradients differ from full frozen-prefix computation"
+}

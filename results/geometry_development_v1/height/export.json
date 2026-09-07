@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "input_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "report_sha256": "b06f1b2eb6b0367abd731e060e0ef5de4d508c0ecee179f22fdc2d6b4d6000c8",
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "code_sha256": {
+    "scripts/analyze_feature_geometry.py": "c4a49464cf83dc9bf8ccb2f93438174b1d978aea53ee39333383b32d5119dbd9",
+    "scripts/export_feature_geometry.py": "32a4b895e9d85e4c3125d939f29619c42d64ada040af649ce4946a59d0979303",
+    "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  },
+  "forward_models_reproduced": {
+    "affine": "f20555d6bfb722a5eb9f4a92fee9e16dc72c49d90d0fa434ee4ac096dc27fde5",
+    "quadratic": "6d128a32ce56efb068bddd88245e9d755ce577acfde76c36b6866e30862af7ce"
+  },
+  "maps_sha256": "41a84d16fa24c0c3638eb52aae2ece38b9facd1791be0f90fc4b10a316f616f4",
+  "figures": {
+    "geometry.png": "7a4547f7bfc5af3e499174ee62c4c90f85f6dcdb9bc6ffd234a04b5b2f9e4b7f",
+    "geometry.pdf": "b029fff939e2f6a20a97ef8e3c67d0fe8238b53d52593bd7acf5168979b4b75b"
+  },
+  "pca_scope": "display-only discovery conditional means; includes held-interval discovery rows excluded from forward fits",
+  "pca_variance_ratio": [
+    0.5427981672315343,
+    0.08602573589077665,
+    0.06278788773791362,
+    0.05761512080136649,
+    0.04593122259648512,
+    0.03330722538040798,
+    0.028712682526908607,
+    0.026187861573986327,
+    0.022691553325400876,
+    0.021424342542881364,
+    0.017758230242026336,
+    0.015505409301469384,
+    0.015196968637038186,
+    0.014245178038969608,
+    0.009812414172835323,
+    2.556542769224501e-30
+  ],
+  "conditional_bin_rows": [
+    1941,
+    495,
+    449,
+    359,
+    399,
+    377,
+    340,
+    268,
+    271,
+    217,
+    227,
+    181,
+    95,
+    91,
+    75,
+    81
+  ],
+  "conditional_bin_match_counts": [
+    31,
+    27,
+    29,
+    30,
+    26,
+    28,
+    25,
+    23,
+    22,
+    22,
+    19,
+    20,
+    16,
+    14,
+    11,
+    10
+  ],
+  "nonlinear_geometry_established": false,
+  "confounds": "No nuisance adjustment; whole-view features vary with camera, other state and actions",
+  "script_sha256": "32a4b895e9d85e4c3125d939f29619c42d64ada040af649ce4946a59d0979303"
+}

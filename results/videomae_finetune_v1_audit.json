@@ -1,0 +1,18 @@
+{
+  "status": "passed_development_video_evaluator_audit",
+  "analysis_sha256": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e",
+  "registration_sha256": "3ba4b9434040d9c9af1fcac3a8d05c4f6242ea0117c65fe3c118bd09d456db1d",
+  "audit_script_sha256": "a26fb7a1e449c822688e44c5d2bced2794bf0616474a6a50e739df3eb20fb7b2",
+  "capture_report_sha256": "35c4ae164e31694d3984e4d4933da7849c36dc631d0b203b31076c4633cd5d39",
+  "selection_matches": 11,
+  "selection_view_rows": 352,
+  "source_endpoint_labels_independently_rejoined": true,
+  "metric_max_absolute_difference": 1.5916157281026244e-12,
+  "checkpoint_and_prediction_hashes_verified": true,
+  "discovery_normalizers_unchanged": true,
+  "frozen_prefix_hash_unchanged": true,
+  "original_zero_key_biases_unchanged": true,
+  "registered_before_optimization": true,
+  "old_or_fresh_confirmation_used": false,
+  "scope": "development annotation decoding and codec-domain transfer; generated intervention calibration remains unestablished"
+}

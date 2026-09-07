@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "analyses": [
+    {
+      "variable": "height",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/analyze_feature_geometry.py",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--selected-probe",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/selected_probe.json",
+        "--gate",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/gate.json",
+        "--output-dir",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height",
+        "--stage",
+        "geometry",
+        "--variable",
+        "height",
+        "--heldout-interval",
+        "400.0",
+        "800.0",
+        "--ridge-alpha",
+        "0.01",
+        "--device",
+        "cpu"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/report.json"
+    },
+    {
+      "variable": "vz",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/analyze_feature_geometry.py",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--selected-probe",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/selected_probe.json",
+        "--gate",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/gate.json",
+        "--output-dir",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz",
+        "--stage",
+        "geometry",
+        "--variable",
+        "vz",
+        "--heldout-interval",
+        "-250.0",
+        "250.0",
+        "--ridge-alpha",
+        "0.01",
+        "--device",
+        "cpu"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/report.json"
+    },
+    {
+      "variable": "speed",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/analyze_feature_geometry.py",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--selected-probe",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/selected_probe.json",
+        "--gate",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/gate.json",
+        "--output-dir",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed",
+        "--stage",
+        "geometry",
+        "--variable",
+        "speed",
+        "--heldout-interval",
+        "800.0",
+        "1200.0",
+        "--ridge-alpha",
+        "0.01",
+        "--device",
+        "cpu"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/report.json"
+    },
+    {
+      "variable": "heading",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/analyze_feature_geometry.py",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--selected-probe",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/selected_probe.json",
+        "--gate",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/gate.json",
+        "--output-dir",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading",
+        "--stage",
+        "geometry",
+        "--variable",
+        "heading",
+        "--heldout-interval",
+        "-0.39269908169872414",
+        "0.39269908169872414",
+        "--ridge-alpha",
+        "0.01",
+        "--device",
+        "cpu",
+        "--minimum-heading-speed",
+        "200.0"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/report.json"
+    }
+  ],
+  "exports": [
+    {
+      "variable": "height",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/export_feature_geometry.py",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--report",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/report.json",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/height/export.json"
+    },
+    {
+      "variable": "vz",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/export_feature_geometry.py",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--report",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/report.json",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/vz/export.json"
+    },
+    {
+      "variable": "speed",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/export_feature_geometry.py",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--report",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/report.json",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/speed/export.json"
+    },
+    {
+      "variable": "heading",
+      "command": [
+        "/ccn2/u/ishaangp/mira-interp/.venv/bin/python",
+        "-u",
+        "/ccn2/u/ishaangp/mira-interp/scripts/export_feature_geometry.py",
+        "--input",
+        "/data2/ishaangp/mira-interp/features/geometry_development_v1.npz",
+        "--report",
+        "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/report.json",
+        "--protocol",
+        "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json"
+      ],
+      "report": "/ccn2/u/ishaangp/mira-interp/results/geometry_development_v1/heading/export.json"
+    }
+  ],
+  "stage": "complete"
+}

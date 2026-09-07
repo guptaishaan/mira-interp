@@ -1,0 +1,13 @@
+{"seed": 0, "step": 100, "selection_nmse": 0.8956419667312238, "elapsed_seconds": 2.7761170715093613}
+{"seed": 0, "step": 250, "selection_nmse": 0.7598254163947106, "elapsed_seconds": 4.48786535859108}
+{"seed": 0, "step": 500, "selection_nmse": 0.745388549876413, "elapsed_seconds": 6.707845106720924}
+{"seed": 0, "step": 1000, "selection_nmse": 0.7360729946358865, "elapsed_seconds": 12.330984245985746}
+{"seed": 1, "step": 100, "selection_nmse": 0.86188952842833, "elapsed_seconds": 1.1472347304224968}
+{"seed": 1, "step": 250, "selection_nmse": 0.7602473536375288, "elapsed_seconds": 2.787218999117613}
+{"seed": 1, "step": 500, "selection_nmse": 0.7350966618153363, "elapsed_seconds": 4.835000555962324}
+{"seed": 1, "step": 1000, "selection_nmse": 0.7283843079981587, "elapsed_seconds": 10.440645132213831}
+{"seed": 2, "step": 100, "selection_nmse": 0.883708981926052, "elapsed_seconds": 1.1222563236951828}
+{"seed": 2, "step": 250, "selection_nmse": 0.7634659003193337, "elapsed_seconds": 2.822074081748724}
+{"seed": 2, "step": 500, "selection_nmse": 0.719007069959036, "elapsed_seconds": 4.864012561738491}
+{"seed": 2, "step": 1000, "selection_nmse": 0.7247007944242134, "elapsed_seconds": 10.468014623969793}
+{"status": "passed_development_mlp_analysis", "selected_seed": 2, "real_nmse": 0.719007069959036}

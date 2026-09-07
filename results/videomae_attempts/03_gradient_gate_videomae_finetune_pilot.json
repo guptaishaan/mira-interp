@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "stage": "pilot",
+  "scope": "original31/11 development only; no confirmation",
+  "code_sha256": {
+    "scripts/finetune_video_evaluator.py": "7eeb8e4a36324d17b021a3a187137a2a960b6cbdafac7dca61c9dde20e32feaf",
+    "src/mira_interp/video_evaluator_finetune.py": "53633eba4a1e6273ac16bc55ef14ab3329b0e0202de955b6e750ef3a969406a5",
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077",
+    "src/mira_interp/video_evaluator.py": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1"
+  },
+  "cuda_visible_devices": "6",
+  "loading": {
+    "encoder": {
+      "model": "MCG-NJU/videomae-base",
+      "revision": "dc740ceda42fce44faed2ea03c6d447db72f6af9",
+      "weight_sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290",
+      "strict_loaded_tensors": 266,
+      "original_checkpoint_tensors": 250,
+      "converted_attention_modules": 16,
+      "bias_conversion_max_abs_error": 0.0,
+      "bias_conversion_source": "https://github.com/huggingface/transformers/blob/v4.22.0/src/transformers/models/videomae/modeling_videomae.py",
+      "encoder_parameters": 86236416,
+      "transformers_version": "5.14.1",
+      "torch_version": "2.9.0+cu126",
+      "config_sha256": "5fbedfea3706bd9fe6c0dc706beeb501ae72e4954703e03bebe3406f046f8212",
+      "processor_config_sha256": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2",
+      "frozen_encoder": true,
+      "has_cls_token": false,
+      "tubelets": 8,
+      "spatial_grid": [
+        14,
+        14
+      ],
+      "readout": "last tubelet,3x4 spatial bins,all768 channels;9216D",
+      "preprocessing": "full-frame224x224 FP32 bilinear antialias; no center crop; published mean/std",
+      "domain_limit": "codec reconstructions do not establish reliability on generated or intervened videos"
+    },
+    "encoder_trainability": {
+      "trainable": 14177280,
+      "frozen": 72059136,
+      "trainable_blocks": [
+        10,
+        11
+      ],
+      "final_layernorm": true
+    },
+    "head_checkpoint": {
+      "path": "/data2/ishaangp/mira-interp/video_evaluator_v1/head_mlp/seed2_step500.pt",
+      "sha256": "a95b7bfbd4604a45fa20bfc948343306229723e8ec8b12173fe928a0c32720c1"
+    },
+    "head_seed": 2,
+    "head_step": 500,
+    "head_parameters": 2362636,
+    "mlp_report_sha256": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3"
+  },
+  "error": "ValueError: Cached-prefix gradients differ from full frozen-prefix computation"
+}

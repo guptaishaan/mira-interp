@@ -1,0 +1,9 @@
+{
+  "status": "launcher_did_not_persist",
+  "recorded_utc": "2026-09-07T06:15:36.527755+00:00",
+  "report_created": false,
+  "log_bytes": 0,
+  "gpu_work_started": false,
+  "cause": "unknown; no surviving wrapper PID or exit marker",
+  "next_action": "tmux session with durable exit wrapper"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "failed_strict_load_before_adapter",
+  "cause": "Transformers4.22 checkpoint stores q_bias/v_bias; Transformers5.14.1 requires query/key/value.bias",
+  "missing_tensors": 48,
+  "unexpected_tensors": 32,
+  "resolution": "exact Q/V rename and explicit zero K bias from official4.22 forward formula, then strict load and exact projection equivalence"
+}

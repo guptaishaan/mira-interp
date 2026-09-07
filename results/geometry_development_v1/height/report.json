@@ -1,0 +1,189 @@
+{
+  "status": "passed_development_feature_analysis",
+  "scope": "development_only",
+  "match_counts": {
+    "discovery": 31,
+    "selection": 11
+  },
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "protocol_path": "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+  "execution_args": {
+    "stage": "geometry",
+    "variable": "height",
+    "heldout_interval": [
+      400.0,
+      800.0
+    ],
+    "minimum_heading_speed": null,
+    "ridge_alpha": 0.01,
+    "steps": 200,
+    "width": 512,
+    "active_budgets": [
+      16,
+      32
+    ],
+    "seed": 0,
+    "device": "cpu",
+    "temporal_weight": 0.0,
+    "temporal_shuffle_control": false,
+    "expected_dt": 0.1
+  },
+  "input_npz_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "selected_probe_sha256": "5eb4c63dc5cebf69b696012fe3b001c5be024badb41457370b1224e50942f387",
+  "gate_sha256": "f4e4c878d3d8a2d88704bdb92e0e04311a524327be66070453c2d2877956927a",
+  "descriptor_identity": "spatial/block_15_output",
+  "dimension": 1536,
+  "temporal_readout": "current",
+  "causal_evidence_scope": "internal_model_output",
+  "descriptor_entity_localized": false,
+  "temporal_correspondence_scope": "same_match_clip_view",
+  "confirmation_rows_loaded": false,
+  "physical_causality_claim": false,
+  "selected_probe_used_for": "descriptor provenance only; no probe refit or probe-success claim",
+  "geometry": {
+    "claim": "conditional observational geometry; no manifold or causal conclusion",
+    "heldout_interval": [
+      400.0,
+      800.0
+    ],
+    "heldout_bounds_inclusive": true,
+    "circular": false,
+    "fit_rows": 4442,
+    "evaluation_rows": 426,
+    "excluded_discovery_held_value_rows": 1510,
+    "fit_match_ids": [
+      "2026-05-08T20-37-10Z-5f298d",
+      "2026-05-10T01-25-13Z-fdcbf9",
+      "2026-05-11T05-41-36Z-fd4f85",
+      "2026-05-11T15-55-44Z-189dad",
+      "2026-05-13T20-32-47Z-e88a9e",
+      "2026-05-13T21-34-58Z-8de141",
+      "2026-05-13T23-29-01Z-52ee67",
+      "2026-05-14T05-26-09Z-9b8807",
+      "2026-05-14T12-57-27Z-245393",
+      "2026-05-14T14-45-28Z-bbd18a",
+      "2026-05-14T16-20-09Z-dfeb76",
+      "2026-05-14T17-12-55Z-c884a0",
+      "2026-05-14T19-52-11Z-2d848b",
+      "2026-05-14T21-15-36Z-36d97e",
+      "2026-05-14T23-36-17Z-695130",
+      "2026-05-15T00-56-25Z-a03e37",
+      "2026-05-15T01-16-25Z-9e3385",
+      "2026-05-15T03-19-27Z-ab6c7e",
+      "2026-05-15T03-33-40Z-d01d8f",
+      "2026-05-15T05-59-49Z-565a4f",
+      "2026-05-15T14-14-24Z-09c432",
+      "2026-05-29T18-26-12Z-ed1ca9",
+      "2026-05-29T18-50-47Z-6448b3",
+      "2026-05-30T01-54-01Z-16c3a0",
+      "2026-05-30T02-02-12Z-b25fb4",
+      "2026-05-30T02-59-38Z-866559",
+      "2026-05-30T06-08-38Z-efbe60",
+      "2026-05-30T06-53-38Z-33fb48",
+      "2026-05-30T07-07-44Z-20b6c6",
+      "2026-05-30T08-42-08Z-2a5fa6",
+      "2026-05-30T08-52-57Z-7c78d9"
+    ],
+    "evaluation_match_ids": [
+      "2026-05-09T10-15-51Z-b7fd20",
+      "2026-05-10T09-50-31Z-8f49f2",
+      "2026-05-10T23-26-14Z-67db4f",
+      "2026-05-14T03-11-22Z-090bf8",
+      "2026-05-14T03-59-16Z-82019b",
+      "2026-05-14T22-34-33Z-a2015e",
+      "2026-05-15T03-56-59Z-e3a44c",
+      "2026-05-29T18-26-16Z-a78ba5",
+      "2026-05-29T21-26-09Z-fa4c61",
+      "2026-05-30T04-09-19Z-e64537"
+    ],
+    "physical_mean_fit_only": 487.1195727639446,
+    "physical_scale_fit_only": 462.1255022016189,
+    "activation_metric": "mean squared error in original selected-descriptor coordinates, without further projection",
+    "models": {
+      "affine": {
+        "raw_activation_mse": 0.3487392054853714,
+        "mse_over_discovery_variance": 1.1086370922561066,
+        "per_match_raw_mse": {
+          "2026-05-09T10-15-51Z-b7fd20": 0.37014096292640475,
+          "2026-05-10T09-50-31Z-8f49f2": 0.4088576893158959,
+          "2026-05-10T23-26-14Z-67db4f": 0.3020076260536446,
+          "2026-05-14T03-11-22Z-090bf8": 0.3592929101319937,
+          "2026-05-14T03-59-16Z-82019b": 0.316461256513428,
+          "2026-05-14T22-34-33Z-a2015e": 0.4211832249236777,
+          "2026-05-15T03-56-59Z-e3a44c": 0.3432199697220195,
+          "2026-05-29T18-26-16Z-a78ba5": 0.33111322163812057,
+          "2026-05-29T21-26-09Z-fa4c61": 0.3415156951850516,
+          "2026-05-30T04-09-19Z-e64537": 0.293599498443478
+        },
+        "model_sha256": "f20555d6bfb722a5eb9f4a92fee9e16dc72c49d90d0fa434ee4ac096dc27fde5",
+        "alpha": 0.01,
+        "basis_dimensions": 1
+      },
+      "quadratic": {
+        "raw_activation_mse": 0.34834877440443857,
+        "mse_over_discovery_variance": 1.1073959172706633,
+        "per_match_raw_mse": {
+          "2026-05-09T10-15-51Z-b7fd20": 0.36973783479282946,
+          "2026-05-10T09-50-31Z-8f49f2": 0.4063254894308018,
+          "2026-05-10T23-26-14Z-67db4f": 0.30310056551805475,
+          "2026-05-14T03-11-22Z-090bf8": 0.35726769751998505,
+          "2026-05-14T03-59-16Z-82019b": 0.3160477358027335,
+          "2026-05-14T22-34-33Z-a2015e": 0.41814119179314685,
+          "2026-05-15T03-56-59Z-e3a44c": 0.3450582097965656,
+          "2026-05-29T18-26-16Z-a78ba5": 0.3304227855733994,
+          "2026-05-29T21-26-09Z-fa4c61": 0.3425086144477549,
+          "2026-05-30T04-09-19Z-e64537": 0.29487761936911433
+        },
+        "model_sha256": "6d128a32ce56efb068bddd88245e9d755ce577acfde76c36b6866e30862af7ce",
+        "alpha": 0.01,
+        "basis_dimensions": 2
+      }
+    },
+    "paired_mse_gain_complex_over_simple": 0.0003904310809328737,
+    "paired_gain_ci95": [
+      -0.000518676055026133,
+      0.001393121314364834
+    ],
+    "mean_baseline": {
+      "raw_activation_mse": 0.3495101046040062,
+      "per_match_raw_mse": {
+        "2026-05-09T10-15-51Z-b7fd20": 0.37082506495738465,
+        "2026-05-10T09-50-31Z-8f49f2": 0.4082909292856828,
+        "2026-05-10T23-26-14Z-67db4f": 0.3028182812785349,
+        "2026-05-14T03-11-22Z-090bf8": 0.36187710394141975,
+        "2026-05-14T03-59-16Z-82019b": 0.3166259731114846,
+        "2026-05-14T22-34-33Z-a2015e": 0.4255891262996608,
+        "2026-05-15T03-56-59Z-e3a44c": 0.3431503559583014,
+        "2026-05-29T18-26-16Z-a78ba5": 0.33077059619504323,
+        "2026-05-29T21-26-09Z-fa4c61": 0.34154758079650177,
+        "2026-05-30T04-09-19Z-e64537": 0.293606034216048
+      }
+    },
+    "uncertainty": "1000 whole-match bootstrap draws, descriptive and conditional on this fixed comparison",
+    "per_match_paired_gain": {
+      "2026-05-09T10-15-51Z-b7fd20": 0.0004031281335752923,
+      "2026-05-10T09-50-31Z-8f49f2": 0.0025321998850940663,
+      "2026-05-10T23-26-14Z-67db4f": -0.0010929394644101365,
+      "2026-05-14T03-11-22Z-090bf8": 0.0020252126120086644,
+      "2026-05-14T03-59-16Z-82019b": 0.0004135207106945038,
+      "2026-05-14T22-34-33Z-a2015e": 0.0030420331305308634,
+      "2026-05-15T03-56-59Z-e3a44c": -0.0018382400745460825,
+      "2026-05-29T18-26-16Z-a78ba5": 0.0006904360647211893,
+      "2026-05-29T21-26-09Z-fa4c61": -0.0009929192627032846,
+      "2026-05-30T04-09-19Z-e64537": -0.001278120925636339
+    },
+    "hyperparameters_selected_on_evaluation": false,
+    "variable": "height",
+    "speed_definition": "horizontal sqrt(vx\u00b2+vy\u00b2)",
+    "minimum_heading_speed": null,
+    "below_speed_threshold_rows": 0
+  },
+  "sparse": [],
+  "outputs": {},
+  "code_sha256": {
+    "scripts/analyze_feature_geometry.py": "c4a49464cf83dc9bf8ccb2f93438174b1d978aea53ee39333383b32d5119dbd9",
+    "scripts/export_feature_geometry.py": "32a4b895e9d85e4c3125d939f29619c42d64ada040af649ce4946a59d0979303",
+    "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  }
+}

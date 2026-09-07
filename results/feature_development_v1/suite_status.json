@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "geometry_audit_sha256": "3baffdf98dd634647e5c0a1622e96695a574c7bb8964c287d9aaf858809669b1",
+  "synthetic_pilot_sha256": "bce11856d9f5f9073b41553ebe4cbee75b27b07a294e44c6bfe654e17bafb66d",
+  "assignments": {
+    "7": [
+      0
+    ],
+    "6": [
+      1,
+      2
+    ]
+  },
+  "reports": [
+    {
+      "seed": 0,
+      "gpu": 7,
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed0/report.json",
+      "sha256": "c9429687f57b6103f572dd98dda593ceefcd7c0cfb2b08823bae8e4cf23cadf2",
+      "models": 10
+    },
+    {
+      "seed": 1,
+      "gpu": 6,
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed1/report.json",
+      "sha256": "7a32b0ea7093a0d2f3211602ea10003c57b4d44db21e41f6845f967f1e5148f4",
+      "models": 10
+    },
+    {
+      "seed": 2,
+      "gpu": 6,
+      "path": "/data2/ishaangp/mira-interp/features/sparse_development_v1/seed2/report.json",
+      "sha256": "a5e3fb5432f65ea4c49519998b05fdfd28bbd833a08dacae005c840a93295b7c",
+      "models": 10
+    }
+  ],
+  "expected_models": 30,
+  "script_sha256": "10192f71a4790292ef0dfeecf3a8142947fdef139cbe7f16decac26e03bf82e0",
+  "elapsed_seconds": 85.44658819586039,
+  "completed_models": 30
+}

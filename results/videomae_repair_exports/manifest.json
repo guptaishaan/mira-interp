@@ -1,0 +1,20 @@
+{
+  "status": "passed_export",
+  "input_sha256": {
+    "ridge": "0a562c621d86352c6a534dedf68221ebdf880e88e9d4a317ef2ac852a1beb735",
+    "MLP": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3",
+    "partial": "626a812678588b244bfcbf1ef838171c91b9f75e7ac214bf5820983b75f8540e",
+    "matched": "1ec8e4f49b2c83b574112d29d88d5cd08bf4b3310bd1e3f5b07073c8599bfe4f"
+  },
+  "script_sha256": "28a62662e20c5d72a5043abb726e4c72420f6b2b3fda9e2e9ee7a7614fadef57",
+  "target_metric_rows": 72,
+  "scope": "development-only reported metrics; no refitting",
+  "files": {
+    "results/videomae_repair_exports/target_metrics.csv": "13ee534ce915fb109a96fd54c31fadaaf8cb7230ed4b1b8e79ba8c9cd279a244",
+    "results/videomae_repair_exports/summary.csv": "d10aedd8a831ff0c27205585e2b933b9793bc1cf103933fe6370696f696566ab",
+    "figures/videomae_repair_summary.png": "5f30f5b4c73331b4678129a62454c0eef791834f3191522635ee353e8b762a85",
+    "figures/videomae_repair_summary.pdf": "440ee95a4df1ea6aa472c47047be8feca3a347e0e05bc4e6dc936da6a366b2d7",
+    "figures/videomae_repair_targets.png": "faee93376ac054bc2a6913e12bf2081321a5e3c710277f354002a4449c43e538",
+    "figures/videomae_repair_targets.pdf": "89f492441b62338a995318b12e07292e82382ac5f7af704b4e553cb0a8d57004"
+  }
+}

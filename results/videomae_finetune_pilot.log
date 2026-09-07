@@ -1,0 +1,347 @@
+/ccn2/u/ishaangp/mira-interp/scripts/finetune_video_evaluator.py:93: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  pool_error = float((full_descriptor-legacy_descriptor).abs().max())
+{
+  "status": "passed",
+  "stage": "pilot",
+  "scope": "original31/11 development only; no confirmation",
+  "code_sha256": {
+    "scripts/finetune_video_evaluator.py": "6472e051f0e420cc0bc646747fe794f7afbeccfacb7d5c1035f128474e2aab3b",
+    "src/mira_interp/video_evaluator_finetune.py": "104537fdd556bfaada165efc20ea2318dfd2275532b56616320cd58c38ee4f3a",
+    "src/mira_interp/video_evaluator_training.py": "a041b7bb43aa9d0c8c6ab2ed589f019e96a4d8432fe536474c7cd07297d1f077",
+    "src/mira_interp/video_evaluator.py": "974a40db523b182b6ff22367d282e0d903a745d3e22b0bc1ea258352c0c11bd1"
+  },
+  "cuda_visible_devices": "6",
+  "deterministic_algorithms": true,
+  "attention_backend": "math",
+  "cublas_workspace_config": ":4096:8",
+  "loading": {
+    "encoder": {
+      "model": "MCG-NJU/videomae-base",
+      "revision": "dc740ceda42fce44faed2ea03c6d447db72f6af9",
+      "weight_sha256": "bc053ca2840a038b1068269a4eec06ca569689e9a1ed9376a5b2b8a111be5290",
+      "strict_loaded_tensors": 266,
+      "original_checkpoint_tensors": 250,
+      "converted_attention_modules": 16,
+      "bias_conversion_max_abs_error": 0.0,
+      "bias_conversion_source": "https://github.com/huggingface/transformers/blob/v4.22.0/src/transformers/models/videomae/modeling_videomae.py",
+      "encoder_parameters": 86236416,
+      "transformers_version": "5.14.1",
+      "torch_version": "2.9.0+cu126",
+      "config_sha256": "5fbedfea3706bd9fe6c0dc706beeb501ae72e4954703e03bebe3406f046f8212",
+      "processor_config_sha256": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2",
+      "frozen_encoder": true,
+      "has_cls_token": false,
+      "tubelets": 8,
+      "spatial_grid": [
+        14,
+        14
+      ],
+      "readout": "last tubelet,3x4 spatial bins,all768 channels;9216D",
+      "preprocessing": "full-frame224x224 FP32 bilinear antialias; no center crop; published mean/std",
+      "domain_limit": "codec reconstructions do not establish reliability on generated or intervened videos"
+    },
+    "encoder_trainability": {
+      "trainable": 14175744,
+      "frozen": 72060672,
+      "trainable_blocks": [
+        10,
+        11
+      ],
+      "final_layernorm": true,
+      "original_zero_key_biases_fixed": true
+    },
+    "head_checkpoint": {
+      "path": "/data2/ishaangp/mira-interp/video_evaluator_v1/head_mlp/seed2_step500.pt",
+      "sha256": "a95b7bfbd4604a45fa20bfc948343306229723e8ec8b12173fe928a0c32720c1"
+    },
+    "head_seed": 2,
+    "head_step": 500,
+    "head_parameters": 2362636,
+    "mlp_report_sha256": "1afd461ddc2772a225dcf3729ba8edc8f79fa55d2620484dfb84a9fa3de5f6d3"
+  },
+  "gradient_diagnostics": {
+    "blocks.0.attention.attention.query.weight": {
+      "full_gradient_norm": 0.3971841633319855,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.attention.query.bias": {
+      "full_gradient_norm": 0.03640012815594673,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.attention.key.weight": {
+      "full_gradient_norm": 0.3669615089893341,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.attention.value.weight": {
+      "full_gradient_norm": 2.094536542892456,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.attention.value.bias": {
+      "full_gradient_norm": 0.3108121156692505,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.output.dense.weight": {
+      "full_gradient_norm": 2.2098748683929443,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.attention.output.dense.bias": {
+      "full_gradient_norm": 0.22379198670387268,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.intermediate.dense.weight": {
+      "full_gradient_norm": 3.8631207942962646,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.intermediate.dense.bias": {
+      "full_gradient_norm": 0.21941056847572327,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.output.dense.weight": {
+      "full_gradient_norm": 1.9633870124816895,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.output.dense.bias": {
+      "full_gradient_norm": 0.23751956224441528,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.layernorm_before.weight": {
+      "full_gradient_norm": 0.714555561542511,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.layernorm_before.bias": {
+      "full_gradient_norm": 0.4675544202327728,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.layernorm_after.weight": {
+      "full_gradient_norm": 0.2029571831226349,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.0.layernorm_after.bias": {
+      "full_gradient_norm": 0.3105778098106384,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.query.weight": {
+      "full_gradient_norm": 0.6124641299247742,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.query.bias": {
+      "full_gradient_norm": 0.050863754004240036,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.key.weight": {
+      "full_gradient_norm": 0.7266408205032349,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.value.weight": {
+      "full_gradient_norm": 2.5345005989074707,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.attention.value.bias": {
+      "full_gradient_norm": 0.3256548345088959,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.output.dense.weight": {
+      "full_gradient_norm": 2.1009912490844727,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.attention.output.dense.bias": {
+      "full_gradient_norm": 0.1961747258901596,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.intermediate.dense.weight": {
+      "full_gradient_norm": 3.5890486240386963,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.intermediate.dense.bias": {
+      "full_gradient_norm": 0.15747474133968353,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.output.dense.weight": {
+      "full_gradient_norm": 1.6352037191390991,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.output.dense.bias": {
+      "full_gradient_norm": 0.18204589188098907,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_before.weight": {
+      "full_gradient_norm": 0.34005922079086304,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_before.bias": {
+      "full_gradient_norm": 0.4745649993419647,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_after.weight": {
+      "full_gradient_norm": 0.13800370693206787,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "blocks.1.layernorm_after.bias": {
+      "full_gradient_norm": 0.24010403454303741,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "norm.weight": {
+      "full_gradient_norm": 0.3973136246204376,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "norm.bias": {
+      "full_gradient_norm": 1.549448847770691,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.0.weight": {
+      "full_gradient_norm": 2.556398868560791,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.0.bias": {
+      "full_gradient_norm": 0.03180033341050148,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.3.weight": {
+      "full_gradient_norm": 8.7994966506958,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    },
+    "head.layers.3.bias": {
+      "full_gradient_norm": 0.28280529379844666,
+      "cache_max_abs": 0.0,
+      "cache_relative_l2": 0.0,
+      "repeat_max_abs": 0.0,
+      "repeat_relative_l2": 0.0
+    }
+  },
+  "prefix_requires_grad": false,
+  "prefix_native_dtype": "torch.bfloat16",
+  "prefix_native_stride": [
+    1204224,
+    768,
+    1
+  ],
+  "restored_prefix_stride": [
+    1204224,
+    768,
+    1
+  ],
+  "attention_implementation": "sdpa",
+  "original_pool_forward_max_abs": 2.86102294921875e-06,
+  "cached_full_descriptor_max_abs": 0.0,
+  "fp32_reference_max_abs": 2.6226043701171875e-06,
+  "full_loss": 0.49710890650749207,
+  "cached_loss": 0.49710890650749207,
+  "repeated_loss": 0.49710890650749207,
+  "source_clip_sha256": "773d234895507ede4cea7acf4eca2e518326b4d7deecd39b61d4b89068b45588",
+  "cached_full_gradient_max_abs": 0.0,
+  "prefix_cached_dtype": "float32",
+  "parameters_fp32": true,
+  "frozen_parameters_unchanged": true,
+  "trainable_parameters_changed": true,
+  "discarded_pilot_updates": 2,
+  "initial_standardized_loss": 0.49710890650749207,
+  "after_one_update_loss": 0.9330447912216187,
+  "peak_gpu_bytes": 6370546176,
+  "elapsed_seconds": 15.73193460330367
+}

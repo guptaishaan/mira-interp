@@ -1,0 +1,189 @@
+{
+  "status": "passed_development_feature_analysis",
+  "scope": "development_only",
+  "match_counts": {
+    "discovery": 31,
+    "selection": 11
+  },
+  "protocol_sha256": "a13f51de39a64eaeb08ed48449913bee72b5599a02e1059e94cde2b2ba80aae5",
+  "protocol_path": "/ccn2/u/ishaangp/mira-interp/configs/feature_development_v1.json",
+  "execution_args": {
+    "stage": "geometry",
+    "variable": "speed",
+    "heldout_interval": [
+      800.0,
+      1200.0
+    ],
+    "minimum_heading_speed": null,
+    "ridge_alpha": 0.01,
+    "steps": 200,
+    "width": 512,
+    "active_budgets": [
+      16,
+      32
+    ],
+    "seed": 0,
+    "device": "cpu",
+    "temporal_weight": 0.0,
+    "temporal_shuffle_control": false,
+    "expected_dt": 0.1
+  },
+  "input_npz_sha256": "9880f01ceb2c3e2e18be6a414f7a35fac05a63a25830ce720d0b4d843eec7b22",
+  "selected_probe_sha256": "5eb4c63dc5cebf69b696012fe3b001c5be024badb41457370b1224e50942f387",
+  "gate_sha256": "f4e4c878d3d8a2d88704bdb92e0e04311a524327be66070453c2d2877956927a",
+  "descriptor_identity": "spatial/block_15_output",
+  "dimension": 1536,
+  "temporal_readout": "current",
+  "causal_evidence_scope": "internal_model_output",
+  "descriptor_entity_localized": false,
+  "temporal_correspondence_scope": "same_match_clip_view",
+  "confirmation_rows_loaded": false,
+  "physical_causality_claim": false,
+  "selected_probe_used_for": "descriptor provenance only; no probe refit or probe-success claim",
+  "geometry": {
+    "claim": "conditional observational geometry; no manifold or causal conclusion",
+    "heldout_interval": [
+      800.0,
+      1200.0
+    ],
+    "heldout_bounds_inclusive": true,
+    "circular": false,
+    "fit_rows": 4848,
+    "evaluation_rows": 419,
+    "excluded_discovery_held_value_rows": 1104,
+    "fit_match_ids": [
+      "2026-05-08T20-37-10Z-5f298d",
+      "2026-05-10T01-25-13Z-fdcbf9",
+      "2026-05-11T05-41-36Z-fd4f85",
+      "2026-05-11T15-55-44Z-189dad",
+      "2026-05-13T20-32-47Z-e88a9e",
+      "2026-05-13T21-34-58Z-8de141",
+      "2026-05-13T23-29-01Z-52ee67",
+      "2026-05-14T05-26-09Z-9b8807",
+      "2026-05-14T12-57-27Z-245393",
+      "2026-05-14T14-45-28Z-bbd18a",
+      "2026-05-14T16-20-09Z-dfeb76",
+      "2026-05-14T17-12-55Z-c884a0",
+      "2026-05-14T19-52-11Z-2d848b",
+      "2026-05-14T21-15-36Z-36d97e",
+      "2026-05-14T23-36-17Z-695130",
+      "2026-05-15T00-56-25Z-a03e37",
+      "2026-05-15T01-16-25Z-9e3385",
+      "2026-05-15T03-19-27Z-ab6c7e",
+      "2026-05-15T03-33-40Z-d01d8f",
+      "2026-05-15T05-59-49Z-565a4f",
+      "2026-05-15T14-14-24Z-09c432",
+      "2026-05-29T18-26-12Z-ed1ca9",
+      "2026-05-29T18-50-47Z-6448b3",
+      "2026-05-30T01-54-01Z-16c3a0",
+      "2026-05-30T02-02-12Z-b25fb4",
+      "2026-05-30T02-59-38Z-866559",
+      "2026-05-30T06-08-38Z-efbe60",
+      "2026-05-30T06-53-38Z-33fb48",
+      "2026-05-30T07-07-44Z-20b6c6",
+      "2026-05-30T08-42-08Z-2a5fa6",
+      "2026-05-30T08-52-57Z-7c78d9"
+    ],
+    "evaluation_match_ids": [
+      "2026-05-09T10-15-51Z-b7fd20",
+      "2026-05-10T09-50-31Z-8f49f2",
+      "2026-05-10T23-26-14Z-67db4f",
+      "2026-05-14T03-11-22Z-090bf8",
+      "2026-05-14T03-59-16Z-82019b",
+      "2026-05-14T22-34-33Z-a2015e",
+      "2026-05-15T03-56-59Z-e3a44c",
+      "2026-05-29T18-15-24Z-2b37eb",
+      "2026-05-29T18-26-16Z-a78ba5",
+      "2026-05-29T21-26-09Z-fa4c61"
+    ],
+    "physical_mean_fit_only": 1387.138499005215,
+    "physical_scale_fit_only": 802.3047312530994,
+    "activation_metric": "mean squared error in original selected-descriptor coordinates, without further projection",
+    "models": {
+      "affine": {
+        "raw_activation_mse": 0.33593278183756403,
+        "mse_over_discovery_variance": 1.0541281479376714,
+        "per_match_raw_mse": {
+          "2026-05-09T10-15-51Z-b7fd20": 0.3555032590986432,
+          "2026-05-10T09-50-31Z-8f49f2": 0.3404439323968744,
+          "2026-05-10T23-26-14Z-67db4f": 0.32842669702445,
+          "2026-05-14T03-11-22Z-090bf8": 0.3178347692777238,
+          "2026-05-14T03-59-16Z-82019b": 0.34719591208342565,
+          "2026-05-14T22-34-33Z-a2015e": 0.35639787949084145,
+          "2026-05-15T03-56-59Z-e3a44c": 0.32248434801669945,
+          "2026-05-29T18-15-24Z-2b37eb": 0.3030168170772143,
+          "2026-05-29T18-26-16Z-a78ba5": 0.3537387915197157,
+          "2026-05-29T21-26-09Z-fa4c61": 0.3342854123900523
+        },
+        "model_sha256": "aa818c23a8991c15638b18c39570bc2cb4de34e33760787f3406d77570fe094d",
+        "alpha": 0.01,
+        "basis_dimensions": 1
+      },
+      "quadratic": {
+        "raw_activation_mse": 0.33530500131438246,
+        "mse_over_discovery_variance": 1.0521582267034504,
+        "per_match_raw_mse": {
+          "2026-05-09T10-15-51Z-b7fd20": 0.3538741852366927,
+          "2026-05-10T09-50-31Z-8f49f2": 0.3405510050161507,
+          "2026-05-10T23-26-14Z-67db4f": 0.326131581035836,
+          "2026-05-14T03-11-22Z-090bf8": 0.3180242069250345,
+          "2026-05-14T03-59-16Z-82019b": 0.3476512054938335,
+          "2026-05-14T22-34-33Z-a2015e": 0.35325943105097407,
+          "2026-05-15T03-56-59Z-e3a44c": 0.3206857424653772,
+          "2026-05-29T18-15-24Z-2b37eb": 0.30312829941710584,
+          "2026-05-29T18-26-16Z-a78ba5": 0.3525682014574992,
+          "2026-05-29T21-26-09Z-fa4c61": 0.33717615504532067
+        },
+        "model_sha256": "869d2661de355dad0f8c5b8354b318db6867993b5db6ae148892d5518b722de2",
+        "alpha": 0.01,
+        "basis_dimensions": 2
+      }
+    },
+    "paired_mse_gain_complex_over_simple": 0.0006277805231815925,
+    "paired_gain_ci95": [
+      -0.00047609419537389185,
+      0.0015774397667761878
+    ],
+    "mean_baseline": {
+      "raw_activation_mse": 0.3356023023110562,
+      "per_match_raw_mse": {
+        "2026-05-09T10-15-51Z-b7fd20": 0.35630523798736635,
+        "2026-05-10T09-50-31Z-8f49f2": 0.3425765523099819,
+        "2026-05-10T23-26-14Z-67db4f": 0.3255889755418732,
+        "2026-05-14T03-11-22Z-090bf8": 0.3201093050954208,
+        "2026-05-14T03-59-16Z-82019b": 0.3459718172305665,
+        "2026-05-14T22-34-33Z-a2015e": 0.35477972742584996,
+        "2026-05-15T03-56-59Z-e3a44c": 0.3201653263069163,
+        "2026-05-29T18-15-24Z-2b37eb": 0.3019497347359647,
+        "2026-05-29T18-26-16Z-a78ba5": 0.35458386399865627,
+        "2026-05-29T21-26-09Z-fa4c61": 0.33399248247796526
+      }
+    },
+    "uncertainty": "1000 whole-match bootstrap draws, descriptive and conditional on this fixed comparison",
+    "per_match_paired_gain": {
+      "2026-05-09T10-15-51Z-b7fd20": 0.0016290738619505474,
+      "2026-05-10T09-50-31Z-8f49f2": -0.00010707261927628275,
+      "2026-05-10T23-26-14Z-67db4f": 0.0022951159886139827,
+      "2026-05-14T03-11-22Z-090bf8": -0.00018943764731071955,
+      "2026-05-14T03-59-16Z-82019b": -0.0004552934104078421,
+      "2026-05-14T22-34-33Z-a2015e": 0.0031384484398673806,
+      "2026-05-15T03-56-59Z-e3a44c": 0.0017986055513222743,
+      "2026-05-29T18-15-24Z-2b37eb": -0.00011148233989155543,
+      "2026-05-29T18-26-16Z-a78ba5": 0.0011705900622165366,
+      "2026-05-29T21-26-09Z-fa4c61": -0.002890742655268397
+    },
+    "hyperparameters_selected_on_evaluation": false,
+    "variable": "speed",
+    "speed_definition": "horizontal sqrt(vx\u00b2+vy\u00b2)",
+    "minimum_heading_speed": null,
+    "below_speed_threshold_rows": 0
+  },
+  "sparse": [],
+  "outputs": {},
+  "code_sha256": {
+    "scripts/analyze_feature_geometry.py": "c4a49464cf83dc9bf8ccb2f93438174b1d978aea53ee39333383b32d5119dbd9",
+    "scripts/export_feature_geometry.py": "32a4b895e9d85e4c3125d939f29619c42d64ada040af649ce4946a59d0979303",
+    "src/mira_interp/feature_geometry.py": "9f012c93b5fcdb0ccf21cc4a192048f8ef33edca0a040a9043258c978afe6867",
+    "src/mira_interp/probes.py": "44e69c0092482c7ba3fafe1e20e10b54dd19fdf9a6872c21e99c812d567c7a2a"
+  }
+}
