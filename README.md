@@ -2,7 +2,7 @@
 
 Early work on physical-state representations in [MIRA Mini 4P](https://huggingface.co/alakazamworld/mira-mini-4p), using [Rocket Science](https://huggingface.co/datasets/kyutai/rocket-science).
 
-So far: checked video/state alignment, captured all residual layers, and fit linear probes with separate matches for fitting, selection, and evaluation. Positions decode well on 23 new matches. Horizontal velocity is still weak.
+So far: checked video/state alignment, captured all residual layers, and fit linear probes with separate matches for fitting, selection, and evaluation. Positions decode well on 23 new matches. Horizontal velocity is still weak, though this is likely due to using the mini model. 
 
 These are results on observed clips. Whether the same representations can control generated trajectories is still an open question.
 
